@@ -2,16 +2,28 @@
 
 > **这是本仓库唯一的规则来源。**
 > 任何 AI（Claude Code / Cursor / Codex / Gemini CLI / Copilot / OpenCode / Hermes / 其他 Agent）在操作这个目录前，先读这份文件。
->
-> 其他 AI 工具的入口文件都只是指向这里，不要在那里改规则：
->
-> | 文件 | 给谁读 |
-> |---|---|
-> | `AGENTS.md`（本文件） | **通用标准**，也是唯一的主文件 |
-> | `CLAUDE.md` | Claude Code |
-> | `GEMINI.md` | Gemini CLI |
-> | `.cursor/rules/ideavault.mdc` | Cursor |
-> | `.github/copilot-instructions.md` | GitHub Copilot |
+
+## 零、先读这三份（人格层）
+
+这个文件夹分两层：**人格层**（三份小文件，每次启动必读）和**知识库**（六个文件夹里的全部笔记，按需检索）。
+
+| 顺序 | 文件 | 回答什么问题 |
+|---|---|---|
+| 1 | `AGENTS.md`（本文件） | **怎么干活**——目录规则、权限、任务 |
+| 2 | `SOUL.md` | **我是谁**——性格、语气、判断原则、边界 |
+| 3 | `USER.md` | **在帮谁**——用户的偏好、思维习惯、禁忌 |
+
+**三份加起来必须控制在几千字以内。**它们是常驻上下文，越长越会被稀释；具体内容放知识库里，按需查。
+
+其他 AI 工具的入口文件都只是指向这里，不要在那里改规则：
+
+| 文件 | 给谁读 |
+|---|---|
+| `AGENTS.md`（本文件） | **通用标准**，也是唯一的主文件 |
+| `CLAUDE.md` | Claude Code |
+| `GEMINI.md` | Gemini CLI |
+| `.cursor/rules/ideavault.mdc` | Cursor |
+| `.github/copilot-instructions.md` | GitHub Copilot |
 
 ---
 
