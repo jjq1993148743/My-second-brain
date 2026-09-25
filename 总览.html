@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>总览 · 我的想法库</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#fff; --line:#e4e6ea; --soft:#eef0f3;
+    --text:#1b1f24; --muted:#5f6672; --faint:#8b929c;
+    --blue:#185fa5; --blue-bg:#e6f1fb; --blue-line:#b5d4f4;
+    --teal:#0f6e56; --teal-bg:#e1f5ee; --teal-line:#9fe1cb;
+    --amber:#854f0b; --amber-bg:#faeeda; --amber-line:#fac775;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;padding:28px 18px 64px;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    font-size:14.5px;line-height:1.7;}
+  .wrap{max-width:880px;margin:0 auto;}
+  h1{font-size:23px;font-weight:600;margin:0 0 6px;letter-spacing:-.01em;}
+  .lead{color:var(--muted);font-size:13px;margin:0 0 18px;}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0 26px;}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px 15px;}
+  .stat .n{font-size:22px;font-weight:600;line-height:1.2;font-variant-numeric:tabular-nums;}
+  .stat .l{font-size:12px;color:var(--muted);margin-top:3px;}
+  h2{font-size:15.5px;font-weight:600;margin:26px 0 10px;display:flex;align-items:center;gap:8px;}
+  h2 .cnt{font-size:11.5px;font-weight:600;color:var(--muted);background:#eceef1;
+    border-radius:20px;padding:1px 9px;}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px 16px;margin:9px 0;}
+  .item .top{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;}
+  .item .t{font-weight:600;font-size:14px;}
+  .item .d{color:var(--faint);font-size:12px;font-variant-numeric:tabular-nums;}
+  .item p{margin:6px 0 0;color:#3a4149;font-size:13.5px;}
+  .tags{margin-top:7px;display:flex;gap:5px;flex-wrap:wrap;}
+  .tg{font-size:11px;border-radius:5px;padding:1px 7px;background:var(--blue-bg);
+    color:var(--blue);border:1px solid var(--blue-line);}
+  .tg.hot{background:var(--amber-bg);color:var(--amber);border-color:var(--amber-line);}
+  .empty{color:var(--faint);font-size:13px;padding:10px 0;}
+  .note{background:var(--teal-bg);border:1px solid var(--teal-line);border-radius:11px;
+    padding:14px 17px;margin:28px 0 0;font-size:13px;color:#0b4a3c;line-height:1.75;}
+  .note b{color:#085041;}
+  footer{margin-top:22px;color:var(--faint);font-size:12px;line-height:1.8;}
+  @media (max-width:640px){.stats{grid-template-columns:repeat(2,1fr);}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>总览 · 我的想法库</h1>
+  <p class="lead">生成时间：2026-09-25 11:47 · 共 5 条内容</p>
+
+  <div class="stats">
+    <div class="stat"><div class="n">3</div><div class="l">收件箱（待整理）</div></div>
+    <div class="stat"><div class="n">1</div><div class="l">想法池</div></div>
+    <div class="stat"><div class="n">0</div><div class="l">已决定 / 在做</div></div>
+    <div class="stat"><div class="n">1</div><div class="l">AI 产出</div></div>
+  </div>
+
+  <h2>收件箱 · 还没整理 <span class="cnt">3</span></h2>
+  <div class="item">
+    <div class="top"><span class="t">想把所有想法收进一个库</span><span class="d">14:32 · 办公室</span></div>
+    <p>初步想法：用 GitHub 存。但不确定手机端好不好用。</p>
+  </div>
+  <div class="item">
+    <div class="top"><span class="t">真正的问题不是「存哪」，是「记得下来」</span><span class="d">15:10 · 办公室</span></div>
+    <p>如果记录要打开 App、选目录、打标签，我肯定就不记了。所以第一步应该是让手机上一句话就能落进去。</p>
+  </div>
+  <div class="item">
+    <div class="top"><span class="t">向量检索这件事，可能被我高估了</span><span class="d">21:05 · 家</span></div>
+    <p>现在总共也没多少条，全文搜一下就够了。先别折腾向量库，等真的搜不到了再说。</p>
+  </div>
+
+  <h2>想法池 · 还没决定做不做 <span class="cnt">1</span></h2>
+  <div class="item">
+    <div class="top"><span class="t">想法库的第一优先级是「记得下来」，不是「存得好」</span><span class="d">15:10 · 办公室</span></div>
+    <p>收集想法的最大敌人不是存储方案，是采集摩擦。只要记录动作超过 5 秒，实际记录率会断崖下跌。所以设计顺序应该是：先把采集摩擦降到接近 0，再考虑存储和分类，最后才考虑检索方式。</p>
+    <div class="tags"><span class="tg">#小点子</span><span class="tg hot">#重点</span></div>
+  </div>
+
+  <h2>已决定 / 在做 <span class="cnt">0</span></h2>
+  <p class="empty">还没有。等你在想法池里拍板了，这里就会有东西。</p>
+
+  <h2>AI 产出 <span class="cnt">1</span></h2>
+  <div class="item">
+    <div class="top"><span class="t">2026-09-25 摘要</span><span class="d">40-产出</span></div>
+    <p>今天记了 3 条。第 2 条和第 3 条都指向同一个判断：先别优化工具，先优化自己的行为。</p>
+  </div>
+
+  <div class="note">
+    <b>这一页是怎么来的？</b><br>
+    这是一份静态快照，不会自动更新。<br>
+    · <b>想要永远最新的版本</b> → 打开 Obsidian 里的 <code>总览.md</code>（装 Dataview 插件后自动刷新）<br>
+    · <b>想让这一页也保持最新</b> → 让 AI 每天重新生成一次，可以放进定时任务
+  </div>
+
+  <footer>
+    由 AI 生成于 2026-09-25 11:47 · 数据来源：C:\Users\赵青月\IdeaVault
+  </footer>
+
+</div>
+</body>
+</html>

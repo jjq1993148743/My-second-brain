@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的想法库</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#fff; --line:#e4e6ea; --soft:#eef0f3;
+    --text:#1b1f24; --muted:#5f6672; --faint:#8b929c;
+    --blue:#185fa5; --blue-bg:#e6f1fb; --blue-line:#b5d4f4;
+    --teal:#0f6e56; --teal-bg:#e1f5ee; --teal-line:#9fe1cb;
+    --amber:#854f0b; --amber-bg:#faeeda; --amber-line:#fac775;
+    --gray:#5f5e5a; --gray-bg:#f1efe8; --gray-line:#d3d1c7;
+    --red:#a32d2d; --red-bg:#fcebeb; --red-line:#f7c1c1;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;padding:32px 18px 72px;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    font-size:14.5px;line-height:1.7;}
+  .wrap{max-width:860px;margin:0 auto;}
+  h1{font-size:24px;font-weight:600;margin:0 0 6px;letter-spacing:-.01em;}
+  .lead{color:var(--muted);font-size:13px;margin:0 0 6px;}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0 28px;}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px 15px;}
+  .stat .n{font-size:22px;font-weight:600;line-height:1.2;font-variant-numeric:tabular-nums;}
+  .stat .l{font-size:12px;color:var(--muted);margin-top:3px;}
+  h2{font-size:15.5px;font-weight:600;margin:28px 0 10px;display:flex;align-items:center;gap:9px;}
+  h2 .cnt{font-size:11.5px;font-weight:600;color:var(--muted);background:#eceef1;
+    border-radius:20px;padding:1px 9px;font-variant-numeric:tabular-nums;}
+  h2 .bar{width:3px;height:15px;border-radius:2px;background:var(--blue);}
+  h2.teal .bar{background:#1d9e75;}
+  h2.amber .bar{background:#ef9f27;}
+  h2.gray .bar{background:#b4b2a9;}
+  .item{display:block;text-decoration:none;color:inherit;background:var(--card);
+    border:1px solid var(--line);border-radius:10px;padding:11px 15px;margin:8px 0;transition:.14s;}
+  .item:hover{border-color:#c2c8d0;background:#fcfcfd;transform:translateX(2px);}
+  .item .t{font-weight:500;font-size:14px;}
+  .item .p{color:var(--faint);font-size:11.5px;margin-top:2px;
+    font-family:ui-monospace,SFMono-Regular,Consolas,monospace;}
+  .empty{color:var(--faint);font-size:13px;padding:6px 0;}
+  .msg{background:var(--red-bg);border:1px solid var(--red-line);border-radius:11px;
+    padding:16px 19px;font-size:13.5px;color:#3d2222;line-height:1.8;}
+  .msg code{background:#fff;border:1px solid var(--red-line);border-radius:4px;padding:1px 6px;
+    font-family:ui-monospace,Consolas,monospace;font-size:12.5px;}
+  footer{margin-top:34px;padding-top:14px;border-top:1px solid var(--line);
+    color:var(--faint);font-size:12px;line-height:1.8;}
+  @media (max-width:640px){.stats{grid-template-columns:repeat(2,1fr);}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>我的想法库</h1>
+  <p class="lead" id="lead">正在读取…</p>
+
+  <div class="stats">
+    <div class="stat"><div class="n" id="s1">–</div><div class="l">收件箱</div></div>
+    <div class="stat"><div class="n" id="s2">–</div><div class="l">想法池</div></div>
+    <div class="stat"><div class="n" id="s3">–</div><div class="l">已决定 / 在做</div></div>
+    <div class="stat"><div class="n" id="s4">–</div><div class="l">AI 产出</div></div>
+  </div>
+
+  <div id="content"></div>
+
+  <footer>
+    <span id="repoLine"></span><br>
+    这一页直接从 GitHub 读取，你往仓库里推什么，刷新就能看到什么。不需要重新生成。
+  </footer>
+</div>
+
+<script>
+/* ============================================================
+   改这一行就行：把 "你的用户名/仓库名" 换成你自己的
+   例如：const REPO = "liuxiaopai/ideavault";
+   ============================================================ */
+const REPO = "YOURNAME/ideavault";
+const BRANCH = "main";
+
+const FOLDERS = [
+  { key: "00-收件箱", label: "收件箱 · 待整理",   cls: "" },
+  { key: "10-想法池", label: "想法池 · 还没决定", cls: "" },
+  { key: "20-已决定", label: "已决定",            cls: "teal" },
+  { key: "30-在做",   label: "在做",              cls: "teal" },
+  { key: "40-产出",   label: "AI 产出",           cls: "amber" },
+  { key: "90-归档",   label: "归档",              cls: "gray" }
+];
+const HIDE = ["README.md", "USER.md", "_CLAUDE.md", "总览.md", "index.html"];
+
+function esc(s){
+  return String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+}
+
+fetch("https://api.github.com/repos/" + REPO + "/git/trees/" + BRANCH + "?recursive=1")
+  .then(function(r){
+    if (r.status === 404) throw new Error("404");
+    if (r.status === 403) throw new Error("403");
+    if (!r.ok) throw new Error(String(r.status));
+    return r.json();
+  })
+  .then(function(data){
+    var files = (data.tree || []).filter(function(f){
+      return f.type === "blob" && f.path.endsWith(".md") && HIDE.indexOf(f.path) === -1;
+    });
+    render(files);
+  })
+  .catch(function(err){
+    document.getElementById("lead").textContent = "";
+    var box = document.getElementById("content");
+    if (err.message === "404") {
+      box.innerHTML = '<div class="msg"><b>读不到仓库。</b><br>原因通常是下面之一：<br>' +
+        '1. <code>index.html</code> 顶部的 <code>REPO</code> 还没改成你自己的（现在填的是 <code>' + esc(REPO) + '</code>）<br>' +
+        '2. 仓库还没建成，或者还没把文件推上去<br>' +
+        '3. 仓库是私有的——本页只能读<b>公开</b>仓库</div>';
+    } else if (err.message === "403") {
+      box.innerHTML = '<div class="msg"><b>GitHub 限流了。</b>公开接口每小时最多 60 次，等一小时再刷新即可。' +
+        '如果你频繁刷新页面，就会碰到这个。</div>';
+    } else {
+      box.innerHTML = '<div class="msg"><b>读取失败：</b>' + esc(err.message) + '</div>';
+    }
+  });
+
+function render(files){
+  var groups = {};
+  FOLDERS.forEach(function(f){ groups[f.key] = []; });
+  files.forEach(function(f){
+    var seg = f.path.split("/");
+    if (seg.length < 2) return;
+    var top = seg[0];
+    if (!groups[top]) groups[top] = [];
+    groups[top].push(f.path);
+  });
+
+  var counts = {
+    "00-收件箱": 0, "10-想法池": 0, "20-已决定": 0, "30-在做": 0
+  };
+  Object.keys(counts).forEach(function(k){
+    counts[k] = (groups[k] || []).length;
+  });
+  document.getElementById("s1").textContent = counts["00-收件箱"];
+  document.getElementById("s2").textContent = counts["10-想法池"];
+  document.getElementById("s3").textContent = counts["20-已决定"] + counts["30-在做"];
+  document.getElementById("s4").textContent = (groups["40-产出"] || []).length;
+
+  var total = 0;
+  Object.keys(groups).forEach(function(k){ total += groups[k].length; });
+
+  var html = "";
+  FOLDERS.forEach(function(f){
+    var list = groups[f.key] || [];
+    if (f.key === "90-归档" && list.length === 0) return;
+    html += '<h2 class="' + f.cls + '"><span class="bar"></span>' + esc(f.label) +
+            '<span class="cnt">' + list.length + '</span></h2>';
+    if (list.length === 0) {
+      html += '<p class="empty">还没有内容。</p>';
+      return;
+    }
+    list.sort().reverse().forEach(function(path){
+      var name = path.split("/").pop().replace(/\.md$/, "");
+      html += '<a class="item" target="_blank" rel="noopener" href="https://github.com/' +
+              REPO + '/blob/' + BRANCH + '/' + encodeURI(path) + '">' +
+              '<div class="t">' + esc(name) + '</div>' +
+              '<div class="p">' + esc(path) + '</div></a>';
+    });
+  });
+
+  document.getElementById("content").innerHTML = html;
+  document.getElementById("lead").textContent = "共 " + total + " 条内容 · 点任意一条在 GitHub 上打开";
+  document.getElementById("repoLine").textContent = "数据来源：" + REPO + "（" + BRANCH + " 分支）";
+}
+</script>
+</body>
+</html>
