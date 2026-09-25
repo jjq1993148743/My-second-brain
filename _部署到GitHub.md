@@ -116,6 +116,48 @@ git push
 
 ---
 
+## 关于授权：需要给我什么？
+
+**永远不需要账号密码。**
+
+GitHub 从 2021 年起就废除了密码推送，现在只有两种合法方式：浏览器登录，或 Personal Access Token。
+
+| 你给什么 | 我能做什么 | 安全性 | 建议 |
+|---|---|---|---|
+| 只给仓库地址 | 只能**读**（公开仓库不需要任何授权） | — | 够用 |
+| 你在终端登录一次 | 之后我能自由读写 | 最高 | ⭐ 推荐 |
+| 给我 Personal Access Token | 我能全自动读写 | 中（可随时撤销） | 备选 |
+
+### 推荐做法：你登录一次，之后我接手
+
+1. 告诉我仓库地址，我执行 `git remote add origin <地址>`
+2. **你在自己的终端里跑一次**：
+
+```bash
+cd "/c/Users/赵青月/IdeaVault"
+git push -u origin main
+```
+
+3. 浏览器弹窗 → 登录 GitHub → 授权
+4. 凭证会存进 **Windows 凭据管理器**，之后我就能直接推送，不用再问你
+
+### 如果要用 Token（可选）
+
+去 https://github.com/settings/personal-access-tokens 建一个 **Fine-grained token**：
+
+- **Repository access**：只勾 `ideavault` 这一个仓库
+- **Permissions**：只给 `Contents: Read and write`
+- **有效期**：设短一点，比如 90 天
+
+这样即使泄露，影响也只限于这一个仓库，而且随时能撤销。
+
+### 有两件事必须你手动做
+
+1. **第一次登录 GitHub**——需要真人点浏览器，程序替代不了
+2. **开启 GitHub Pages**——必须在网页上操作（Settings → Pages）
+
+---
+
 ## 常见问题
 
 **Q：为什么必须公开仓库？**
