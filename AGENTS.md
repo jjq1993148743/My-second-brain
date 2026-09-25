@@ -1,7 +1,17 @@
-# _CLAUDE.md · 这个库的操作手册
+# AGENTS.md · 这个库的操作手册
 
-> 这份文件是给 **AI** 看的，不是给人看的。
-> 任何 AI（Claude Code / OpenCode / Codex / Hermes / 其他 Agent）在操作这个目录前，先读这份文件。
+> **这是本仓库唯一的规则来源。**
+> 任何 AI（Claude Code / Cursor / Codex / Gemini CLI / Copilot / OpenCode / Hermes / 其他 Agent）在操作这个目录前，先读这份文件。
+>
+> 其他 AI 工具的入口文件都只是指向这里，不要在那里改规则：
+>
+> | 文件 | 给谁读 |
+> |---|---|
+> | `AGENTS.md`（本文件） | **通用标准**，也是唯一的主文件 |
+> | `CLAUDE.md` | Claude Code |
+> | `GEMINI.md` | Gemini CLI |
+> | `.cursor/rules/ideavault.mdc` | Cursor |
+> | `.github/copilot-instructions.md` | GitHub Copilot |
 
 ---
 
