@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1242px;background:#faf9f7;font-family:"Microsoft YaHei","PingFang SC",sans-serif;color:#222}
+.sec{padding:44px 44px 30px;border-bottom:2px solid #eee}
+.stitle{display:flex;align-items:center;gap:16px;margin-bottom:26px}
+.snum{width:52px;height:52px;border-radius:14px;background:#333;color:#fff;font-size:28px;font-weight:800;display:flex;align-items:center;justify-content:center;flex:none}
+.st{font-size:38px;font-weight:800}
+.st small{display:block;font-size:22px;color:#888;font-weight:400;margin-top:4px}
+/* 封面 */
+.cover{background:#333;color:#fff;text-align:center;padding:70px 44px 60px}
+.cover .badge{display:inline-block;font-size:24px;border:1px solid #777;border-radius:999px;padding:8px 26px;color:#bbb}
+.cover h1{font-size:76px;font-weight:800;margin-top:28px;letter-spacing:2px}
+.cover h1 em{font-style:normal;color:#ff6b6e}
+.cover .sub{font-size:30px;color:#bbb;margin-top:18px}
+.cover .ask{margin-top:34px;font-size:27px;color:#fff;background:#4a4a4a;border-radius:14px;padding:18px 24px;display:inline-block}
+/* 树形/决策 */
+svg{display:block}
+.node{position:absolute;background:#fff;border:1px solid #e3e0da;border-radius:12px;padding:12px;font-size:21px;line-height:1.4;text-align:center}
+.leafc{position:absolute;border-radius:12px;padding:12px;font-size:21px;line-height:1.45;text-align:center;font-weight:700}
+.g{background:#e3f2e8;border:2px solid #2e9e5b;color:#1c6b3c}
+.y{background:#fdf3dd;border:2px solid #f0a52e;color:#8a5b06}
+.rd{background:#fbe3e3;border:2px solid #e5484d;color:#9c2020}
+/* 行卡 */
+.row{display:flex;background:#fff;border:1px solid #e8e5e0;border-radius:14px;margin-bottom:12px;overflow:hidden;align-items:stretch}
+.bar{width:10px;flex:none}
+.bar.g{background:#2e9e5b}.bar.y{background:#f0a52e}.bar.r{background:#e5484d}
+.cell{padding:16px 18px;font-size:24px;line-height:1.45;display:flex;align-items:center}
+.cell.was{flex:1;color:#777}
+.cell.now{flex:1.3;font-weight:700;border-left:2px dashed #ddd}
+.redbox{background:#fbe3e3;border-radius:14px;padding:20px 24px;margin-top:16px;font-size:24px;line-height:1.55;color:#8a1f1f}
+.redbox b{color:#6d1414}
+/* 测试卡 */
+.test{background:#fff;border:1px solid #e8e5e0;border-radius:14px;padding:20px 24px;margin-bottom:14px}
+.test .t{font-size:27px;font-weight:800;color:#1c6b3c}
+.test .d{margin-top:8px;font-size:24px;line-height:1.55;color:#333}
+.test .d b{color:#111}
+/* 红绿灯 */
+.lights{display:flex;flex-direction:column;gap:14px}
+.light{border-radius:14px;padding:20px 24px;font-size:24px;line-height:1.6}
+.light b{font-size:27px}
+.light.lg{background:#e3f2e8;border:2px solid #2e9e5b;color:#1c5b34}
+.light.ly{background:#fdf3dd;border:2px solid #f0a52e;color:#7a5206}
+.light.lr{background:#fbe3e3;border:2px solid #e5484d;color:#8a1f1f}
+/* 文字列表 */
+.list{font-size:25px;line-height:1.7;color:#333}
+.list b{color:#111}
+.map{background:#fff;border:1px solid #e8e5e0;border-radius:12px;padding:14px 20px;margin-bottom:10px;font-size:24px;line-height:1.5}
+.map b{color:#111}
+.disc{background:#eef1f5;border-radius:14px;padding:18px 24px;font-size:22px;line-height:1.55;color:#4a5568;margin-top:16px}
+/* 人设 */
+.who{background:#fff;border:1px solid #e8e5e0;border-radius:16px;padding:24px 28px;font-size:26px;line-height:1.6}
+.who b{color:#111}
+.pro{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
+.pill{border-radius:999px;padding:10px 24px;font-size:23px;font-weight:700}
+.pill.done{background:#e3f2e8;color:#1c6b3c;border:2px solid #2e9e5b}
+.pill.next{background:#333;color:#fff}
+.pill.soon{background:#f4f2ef;color:#999;border:1px solid #e3e0da}
+.cta{margin-top:18px;background:#333;color:#fff;border-radius:14px;padding:22px;text-align:center;font-size:27px;font-weight:700;line-height:1.5}
+.cta small{display:block;font-size:22px;font-weight:400;color:#bbb;margin-top:6px}
+</style></head><body>
+
+<div class="cover">
+  <div class="badge">猫病症自查百科 · 01</div>
+  <h1>我家猫<em>吐了</em>，怎么办？</h1>
+  <div class="sub">3 步走完，颜色就是答案 · 绿在家调 / 黄记账观察 / 红当天就医</div>
+  <div class="ask">先回答一个问题：它吐出来的是什么？↓</div>
+</div>
+
+<div class="sec">
+  <div class="stitle"><div class="snum">1</div><div class="st">先归类：5 种吐法，各走各的路<small>树形图 · 对号入座</small></div></div>
+  <div style="position:relative;height:520px">
+    <svg width="1154" height="520">
+      <path d="M577 60 L577 100 L115 100 L115 140" stroke="#c9c4bc" stroke-width="3" fill="none"/>
+      <path d="M577 100 L346 100 L346 140" stroke="#c9c4bc" stroke-width="3" fill="none"/>
+      <path d="M577 60 L577 140" stroke="#c9c4bc" stroke-width="3" fill="none"/>
+      <path d="M577 100 L808 100 L808 140" stroke="#c9c4bc" stroke-width="3" fill="none"/>
+      <path d="M577 100 L1039 100 L1039 140" stroke="#c9c4bc" stroke-width="3" fill="none"/>
+      <path d="M115 280 L115 340 M346 280 L346 340 M577 280 L577 340 M808 280 L808 340 M1039 280 L1039 340" stroke="#c9c4bc" stroke-width="3" fill="none"/>
+    </svg>
+    <div class="node" style="left:452px;top:0;width:250px;background:#333;color:#fff;font-weight:800;font-size:26px">猫吐了</div>
+    <div class="node" style="left:10px;top:140px;width:210px"><b>未消化猫粮</b><br>吃完就吐</div>
+    <div class="node" style="left:241px;top:140px;width:210px"><b>清晨黄水白沫</b><br>碗是空的</div>
+    <div class="node" style="left:472px;top:140px;width:210px"><b>带毛的团</b><br>换毛季</div>
+    <div class="node" style="left:703px;top:140px;width:210px"><b>血丝/咖啡渣</b><br>吐完就蔫</div>
+    <div class="node" style="left:934px;top:140px;width:210px"><b>伸脖子"咔"</b><br>没吐出东西</div>
+    <div class="leafc g" style="left:10px;top:340px;width:210px">吃太快<br>摊薄慢食试2周</div>
+    <div class="leafc g" style="left:241px;top:340px;width:210px">空腹久<br>睡前一小份试3天</div>
+    <div class="leafc g" style="left:472px;top:340px;width:210px">毛球<br>每天梳毛数频率</div>
+    <div class="leafc rd" style="left:703px;top:340px;width:210px">出血信号<br>当天去医院</div>
+    <div class="leafc y" style="left:934px;top:340px;width:210px">多半是咳<br>录视频给医生</div>
+  </div>
+</div>
+
+<div class="sec">
+  <div class="stitle"><div class="snum">2</div><div class="st">再验证：每一类在家怎么确认<small>决策树 · 拿一支笔从顶走到底</small></div></div>
+  <div style="position:relative;height:1080px">
+    <svg width="1154" height="1080">
+      <path d="M60 100 L60 990" stroke="#b8b2a9" stroke-width="3" fill="none"/>
+      <path d="M60 100 L110 100 M60 300 L110 300 M60 500 L110 500 M60 700 L110 700 M60 900 L110 900" stroke="#b8b2a9" stroke-width="3" fill="none"/>
+      <path d="M480 100 L530 100 M900 100 L950 100 M480 300 L530 300 M900 300 L950 300 M480 500 L530 500 M900 500 L950 500 M480 700 L950 700 M480 900 L530 900 M900 900 L950 900" stroke="#b8b2a9" stroke-width="3" fill="none"/>
+    </svg>
+    <div class="node" style="left:110px;top:30px;width:370px;font-size:24px;font-weight:700">未消化猫粮，吃完没多久就吐</div>
+    <div class="node" style="left:530px;top:30px;width:370px;background:#eef1f5;border:none">◆ 粮摊薄平盘 / 换慢食碗，<b>连试 2 周</b>还吐吗？</div>
+    <div class="leafc g" style="left:950px;top:30px;width:200px">不吐→绿<br>喂法解决<br>照吐→黄</div>
+    <div class="node" style="left:110px;top:230px;width:370px;font-size:24px;font-weight:700">清晨吐黄水、白沫，肚子是空的</div>
+    <div class="node" style="left:530px;top:230px;width:370px;background:#eef1f5;border:none">◆ 睡前留一小份粮，<b>连试 3 天</b>还有吗？</div>
+    <div class="leafc g" style="left:950px;top:230px;width:200px">没了→绿<br>还在吐→黄转红<br>别再在家试</div>
+    <div class="node" style="left:110px;top:430px;width:370px;font-size:24px;font-weight:700">吐出带毛的团（换毛季）</div>
+    <div class="node" style="left:530px;top:430px;width:370px;background:#eef1f5;border:none">每天梳毛一次，数一周吐几次</div>
+    <div class="leafc g" style="left:950px;top:430px;width:200px">绿·在家调<br>频率不升就观察</div>
+    <div class="node" style="left:110px;top:630px;width:370px;font-size:24px;font-weight:700">血丝、咖啡渣样深褐色，或吐完就蔫</div>
+    <div class="leafc rd" style="left:530px;top:630px;width:620px">红·当天去医院，别拖 —— 跳过所有测试，这不是喂法的事</div>
+    <div class="node" style="left:110px;top:830px;width:370px;font-size:24px;font-weight:700">伸脖子"咔"一声，没吐出东西</div>
+    <div class="node" style="left:530px;top:830px;width:370px;background:#eef1f5;border:none">那是<b>咳不是吐</b>：录视频；再看呼吸快不快</div>
+    <div class="leafc y" style="left:950px;top:830px;width:200px">黄·带视频就医<br>呼吸快→转红</div>
+  </div>
+</div>
+
+<div class="sec">
+  <div class="stitle"><div class="snum">3</div><div class="st">对一下：以前 vs 现在<small>任何一条对上了，就值得走完上面两步</small></div></div>
+  <div class="row"><div class="bar g"></div><div class="cell was">以前一天两顿，每顿多半碗都吃净</div><div class="cell now">同一款粮吃两三粒就走，晚上一看还剩三分之二</div></div>
+  <div class="row"><div class="bar g"></div><div class="cell was">以前吃完就安静趴着</div><div class="cell now">饭后半小时内准吐，粮还是一粒粒没泡开的样子</div></div>
+  <div class="row"><div class="bar g"></div><div class="cell was">以前清晨碗里是昨晚剩的粮</div><div class="cell now">清晨吐一摊黄水或白沫，碗是空的</div></div>
+  <div class="row"><div class="bar y"></div><div class="cell was">以前喊它有反应、会走过来</div><div class="cell now">蹲墙角把脖子伸得直直的、肚子一抽一抽，什么都没吐出来</div></div>
+  <div class="row"><div class="bar g"></div><div class="cell was">以前一梳只下一小撮</div><div class="cell now">一梳一大把，还时常吐出一团毛加黏液</div></div>
+  <div class="row"><div class="bar y"></div><div class="cell was">以前便便成型、一铲就掉</div><div class="cell now">同一周里出现软便，外面带一层黏液</div></div>
+  <div class="redbox"><b>没有"以前"可比的，直接看这几条：</b>吐出物带血丝、或呈咖啡渣样的深褐色 / 吐出物里看到虫体 / 吐完精神一起垮掉、不吃不动 —— 出现任何一条，当天去医院。</div>
+  <div class="disc">也有一种"比不了"的：一周固定吐一次、精神食欲都好、这样已经大半年——你习惯了，但猫本来不该这样。</div>
+</div>
+
+<div class="sec">
+  <div class="stitle"><div class="snum">4</div><div class="st">在家就能做的 3 个小测试<small>都是喂法调整和记录，不涉及用药</small></div></div>
+  <div class="test"><div class="t">测试 1 · 慢食测试（查"吃太快"）</div><div class="d">把一顿粮<b>薄薄摊在平盘上</b>（或换带凸起的慢食碗），连续两周。餐后吐就此消失 → 是吃太快，喂法的事；照旧吐 → 跟喂法无关，走下一步。</div></div>
+  <div class="test"><div class="t">测试 2 · 睡前餐测试（查"空腹太久"）</div><div class="d">固定在<b>睡前给一小份干粮</b>，连做 3 天。清晨的黄水没了 → 空腹太久坐实；还在吐 → 别继续在家试。</div></div>
+  <div class="test"><div class="t">测试 3 · 吐还是咳（录一段视频）</div><div class="d">把它"咔"的那一下<b>录成短视频</b>。真吐 → 肚子明显收缩、吐出有东西；咳 → 脖子向前伸直、身子压低贴地、最后全身一抖、常常什么也没有。这两件事对应完全不同的方向。</div></div>
+</div>
+
+<div class="sec">
+  <div class="stitle"><div class="snum">5</div><div class="st">红绿灯：对号入座版<small>哪列有你的猫，就按那列办</small></div></div>
+  <div class="lights">
+    <div class="light lg"><b>绿 · 在家调</b>　餐后吐未消化粮 → 粮摊薄平盘 / 慢食碗，试 2 周；清晨黄水白沫 → 睡前一小份，试 3 天；换毛季吐毛团 → 每天梳毛。精神食欲照好、水照喝，就先在这层处理。</div>
+    <div class="light ly"><b>黄 · 记账观察</b>　一周吐 2 次以上、总在同一个钟点；同时喝得多、体重在掉；伸脖子"咔"没东西（那是咳）→ 记日期、几点、离饭多久、拍照，记满 2 周带记录就医。</div>
+    <div class="light lr"><b>红 · 当天就医</b>　血丝 / 咖啡渣样深褐色；吐完就蔫、不吃不动；公猫蹲盆使劲、尿团变小（尿路堵，按急症）；呼吸快、不肯跳（往心的方向核对）。</div>
+  </div>
+</div>
+
+<div class="sec">
+  <div class="stitle"><div class="snum">6</div><div class="st">哪些猫更容易碰上<small>概率提示，不是诊断线</small></div></div>
+  <div class="list">
+    1. <b>不分品种公母，任何年龄都会碰上</b>——吐主要是"年龄的事"。<br>
+    2. <b>2–6 个月幼猫</b>：换粮、驱虫、爱乱捡东西那阵，最容易吃太快或吃错。<br>
+    3. <b>2–8 岁青壮年</b>：多见肠胃敏感和气道问题；长毛猫常伴吐毛球。<br>
+    4. <b>8 岁以上</b>：最容易反复呕吐（波斯系、缅因、暹罗这些老年肾病被报道较多的品种更明显）。<br>
+    5. <b>布偶、缅因、英短、美短、挪威森林猫</b>：心肌病被报道较多，"伸脖子咔一下"可能不是胃在闹；偏胖的、绝育后的公猫，尿路容易出问题。
+  </div>
+</div>
+
+<div class="sec">
+  <div class="stitle"><div class="snum">7</div><div class="st">证据页：这些结论从哪来<small>人话 ↔ 医学名对照 + 文献原文出处</small></div></div>
+  <div class="map"><b>"吐了"</b> = 呕吐（急性/慢性）。要和<b>反流、吐毛球、咳嗽</b>分清——这几件事在主人眼里长得几乎一样。</div>
+  <div class="map"><b>"清晨吐黄水"</b> = 空腹时间过久引起的呕吐，常排在夜里长时间没进食之后。</div>
+  <div class="map"><b>"伸脖子咔一下"</b> = 咳嗽。猫咳的姿势特别像"吐不出来"，所以常被当成胃病拖了很多年。</div>
+  <div class="test" style="margin-top:16px"><div class="t" style="color:#111">① 《猫病学》第 5 版</div><div class="d">Norsworthy 主编，赵兴绪主译，中国农业出版社。第 1 篇"病与症"第 236 条，条目原名「呕吐」。本篇"吐还是咳的分辨、餐后吐与空腹吐的归类、换毛季毛球与呕吐的关系"均出自该条目框架。</div></div>
+  <div class="test"><div class="t" style="color:#111">② 2026 iCatCare 猫慢性肾病诊断与管理共识指南（JFMS 2026）</div><div class="d">第 5 节「慢性肾病的临床表现」原文："polyuria (PU), polydipsia (PD) and weight loss, followed by loss of appetite and vomiting"——先是尿多、喝多和体重下降，接着才出现不吃和呕吐。所以红绿灯把"喝得多+体重在掉"单独列成一条线。</div></div>
+  <div class="disc">症状不等于诊断：同一条"呕吐"在书上能对应十多种病因，本文只负责帮你分流"在家调 / 记账观察 / 当天就医"，最终判断由兽医排查。用药必须凭医院处方，本文不涉及任何用药建议。</div>
+</div>
+
+<div class="sec" style="border-bottom:none">
+  <div class="stitle"><div class="snum">8</div><div class="st">关于这个栏目</div></div>
+  <div class="who">我是<b>程序员养猫人</b>，不是兽医。把《猫病学》第 5 版和猫科共识翻了一遍，整理成"<b>你今晚在家就能做</b>"的自查图。只讲喂法和观察，<b>不讲诊断、不推药</b>——每条结论后面都附了出处，你可以自己回查。</div>
+  <div class="pro">
+    <div class="pill done">01 吐了 · 本篇</div>
+    <div class="pill next">02 不吃东西 · 下期</div>
+    <div class="pill soon">03 软便</div>
+    <div class="pill soon">04 眼屎多</div>
+    <div class="pill soon">05 尿血</div>
+  </div>
+  <div class="cta">你家猫吐的是哪种？评论区说<small>我会按吐法归类回复，攒成下一期的补充案例</small></div>
+</div>
+
+</body></html>

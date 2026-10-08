@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1242px;height:1656px;background:#faf9f7;font-family:"Microsoft YaHei","PingFang SC",sans-serif;color:#222;overflow:hidden}
+.stage{position:relative;width:1242px;height:1656px;padding:40px 44px;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:24px;color:#999}
+.dots{display:flex;gap:10px}
+.dots i{width:16px;height:16px;border-radius:50%;background:#ddd}
+.dots i.on{background:#333}
+.crumb{margin-top:18px;font-size:22px;color:#8a5b06;background:#fdf3dd;border-radius:999px;padding:8px 22px;display:none;width:fit-content;max-width:100%}
+.q{margin-top:46px;font-size:52px;font-weight:800;line-height:1.35}
+.q small{display:block;font-size:26px;color:#888;font-weight:400;margin-top:12px}
+.opts{margin-top:40px;display:flex;flex-direction:column;gap:22px}
+.opt{background:#fff;border:2px solid #e3e0da;border-radius:18px;padding:28px 30px;font-size:31px;font-weight:700;line-height:1.4;cursor:pointer;transition:.15s;display:flex;justify-content:space-between;align-items:center}
+.opt:hover{border-color:#333;transform:translateX(6px)}
+.opt:after{content:"›";font-size:40px;color:#bbb}
+.opt small{display:block;font-size:23px;color:#888;font-weight:400;margin-top:6px}
+.res{display:none;margin-top:46px}
+.res .bar{border-radius:22px;padding:34px 36px;color:#fff}
+.res .tag{font-size:30px;font-weight:800;opacity:.9}
+.res .big{font-size:52px;font-weight:800;margin-top:8px}
+.res ul{margin-top:22px;list-style:none}
+.res li{font-size:29px;line-height:1.6;padding-left:36px;position:relative}
+.li li{color:#fff}
+.res li:before{content:"";position:absolute;left:6px;top:20px;width:12px;height:12px;border-radius:50%;background:#fff}
+.res .why{margin-top:20px;font-size:24px;color:#666;line-height:1.5}
+.btns{margin-top:auto;display:flex;gap:18px}
+.btn{flex:1;border:none;border-radius:16px;padding:24px;font-size:28px;font-weight:800;cursor:pointer;font-family:inherit}
+.back{background:#e8e5e0;color:#333}
+.again{background:#333;color:#fff}
+.g .bar{background:#2e9e5b}.y .bar{background:#f0a52e}.r .bar{background:#e5484d}
+.disc{margin-top:22px;font-size:21px;color:#999;line-height:1.5}
+</style></head><body>
+<div class="stage">
+  <div class="top">
+    <div class="brand">猫病症自查百科 01 · 吐了</div>
+    <div class="dots"><i id="d1" class="on"></i><i id="d2"></i><i id="d3"></i></div>
+  </div>
+  <div class="crumb" id="crumb"></div>
+  <div id="view"></div>
+  <div class="btns" id="btns"></div>
+  <div class="disc" id="disc" style="display:none">症状不等于诊断：以上只帮你分流"在家调 / 记账观察 / 当天就医"，最终由兽医排查。不涉及任何用药。</div>
+</div>
+<script>
+var steps = {
+  q1: {
+    q: '你家猫吐出来的是什么？', sub: '第一步，先看吐出物',
+    opts: [
+      {t:'未消化的猫粮', s:'吃完没多久就吐', go:'q2a', cr:'未消化猫粮'},
+      {t:'清晨黄水、白沫', s:'碗是空的，肚子是空的', go:'q2b', cr:'清晨黄水'},
+      {t:'带毛的团', s:'最近掉毛也变多', go:'rg', cr:'带毛的团'},
+      {t:'血丝、咖啡渣样深褐色', s:'或吐完精神一起垮掉', go:'rr', cr:'血丝/咖啡渣'},
+      {t:'伸脖子"咔"，什么都没吐出', s:'肚子不抽、最后全身一抖', go:'q2e', cr:'伸脖子咔'}
+    ]
+  },
+  q2a: {
+    q: '把粮摊薄在平盘上（或换慢食碗），连试 2 周——还吐吗？', sub: '第二步，在家验证', crFrom:'未消化猫粮',
+    opts: [
+      {t:'不吐了', s:'多半就是吃太快', go:'rg2a', cr:'试2周·不吐'},
+      {t:'照旧吐', s:'跟喂法无关', go:'ry2a', cr:'试2周·照旧吐'}
+    ]
+  },
+  q2b: {
+    q: '睡前固定给一小份粮，连试 3 天——清晨还吐吗？', sub: '第二步，在家验证',
+    opts: [
+      {t:'没了', s:'空腹太久坐实', go:'rg2b', cr:'试3天·没了'},
+      {t:'还在吐', s:'别继续在家试', go:'rr2b', cr:'试3天·还在吐'}
+    ]
+  },
+  q2e: {
+    q: '它最近有呼吸变快、不肯跳上跳下吗？', sub: '第二步，那是咳不是吐',
+    opts: [
+      {t:'有', s:'活动后喘、精神也差', go:'rr2e', cr:'呼吸快'},
+      {t:'没有', s:'精神食欲照好', go:'ry2e', cr:'无呼吸变化'}
+    ]
+  },
+  rg: {
+    color:'g', tag:'绿 · 在家调', big:'先补梳毛，不用治',
+    li:['每天梳一次，把浮毛提前梳掉','数一周吐几次：频率不升就继续观察','黑衣服、沙发上的毛量也是信号'],
+    why:'换毛季吐毛团很常见，是毛被吞进胃里再吐出来，不是胃本身闹。'
+  },
+  rg2a: {
+    color:'g', tag:'绿 · 在家调', big:'吃太快坐实，喂法解决',
+    li:['保持一天 4–6 小顿，粮薄摊或慢食碗','吃完安静半小时，别马上逗它玩','吐完别立刻拿罐头"安慰"，它会学会"吐了才有好吃的"'],
+    why:'猫是一口气吞的猎食型，牙齿不负责细嚼，一次摆一大碗最容易反胃。'
+  },
+  ry2a: {
+    color:'y', tag:'黄 · 记账观察', big:'跟喂法无关，带记录就医',
+    li:['开始记账：日期、几点、离饭多久、拍照','记满 2 周，这期间别换粮','把记录一起给医生，比口头描述有用'],
+    why:'一周吐到 2 次以上、或总在同一个钟点，就已经不是"偶尔"。'
+  },
+  rg2b: {
+    color:'g', tag:'绿 · 在家调', big:'空腹太久，保持睡前餐',
+    li:['睡前一小份干粮固定下来','别让它空着肚子十几个小时','清晨碗里不留昨晚的剩粮'],
+    why:'空腹久了吐黄水是典型表现，加一顿睡前餐多数就消停了。'
+  },
+  rr2b: {
+    color:'r', tag:'红 · 当天就医', big:'别再在家试了',
+    li:['睡前餐 3 天无效，方向不在空腹','去之前把呕吐次数、时间、照片整理好','路上注意保暖，减少应激'],
+    why:'持续的空腹呕吐要由兽医排查，不是喂法能解决的事。'
+  },
+  rr: {
+    color:'r', tag:'红 · 当天去医院', big:'这不是喂法的事',
+    li:['吐出物带血丝、或呈咖啡渣样深褐色','吐完精神一起垮掉、不吃不动','现在就动身，别等明天'],
+    why:'这两个颜色是消化道出血的信号，拖延会明显加重。'
+  },
+  rr2e: {
+    color:'r', tag:'红 · 当天就医', big:'往心的方向核对',
+    li:['呼吸变快、不肯跳、活动后"咔"','布偶、缅因、英短、美短尤其要查','把"咔"的视频录下来给医生'],
+    why:'猫的咳嗽姿势特别像"吐不出来"，气道和心的问题常这样被拖很多年。'
+  },
+  ry2e: {
+    color:'y', tag:'黄 · 带视频就医', big:'那是咳，不是吐',
+    li:['录一段"咔"的完整视频','记清什么时候发作、多久一次','带着视频去，让医生分辨气道还是心'],
+    why:'伸脖子、肚子不抽、最后全身一抖——这三点是咳的典型特征。'
+  }
+};
+var path = [];
+function show(id){
+  var s = steps[id];
+  var view = document.getElementById('view');
+  var btns = document.getElementById('btns');
+  var crumb = document.getElementById('crumb');
+  var disc = document.getElementById('disc');
+  document.getElementById('d1').className = (id==='q1')?'on':'';
+  document.getElementById('d2').className = (id.indexOf('q2')===0)?'on':'';
+  document.getElementById('d3').className = (s.color)?'on':'';
+  if(path.length){ crumb.style.display='block'; crumb.textContent='你选的：' + path.join(' → '); }
+  else { crumb.style.display='none'; }
+  if(s.q){
+    disc.style.display='none';
+    var h = '<div class="q">'+s.q+'<small>'+s.sub+'</small></div><div class="opts">';
+    s.opts.forEach(function(o,i){ h += '<div class="opt" onclick="pick(\''+id+'\','+i+')"><span>'+o.t+'<small>'+(o.s||'')+'</small></span></div>'; });
+    h += '</div>';
+    view.innerHTML = h;
+    btns.innerHTML = path.length ? '<button class="btn back" onclick="back()">← 上一步</button>' : '';
+  } else {
+    disc.style.display='block';
+    var r = '<div class="res '+s.color+'" style="display:block"><div class="bar"><div class="tag">'+s.tag+'</div><div class="big">'+s.big+'</div><ul>';
+    s.li.forEach(function(x){ r += '<li>'+x+'</li>'; });
+    r += '</ul></div><div class="why">'+s.why+'</div></div>';
+    view.innerHTML = r;
+    btns.innerHTML = '<button class="btn back" onclick="back()">← 上一步</button><button class="btn again" onclick="reset()">重新开始</button>';
+  }
+}
+function pick(from,i){
+  var o = steps[from].opts[i];
+  path.push(o.cr);
+  show(o.go);
+}
+function back(){
+  path.pop();
+  if(!path.length){ show('q1'); return; }
+  var last = path[path.length-1];
+  for(var k in steps){ if(steps[k].opts){ for(var j=0;j<steps[k].opts.length;j++){ if(steps[k].opts[j].cr===last){ show(steps[k].opts[j].go); return; } } } }
+  show('q1');
+}
+function reset(){ path=[]; show('q1'); }
+show('q1');
+</script>
+</body></html>
