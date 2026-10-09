@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>第一期4 · 判断三档</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1242px; height:1656px; }
+  body {
+    font-family:"Microsoft YaHei","PingFang SC","Source Han Sans SC",sans-serif;
+    background:#ffffff; color:#14161a;
+    padding:56px 52px 46px;
+    display:flex; flex-direction:column;
+  }
+  h1 { font-size:70px; font-weight:900; line-height:1.18; }
+  h1 em { font-style:normal; color:#e5484d; }
+  .sub { font-size:32px; color:#6b7280; margin-top:16px; line-height:1.5; }
+  .cards { margin-top:28px; flex:1; display:flex; flex-direction:column; gap:18px; }
+  .card {
+    flex:1; border-radius:20px; padding:28px 36px; border:2px solid;
+    display:flex; flex-direction:column; justify-content:center;
+  }
+  .card .lv { font-size:46px; font-weight:900; letter-spacing:1px; }
+  .card .when { font-size:33px; font-weight:700; margin-top:12px; line-height:1.38; }
+  .card .time {
+    margin-top:14px; font-size:29px; line-height:1.42; padding-top:12px;
+    border-top:2px dashed rgba(0,0,0,.12);
+  }
+  .card .time b { font-weight:800; }
+  .g { background:#eef7f1; border-color:#cfe8da; }
+  .g .lv { color:#2e9e5b; }
+  .g .time { color:#3d444d; }
+  .a { background:#fdf6ea; border-color:#f3e2c2; }
+  .a .lv { color:#c98a1a; }
+  .a .time { color:#3d444d; }
+  .r { background:#fdf1f1; border-color:#f3d2d2; }
+  .r .lv { color:#e5484d; }
+  .r .time { color:#3d444d; }
+  .who { margin-top:22px; font-size:27px; color:#8a9099; }
+</style>
+</head>
+<body>
+  <h1>那，<em>到底去不去医院？</em></h1>
+  <div class="sub">去，怕白跑一趟；不去，又怕耽误 —— 对照下面三档。</div>
+
+  <div class="cards">
+    <div class="card g">
+      <div class="lv">在家调</div>
+      <div class="when">吐完还精神、还想吃，一天最多一两次</div>
+      <div class="time"><b>时间线：</b>改了喂法，<b>两周</b>还没改善 —— 就别再自己试了，去医院。</div>
+    </div>
+    <div class="card a">
+      <div class="lv">去排查</div>
+      <div class="when">吐的东西和"吃太快"对不上，或同时有别的变化</div>
+      <div class="time"><b>时间线：</b><b>一周内</b>安排去看一次。这档拖久了，容易变成老毛病。</div>
+    </div>
+    <div class="card r">
+      <div class="lv">当天去</div>
+      <div class="when">吐血、吐完垮掉、公猫尿不出来</div>
+      <div class="time"><b>时间线：</b>没有时间线。<b>别观察过夜</b>，当天就去。</div>
+    </div>
+  </div>
+
+  <div class="who">我是程序员养猫人，不是兽医 —— 把文献翻成你今晚就能用的图</div>
+</body>
+</html>
