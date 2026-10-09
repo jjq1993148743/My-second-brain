@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>上篇1 · 猫吐了，先看是哪种吐</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1242px; height:1656px; }
+  body {
+    font-family:"Microsoft YaHei","PingFang SC","Source Han Sans SC",sans-serif;
+    background:#ffffff; color:#16181d;
+    padding:58px 54px 46px;
+    display:flex; flex-direction:column;
+  }
+  h1 { font-size:62px; font-weight:800; line-height:1.18; letter-spacing:.5px; }
+  h1 em { font-style:normal; color:#e5484d; }
+  .sub { font-size:29px; color:#6b7280; margin-top:16px; }
+  .rows { margin-top:34px; flex:1; display:flex; flex-direction:column; gap:13px; }
+  .row {
+    flex:1; display:flex; align-items:center; gap:22px;
+    border:2px solid #eef1f4; border-radius:18px;
+    background:#fafbfc; padding:0 26px;
+  }
+  .phen { flex:1; font-size:29px; line-height:1.4; }
+  .badge { flex:0 0 300px; border-radius:14px; padding:13px 14px; color:#fff; text-align:center; }
+  .badge .lv { font-size:27px; font-weight:800; letter-spacing:1px; }
+  .badge .dn { font-size:23px; margin-top:5px; opacity:.95; }
+  .b-green { background:#2e9e5b; }
+  .b-amber { background:#f0a52e; }
+  .b-red   { background:#e5484d; }
+  .foot { margin-top:26px; font-size:23px; color:#8a9099; line-height:1.5; }
+</style>
+</head>
+<body>
+  <h1>猫吐了，先看<em>是哪种吐</em></h1>
+  <div class="sub">对号入座 —— 落在哪一档，就按哪一档走</div>
+
+  <div class="rows">
+    <div class="row">
+      <div class="phen">饭后半小时内吐，吐出的粮还是一粒一粒没泡开，吐完扭头又要吃</div>
+      <div class="badge b-green"><div class="lv">在家调</div><div class="dn">多半是吃太快</div></div>
+    </div>
+    <div class="row">
+      <div class="phen">清晨吐一摊黄水或白沫，碗里是空的</div>
+      <div class="badge b-green"><div class="lv">在家调</div><div class="dn">空腹太久</div></div>
+    </div>
+    <div class="row">
+      <div class="phen">一梳一大把毛，还常吐出一团毛加黏液</div>
+      <div class="badge b-green"><div class="lv">在家调</div><div class="dn">毛球 · 换毛季</div></div>
+    </div>
+    <div class="row">
+      <div class="phen">蹲在墙角把脖子伸得直直的、肚子一抽一抽，却什么也没吐出来</div>
+      <div class="badge b-amber"><div class="lv">去排查</div><div class="dn">可能是咳，不是吐</div></div>
+    </div>
+    <div class="row">
+      <div class="phen">吐的同时喝得多、体重在往下掉</div>
+      <div class="badge b-amber"><div class="lv">去排查</div><div class="dn">内脏方向，不是胃</div></div>
+    </div>
+    <div class="row">
+      <div class="phen">公猫蹲在猫砂盆里使劲、结块越来越小</div>
+      <div class="badge b-red"><div class="lv">当天去</div><div class="dn">尿路堵，急症</div></div>
+    </div>
+    <div class="row">
+      <div class="phen">吐出物带血丝、或咖啡渣样的深褐色；吐完精神一起垮</div>
+      <div class="badge b-red"><div class="lv">当天去</div><div class="dn">立刻就医</div></div>
+    </div>
+  </div>
+
+  <div class="foot">症状不等于诊断：这里只帮你分方向，最终由兽医排查。</div>
+</body>
+</html>
