@@ -23,12 +23,13 @@
   .note-hd .swipe { margin-left:auto; font-size:13px; color:#b9bfc7; }
 
   /* 图片横滑带 */
-  .imgs { display:flex; gap:18px; overflow-x:auto; padding:26px 34px; background:#f7f8fa; }
+  .imgs { display:flex; gap:18px; overflow-x:auto; padding:26px 34px; background:#f7f8fa; align-items:flex-start; }
   .imgs::-webkit-scrollbar { height:9px; }
   .imgs::-webkit-scrollbar-thumb { background:#cfd4da; border-radius:5px; }
   .imgs::-webkit-scrollbar-track { background:#eceff2; border-radius:5px; }
   .shot { flex:0 0 auto; }
   .shot img { width:320px; display:block; border-radius:12px; border:1px solid #e3e6ea; background:#fff; }
+  .shot.tall img { width:auto; height:620px; }
   .shot .cap { font-size:13px; color:#8a9099; margin-top:9px; text-align:center; }
 
   /* 文案区 */
@@ -52,6 +53,11 @@
   .tips h3 { font-size:18px; font-weight:900; margin-bottom:14px; }
   .tips li { font-size:15px; color:#3d444d; line-height:2; margin-left:20px; }
   .tips code { background:#f4f6f8; border-radius:5px; padding:2px 7px; font-size:13px; color:#5b636c; }
+  .tips.warn { border:2px solid #f0c4c4; background:#fffafa; margin-top:24px; }
+  .tips.warn h3 { color:#c93a3f; }
+  .tips.warn ol { margin-left:22px; }
+  .tips.warn li { font-size:15px; color:#3d444d; line-height:1.95; margin-bottom:10px; }
+  .tips.warn li b { color:#c93a3f; }
 </style>
 </head>
 <body>
@@ -59,7 +65,7 @@
 <div class="page-hd">
   <h1>01 吐了 · 两期发布预览</h1>
   <p>第一期 = 判断（3 图）｜第二期 = 怎么办（6 图）<br>图可左右滑动；下面是该期的发布文案</p>
-  <div class="meta">定稿 2026-10-10 ｜ 画布 1242×1242 ｜ 9 图 + 2 文案 ｜ 已去 AI 味</div>
+  <div class="meta">定稿 2026-10-10 ｜ 一期1 = 四列全链（用户指定）｜ 9 图 + 2 文案 ｜ 已去 AI 味</div>
 </div>
 
 <!-- ==================== 第一期 ==================== -->
@@ -71,9 +77,9 @@
   </div>
 
   <div class="imgs">
-    <div class="shot"><img src="一期/一期1-树形分档.png" alt="一期1 树形分档"><div class="cap">图1 · 树形分档</div></div>
-    <div class="shot"><img src="一期/一期2-决策树.png" alt="一期2 决策树"><div class="cap">图2 · 决策树</div></div>
-    <div class="shot"><img src="一期/一期3-七个自测.png" alt="一期3 七个自测"><div class="cap">图3 · 七个自测</div></div>
+    <div class="shot tall"><img src="一期/一期1-四列全链.png" alt="一期1 四列全链"><div class="cap">图1 · 四列全链（主图）<br>1242×2500 · 1:2 竖长</div></div>
+    <div class="shot"><img src="一期/一期2-决策树.png" alt="一期2 决策树"><div class="cap">图2 · 决策树<br>1242×1242 · 1:1</div></div>
+    <div class="shot"><img src="一期/一期3-七个自测.png" alt="一期3 七个自测"><div class="cap">图3 · 七个自测<br>1242×1242 · 1:1</div></div>
   </div>
 
   <div class="cap-area">
@@ -112,12 +118,12 @@
   </div>
 
   <div class="imgs">
-    <div class="shot"><img src="二期/二期1-谁更容易中招.png" alt="二期1 谁更容易中招"><div class="cap">图1 · 谁更容易中招</div></div>
-    <div class="shot"><img src="二期/二期2-吐咳反流.png" alt="二期2 吐咳反流"><div class="cap">图2 · 吐咳反流</div></div>
-    <div class="shot"><img src="二期/二期3-一周吐几次.png" alt="二期3 一周吐几次"><div class="cap">图3 · 一周吐几次</div></div>
-    <div class="shot"><img src="二期/二期4-先做这一件事.png" alt="二期4 先做这一件事"><div class="cap">图4 · 先做这一件事</div></div>
-    <div class="shot"><img src="二期/二期5-你管它叫什么.png" alt="二期5 你管它叫什么"><div class="cap">图5 · 你管它叫什么</div></div>
-    <div class="shot"><img src="二期/二期6-小技巧9条.png" alt="二期6 小技巧9条"><div class="cap">图6 · 小技巧 9 条</div></div>
+    <div class="shot"><img src="二期/二期1-谁更容易中招.png" alt="二期1 谁更容易中招"><div class="cap">图1 · 谁更容易中招<br>1242×1242</div></div>
+    <div class="shot"><img src="二期/二期2-吐咳反流.png" alt="二期2 吐咳反流"><div class="cap">图2 · 吐咳反流<br>1242×1242</div></div>
+    <div class="shot"><img src="二期/二期3-一周吐几次.png" alt="二期3 一周吐几次"><div class="cap">图3 · 一周吐几次<br>1242×1242</div></div>
+    <div class="shot"><img src="二期/二期4-先做这一件事.png" alt="二期4 先做这一件事"><div class="cap">图4 · 先做这一件事<br>1242×1242</div></div>
+    <div class="shot"><img src="二期/二期5-你管它叫什么.png" alt="二期5 你管它叫什么"><div class="cap">图5 · 你管它叫什么<br>1242×1242</div></div>
+    <div class="shot"><img src="二期/二期6-小技巧9条.png" alt="二期6 小技巧9条"><div class="cap">图6 · 小技巧 9 条<br>1242×1242</div></div>
   </div>
 
   <div class="cap-area">
@@ -158,6 +164,17 @@
     <li>图源：同目录 <code>一期/</code> <code>二期/</code>，每张 PNG 旁边有同名 HTML 源，改完用 chrome headless 重截。</li>
     <li>纯文字版见 <code>01-吐了-定稿全文（两期）.md</code>。</li>
   </ul>
+</div>
+
+<div class="tips warn">
+  <h3>发前要修的 5 处 · 专家复核</h3>
+  <ol>
+    <li><b>一期三张图比例不一致。</b>图1 是 1:2 竖长，图2/图3 是 1:1。平台指南明确「内页最忌讳尺寸忽大忽小，用户滑动时高度跳变观感很跳跃」。两条路：把四列全链改成 1:1，或把决策树/自测也拉成 1:2。</li>
+    <li><b>一期三个标题全部超 20 字。</b>小红书标题硬上限 20 字，超了发不出去。主推 24 字、备选2 24 字、备选3 25 字；二期主推 17 字没问题，备选3 是 21 字差 1 字。标题要重写。</li>
+    <li><b>四列全链正文字号偏小。</b>正文 21px 是 1242 宽下的值，折算到 1080 宽只有 18px；长图指南建议正文不小于 32px。手机上要放大才读得清。</li>
+    <li><b>一期只有 3 张图。</b>平台建议 4–9 张，3 张偏单薄，滑动互动也少。</li>
+    <li><b>四列全链底部缺文献出处。</b>其余 8 张都有「出处：《猫病学》…」，只有它没有，SKILL 里是硬要求。</li>
+  </ol>
 </div>
 
 </body>
