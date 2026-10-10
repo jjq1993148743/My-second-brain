@@ -22,17 +22,14 @@
   .note-hd .d { font-size:15px; color:#8a9099; }
   .note-hd .swipe { margin-left:auto; font-size:13px; color:#b9bfc7; }
 
-  /* 图片横滑带 */
   .imgs { display:flex; gap:18px; overflow-x:auto; padding:26px 34px; background:#f7f8fa; align-items:flex-start; }
   .imgs::-webkit-scrollbar { height:9px; }
   .imgs::-webkit-scrollbar-thumb { background:#cfd4da; border-radius:5px; }
   .imgs::-webkit-scrollbar-track { background:#eceff2; border-radius:5px; }
   .shot { flex:0 0 auto; }
-  .shot img { width:320px; display:block; border-radius:12px; border:1px solid #e3e6ea; background:#fff; }
-  .shot.tall img { width:auto; height:620px; }
-  .shot .cap { font-size:13px; color:#8a9099; margin-top:9px; text-align:center; }
+  .shot img { width:300px; display:block; border-radius:12px; border:1px solid #e3e6ea; background:#fff; }
+  .shot .cap { font-size:13px; color:#8a9099; margin-top:9px; text-align:center; line-height:1.5; }
 
-  /* 文案区 */
   .cap-area { padding:30px 34px 34px; }
   .cap-area .lab { font-size:13px; font-weight:800; color:#e5484d; letter-spacing:1px; margin-bottom:12px; }
   .cap-area h2 { font-size:26px; font-weight:900; line-height:1.4; }
@@ -58,39 +55,43 @@
   .tips.warn ol { margin-left:22px; }
   .tips.warn li { font-size:15px; color:#3d444d; line-height:1.95; margin-bottom:10px; }
   .tips.warn li b { color:#c93a3f; }
+  .tips.done { border:2px solid #bfe0c8; background:#fafffb; margin-top:24px; }
+  .tips.done h3 { color:#2e9e5b; }
+  .tips.done li b { color:#2e9e5b; }
 </style>
 </head>
 <body>
 
 <div class="page-hd">
   <h1>01 吐了 · 两期发布预览</h1>
-  <p>第一期 = 判断（3 图）｜第二期 = 怎么办（6 图）<br>图可左右滑动；下面是该期的发布文案</p>
-  <div class="meta">定稿 2026-10-10 ｜ 一期1 = 四列全链（用户指定）｜ 9 图 + 2 文案 ｜ 已去 AI 味</div>
+  <p>第一期 = 判断（4 图）｜第二期 = 怎么办（6 图）<br>图可左右滑动；下面是该期的发布文案</p>
+  <div class="meta">定稿 2026-10-10 ｜ 10 图 + 2 文案 ｜ 画布统一 1242×1656（3:4）｜ 已去 AI 味 ｜ 标题均 ≤20 字</div>
 </div>
 
 <!-- ==================== 第一期 ==================== -->
 <div class="note">
   <div class="note-hd">
-    <span class="p">第一期 · 判断（3 图）</span>
+    <span class="p">第一期 · 判断（4 图）</span>
     <span class="d">读者先要知道：我家猫这是咋了？要不要紧？</span>
     <span class="swipe">← 左右滑动看图 →</span>
   </div>
 
   <div class="imgs">
-    <div class="shot tall"><img src="一期/一期1-四列全链.png" alt="一期1 四列全链"><div class="cap">图1 · 四列全链（主图）<br>1242×2500 · 1:2 竖长</div></div>
-    <div class="shot"><img src="一期/一期2-决策树.png" alt="一期2 决策树"><div class="cap">图2 · 决策树<br>1242×1242 · 1:1</div></div>
-    <div class="shot"><img src="一期/一期3-七个自测.png" alt="一期3 七个自测"><div class="cap">图3 · 七个自测<br>1242×1242 · 1:1</div></div>
+    <div class="shot"><img src="一期/一期1-四列全链A-先在家.png" alt="一期1 四列全链A"><div class="cap">图1 · 四列全链 A<br>先在家处理的 5 种</div></div>
+    <div class="shot"><img src="一期/一期2-四列全链B-别在家拖.png" alt="一期2 四列全链B"><div class="cap">图2 · 四列全链 B<br>别在家拖的 5 种</div></div>
+    <div class="shot"><img src="一期/一期3-决策树.png" alt="一期3 决策树"><div class="cap">图3 · 决策树<br>以前 → 现在 → 该咋办</div></div>
+    <div class="shot"><img src="一期/一期4-七个自测.png" alt="一期4 七个自测"><div class="cap">图4 · 七个自测<br>今晚在家就能试</div></div>
   </div>
 
   <div class="cap-area">
     <div class="lab">发布文案</div>
-    <h2>猫吐了先别慌，一张图分 3 档，看看要不要跑医院<span class="main">主推</span></h2>
+    <h2>猫吐了先别慌，3 档看清要不要跑医院<span class="main">主推 · 18 字</span></h2>
 
     <div class="body">
       <p>早上起来，地板上又是一摊。我第一反应也是"完了"：是不是喂错了？要不要马上跑医院？</p>
       <p>先别慌。猫吐这事，多数是喂法闹的；但真有那么几种，压根不是胃的事。</p>
-      <p>第一张图把情况分成 3 档：在家调、去排查、当天去，先看你家猫落在哪一档。<br>
-         第二张对着"以前 → 现在"看一遍，就知道是再等等、改改喂法，还是赶紧去医院。<br>
+      <p>前两张是一张完整的对号入座表，按「能不能在家处理」拆成两半：第一张是 5 种不用跑医院的，第二张是 5 种别在家拖的。<br>
+         第三张对着"以前 → 现在"看一遍，判断该调整、观察还是送医。<br>
          最后一张是 7 个在家就能做的自测，今晚就能试。</p>
     </div>
 
@@ -103,8 +104,8 @@
 
     <div class="alt">
       <b>备选标题</b><br>
-      <span class="k">2</span>你家猫吐了？先对一下这 3 档，再决定去不去医院<br>
-      <span class="k">3</span>猫吐了别瞎猜，7 种情况对号入座，有一种当天就得去
+      <span class="k">2</span>猫吐了别急着跑医院，先对一下这 3 档（19 字）<br>
+      <span class="k">3</span>猫吐了别瞎猜，7 种里有一种当天就得去（19 字）
     </div>
   </div>
 </div>
@@ -118,17 +119,17 @@
   </div>
 
   <div class="imgs">
-    <div class="shot"><img src="二期/二期1-谁更容易中招.png" alt="二期1 谁更容易中招"><div class="cap">图1 · 谁更容易中招<br>1242×1242</div></div>
-    <div class="shot"><img src="二期/二期2-吐咳反流.png" alt="二期2 吐咳反流"><div class="cap">图2 · 吐咳反流<br>1242×1242</div></div>
-    <div class="shot"><img src="二期/二期3-一周吐几次.png" alt="二期3 一周吐几次"><div class="cap">图3 · 一周吐几次<br>1242×1242</div></div>
-    <div class="shot"><img src="二期/二期4-先做这一件事.png" alt="二期4 先做这一件事"><div class="cap">图4 · 先做这一件事<br>1242×1242</div></div>
-    <div class="shot"><img src="二期/二期5-你管它叫什么.png" alt="二期5 你管它叫什么"><div class="cap">图5 · 你管它叫什么<br>1242×1242</div></div>
-    <div class="shot"><img src="二期/二期6-小技巧9条.png" alt="二期6 小技巧9条"><div class="cap">图6 · 小技巧 9 条<br>1242×1242</div></div>
+    <div class="shot"><img src="二期/二期1-谁更容易中招.png" alt="二期1 谁更容易中招"><div class="cap">图1 · 谁更容易中招</div></div>
+    <div class="shot"><img src="二期/二期2-吐咳反流.png" alt="二期2 吐咳反流"><div class="cap">图2 · 吐咳反流</div></div>
+    <div class="shot"><img src="二期/二期3-一周吐几次.png" alt="二期3 一周吐几次"><div class="cap">图3 · 一周吐几次</div></div>
+    <div class="shot"><img src="二期/二期4-先做这一件事.png" alt="二期4 先做这一件事"><div class="cap">图4 · 先做这一件事</div></div>
+    <div class="shot"><img src="二期/二期5-你管它叫什么.png" alt="二期5 你管它叫什么"><div class="cap">图5 · 你管它叫什么</div></div>
+    <div class="shot"><img src="二期/二期6-小技巧9条.png" alt="二期6 小技巧9条"><div class="cap">图6 · 小技巧 9 条</div></div>
   </div>
 
   <div class="cap-area">
     <div class="lab">发布文案</div>
-    <h2>猫吐了先做这一件事，多数不用跑医院<span class="main">主推</span></h2>
+    <h2>猫吐了先做这一件事，多数不用跑医院<span class="main">主推 · 17 字</span></h2>
 
     <div class="body">
       <p>上一期讲了怎么判断，这一期讲怎么办。</p>
@@ -149,31 +150,28 @@
 
     <div class="alt">
       <b>备选标题</b><br>
-      <span class="k">2</span>别把咳当吐：猫呕吐最容易搞混的 3 件事<br>
-      <span class="k">3</span>猫呕吐：谁更容易中招 + 9 条喂饭老经验
+      <span class="k">2</span>别把咳当吐：猫呕吐最容易搞混的 3 件事（20 字）<br>
+      <span class="k">3</span>猫呕吐：谁更容易中招 + 9 条喂饭经验（20 字）
     </div>
   </div>
 </div>
 
-<div class="tips">
-  <h3>发布须知</h3>
+<div class="tips done">
+  <h3>本轮已改</h3>
   <ul>
-    <li>节奏：<b>隔天发一期</b>，别同天连发抢流量。两期标题后半句已错开，防平台判同质。</li>
-    <li>发布时<b>勾选 AI 声明</b>（平台 2026-04 起强制）。</li>
-    <li>一期 3 图、二期 6 图，<b>按图序上传</b>。</li>
-    <li>图源：同目录 <code>一期/</code> <code>二期/</code>，每张 PNG 旁边有同名 HTML 源，改完用 chrome headless 重截。</li>
-    <li>纯文字版见 <code>01-吐了-定稿全文（两期）.md</code>。</li>
+    <li><b>标题全部压到 20 字内</b>：一期 24/24/25 → 18/19/19；二期备选3 21 → 20。</li>
+    <li><b>比例统一到 3:4（1242×1656）</b>：原来 1:1 的 8 张上下加留白、中间内容不动；四列全链拆成两张。</li>
+    <li><b>字号放大</b>：四列全链原来 10 行挤一张、正文 21px；拆成 5+5 后正文提到 24–25px、标题 29px。</li>
+    <li><b>一期从 3 图变 4 图</b>：拆出来的两张四列全链直接补上了图数。</li>
+    <li><b>四列全链补上文献出处</b>：两张脚注都加了「出处：《猫病学》第 5 版 第 1 篇第 236 条「呕吐」」。</li>
   </ul>
 </div>
 
 <div class="tips warn">
-  <h3>发前要修的 5 处 · 专家复核</h3>
+  <h3>还剩两处要你定</h3>
   <ol>
-    <li><b>一期三张图比例不一致。</b>图1 是 1:2 竖长，图2/图3 是 1:1。平台指南明确「内页最忌讳尺寸忽大忽小，用户滑动时高度跳变观感很跳跃」。两条路：把四列全链改成 1:1，或把决策树/自测也拉成 1:2。</li>
-    <li><b>一期三个标题全部超 20 字。</b>小红书标题硬上限 20 字，超了发不出去。主推 24 字、备选2 24 字、备选3 25 字；二期主推 17 字没问题，备选3 是 21 字差 1 字。标题要重写。</li>
-    <li><b>四列全链正文字号偏小。</b>正文 21px 是 1242 宽下的值，折算到 1080 宽只有 18px；长图指南建议正文不小于 32px。手机上要放大才读得清。</li>
-    <li><b>一期只有 3 张图。</b>平台建议 4–9 张，3 张偏单薄，滑动互动也少。</li>
-    <li><b>四列全链底部缺文献出处。</b>其余 8 张都有「出处：《猫病学》…」，只有它没有，SKILL 里是硬要求。</li>
+    <li><b>一期1-树形分档、一期1-四列全链（单张版）现在都不用了</b>，文件还留在 <code>一期/</code> 里。删不删？</li>
+    <li><b>内容有重叠</b>：图1/图2（四列全链 A/B）和图3（决策树）都在做「该在家还是该送医」这件事。要不要把决策树撤掉、换成别的？</li>
   </ol>
 </div>
 
