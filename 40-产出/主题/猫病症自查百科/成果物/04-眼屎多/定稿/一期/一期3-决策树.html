@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>一期3 · 决策树</title><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html, body { width:1242px; height:1656px; }
+body { font-family:"Microsoft YaHei","PingFang SC","Source Han Sans SC",sans-serif; background:#ffffff; color:#14161a; padding:0 46px; display:flex; flex-direction:column; justify-content:center; }
+.ask { font-size:35px; font-weight:800; color:#e5484d; line-height:1.38; }
+h1 { font-size:62px; font-weight:900; line-height:1.18; margin-top:12px; }
+h1 em { font-style:normal; color:#e5484d; }
+.sub { font-size:30px; color:#6b7280; margin-top:12px; }
+.thead { display:flex; gap:12px; margin-top:26px; }
+.thead .h { font-size:30px; font-weight:800; color:#6b7280; }
+.h1c { flex:0 0 250px; } .h2c { flex:1; } .h3c { flex:0 0 232px; text-align:center; }
+.rows { margin-top:14px; flex:none; display:flex; flex-direction:column; gap:14px; }
+.row { display:flex; gap:12px; align-items:stretch; }
+.before { flex:0 0 250px; display:flex; align-items:center; font-size:28px; line-height:1.32; color:#9aa1ab; }
+.now { flex:1; display:flex; align-items:center; font-size:30px; line-height:1.34; border-radius:14px; background:#f7f8fa; padding:18px 22px; }
+.do { flex:0 0 232px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:31px; font-weight:800; border-radius:14px; }
+.d-g { background:#2e9e5b; } .d-a { background:#f0a52e; } .d-r { background:#e5484d; }
+.foot { margin-top:22px; font-size:24px; color:#8a9099; line-height:1.5; }
+</style></head><body>
+  <div class="ask">擦了两天，眼角那块黄褐色的东西还是天天有。</div>
+  <h1>这只眼睛，<em>要不要去医院？</em></h1>
+  <div class="sub">「以前」和「现在」摆一起，就差得很明显</div>
+
+  <div class="thead">
+    <div class="h h1c">以前</div>
+    <div class="h h2c">现在</div>
+    <div class="h h3c">该咋办</div>
+  </div>
+
+  <div class="rows">
+<div class="row"><div class="before">眼角干干净净</div><div class="now">早上眼皮糊住，温水敷一下能开，眼珠还是亮的</div><div class="do 调整">d-a</div></div>
+<div class="row"><div class="before">洗脸两下就完</div><div class="now">现在不停用爪子扒眼，脸在地毯上蹭</div><div class="do 调整">d-a</div></div>
+<div class="row"><div class="before">透明一小滴泪痕</div><div class="now">内眼角黄褐色，擦掉第二天又来</div><div class="do 观察">d-g</div></div>
+<div class="row"><div class="before">眼周毛是白的</div><div class="now">被泪水浸成红褐色，摸上去硬邦邦</div><div class="do 观察">d-g</div></div>
+<div class="row"><div class="before">两只眼都睁得开</div><div class="now">一只眼一直眯着、怕光、往暗处躲</div><div class="do 送医">d-r</div></div>
+<div class="row"><div class="before">眼睛黑亮有反光</div><div class="now">像蒙了一层雾，或者眼角有个小白点</div><div class="do 送医">d-r</div></div>
+<div class="row"><div class="before">两边瞳孔一样大</div><div class="now">瞳孔不一样大、形状不齐，眼球看着往外鼓</div><div class="do 送医">d-r</div></div>
+  </div>
+
+  <div class="foot">症状不等于诊断，最终由兽医排查。｜ 出处：《猫病学》第 5 版 第 1 篇“病与症”第 125 条「角膜炎及结膜炎」</div>
+</body></html>
