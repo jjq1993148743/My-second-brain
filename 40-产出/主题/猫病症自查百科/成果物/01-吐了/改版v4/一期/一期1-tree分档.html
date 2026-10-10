@@ -9,29 +9,38 @@
   body {
     font-family:"Microsoft YaHei","PingFang SC","Source Han Sans SC",sans-serif;
     background:#fbf7f1; color:#14161a;
-    padding:76px 56px 60px; display:flex; flex-direction:column;
+    padding:58px 44px 48px; display:flex; flex-direction:column;
   }
-  .ask { font-size:42px; font-weight:800; color:#e5484d; line-height:1.4; }
-  h1 { font-size:92px; font-weight:900; line-height:1.18; margin-top:22px; }
+  .ask { font-size:40px; font-weight:800; color:#e5484d; line-height:1.4; }
+  h1 { font-size:80px; font-weight:900; line-height:1.16; margin-top:16px; }
   h1 em { font-style:normal; color:#e5484d; }
-  .sub { font-size:34px; color:#4a5159; margin-top:20px; line-height:1.5; }
-  .tree { margin-top:30px; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .sub { font-size:32px; color:#4a5159; margin-top:16px; line-height:1.5; }
+  .tree { margin-top:24px; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; }
   .root {
-    background:#14161a; color:#fff; font-size:50px; font-weight:900;
-    border-radius:20px; padding:22px 64px;
+    background:#14161a; color:#fff; font-size:46px; font-weight:900;
+    border-radius:18px; padding:22px 60px;
   }
-  .stem { width:4px; height:40px; background:#c9ced6; }
-  .branches { display:flex; gap:24px; width:100%; }
+  .stem { width:4px; height:28px; background:#c9ced6; }
+  .branches { display:flex; gap:20px; width:100%; }
   .br { flex:1; display:flex; flex-direction:column; align-items:center; }
-  .br .top { width:4px; height:30px; background:#c9ced6; }
-  .lv { width:100%; text-align:center; font-size:44px; font-weight:900; color:#fff; border-radius:14px; padding:20px 0; }
-  .items { width:100%; margin-top:16px; display:flex; flex-direction:column; gap:18px; }
-  .it { font-size:38px; line-height:1.35; border-radius:14px; padding:28px 22px; text-align:center; }
-  .note { margin-top:auto; padding-top:20px; font-size:26px; color:#6b7280; line-height:1.45; text-align:center; }
-  .g .lv { background:#2e9e5b; } .g .it { background:#eef7f1; }
-  .a .lv { background:#f0a52e; } .a .it { background:#fdf6ea; }
-  .r .lv { background:#e5484d; } .r .it { background:#fdf1f1; }
-  .who { margin-top:auto; padding-top:30px; font-size:27px; color:#8a9099; line-height:1.5; }
+  .br .top { width:4px; height:24px; background:#c9ced6; }
+  .lv { width:100%; text-align:center; font-size:40px; font-weight:900; color:#fff; border-radius:14px; padding:16px 0; }
+  .cards { width:100%; margin-top:16px; display:flex; flex-direction:column; gap:16px; }
+  .card { border-radius:16px; border:2px solid; padding:20px 22px; }
+  .s { font-size:32px; font-weight:900; line-height:1.2; }
+  .d { font-size:22px; color:#6b7280; margin-top:7px; line-height:1.35; }
+  .why { font-size:25px; font-weight:800; margin-top:11px; line-height:1.25; }
+  .act { font-size:25px; color:#3d444d; margin-top:7px; line-height:1.35; }
+  .g .lv { background:#2e9e5b; }
+  .g .card { background:#f4faf6; border-color:#cfe8da; }
+  .g .why { color:#1f7a44; }
+  .a .lv { background:#f0a52e; }
+  .a .card { background:#fdfaf2; border-color:#f3e2c2; }
+  .a .why { color:#b3791a; }
+  .r .lv { background:#e5484d; }
+  .r .card { background:#fdf5f5; border-color:#f3d2d2; }
+  .r .why { color:#c93a3f; }
+  .who { margin-top:22px; font-size:27px; color:#8a9099; line-height:1.5; }
 </style>
 </head>
 <body>
@@ -46,30 +55,62 @@
       <div class="br g">
         <div class="top"></div>
         <div class="lv">在家调</div>
-        <div class="items">
-          <div class="it">吐粮</div>
-          <div class="it">吐黄水</div>
-          <div class="it">吐毛团</div>
+        <div class="cards">
+          <div class="card">
+            <div class="s">吐粮</div>
+            <div class="d">没泡开的粮，吃完没多久就吐</div>
+            <div class="why">多半是吃太快</div>
+            <div class="act">→ 粮摊薄平盘，试 2 周</div>
+          </div>
+          <div class="card">
+            <div class="s">吐黄水</div>
+            <div class="d">清晨吐，碗是空的</div>
+            <div class="why">空腹太久</div>
+            <div class="act">→ 睡前留一小份，试 3 天</div>
+          </div>
+          <div class="card">
+            <div class="s">吐毛团</div>
+            <div class="d">换毛季常见，带毛和黏液</div>
+            <div class="why">毛球</div>
+            <div class="act">→ 每天梳毛，数一周几次</div>
+          </div>
         </div>
-        <div class="note">多半是喂法和习惯的事</div>
       </div>
       <div class="br a">
         <div class="top"></div>
         <div class="lv">去排查</div>
-        <div class="items">
-          <div class="it">干呕伸脖子</div>
-          <div class="it">喝多掉秤</div>
+        <div class="cards">
+          <div class="card">
+            <div class="s">伸脖子“咔”</div>
+            <div class="d">肚子不抽，什么也没吐出来</div>
+            <div class="why">多半是咳，不是吐</div>
+            <div class="act">→ 录段视频，给医生看</div>
+          </div>
+          <div class="card">
+            <div class="s">喝多、掉秤</div>
+            <div class="d">吐的同时喝得多、体重在掉</div>
+            <div class="why">方向可能不在胃</div>
+            <div class="act">→ 记水量和体重，去看</div>
+          </div>
         </div>
-        <div class="note">方向可能不在胃</div>
       </div>
       <div class="br r">
         <div class="top"></div>
         <div class="lv">当天去</div>
-        <div class="items">
-          <div class="it">蹲盆尿少</div>
-          <div class="it">吐血</div>
+        <div class="cards">
+          <div class="card">
+            <div class="s">蹲盆尿少</div>
+            <div class="d">公猫蹲盆使劲，结块越来越小</div>
+            <div class="why">尿路可能堵了</div>
+            <div class="act">→ 按急症处理，别过夜</div>
+          </div>
+          <div class="card">
+            <div class="s">吐血 / 咖啡渣</div>
+            <div class="d">吐完精神一起垮</div>
+            <div class="why">消化道出血信号</div>
+            <div class="act">→ 当天去，别等</div>
+          </div>
         </div>
-        <div class="note">别等，当天就去</div>
       </div>
     </div>
   </div>
