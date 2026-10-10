@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>一期3 · 决策树</title><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html, body { width:1242px; height:1656px; }
+body { font-family:"Microsoft YaHei","PingFang SC","Source Han Sans SC",sans-serif; background:#ffffff; color:#14161a; padding:0 46px; display:flex; flex-direction:column; justify-content:center; }
+.ask { font-size:35px; font-weight:800; color:#e5484d; line-height:1.38; }
+h1 { font-size:62px; font-weight:900; line-height:1.18; margin-top:12px; }
+h1 em { font-style:normal; color:#e5484d; }
+.sub { font-size:30px; color:#6b7280; margin-top:12px; }
+.thead { display:flex; gap:12px; margin-top:26px; }
+.thead .h { font-size:30px; font-weight:800; color:#6b7280; }
+.h1c { flex:0 0 250px; } .h2c { flex:1; } .h3c { flex:0 0 232px; text-align:center; }
+.rows { margin-top:14px; flex:none; display:flex; flex-direction:column; gap:14px; }
+.row { display:flex; gap:12px; align-items:stretch; }
+.before { flex:0 0 250px; display:flex; align-items:center; font-size:28px; line-height:1.32; color:#9aa1ab; }
+.now { flex:1; display:flex; align-items:center; font-size:30px; line-height:1.34; border-radius:14px; background:#f7f8fa; padding:18px 22px; }
+.do { flex:0 0 232px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:31px; font-weight:800; border-radius:14px; }
+.d-g { background:#2e9e5b; } .d-a { background:#f0a52e; } .d-r { background:#e5484d; }
+.foot { margin-top:22px; font-size:24px; color:#8a9099; line-height:1.5; }
+</style></head><body>
+  <div class="ask">碗里的粮一口没动。是挑食，还是真不吃？</div>
+  <h1>这顿不吃，<em>算哪一档？</em></h1>
+  <div class="sub">「以前」和「现在」摆一起看，答案就出来了</div>
+
+  <div class="thead">
+    <div class="h h1c">以前</div>
+    <div class="h h2c">现在</div>
+    <div class="h h3c">该咋办</div>
+  </div>
+
+  <div class="rows">
+<div class="row"><div class="before">一天两顿，每顿多半碗都吃净</div><div class="now">同一款粮吃两三粒就走，晚上还剩三分之二</div><div class="do d-a">调整</div></div>
+<div class="row"><div class="before">一开粮袋，隔两间房就冲过来坐好</div><div class="now">慢慢走过来闻一下，扭头走</div><div class="do d-a">调整</div></div>
+<div class="row"><div class="before">到点就蹲在碗边叫你</div><div class="now">到点也不去，得把碗端到它跟前才勉强低头</div><div class="do d-a">调整</div></div>
+<div class="row"><div class="before">整口咽</div><div class="now">含在嘴里嚼两下，“咔哒”掉回盆里或吐在地上</div><div class="do d-g">观察</div></div>
+<div class="row"><div class="before">傍晚主动来陪你玩、追逗猫棒</div><div class="now">趴着不怎么动，但水照喝、人照理</div><div class="do d-g">观察</div></div>
+<div class="row"><div class="before">抱起来是“一坨实的”，肋骨要摸才感觉得到</div><div class="now">一个月轻了七八十克，脊背一节一节硌手，肚子往上收</div><div class="do d-r">送医</div></div>
+<div class="row"><div class="before">水照喝，猫砂结块正常</div><div class="now">连水也不碰，或者尿团明显变少</div><div class="do d-r">送医</div></div>
+  </div>
+
+  <div class="foot">症状不等于诊断，最终由兽医排查。｜ 出处：《猫病学》第 5 版 第 1 篇“病与症”第 10 条「厌食」</div>
+</body></html>
