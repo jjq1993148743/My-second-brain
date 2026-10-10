@@ -11,22 +11,23 @@
     background:#fbf7f1; color:#14161a;
     padding:76px 56px 60px; display:flex; flex-direction:column;
   }
-  .ask { font-size:40px; font-weight:800; color:#e5484d; line-height:1.4; }
-  h1 { font-size:88px; font-weight:900; line-height:1.18; margin-top:22px; }
+  .ask { font-size:42px; font-weight:800; color:#e5484d; line-height:1.4; }
+  h1 { font-size:92px; font-weight:900; line-height:1.18; margin-top:22px; }
   h1 em { font-style:normal; color:#e5484d; }
   .sub { font-size:34px; color:#4a5159; margin-top:20px; line-height:1.5; }
-  .tree { margin-top:36px; flex:1; display:flex; flex-direction:column; align-items:center; }
+  .tree { margin-top:30px; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; }
   .root {
-    background:#14161a; color:#fff; font-size:44px; font-weight:900;
-    border-radius:18px; padding:20px 56px;
+    background:#14161a; color:#fff; font-size:50px; font-weight:900;
+    border-radius:20px; padding:22px 64px;
   }
-  .stem { width:4px; height:34px; background:#c9ced6; }
-  .branches { display:flex; gap:22px; width:100%; }
+  .stem { width:4px; height:40px; background:#c9ced6; }
+  .branches { display:flex; gap:24px; width:100%; }
   .br { flex:1; display:flex; flex-direction:column; align-items:center; }
-  .br .top { width:4px; height:26px; background:#c9ced6; }
-  .lv { width:100%; text-align:center; font-size:40px; font-weight:900; color:#fff; border-radius:14px; padding:16px 0; }
-  .items { width:100%; margin-top:14px; display:flex; flex-direction:column; gap:12px; }
-  .it { font-size:33px; line-height:1.35; border-radius:14px; padding:18px 22px; text-align:center; }
+  .br .top { width:4px; height:30px; background:#c9ced6; }
+  .lv { width:100%; text-align:center; font-size:44px; font-weight:900; color:#fff; border-radius:14px; padding:20px 0; }
+  .items { width:100%; margin-top:16px; display:flex; flex-direction:column; gap:18px; }
+  .it { font-size:38px; line-height:1.35; border-radius:14px; padding:28px 22px; text-align:center; }
+  .note { margin-top:auto; padding-top:20px; font-size:26px; color:#6b7280; line-height:1.45; text-align:center; }
   .g .lv { background:#2e9e5b; } .g .it { background:#eef7f1; }
   .a .lv { background:#f0a52e; } .a .it { background:#fdf6ea; }
   .r .lv { background:#e5484d; } .r .it { background:#fdf1f1; }
@@ -34,9 +35,9 @@
 </style>
 </head>
 <body>
-  <div class="ask">你家的猫主子，是不是也这样？</div>
+  <div class="ask">半夜听见“呕——”，你是不是腾地就坐起来了？</div>
   <h1>猫吐了，先<em>分这 3 档</em></h1>
-  <div class="sub">别慌 —— 对照一下，它落在哪一档</div>
+  <div class="sub">先别急着跑医院 —— 对照一下，它落在哪一档</div>
 
   <div class="tree">
     <div class="root">猫吐了</div>
@@ -50,6 +51,7 @@
           <div class="it">吐黄水</div>
           <div class="it">吐毛团</div>
         </div>
+        <div class="note">多半是喂法和习惯的事</div>
       </div>
       <div class="br a">
         <div class="top"></div>
@@ -58,6 +60,7 @@
           <div class="it">干呕伸脖子</div>
           <div class="it">喝多掉秤</div>
         </div>
+        <div class="note">方向可能不在胃</div>
       </div>
       <div class="br r">
         <div class="top"></div>
@@ -66,6 +69,7 @@
           <div class="it">蹲盆尿少</div>
           <div class="it">吐血</div>
         </div>
+        <div class="note">别等，当天就去</div>
       </div>
     </div>
   </div>
