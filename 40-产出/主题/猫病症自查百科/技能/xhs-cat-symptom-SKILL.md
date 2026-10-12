@@ -121,7 +121,8 @@ version: 2.8.0
 - 图标用 **CSS 圆点**，禁 emoji（headless 截图变方框）
 - **颜色类与子元素类同名会串色**（改名）
 - **flex 容器混排 `<b>` 会拆字**（改块级）
-- 截图后**必须 Read 看图复核**：溢出 / 孤字 / undefined / NaN
+- 截图后**必须 Read 看图复核**：溢出 / 孤字 / undefined / NaN / **整列空白**
+- **class 与内容写反**（03、04 决策树踩过，2026-10-12）：`<div class="do 调整">d-a</div>` 的正确写法是 `<div class="do d-a">调整</div>`。中文写进了 class、颜色代号写成了内容 → 文字是白的 + 背景色没生效 = **白底白字，整列看起来是空的**。这类错**只有 Read 看图才能发现**，§2 第 5 步"看图复核"绝不能省
 - 截图命令：`chrome --headless=new --disable-gpu --no-sandbox --force-device-scale-factor=2 --window-size=1242,1656 --screenshot=$TEMP/out.png "file:///C:/完整/Windows/路径.html"`
   - ⚠️ `file:///` 后面必须是 **Windows 式路径**（`C:/...`）；用 MSYS 式（`/c/...`）会变成 `file:////c/...` 报 `ERR_FILE_NOT_FOUND`
   - ⚠️ 输出先落 `$TEMP` 再 `cp` 回中文目录
