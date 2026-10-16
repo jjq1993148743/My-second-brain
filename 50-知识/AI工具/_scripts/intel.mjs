@@ -38,6 +38,7 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 function clean(s) {
   return String(s || '')
+    .replace(/<!\[CDATA\[/g, '').replace(/\]\]>/g, '')  // hnrss 的 title 在 CDATA 里
     .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
     .replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, ' ')
     .replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
@@ -80,6 +81,13 @@ const SUBS = ['sidehustle', 'beermoney', 'microsaas', 'juststart', 'indiehackers
 
 async function reddit(only) {
   const out = [];
+  // ⚠️ Reddit 将于 2026-11-13 关闭 RSS，之后此源失效
+  if (new Date() >= new Date('2026-11-13')) {
+    out.push('\n⚠️ Reddit RSS 已于 2026-11-13 关闭，此源已失效。改用 v2ex / ph / hn 源。');
+    return out;
+  }
+  const daysLeft = Math.ceil((new Date('2026-11-13') - new Date()) / 86400000);
+  out.push('\n⚠️ Reddit RSS 还有 ' + daysLeft + ' 天关闭（2026-11-13），届时此源失效');
   const subs = only ? [only] : SUBS;
   for (let i = 0; i < subs.length; i++) {
     const s = subs[i];
@@ -103,6 +111,26 @@ async function reddit(only) {
     } catch (err) {
       out.push('r/' + s + ' 错误: ' + err.message);
     }
+  }
+  return out;
+}
+
+// ── 源 5：Hacker News Show（hnrss，>=100 分）─────────────
+async function hackernews() {
+  const out = ['\n══════ Hacker News Show (>=100pts) ══════'];
+  const r = await get('https://hnrss.org/show?points=100', 'application/rss+xml');
+  if (r.status !== 200) { out.push('  失败: ' + r.status); return out; }
+  // 注意：hnrss 的 title 在 CDATA 里，必须先剥掉
+  const items = r.body.split('<item>').slice(1);
+  out.push('  条目: ' + items.length);
+  for (const it of items) {
+    const t = /<title>([\s\S]*?)<\/title>/.exec(it);
+    const l = /<link>([\s\S]*?)<\/link>/.exec(it);
+    const d = /<pubDate>([^<]+)</.exec(it);
+    const title = clean(t ? t[1] : '?');
+    out.push('  • ' + title);
+    if (d) out.push('      ' + d[1].slice(0, 16));
+    if (l) out.push('      ' + clean(l[1]));
   }
   return out;
 }
@@ -178,6 +206,7 @@ try {
   if (!arg || arg === 'v2ex') out.push(...(await v2ex()));
   if (!arg || arg === 'bounty') out.push(...(await bounty()));
   if (!arg || arg === 'ph') out.push(...(await producthunt()));
+  if (!arg || arg === 'hn') out.push(...(await hackernews()));
   if (!arg || arg === 'reddit') out.push(...(await reddit()));
   else if (SUBS.includes(arg)) out.push(...(await reddit(arg)));
 } catch (err) {
