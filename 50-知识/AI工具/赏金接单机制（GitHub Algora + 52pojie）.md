@@ -23,10 +23,13 @@ tags: [工作, 可复用模板]
 | 仓库 | 金额 | 任务 |
 |---|---|---|
 | `UnsafeLabs/RFC-5322#1` | **$400** | 实现 ABNF 合规的 email 地址解析器（完整覆盖 §3.2–§4.4） |
-| `oll4com/spaceapp` | **$150 × 6 个** | 部署脚本/按服务容器镜像/rootless Podman/WebGL 渲染 5 万节点/OTLP trace/CI 测试 |
-| `ClankerNation/OpenAgents` | $9k / $8k / $3k / $2k | SDK 编解码修复、API 结构化错误响应、限流区分认证 |
+| `oll4com/spaceapp` | **$400–600 × 6 个** | 部署脚本 $450 / 按服务容器镜像 $400 / rootless Podman $600 / WebGL 渲染 5 万节点 / OTLP trace / CI 测试 |
+| `ClankerNation/OpenAgents` | **51 个 issue**（$2k–$9k） | SDK 编解码、API 结构化错误、限流区分认证、Timelock 延迟执行。**挂赏金最多的仓库** |
+| `SecureBananaLabs/bug-bounty` | **30 个 issue** | 安全类：权限绕过、CORS 无白名单、认证中间件缺失、空文件上传 |
 
-> 注意：`spaceapp` 那 6 个是**同一天创建**的，说明有团队在批量挂赏金——**这类仓库值得订阅**。
+> 注意：`spaceapp` 那 6 个是**同一天创建**的，说明有团队在批量挂赏金。按仓库聚合后，**三个仓库占了 87/98 个 issue**：`ClankerNation/OpenAgents`（51）、`SecureBananaLabs/bug-bounty`（30）、`oll4com/spaceapp`（6）。
+>
+> **盯这三个仓库比每天搜全站更高效**。
 
 ### 四条实战技巧（V2EX 原帖）
 

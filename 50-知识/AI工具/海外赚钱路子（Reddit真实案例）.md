@@ -160,6 +160,36 @@ tags: [工作, 创业, 可复用模板]
 
 > AI 推测：**Reddit RSS + 100 秒间隔**是目前最稳的海外情报源。缺点是慢，建议做成后台任务按小时轮询多个 sub。
 
+### 已验证可抓的海外站（2026-10-16 实测）
+
+| 站点 | 状态 | 说明 |
+|---|---|---|
+| **Reddit RSS** | ✅ 200 | `/r/<sub>/top/.rss?t=year`，**间隔必须 ≥100 秒**，否则 429 |
+| **GitHub API** | ✅ 200 | `api.github.com/search/issues`，**无鉴权可用**（有速率限制） |
+| Hacker News API | ✅ 200 | `hacker-news.firebaseio.com/v0/`，完全开放 |
+| Gumroad | ⚠️ 200 但拿不到数据 | 是 SPA，需 JS 渲染 |
+| AppSumo | ⚠️ 200 但拿不到数据 | 同上 |
+| Indie Hackers | ⚠️ 200 但无条目 | 是 SPA，无 RSS |
+| Product Hunt | ❌ 403 | Cloudflare |
+| Upwork RSS | ❌ 403 | Challenge 页 |
+| Fiverr | ❌ 403 | 需过 captcha（px-cloud） |
+| old.reddit.com | ❌ Blocked | "network policy" |
+| Algora API | ❌ 406 | 需要特定 Accept header，未破解 |
+
+> AI 推测：**能稳定抓的只有 Reddit RSS + GitHub API + HN API 三个**。Product Hunt / Upwork / Fiverr 都有 Cloudflare 或 captcha，不建议硬碰。
+
+### GitHub bounty 仓库集中度（重要）
+
+按仓库聚合 98 个 issue 后：
+
+| 仓库 | issue 数 |
+|---|---|
+| `ClankerNation/OpenAgents` | **51** |
+| `SecureBananaLabs/bug-bounty` | **30** |
+| `oll4com/spaceapp` | 6 |
+
+**三个仓库占了 87/98**。盯这三个比每天搜全站高效得多。
+
 ---
 
 ## 五、和国内案例的对照（值得注意的差异）
