@@ -17,6 +17,7 @@ node intel.mjs v2ex         # 只跑 V2EX 副业节点
 node intel.mjs bounty       # 只跑 GitHub 赏金
 node intel.mjs ph           # 只跑 Product Hunt（含赛道拥挤度统计）
 node intel.mjs hn           # 只跑 Hacker News Show（>=100 分）
+node intel.mjs fl           # 只跑 Freelancer.com（带预算提取）
 node intel.mjs sidehustle   # 只跑某个 subreddit
 node intel.mjs reddit       # 跑全部 6 个 subreddit
 ```
@@ -31,6 +32,7 @@ node intel.mjs reddit       # 跑全部 6 个 subreddit
 | **GitHub 赏金** | ✅ 已验证 | `💎 Bounty` 标签，当前 **561 个 open**，按仓库聚合 |
 | **Product Hunt** | ✅ 已验证 | Atom feed 拿 **50 条当日产品**，自动统计赛道拥挤度 |
 | **Hacker News** | ✅ 已验证 | `hnrss.org/show?points=100` 拿 20 条 Show HN（标题在 CDATA 里，已处理） |
+| **Freelancer.com** | ✅ 已验证 | `freelancer.com/rss.xml` 拿 20 条新项目，**每条带预算和技能标签** |
 | **Reddit** | ✅ 已验证 | 6 个 sub（sidehustle / beermoney / microsaas / juststart / indiehackers / EntrepreneurRideAlong），**每个间隔 100 秒** |
 
 ## 自动提取
@@ -76,6 +78,19 @@ open 总数: 561
 | 中文站 GBK 编码 | Node 22 内置 `TextDecoder('gbk')`（iconv-lite 未装） |
 | 本机无直连 | 走系统代理 `127.0.0.1:7897`（Clash），脚本里 `PROXY` 常量可改 |
 | 正则含 `/mo` 会崩 | 正则字面量里的斜杠会提前闭合，**别在正则里写 `/month` 这种** |
+
+## 配套：Reddit 存档脚本
+
+因为 Reddit RSS 即将关闭，另建了一个**存档脚本** `_scripts/reddit-archive.mjs`：
+
+```bash
+node reddit-archive.mjs
+```
+
+- 抓 12 个 sub 的 top/year（约 300 条），**含正文全文**
+- 每 sub 间隔 100 秒，遇 429 自动退避重试
+- **增量写入**，中断不丢已抓内容
+- 输出到 `40-产出/情报/reddit存档/reddit副业存档.md`
 
 ## ⚠️ 重要：Reddit 源将于 2026-11-13 失效
 

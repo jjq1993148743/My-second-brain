@@ -115,6 +115,29 @@ async function reddit(only) {
   return out;
 }
 
+// ── 源 6：Freelancer.com（RSS，带预算和技能标签）────────
+async function freelancer() {
+  const out = ['\n══════ Freelancer.com 新项目 ══════'];
+  const r = await get('https://www.freelancer.com/rss.xml', 'application/rss+xml');
+  if (r.status !== 200) { out.push('  失败: ' + r.status); return out; }
+  const items = r.body.split('<item>').slice(1);
+  out.push('  条目: ' + items.length);
+  for (const it of items) {
+    const t = /<title>([\s\S]*?)<\/title>/.exec(it);
+    const d = /<description>([\s\S]*?)<\/description>/.exec(it);
+    const l = /<link>([\s\S]*?)<\/link>/.exec(it);
+    const title = clean(t ? t[1] : '?');
+    const body = clean(d ? d[1] : '');
+    // 提取预算
+    const bud = /Budget:\s*([^,]+)/i.exec(body);
+    out.push('  • ' + title);
+    if (bud) out.push('      预算: ' + bud[1].trim());
+    out.push('      ' + body.slice(0, 180));
+    if (l) out.push('      ' + clean(l[1]));
+  }
+  return out;
+}
+
 // ── 源 5：Hacker News Show（hnrss，>=100 分）─────────────
 async function hackernews() {
   const out = ['\n══════ Hacker News Show (>=100pts) ══════'];
@@ -207,6 +230,7 @@ try {
   if (!arg || arg === 'bounty') out.push(...(await bounty()));
   if (!arg || arg === 'ph') out.push(...(await producthunt()));
   if (!arg || arg === 'hn') out.push(...(await hackernews()));
+  if (!arg || arg === 'fl') out.push(...(await freelancer()));
   if (!arg || arg === 'reddit') out.push(...(await reddit()));
   else if (SUBS.includes(arg)) out.push(...(await reddit(arg)));
 } catch (err) {
