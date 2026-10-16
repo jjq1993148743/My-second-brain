@@ -15,6 +15,7 @@ tags: [工作, 可复用模板]
 node intel.mjs              # 全部源（Reddit 部分较慢，见下）
 node intel.mjs v2ex         # 只跑 V2EX 副业节点
 node intel.mjs bounty       # 只跑 GitHub 赏金
+node intel.mjs ph           # 只跑 Product Hunt（含赛道拥挤度统计）
 node intel.mjs sidehustle   # 只跑某个 subreddit
 node intel.mjs reddit       # 跑全部 6 个 subreddit
 ```
@@ -27,6 +28,7 @@ node intel.mjs reddit       # 跑全部 6 个 subreddit
 |---|---|---|
 | **V2EX 副业节点** | ✅ 已验证 | JSON Feed 一次拿 **50 条带正文**，秒回，无需等待 |
 | **GitHub 赏金** | ✅ 已验证 | `💎 Bounty` 标签，当前 **561 个 open**，按仓库聚合 |
+| **Product Hunt** | ✅ 已验证 | Atom feed 拿 **50 条当日产品**，自动统计赛道拥挤度 |
 | **Reddit** | ✅ 已验证 | 6 个 sub（sidehustle / beermoney / microsaas / juststart / indiehackers / EntrepreneurRideAlong），**每个间隔 100 秒** |
 
 ## 自动提取

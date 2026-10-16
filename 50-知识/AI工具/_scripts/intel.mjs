@@ -107,6 +107,44 @@ async function reddit(only) {
   return out;
 }
 
+// ── 源 4：Product Hunt（Atom feed，50 条当日产品）────────
+async function producthunt() {
+  const out = ['\n══════ Product Hunt 当日 (Atom) ══════'];
+  const r = await get('https://www.producthunt.com/feed', 'application/atom+xml');
+  if (r.status !== 200) { out.push('  失败: ' + r.status); return out; }
+  const entries = r.body.split('<entry>').slice(1);
+  out.push('  条目: ' + entries.length);
+  // 统计赛道拥挤度
+  const cats = {
+    'AI coding / 开发工具': /coding agent|code review|developer|IDE|pull request|NestJS|observability|sandbox/i,
+    'Agent 基础设施': /agent memory|agent|approval layer|mcp|runtime/i,
+    'AI 视频/语音': /video|voice|audio|lip sync|speech/i,
+    '垂直行业工具': /legal|contract|compliance|home|family|document|translate|health/i,
+  };
+  const counts = {};
+  const hits = [];
+  for (const e of entries) {
+    const t = /<title[^>]*>([\s\S]*?)<\/title>/.exec(e);
+    const ct = /<content[^>]*>([\s\S]*?)<\/content>/.exec(e);
+    const l = /<link[^>]*href="([^"]+)"/.exec(e);
+    const title = clean(t ? t[1] : '?');
+    const body = clean(ct ? ct[1] : '');
+    for (const [k, re] of Object.entries(cats)) {
+      if (re.test(title + ' ' + body)) counts[k] = (counts[k] || 0) + 1;
+    }
+    if (l) hits.push({ title, url: l[1], body });
+  }
+  out.push('  赛道拥挤度（命中数）:');
+  for (const [k, v] of Object.entries(counts).sort((a, b) => b[1] - a[1])) {
+    out.push('      ' + k + ': ' + v);
+  }
+  out.push('  当日产品:');
+  for (const h of hits.slice(0, 25)) {
+    out.push('      • ' + h.title + ' — ' + h.body.slice(0, 80));
+  }
+  return out;
+}
+
 // ── 源 3：GitHub 赏金（Algora 标签）──────────────────────
 async function bounty() {
   const out = ['\n══════ GitHub 赏金 (💎 Bounty) ══════'];
@@ -139,6 +177,7 @@ out.push('# 赚钱情报 · ' + now);
 try {
   if (!arg || arg === 'v2ex') out.push(...(await v2ex()));
   if (!arg || arg === 'bounty') out.push(...(await bounty()));
+  if (!arg || arg === 'ph') out.push(...(await producthunt()));
   if (!arg || arg === 'reddit') out.push(...(await reddit()));
   else if (SUBS.includes(arg)) out.push(...(await reddit(arg)));
 } catch (err) {
