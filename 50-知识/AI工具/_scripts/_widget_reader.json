@@ -1,0 +1,34 @@
+[
+ {
+  "host": "themes.mi.com",
+  "status": null,
+  "len": 0,
+  "title": "",
+  "from": "https://themes.mi.com/",
+  "note": "[502][502][502] readers failed"
+ },
+ {
+  "host": "zedge.net/creators",
+  "status": null,
+  "len": 0,
+  "title": "",
+  "from": "https://www.zedge.net/creators",
+  "note": "[502][502][502] readers failed"
+ },
+ {
+  "host": "wallpaperengine.io",
+  "status": null,
+  "len": 0,
+  "title": "",
+  "from": "https://www.wallpaperengine.io/",
+  "note": "[502][502][502] readers failed"
+ },
+ {
+  "host": "iconpack.app",
+  "status": null,
+  "len": 0,
+  "title": "",
+  "from": "https://www.iconpack.app/",
+  "note": "[502][502][502] readers failed"
+ }
+]
