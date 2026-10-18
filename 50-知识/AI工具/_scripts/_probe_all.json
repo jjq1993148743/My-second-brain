@@ -1,0 +1,587 @@
+[
+ {
+  "name": "V2EX副业节点",
+  "url": "https://www.v2ex.com/feed/sidehustle.json",
+  "via": "proxy",
+  "status": 200,
+  "len": 290864,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "V2EX分享发现",
+  "url": "https://www.v2ex.com/?tab=creative",
+  "via": "proxy",
+  "status": 200,
+  "len": 120770,
+  "blocked": false,
+  "title": "V2EX"
+ },
+ {
+  "name": "52pojie悬赏区",
+  "url": "https://www.52pojie.cn/forum-8-1.html",
+  "via": "proxy",
+  "status": 200,
+  "len": 151638,
+  "blocked": false,
+  "title": "『悬赏问答区』 - 吾爱破解 - 52pojie.cn "
+ },
+ {
+  "name": "看雪",
+  "url": "https://bbs.kanxue.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 261293,
+  "blocked": false,
+  "title": "鐪嬮洩瀹夊叏绀惧尯锝滀笓涓氭妧鏈氦娴佷笌瀹夊叏鐮旂┒璁哄潧"
+ },
+ {
+  "name": "linux.sb",
+  "url": "https://linux.sb/",
+  "via": "proxy",
+  "status": 200,
+  "len": 167299,
+  "blocked": false,
+  "title": "鐑чゼ绀惧尯 - 浜轰汉閮芥湁楗煎悆鐨凙I绀惧尯锛丩INUX SB"
+ },
+ {
+  "name": "2libra",
+  "url": "https://2libra.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 304129,
+  "blocked": false,
+  "title": "2Libra"
+ },
+ {
+  "name": "豆瓣小组搜索",
+  "url": "https://www.douban.com/group/search?cat=1013&q=%E5%89%AF%E4%B8%9A",
+  "via": "proxy",
+  "status": 200,
+  "len": 50181,
+  "blocked": false,
+  "title": "\n        鎼滅储锛氬壇涓�\n"
+ },
+ {
+  "name": "B站搜索",
+  "url": "https://search.bilibili.com/all?keyword=%E5%89%AF%E4%B8%9A",
+  "via": "proxy",
+  "status": 200,
+  "len": 312807,
+  "blocked": false,
+  "title": "鍓笟-鍝斿摡鍝斿摡_bilibili"
+ },
+ {
+  "name": "闲鱼搜索",
+  "url": "https://www.goofish.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 11466,
+  "blocked": false,
+  "title": "闂查奔 - 闂蹭笉浣忥紵涓婇棽楸硷紒"
+ },
+ {
+  "name": "猪八戒",
+  "url": "https://www.zbj.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 262494,
+  "blocked": false,
+  "title": "鐚叓鎴掔綉-鍝佽川浼佷笟鏈嶅姟 灏辨壘鐚叓鎴�"
+ },
+ {
+  "name": "程序员客栈",
+  "url": "https://www.proginn.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 48736,
+  "blocked": false,
+  "title": "绋嬪簭鍛樺鏍�-棰嗗厛鐨勭▼搴忓憳鑷敱宸ヤ綔骞冲彴-绋嬪簭鍛樺吋鑱�"
+ },
+ {
+  "name": "电鸭",
+  "url": "https://eleduck.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 146539,
+  "blocked": false,
+  "title": "鐢甸腑绀惧尯-涓撴敞杩滅▼宸ヤ綔鎷涜仒浜ゆ祦-杩滅▼宸ヤ綔锛屼粠鐢甸腑寮€濮�"
+ },
+ {
+  "name": "牛客",
+  "url": "https://www.nowcoder.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 274753,
+  "blocked": false,
+  "title": "鐗涘缃� - 鎵惧伐浣滅鍣▅绗旇瘯棰樺簱|闈㈣瘯缁忛獙|瀹炰範鎷涜仒鍐呮帹锛屾眰鑱屽氨涓氫竴绔欒В鍐砡鐗涘缃�"
+ },
+ {
+  "name": "青团社",
+  "url": "https://www.qtshe.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 97046,
+  "blocked": false,
+  "title": "闈掑洟绀惧吋鑱�-鎷涗汉銆佹壘宸ヤ綔銆佸畨鍏ㄩ潬璋辩殑鍏艰亴鎷涜仒鏈嶅姟骞冲彴"
+ },
+ {
+  "name": "三茅HR",
+  "url": "https://www.hrloo.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 190573,
+  "blocked": false,
+  "title": "涓夎寘缃�-浣犺韩杈圭殑浜哄姏璧勬簮涓撳"
+ },
+ {
+  "name": "优设",
+  "url": "https://www.uisdc.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 357575,
+  "blocked": false,
+  "title": "浼樿缃戝畼缃� - UISDC - 鍥藉唴涓撲笟璁捐甯堝钩鍙� - 鐪嬭璁℃枃绔狅紝瀛IGC鏁欑▼锛屾壘鐏垫劅绱犳潗锛屽敖鍦ㄤ紭璁剧綉锛�"
+ },
+ {
+  "name": "米画师",
+  "url": "https://www.mihuashi.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 19033,
+  "blocked": false,
+  "title": "绫崇敾甯� - 甯︾粰浣犺嚜鐢便€侀珮鏁堛€佷笓涓氱殑缇庢湳宸ヤ綔浣撻獙"
+ },
+ {
+  "name": "苦力怕论坛",
+  "url": "https://klpbbs.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 159770,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "爱发电",
+  "url": "https://afdian.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 17816,
+  "blocked": false,
+  "title": "鐖卞彂鐢� 路 杩炴帴鍒涗綔鑰呬笌绮変笣鐨勪細鍛樺埗骞冲彴"
+ },
+ {
+  "name": "sillytaverncn",
+  "url": "https://sillytaverncn.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 54736,
+  "blocked": false,
+  "title": "閰掗 SillyTavern 涓枃瀹樻柟鏂囨。 | AI瑙掕壊鎵紨瀹屾暣鏁欑▼ | 閰掗涓撳睘澶фā鍨�"
+ },
+ {
+  "name": "jiuguanhub",
+  "url": "https://jiuguanhub.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 11657,
+  "blocked": false,
+  "title": "閰掗 - 鍏嶉儴缃茬殑閰掗AI,瓒呭AI濂冲弸鍏嶈垂鎾�"
+ },
+ {
+  "name": "bar-ai",
+  "url": "https://www.bar-ai.cn/",
+  "via": "proxy",
+  "status": 200,
+  "len": 53593,
+  "blocked": false,
+  "title": "閰掗ai - 閰掗AI鍒涗綔绀惧尯 鏅鸿兘瀵硅瘽涓庣伒鎰熸晠浜嬪湪绾夸綋楠�"
+ },
+ {
+  "name": "v2exfuye存档",
+  "url": "https://v2exfuye.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 7595,
+  "blocked": false,
+  "title": "V2EX 鍓笟鏃ユ姤 - 姣忔棩绮鹃€�"
+ },
+ {
+  "name": "特赞",
+  "url": "https://www.tezign.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 227781,
+  "blocked": false,
+  "title": "鐗硅禐 Tezign锝滃叏鐞冮鍏堢殑浼佷笟绾ф櫤鑳戒綋鍏徃"
+ },
+ {
+  "name": "法天使",
+  "url": "https://www.fatianshi.cn/",
+  "via": "proxy",
+  "status": 200,
+  "len": 27432,
+  "blocked": false,
+  "title": "娉曞ぉ浣匡綔娉曞姟AI涓庝腑鍥藉悎鍚屽簱 - 鍚堝悓妯℃澘搴撲笌鍚堝悓鍔╂墜"
+ },
+ {
+  "name": "coconala日",
+  "url": "https://coconala.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 1816696,
+  "blocked": false,
+  "title": "銈炽偝銉娿儵 - 銉椼儹銇岄泦銇俱倠鏃ユ湰鏈€澶х礆銇偣銈儷銉炪兗銈便儍銉�"
+ },
+ {
+  "name": "workana拉美",
+  "url": "https://www.workana.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 249114,
+  "blocked": false,
+  "title": "Hire Freelancers and IT Developers | Workana"
+ },
+ {
+  "name": "Gumroad",
+  "url": "https://gumroad.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 128638,
+  "blocked": false,
+  "title": "Earn your first dollar online with Gumroad"
+ },
+ {
+  "name": "RobloxCreate",
+  "url": "https://create.roblox.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 19082,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "漏洞盒子",
+  "url": "https://www.vulbox.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 45802,
+  "blocked": false,
+  "title": "婕忔礊鐩掑瓙 - 涓浗棰嗗厛鐨勬紡娲炲钩鍙颁笌鐧藉附绀惧尯|瀹夊叏浼楁祴涓庡畨鍏ㄨ繍钀ユ湇鍔″钩鍙�"
+ },
+ {
+  "name": "补天",
+  "url": "https://www.butian.net/",
+  "via": "proxy",
+  "status": 200,
+  "len": 66560,
+  "blocked": false,
+  "title": "琛ュぉ - 浼佷笟鍜岀櫧甯藉瓙鍏辫耽鐨勬紡娲炲搷搴斿钩鍙帮紝甯姪浼佷笟寤虹珛SRC"
+ },
+ {
+  "name": "IndieHackers",
+  "url": "https://www.indiehackers.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 148335,
+  "blocked": false,
+  "title": "Indie Hackers: Work Together to Build Profitable Online Businesses"
+ },
+ {
+  "name": "ArcticShift",
+  "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=sidehustle&limit=2",
+  "via": "proxy",
+  "status": 200,
+  "len": 5389,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "HN-Algolia",
+  "url": "https://hn.algolia.com/api/v1/search?query=side+hustle&hitsPerPage=2",
+  "via": "proxy",
+  "status": 200,
+  "len": 2376,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "DataAnnotation",
+  "url": "https://www.dataannotation.tech/",
+  "via": "proxy",
+  "status": 200,
+  "len": 119528,
+  "blocked": false,
+  "title": "DataAnnotation | Get Paid to Teach AI Your Expertise"
+ },
+ {
+  "name": "Mercor",
+  "url": "https://mercor.com/",
+  "via": "proxy",
+  "status": 301,
+  "len": 134,
+  "blocked": false,
+  "title": "301 Moved Permanently"
+ },
+ {
+  "name": "UserInterviews",
+  "url": "https://www.userinterviews.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 88285,
+  "blocked": false,
+  "title": "User Interviews | The User Research Recruiting Platform for Teams"
+ },
+ {
+  "name": "Userlytics",
+  "url": "https://www.userlytics.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 724856,
+  "blocked": false,
+  "title": "Userlytics | All-in-One User Testing &amp; UX Research Platform"
+ },
+ {
+  "name": "Clickworker",
+  "url": "https://www.clickworker.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 94523,
+  "blocked": false,
+  "title": "Data Services by clickworker"
+ },
+ {
+  "name": "Contra",
+  "url": "https://contra.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 782110,
+  "blocked": false,
+  "title": "Contra - A professional network for the jobs and skills of the future"
+ },
+ {
+  "name": "PeoplePerHour",
+  "url": "https://www.peopleperhour.com/",
+  "via": "proxy",
+  "status": 202,
+  "len": 0,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "Appen",
+  "url": "https://www.appen.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 201689,
+  "blocked": false,
+  "title": "AI Training Data &amp; Human Data for AI Models | Appen"
+ },
+ {
+  "name": "Etsy",
+  "url": "https://www.etsy.com/",
+  "via": "proxy",
+  "status": 403,
+  "len": 776,
+  "blocked": false,
+  "title": "etsy.com"
+ },
+ {
+  "name": "Upwork",
+  "url": "https://www.upwork.com/",
+  "via": "proxy",
+  "status": 403,
+  "len": 344252,
+  "blocked": false,
+  "title": "Challenge - Upwork"
+ },
+ {
+  "name": "ProductHunt",
+  "url": "https://www.producthunt.com/",
+  "via": "proxy",
+  "status": 403,
+  "len": 5591,
+  "blocked": true,
+  "title": "Just a moment..."
+ },
+ {
+  "name": "Envato",
+  "url": "https://author.envato.com/",
+  "via": "proxy",
+  "status": 403,
+  "len": 5568,
+  "blocked": true,
+  "title": "Just a moment..."
+ },
+ {
+  "name": "CreativeMarket",
+  "url": "https://creativemarket.com/sell",
+  "via": "proxy",
+  "status": 403,
+  "len": 5581,
+  "blocked": true,
+  "title": "Just a moment..."
+ },
+ {
+  "name": "Patreon",
+  "url": "https://www.patreon.com/",
+  "via": "proxy",
+  "status": 403,
+  "len": 5608,
+  "blocked": true,
+  "title": "Just a moment..."
+ },
+ {
+  "name": "NexusMods",
+  "url": "https://www.nexusmods.com/",
+  "via": "proxy",
+  "status": 403,
+  "len": 5568,
+  "blocked": true,
+  "title": "Just a moment..."
+ },
+ {
+  "name": "Fiverr",
+  "url": "https://www.fiverr.com/",
+  "via": "proxy",
+  "status": 403,
+  "len": 35960,
+  "blocked": true,
+  "title": "It needs a human touch"
+ },
+ {
+  "name": "Dcard",
+  "url": "https://www.dcard.tw/",
+  "via": "proxy",
+  "status": 403,
+  "len": 5017,
+  "blocked": true,
+  "title": "Attention Required! | Cloudflare"
+ },
+ {
+  "name": "LINUXDO",
+  "url": "https://linux.do/",
+  "via": "proxy",
+  "status": 403,
+  "len": 7026,
+  "blocked": true,
+  "title": "Just a moment..."
+ },
+ {
+  "name": "知乎",
+  "url": "https://www.zhihu.com/billboard",
+  "via": "proxy",
+  "status": 403,
+  "len": 650,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "贴吧",
+  "url": "https://tieba.baidu.com/f?kw=%E5%89%AF%E4%B8%9A",
+  "via": "proxy",
+  "status": 403,
+  "len": 2506,
+  "blocked": false,
+  "title": "鐧惧害瀹夊叏楠岃瘉"
+ },
+ {
+  "name": "NGA",
+  "url": "https://bbs.nga.cn/",
+  "via": "proxy",
+  "status": 403,
+  "len": 4734,
+  "blocked": false,
+  "title": "访客不能直接访问"
+ },
+ {
+  "name": "BOOTH",
+  "url": "https://booth.pm/",
+  "via": "proxy",
+  "status": 403,
+  "len": 5580,
+  "blocked": true,
+  "title": "Just a moment..."
+ },
+ {
+  "name": "小红书",
+  "url": "https://www.xiaohongshu.com/explore",
+  "via": "proxy",
+  "status": 302,
+  "len": 130,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "itch.io",
+  "url": "https://itch.io/",
+  "via": "proxy",
+  "status": 502,
+  "len": 0,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "Reddit",
+  "url": "https://www.reddit.com/r/sidehustle/",
+  "via": "proxy",
+  "status": 403,
+  "len": 190240,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "Prolific",
+  "url": "https://www.prolific.com/",
+  "via": "proxy",
+  "status": 200,
+  "len": 170111,
+  "blocked": false,
+  "title": "Prolific | Easily collect high-quality data from real people"
+ },
+ {
+  "name": "GooglePlay",
+  "url": "https://play.google.com/store",
+  "via": "proxy",
+  "status": 302,
+  "len": 0,
+  "blocked": false,
+  "title": ""
+ },
+ {
+  "name": "DuckDuckGo",
+  "url": "https://html.duckduckgo.com/html/?q=test",
+  "via": "proxy",
+  "status": 202,
+  "len": 14185,
+  "blocked": false,
+  "title": "\n        DuckDuckGo\n    "
+ },
+ {
+  "name": "Google搜索",
+  "url": "https://www.google.com/search?q=side+hustle",
+  "via": "proxy",
+  "status": 302,
+  "len": 398,
+  "blocked": false,
+  "title": "302 Moved"
+ },
+ {
+  "name": "Bing搜索",
+  "url": "https://www.bing.com/search?q=side+hustle",
+  "via": "proxy",
+  "status": 302,
+  "len": 157,
+  "blocked": false,
+  "title": "Object moved"
+ },
+ {
+  "name": "Wayback",
+  "url": "https://web.archive.org/web/2026/https://www.reddit.com/r/sidehustle/",
+  "via": "proxy",
+  "status": 302,
+  "len": 0,
+  "blocked": false,
+  "title": ""
+ }
+]
