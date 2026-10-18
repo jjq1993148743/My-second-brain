@@ -1,0 +1,42 @@
+[
+ {
+  "host": "miui",
+  "status": 302,
+  "len": 32,
+  "title": "302 Found",
+  "from": "https://www.miui.com/",
+  "note": " hits=0"
+ },
+ {
+  "host": "themes.mi",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "https://themes.mi.com/",
+  "note": " hits=0"
+ },
+ {
+  "host": "zedge",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "https://www.zedge.net/creators",
+  "note": " hits=0"
+ },
+ {
+  "host": "wallpaperengine",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "https://www.wallpaperengine.io/",
+  "note": " hits=0"
+ },
+ {
+  "host": "iconpack",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "https://www.iconpack.app/",
+  "note": " hits=0"
+ }
+]

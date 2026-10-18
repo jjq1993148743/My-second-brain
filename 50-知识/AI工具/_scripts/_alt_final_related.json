@@ -1,0 +1,412 @@
+[
+ {
+  "host": "sendportal.io",
+  "status": 200,
+  "len": 11381,
+  "title": "SendPortal - Open Source Email Marketing Software",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "market"
+  ]
+ },
+ {
+  "host": "akaunting.com",
+  "status": 200,
+  "len": 61574,
+  "title": "Free Accounting Software for Small Businesses - Akaunting",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "market"
+  ]
+ },
+ {
+  "host": "dub.co",
+  "status": 200,
+  "len": 702125,
+  "title": "Dub - The Modern Link Attribution Platform",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "market"
+  ]
+ },
+ {
+  "host": "yourls.org",
+  "status": 200,
+  "len": 35230,
+  "title": "YOURLS",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "market"
+  ]
+ },
+ {
+  "host": "www.dolicloud.com",
+  "status": 200,
+  "len": 50256,
+  "title": "Cloud Open Source ERP and CRM for business - The online on demand SaaS hosting service for SME of Dolibarr sui",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "gauzy.co",
+  "status": 200,
+  "len": 946210,
+  "title": "Ever Gauzy - ERP, CRM, HRM &amp; Project Management Open-Source",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "freelance"
+  ]
+ },
+ {
+  "host": "godotengine.org",
+  "status": 200,
+  "len": 40305,
+  "title": "Godot Engine - Free and open source 2D and 3D game engine",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "digital",
+   "ugc"
+  ]
+ },
+ {
+  "host": "classquiz.de",
+  "status": 200,
+  "len": 19406,
+  "title": "ClassQuiz - Home",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "designassets",
+   "ugc"
+  ]
+ },
+ {
+  "host": "wordle.global",
+  "status": 200,
+  "len": 278812,
+  "title": "Wordle Global - Play Wordle Free, No Limits, 91+ Languages",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "ugc"
+  ]
+ },
+ {
+  "host": "cube.dev",
+  "status": 200,
+  "len": 103957,
+  "title": "Cube — The agentic analytics platform built on a semantic layer",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "www.lightdash.com",
+  "status": 200,
+  "len": 179579,
+  "title": "Lightdash | Build Intelligence, not just dashboards.",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "baserow.io",
+  "status": 200,
+  "len": 226604,
+  "title": "No-code open source database &amp; application builder | Baserow",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "wundergraph.com",
+  "status": 200,
+  "len": 128696,
+  "title": "WunderGraph – GraphQL Federation, built to govern - WunderGraph",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "www.suitecrm.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://suitecrm.com/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "dbeaver.io",
+  "status": 200,
+  "len": 81915,
+  "title": "DBeaver Community &#124; Free Open-Source Database Management Tool",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json",
+  "rel": [
+   "ugc"
+  ]
+ },
+ {
+  "host": "platform.uno",
+  "status": 200,
+  "len": 433817,
+  "title": "Uno Platform: Build Cross-Platform .NET Apps Fast with AI Visual &amp; Designer",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "terrateam.io",
+  "status": 308,
+  "len": 173,
+  "title": " | -> https://stategraph.com/product/orchestration?from=terrateam",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json",
+  "rel": [
+   "digital"
+  ]
+ },
+ {
+  "host": "lbry.com",
+  "status": 200,
+  "len": 23549,
+  "title": "LBRY - Content Freedom",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json",
+  "rel": [
+   "ugc"
+  ]
+ },
+ {
+  "host": "www.blender.org",
+  "status": 200,
+  "len": 116956,
+  "title": "Blender - The Free and Open Source 3D Creation Software — blender.org",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json",
+  "rel": [
+   "digital"
+  ]
+ },
+ {
+  "host": "sfu.mirotalk.com",
+  "status": 200,
+  "len": 67032,
+  "title": "MiroTalk SFU - Open Source WebRTC Video Conferencing",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json",
+  "rel": [
+   "ugc"
+  ]
+ },
+ {
+  "host": "www.influxdata.com",
+  "status": 200,
+  "len": 211760,
+  "title": "InfluxData",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "qdrant.tech",
+  "status": 200,
+  "len": 783734,
+  "title": "Qdrant - Vector Search Engine",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "nhost.io",
+  "status": 200,
+  "len": 128422,
+  "title": "Postgres Backend to Build, Deploy &amp; Scale | Nhost",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "cryptpad.fr",
+  "status": 200,
+  "len": 3196,
+  "title": "CryptPad: Collaboration suite, encrypted and open-source",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "www.invoiceninja.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://invoiceninja.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "market"
+  ]
+ },
+ {
+  "host": "openbb.co",
+  "status": 200,
+  "len": 211841,
+  "title": "OpenBB - Build your own financial workspace",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "www.boxbilling.org",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://boxbilling.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "market"
+  ]
+ },
+ {
+  "host": "www.getlago.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://getlago.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "market"
+  ]
+ },
+ {
+  "host": "cal.com",
+  "status": 200,
+  "len": 2316438,
+  "title": "Cal.com | Scheduling Software for Online Bookings",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "freelance"
+  ]
+ },
+ {
+  "host": "www.buildbot.net",
+  "status": 200,
+  "len": 11340,
+  "title": "Buildbot",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "designassets"
+  ]
+ },
+ {
+  "host": "rallly.co",
+  "status": 200,
+  "len": 436507,
+  "title": "Rallly: Free Group Meeting Scheduling Tool",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "freelance"
+  ]
+ },
+ {
+  "host": "photoprism.app",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://www.photoprism.app/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "digital"
+  ]
+ },
+ {
+  "host": "piwigo.org",
+  "status": 200,
+  "len": 112187,
+  "title": "Piwigo | Open Source Photo Library and DAM Software",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "digital"
+  ]
+ },
+ {
+  "host": "ente.io",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://ente.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json",
+  "rel": [
+   "digital"
+  ]
+ }
+]

@@ -3,19 +3,26 @@
  "scope": "非英语市场 UGC/接单/销售平台 + Useme 费率实锤",
  "discipline": "仅用 proxy-fetch.mjs 串行访问；所有域名来自真实页面 <a href> 或任务给定已知站；未标注来源的是任务给定",
  "useme_fee_verified": {
-  "source": "https://help.useme.com/en/pricing-for-freelancers (200)",
-  "service_fee": "按 invoice 额阶梯收费；单笔服务费下限 US$5、上限 US$69（\"never less than $5 and never more than $69 per invoice\"）",
-  "examples_verbatim": [
-   "Invoice for $50 → you’ll pay the $5 fee instead of $2.",
-   "Invoice for $1500 → you’ll pay the $69 fee instead of $74."
+  "source": "https://help.useme.com/en/what-are-the-invoicing-fees-on-useme (chrome-fetch)",
+  "signup": "注册免费；只有开票且收到钱才收费",
+  "flex_rate": "4.99% of the net invoice amount（USD/EUR/GBP 发票）",
+  "flex_clamp": "单笔不低于 $5、不高于 $69",
+  "flex_examples": [
+   "$50 → 收 $5（而非 $2.5）",
+   "$1500 → 收 $69（而非 $74.85）"
   ],
-  "pln_rate": "PLN 发票 9.8%（波兰本地价）",
-  "flex": "Useme Flex 计划 4.x% 服务费（页面数字被截断为 \"4.\"，需复核）",
-  "subscription": "订阅（Plus/Comfort/Club）期内客户付款到账即不收该笔服务费（help.useme.com/en/subscription-payments）",
-  "payout": "服务费从客户付款中直接扣除，剩余打给自由职业者；开票币种限 EUR/USD/GBP/PLN，结算币种可选更多（help.useme.com/en/how-to-set-different-payout-for-different-currencies）",
-  "tax": "Useme 按规则代扣税（help.useme.com/en/do-i-have-to-pay-taxes...）；支持 VAT reverse charge 发票（help.useme.com/en/can-i-issue-a-vat-reverse-charge-invoice-how）",
-  "global": "useme.com/en/pricing 原文：All countries except for Poland have the same service fee and subscription cost → 非波兰全球统一费率",
-  "no_company_needed": "任务给定核心结论：Useme 是实测中唯一「不需要公司主体」的收款/接单结构；大陆个人可作为 freelancer 注册并出具 invoice"
+  "comfort": "$99/月 订阅；订阅有效期内到账的该笔不收服务费",
+  "other_fees": [
+   "Express bank transfer 10 EUR/USD/GBP",
+   "Documents sent by mail 20 EUR/USD/GBP",
+   "Currency exchange fees",
+   "跳过 deposit request 19 EUR/USD/GBP"
+  ],
+  "always_free": "建账号 / 浏览 jobs / 联系雇主并发 offer",
+  "pln_rate": "PLN 发票 9.8%",
+  "payout": "PayPal / Wise / bank transfer / more",
+  "operator": "Useme Ltd.",
+  "break_even": "$99/月 ÷ 4.99% ≈ $1,983/月 是 Flex/Comfort 分界"
  },
  "jp_skima": {
   "global_site": {
@@ -319,6 +326,46 @@
    "plans": "Useme Flex（按单付费）/ Useme Comfort（订阅，无限 deal）",
    "process": "填客户与项目信息（3分钟）→ 平台发付款链接给客户（客户无需注册）→ 钱进你的账户",
    "client_examples": "Dubai, Toronto, Berlin → 全球客户同一流程"
+  }
+ },
+ "latam_workana": {
+  "source": "https://www.workana.com/en (200 + chrome-fetch)",
+  "positioning": "拉美（西语/葡语市场）最大远程人才平台，\"The Industry Leader in Latin America\", 10+ 年",
+  "dual_track": "Developers（认证后被 US 公司按周期雇用，赚 USD）+ Freelancers（按目标/小时，本地货币或 USD）",
+  "fields": "IT & Programming / Design & Multimedia / Writing & Translation / Sales & Marketing / Admin Support / Legal / Finance & Management / Engineering & Manufacturing",
+  "dev_roles": "Front End / Back End / Full Stack / Mobile / QA Automation / Data Engineer / Data Scientist / DevOps",
+  "promises": "Free consultation / Satisfaction Guaranteed / Protected Payments",
+  "funding_risk": "费率页 404 未取到；收款需拉美本地账户或 PayPal/Payoneer —— 待复核"
+ },
+ "summary": {
+  "new_sources_count": 0,
+  "confirmed_sites": [
+   "useme.com / help.useme.com（波兰，全球统一费率，无公司主体）",
+   "commission.skima.jp（SKIMA Global，ja/en/ko/zh-Hant，运营方 Visualworks，20%）",
+   "skima.jp / cone.skima.jp / faq.skima.jp / account.skima.jp / mk.skima.jp / 9kk.skima.jp",
+   "coconala.com / assist.coconala.com / tech.coconala.com / help.coconala.com / professional.coconala.com / job-matching.coconala.com / consul.coconala.com / legal.coconala.com / mag.coconala.com / coconala.co.jp",
+   "booth.pm / booth.fanbox.cc / booth.pixiv.help / policies.pixiv.net / pixiv.net / www.fanbox.cc",
+   "note.com / help-note.com / pro.lp-note.com / premium.lp-note.com / note.jp",
+   "suzuri.jp / creator.line.me / store.line.me / help.line.me / help2.line.me / terms2.line.me / line-sticker.landpress.line.me / contact-cc.line.me",
+   "fastwork.co / fastwork.id / fastlance.vn / jobboard.fastwork.co / jobboard.fastwork.id / static.fastwork.co / static.fastwork.id / blog.fastwork.co / blog.fastwork.id / seller.fastwork.co / seller.fastwork.id / fastwork4276.zendesk.com / careers.fastwork.co / slimfaq.com",
+   "freelance.de / support.freelance.de",
+   "www.free-work.com（法国 IT，0 佣金，任务给定）",
+   "workana.com / help.workana.com / blog.workana.com",
+   "computrabajo.com + 18 个国家子域（mx/co/pe/ar/cl/ec/ve/cr/gt/sv/uy/py/pa/hn/ni/do/bo/pr）",
+   "idus.com / debut.idus.com / team.idus.com",
+   "class101.net",
+   "www.518.com.tw / www.chickpt.com.tw / www.tasker.com.tw / addcn.com / 945.com.tw",
+   "ureed.io（502 未取到，任务给定）"
+  ],
+  "funding_risk_matrix": {
+   "useme": "大陆个人可用 —— PayPal/Wise/银行转账，无需公司主体，费率 4.99%（$5-$69 clamp）或 $99/月",
+   "fastwork_th": "需泰国银行账户；起结 200 THB；SCB/KBank/UOB 周二结，其他银行双周二",
+   "fastwork_id": "需印尼本地账户（待复核 terms）",
+   "skima": "需日本银行账户（本人確認+振込先口座確認，注册满7天）",
+   "booth": "需日本账户；PayPal/Wise 免振込手续费",
+   "line_creators": "满 1,000 日元可提（任务给定）；需 LINE 账号与收款方式",
+   "tasker_tw": "需台湾本地结算",
+   "workana": "PayPal/Payoneer 可，费率未取到"
   }
  }
 }

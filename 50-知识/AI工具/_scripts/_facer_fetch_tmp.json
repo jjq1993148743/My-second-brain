@@ -1,0 +1,18 @@
+[
+ {
+  "host": "www.facer.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "proxy",
+  "note": " | direct fail: Client network socket disconnected before secure TLS connection was established status=0"
+ },
+ {
+  "host": "www.facer.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "proxy",
+  "note": " | direct fail: Client network socket disconnected before secure TLS connection was established status=0"
+ }
+]

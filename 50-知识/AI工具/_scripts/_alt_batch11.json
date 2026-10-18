@@ -1,0 +1,314 @@
+[
+ {
+  "host": "www.espocrm.com",
+  "status": 200,
+  "len": 39539,
+  "title": "EspoCRM — #1 Open Source CRM",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.rowy.io",
+  "status": 200,
+  "len": 74993,
+  "title": "Rowy - Low-code backend on Google Cloud and Firebase",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "baserow.io",
+  "status": 200,
+  "len": 226604,
+  "title": "No-code open source database &amp; application builder | Baserow",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.appflowy.io",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://appflowy.io/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "buttercup.pw",
+  "status": 503,
+  "len": 487,
+  "title": "",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "authpass.app",
+  "status": 200,
+  "len": 13957,
+  "title": "AuthPass - Password Manager | AuthPass.app Password Manager",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "padloc.app",
+  "status": 200,
+  "len": 352588,
+  "title": "Padloc - Open Source, End-to-end Encrypted Password Manager",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.passbolt.com",
+  "status": 200,
+  "len": 198516,
+  "title": "Open Source Password Manager for Teams | Passbolt",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "clipperz.is",
+  "status": 200,
+  "len": 9663,
+  "title": "clipperz - online password manager",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "passwordcockpit.com",
+  "status": 200,
+  "len": 21284,
+  "title": "Passwordcockpit",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.lesspass.com",
+  "status": 200,
+  "len": 913,
+  "title": "LessPass",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.vaultproject.io",
+  "status": 308,
+  "len": 151,
+  "title": " | -> https://developer.hashicorp.com/vault",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "keepassxc.org",
+  "status": 200,
+  "len": 21605,
+  "title": "KeePassXC Password Manager",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "bitwarden.com",
+  "status": 200,
+  "len": 724796,
+  "title": "Best Password Manager for Business, Enterprise & Personal | Bitwarden | Bitwarden",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.kimai.org",
+  "status": 302,
+  "len": 0,
+  "title": " | -> /en/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.illacloud.com",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "lowdefy.com",
+  "status": 200,
+  "len": 122593,
+  "title": "Lowdefy - Config-First Web Stack for AI and Humans",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.bleachbit.org",
+  "status": 200,
+  "len": 18817,
+  "title": "Clean Your System and Free Disk Space | BleachBit",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "traefik.io",
+  "status": 200,
+  "len": 223319,
+  "title": "Unified Control Plane for APIs, Models, and Agents | Traefik Labs",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "hoppscotch.io",
+  "status": 200,
+  "len": 5219,
+  "title": "Hoppscotch • Open source API development ecosystem",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "parseplatform.org",
+  "status": 200,
+  "len": 1205,
+  "title": "Parse Platform - Open Source Backend",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "insomnia.rest",
+  "status": 200,
+  "len": 104655,
+  "title": "The Collaborative API Development Platform - Insomnia",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "apisix.apache.org",
+  "status": 200,
+  "len": 22537,
+  "title": "Apache APISIX - Open Source API Gateway &amp; AI Gateway",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "karatelabs.github.io",
+  "status": 200,
+  "len": 5347,
+  "title": "Karate Labs",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "wundergraph.com",
+  "status": 200,
+  "len": 128696,
+  "title": "WunderGraph – GraphQL Federation, built to govern - WunderGraph",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "milkman.dev",
+  "status": 200,
+  "len": 13089,
+  "title": "Milkman",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "computir.ai",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.odoo.com",
+  "status": 200,
+  "len": 96580,
+  "title": "Open Source ERP and CRM | Odoo",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "erpnext.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://frappe.io/erpnext",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.suitecrm.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://suitecrm.com/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "erxes.io",
+  "status": 200,
+  "len": 290413,
+  "title": "erxes – Open-Source XOS for Customer Service, Sales &amp; Operations",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "cortezaproject.org",
+  "status": 200,
+  "len": 72070,
+  "title": "Corteza - Corteza",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "yetiforce.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://yetiforce.com/pl/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "krayincrm.com",
+  "status": 200,
+  "len": 268155,
+  "title": "Open Source CRM | 22k+ GitHub Stars",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "hitobito.com",
+  "status": 307,
+  "len": 0,
+  "title": " | -> https://hitobito.com/de/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "metriql.com",
+  "status": 200,
+  "len": 16906,
+  "title": "Metriql Docs | Metriql Docs",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.keila.sh",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "www.lightdash.com",
+  "status": 200,
+  "len": 179579,
+  "title": "Lightdash | Build Intelligence, not just dashboards.",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ },
+ {
+  "host": "dbeaver.io",
+  "status": 200,
+  "len": 81915,
+  "title": "DBeaver Community &#124; Free Open-Source Database Management Tool",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools"
+ }
+]

@@ -1,0 +1,1793 @@
+[
+ {
+  "host": "listmonk.app",
+  "status": 200,
+  "len": 10893,
+  "title": "listmonk - Free and open source self-hosted newsletter, mailing list manager, and transactional mails",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "docs.postalserver.io",
+  "status": 200,
+  "len": 363419,
+  "title": "Postal - an open source mail delivery platform",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "sendportal.io",
+  "status": 200,
+  "len": 11381,
+  "title": "SendPortal - Open Source Email Marketing Software",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.keila.sh",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "rustdesk.com",
+  "status": 200,
+  "len": 79150,
+  "title": "RustDesk: Open-Source Remote Desktop with Self-Hosted Server Solutions",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.meshcommander.com",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://meshcommander.com/",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "remotely.one",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "cedrozor.github.io",
+  "status": 404,
+  "len": 9115,
+  "title": "Site not found &middot; GitHub Pages",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "mindsdb.com",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://mindshub.ai/",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.cortex.dev",
+  "status": 200,
+  "len": 26422,
+  "title": "Cloud infrastructure for machine learning at scale",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "ploomber.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "towhee.io",
+  "status": 200,
+  "len": 562625,
+  "title": "Towhee | Home - Towhee",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.ballerine.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "akaunting.com",
+  "status": 200,
+  "len": 61574,
+  "title": "Free Accounting Software for Small Businesses - Akaunting",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "netbird.io",
+  "status": 200,
+  "len": 151991,
+  "title": "NetBird - Open Source Zero Trust Networking",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "headscale.net",
+  "status": 200,
+  "len": 374,
+  "title": "Redirecting",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "gravitl.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://www.netmaker.io",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "brave.com",
+  "status": 200,
+  "len": 143765,
+  "title": "The browser that puts you first | Brave",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.automa.site",
+  "status": 301,
+  "len": 134,
+  "title": "301 Moved Permanently | -> https://www.goautoma.com:443/",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "dub.co",
+  "status": 200,
+  "len": 702125,
+  "title": "Dub - The Modern Link Attribution Platform",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "yourls.org",
+  "status": 200,
+  "len": 35230,
+  "title": "YOURLS",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.dolicloud.com",
+  "status": 200,
+  "len": 50256,
+  "title": "Cloud Open Source ERP and CRM for business - The online on demand SaaS hosting service for SME of Dolibarr sui",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "gauzy.co",
+  "status": 200,
+  "len": 946210,
+  "title": "Ever Gauzy - ERP, CRM, HRM &amp; Project Management Open-Source",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.graylog.org",
+  "status": 403,
+  "len": 1686,
+  "title": "Just a moment...",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "homebridge.io",
+  "status": 200,
+  "len": 9769,
+  "title": "Homebridge",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "lineageos.org",
+  "status": 200,
+  "len": 21446,
+  "title": "LineageOS – LineageOS Android Distribution",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.metabase.com",
+  "status": 200,
+  "len": 219662,
+  "title": "Open source AI analytics you can verify | Metabase",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "godotengine.org",
+  "status": 200,
+  "len": 40305,
+  "title": "Godot Engine - Free and open source 2D and 3D game engine",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "rebelfork.io",
+  "status": 200,
+  "len": 204,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "classquiz.de",
+  "status": 200,
+  "len": 19406,
+  "title": "ClassQuiz - Home",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "wordle.global",
+  "status": 200,
+  "len": 278812,
+  "title": "Wordle Global - Play Wordle Free, No Limits, 91+ Languages",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "retroarcher.github.io",
+  "status": 404,
+  "len": 9115,
+  "title": "Site not found &middot; GitHub Pages",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "cube.dev",
+  "status": 200,
+  "len": 103957,
+  "title": "Cube — The agentic analytics platform built on a semantic layer",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.lightdash.com",
+  "status": 200,
+  "len": 179579,
+  "title": "Lightdash | Build Intelligence, not just dashboards.",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "metriql.com",
+  "status": 200,
+  "len": 16906,
+  "title": "Metriql Docs | Metriql Docs",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "mlcraft.io",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://synmetrix.org/",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "airbyte.com",
+  "status": 200,
+  "len": 241881,
+  "title": "Data Movement for Analytics and AI Agents",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "dagster.io",
+  "status": 200,
+  "len": 176426,
+  "title": "Modern Data Orchestrator Platform | Dagster",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.prefect.io",
+  "status": 200,
+  "len": 320965,
+  "title": "Prefect - Workflow Orchestration for Data, ML, and Agents",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.orchest.io",
+  "status": 403,
+  "len": 4913,
+  "title": "Attention Required! | Cloudflare",
+  "from": "osa-cats",
+  "cat": "misc-final",
+  "batch": "_alt_batch10.json"
+ },
+ {
+  "host": "www.espocrm.com",
+  "status": 200,
+  "len": 39539,
+  "title": "EspoCRM — #1 Open Source CRM",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.rowy.io",
+  "status": 200,
+  "len": 74993,
+  "title": "Rowy - Low-code backend on Google Cloud and Firebase",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "baserow.io",
+  "status": 200,
+  "len": 226604,
+  "title": "No-code open source database &amp; application builder | Baserow",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.appflowy.io",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://appflowy.io/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "buttercup.pw",
+  "status": 503,
+  "len": 487,
+  "title": "",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "authpass.app",
+  "status": 200,
+  "len": 13957,
+  "title": "AuthPass - Password Manager | AuthPass.app Password Manager",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "padloc.app",
+  "status": 200,
+  "len": 352588,
+  "title": "Padloc - Open Source, End-to-end Encrypted Password Manager",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.passbolt.com",
+  "status": 200,
+  "len": 198516,
+  "title": "Open Source Password Manager for Teams | Passbolt",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "clipperz.is",
+  "status": 200,
+  "len": 9663,
+  "title": "clipperz - online password manager",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "passwordcockpit.com",
+  "status": 200,
+  "len": 21284,
+  "title": "Passwordcockpit",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.lesspass.com",
+  "status": 200,
+  "len": 913,
+  "title": "LessPass",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.vaultproject.io",
+  "status": 308,
+  "len": 151,
+  "title": " | -> https://developer.hashicorp.com/vault",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "keepassxc.org",
+  "status": 200,
+  "len": 21605,
+  "title": "KeePassXC Password Manager",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "bitwarden.com",
+  "status": 200,
+  "len": 724796,
+  "title": "Best Password Manager for Business, Enterprise & Personal | Bitwarden | Bitwarden",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.kimai.org",
+  "status": 302,
+  "len": 0,
+  "title": " | -> /en/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.illacloud.com",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "lowdefy.com",
+  "status": 200,
+  "len": 122593,
+  "title": "Lowdefy - Config-First Web Stack for AI and Humans",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.bleachbit.org",
+  "status": 200,
+  "len": 18817,
+  "title": "Clean Your System and Free Disk Space | BleachBit",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "traefik.io",
+  "status": 200,
+  "len": 223319,
+  "title": "Unified Control Plane for APIs, Models, and Agents | Traefik Labs",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "hoppscotch.io",
+  "status": 200,
+  "len": 5219,
+  "title": "Hoppscotch • Open source API development ecosystem",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "parseplatform.org",
+  "status": 200,
+  "len": 1205,
+  "title": "Parse Platform - Open Source Backend",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "insomnia.rest",
+  "status": 200,
+  "len": 104655,
+  "title": "The Collaborative API Development Platform - Insomnia",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "apisix.apache.org",
+  "status": 200,
+  "len": 22537,
+  "title": "Apache APISIX - Open Source API Gateway &amp; AI Gateway",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "karatelabs.github.io",
+  "status": 200,
+  "len": 5347,
+  "title": "Karate Labs",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "wundergraph.com",
+  "status": 200,
+  "len": 128696,
+  "title": "WunderGraph – GraphQL Federation, built to govern - WunderGraph",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "milkman.dev",
+  "status": 200,
+  "len": 13089,
+  "title": "Milkman",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "computir.ai",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.odoo.com",
+  "status": 200,
+  "len": 96580,
+  "title": "Open Source ERP and CRM | Odoo",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "erpnext.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://frappe.io/erpnext",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.suitecrm.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://suitecrm.com/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "erxes.io",
+  "status": 200,
+  "len": 290413,
+  "title": "erxes – Open-Source XOS for Customer Service, Sales &amp; Operations",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "cortezaproject.org",
+  "status": 200,
+  "len": 72070,
+  "title": "Corteza - Corteza",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "yetiforce.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://yetiforce.com/pl/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "krayincrm.com",
+  "status": 200,
+  "len": 268155,
+  "title": "Open Source CRM | 22k+ GitHub Stars",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "hitobito.com",
+  "status": 307,
+  "len": 0,
+  "title": " | -> https://hitobito.com/de/",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "dbeaver.io",
+  "status": 200,
+  "len": 81915,
+  "title": "DBeaver Community &#124; Free Open-Source Database Management Tool",
+  "from": "osa-altsto",
+  "cat": "crm/db/auth/devtools",
+  "batch": "_alt_batch11.json"
+ },
+ {
+  "host": "www.nocodb.com",
+  "status": 301,
+  "len": 134,
+  "title": "301 Moved Permanently | -> https://nocodb.com:443/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.diagrams.net",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://www.drawio.com/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "tdengine.com",
+  "status": 200,
+  "len": 359563,
+  "title": "TDengine | Modern Alternative to Traditional Data Historians",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "ckan.org",
+  "status": 200,
+  "len": 52423,
+  "title": "CKAN - The open source data management system",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "platform.uno",
+  "status": 200,
+  "len": 433817,
+  "title": "Uno Platform: Build Cross-Platform .NET Apps Fast with AI Visual &amp; Designer",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "questdb.io",
+  "status": 301,
+  "len": 35,
+  "title": " | -> https://questdb.com/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.arangodb.com",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://arango.ai",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.timescale.com",
+  "status": 301,
+  "len": 140,
+  "title": " | -> https://www.tigerdata.com/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "neo4j.com",
+  "status": 200,
+  "len": 285396,
+  "title": "Neo4j Graph Intelligence Platform",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "janusgraph.org",
+  "status": 200,
+  "len": 56738,
+  "title": "JanusGraph · Distributed, open source, massively scalable graph database",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "dragonflydb.io",
+  "status": 308,
+  "len": 141,
+  "title": " | -> https://www.dragonflydb.io/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "manticoresearch.com",
+  "status": 200,
+  "len": 128553,
+  "title": "Manticore Search – easy-to-use fast search database",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.heidisql.com",
+  "status": 200,
+  "len": 26874,
+  "title": "HeidiSQL - MariaDB/MySQL, MSSQL, PostgreSQL, SQLite and Interbase/Firebird made easy",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "sandstorm.io",
+  "status": 200,
+  "len": 10552,
+  "title": "Sandstorm",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "dgraph.io",
+  "status": 301,
+  "len": 57,
+  "title": " | -> https://docs.dgraph.io",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.postgresql.org",
+  "status": 200,
+  "len": 24779,
+  "title": "PostgreSQL: The world's most advanced open source database",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.home-assistant.io",
+  "status": 200,
+  "len": 77166,
+  "title": "Home Assistant",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "comma.ai",
+  "status": 200,
+  "len": 107157,
+  "title": "comma.ai — make driving chill",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "n8n.io",
+  "status": 200,
+  "len": 351886,
+  "title": "AI Workflow Automation Platform - n8n",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "demo.netbox.dev",
+  "status": 302,
+  "len": 0,
+  "title": " | -> /login/?next=/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.mautic.org",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://mautic.org/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "temporal.io",
+  "status": 200,
+  "len": 215095,
+  "title": "Durable Execution Solutions | Temporal",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "exchange.stackstorm.org",
+  "status": 200,
+  "len": 2365,
+  "title": "StackStorm Exchange",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "screenpi.pe",
+  "status": 301,
+  "len": 137,
+  "title": " | -> https://screenpipe.com/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.jenkins.io",
+  "status": 200,
+  "len": 59802,
+  "title": "Jenkins",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "nifi.apache.org",
+  "status": 200,
+  "len": 20560,
+  "title": "Apache NiFi",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "formsflow.ai",
+  "status": 200,
+  "len": 213149,
+  "title": "formsflow.ai - Best Low Code Form Automation Platform | formsflow.ai",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "terrateam.io",
+  "status": 308,
+  "len": 173,
+  "title": " | -> https://stategraph.com/product/orchestration?from=terrateam",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "obsproject.com",
+  "status": 200,
+  "len": 22856,
+  "title": "Open Broadcaster Software | OBS",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "mpv.io",
+  "status": 200,
+  "len": 5609,
+  "title": "mpv.io",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "losslesscut.app",
+  "status": 200,
+  "len": 15437,
+  "title": "LosslessCut - Official website",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "freetubeapp.io",
+  "status": 200,
+  "len": 22744,
+  "title": "FreeTube - The Private YouTube Client",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "avideo.tube",
+  "status": 200,
+  "len": 22344,
+  "title": "Loading...",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.rrweb.io",
+  "status": 301,
+  "len": 33,
+  "title": " | -> https://rrweb.com/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.shotcut.org",
+  "status": 200,
+  "len": 19572,
+  "title": "Shotcut - Home",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "lbry.com",
+  "status": 200,
+  "len": 23549,
+  "title": "LBRY - Content Freedom",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "olivevideoeditor.org",
+  "status": 200,
+  "len": 1398,
+  "title": "Olive Video Editor",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.blender.org",
+  "status": 200,
+  "len": 116956,
+  "title": "Blender - The Free and Open Source 3D Creation Software — blender.org",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "nexrender.vercel.app",
+  "status": 301,
+  "len": 145,
+  "title": " | -> https://releases.nexrender.com/",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "sfu.mirotalk.com",
+  "status": 200,
+  "len": 67032,
+  "title": "MiroTalk SFU - Open Source WebRTC Video Conferencing",
+  "from": "osa-cats",
+  "cat": "db/automation/video",
+  "batch": "_alt_batch6.json"
+ },
+ {
+  "host": "www.influxdata.com",
+  "status": 200,
+  "len": 211760,
+  "title": "InfluxData",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.pingcap.com",
+  "status": 200,
+  "len": 156802,
+  "title": "Database for AI Agents | TiDB Distributed SQL | TiDB",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "prometheus.io",
+  "status": 200,
+  "len": 135655,
+  "title": "Prometheus - Monitoring system &amp; time series database",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "ghidra-sre.org",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://github.com/NationalSecurityAgency/ghidra",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "nuclei.projectdiscovery.io",
+  "status": 302,
+  "len": 143,
+  "title": "302 Found | -> https://docs.nuclei.sh",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "cryptomator.org",
+  "status": 200,
+  "len": 52880,
+  "title": "Cryptomator - Free & Open-Source Cloud Storage Encryption",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.clamav.net",
+  "status": 200,
+  "len": 35801,
+  "title": "ClamAVNet",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "opnsense.org",
+  "status": 200,
+  "len": 53315,
+  "title": "OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protect",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "crowdsec.net",
+  "status": 308,
+  "len": 139,
+  "title": " | -> https://www.crowdsec.net/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.cloudquery.io",
+  "status": 200,
+  "len": 397695,
+  "title": "CloudQuery | Cloud ops, without the chaos",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.firez.one",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "safing.io",
+  "status": 200,
+  "len": 30240,
+  "title": "Portmaster - Application Firewall by Safing",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.pfsense.org",
+  "status": 200,
+  "len": 26549,
+  "title": "pfSense&reg; - World's Most Trusted Open Source Firewall",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "opengrep.dev",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://www.opengrep.dev/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "grapheneos.org",
+  "status": 200,
+  "len": 6946,
+  "title": "GrapheneOS: the private and secure mobile OS",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.matano.dev",
+  "status": 302,
+  "len": 0,
+  "title": " | -> http://www.matanosecurity.com",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "trycomp.ai",
+  "status": 308,
+  "len": 137,
+  "title": " | -> https://www.trycomp.ai/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.getprobo.com",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://www.probo.com/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "checkmarble.com",
+  "status": 301,
+  "len": 166,
+  "title": "301 Moved Permanently | -> https://www.checkmarble.com/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "opensearch.org",
+  "status": 200,
+  "len": 261219,
+  "title": "Home - OpenSearch",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "docs.searxng.org",
+  "status": 200,
+  "len": 49620,
+  "title": "SearXNG Documentation (2026.10.17+1c10abe2d)",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "qdrant.tech",
+  "status": 200,
+  "len": 783734,
+  "title": "Qdrant - Vector Search Engine",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.deepset.ai",
+  "status": 200,
+  "len": 165329,
+  "title": "The Sovereign AI Platform for Agents",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.semi.technology",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "jina.ai",
+  "status": 200,
+  "len": 279838,
+  "title": "Jina AI - Your Search Foundation, Supercharged.",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "zincsearch.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://zinc.dev",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.appbase.io",
+  "status": 301,
+  "len": 534,
+  "title": "301 Moved Permanently | -> https://www.reactivesearch.io/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "grafana.com",
+  "status": 200,
+  "len": 767936,
+  "title": "Full-stack observability for the agentic era | Grafana Labs",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "uptime.kuma.pet",
+  "status": 200,
+  "len": 2048,
+  "title": "Uptime Kuma",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.netdata.cloud",
+  "status": 200,
+  "len": 241059,
+  "title": "Netdata: Monitoring and troubleshooting transformed",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "signoz.io",
+  "status": 200,
+  "len": 388423,
+  "title": "SigNoz | The Open Source Datadog Alternative",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "victoriametrics.com",
+  "status": 200,
+  "len": 126149,
+  "title": "VictoriaMetrics: Simple, Reliable & Efficient Observability",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "www.pimcore.org",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://pimcore.com/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "cachethq.io",
+  "status": 200,
+  "len": 99539,
+  "title": "The open source status page system - Cachet Website",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "checkmk.com",
+  "status": 200,
+  "len": 262995,
+  "title": "Full-Stack Monitoring and Observability for Hybrid IT | Checkmk",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "podman.io",
+  "status": 200,
+  "len": 28619,
+  "title": "Podman",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "ghost.org",
+  "status": 200,
+  "len": 123112,
+  "title": "Ghost: The best open source blog & newsletter platform",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "coolify.io",
+  "status": 200,
+  "len": 128519,
+  "title": "Coolify - Self-hosting with superpowers",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "moodle.org",
+  "status": 403,
+  "len": 86194,
+  "title": "Moodle challenge",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "space-cloud.io",
+  "status": 200,
+  "len": 26374,
+  "title": "Space Cloud: Instant Realtime APIs for Serverless Apps",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops",
+  "batch": "_alt_batch8.json"
+ },
+ {
+  "host": "unigraph.dev",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.qovery.com",
+  "status": 200,
+  "len": 121361,
+  "title": "Qovery - The Agentic Infrastructure Platform",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "min.io",
+  "status": 301,
+  "len": 166,
+  "title": "301 Moved Permanently | -> https://www.min.io/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "dokku.viewdocs.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "caprover.com",
+  "status": 200,
+  "len": 42364,
+  "title": "CapRover · Scalable, Free and Self-hosted PaaS",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.openfaas.com",
+  "status": 200,
+  "len": 48378,
+  "title": "Home | OpenFaaS - Serverless Functions Made Simple",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "tsuru.io",
+  "status": 200,
+  "len": 11292,
+  "title": "Tsuru",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "dyrector.io",
+  "status": 200,
+  "len": 43078,
+  "title": "dyrector.io @ platform",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "staticdeploy.io",
+  "status": 200,
+  "len": 4577,
+  "title": "StaticDeploy · An Open-Source Platform for Deploying Static Apps",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "flynn.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "supabase.io",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://supabase.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "appwrite.io",
+  "status": 200,
+  "len": 168914,
+  "title": "Appwrite · The open-source cloud for developers and agents",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "pocketbase.io",
+  "status": 200,
+  "len": 74909,
+  "title": "PocketBase - Open Source backend in 1 file",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "nhost.io",
+  "status": 200,
+  "len": 128422,
+  "title": "Postgres Backend to Build, Deploy &amp; Scale | Nhost",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.fusio-project.org",
+  "status": 200,
+  "len": 33665,
+  "title": "Open Source API & AI Management Platform",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "rivet.gg",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://www.rivet.gg/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "kuzzle.io",
+  "status": 200,
+  "len": 197276,
+  "title": "IoT, Data &amp; Hypervision Platform - Kuzzle",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "nextcloud.com",
+  "status": 200,
+  "len": 238200,
+  "title": "Nextcloud - Open source content collaboration platform",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "owncloud.org",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://owncloud.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.seafile.com",
+  "status": 302,
+  "len": 0,
+  "title": " | -> /en/home/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "cryptpad.fr",
+  "status": 200,
+  "len": 3196,
+  "title": "CryptPad: Collaboration suite, encrypted and open-source",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "cozystack.io",
+  "status": 200,
+  "len": 42489,
+  "title": "Cozystack",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.univention.com",
+  "status": 200,
+  "len": 256354,
+  "title": "Univention GmbH – be open",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "getsharex.com",
+  "status": 200,
+  "len": 29063,
+  "title": "ShareX - The best free and open source screenshot tool for Windows",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "activitywatch.net",
+  "status": 200,
+  "len": 56691,
+  "title": "ActivityWatch - Open-source time tracker",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "getgreenshot.org",
+  "status": 200,
+  "len": 7409,
+  "title": "Greenshot",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "getmailspring.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> http://www.getmailspring.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.linkace.org",
+  "status": 200,
+  "len": 35042,
+  "title": "LinkAce - Your self-hosted bookmark archive. Free and open source.",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.invoiceninja.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://invoiceninja.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.firefly-iii.org",
+  "status": 200,
+  "len": 12996,
+  "title": "Firefly III - A free and open source personal finance manager",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "openbb.co",
+  "status": 200,
+  "len": 211841,
+  "title": "OpenBB - Build your own financial workspace",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.boxbilling.org",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://boxbilling.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.getlago.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://getlago.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "cal.com",
+  "status": 200,
+  "len": 2316438,
+  "title": "Cal.com | Scheduling Software for Online Bookings",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.buildbot.net",
+  "status": 200,
+  "len": 11340,
+  "title": "Buildbot",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "rallly.co",
+  "status": 200,
+  "len": 436507,
+  "title": "Rallly: Free Group Meeting Scheduling Tool",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.sogo.nu",
+  "status": 200,
+  "len": 13205,
+  "title": "SOGo | Free Open Source Webmail",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "www.kukkee.com",
+  "status": 429,
+  "len": 1568,
+  "title": "Too many requests",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "superset.apache.org",
+  "status": 200,
+  "len": 99353,
+  "title": "Welcome | Superset",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "redash.io",
+  "status": 200,
+  "len": 200191,
+  "title": "Redash helps you make sense of your data",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "photoprism.app",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://www.photoprism.app/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "piwigo.org",
+  "status": 200,
+  "len": 112187,
+  "title": "Piwigo | Open Source Photo Library and DAM Software",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ },
+ {
+  "host": "ente.io",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://ente.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz",
+  "batch": "_alt_batch9.json"
+ }
+]

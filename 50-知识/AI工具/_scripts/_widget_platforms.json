@@ -1,0 +1,42 @@
+[
+ {
+  "host": "miui.com",
+  "status": 200,
+  "len": 6418,
+  "title": "MIUI 14 锐意新生",
+  "from": "https://home.miui.com/",
+  "note": "redirect->https://home.miui.com/; hits=2"
+ },
+ {
+  "host": "themes.mi.com",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "https://themes.mi.com/",
+  "note": "no usable body (status 502)"
+ },
+ {
+  "host": "zedge.net/creators",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "https://www.zedge.net/creators",
+  "note": "no usable body (status 502)"
+ },
+ {
+  "host": "wallpaperengine.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "https://www.wallpaperengine.io/",
+  "note": "no usable body (status 502)"
+ },
+ {
+  "host": "iconpack.app",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "https://www.iconpack.app/",
+  "note": "no usable body (status 502)"
+ }
+]

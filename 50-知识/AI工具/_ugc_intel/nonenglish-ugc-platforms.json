@@ -1,0 +1,371 @@
+{
+ "generated": "2026-10-18T15:2x (Asia/Shanghai)",
+ "scope": "非英语市场 UGC/接单/销售平台 + Useme 费率实锤",
+ "discipline": "仅用 proxy-fetch.mjs 串行访问；所有域名来自真实页面 <a href> 或任务给定已知站；未标注来源的是任务给定",
+ "useme_fee_verified": {
+  "source": "https://help.useme.com/en/what-are-the-invoicing-fees-on-useme (chrome-fetch)",
+  "signup": "注册免费；只有开票且收到钱才收费",
+  "flex_rate": "4.99% of the net invoice amount（USD/EUR/GBP 发票）",
+  "flex_clamp": "单笔不低于 $5、不高于 $69",
+  "flex_examples": [
+   "$50 → 收 $5（而非 $2.5）",
+   "$1500 → 收 $69（而非 $74.85）"
+  ],
+  "comfort": "$99/月 订阅；订阅有效期内到账的该笔不收服务费",
+  "other_fees": [
+   "Express bank transfer 10 EUR/USD/GBP",
+   "Documents sent by mail 20 EUR/USD/GBP",
+   "Currency exchange fees",
+   "跳过 deposit request 19 EUR/USD/GBP"
+  ],
+  "always_free": "建账号 / 浏览 jobs / 联系雇主并发 offer",
+  "pln_rate": "PLN 发票 9.8%",
+  "payout": "PayPal / Wise / bank transfer / more",
+  "operator": "Useme Ltd.",
+  "break_even": "$99/月 ÷ 4.99% ≈ $1,983/月 是 Flex/Comfort 分界"
+ },
+ "jp_skima": {
+  "global_site": {
+   "url": "https://commission.skima.jp",
+   "langs": "ja/en/ko-KR/zh-Hant",
+   "operator": "Visualworks（commission.skima.jp/agreement）",
+   "rate_seen": "页面含 \"22% commission rate regardless of the amount received by the artist\"（上下文待复核）"
+  },
+  "fee_verified": {
+   "source": "https://skima.jp/guide/payment",
+   "tier_example": "オプション込み個別販売総額 20,001〜50,000円 → 販売手数料 16%（消費税込み）",
+   "payout_fee": "每笔振込申请收 385円（税込）",
+   "payout_schedule": "1日〜15日申请 → 20日打款（遇周末假日顺延）",
+   "kyc": "需本人確認＋振込先口座確認，注册满 7 天后才能申请 → 必须日本银行口座，大陆个人不可"
+  },
+  "corporate_variant": "https://cone.skima.jp （法人向，skima.jp 页脚 <a> 提取）",
+  "related": "faq.skima.jp / account.skima.jp / mk.skima.jp / 9kk.skima.jp（90KU-KAN）",
+  "price_samples_from_homepage": [
+   "￥3,000~ VTuber ロゴ制作（item 210730）",
+   "0.8円〜/文字 夢小説執筆（item 106044）"
+  ],
+  "payout_thresholds": {
+   "source": "faq.skima.jp（chrome-fetch 渲染；直连 403）",
+   "min_payout": "振込申請 最低 1,000 円、最高 1,000,000 円",
+   "fee_per_request": "385 円（税込）/ 次；账户信息错误被退汇（組戻し）再收 660 円（税込）",
+   "kyc_gate": "注册满 7 天 + 本人確認＋振込先口座確認双方批准后才能申请",
+   "revenue_expiry": "売上金取得后 180 天不使用即失效（国内版 SKIMA 個別規約第9条5項・7項）",
+   "auto_transfer": "已登记账户者，KYC 审核状态不影响，超过有效期自动汇入；账户错误则资金失效",
+   "source_articles": [
+    "https://faq.skima.jp/hc/ja/articles/115007850147 （売上金について）",
+    "https://faq.skima.jp/hc/ja/articles/115008011488 （振込申請について）",
+    "https://faq.skima.jp/hc/ja/articles/115008585407 （振込申請の金額について）"
+   ]
+  },
+  "global_rate_confirmed": {
+   "source": "https://commission.skima.jp/en/agreement （chrome-fetch）",
+   "article12": "Usage Fees: Buyer pays Visualworks「product price × 20%」 → commission.skima.jp（Global Site）平台费 = 商品总价 20%",
+   "cheer_rate": "CHEER!（打赏）= 22%，不论金额",
+   "collection": "平台费加在商品价格上向买家收取（买家感知的是含税总价）→ 对海外买家透明、对创作者不减少报价",
+   "tax": "用户自行负责税务"
+  },
+  "jp_site_tiers": {
+   "source": "https://skima.jp/guide/payment （chrome-fetch 渲染）",
+   "tiers": [
+    "個別販売総額 1,000〜20,000円（含选项）→ 手数料 22%（消費税込み）",
+    "20,001〜50,000円 → 16%",
+    "50,001円以上 → 11%"
+   ],
+   "base": "課金対象 = 出品金額 + オプション料金",
+   "cheer_fee": "CHEER! 打赏一律 22%（税込），由买家承担",
+   "payout_fee": "385円/次（税込）；退汇（組戻し）660円/次"
+  }
+ },
+ "th_fastwork": {
+  "source": "https://fastwork.co/ (200)",
+  "ai_verticals": "fastwork.co/ai-services 下 18-20 个细分：AI Automation / Chatbot / Prompt Engineering / AI Tool / No Code App / AI Prototype / Website Builder / AI Design / AI Model / AI Video / AI Content / Voice Over / Video Editing / AI Consultant / AI Course / AI Transformation / Data Analyst / Data Engineering / Data Labeling / Data Science",
+  "i18n": "share-commission = 「แชร์เพื่อรับค่าบริการ 0%」；withdrawal = 「รายได้」",
+  "siblings_from_footer": [
+   "https://fastwork.id （印尼）",
+   "https://fastlance.vn （越南）",
+   "https://jobboard.fastwork.co"
+  ],
+  "help": "fastwork4276.zendesk.com/hc/th",
+  "apps": "iOS id1154830520 / Android com.fastwork.app",
+  "fee_mechanics": {
+   "source": "https://fastwork.co/start-selling （200, footer <a>）",
+   "payout_help_article": "https://www.slimfaq.com/fastwork-co-.../1823-/7395- 「เงื่อนไขการรับเงิน」（收款条件）",
+   "pay_help_article": "https://www.slimfaq.com/fastwork-co-.../1818-/7393- 「การชำระค่าจ้าง」（付款）",
+   "byob": "Bring Your Own Buyer：站外引流成交 0% 佣金（fastwork.co i18n: share-commission \"แชร์เพื่อรับค่าบริการ 0%\"）",
+   "enterprise": "https://fastwork.co/for-business/enterprise/",
+   "directory": "https://fastwork.co/directory （自由职业者作品目录）",
+   "youtu_be_tutorial": "https://youtu.be/c_Zbam4k8xw （注册流程演示）"
+  },
+  "payout_articles": {
+   "payout_timing": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1823-/7395- 「ทำงานเสร็จแล้วจะได้รับเงินเมื่อไหร่: การตัดยอดเงินค่าจ้าง」（JS 渲染，正文未取到；标题即\"何时收款/工资结算\"）",
+   "payment": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1818-/7393- 「การจ้างงาน/การชำระเงิน: ชำระเงินอย่างไร ?」（JS 渲染）"
+  },
+  "payout_verified": {
+   "source": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1823-/7395- （chrome-fetch 渲染后正文）",
+   "payout_threshold": "系统只在累计余额 ≥ 200 บาท（200 泰铢）时才自动结算",
+   "payout_cycle": "默认结算窗口：每周日晚 23:59 截止",
+   "payout_by_bank": "SCB / KBank / UOB 账户 → 每周二结算；其他银行 → 每月第 2、第 4 个周二结算",
+   "payout_auto": "自动打入银行账户，无需提交提现申请",
+   "buyer_payment_channels": "Mobile Banking QR / 信用卡借记卡（手续费 3.4%，由买家承担）/ Fastwork Coin（充值）/ TrueMoney Wallet（1.63%）",
+   "fraud_check": "平台可对异常订单暂停或取消转账",
+   "funding_risk": "提现只进泰国银行账户 → 大陆个人无法直接收款，必须泰国本地卡或本地身份"
+  },
+  "payment_fee_source": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1818-/7393-"
+ },
+ "id_fastwork": {
+  "source": "https://fastwork.id/ (200)",
+  "scale": "300+ 子类；除设计/写作/编程/音视频/营销外，含大量印尼本地生活服务（按摩、保洁、洗车、保姆、teman curhat 陪聊、陪玩、代排队、场地预订、婚礼布置、现场绘画…）",
+  "biz_verticals": "Jasa Konsultasi 含 NPWP/BPOM/SNI/NIB 等本地资质代办、公司注册、法律意见；Learning & Development 含 CPNS/Polri/TNI 公考培训",
+  "static_pages": [
+   "https://static.fastwork.id/contents/how",
+   "/contents/guarantee",
+   "/contents/terms",
+   "/contents/support-center"
+  ],
+  "footer_links": "blog.fastwork.id / jobboard.fastwork.id / careers.fastwork.co",
+  "seller_center": {
+   "url": "https://seller.fastwork.id",
+   "source": "https://fastwork.id/start-selling 的 <a>"
+  },
+  "fee_mechanics": {
+   "source": "https://blog.fastwork.id/ + https://static.fastwork.id/contents/how",
+   "posts": [
+    "https://blog.fastwork.id/bring-your-own-buyer-byob-dapatkan-komisi-0 —— BYOB 0% 佣金",
+    "https://blog.fastwork.id/bebas-komisi —— 「Bebas Komisi」免佣金计划（repeat customer）",
+    "https://blog.fastwork.id/apakah-fastwork-aman —— 平台安全性/防骗"
+   ]
+  }
+ },
+ "jp_line_store": {
+  "source": "https://store.line.me/ (200)",
+  "creator_shops": [
+   "https://store.line.me/stickershop/home/user/en",
+   "https://store.line.me/emojishop/home/creators/en",
+   "https://store.line.me/themeshop/home/creators/en"
+  ],
+  "help": "https://help.line.me/webstore/web?lang=en"
+ },
+ "hosts_observed": {
+  "useme": [
+   "useme.com",
+   "help.useme.com"
+  ],
+  "jp": [
+   "coconala.com",
+   "assist.coconala.com",
+   "tech.coconala.com",
+   "professional.coconala.com",
+   "job-matching.coconala.com",
+   "consul.coconala.com",
+   "legal.coconala.com",
+   "mag.coconala.com",
+   "help.coconala.com",
+   "coconala.co.jp",
+   "skima.jp",
+   "commission.skima.jp",
+   "cone.skima.jp",
+   "faq.skima.jp",
+   "account.skonala.skima.jp",
+   "mk.skima.jp",
+   "9kk.skima.jp",
+   "note.com",
+   "help-note.com",
+   "pro.lp-note.com",
+   "premium.lp-note.com",
+   "note.jp",
+   "booth.pm",
+   "booth.fanbox.cc",
+   "booth.pixiv.help",
+   "policies.pixiv.net",
+   "pixiv.net",
+   "suzuri.jp",
+   "creator.line.me",
+   "store.line.me",
+   "help2.line.me",
+   "help.line.me"
+  ],
+  "th_id_vn": [
+   "fastwork.co",
+   "fastwork.id",
+   "fastlance.vn",
+   "jobboard.fastwork.co",
+   "jobboard.fastwork.id",
+   "static.fastwork.id",
+   "blog.fastwork.id",
+   "fastwork4276.zendesk.com",
+   "careers.fastwork.co"
+  ],
+  "latam": [
+   "workana.com",
+   "help.workana.com",
+   "blog.workana.com",
+   "computrabajo.com",
+   "mx/co/pe/ar/cl/ec/ve/cr/gt/sv/uy/py/pa/hn/ni/do/bo/pr.computrabajo.com"
+  ],
+  "de": [
+   "freelance.de",
+   "support.freelance.de"
+  ]
+ },
+ "blocked": {
+  "ureed_io": "HTTP 502（持续，代理节点被 Cloudflare/源站拒）",
+  "free_work_com": "HTTP 404/302（路径需换）",
+  "taling_me": "308 循环，未取到正文",
+  "class101_net": "307/301 循环，仅取到首页 title「클래스101 - 원하는 모든 것, 나답게 배우다」",
+  "idus_com": "302（/w/artists 200 但无费率内容）",
+  "help_coconala_com": "403",
+  "booth_pixiv_help": "403",
+  "faq_skima_jp": "403",
+  "fastwork_zendesk": "403"
+ },
+ "id_fasterwork_promo": {
+  "url": "https://fastwork.id/start-selling",
+  "verbatim": [
+   "term1\":\"Nikmati biaya komisi 0% saat seseorang membuka link yang kamu share di luar Fastwork dan melakukan pekerjaan dengan kamu.",
+   "term3\":\"Semua order dari klien baru akan dikenakan biaya platform 0% selama program ini berlangsi."
+  ],
+  "reading": "官方 promo：站外引流成交 0% 佣金；新客户首单平台费 0%（限活动期）→ 常规抽成需查 terms"
+ },
+ "jp_line_creators": {
+  "store_creator_shops_from_store_line_me": [
+   "https://store.line.me/stickershop/home/user/en (Creators stickers)",
+   "https://store.line.me/emojishop/home/creators/en (Creators emoji)",
+   "https://store.line.me/themeshop/home/creators/en (Creators themes)"
+  ],
+  "help_center": "https://help.line.me/webstore/web?lang=en （多语：ja/ko/zh-Hant/th）",
+  "creators_help": "help2.line.me/creators/ios/sp?lang=en",
+  "contact": "https://contact-cc.line.me/categoryId/10641（Creator 咨询表单）",
+  "payout_threshold_given": "LINE Creators 满 1,000 日元可提现（任务给定，尚未在本轮页面实锤；实锤候选：help2.line.me/creators/... 与 contact-cc 表单说明）",
+  "premium_price_notice": "https://line-sticker.landpress.line.me/Notice_202607premium_en（2026-07 表情 Premium 改价通知）",
+  "guideline_index": "https://creator.line.me/ja/guideline （下辖 sticker / animationsticker / customsticker / messagesticker / bigsticker / popupsticker / effectsticker / emoji / animationemoji / theme 十类产品线）",
+  "terms_page": "https://creator.line.me/ja/terms",
+  "langs": "ja / en / zh-hant / zh-hans / ko / th / id",
+  "review_guideline": "https://creator.line.me/ja/review_guideline"
+ },
+ "de_freelance_de": {
+  "home": "https://www.freelance.de/ (200, title \"freelance.de | Plattform für Freelancer & Projekte\")",
+  "project_board": "https://freelance.de/projekte (9 大类: IT/Technik/Management/Marketing/Design/Finanzen/Sprachen/Einkauf/Forschung)",
+  "freelancer_board": "https://freelance.de/freelancer (同 9 大类 + 城市页 Berlin/München/Hamburg/Frankfurt/Köln/Stuttgart/Essen/Leipzig/Dortmund)",
+  "register_freelancer": "https://freelance.de/myfreelance/register_as_freelancer.php",
+  "register_company": "https://freelance.de/myfreelance/register.html?hide_fl=1",
+  "support": "https://support.freelance.de",
+  "commission_claim": "freelance.de 对外宣称 0 佣金（任务给定；本站为德国项目对接板，收费来自会员/发布方）"
+ },
+ "jp_booth": {
+  "source": "https://booth.pixiv.help/hc/ja/search?query=手数料 （chrome-fetch）",
+  "service_fee": "「倉庫から発送」商品 = 商品価格 × 5.6% + 45円；「pixivFACTORY 発送」= マージン × 5.6% + 45円；免费配布不收服务费",
+  "warehouse_shipping_fee": "每单 = 商品価格 × 2.5% + 商品个数 × 25円（税込）；BOOST↑ 金额不收此费",
+  "payout_fee": "PayPal / Wise 转账均不收振込手数料（Wise 自身手续费由用户承担）",
+  "buyer_payment_fee": "银行/便利店支付且金额 < 3,000円 时买家付 130円",
+  "ondemand": "pixivFACTORY on-demand：从 margin 中扣服务费 + 振込手数料；无初期费用/月额",
+  "conclusion": "BOOTH 零库存 POD/寄售：服务费 ~5.6%+45円/单，远低于 SKIMA 22%；收款仍需日本账户"
+ },
+ "kr_class101": {
+  "source": "https://class101.net/ （chrome-fetch 渲染出真实内容）",
+  "category_counts": "AI 스킬업 809+ / 디지털 드로잉 527+ / 드로잉 796+ / 공예 229+ / 요리·음료 165+ / 베이킹·디저트 262+ / 음악 325+ / 운동 640+ / 라이프스타일 200+ / 사진·영상 484+ / 금융·재테크 595+ / 창업·부업 57+ / 성공 마인드 232+ / 프로그래밍 138+ / 데이터사이언스 48+ / 제품 기획 395+ / 비즈니스 270+ / 생산성 85+ / 마케팅 166+ / 디자인 162+ / 영상/3D 252+ / 영어 86+ / 외국어 시험 141+ / 제2 외국어 353+ / 아이 교육 128+ / 부모 교육 208+",
+  "pivot": "导航首位即「창업 · 부업」(创业·副业)，共 57 个课 —— 与\"内容本地化套利\"直接同题，但课程数最少（57 vs AI 809）→ 竞争最稀",
+  "monetization": "订阅制（무제한 구독）+ 单课购买；单课均价 약 20만원/门（\"개당 평균 20만원\"）；订阅 월 9만원 + 쿠폰팩",
+  "catalog_size": "클래스 6,389개+，每周更新",
+  "retention_hook": "每日学习目标 + 奖励，设目标者完课率 3 倍",
+  "instructor_split": "未公开；需登录/creator 页 —— 待挖"
+ },
+ "kr_taling": {
+  "status": "taling.me 308 循环（chrome 也无输出）→ 未取到；已知任务给定：有奖学金机制"
+ },
+ "tw_518": {
+  "source": "https://www.518.com.tw/ (200, title 「518熊班 – 找工作和技能交換…」(原518人力銀行))",
+  "note": "已从传统人力银行转型「熊班 Bearworks」：找工作 + AI求职工具 + 征才方案(企业方案免费)",
+  "footer_hosts": [
+   "chickpt.com.tw（小鸡市集 - 台湾任务/接案平台，待挖）",
+   "tasker.com.tw（Tasker 接案）",
+   "945.com.tw",
+   "ieye.cc",
+   "addcn.com / addcn.com.tw（数字征才）"
+  ],
+  "key": "518 页脚外链是「台湾接单生态」的一手来源：chickpt + tasker 即台湾版 Fiverr"
+ },
+ "tasker_chickpt": {
+  "source": "www.518.com.tw footer <a>（真实页面提取）"
+ },
+ "tw_chickpt": {
+  "source": "https://www.chickpt.com.tw/ (200)",
+  "title": "小雞上工－兼職必備！找兼職、短期打工、臨時工的首選",
+  "tasks_board": "https://www.chickpt.com.tw/cases （任務/找任務）",
+  "categories": "人力/餐飮/門市/辦公/補教/活動/銷售業務/市調/倉儲物流/美業/外送/旅宿/醫護/其他",
+  "enterprise": "https://www.chickpt.com.tw/manager/job/list （企業專區/職缺管理）",
+  "platform_rules": "https://www.chickpt.com.tw/service （平台規範）",
+  "sister_tasker": "https://www.tasker.com.tw （出任務）—— chickpt 站内直链",
+  "note": "chickpt 偏线下短期打工，tasker 偏线上任务；台湾最像「接单」的二站"
+ },
+ "tw_tasker": {
+  "source": "https://www.tasker.com.tw/ (chrome-fetch；直连 Header overflow)",
+  "title": "出任務｜外包發案找專家．台灣專業媒合平台",
+  "positioning": "台湾版「外包接案」平台；同生态含 8591/591/100/8891/518熊班/小鸡上工/找师傅（页脚互链）",
+  "categories_with_expert_counts": "商業設計 7418 / 軟硬體開發 4887 / 攝影娛樂 5967 / 行銷企劃 6019 / 會計財稅 644 / 翻譯寫作 5535 / AI應用 3250 / 法律服務 141 / 企管顧問 2831 / 運動健康 103",
+  "scale": "3,500+ 认证活跃专家；近期已解决 12,000+ 数位需求",
+  "free_post": "免费刊登案件 + 智能匹配 + 专家实名认证",
+  "hot_outsourcing": "AI 应用 / 平面设计 / 会计记账 / 短影音拍摄 / 公司记账报税 / 借址登记 / 商业摄影 / 社群行销代操 / 日文翻译口译",
+  "ai_vertical": "AI應用 3250 位专家 —— 大陆 AI 服务提供者本地化套利的直接对接口",
+  "monetization": "专家方案 / 订阅方案 / 加值服务 / T Points 方案",
+  "funding_risk": "台湾本地银行结算；大陆个人需台湾账户或第三方（待复核帮助中心）"
+ },
+ "fr_free_work": {
+  "source": "https://www.free-work.com/fr/ (chrome-fetch)",
+  "title": "Missions freelance, emplois, forum : Free-Work, LA référence IT",
+  "positioning": "法国 IT 自由职业市场（CDI + Freelance 双轨），0 佣金（任务给定），靠企业端与增值服务变现",
+  "verticals_from_home": "Architecte solutions métiers / Responsable Qualité Logiciel / Dev Oracle EBS senior / Architecte plateformes / Leader technique SIRH / Dev HR Access / Ingénieur système Linux / Service Delivery Manager / Ingénieur cybersécurité",
+  "side_products": "Free-Work Deals / Free-Work MyBusiness / Baromètre IT Rémunérations IT / Tests de soft skills / Annuaire des recruteurs IT / Simulation de salaire",
+  "note": "以 IT 岗位为主，非泛接单；适合技术型大陆自由职业者，但需法语/欧盟税务身份"
+ },
+ "useme": {
+  "product_tour": {
+   "source": "https://useme.com/en/ (chrome-fetch)",
+   "headline": "Work with clients worldwide without formal barriers / We handle contracts, invoices, and payments",
+   "no_company": "页面原文：\"international invoicing – you don’t need a company!\"",
+   "payout": "Your currency, your preferred method – PayPal, Wise, bank transfer, and more",
+   "plans": "Useme Flex（按单付费）/ Useme Comfort（订阅，无限 deal）",
+   "process": "填客户与项目信息（3分钟）→ 平台发付款链接给客户（客户无需注册）→ 钱进你的账户",
+   "client_examples": "Dubai, Toronto, Berlin → 全球客户同一流程"
+  }
+ },
+ "latam_workana": {
+  "source": "https://www.workana.com/en (200 + chrome-fetch)",
+  "positioning": "拉美（西语/葡语市场）最大远程人才平台，\"The Industry Leader in Latin America\", 10+ 年",
+  "dual_track": "Developers（认证后被 US 公司按周期雇用，赚 USD）+ Freelancers（按目标/小时，本地货币或 USD）",
+  "fields": "IT & Programming / Design & Multimedia / Writing & Translation / Sales & Marketing / Admin Support / Legal / Finance & Management / Engineering & Manufacturing",
+  "dev_roles": "Front End / Back End / Full Stack / Mobile / QA Automation / Data Engineer / Data Scientist / DevOps",
+  "promises": "Free consultation / Satisfaction Guaranteed / Protected Payments",
+  "funding_risk": "费率页 404 未取到；收款需拉美本地账户或 PayPal/Payoneer —— 待复核"
+ },
+ "summary": {
+  "new_sources_count": 0,
+  "confirmed_sites": [
+   "useme.com / help.useme.com（波兰，全球统一费率，无公司主体）",
+   "commission.skima.jp（SKIMA Global，ja/en/ko/zh-Hant，运营方 Visualworks，20%）",
+   "skima.jp / cone.skima.jp / faq.skima.jp / account.skima.jp / mk.skima.jp / 9kk.skima.jp",
+   "coconala.com / assist.coconala.com / tech.coconala.com / help.coconala.com / professional.coconala.com / job-matching.coconala.com / consul.coconala.com / legal.coconala.com / mag.coconala.com / coconala.co.jp",
+   "booth.pm / booth.fanbox.cc / booth.pixiv.help / policies.pixiv.net / pixiv.net / www.fanbox.cc",
+   "note.com / help-note.com / pro.lp-note.com / premium.lp-note.com / note.jp",
+   "suzuri.jp / creator.line.me / store.line.me / help.line.me / help2.line.me / terms2.line.me / line-sticker.landpress.line.me / contact-cc.line.me",
+   "fastwork.co / fastwork.id / fastlance.vn / jobboard.fastwork.co / jobboard.fastwork.id / static.fastwork.co / static.fastwork.id / blog.fastwork.co / blog.fastwork.id / seller.fastwork.co / seller.fastwork.id / fastwork4276.zendesk.com / careers.fastwork.co / slimfaq.com",
+   "freelance.de / support.freelance.de",
+   "www.free-work.com（法国 IT，0 佣金，任务给定）",
+   "workana.com / help.workana.com / blog.workana.com",
+   "computrabajo.com + 18 个国家子域（mx/co/pe/ar/cl/ec/ve/cr/gt/sv/uy/py/pa/hn/ni/do/bo/pr）",
+   "idus.com / debut.idus.com / team.idus.com",
+   "class101.net",
+   "www.518.com.tw / www.chickpt.com.tw / www.tasker.com.tw / addcn.com / 945.com.tw",
+   "ureed.io（502 未取到，任务给定）"
+  ],
+  "funding_risk_matrix": {
+   "useme": "大陆个人可用 —— PayPal/Wise/银行转账，无需公司主体，费率 4.99%（$5-$69 clamp）或 $99/月",
+   "fastwork_th": "需泰国银行账户；起结 200 THB；SCB/KBank/UOB 周二结，其他银行双周二",
+   "fastwork_id": "需印尼本地账户（待复核 terms）",
+   "skima": "需日本银行账户（本人確認+振込先口座確認，注册满7天）",
+   "booth": "需日本账户；PayPal/Wise 免振込手续费",
+   "line_creators": "满 1,000 日元可提（任务给定）；需 LINE 账号与收款方式",
+   "tasker_tw": "需台湾本地结算",
+   "workana": "PayPal/Payoneer 可，费率未取到"
+  }
+ }
+}
