@@ -1,0 +1,10 @@
+URL: http://u5-creator.s3.game.163.com/manual/
+STATUS: 302
+BYTES: 154
+GBK: false
+TITLE: 302 Found
+
+---TEXT---
+302 Found 302 Found nginx
+
+---LINKS---

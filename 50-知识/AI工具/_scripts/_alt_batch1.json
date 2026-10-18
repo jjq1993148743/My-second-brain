@@ -1,0 +1,122 @@
+[
+ {
+  "host": "videolan.org",
+  "status": 301,
+  "len": 169,
+  "title": "301 Moved Permanently | -> https://www.videolan.org/",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "emule-project.net",
+  "status": 302,
+  "len": 0,
+  "title": "-> https://www.emule-project.com/home/perl/general.cgi?l=1",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "portableapps.com",
+  "status": 200,
+  "len": 22264,
+  "title": "PortableApps.com - Portable software for USB, portable, and cloud drives",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "filezilla-project.org",
+  "status": 200,
+  "len": 14262,
+  "title": "FileZilla - The free FTP solution",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "7-zip.org",
+  "status": 200,
+  "len": 6787,
+  "title": "7-Zip",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "opautoclicker.com",
+  "status": 200,
+  "len": 6687,
+  "title": "OP Auto Clicker",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "dd-wrt.com",
+  "status": 200,
+  "len": 24660,
+  "title": "Making sure you&#39;re not a bot!",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "scrolloutf1.com",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "keepass.info",
+  "status": 200,
+  "len": 10215,
+  "title": "KeePass Password Safe",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "apachefriends.org",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://www.apachefriends.org/",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "winscp.net",
+  "status": 301,
+  "len": 301,
+  "title": "301 Moved Permanently | -> https://winscp.net/eng/index.php",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "assp.thockar.com",
+  "status": 503,
+  "len": 107,
+  "title": "",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "thockar.com",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "anevia.com",
+  "status": 301,
+  "len": 0,
+  "title": "-> https://www.ateme.com/",
+  "from": "sf_project",
+  "cat": "software"
+ },
+ {
+  "host": "addons.videolan.org",
+  "status": 200,
+  "len": 7535,
+  "title": "Making sure you&#39;re not a bot!",
+  "from": "sf_project",
+  "cat": "software"
+ }
+]

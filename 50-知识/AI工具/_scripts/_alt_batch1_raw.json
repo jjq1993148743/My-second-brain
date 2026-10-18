@@ -1,0 +1,202 @@
+[
+ {
+  "host": "x.com",
+  "from": "sf_project:corefonts",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:mingw",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:npppluginmgr",
+  "cat": "srcforge"
+ },
+ {
+  "host": "github.com",
+  "from": "sf_project:npppluginmgr",
+  "cat": "srcforge"
+ },
+ {
+  "host": "videolan.org",
+  "from": "sf_project:vlc",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:vlc",
+  "cat": "srcforge"
+ },
+ {
+  "host": "anevia.com",
+  "from": "sf_project:vlc",
+  "cat": "srcforge"
+ },
+ {
+  "host": "addons.videolan.org",
+  "from": "sf_project:vlc",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:emule",
+  "cat": "srcforge"
+ },
+ {
+  "host": "emule-project.net",
+  "from": "sf_project:emule",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:portableapps",
+  "cat": "srcforge"
+ },
+ {
+  "host": "portableapps.com",
+  "from": "sf_project:portableapps",
+  "cat": "srcforge"
+ },
+ {
+  "host": "mastodon.sdf.org",
+  "from": "sf_project:portableapps",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:sapnweclipse",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:filezilla",
+  "cat": "srcforge"
+ },
+ {
+  "host": "filezilla-project.org",
+  "from": "sf_project:filezilla",
+  "cat": "srcforge"
+ },
+ {
+  "host": "forum.filezilla-project.org",
+  "from": "sf_project:filezilla",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:azureus",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:sevenzip",
+  "cat": "srcforge"
+ },
+ {
+  "host": "7-zip.org",
+  "from": "sf_project:sevenzip",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:aresgalaxy",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:orphamielautoclicker",
+  "cat": "srcforge"
+ },
+ {
+  "host": "opautoclicker.com",
+  "from": "sf_project:orphamielautoclicker",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:autoap",
+  "cat": "srcforge"
+ },
+ {
+  "host": "dd-wrt.com",
+  "from": "sf_project:autoap",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:ubuntuzilla",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:scrollout",
+  "cat": "srcforge"
+ },
+ {
+  "host": "scrolloutf1.com",
+  "from": "sf_project:scrollout",
+  "cat": "srcforge"
+ },
+ {
+  "host": "yahoo.com",
+  "from": "sf_project:scrollout",
+  "cat": "srcforge"
+ },
+ {
+  "host": "gmail.com",
+  "from": "sf_project:scrollout",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:keepass",
+  "cat": "srcforge"
+ },
+ {
+  "host": "keepass.info",
+  "from": "sf_project:keepass",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:xampp",
+  "cat": "srcforge"
+ },
+ {
+  "host": "apachefriends.org",
+  "from": "sf_project:xampp",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:winscp",
+  "cat": "srcforge"
+ },
+ {
+  "host": "winscp.net",
+  "from": "sf_project:winscp",
+  "cat": "srcforge"
+ },
+ {
+  "host": "github.com",
+  "from": "sf_project:winscp",
+  "cat": "srcforge"
+ },
+ {
+  "host": "x.com",
+  "from": "sf_project:assp",
+  "cat": "srcforge"
+ },
+ {
+  "host": "assp.thockar.com",
+  "from": "sf_project:assp",
+  "cat": "srcforge"
+ },
+ {
+  "host": "thockar.com",
+  "from": "sf_project:assp",
+  "cat": "srcforge"
+ }
+]

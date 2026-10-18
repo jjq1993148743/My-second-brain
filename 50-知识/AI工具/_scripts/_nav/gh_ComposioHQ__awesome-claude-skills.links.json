@@ -1,0 +1,510 @@
+[
+ {
+  "href": "https://composio.dev/mcp-gateway",
+  "text": "MCP Gateway"
+ },
+ {
+  "href": "https://dashboard.composio.dev/login?utm_source=Github&utm_content=AwesomeSkills",
+  "text": "dashboard.composio.dev"
+ },
+ {
+  "href": "https://composio.dev/toolkits",
+  "text": "See all supported apps →"
+ },
+ {
+  "href": "https://github.com/anthropics/skills",
+  "text": "open standard"
+ },
+ {
+  "href": "https://github.com/anthropics/skills/tree/main/skills/docx",
+  "text": "docx"
+ },
+ {
+  "href": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+  "text": "pdf"
+ },
+ {
+  "href": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+  "text": "pptx"
+ },
+ {
+  "href": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+  "text": "xlsx"
+ },
+ {
+  "href": "https://github.com/smerchek/claude-epub-skill",
+  "text": "Markdown to EPUB Converter"
+ },
+ {
+  "href": "https://github.com/smerchek",
+  "text": "@smerchek"
+ },
+ {
+  "href": "https://github.com/sboghossian/master-claude-for-legal",
+  "text": "Master Claude for Legal"
+ },
+ {
+  "href": "https://github.com/sboghossian",
+  "text": "@sboghossian"
+ },
+ {
+  "href": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
+  "text": "artifacts-builder"
+ },
+ {
+  "href": "https://github.com/zxkane/aws-skills",
+  "text": "aws-skills"
+ },
+ {
+  "href": "https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill",
+  "text": "building-blog"
+ },
+ {
+  "href": "https://github.com/BuildShipGrowRepeat",
+  "text": "@BuildShipGrowRepeat"
+ },
+ {
+  "href": "https://chrome-relay.kushalsm.com/",
+  "text": "Chrome Relay"
+ },
+ {
+  "href": "https://chromewebstore.google.com/detail/chrome-relay/cpdiapbifblhlcpnmlmfpgfjlacebokb",
+  "text": "Chrome Web Store extension"
+ },
+ {
+  "href": "https://github.com/bluzername/claude-code-terminal-title",
+  "text": "Claude Code Terminal Title"
+ },
+ {
+  "href": "https://github.com/chrisvoncsefalvay/claude-d3js-skill",
+  "text": "D3.js Visualization"
+ },
+ {
+  "href": "https://github.com/chrisvoncsefalvay",
+  "text": "@chrisvoncsefalvay"
+ },
+ {
+  "href": "https://github.com/jthack/ffuf_claude_skill",
+  "text": "FFUF Web Fuzzing"
+ },
+ {
+  "href": "https://github.com/jthack",
+  "text": "@jthack"
+ },
+ {
+  "href": "https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch",
+  "text": "finishing-a-development-branch"
+ },
+ {
+  "href": "https://github.com/LewisLiu007/full-page-screenshot",
+  "text": "Full-Page Screenshot"
+ },
+ {
+  "href": "https://github.com/LewisLiu007",
+  "text": "@LewisLiu007"
+ },
+ {
+  "href": "https://github.com/avelikiy/great_cto",
+  "text": "great_cto"
+ },
+ {
+  "href": "https://github.com/avelikiy",
+  "text": "@avelikiy"
+ },
+ {
+  "href": "https://github.com/conorluddy/ios-simulator-skill",
+  "text": "iOS Simulator"
+ },
+ {
+  "href": "https://github.com/conorluddy",
+  "text": "@conorluddy"
+ },
+ {
+  "href": "https://github.com/sanjay3290/ai-skills/tree/main/skills/jules",
+  "text": "jules"
+ },
+ {
+  "href": "https://github.com/sanjay3290",
+  "text": "@sanjay3290"
+ },
+ {
+  "href": "https://github.com/OthmanAdi",
+  "text": "@OthmanAdi"
+ },
+ {
+  "href": "https://github.com/yvgude/lean-ctx",
+  "text": "lean-ctx"
+ },
+ {
+  "href": "https://leanctx.com",
+  "text": "leanctx.com"
+ },
+ {
+  "href": "https://github.com/yvgude",
+  "text": "@yvgude"
+ },
+ {
+  "href": "https://github.com/1NickPappas/move-code-quality-skill",
+  "text": "move-code-quality-skill"
+ },
+ {
+  "href": "https://github.com/openweb-org/openweb",
+  "text": "OpenWeb"
+ },
+ {
+  "href": "https://github.com/openweb-org",
+  "text": "@openweb-org"
+ },
+ {
+  "href": "https://github.com/santiago-vargas-de-kruijf/claude-overkill",
+  "text": "overkill"
+ },
+ {
+  "href": "https://github.com/santiago-vargas-de-kruijf",
+  "text": "@santiago-vargas-de-kruijf"
+ },
+ {
+  "href": "https://github.com/lackeyjb/playwright-skill",
+  "text": "Playwright Browser Automation"
+ },
+ {
+  "href": "https://github.com/lackeyjb",
+  "text": "@lackeyjb"
+ },
+ {
+  "href": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
+  "text": "prompt-engineering"
+ },
+ {
+  "href": "https://github.com/omkamal/pypict-claude-skill",
+  "text": "pypict-claude-skill"
+ },
+ {
+  "href": "https://github.com/ykdojo/claude-code-tips/tree/main/skills/reddit-fetch",
+  "text": "reddit-fetch"
+ },
+ {
+  "href": "https://septimlabs.com/tools/agents?utm_source=awesome-claude-skills&utm_medium=awesome-list&utm_campaign=oss-backlink",
+  "text": "Septim Agents Pack"
+ },
+ {
+  "href": "https://github.com/septimlabs-code",
+  "text": "@septimlabs-code"
+ },
+ {
+  "href": "https://github.com/yusufkaraaslan/Skill_Seekers",
+  "text": "Skill Seekers"
+ },
+ {
+  "href": "https://github.com/yusufkaraaslan",
+  "text": "@yusufkaraaslan"
+ },
+ {
+  "href": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd/skills/software-architecture",
+  "text": "software-architecture"
+ },
+ {
+  "href": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd/skills/subagent-driven-development",
+  "text": "subagent-driven-development"
+ },
+ {
+  "href": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
+  "text": "test-driven-development"
+ },
+ {
+  "href": "https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/",
+  "text": "using-git-worktrees"
+ },
+ {
+  "href": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+  "text": "CSV Data Summarizer"
+ },
+ {
+  "href": "https://github.com/coffeefuelbump",
+  "text": "@coffeefuelbump"
+ },
+ {
+  "href": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
+  "text": "deep-research"
+ },
+ {
+  "href": "https://github.com/sanjay3290",
+  "text": "@sanjay3290"
+ },
+ {
+  "href": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
+  "text": "postgres"
+ },
+ {
+  "href": "https://github.com/sanjay3290",
+  "text": "@sanjay3290"
+ },
+ {
+  "href": "https://github.com/Anjos2/recursive-research",
+  "text": "recursive-research"
+ },
+ {
+  "href": "https://github.com/Anjos2",
+  "text": "@Anjos2"
+ },
+ {
+  "href": "https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing",
+  "text": "root-cause-tracing"
+ },
+ {
+  "href": "https://github.com/rampstackco/claude-skills",
+  "text": "Brand Build Skills"
+ },
+ {
+  "href": "https://github.com/rampstackco",
+  "text": "@rampstackco"
+ },
+ {
+  "href": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/article-extractor",
+  "text": "article-extractor"
+ },
+ {
+  "href": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+  "text": "brainstorming"
+ },
+ {
+  "href": "https://github.com/emaynard/claude-family-history-research-skill",
+  "text": "family-history-research"
+ },
+ {
+  "href": "https://github.com/PleasePrompto/notebooklm-skill",
+  "text": "NotebookLM Integration"
+ },
+ {
+  "href": "https://github.com/PleasePrompto",
+  "text": "@PleasePrompto"
+ },
+ {
+  "href": "https://github.com/uxKero/anydesign",
+  "text": "anydesign"
+ },
+ {
+  "href": "https://github.com/uxKero",
+  "text": "@uxKero"
+ },
+ {
+  "href": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
+  "text": "imagen"
+ },
+ {
+  "href": "https://github.com/sanjay3290",
+  "text": "@sanjay3290"
+ },
+ {
+  "href": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript",
+  "text": "youtube-transcript"
+ },
+ {
+  "href": "https://github.com/wholiver/swiftui-design-skill",
+  "text": "swiftui-design-skill"
+ },
+ {
+  "href": "https://github.com/wholiver",
+  "text": "@wholiver"
+ },
+ {
+  "href": "https://github.com/anandpareek-hub/pixelbin-claude-skill",
+  "text": "Pixelbin-Media-Generation"
+ },
+ {
+  "href": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen",
+  "text": "kaizen"
+ },
+ {
+  "href": "https://github.com/haunchen/n8n-skills",
+  "text": "n8n-skills"
+ },
+ {
+  "href": "https://github.com/rockscy/solo-skills",
+  "text": "solo-skills"
+ },
+ {
+  "href": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next",
+  "text": "ship-learn-next"
+ },
+ {
+  "href": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry",
+  "text": "tapestry"
+ },
+ {
+  "href": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing",
+  "text": "git-pushing"
+ },
+ {
+  "href": "https://github.com/sanjay3290/ai-skills/tree/main/skills",
+  "text": "google-workspace-skills"
+ },
+ {
+  "href": "https://github.com/sanjay3290",
+  "text": "@sanjay3290"
+ },
+ {
+  "href": "https://www.teamoffsite.ai/proton/docs/skill",
+  "text": "mercury-mcp"
+ },
+ {
+  "href": "https://mercury.build",
+  "text": "Mercury"
+ },
+ {
+  "href": "https://github.com/sanjay3290/ai-skills/tree/main/skills/outline",
+  "text": "outline"
+ },
+ {
+  "href": "https://github.com/sanjay3290",
+  "text": "@sanjay3290"
+ },
+ {
+  "href": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/review-implementing",
+  "text": "review-implementing"
+ },
+ {
+  "href": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing",
+  "text": "test-fixing"
+ },
+ {
+  "href": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/computer-forensics",
+  "text": "computer-forensics"
+ },
+ {
+  "href": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/file-deletion",
+  "text": "file-deletion"
+ },
+ {
+  "href": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/metadata-extraction",
+  "text": "metadata-extraction"
+ },
+ {
+  "href": "https://github.com/jthack/threat-hunting-with-sigma-rules-skill",
+  "text": "threat-hunting-with-sigma-rules"
+ },
+ {
+  "href": "https://github.com/emory/ASD-AuDHD-PAI-Skills",
+  "text": "ASD-AuDHD-PAI-Skills"
+ },
+ {
+  "href": "https://github.com/emory/ASD-AuDHD-PAI-Skills/blob/main/Skills/pda-reframing/SKILL.md",
+  "text": "pda-reframing"
+ },
+ {
+  "href": "https://composio.dev",
+  "text": "Rube MCP (Composio)"
+ },
+ {
+  "href": "https://docs.claude.com/en/api/skills-guide",
+  "text": "Skills API documentation"
+ },
+ {
+  "href": "https://www.anthropic.com/news/skills",
+  "text": "Claude Skills Overview"
+ },
+ {
+  "href": "https://support.claude.com/en/articles/12512180-using-skills-in-claude",
+  "text": "Skills User Guide"
+ },
+ {
+  "href": "https://support.claude.com/en/articles/12512198-creating-custom-skills",
+  "text": "Creating Custom Skills"
+ },
+ {
+  "href": "https://docs.claude.com/en/api/skills-guide",
+  "text": "Skills API Documentation"
+ },
+ {
+  "href": "https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+  "text": "Agent Skills Blog Post"
+ },
+ {
+  "href": "https://github.com/anthropics/skills",
+  "text": "Anthropic Skills Repository"
+ },
+ {
+  "href": "https://community.anthropic.com",
+  "text": "Claude Community"
+ },
+ {
+  "href": "https://claude.ai/marketplace",
+  "text": "Skills Marketplace"
+ },
+ {
+  "href": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code",
+  "text": "Lenny's Newsletter"
+ },
+ {
+  "href": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
+  "text": "Notion Skills"
+ },
+ {
+  "href": "https://composio.dev/content/top-claude-skills",
+  "text": "Top Claude Skills"
+ },
+ {
+  "href": "https://discord.com/invite/composio",
+  "text": "Join our Discord"
+ },
+ {
+  "href": "https://x.com/composio",
+  "text": "Follow on Twitter/X"
+ },
+ {
+  "href": "https://dashboard.composio.dev/login?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeSkills",
+  "text": ""
+ },
+ {
+  "href": "https://github.com/user-attachments/assets/e91255af-e4ba-4d71-b1a8-bd081e8a234a",
+  "text": ""
+ },
+ {
+  "href": "https://awesome.re",
+  "text": ""
+ },
+ {
+  "href": "https://awesome.re/badge.svg",
+  "text": ""
+ },
+ {
+  "href": "https://makeapullrequest.com",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square",
+  "text": ""
+ },
+ {
+  "href": "https://www.apache.org/licenses/LICENSE-2.0",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square",
+  "text": ""
+ },
+ {
+  "href": "https://twitter.com/composio",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/badge/Follow",
+  "text": ""
+ },
+ {
+  "href": "https://www.linkedin.com/company/composiohq/",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/badge/Join",
+  "text": ""
+ },
+ {
+  "href": "https://platform.composio.dev/?utm_source=Github&utm_content=AwesomeSkills",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/badge/Get_Started_Free-4F46E5?style=for-the-badge",
+  "text": ""
+ }
+]

@@ -1,0 +1,70 @@
+{
+ "useme.com": [
+  "useme-pricing-freelancers :: http://useme.com/en/users/subscription :: Plans",
+  "useme-pricing-freelancers :: https://useme.com/en/pricing :: useme.com/en/pricing",
+  "useme-pricing-freelancers :: https://useme.com/en/dashboard/calculator :: calculator",
+  "useme-pricing-freelancers :: https://useme.com/en/jobs :: jobs",
+  "useme-pricing-freelancers :: https://useme.com/pl/useme-plus :: Useme Plus subscription",
+  "useme-pricing-freelancers :: https://useme.com :: Useme",
+  "useme-freelancer-hub :: https://useme.com :: Useme"
+ ],
+ "x.com": [
+  "suzuri-top :: https://www.x.com/suzurijp :: "
+ ],
+ "instagram.com": [
+  "suzuri-top :: https://www.instagram.com/suzurijp :: ",
+  "suzuri-top :: https://www.instagram.com/suzurijp :: Instagram"
+ ],
+ "apps.apple.com": [
+  "suzuri-top :: https://apps.apple.com/jp/app/id1079321893 :: "
+ ],
+ "play.google.com": [
+  "suzuri-top :: https://play.google.com/store/apps/details?id=jp.suzuri :: ",
+  "line-creators :: https://play.google.com/store/apps/details?id=com.linecorp.usersticker :: "
+ ],
+ "twitter.com": [
+  "suzuri-top :: https://twitter.com/intent/tweet?url=https%3A%2F%2Fsuzuri.jp&amp;hashtags=suzuri :: ",
+  "suzuri-top :: https://twitter.com/suzurijpx :: メンテナンス・障害情報",
+  "suzuri-top :: https://twitter.com/suzurijp :: X",
+  "line-creators :: https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F&text=Create%20and%20sell%20your%20own%20LINE%20stickers%2C%20emoji%2C%20and%20themes%20with%20LINE%20Creators%20Market.&hashtags=LINEStickers%2CLINECreatorsEmoji%2CLINEThemes :: "
+ ],
+ "facebook.com": [
+  "suzuri-top :: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsuzuri.jp :: ",
+  "line-creators :: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F :: "
+ ],
+ "suzuri.zendesk.com": [
+  "suzuri-top :: https://suzuri.zendesk.com/hc :: よくある質問"
+ ],
+ "pepabo.com": [
+  "suzuri-top :: https://pepabo.com/company/privacy :: プライバシーポリシー"
+ ],
+ "recruit.pepabo.com": [
+  "suzuri-top :: https://recruit.pepabo.com :: 採用情報"
+ ],
+ "alive-project.com": [
+  "suzuri-top :: https://alive-project.com/streamer-magazine :: ストリーマーマガジン"
+ ],
+ "line.me": [
+  "suzuri-top :: https://line.me/ti/p/@gai7477u :: LINE",
+  "line-creators :: https://line.me/en/terms/policy :: Privacy Policy"
+ ],
+ "help2.line.me": [
+  "line-creators :: https://help2.line.me/creators/ios/sp?lang=en :: FAQ",
+  "line-creators :: https://help2.line.me/creators/android/sp?lang=en :: FAQ",
+  "line-creators :: https://help2.line.me/creators/ios/pc?lang=en :: FAQ",
+  "line-creators :: https://help2.line.me/creators/android/pc?lang=en :: FAQ",
+  "line-creators :: https://help2.line.me/creators/web/pc?lang=en :: FAQ"
+ ],
+ "itunes.apple.com": [
+  "line-creators :: https://itunes.apple.com/jp/app/line/id1239684967 :: "
+ ],
+ "store.line.me": [
+  "line-creators :: https://store.line.me :: LINE STORE"
+ ],
+ "terms2.line.me": [
+  "line-creators :: https://terms2.line.me/usersticker_rev :: Specified Commercial Transactions Act"
+ ],
+ "social-plugins.line.me": [
+  "line-creators :: https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F :: "
+ ]
+}

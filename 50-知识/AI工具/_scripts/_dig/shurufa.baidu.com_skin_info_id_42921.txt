@@ -1,0 +1,46 @@
+URL: https://shurufa.baidu.com/skin_info?id=42921
+STATUS: 200
+BYTES: 14436
+GBK: false
+TITLE: 百度输入法 -夏彦·你是我心动的唯一真相皮肤详情
+
+---TEXT---
+百度输入法 -夏彦·你是我心动的唯一真相皮肤详情 首页 词库 个人中心 喜欢的皮肤... 快登录，有众多礼包和特权等着你~ 登录 注册 收藏 夏彦·你是我心动的唯一真相 作者： 百度输入法 类别： 游戏皮肤 时间： 2026-08-13 22:35:21 分享： 皮肤简介： "来自未名市的专属萌伴！指尖轻触，记录每一刻心动~将爱意藏于键盘，永驻幸福与甜蜜！" 立即换肤 4525 人使用此皮肤 用户评论 发表 暂时还没有人来评论哦~ 快点来抢沙发吧！ 为您推荐 陆景和·你是我... 莫弈·你是我心... 左然·你是我心... 【雨欣】紫色阳光 【雨欣】桃树之思 【雨欣】小女孩... 产品站点 百度五笔输入法 百度手机输入法 百度MAC输入法 百度Linux输入法 产品帮助 使用帮助 常见问题 在线输入法 产品论坛中心 隐私政策 用户体验计划 关注我们 新浪微博 官方贴吧 微信公众号 表情/皮肤合作 欢迎原创形象品牌提供百度输 入法表情包、皮肤专题。 合作联系QQ：1492527008 邮箱： baiduinput@baidu.com &copy;2026 Baidu | 使用百度前必读 | 商务合作联络 | 用户协议
+
+---LINKS---
+	https://shurufa.baidu.com/
+首页	https://shurufa.baidu.com/
+词库	https://shurufa.baidu.com/dict
+个人中心	https://shurufa.baidu.com/user
+	https://passport.baidu.com/v2/?login&u=http%3A%2F%2Fshurufa.baidu.com
+登录	https://passport.baidu.com/v2/?login&u=http%3A%2F%2Fshurufa.baidu.com
+注册	https://passport.baidu.com/v2/?reg&tpl=sr&u=http%3A%2F%2Fshurufa.baidu.com
+百度输入法	https://shurufa.baidu.com/user_info_skin?id=0
+游戏皮肤	https://shurufa.baidu.com/skin_list?cid=44
+立即换肤	https://shurufa.baidu.com/skin_download?id=42921
+	https://shurufa.baidu.com/skin_info?id=42924
+陆景和·你是我...	https://shurufa.baidu.com/skin_info?id=42924
+	https://shurufa.baidu.com/skin_info?id=42923
+莫弈·你是我心...	https://shurufa.baidu.com/skin_info?id=42923
+	https://shurufa.baidu.com/skin_info?id=42922
+左然·你是我心...	https://shurufa.baidu.com/skin_info?id=42922
+	https://shurufa.baidu.com/skin_info?id=40905
+【雨欣】紫色阳光	https://shurufa.baidu.com/skin_info?id=40905
+	https://shurufa.baidu.com/skin_info?id=40904
+【雨欣】桃树之思	https://shurufa.baidu.com/skin_info?id=40904
+	https://shurufa.baidu.com/skin_info?id=40903
+【雨欣】小女孩...	https://shurufa.baidu.com/skin_info?id=40903
+百度五笔输入法	http://wubi.baidu.com/
+百度手机输入法	https://srf.baidu.com/
+百度MAC输入法	https://srf.baidu.com/input/mac.html
+百度Linux输入法	https://srf.baidu.com/site/guanwang_linux/index.html
+使用帮助	http://help.baidu.com/question?prod_en=shurufa&class=299
+常见问题	http://help.baidu.com/question?prod_en=shurufa&class=300
+在线输入法	http://help.baidu.com/question?prod_en=shurufa&class=556
+产品论坛中心	http://tieba.baidu.com/f?ie=utf-8&kw=%E7%99%BE%E5%BA%A6%E8%BE%93%E5%85%A5%E6%B3%95&red_tag=m3574894222
+隐私政策	https://srf.baidu.com/site/privacyclient/index.html
+用户体验计划	https://shurufa.baidu.com/user_experience
+新浪微博	http://weibo.com/baidushurufa
+官方贴吧	http://tieba.baidu.com/f?kw=%B0%D9%B6%C8%CA%E4%C8%EB%B7%A8
+使用百度前必读	http://www.baidu.com/duty/
+用户协议	http://help.baidu.com/question?prod_en=shurufa&class=375

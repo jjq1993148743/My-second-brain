@@ -1,0 +1,762 @@
+[
+ {
+  "href": "https://awesomeindiehacker.tools",
+  "text": "Awesome Indie Hacker Tools"
+ },
+ {
+  "href": "https://producthunt.com/",
+  "text": "Product Hunt"
+ },
+ {
+  "href": "https://www.indiehackers.com/",
+  "text": "Indie Hackers"
+ },
+ {
+  "href": "https://news.ycombinator.com/",
+  "text": "Hacker News"
+ },
+ {
+  "href": "https://www.reddit.com/",
+  "text": "Reddit"
+ },
+ {
+  "href": "https://twitter.com/",
+  "text": "Twitter"
+ },
+ {
+  "href": "https://www.linkedin.com/",
+  "text": "LinkedIn"
+ },
+ {
+  "href": "https://www.producthunt.com/upcoming/",
+  "text": "ProductHunt Upcoming"
+ },
+ {
+  "href": "https://betalist.com/",
+  "text": "BetaList"
+ },
+ {
+  "href": "https://v0.dev/",
+  "text": "v0"
+ },
+ {
+  "href": "https://vx.dev/",
+  "text": "vx.dev"
+ },
+ {
+  "href": "https://www.figma.com/",
+  "text": "Figma"
+ },
+ {
+  "href": "https://www.adobe.com/products/xd.html",
+  "text": "Adobe XD"
+ },
+ {
+  "href": "https://www.sketch.com/",
+  "text": "Sketch"
+ },
+ {
+  "href": "https://www.framer.com/",
+  "text": "Framer"
+ },
+ {
+  "href": "https://webflow.com/",
+  "text": "Webflow"
+ },
+ {
+  "href": "https://berrry.app",
+  "text": "Berrry"
+ },
+ {
+  "href": "https://tailwindcss.com/",
+  "text": "Tailwind CSS"
+ },
+ {
+  "href": "https://getbootstrap.com/",
+  "text": "Bootstrap"
+ },
+ {
+  "href": "https://ant.design/",
+  "text": "Ant Design"
+ },
+ {
+  "href": "https://mui.com/",
+  "text": "Material UI"
+ },
+ {
+  "href": "https://chakra-ui.com/",
+  "text": "Chakra UI"
+ },
+ {
+  "href": "https://mantine.dev/",
+  "text": "Mantine"
+ },
+ {
+  "href": "https://tailwindui.com/",
+  "text": "Tailwind UI"
+ },
+ {
+  "href": "https://mui.com/",
+  "text": "MUI"
+ },
+ {
+  "href": "https://ant.design/",
+  "text": "Ant Design"
+ },
+ {
+  "href": "https://chakra-ui.com/",
+  "text": "Chakra UI"
+ },
+ {
+  "href": "https://mantine.dev/",
+  "text": "Mantine"
+ },
+ {
+  "href": "https://ui.shadcn.com/",
+  "text": "Shadcn UI"
+ },
+ {
+  "href": "https://www.radix-ui.com/",
+  "text": "Radix UI"
+ },
+ {
+  "href": "https://headlessui.com/",
+  "text": "Headless UI"
+ },
+ {
+  "href": "https://magic.design/",
+  "text": "Magic UI"
+ },
+ {
+  "href": "https://animata.design/",
+  "text": "Animata"
+ },
+ {
+  "href": "https://www.framer.com/motion/",
+  "text": "Framer Motion"
+ },
+ {
+  "href": "https://storybook.js.org/",
+  "text": "Storybook"
+ },
+ {
+  "href": "https://ui.aceternity.com/",
+  "text": "Aceternity UI"
+ },
+ {
+  "href": "https://iconify.design/",
+  "text": "Iconify"
+ },
+ {
+  "href": "https://heroicons.com/",
+  "text": "Heroicons"
+ },
+ {
+  "href": "https://phosphoricons.com/",
+  "text": "Phosphor Icons"
+ },
+ {
+  "href": "https://fonts.google.com/icons",
+  "text": "Material Icons"
+ },
+ {
+  "href": "https://fontawesome.com/",
+  "text": "Font Awesome"
+ },
+ {
+  "href": "https://feathericons.com/",
+  "text": "Feather Icons"
+ },
+ {
+  "href": "https://lucide.dev/",
+  "text": "Lucide"
+ },
+ {
+  "href": "https://simpleicons.org/",
+  "text": "Simple Icons"
+ },
+ {
+  "href": "https://tabler-icons.io/",
+  "text": "Tabler Icons"
+ },
+ {
+  "href": "https://remixicon.com/",
+  "text": "Remix Icon"
+ },
+ {
+  "href": "https://boxicons.com/",
+  "text": "Boxicons"
+ },
+ {
+  "href": "https://ionic.io/ionicons",
+  "text": "Ionicons"
+ },
+ {
+  "href": "https://www.svgrepo.com/",
+  "text": "svgrepo"
+ },
+ {
+  "href": "https://fonts.google.com/",
+  "text": "Google Fonts"
+ },
+ {
+  "href": "https://fonts.adobe.com/",
+  "text": "Adobe Fonts"
+ },
+ {
+  "href": "https://www.fontsquirrel.com/",
+  "text": "Font Squirrel"
+ },
+ {
+  "href": "https://www.fontshare.com/",
+  "text": "Fontshare"
+ },
+ {
+  "href": "https://www.fontspring.com/",
+  "text": "Fontspring"
+ },
+ {
+  "href": "https://www.myfonts.com/",
+  "text": "MyFonts"
+ },
+ {
+  "href": "https://www.fontfabric.com/",
+  "text": "Fontfabric"
+ },
+ {
+  "href": "https://www.fontspace.com/",
+  "text": "FontSpace"
+ },
+ {
+  "href": "https://github.com/Wittlesus/indie-hacker-toolkit",
+  "text": "Indie Hacker Toolkit"
+ },
+ {
+  "href": "https://makerkit.dev/",
+  "text": "Makerkit"
+ },
+ {
+  "href": "https://shipfa.st/",
+  "text": "Shipfast"
+ },
+ {
+  "href": "https://supastarter.com/",
+  "text": "Supastarter"
+ },
+ {
+  "href": "https://tailwindui.com/templates",
+  "text": "Tailwind UI"
+ },
+ {
+  "href": "https://code.visualstudio.com/",
+  "text": "VS Code"
+ },
+ {
+  "href": "https://cursor.sh/",
+  "text": "Cursor"
+ },
+ {
+  "href": "https://bolt.new/",
+  "text": "Bolt.new"
+ },
+ {
+  "href": "https://www.tabnine.com/",
+  "text": "Tabnine"
+ },
+ {
+  "href": "https://github.com/features/copilot",
+  "text": "GitHub Copilot"
+ },
+ {
+  "href": "https://marketplace.visualstudio.com/items?itemName=Continue.continue",
+  "text": "Continue"
+ },
+ {
+  "href": "https://codeium.com/",
+  "text": "Codeium"
+ },
+ {
+  "href": "https://www.taskade.com/",
+  "text": "Taskade"
+ },
+ {
+  "href": "https://tools.sagasu.art",
+  "text": "OmniConvert"
+ },
+ {
+  "href": "https://reactjs.org/",
+  "text": "React"
+ },
+ {
+  "href": "https://vuejs.org/",
+  "text": "Vue"
+ },
+ {
+  "href": "https://angular.io/",
+  "text": "Angular"
+ },
+ {
+  "href": "https://nextjs.org/",
+  "text": "Next.js"
+ },
+ {
+  "href": "https://svelte.dev/",
+  "text": "Svelte"
+ },
+ {
+  "href": "https://emberjs.com/",
+  "text": "Ember"
+ },
+ {
+  "href": "https://nuxtjs.org/",
+  "text": "Nuxt"
+ },
+ {
+  "href": "https://www.gatsbyjs.com/",
+  "text": "Gatsby"
+ },
+ {
+  "href": "https://astro.build/",
+  "text": "Astro"
+ },
+ {
+  "href": "https://reactnative.dev/",
+  "text": "React Native"
+ },
+ {
+  "href": "https://flutter.dev/",
+  "text": "Flutter"
+ },
+ {
+  "href": "https://developer.apple.com/xcode/swiftui/",
+  "text": "SwiftUI"
+ },
+ {
+  "href": "https://developer.android.com/jetpack/compose",
+  "text": "Jetpack Compose"
+ },
+ {
+  "href": "https://plasmo.com/",
+  "text": "Plasmo"
+ },
+ {
+  "href": "https://wxt.dev/",
+  "text": "wxt"
+ },
+ {
+  "href": "https://nestjs.com/",
+  "text": "Nest.js"
+ },
+ {
+  "href": "https://fastapi.tiangolo.com/",
+  "text": "FastAPI"
+ },
+ {
+  "href": "https://supabase.com/",
+  "text": "Supabase"
+ },
+ {
+  "href": "https://firebase.google.com/",
+  "text": "Firebase"
+ },
+ {
+  "href": "https://planetscale.com/",
+  "text": "PlanetScale"
+ },
+ {
+  "href": "https://neon.tech/",
+  "text": "Neon"
+ },
+ {
+  "href": "https://upstash.com/",
+  "text": "Upstash"
+ },
+ {
+  "href": "https://railway.app/",
+  "text": "Railway"
+ },
+ {
+  "href": "https://realm.io/",
+  "text": "Realm"
+ },
+ {
+  "href": "https://tidbcloud.com/",
+  "text": "tidbcloud"
+ },
+ {
+  "href": "https://www.mongodb.com/cloud/atlas",
+  "text": "MongoDB Atlas"
+ },
+ {
+  "href": "https://aws.amazon.com/dynamodb/",
+  "text": "AWS DynamoDB"
+ },
+ {
+  "href": "https://aws.amazon.com/rds/",
+  "text": "AWS RDS"
+ },
+ {
+  "href": "https://aws.amazon.com/rds/aurora/",
+  "text": "AWS Aurora"
+ },
+ {
+  "href": "https://www.prisma.io/",
+  "text": "Prisma"
+ },
+ {
+  "href": "https://drizzle.dev/",
+  "text": "Drizzle"
+ },
+ {
+  "href": "https://typeorm.io/",
+  "text": "TypeORM"
+ },
+ {
+  "href": "https://sequelize.org/",
+  "text": "Sequelize"
+ },
+ {
+  "href": "https://objectionjs.org/",
+  "text": "Objection.js"
+ },
+ {
+  "href": "https://kysely.dev/",
+  "text": "Kysely"
+ },
+ {
+  "href": "https://www.cloudflare.com/products/r2/",
+  "text": "Cloudflare R2"
+ },
+ {
+  "href": "https://aws.amazon.com/s3/",
+  "text": "AWS S3"
+ },
+ {
+  "href": "https://next-auth.js.org/",
+  "text": "NextAuth"
+ },
+ {
+  "href": "https://authjs.dev/",
+  "text": "Auth.js"
+ },
+ {
+  "href": "https://supabase.com/docs/reference/javascript/supabase-auth-sign-in-with-oauth",
+  "text": "Supabase Auth"
+ },
+ {
+  "href": "https://firebase.google.com/docs/auth",
+  "text": "Firebase Auth"
+ },
+ {
+  "href": "https://aws.amazon.com/cognito/",
+  "text": "AWS Cognito"
+ },
+ {
+  "href": "https://auth0.com/",
+  "text": "Auth0"
+ },
+ {
+  "href": "https://www.okta.com/",
+  "text": "Okta"
+ },
+ {
+  "href": "https://www.authgear.com/",
+  "text": "Authgear"
+ },
+ {
+  "href": "https://clerk.com/",
+  "text": "Clerk"
+ },
+ {
+  "href": "https://www.scalekit.com",
+  "text": "Scalekit"
+ },
+ {
+  "href": "https://stripe.com/",
+  "text": "Stripe"
+ },
+ {
+  "href": "https://www.paypal.com/",
+  "text": "Paypal"
+ },
+ {
+  "href": "https://www.lemonsqueezy.com/",
+  "text": "Lemon Squeezy"
+ },
+ {
+  "href": "https://www.paddle.com/",
+  "text": "Paddle"
+ },
+ {
+  "href": "https://www.i18next.com/",
+  "text": "i18next"
+ },
+ {
+  "href": "https://next-intl-docs.vercel.app/",
+  "text": "next-intl"
+ },
+ {
+  "href": "https://www.namecheap.com/",
+  "text": "Namecheap"
+ },
+ {
+  "href": "https://www.godaddy.com/",
+  "text": "GoDaddy"
+ },
+ {
+  "href": "https://domains.google/",
+  "text": "Google Domains"
+ },
+ {
+  "href": "https://www.cloudflare.com/products/registrar/",
+  "text": "Cloudflare Registrar"
+ },
+ {
+  "href": "https://porkbun.com/",
+  "text": "Porkbun"
+ },
+ {
+  "href": "https://www.namesilo.com/",
+  "text": "NameSilo"
+ },
+ {
+  "href": "https://www.gandi.net/",
+  "text": "Gandi"
+ },
+ {
+  "href": "https://www.hover.com/",
+  "text": "Hover"
+ },
+ {
+  "href": "https://www.domain.com/",
+  "text": "Domain.com"
+ },
+ {
+  "href": "https://www.dynadot.com/",
+  "text": "Dynadot"
+ },
+ {
+  "href": "https://www.cloudflare.com/",
+  "text": "Cloudflare"
+ },
+ {
+  "href": "https://www.zoho.com/",
+  "text": "Zoho"
+ },
+ {
+  "href": "https://resend.com/",
+  "text": "Resend"
+ },
+ {
+  "href": "https://plunk.dev/",
+  "text": "Plunk"
+ },
+ {
+  "href": "https://postmarkapp.com/",
+  "text": "Postmark"
+ },
+ {
+  "href": "https://www.mailgun.com/",
+  "text": "Mailgun"
+ },
+ {
+  "href": "https://vercel.com/",
+  "text": "Vercel"
+ },
+ {
+  "href": "https://www.netlify.com/",
+  "text": "Netlify"
+ },
+ {
+  "href": "https://pages.cloudflare.com/",
+  "text": "Cloudflare Pages"
+ },
+ {
+  "href": "https://zeabur.com/",
+  "text": "Zeabur"
+ },
+ {
+  "href": "https://render.com/",
+  "text": "Render"
+ },
+ {
+  "href": "https://fly.io/",
+  "text": "Fly.io"
+ },
+ {
+  "href": "https://pages.github.com/",
+  "text": "Github Pages"
+ },
+ {
+  "href": "https://producthunt.com/",
+  "text": "Product Hunt"
+ },
+ {
+  "href": "https://www.indiehackers.com/",
+  "text": "Indie Hackers"
+ },
+ {
+  "href": "https://news.ycombinator.com/",
+  "text": "Hacker News"
+ },
+ {
+  "href": "https://www.reddit.com/",
+  "text": "Reddit"
+ },
+ {
+  "href": "https://twitter.com/",
+  "text": "Twitter"
+ },
+ {
+  "href": "https://www.linkedin.com/",
+  "text": "LinkedIn"
+ },
+ {
+  "href": "https://www.producthunt.com/upcoming/",
+  "text": "ProductHunt Upcoming"
+ },
+ {
+  "href": "https://betalist.com/",
+  "text": "BetaList"
+ },
+ {
+  "href": "https://www.v2ex.com/",
+  "text": "v2ex"
+ },
+ {
+  "href": "https://sspai.com/",
+  "text": "少数派"
+ },
+ {
+  "href": "https://github.com/Gingiris/gingiris-launch",
+  "text": "AI产品全球发布指南"
+ },
+ {
+  "href": "https://github.com/Gingiris/gingiris-b2b-growth",
+  "text": "B2B SaaS 增长手册"
+ },
+ {
+  "href": "https://github.com/Gingiris/gingiris-opensource",
+  "text": "开源项目发布营销"
+ },
+ {
+  "href": "https://github.com/Gingiris/gingiris-aso-growth",
+  "text": "ASO 与 App 冷启动"
+ },
+ {
+  "href": "https://receiptclaimer.com.au",
+  "text": "ReceiptClaimer"
+ },
+ {
+  "href": "https://posthog.com/",
+  "text": "Posthog"
+ },
+ {
+  "href": "https://mixpanel.com/",
+  "text": "Mixpanel"
+ },
+ {
+  "href": "https://analytics.google.com/",
+  "text": "Google Analytics"
+ },
+ {
+  "href": "https://matomo.org/",
+  "text": "Matomo"
+ },
+ {
+  "href": "https://usefathom.com/",
+  "text": "Fathom"
+ },
+ {
+  "href": "https://www.hotjar.com/",
+  "text": "Hotjar"
+ },
+ {
+  "href": "https://amplitude.com/",
+  "text": "Amplitude"
+ },
+ {
+  "href": "https://www.kissmetrics.io/",
+  "text": "Kissmetrics"
+ },
+ {
+  "href": "https://plausible.io/",
+  "text": "Plausible"
+ },
+ {
+  "href": "https://umami.is/",
+  "text": "Umami"
+ },
+ {
+  "href": "https://github.com/garmeeh/next-seo",
+  "text": "Next SEO"
+ },
+ {
+  "href": "https://www.semrush.com/",
+  "text": "Semrush"
+ },
+ {
+  "href": "https://ahrefs.com/",
+  "text": "Ahrefs"
+ },
+ {
+  "href": "https://www.similarweb.com/",
+  "text": "SimilarWeb"
+ },
+ {
+  "href": "https://moz.com/products/pro",
+  "text": "Moz Pro"
+ },
+ {
+  "href": "https://search.google.com/search-console/about",
+  "text": "Google Search Console"
+ },
+ {
+  "href": "https://analytics.google.com/",
+  "text": "Google Analytics"
+ },
+ {
+  "href": "https://www.screamingfrog.co.uk/seo-spider/",
+  "text": "Screaming Frog SEO Spider"
+ },
+ {
+  "href": "https://yoast.com/wordpress/plugins/seo/",
+  "text": "Yoast SEO"
+ },
+ {
+  "href": "https://www.semrush.com/swa/",
+  "text": "SEMrush Writing Assistant"
+ },
+ {
+  "href": "https://neilpatel.com/ubersuggest/",
+  "text": "Ubersuggest"
+ },
+ {
+  "href": "https://ogimg.xyz",
+  "text": "ogimg.xyz"
+ },
+ {
+  "href": "https://github.com/nicepkg/shotog",
+  "text": "ShotOG"
+ },
+ {
+  "href": "https://redirect-checker.autocompany.workers.dev",
+  "text": "Redirect Checker"
+ },
+ {
+  "href": "https://ssl-certificate-monitor.autocompany.workers.dev",
+  "text": "SSL Certificate Monitor"
+ },
+ {
+  "href": "https://dns-propagation-checker.autocompany.workers.dev",
+  "text": "DNS Propagation Checker"
+ },
+ {
+  "href": "https://pageguard.org",
+  "text": "PageGuard"
+ },
+ {
+  "href": "https://webcorelab.com",
+  "text": "WebCoreLab"
+ }
+]

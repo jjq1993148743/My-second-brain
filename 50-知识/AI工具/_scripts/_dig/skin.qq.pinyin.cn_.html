@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>QQ输入法-皮肤平台</title>
+<meta property="qc:admins" content="1441266201661160161166367" />
+<link rel="icon" href="https://dl.qqpy.sogou.com/qq.pinyin.cn/icons/qq.pinyin.cn.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="https://dl.qqpy.sogou.com/static/skin/css/basic.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="https://dl.qqpy.sogou.com/static/skin/css/index.css" media="screen" />
+<script type="text/javascript" src="https://dl.qqpy.sogou.com/static/skin/js/jquery-1.6.2.min.js"></script>
+<script src="https://dl.qqpy.sogou.com/static/skin/js/passport.js"></script>	
+<script type="text/javascript" src="https://dl.qqpy.sogou.com/static/skin/js/skin.js?v=4"></script>
+<style rel="stylesheet" type="text/css">
+a{
+	outline:none;blr:expression(this.onFocus=this.blur());} /* //去掉虚框 */
+h1.logo { 
+	float: left; margin: 10px 13px 0 0;}
+
+#logo {
+	width:192px; height:46px;}
+#logo a{
+	width:159px; height:46px; background: url("https://dl.qqpy.sogou.com/qq.pinyin.cn/icons/qq.pinyin.cn.png") 0 0!important; float:left;}
+		
+ul.new_nav li a.home-link {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/nav_shouye_default.jpg") no-repeat scroll 0 0 transparent;
+	width: 32px;
+}
+ul.new_nav li.current a.home-link {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/nav_shouye_selected.jpg") no-repeat scroll 0 0 transparent;
+	width: 32px;
+}
+ul.new_nav li a.skin-link {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/nav_pf_default.jpg") no-repeat scroll 0 0 transparent;
+	width: 32px;
+}
+ul.new_nav li.current a.skin-link {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/nav_pf_selected.jpg") no-repeat scroll 0 0 transparent;
+	width: 32px;
+}
+ul.new_nav li a.words-link {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/nav_ck_default.jpg") no-repeat scroll 0 0 transparent;
+	width: 32px;
+}
+ul.new_nav li.current a.words-link {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/nav_ck_selected.jpg") no-repeat scroll 0 0 transparent;
+	width: 32px;
+}
+ul.new_nav {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/header_title_line.png") no-repeat scroll left top transparent;
+	float: left;
+	list-style: none outside none;
+	margin: 19px 0 0 21px !important;
+	width: 450px;
+}
+
+ul.new_nav li {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/header_title_line.png") no-repeat scroll right top transparent;
+	display: inline;
+	float: left;
+	height: 59px;
+}
+ul.new_nav li a {
+	display: block;
+	height: 17px;
+	margin: 17px 16px 0;
+	text-indent: -9999px;
+}
+ul.new_nav li a.home-link {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/nav_shouye_default.jpg") no-repeat scroll 0 0 transparent;
+	width: 32px;
+}
+ul.new_nav li b.slim {
+	width: 64px;
+}	
+ul.new_nav li.current b {
+	background: url("https://dl.qqpy.sogou.com/static/skin/css/images/header_title_indicator.png") no-repeat scroll center bottom transparent;
+	display: block;
+	height: 25px;
+	margin-top: 0;
+}
+ul.new_nav li.current b.slim {
+   *margin-top: 0!important;*margin-top: -6px;
+}
+
+.dl_t_a{
+	display: block;
+	height: 18px;
+	overflow: hidden;
+	width: 160px;
+}
+ul.ranking-list li.rl-top-3 b {   
+	height: 18px;	width: 120px;overflow: hidden;
+}
+ul.ranking-list li.rl-top-3 dl_t_a{ 
+	width: 120px;
+}
+ul.new_nav li.current a.help-link {
+	background: transparent url("https://dl.qqpy.sogou.com/help/css/images/nav_bangzhu_selected.jpg") no-repeat scroll 0 0;
+	width: 32px;
+}
+ul.new_nav li a.help-link {
+	background: transparent url("https://dl.qqpy.sogou.com/help/css/images/nav_bangzhu_default.jpg") no-repeat scroll 0 0;
+	width: 32px;
+}
+</style>
+</head>
+<body>
+	<div id="all-wrapper">
+		<!-- header start -->
+		<div id="header">
+			<div id="top-menu" need_latest_msg="1">
+									<a href="javascript:do_login('');"><img src='https://dl.qqpy.sogou.com/static/skin/css/images/Connect_logo_7.png' /></a>
+							</div>			
+			<div id="header-main">
+				<h1 id="logo" class="logo">
+					<a href="http://qq.pinyin.cn" alt="QQ输入法"></a>
+				</h1>			   
+				<ul class="new_nav">
+					<li><a class="home-link"  href="http://qq.pinyin.cn" >首页</a><b class="slim"></b></li>
+					<li class="current"><a onfocus="this.blur();" href="http://skin.qq.pinyin.cn" class="skin-link">皮肤</a><b class="slim"></b></li>
+					<li><a onfocus="this.blur();" href="http://cdict.qq.pinyin.cn" class="words-link">词库</a><b class="slim"></b></li>				   
+					<li><a onfocus="this.blur();" href="http://qq.pinyin.cn/help/" class="help-link">帮助</a><b class="slim"></b></li> 
+				</ul>
+				<div class="weibo">
+					<a href="http://weibo.com/qqshurufa" title="" target="_blank" class="sina-weibo">新浪微博收听</a>
+				</div>
+			</div>
+		</div>
+		<!-- header end -->
+		
+		<!-- main-wrapper start -->
+		<div id="main-wrapper">
+			
+			<div id="left-side">
+								<!-- 搜索、上传皮肤框 -->
+		   	  	<div id="search-skin-box" class="light-blue-box">
+					<div class="b">
+						<form method="get" action="/skin_list" target="_blank">
+							<input type="text" name="key" class="search-textbox" id="search_skin_textbox"	onkeyup=searchzishu(this.value) value="搜皮肤" />
+							<input type="submit" value="搜索" class="search-btn"/>
+						</form>
+												<a class="ss-upload-link" href="javascript:upload_redirect()" title="点击上传">上传皮肤</a>
+												<ul>
+							<li><a href="https://dl.qqpy.sogou.com/tools/SkinEditor.exe">编辑器下载</a></li>
+							<li><a href="https://dl.qqpy.sogou.com/tools/QQImeSkinEditor_tutorial.MP4">教程下载</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<!-- 皮肤分类、下载排行 -->
+				<div id="class-download-album-box" class="light-blue-box">
+					<b class="b1"></b>
+					<b class="b2"></b>
+					
+					<div class="b">
+					   <ul class="outer">
+					   		<!-- 皮肤分类 -->
+					   		<li class="b skin-part">
+								<a class="a_Skin_pc"></a>
+								<ul>
+																										<li><a href="/skin_list?type_id=1"><span>QQ出品</span><span class="n">(136)</span></a></li>
+																																			<li><a href="/skin_list?type_id=3"><span>卡通动漫</span><span class="n">(4827)</span></a></li>
+																																			<li><a href="/skin_list?type_id=13"><span>心情景物</span><span class="n">(2774)</span></a></li>
+																																			<li><a href="/skin_list?type_id=5"><span>炫酷质感</span><span class="n">(994)</span></a></li>
+																																			<li><a href="/skin_list?type_id=6"><span>影视明星</span><span class="n">(816)</span></a></li>
+																																			<li><a href="/skin_list?type_id=4"><span>游戏地带</span><span class="n">(617)</span></a></li>
+																																			<li><a href="/skin_list?type_id=14"><span>动感体育</span><span class="n">(47)</span></a></li>
+																																			<li><a href="/skin_list?type_id=2"><span>相框皮肤</span><span class="n">(58)</span></a></li>
+																																			<li><a href="/skin_list?type_id=15"><span>动态皮肤</span><span class="n">(568)</span></a></li>
+																										<!--<li><a href="http://style.qq.com/py" target="_blank"><span>QQ风尚皮肤专区</span></a></li>-->
+								</ul>
+								<a class="a_Skin_phone" title="点击查看手机皮肤" href="/skin_list_mobile">
+									<span class="Skin_phone_new">new</span>
+								</a>
+							</li>
+ 
+							<!-- 下载排行 -->
+							<li class="download-part">
+								<h2>下载排行</h2>
+								<ul class="time-scope">
+									<li class="time-current ts-week"><a href="#">周</a></li>
+									<li class="ts-month"><a href="#">月</a></li>
+									<li class="ts-day"><a href="#">日</a></li>
+								</ul>
+																<ul id="week_rank" class="ranking-list">
+																												<li class="rl-top-3">
+										<div class="rl-1">1</div>
+										<a href="/skin_detail?skin_id=2685789779" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/160/21/2685789779_s.jpg" alt="皮肤缩略图"/></a>
+										<b>Seafish</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=2685789779" title="点击查看" target="_blank">seafish·小女孩趴趴</a>
+										<span>下载：9071</span>
+									</li>
+									   																												<li class="rl-top-3">
+										<div class="rl-2">2</div>
+										<a href="/skin_detail?skin_id=3100815204" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/184/210/3100815204_s.jpg" alt="皮肤缩略图"/></a>
+										<b>---【欣欣】</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=3100815204" title="点击查看" target="_blank">【欣欣】开心童年</a>
+										<span>下载：8524</span>
+									</li>
+									   																												<li class="rl-top-3">
+										<div class="rl-3">3</div>
+										<a href="/skin_detail?skin_id=697805935" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/41/151/697805935_s.jpg" alt="皮肤缩略图"/></a>
+										<b>空小阶</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=697805935" title="点击查看" target="_blank">【520】赖你一辈子</a>
+										<span>下载：8481</span>
+									</li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=1511961695" title="点击查看" target="_blank">花语·夜幕下de浪漫【动态】</a><span>7941</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=2628784543" title="点击查看" target="_blank">【欣欣】短脖子的长颈鹿</a><span>7900</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=2514223863" title="点击查看" target="_blank">阿狸  礼物</a><span>7095</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=2354684470" title="点击查看" target="_blank">【520】一吻定情</a><span>6384</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3143039929" title="点击查看" target="_blank">诺恩极致迷你清爽版</a><span>5607</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3808306776" title="点击查看" target="_blank">花语·一个人的午后【动态】</a><span>5400</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3786151727" title="点击查看" target="_blank">花语·摩天轮【动态皮肤】</a><span>4229</span></li>
+									   																	</ul>
+																								<ul id="month_rank" class="ranking-list" style="display:none">
+																												<li class="rl-top-3">
+										<div class="rl-1">1</div>
+										<a href="/skin_detail?skin_id=659015398" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/39/71/659015398_s.jpg" alt="皮肤缩略图"/></a>
+										<b>---【欣欣】</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=659015398" title="点击查看" target="_blank">【欣欣】可爱海豚</a>
+										<span>下载：45932</span>
+									</li>
+									   																												<li class="rl-top-3">
+										<div class="rl-2">2</div>
+										<a href="/skin_detail?skin_id=183849796" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/175/85/183849796_s.jpg" alt="皮肤缩略图"/></a>
+										<b>初久</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=183849796" title="点击查看" target="_blank">【初久】睡神阿狸</a>
+										<span>下载：35603</span>
+									</li>
+									   																												<li class="rl-top-3">
+										<div class="rl-3">3</div>
+										<a href="/skin_detail?skin_id=568539727" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/33/227/568539727_s.jpg" alt="皮肤缩略图"/></a>
+										<b>初久</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=568539727" title="点击查看" target="_blank">【初久】女孩猫咪</a>
+										<span>下载：29474</span>
+									</li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=1511961695" title="点击查看" target="_blank">花语·夜幕下de浪漫【动态】</a><span>27430</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3692698891" title="点击查看" target="_blank">【欣欣】我喜欢你就好</a><span>26035</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3143039929" title="点击查看" target="_blank">诺恩极致迷你清爽版</a><span>21197</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3808306776" title="点击查看" target="_blank">花语·一个人的午后【动态】</a><span>20327</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=1652490762" title="点击查看" target="_blank">【欣欣】喵呜</a><span>20080</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3484790830" title="点击查看" target="_blank">天天飞车—暗影橘子</a><span>15187</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=858132590" title="点击查看" target="_blank">花语·封心锁爱【动态】</a><span>14837</span></li>
+									   																	</ul>
+																								<ul id="day_rank" class="ranking-list" style="display:none">
+																												<li class="rl-top-3">
+										<div class="rl-1">1</div>
+										<a href="/skin_detail?skin_id=360765253" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/21/128/360765253_s.jpg" alt="皮肤缩略图"/></a>
+										<b>L-Continue</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=360765253" title="点击查看" target="_blank">简约-黑白灰（全按钮版）</a>
+										<span>下载：402</span>
+									</li>
+									   																												<li class="rl-top-3">
+										<div class="rl-2">2</div>
+										<a href="/skin_detail?skin_id=1041976275" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/62/27/1041976275_s.jpg" alt="皮肤缩略图"/></a>
+										<b>---【欣欣】</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=1041976275" title="点击查看" target="_blank">【动态】快回我消息~</a>
+										<span>下载：352</span>
+									</li>
+									   																												<li class="rl-top-3">
+										<div class="rl-3">3</div>
+										<a href="/skin_detail?skin_id=3416370482" title="点击查看" target="_blank" class="rl-img-link"><img src="https://dl.qqpy.sogou.com/skin/203/161/3416370482_s.jpg" alt="皮肤缩略图"/></a>
+										<b>悠然の时光里</b>
+										<a class="dl_t_a" href="/skin_detail?skin_id=3416370482" title="点击查看" target="_blank">【悠然】三团·小可爱</a>
+										<span>下载：332</span>
+									</li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=4038172040" title="点击查看" target="_blank">【欣欣】每天都要加油鸭</a><span>270</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=393459999" title="点击查看" target="_blank">【悠然】可爱的肥四·小肉肉</a><span>264</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3143039929" title="点击查看" target="_blank">诺恩极致迷你清爽版</a><span>258</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=920317463" title="点击查看" target="_blank">【诺】咱们裸熊·小熊友</a><span>143</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3216660" title="点击查看" target="_blank">Windows10 黑色简约</a><span>130</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=3355028726" title="点击查看" target="_blank">【欣欣】元气满满的一天</a><span>117</span></li>
+									   																												<li><a class="dl_t_a" href="/skin_detail?skin_id=2047722714" title="点击查看" target="_blank">【诺】长草颜团子·烤串</a><span>96</span></li>
+									   																	</ul>
+															</li>				   
+							
+					   </ul>
+					</div>
+				</div>
+							</div>
+		   
+			<div id="content">
+			
+<script type="text/javascript" src="https://dl.qqpy.sogou.com/stat/pb.js?id=8921"></script>
+
+<!-- 广告  new-->
+<style type="text/css">
+#focus2 {
+	width:693px; margin-left:2px;height:188px; overflow:hidden; position:relative;}
+#focus2 ul {
+	height:177px; position:absolute;}
+#focus2 ul li {
+	float:left; width:693px; height:177px; overflow:hidden; position:relative; background:#000;}
+#focus2 ul li div {
+	position:absolute; overflow:hidden;}
+#focus2 .btnBg {
+	position:absolute; width:693px; height:35px; left:0; bottom:0; background:#000;}
+#focus2 .btn {
+	position:absolute; width:693px; height:35px; right:-340px; bottom:-2px; padding-left:10px;}
+#focus2 .btn b {
+	display:block; float:left; width:12px; height:12px; background: url("https://dl.qqpy.sogou.com/static/skin/css/images/home_ad_circle_shifter.png") no-repeat 0 -12px!important;background: url("https://dl.qqpy.sogou.com/static/skin/css/images/home_ad_circle_shifter.gif") no-repeat 0 -12px;margin-right:10px; cursor:pointer;}
+#focus2 .btn b.on {
+	background-position:0 0!important;background-position:0 0;}
+</style>
+<div class="light-blue-box" id="focus2">
+	<ul>
+		<li><img alt="输入法" src="https://dl.qqpy.sogou.com/ads/skins/skin_banner_20180919.jpg"></li>
+	</ul>					
+</div>
+
+<div id="excellen-skin-box" class="light-blue-box">
+	<b class="b1"></b>
+	<b class="b2"></b>				 
+	<div class="b">
+		<h2>优秀皮肤</h2>
+		
+		<div class="es-tag-link">
+			<a href="/index"  class="esb-current" >推荐</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+							<a href="/index?tag_id=174" >简约</a>
+				&nbsp;&nbsp;|&nbsp;&nbsp;							<a href="/index?tag_id=35" >情侣</a>
+				&nbsp;&nbsp;|&nbsp;&nbsp;							<a href="/index?tag_id=294" >皮揣子</a>
+									</div>
+		
+		
+		<div id="esb-tab1" class="content-item-main">
+								<div class="skin-item l">
+							<a href="/skin_detail?skin_id=3994505827" target="_blank" title="点击查看" class="skin-pic-link">
+					<img src="https://dl.qqpy.sogou.com/skin/238/23/3994505827_s.jpg" alt="皮肤预览"/>
+				</a>
+				<a href="/skin_detail?skin_id=3994505827" target="_blank" class="skin-name-link">【悠然】秋田君·母亲节</a>
+				<span>悠然时光里</span>
+				<input type="button" value="3.6万" class="download-btn-big download-link-btn" skinid="3994505827"/>
+			</div>
+								<div class="skin-item r">
+							<a href="/skin_detail?skin_id=360765253" target="_blank" title="点击查看" class="skin-pic-link">
+					<img src="https://dl.qqpy.sogou.com/skin/21/128/360765253_s.jpg" alt="皮肤预览"/>
+				</a>
+				<a href="/skin_detail?skin_id=360765253" target="_blank" class="skin-name-link">简约-黑白灰（全按钮版）</a>
+				<span>L-Continue</span>
+				<input type="button" value="107.7万" class="download-btn-big download-link-btn" skinid="360765253"/>
+			</div>
+								<div class="skin-item l">
+							<a href="/skin_detail?skin_id=393459999" target="_blank" title="点击查看" class="skin-pic-link">
+					<img src="https://dl.qqpy.sogou.com/skin/23/115/393459999_s.jpg" alt="皮肤预览"/>
+				</a>
+				<a href="/skin_detail?skin_id=393459999" target="_blank" class="skin-name-link">【悠然】可爱的肥四·小肉肉</a>
+				<span>悠然の时光里</span>
+				<input type="button" value="22.4万" class="download-btn-big download-link-btn" skinid="393459999"/>
+			</div>
+								<div class="skin-item r">
+							<a href="/skin_detail?skin_id=3416370482" target="_blank" title="点击查看" class="skin-pic-link">
+					<img src="https://dl.qqpy.sogou.com/skin/203/161/3416370482_s.jpg" alt="皮肤预览"/>
+				</a>
+				<a href="/skin_detail?skin_id=3416370482" target="_blank" class="skin-name-link">【悠然】三团·小可爱</a>
+				<span>悠然の时光里</span>
+				<input type="button" value="23.4万" class="download-btn-big download-link-btn" skinid="3416370482"/>
+			</div>
+								<div class="skin-item l">
+							<a href="/skin_detail?skin_id=1041976275" target="_blank" title="点击查看" class="skin-pic-link">
+					<img src="https://dl.qqpy.sogou.com/skin/62/27/1041976275_s.jpg" alt="皮肤预览"/>
+				</a>
+				<a href="/skin_detail?skin_id=1041976275" target="_blank" class="skin-name-link">【动态】快回我消息~</a>
+				<span>---【欣欣】</span>
+				<input type="button" value="15.5万" class="download-btn-big download-link-btn" skinid="1041976275"/>
+			</div>
+								<div class="skin-item r">
+							<a href="/skin_detail?skin_id=4038172040" target="_blank" title="点击查看" class="skin-pic-link">
+					<img src="https://dl.qqpy.sogou.com/skin/240/177/4038172040_s.jpg" alt="皮肤预览"/>
+				</a>
+				<a href="/skin_detail?skin_id=4038172040" target="_blank" class="skin-name-link">【欣欣】每天都要加油鸭</a>
+				<span>---【欣欣】</span>
+				<input type="button" value="11.6万" class="download-btn-big download-link-btn" skinid="4038172040"/>
+			</div>
+								<div class="skin-item l">
+							<a href="/skin_detail?skin_id=3143039929" target="_blank" title="点击查看" class="skin-pic-link">
+					<img src="https://dl.qqpy.sogou.com/skin/187/86/3143039929_s.jpg" alt="皮肤预览"/>
+				</a>
+				<a href="/skin_detail?skin_id=3143039929" target="_blank" class="skin-name-link">诺恩极致迷你清爽版</a>
+				<span>　　- Μr. Νoen　އއ　  </span>
+				<input type="button" value="181.3万" class="download-btn-big download-link-btn" skinid="3143039929"/>
+			</div>
+								<div class="skin-item r">
+							<a href="/skin_detail?skin_id=1813974168" target="_blank" title="点击查看" class="skin-pic-link">
+					<img src="https://dl.qqpy.sogou.com/skin/108/31/1813974168_s.jpg" alt="皮肤预览"/>
+				</a>
+				<a href="/skin_detail?skin_id=1813974168" target="_blank" class="skin-name-link">【左文字】妹子好萌啊</a>
+				<span>左文字</span>
+				<input type="button" value="11.6万" class="download-btn-big download-link-btn" skinid="1813974168"/>
+			</div>
+				</div>
+	</div>
+</div>
+
+<!-- 官方精品系列 -->
+<div id="offical-series-box" class="light-blue-box">
+	<b class="b1"></b>
+	<b class="b2"></b>
+	
+	<div class="b">
+		<h2>官方精品系列</h2>
+		<ul id="osb-tab-nav">
+			<li class="os-current osb-li1"><a href="#">Q宠乐园系列</a></li>
+			<li class="osb-li2"><a href="#">腾讯游戏 快乐主张</a></li>
+			<li class="osb-li3"><a href="#">生化危机-战神再生</a></li>
+		</ul>
+		
+		<h3 id="osb-title">Q宠乐园系列</h3>
+		<div id="osb-tab1" class="content-item-main">
+			<div class="skin-item l">
+				<a href="/skin_detail?skin_id=90" target="_blank" title="点击查看" class="skin-pic-link"><img src="https://dl.qqpy.sogou.com/static/skin/css/images/pk1.png" alt="皮肤预览"/></a>
+				<a href="/skin_detail?skin_id=90" target="_blank" class="skin-name-link">PK小熊</a>
+				<span>tencent</span>
+				<input type="button" value="30.6万" class="download-btn-big download-link-btn" skinid="90"/>
+			</div>
+			<div class="skin-item r">
+				<a href="/skin_detail?skin_id=93" target="_blank" title="点击查看" class="skin-pic-link"><img src="https://dl.qqpy.sogou.com/static/skin/css/images/pk2.png" alt="皮肤预览"/></a>
+				<a href="/skin_detail?skin_id=93" target="_blank" class="skin-name-link">小熊道场</a>
+				<span>tencent</span>
+				<input type="button" value="15.0万" class="download-btn-big download-link-btn" skinid="93"/>
+			</div>
+	   	</div>
+		<div id="osb-tab2" class="content-item-main" style="display:none">
+			<div class="skin-item l">
+				<a href="/skin_detail?skin_id=119" target="_blank" title="点击查看" class="skin-pic-link"><img src="https://dl.qqpy.sogou.com/static/skin/css/images/119_380_280.jpg" alt="皮肤预览"/></a>
+				<a href="/skin_detail?skin_id=119" target="_blank" class="skin-name-link">快乐家族-何炅</a>
+				<span>tencent</span>
+				<input type="button" value="113.2万" class="download-btn-big download-link-btn" skinid="119"/>
+			</div>
+			<div class="skin-item r">
+				<a href="/skin_detail?skin_id=121" target="_blank" title="点击查看" class="skin-pic-link"><img src="https://dl.qqpy.sogou.com/static/skin/css/images/xiena.png"  alt="皮肤预览"/></a>
+				<a href="/skin_detail?skin_id=121" target="_blank" class="skin-name-link">快乐家族-谢娜</a>
+				<span>tencent</span>
+				<input type="button" value="113.2万" class="download-btn-big download-link-btn" skinid="121"/>
+			</div>
+	   	</div>
+		<div id="osb-tab3" class="content-item-main" style="display:none">
+			<div class="skin-item l">
+				<a href="/skin_detail?skin_id=74" target="_blank" title="点击查看" class="skin-pic-link"><img src="https://dl.qqpy.sogou.com/static/skin/css/images/74_380_280.jpg" alt="皮肤预览"/></a>
+				<a href="/skin_detail?skin_id=74" target="_blank" class="skin-name-link">生化危机-战神再生1</a>
+				<span>tencent</span>
+				<input type="button" value="18.4万" class="download-btn-big download-link-btn" skinid="74"/>
+			</div>
+			<div class="skin-item r">
+				<a href="/skin_detail?skin_id=75" target="_blank" title="点击查看" class="skin-pic-link"><img src="https://dl.qqpy.sogou.com/static/skin/css/images/75_500_380.jpg" alt="皮肤预览"/></a>
+				<a href="/skin_detail?skin_id=75" target="_blank" class="skin-name-link">生化危机-战神再生2</a>
+				<span>tencent</span>
+				<input type="button" value="20.0万" class="download-btn-big download-link-btn" skinid="75"/>
+			</div>
+	   	</div>
+	</div>
+</div>
+
+<!-- 热门标签 -->
+<div id="hot-tag-box" class="light-blue-box">
+	<b class="b1"></b>
+	<b class="b2"></b>
+	
+	<div class="b">
+		<h2>热门标签</h2>
+		<div>
+						<a href="/skin_list?key=174&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/bf8229696f7a3bb4700cfddef19fa23f.jpg" alt="标签图片" />
+				简约
+			</a>
+						<a href="/skin_list?key=35&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/1c383cd30b7c298ab50293adfecb7b18.jpg" alt="标签图片" />
+				情侣
+			</a>
+						<a href="/skin_list?key=294&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/6883966fd8f918a4aa29be29d2c386fb.jpg" alt="标签图片" />
+				皮揣子
+			</a>
+						<a href="/skin_list?key=277&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/20f07591c6fcb220ffe637cda29bb3f6.jpg" alt="标签图片" />
+				欧弟
+			</a>
+						<a href="/skin_list?key=263&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/8c19f571e251e61cb8dd3612f26d5ecf.jpg" alt="标签图片" />
+				囧囧
+			</a>
+						<a href="/skin_list?key=298&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/26e359e83860db1d11b6acca57d8ea88.jpg" alt="标签图片" />
+				黑妮
+			</a>
+						<a href="/skin_list?key=282&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/6a9aeddfc689c1d0e3b9ccc3ab651bc5.jpg" alt="标签图片" />
+				嘉琪公主
+			</a>
+						<a href="/skin_list?key=208&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/091d584fced301b442654dd8c23b3fc9.jpg" alt="标签图片" />
+				hami
+			</a>
+						<a href="/skin_list?key=206&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/7eabe3a1649ffa2b3ff8c02ebfd5659f.jpg" alt="标签图片" />
+				mocmoc
+			</a>
+						<a href="/skin_list?key=176&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/38af86134b65d0f10fe33d30dd76442e.jpg" alt="标签图片" />
+				花
+			</a>
+						<a href="/skin_list?key=364&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/bac9162b47c56fc8a4d2a519803d51b3.jpg" alt="标签图片" />
+				皮肤大赛
+			</a>
+						<a href="/skin_list?key=368&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/cf004fdc76fa1a4f25f62e0eb5261ca3.jpg" alt="标签图片" />
+				小清新
+			</a>
+						<a href="/skin_list?key=137&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/3988c7f88ebcb58c6ce932b957b6f332.jpg" alt="标签图片" />
+				圣诞
+			</a>
+						<a href="/skin_list?key=407&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/f4f6dce2f3a0f9dada0c2b5b66452017.JPG" alt="标签图片" />
+				眼镜熊
+			</a>
+						<a href="/skin_list?key=161&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/bd4c9ab730f5513206b999ec0d90d1fb.jpg" alt="标签图片" />
+				新年
+			</a>
+						<a href="/skin_list?key=230&type=2" target="_blank" title="点击查看">
+				<img src="http://dl.qqpy.sogou.com/skin/tags/6da9003b743b65f4c0ccd295cc484e57.jpg" alt="标签图片" />
+				张小盒
+			</a>
+					</div>
+	</div>
+</div>
+
+			</div>
+			
+		</div>
+		<!-- main-wrapper end -->	   
+	</div>
+	<div id="ID_QQLOVE_WAIT_BACKGND" style="position: absolute; z-index: 65529; left: 0px; top: 0px; width: 100%; height: 2633px; display: none; border: 1px solid rgb(204, 204, 204); background-color: rgb(0, 0, 0); opacity: 0.35;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=35);"></div>
+	<div id="ID_QQLOVE_FLOAT_WIN" style="position: absolute; z-index: 65530; left: 0px; width: 100%; display: none; top: 100px;"></div>
+		<!-- footer start -->
+	<div id="footer">
+	</div>
+	<!-- end start -->
+</body>
+</html>

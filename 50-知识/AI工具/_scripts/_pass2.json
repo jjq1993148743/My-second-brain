@@ -1,0 +1,564 @@
+[
+ {
+  "url": "https://bgm.tv/group",
+  "status": 200,
+  "len": 22204,
+  "title": "小组",
+  "hosts": [],
+  "sample": [],
+  "snippet": "小组 Bangumi 番组计划 动画 近期注目 排行榜 分类浏览 动画标签 每日放送 动画日志 书籍 近期注目 排行榜 分类浏览 图书标签 图书日志 音乐 近期注目 排行榜 浏览全部 音乐标签 音乐日志 游戏 近期注目 排行榜 平台浏览 游戏标签 游戏日志 三次元 近期注目 排行榜 分类浏览 三次元标签 三次元日志 人物 虚构角色 现实人物 超展开 小组 随便看看 所有小组 探索 时空管理局 日志 目录 维基人 开发者平台 MAGI 问答 Dollars 客户端 onAir Mobile 天窗联盟 全部 动画 书籍 游戏 音乐 三次元 人物 登录 注册 小组 / 热门小组 番組WIKI計画 8245 位成员 nico旁观者 5011 位成员 补旧番 16572 位成员 站务论坛 3313 位成员 伪春菜 3685 位成员 宽带综合症候群 6563 位成员 / 所有小组的最新话题 话题 小组 作者 最后回复 DeepSeek v4 Flash 1017 宛如椅子瘫痪，核弹看完沉默了 (+20) ～技术宅真可怕～ 阿琴在coding | 琴神 2026-10-18 14:51 为什么评论 "
+ },
+ {
+  "url": "https://bgm.tv/group/discover",
+  "status": 200,
+  "len": 22191,
+  "title": "小组",
+  "hosts": [],
+  "sample": [],
+  "snippet": "小组 Bangumi 番组计划 动画 近期注目 排行榜 分类浏览 动画标签 每日放送 动画日志 书籍 近期注目 排行榜 分类浏览 图书标签 图书日志 音乐 近期注目 排行榜 浏览全部 音乐标签 音乐日志 游戏 近期注目 排行榜 平台浏览 游戏标签 游戏日志 三次元 近期注目 排行榜 分类浏览 三次元标签 三次元日志 人物 虚构角色 现实人物 超展开 小组 随便看看 所有小组 探索 时空管理局 日志 目录 维基人 开发者平台 MAGI 问答 Dollars 客户端 onAir Mobile 天窗联盟 全部 动画 书籍 游戏 音乐 三次元 人物 登录 注册 小组 / 热门小组 nico旁观者 5011 位成员 pixiv 16122 位成员 番組WIKI計画 8245 位成员 站务论坛 3313 位成员 伪春菜 3685 位成员 靠谱人生茶话会 16167 位成员 / 所有小组的最新话题 话题 小组 作者 最后回复 DeepSeek v4 Flash 1017 宛如椅子瘫痪，核弹看完沉默了 (+20) ～技术宅真可怕～ 阿琴在coding | 琴神 2026-10-18 14:51 为什么"
+ },
+ {
+  "url": "https://www.mcmod.cn/",
+  "status": 200,
+  "len": 183185,
+  "title": "MC百科|最大的Minecraft中文MOD百科",
+  "hosts": [
+   "bbs.mcmod.cn",
+   "play.mcmod.cn",
+   "bug.mcmod.cn",
+   "link.mcmod.cn",
+   "center.mcmod.cn",
+   "www.minebbs.com",
+   "klpbbs.com",
+   "www.mczwlt.net",
+   "www.mcbbs.co",
+   "tieba.baidu.com",
+   "mineplugin.org",
+   "hytalecn.com",
+   "adventofascension-zh.gamepedia.com",
+   "www.dkdun.cn",
+   "beian.miit.gov.cn"
+  ],
+  "sample": [
+   {
+    "host": "bbs.mcmod.cn",
+    "href": "https://bbs.mcmod.cn/",
+    "anchor": "社群"
+   },
+   {
+    "host": "play.mcmod.cn",
+    "href": "https://play.mcmod.cn/",
+    "anchor": "找服玩"
+   },
+   {
+    "host": "bug.mcmod.cn",
+    "href": "https://bug.mcmod.cn/",
+    "anchor": "特性"
+   },
+   {
+    "host": "link.mcmod.cn",
+    "href": "https://link.mcmod.cn/target/aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vNDM4MTQ3MzExL2R5bmFtaWM=",
+    "anchor": ""
+   },
+   {
+    "host": "center.mcmod.cn",
+    "href": "https://center.mcmod.cn/1462927/",
+    "anchor": "金龙AS"
+   },
+   {
+    "host": "www.minebbs.com",
+    "href": "https://www.minebbs.com/",
+    "anchor": ""
+   },
+   {
+    "host": "klpbbs.com",
+    "href": "https://klpbbs.com/",
+    "anchor": ""
+   },
+   {
+    "host": "www.mczwlt.net",
+    "href": "https://www.mczwlt.net/",
+    "anchor": ""
+   },
+   {
+    "host": "www.mcbbs.co",
+    "href": "https://www.mcbbs.co/",
+    "anchor": ""
+   },
+   {
+    "host": "tieba.baidu.com",
+    "href": "https://tieba.baidu.com/f?kw=minecraft",
+    "anchor": ""
+   },
+   {
+    "host": "mineplugin.org",
+    "href": "http://mineplugin.org/",
+    "anchor": ""
+   },
+   {
+    "host": "hytalecn.com",
+    "href": "https://hytalecn.com/",
+    "anchor": ""
+   },
+   {
+    "host": "adventofascension-zh.gamepedia.com",
+    "href": "http://adventofascension-zh.gamepedia.com/",
+    "anchor": ""
+   },
+   {
+    "host": "www.dkdun.cn",
+    "href": "https://www.dkdun.cn/",
+    "anchor": ""
+   },
+   {
+    "host": "beian.miit.gov.cn",
+    "href": "https://beian.miit.gov.cn/",
+    "anchor": "鄂ICP备11010313号-2"
+   }
+  ],
+  "snippet": "MC百科|最大的Minecraft中文MOD百科 --> 主站 社群 找服玩 整合包 实用工具 命令方块指令生成 神秘研究助手 能量转换计算器 --> 成就生成器 神秘代码 特性 --> [入驻] 田里曾降临过的风 田里曾降临过的风 14:51 百科首页 关于百科 开发日志 反馈 勉励百科 神秘研究助手 成就生成器 神秘代码 CAPP v2旧版 教程 版本 检索 拼音 检索 科技 魔法 冒险 农业 装饰 实用 辅助 LIB 顶部 随便看看 最新收录 有新动态 换一换 更多 > 更多 > 我的世界原版 (Minecraft) Biome Snapshot More Smoker Variants Dont Drop Your Compass byzh's 麦块画图 (BYZH's Picgen) 口癖X (PetPhraseX) 重置时间科技 (Reset Time Technology) Cube World 航空学：传动与连结 (Create Aeronautics: Transmission & Linkage) 太阳机械厂 (Create Sun) AutoJS 15时前 Gol"
+ },
+ {
+  "url": "https://www.minebbs.com/",
+  "status": 200,
+  "len": 219192,
+  "title": "MineBBS 我的世界中文论坛",
+  "hosts": [
+   "www.mcnav.net",
+   "archive.minebbs.com",
+   "motd.minebbs.com",
+   "runningsteve.minebbs.com",
+   "rj.baidu.com",
+   "zh.minecraft.wiki",
+   "www.mcmod.cn",
+   "tieba.baidu.com",
+   "klpbbs.com",
+   "www.bbstr.net",
+   "mcsmanager.com",
+   "www.minecraftzw.com",
+   "hytalecn.com",
+   "www.cnxfans.com",
+   "www.muhan.co",
+   "l.imc.re",
+   "www.dkdun.cn",
+   "www.rhymc.com",
+   "www.tyteam.net",
+   "beian.miit.gov.cn"
+  ],
+  "sample": [
+   {
+    "host": "www.mcnav.net",
+    "href": "https://www.mcnav.net/",
+    "anchor": "MCNav"
+   },
+   {
+    "host": "archive.minebbs.com",
+    "href": "https://archive.minebbs.com/",
+    "anchor": "MineBBS 档案馆"
+   },
+   {
+    "host": "motd.minebbs.com",
+    "href": "https://motd.minebbs.com/",
+    "anchor": "Motd 状态查询"
+   },
+   {
+    "host": "runningsteve.minebbs.com",
+    "href": "https://runningsteve.minebbs.com/",
+    "anchor": "史蒂夫快跑"
+   },
+   {
+    "host": "rj.baidu.com",
+    "href": "http://rj.baidu.com/soft/lists/3",
+    "anchor": "其他浏览器"
+   },
+   {
+    "host": "zh.minecraft.wiki",
+    "href": "https://zh.minecraft.wiki/",
+    "anchor": ""
+   },
+   {
+    "host": "www.mcmod.cn",
+    "href": "https://www.mcmod.cn/",
+    "anchor": ""
+   },
+   {
+    "host": "tieba.baidu.com",
+    "href": "https://tieba.baidu.com/f?kw=minecraft",
+    "anchor": ""
+   },
+   {
+    "host": "klpbbs.com",
+    "href": "https://klpbbs.com/",
+    "anchor": ""
+   },
+   {
+    "host": "www.bbstr.net",
+    "href": "https://www.bbstr.net/",
+    "anchor": ""
+   },
+   {
+    "host": "mcsmanager.com",
+    "href": "https://mcsmanager.com/",
+    "anchor": ""
+   },
+   {
+    "host": "www.minecraftzw.com",
+    "href": "https://www.minecraftzw.com/",
+    "anchor": ""
+   },
+   {
+    "host": "hytalecn.com",
+    "href": "https://hytalecn.com/",
+    "anchor": ""
+   },
+   {
+    "host": "www.cnxfans.com",
+    "href": "https://www.cnxfans.com/",
+    "anchor": ""
+   },
+   {
+    "host": "www.muhan.co",
+    "href": "https://www.muhan.co/",
+    "anchor": ""
+   },
+   {
+    "host": "l.imc.re",
+    "href": "http://l.imc.re/minebbs",
+    "anchor": ""
+   },
+   {
+    "host": "www.dkdun.cn",
+    "href": "https://www.dkdun.cn/aff/DNZFBCIS",
+    "anchor": ""
+   },
+   {
+    "host": "www.rhymc.com",
+    "href": "https://www.rhymc.com/",
+    "anchor": ""
+   },
+   {
+    "host": "www.tyteam.net",
+    "href": "https://www.tyteam.net/",
+    "anchor": ""
+   },
+   {
+    "host": "beian.miit.gov.cn",
+    "href": "https://beian.miit.gov.cn/",
+    "anchor": "鄂ICP备20013641号-7"
+   }
+  ],
+  "snippet": "MineBBS 我的世界中文论坛 社区 新帖 搜索论坛 资源 最新评价 搜索资源 MC下载 动态 服务器 名人堂 MCNav 赞助 相关网站 MineBBS 档案馆 Motd 状态查询 史蒂夫快跑 登录 注册 --> 搜索 仅搜索标题 请注意 作者： 搜索 高级搜索… 菜单 登录 注册 安装应用 安装 How to install the app on iOS Follow along with the video below to see how to install our site as a web app on your home screen. 请注意： 此功能在某些浏览器中可能不可用。 欢迎加入MineBBS QQ讨论群： 点击查看所有的官方讨论群 MineBBS入站考试已经上线！想要成为【正式会员】解锁更多功能吗？快来参与吧！ 【点我去看】 禁用JavaScript。为了获得更好的体验，请在运行之前启用浏览器中的JavaScript。 您正在使用一款已经过时的浏览器！部分功能不能正常使用。 请尝试升级或使用 其他浏览器 。 新帖 搜索论坛 MineBBS 我的世界中文论坛"
+ },
+ {
+  "url": "https://klpwiki.com/",
+  "status": 301,
+  "len": 0,
+  "title": "",
+  "hosts": [],
+  "sample": [],
+  "snippet": ""
+ },
+ {
+  "url": "https://muhan.co/",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "hosts": [],
+  "sample": [],
+  "snippet": ""
+ },
+ {
+  "url": "https://www.artform.cn/",
+  "status": 301,
+  "len": 0,
+  "title": "",
+  "hosts": [],
+  "sample": [],
+  "snippet": ""
+ },
+ {
+  "url": "https://mcapks.net/",
+  "status": 200,
+  "len": 13562,
+  "title": "我的世界国际版全版本下载 - MCAPKS",
+  "hosts": [
+   "klpbbs.com",
+   "www.minecraft.net"
+  ],
+  "sample": [
+   {
+    "host": "klpbbs.com",
+    "href": "https://klpbbs.com/t/ad/xly_d.html",
+    "anchor": ""
+   },
+   {
+    "host": "www.minecraft.net",
+    "href": "https://www.minecraft.net/zh-hans/store/minecraft-android",
+    "anchor": "官方页面"
+   }
+  ],
+  "snippet": "我的世界国际版全版本下载 - MCAPKS --> 我的世界国际版下载 站点 API 分享 MCAPKS 客户端已发布！ 点击此处下载 APP，体验更流畅的版本浏览与下载服务。 仅供体验，请支持正版 正版购买： 官方页面 搜索版本 搜索 版本列表 版本 类型 上传时间 大小 分享 下载 Loading... Powered By MCAPKS 鸣谢：zihao_il | Hottampist | Keishi | MiSans"
+ },
+ {
+  "url": "https://mccag.cn/",
+  "status": 200,
+  "len": 25676,
+  "title": "可爱头像生成器 | Minecraft Cute Avatar Generator",
+  "hosts": [
+   "www.bilibili.com",
+   "www.youtube.com",
+   "qm.qq.com",
+   "github.com",
+   "space.bilibili.com",
+   "afdian.com",
+   "klpbbs.com",
+   "www.mcnav.net",
+   "mcgif.cn"
+  ],
+  "sample": [
+   {
+    "host": "www.bilibili.com",
+    "href": "https://www.bilibili.com/video/BV1rB4y1F7dW/",
+    "anchor": "灵感来源：噪音回放"
+   },
+   {
+    "host": "www.youtube.com",
+    "href": "https://www.youtube.com/watch?v=2_VWUkZH06g",
+    "anchor": "灵感来源：Henry Packs"
+   },
+   {
+    "host": "qm.qq.com",
+    "href": "https://qm.qq.com/q/apvmPE1Wes",
+    "anchor": "MCCAG 交流群：597688340"
+   },
+   {
+    "host": "github.com",
+    "href": "https://github.com/Lonely-Sails/",
+    "anchor": "LonelySail"
+   },
+   {
+    "host": "space.bilibili.com",
+    "href": "https://space.bilibili.com/23785358/",
+    "anchor": "Keishi"
+   },
+   {
+    "host": "afdian.com",
+    "href": "https://afdian.com/a/Keishi/",
+    "anchor": "打赏给作者一杯咖啡！"
+   },
+   {
+    "host": "klpbbs.com",
+    "href": "https://klpbbs.com/",
+    "anchor": "苦力怕论坛"
+   },
+   {
+    "host": "www.mcnav.net",
+    "href": "https://www.mcnav.net/",
+    "anchor": "MC导航网"
+   },
+   {
+    "host": "mcgif.cn",
+    "href": "https://mcgif.cn/",
+    "anchor": "MC动图网"
+   }
+  ],
+  "snippet": "可爱头像生成器 | Minecraft Cute Avatar Generator Minecraft CAG 汉语 English 日本語 한국어 Français Deutsch 选择模型 Minimal 灵感来源：噪音回放 Vintage 灵感来源：Minecraft Skin Avatar Side 灵感来源：Henry Packs MCCAG 交流群：597688340 点击广告 维持网站运营 捐助我们！ 助力我们开发 更完美的产品 正版 ID 皮肤站 上传皮肤 生成 编辑生成 编辑背景 无背景保存 保存图片 生成 编辑生成 编辑背景 无背景保存 保存图片 点击上传 生成 编辑生成 编辑背景 无背景保存 保存图片 制作： LonelySail Keishi | 打赏给作者一杯咖啡！ Github | 友链： 苦力怕论坛 MC导航网 MC动图网 | 本站总访问量 次 点击查看 B 站原视频 该网站已关闭 点击查看 Youtube 原视频 不再显示 知道了 阴影深浅 0 % 图片缩放 100 % 生成模式 全身照 半身照 仅头像 倾斜角度 45 ° 预设颜色 选择颜色 上传背景 "
+ },
+ {
+  "url": "https://pmine.org/",
+  "status": 200,
+  "len": 21927,
+  "title": "Tool Box",
+  "hosts": [
+   "fds.moe",
+   "github.com",
+   "pmine.rs",
+   "discord.gg",
+   "klpbbs.com",
+   "www.ir-wsei.icu"
+  ],
+  "sample": [
+   {
+    "host": "fds.moe",
+    "href": "https://fds.moe/",
+    "anchor": "FDS"
+   },
+   {
+    "host": "github.com",
+    "href": "https://github.com/Field-of-Dreams-Studio/pmine.org/issues",
+    "anchor": "Issues"
+   },
+   {
+    "host": "pmine.rs",
+    "href": "https://pmine.rs/",
+    "anchor": "PMINE Research"
+   },
+   {
+    "host": "discord.gg",
+    "href": "https://discord.gg/Y6b9KRUCux",
+    "anchor": "Discord"
+   },
+   {
+    "host": "klpbbs.com",
+    "href": "https://klpbbs.com/",
+    "anchor": "KLPBBS"
+   },
+   {
+    "host": "www.ir-wsei.icu",
+    "href": "https://www.ir-wsei.icu/forum.php",
+    "anchor": "Iridium eggs"
+   }
+  ],
+  "snippet": "Tool Box PMINE All Sections Minecraft Tools BBCode Tools Maths Tools String Tools New Tools Encrypt and Decrypt Random Choose Top Tools Skin Compressor Encrypt and Decrypt FDS Login [{&#x27;url&#x27;: &#x27;/&#x27;, &#x27;name&#x27;: &#x27;Tool Box&#x27;}] --> '\" aria-label=\"breadcrumb\"> Tool Box Minecraft Tools Skin pack creator Upload your skins here, so that we are able to give a compressed, .mcpack formatted archive for you to download. Minecraft Skin Preview You could easily make the previe"
+ },
+ {
+  "url": "https://klpbbs.us/",
+  "status": 200,
+  "len": 4765,
+  "title": "抱歉，站点已暂停",
+  "hosts": [],
+  "sample": [],
+  "snippet": "抱歉，站点已暂停 抱歉！该站点已经被管理员停止运行，请联系管理员了解详情！"
+ },
+ {
+  "url": "https://fds.moe/",
+  "status": 200,
+  "len": 23189,
+  "title": "Field of Dream Studio - From Fantasy to Reality",
+  "hosts": [
+   "pmine.org",
+   "fds.rs"
+  ],
+  "sample": [
+   {
+    "host": "pmine.org",
+    "href": "https://pmine.org/",
+    "anchor": "PMINE"
+   },
+   {
+    "host": "fds.rs",
+    "href": "https://fds.rs/starberry",
+    "anchor": "View Framework"
+   }
+  ],
+  "snippet": "Field of Dream Studio - From Fantasy to Reality Home Projects Members StarFall PMINE Join Us Field of Dream Studio From Fantasy to Reality Explore Our Projects Join Our Studio About Us Field of Dream Studio (FDS) is a comprehensive creative non-profit organization engaged in various forms of creation including Minecraft development, game design, web technology, and art design, bringing everyone's dream world to life. Our Projects Project-StarFall A complete fantasy world project featuring a Mine"
+ },
+ {
+  "url": "https://www.tgfmc.top/",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "hosts": [],
+  "sample": [],
+  "snippet": ""
+ },
+ {
+  "url": "https://hytalecn.com/",
+  "status": 200,
+  "len": 113783,
+  "title": "HytaleCN",
+  "hosts": [
+   "hytale.com",
+   "support.hytale.com",
+   "hytalemodding.dev",
+   "www.google.com",
+   "beian.mps.gov.cn",
+   "beian.miit.gov.cn",
+   "xenforo.com",
+   "1panel.cn",
+   "xenbaker.com"
+  ],
+  "sample": [
+   {
+    "host": "hytale.com",
+    "href": "https://hytale.com/",
+    "anchor": "Hytale 官网"
+   },
+   {
+    "host": "support.hytale.com",
+    "href": "https://support.hytale.com/hc/en-us/categories/41690583024923-Player-Support",
+    "anchor": "玩家支持文档"
+   },
+   {
+    "host": "hytalemodding.dev",
+    "href": "https://hytalemodding.dev/en/docs/official-documentation",
+    "anchor": "模组开发文档"
+   },
+   {
+    "host": "www.google.com",
+    "href": "https://www.google.com/chrome/",
+    "anchor": "其他浏览器"
+   },
+   {
+    "host": "beian.mps.gov.cn",
+    "href": "https://beian.mps.gov.cn/#/query/webSearch?recordcode=44030002009149",
+    "anchor": "粤公网安备44030002009149号"
+   },
+   {
+    "host": "beian.miit.gov.cn",
+    "href": "https://beian.miit.gov.cn/",
+    "anchor": "粤ICP备2025502923号-1"
+   },
+   {
+    "host": "xenforo.com",
+    "href": "https://xenforo.com/",
+    "anchor": "XenForo"
+   },
+   {
+    "host": "1panel.cn",
+    "href": "https://1panel.cn/",
+    "anchor": "1Panel"
+   },
+   {
+    "host": "xenbaker.com",
+    "href": "https://xenbaker.com/",
+    "anchor": "XenForo add-ons & extensions by xenBaker"
+   }
+  ],
+  "snippet": "HytaleCN 首页 最新动态 推荐主题 下载中心 服务器 精选服务器 社区服务器 官方链接 Hytale 官网 功能请求 & 投票 玩家支持文档 模组开发文档 文档站 登录 注册 切换侧边栏 最新动态 推荐主题 切换侧边栏 菜单 安装应用 安装 如何在 iOS 上安装该应用 请跟随下方视频，将本站安装为主屏幕的 Web 应用。 备注: 此功能在部分浏览器中不可用。 购买游戏时，在支付界面使用创作者代码 HytaleCN 以表示对中文社区的支持，这对我们来说十分重要，感谢您的支持！（ 点击查看示意图 ） JavaScript 已被禁用。为获得更好的体验，请在继续之前在浏览器中启用 JavaScript。 你正在使用过时的浏览器。它可能无法正确显示此网站或其他网站。 你应该升级或使用 其他浏览器 。 ETW_Zero 星期一 23:03 156 1 第一章：破隙而出 ETW_Zero 2026/03/12 1,254 0 Hytale 实装简体中文语言公告 & 徽章奖励 ETW_Zero 2026/01/24 1,112 0 欢迎参与 Hytale 官方社区本地化的工作！ 站务中心 公"
+ },
+ {
+  "url": "https://www.mihuashi.com/works",
+  "status": 200,
+  "len": 19033,
+  "title": "米画师 - 带给你自由、高效、专业的美术工作体验",
+  "hosts": [],
+  "sample": [],
+  "snippet": "米画师 - 带给你自由、高效、专业的美术工作体验 We're sorry but 米画师 - 带给你自由、高效、专业的美术工作体验 doesn't work properly without JavaScript enabled. Please enable it to continue."
+ },
+ {
+  "url": "https://www.foreverblog.cn/blogs",
+  "status": 405,
+  "len": 1011,
+  "title": "An Error Occurred: Method Not Allowed",
+  "hosts": [],
+  "sample": [],
+  "snippet": "An Error Occurred: Method Not Allowed ❌ \" /> Oops! An Error Occurred The server returned a \"405 Method Not Allowed\". Something is broken. Please let us know what you were doing when this error occurred. We will fix it as soon as possible. Sorry for any inconvenience caused."
+ },
+ {
+  "url": "https://www.manhuaren.com/rank",
+  "status": 200,
+  "len": 2431,
+  "title": "本周签到达人榜",
+  "hosts": [],
+  "sample": [],
+  "snippet": "本周签到达人榜 我的排名： 0 本周获得豆豆： 0"
+ },
+ {
+  "url": "https://bbs.nga.cn/thread.php?fid=436",
+  "status": 403,
+  "len": 4736,
+  "title": "访客不能直接访问",
+  "hosts": [],
+  "sample": [],
+  "snippet": "访客不能直接访问 (ERROR: 15 ) > 访客不能直接访问 [查看所需的权限/条件] > 你可能需要 [登录] 后访问 ... > 使用APP打开 ... > 后退 ... > 返回首页 ... >"
+ },
+ {
+  "url": "https://www.gmgard.com/",
+  "status": -1,
+  "len": 0,
+  "title": "ERR connect EADDRINUSE 127.0.0.1:7897",
+  "hosts": [],
+  "sample": []
+ }
+]

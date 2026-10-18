@@ -1,0 +1,1650 @@
+[
+ {
+  "href": "//chinaz.com",
+  "text": "站长之家"
+ },
+ {
+  "href": "//sc.chinaz.com",
+  "text": "站长素材"
+ },
+ {
+  "href": "http://down.chinaz.com",
+  "text": "源码下载"
+ },
+ {
+  "href": "//top.chinaz.com",
+  "text": "网站排行"
+ },
+ {
+  "href": "//data.chinaz.com",
+  "text": "星网词库"
+ },
+ {
+  "href": "//tuan.chinaz.com",
+  "text": "站长团购"
+ },
+ {
+  "href": "//font.chinaz.com",
+  "text": "字体下载"
+ },
+ {
+  "href": "https://app.aibase.cn/",
+  "text": "AI工具推荐"
+ },
+ {
+  "href": "//my.chinaz.com/toolvip/vip",
+  "text": ""
+ },
+ {
+  "href": "//my.chinaz.com/ToolMember/Member/News",
+  "text": "查看更多"
+ },
+ {
+  "href": "//tool.chinaz.com/notification",
+  "text": "查看更多"
+ },
+ {
+  "href": "/",
+  "text": ""
+ },
+ {
+  "href": "//tool.chinaz.com",
+  "text": "首页"
+ },
+ {
+  "href": "//seo.chinaz.com",
+  "text": "SEO/GEO优化"
+ },
+ {
+  "href": "//seo.chinaz.com/",
+  "text": "SEO综合查询"
+ },
+ {
+  "href": "//seo.chinaz.com/",
+  "text": "网站的SEO相关信息"
+ },
+ {
+  "href": "https://monitor.chinaz.com/monitor/rank/search",
+  "text": "站长权重"
+ },
+ {
+  "href": "https://monitor.chinaz.com/monitor/rank/search",
+  "text": "SEO竞争对手分析关键词和流量"
+ },
+ {
+  "href": "https://monitor.chinaz.com/monitor/keywords/ranking",
+  "text": "关键词排名"
+ },
+ {
+  "href": "https://monitor.chinaz.com/monitor/keywords/ranking",
+  "text": "自定义关键词排名及流量跟踪"
+ },
+ {
+  "href": "https://monitor.chinaz.com/monitor/rank/cba-search",
+  "text": "竞品分析"
+ },
+ {
+  "href": "https://monitor.chinaz.com/monitor/rank/cba-search",
+  "text": "对比您和竞争对手关键词工具"
+ },
+ {
+  "href": "//geo.chinaz.com/geo-rank",
+  "text": "GEO排名查询"
+ },
+ {
+  "href": "//geo.chinaz.com/geo-rank",
+  "text": "查询品牌在AI回答中的曝光"
+ },
+ {
+  "href": "//geo.chinaz.com/citations",
+  "text": "AI曝光度"
+ },
+ {
+  "href": "//geo.chinaz.com/citations",
+  "text": "域名在AI大模型的曝光查询"
+ },
+ {
+  "href": "//rank.chinaz.com/deepseek",
+  "text": "GEO引用查询-DeepSeek"
+ },
+ {
+  "href": "//rank.chinaz.com/deepseek",
+  "text": "网站被DeepSeek引用的页面与关联问题"
+ },
+ {
+  "href": "//rank.chinaz.com/wenxin",
+  "text": "GEO引用查询-百度文心"
+ },
+ {
+  "href": "//rank.chinaz.com/wenxin",
+  "text": "网站被百度文心引用的页面与关联问题"
+ },
+ {
+  "href": "//stool.chinaz.com/robots",
+  "text": "Robots.txt检测"
+ },
+ {
+  "href": "//stool.chinaz.com/robots",
+  "text": "检测网站Robots状态和内容"
+ },
+ {
+  "href": "https://link.chinaz.com/",
+  "text": "友链检测"
+ },
+ {
+  "href": "https://link.chinaz.com/",
+  "text": "网站的友情链接信息"
+ },
+ {
+  "href": "https://tool.chinaz.com/batchquery#6",
+  "text": "关键词排名实时批量查询"
+ },
+ {
+  "href": "https://tool.chinaz.com/batchquery#6",
+  "text": "大批量查网站关键词实时排名"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/links",
+  "text": "死链查询"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/links",
+  "text": "网站的死链排查"
+ },
+ {
+  "href": "//tool.chinaz.com/vie",
+  "text": "竞争网站分析"
+ },
+ {
+  "href": "//tool.chinaz.com/vie",
+  "text": "竞争对手网站的权重关键词信息"
+ },
+ {
+  "href": "//tool.chinaz.com/kwevaluate",
+  "text": "关键词优化分析"
+ },
+ {
+  "href": "//tool.chinaz.com/kwevaluate",
+  "text": "关键词优化难度及排名权重信息"
+ },
+ {
+  "href": "//stool.chinaz.com/baidu/words.aspx",
+  "text": "关键词挖掘"
+ },
+ {
+  "href": "//stool.chinaz.com/baidu/words.aspx",
+  "text": "挖掘更多流量关键词"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/density.aspx",
+  "text": "关键词密度检测"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/density.aspx",
+  "text": "网站的关键词密度检测"
+ },
+ {
+  "href": "//tool.chinaz.com/shoulu/",
+  "text": "收录查询"
+ },
+ {
+  "href": "//tool.chinaz.com/shoulu/",
+  "text": "网站的收录信息"
+ },
+ {
+  "href": "https://tool.chinaz.com/batchquery#7",
+  "text": "收录实时批量查询"
+ },
+ {
+  "href": "https://tool.chinaz.com/batchquery#7",
+  "text": "大批量查网址收录实时信息"
+ },
+ {
+  "href": "//stool.chinaz.com/same",
+  "text": "同IP网站查询"
+ },
+ {
+  "href": "//stool.chinaz.com/same",
+  "text": "同一IP下的网站SEO信息"
+ },
+ {
+  "href": "//rank.chinaz.com/history/baidupc/",
+  "text": "SEO历史数据"
+ },
+ {
+  "href": "//rank.chinaz.com/history/baidupc/",
+  "text": "网站的SEO历史信息"
+ },
+ {
+  "href": "https://yx.chinaz.com/marketing/dropdown-word/index",
+  "text": "全网下拉词"
+ },
+ {
+  "href": "https://yx.chinaz.com/marketing/dropdown-word/index",
+  "text": "覆盖多平台全方位掌握流量动态"
+ },
+ {
+  "href": "//ntool.chinaz.com/originality/",
+  "text": "原创度检测"
+ },
+ {
+  "href": "//ntool.chinaz.com/originality/",
+  "text": "文章原创度在线检测"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_Ihe6Jv9Xq6.html",
+  "text": ""
+ },
+ {
+  "href": "//rank.chinaz.com",
+  "text": "权重查询"
+ },
+ {
+  "href": "https://monitor.chinaz.com/monitor/rank/search",
+  "text": "站长权重"
+ },
+ {
+  "href": "https://monitor.chinaz.com/monitor/rank/search",
+  "text": "SEO竞争对手分析关键词和流量"
+ },
+ {
+  "href": "//geo.chinaz.com/geo-rank",
+  "text": "GEO排名查询"
+ },
+ {
+  "href": "//geo.chinaz.com/geo-rank",
+  "text": "查询品牌在AI回答中的曝光"
+ },
+ {
+  "href": "//rank.chinaz.com/",
+  "text": "站长权重-百度PC"
+ },
+ {
+  "href": "//rank.chinaz.com/",
+  "text": "网站的权重信息"
+ },
+ {
+  "href": "//rank.chinaz.com/baidumobile/",
+  "text": "站长权重-百度移动"
+ },
+ {
+  "href": "//rank.chinaz.com/baidumobile/",
+  "text": "网站的权重信息"
+ },
+ {
+  "href": "//geo.chinaz.com/citations",
+  "text": "AI曝光度"
+ },
+ {
+  "href": "//geo.chinaz.com/citations",
+  "text": "域名在AI大模型的曝光查询"
+ },
+ {
+  "href": "https://rank.chinaz.com/sorank",
+  "text": "360权重"
+ },
+ {
+  "href": "https://rank.chinaz.com/sorank",
+  "text": "网站在360PC的权重信息"
+ },
+ {
+  "href": "https://rank.chinaz.com/bing",
+  "text": "必应权重"
+ },
+ {
+  "href": "https://rank.chinaz.com/bing",
+  "text": "必应权重排名查询工具"
+ },
+ {
+  "href": "https://tool.chinaz.com/batchquery#5",
+  "text": "权重实时批量查询"
+ },
+ {
+  "href": "https://tool.chinaz.com/batchquery#5",
+  "text": "大批量查网站实时权重"
+ },
+ {
+  "href": "//rank.chinaz.com/sogoupc",
+  "text": "搜狗权重"
+ },
+ {
+  "href": "//rank.chinaz.com/sogoupc",
+  "text": "网站在搜狗PC的权重信息"
+ },
+ {
+  "href": "//rank.chinaz.com/smrank/",
+  "text": "神马权重"
+ },
+ {
+  "href": "//rank.chinaz.com/smrank/",
+  "text": "网站在神马的权重信息"
+ },
+ {
+  "href": "https://trends.chinaz.com/ranklist",
+  "text": "权重变化榜"
+ },
+ {
+  "href": "https://trends.chinaz.com/ranklist",
+  "text": "关键词权重周期变动信息"
+ },
+ {
+  "href": "//rank.chinaz.com/all",
+  "text": "综合权重查询"
+ },
+ {
+  "href": "//rank.chinaz.com/all",
+  "text": "网站在各搜索引擎的权重信息"
+ },
+ {
+  "href": "//index.chinaz.com/",
+  "text": "指数查询"
+ },
+ {
+  "href": "//index.chinaz.com/",
+  "text": "关键词的全网指数信息"
+ },
+ {
+  "href": "//ntool.chinaz.com/tools/nav",
+  "text": "热门工具"
+ },
+ {
+  "href": "//icp.chinaz.com/",
+  "text": "icp备案实时查询"
+ },
+ {
+  "href": "//icp.chinaz.com/",
+  "text": "仅对备案信息实时结果如实展示"
+ },
+ {
+  "href": "//whois.chinaz.com/",
+  "text": "Whois域名查询"
+ },
+ {
+  "href": "//whois.chinaz.com/",
+  "text": "免费的域名whois检测工具"
+ },
+ {
+  "href": "//ip.tool.chinaz.com/",
+  "text": "IP查询"
+ },
+ {
+  "href": "//ip.tool.chinaz.com/",
+  "text": "覆盖全面的IP详细信息"
+ },
+ {
+  "href": "//tool.chinaz.com/pagestatus/",
+  "text": "HTTP状态查询"
+ },
+ {
+  "href": "//tool.chinaz.com/pagestatus/",
+  "text": "直观展示url的响应状态"
+ },
+ {
+  "href": "https://tool.chinaz.com/batchquery#2",
+  "text": "备案实时批量查询"
+ },
+ {
+  "href": "https://tool.chinaz.com/batchquery#2",
+  "text": "实时查询网站备案信息"
+ },
+ {
+  "href": "//tool.chinaz.com/batchquery#3",
+  "text": "Whois实时批量查询"
+ },
+ {
+  "href": "//tool.chinaz.com/batchquery#3",
+  "text": "省时省力获取Whois实时信息"
+ },
+ {
+  "href": "//tool.chinaz.com/batchquery#1",
+  "text": "IP实时批量查询"
+ },
+ {
+  "href": "//tool.chinaz.com/batchquery#1",
+  "text": "大批量查询IP实时信息"
+ },
+ {
+  "href": "//tool.chinaz.com/batchquery#4",
+  "text": "HTTP状态实时批量查询"
+ },
+ {
+  "href": "//tool.chinaz.com/batchquery#4",
+  "text": "大批量查网址HTTP状态实时信息"
+ },
+ {
+  "href": "//stool.chinaz.com/tools/pagecode.aspx",
+  "text": "查看网页源代码"
+ },
+ {
+  "href": "//stool.chinaz.com/tools/pagecode.aspx",
+  "text": "网页源代码查看和着色"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/Unicode.aspx",
+  "text": "编码转换"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/Unicode.aspx",
+  "text": "Unicode编码多种转换"
+ },
+ {
+  "href": "//tool.chinaz.com/robots",
+  "text": "robots.txt生成"
+ },
+ {
+  "href": "//tool.chinaz.com/robots",
+  "text": "指定或禁止蜘蛛抓取内容"
+ },
+ {
+  "href": "//tool.chinaz.com/dns/",
+  "text": "DNS查询"
+ },
+ {
+  "href": "//tool.chinaz.com/dns/",
+  "text": "查询网站DNS详细信息"
+ },
+ {
+  "href": "//ping.chinaz.com/",
+  "text": "ping检测"
+ },
+ {
+  "href": "//ping.chinaz.com/",
+  "text": "多线多地ping信息检测"
+ },
+ {
+  "href": "//tool.chinaz.com/js.aspx",
+  "text": "压缩格式化"
+ },
+ {
+  "href": "//tool.chinaz.com/js.aspx",
+  "text": "JS代码混淆压缩"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/unixtime.aspx",
+  "text": "unix时间戳"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/unixtime.aspx",
+  "text": "unix时间戳转换"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/textencrypt.aspx",
+  "text": "对称加密解密"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/textencrypt.aspx",
+  "text": "DES/AES等多种对称加密解密"
+ },
+ {
+  "href": "//tool.chinaz.com/tracert/",
+  "text": "路由追踪"
+ },
+ {
+  "href": "//tool.chinaz.com/tracert/",
+  "text": "追踪域名或网站的网络通行情况"
+ },
+ {
+  "href": "//tool.chinaz.com/sitespeed",
+  "text": "网站速度测试"
+ },
+ {
+  "href": "//tool.chinaz.com/sitespeed",
+  "text": "网站速度检测"
+ },
+ {
+  "href": "//ntool.chinaz.com/forbid/word",
+  "text": "违禁词查询"
+ },
+ {
+  "href": "//ntool.chinaz.com/forbid/word",
+  "text": "智能识别违禁规避风险词汇"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/randompwd/",
+  "text": "随机密码生成器"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/randompwd/",
+  "text": "随机生成强密码更安全"
+ },
+ {
+  "href": "//cdn.chinaz.com/",
+  "text": "CDN查询"
+ },
+ {
+  "href": "//cdn.chinaz.com/",
+  "text": "最新CDN网站，CDN厂商，CDN大数据"
+ },
+ {
+  "href": "//tool.chinaz.com/ssl",
+  "text": "SSL证书查询"
+ },
+ {
+  "href": "//tool.chinaz.com/ssl",
+  "text": "最新SSL网站，SSL证书查询，SSL大数据"
+ },
+ {
+  "href": "//tool.chinaz.com/subdomain",
+  "text": "子域名查询"
+ },
+ {
+  "href": "//tool.chinaz.com/subdomain",
+  "text": "近5亿特殊子域名信息"
+ },
+ {
+  "href": "//www.aibase.com/zh",
+  "text": "AIBase基地"
+ },
+ {
+  "href": "//app.aibase.com/zh/best-ai-tools",
+  "text": "全球AI排行榜"
+ },
+ {
+  "href": "//app.aibase.com/zh/best-ai-tools",
+  "text": "跟踪全球AI网站排行榜"
+ },
+ {
+  "href": "//news.aibase.com/zh",
+  "text": "AI行业资讯"
+ },
+ {
+  "href": "//news.aibase.com/zh",
+  "text": "聚焦AI技术突破与产业变革"
+ },
+ {
+  "href": "//app.aibase.com/zh/tools",
+  "text": "AI工具导航"
+ },
+ {
+  "href": "//app.aibase.com/zh/tools",
+  "text": "千万用户信赖的AI工具导航平台"
+ },
+ {
+  "href": "//news.aibase.com/zh/daily",
+  "text": "最新AI日报"
+ },
+ {
+  "href": "//news.aibase.com/zh/daily",
+  "text": "全面了解AI动态"
+ },
+ {
+  "href": "https://ai.chinaz.net/",
+  "text": "大模型AI聚合"
+ },
+ {
+  "href": "https://ai.chinaz.net/",
+  "text": "大模型API聚合接口"
+ },
+ {
+  "href": "//model.aibase.com/zh/llm",
+  "text": "AI模型库"
+ },
+ {
+  "href": "//model.aibase.com/zh/llm",
+  "text": "聚合全球优质AI模型"
+ },
+ {
+  "href": "//app.aibase.com/zh/discover",
+  "text": "AI开源产品库"
+ },
+ {
+  "href": "//app.aibase.com/zh/discover",
+  "text": "AI商用开源产品精选"
+ },
+ {
+  "href": "//model.aibase.com/zh/compare",
+  "text": "AI大模型选型对比"
+ },
+ {
+  "href": "//model.aibase.com/zh/compare",
+  "text": "大模型能力对比一键选型无忧"
+ },
+ {
+  "href": "//model.aibase.com/zh/providers",
+  "text": "大模型供应商"
+ },
+ {
+  "href": "//model.aibase.com/zh/providers",
+  "text": "汇聚全球大模型供应商"
+ },
+ {
+  "href": "//model.aibase.com/zh/arena",
+  "text": "AI大模型竞技场"
+ },
+ {
+  "href": "//model.aibase.com/zh/arena",
+  "text": "AI性能实测优中选优"
+ },
+ {
+  "href": "//model.aibase.com/zh/calculator",
+  "text": "AI大模型费用计算器"
+ },
+ {
+  "href": "//model.aibase.com/zh/calculator",
+  "text": "一键估算大模型费用成本"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/server/doc",
+  "text": "MCP案例教程"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/server/doc",
+  "text": "手把手教你MCP核心开发"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/inspector",
+  "text": "MCP服务调试器"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/inspector",
+  "text": "一键联调打通AI与工具"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/ranking",
+  "text": "MCP排行榜"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/ranking",
+  "text": "MCP服务端和客户端排行榜"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/playground",
+  "text": "MCP试验场"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/playground",
+  "text": "零门槛玩转MCP试验场"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/explore",
+  "text": "MCP服务端"
+ },
+ {
+  "href": "//mcp.aibase.com/zh/explore",
+  "text": "发现全球优质MCP服务"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_Ihe6Jv9Xq6.html",
+  "text": ""
+ },
+ {
+  "href": "//ai.chinaz.net/",
+  "text": "大模型AI聚合"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=DeepSeek&amp;currency=CNY",
+  "text": "DeepSeek"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=DeepSeek&amp;currency=CNY",
+  "text": "DeepSeek开源高效，高性价比大模型"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=%E6%99%BA%E8%B0%B1&amp;currency=CNY",
+  "text": "智谱AI"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=%E6%99%BA%E8%B0%B1&amp;currency=CNY",
+  "text": "智谱清华技术，GLM 系列实力强"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=Moonshot",
+  "text": "360模型"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=Moonshot",
+  "text": "采用MoE架构与DSA机制"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4&amp;currency=CNY",
+  "text": "阿里巴巴"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4&amp;currency=CNY",
+  "text": "阿里巴巴通义千问，全栈 AI 生态"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=DeepSeek&amp;currency=CNY",
+  "text": "Moonshot"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=DeepSeek&amp;currency=CNY",
+  "text": "长程编程,为深度推理而生"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=%E5%B0%8F%E7%B1%B3MIMO",
+  "text": "小米MIMO"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=%E5%B0%8F%E7%B1%B3MIMO",
+  "text": "万亿参数，高效架构"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing/ernie-4.5-turbo-128k?vendor=%E7%99%BE%E5%BA%A6",
+  "text": "百度"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing/ernie-4.5-turbo-128k?vendor=%E7%99%BE%E5%BA%A6",
+  "text": "速度更快、价格更低"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing/hunyuan-2.0-instruct-20251111?vendor=%E8%85%BE%E8%AE%AF",
+  "text": "腾讯模型"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing/hunyuan-2.0-instruct-20251111?vendor=%E8%85%BE%E8%AE%AF",
+  "text": "提升中英文理解和长文分析"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8&amp;currency=CNY",
+  "text": "字节跳动"
+ },
+ {
+  "href": "https://ai.chinaz.net/pricing?vendor=%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8&amp;currency=CNY",
+  "text": "字节跳动豆包驱动，多模态全覆盖"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_Ihe6Jv9Xq6.html",
+  "text": ""
+ },
+ {
+  "href": "//www.chinaz.net/mall",
+  "text": "API/数据集"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_9aUhQUNiv4.html",
+  "text": "ICP域名备案实时查询"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_9aUhQUNiv4.html",
+  "text": "零缓存实时数据查询"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_11pqPK4xe3.html",
+  "text": "域名DNS解析检测"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_11pqPK4xe3.html",
+  "text": "精准校验域名解析"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_Ub6dqFMQ7H.html",
+  "text": "IP反查域名"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_Ub6dqFMQ7H.html",
+  "text": "原同IP网站查询"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_Ihe6Jv9Xq6.html",
+  "text": "企业工商信息API"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_Ihe6Jv9Xq6.html",
+  "text": "智能匹配40+工商信息"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_eN5lxTp4sp.html",
+  "text": "最新注册域名"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_eN5lxTp4sp.html",
+  "text": "联系客服领取折扣券"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_TsMSRI22oR.html",
+  "text": "Whois实时查询"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_TsMSRI22oR.html",
+  "text": "一键实时查域名 Whois"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_33a8S3Kqj2.html",
+  "text": "银行卡二要素验证"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_33a8S3Kqj2.html",
+  "text": "匹配银行卡真实有效信息"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_wakprOYdbT.html",
+  "text": "运营商二要素验证"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_wakprOYdbT.html",
+  "text": "通过姓名+手机号进行信息比对"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_hNuEkeCuDw.html",
+  "text": "域名被墙检测"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_hNuEkeCuDw.html",
+  "text": "域名访问封锁连通状态"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_t302FUj62I.html",
+  "text": "综合权重"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_t302FUj62I.html",
+  "text": "主流搜索引擎权重信息"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_VmNfctV6i7.html",
+  "text": "GEO关键词信息查询"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_VmNfctV6i7.html",
+  "text": "支持定制多元化数据"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_11pqPK4xe3.html",
+  "text": "域名DNS解析检测"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_11pqPK4xe3.html",
+  "text": "查询域名IP地址、解析线路、TTL值等"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_jB3dyMpMTb.html",
+  "text": "企业三要素验证"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_jB3dyMpMTb.html",
+  "text": "政企合作签约前置核验"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_prblAiuQWT.html",
+  "text": "谷歌域名报毒检测"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_prblAiuQWT.html",
+  "text": "检测谷歌浏览器是否正常打开"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_zZxolAnDQ2.html",
+  "text": "whois历史信息"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_zZxolAnDQ2.html",
+  "text": "追溯域名历任持有人变更全记录"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_Qx7vJYRilq.html",
+  "text": "司法综合数据查询"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_Qx7vJYRilq.html",
+  "text": "属于法院综合性数据接口"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_kpSyGaOKn6.html",
+  "text": "手机在网状态"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_kpSyGaOKn6.html",
+  "text": "支持号码携转验证"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_nn4hlrDwyZ.html",
+  "text": "个人身份实名验证"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_nn4hlrDwyZ.html",
+  "text": "对身份证号和姓名进行认证"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_gJE7TBH8Re.html",
+  "text": "百度PC排名API"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_gJE7TBH8Re.html",
+  "text": "百度搜索引擎PC端排名"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_JaSamWAmrm.html",
+  "text": "企业工商信息数据集"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_JaSamWAmrm.html",
+  "text": "现在采购直降2000元"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_1oUXC7L4RV.html",
+  "text": "视频内容检测"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_1oUXC7L4RV.html",
+  "text": "精准识别视频内容，保障合规安全"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_8XGByt2Gj7.html",
+  "text": "微信域名安全检测"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_8XGByt2Gj7.html",
+  "text": "下单联系客服再送1000次"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_xqCdLGaGkU.html",
+  "text": "ICP备案全量数据集"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_xqCdLGaGkU.html",
+  "text": "全量icp备案信息支持定制"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_POGZL6l6KS.html",
+  "text": "企业备案实时查询"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_POGZL6l6KS.html",
+  "text": "主办单位备案相关数据"
+ },
+ {
+  "href": "https://www.chinaz.net/mall/a_Ihe6Jv9Xq6.html",
+  "text": ""
+ },
+ {
+  "href": "//ip.tool.chinaz.com/",
+  "text": "IP查询"
+ },
+ {
+  "href": "//ip.tool.chinaz.com/119.48.90.49",
+  "text": "119.48.90.49 中国吉林长春南关 联通"
+ },
+ {
+  "href": "//ntool.chinaz.com/tools/nav",
+  "text": "更多 >"
+ },
+ {
+  "href": "//data.chinaz.com/keyword",
+  "text": "435.53亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyworddaily",
+  "text": "2,437,721"
+ },
+ {
+  "href": "//data.chinaz.com/bid",
+  "text": "3,425,625,057"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": ""
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "pc软件"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "6.84亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "5.39万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "6.84亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "5.39万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "6.84亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "5.39万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "6.84亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "5.39万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "6.84亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "5.39万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "6.84亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/pc软件",
+  "text": "5.39万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": ""
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "电商"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "1.44亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "7404"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "1.44亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "7404"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "1.44亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "7404"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "1.44亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "7404"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "1.44亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "7404"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "1.44亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/电商",
+  "text": "7404"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": ""
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "娱乐"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "3.34亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "2.74万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "3.34亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "2.74万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "3.34亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "2.74万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "3.34亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "2.74万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "3.34亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "2.74万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "3.34亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/娱乐",
+  "text": "2.74万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": ""
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "互联网"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "2.95亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "6.80万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "2.95亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "6.80万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "2.95亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "6.80万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "2.95亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "6.80万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "2.95亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "6.80万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "2.95亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/互联网",
+  "text": "6.80万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": ""
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "手游"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "1.50亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "7221"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "1.50亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "7221"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "1.50亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "7221"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "1.50亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "7221"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "1.50亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "7221"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "1.50亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/手游",
+  "text": "7221"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": ""
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "医院"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "2.37亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "1.10万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "2.37亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "1.10万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "2.36亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "1.10万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "2.36亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "1.10万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "2.36亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "1.10万"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "2.36亿"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/医院",
+  "text": "1.10万"
+ },
+ {
+  "href": "//whois.chinaz.com",
+  "text": "WHOIS查询"
+ },
+ {
+  "href": "//tool.chinaz.com/dns",
+  "text": "DNS查询"
+ },
+ {
+  "href": "//del.chinaz.com",
+  "text": "过期域名查询"
+ },
+ {
+  "href": "//tool.chinaz.com/nslookup",
+  "text": "NsLookup查询"
+ },
+ {
+  "href": "//tool.chinaz.com/DomainDel",
+  "text": "域名删除时间"
+ },
+ {
+  "href": "//link.chinaz.com",
+  "text": "友链查询"
+ },
+ {
+  "href": "//seo.chinaz.com",
+  "text": "SEO综合查询"
+ },
+ {
+  "href": "//ip.tool.chinaz.com",
+  "text": "IP 查询"
+ },
+ {
+  "href": "//ip.tool.chinaz.com/ipbatch",
+  "text": "IP 批量"
+ },
+ {
+  "href": "//tool.chinaz.com/same",
+  "text": "IP反查域名"
+ },
+ {
+  "href": "//tool.chinaz.com/ipwhois",
+  "text": "IP WHOIS查询"
+ },
+ {
+  "href": "//tool.chinaz.com/baiduspider",
+  "text": "百度真假蜘蛛"
+ },
+ {
+  "href": "//ip.tool.chinaz.com/siteip",
+  "text": "IP所在地批量"
+ },
+ {
+  "href": "//ip.tool.chinaz.com/linksip",
+  "text": "友链同IP检测"
+ },
+ {
+  "href": "//tool.chinaz.com/port",
+  "text": "端口扫描"
+ },
+ {
+  "href": "//tool.chinaz.com/keywords",
+  "text": "关键词排名"
+ },
+ {
+  "href": "//stool.chinaz.com/baidu/words.aspx",
+  "text": "关键词挖掘"
+ },
+ {
+  "href": "//outlink.chinaz.com",
+  "text": "反链查询"
+ },
+ {
+  "href": "//rank.chinaz.com",
+  "text": "百度PC权重"
+ },
+ {
+  "href": "//tool.chinaz.com/baidu",
+  "text": "收录查询"
+ },
+ {
+  "href": "//tool.chinaz.com/kwevaluate",
+  "text": "关键词优化分析"
+ },
+ {
+  "href": "//tool.chinaz.com/baidu/metadig.aspx",
+  "text": "Meta信息挖掘"
+ },
+ {
+  "href": "//rank.chinaz.com/baidumobile",
+  "text": "百度移动权重"
+ },
+ {
+  "href": "//ping.chinaz.com",
+  "text": "PING检测"
+ },
+ {
+  "href": "//stool.chinaz.com/tools/webcheck.aspx",
+  "text": "网站被黑检测"
+ },
+ {
+  "href": "//tool.chinaz.com/speedtest",
+  "text": "国内网站测速"
+ },
+ {
+  "href": "//tool.chinaz.com/speedworld",
+  "text": "国际网站测速"
+ },
+ {
+  "href": "//tool.chinaz.com/history",
+  "text": "网站历史记录"
+ },
+ {
+  "href": "//tool.chinaz.com/history",
+  "text": "SEO历史记录"
+ },
+ {
+  "href": "//tool.chinaz.com/speedcom",
+  "text": "国内网速对比"
+ },
+ {
+  "href": "//report.chinaz.com",
+  "text": "SEO报告"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/pagecode",
+  "text": "查看网页源代码"
+ },
+ {
+  "href": "//tool.chinaz.com/webscan",
+  "text": "网站安全检测"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/links",
+  "text": "死链检测"
+ },
+ {
+  "href": "//tool.chinaz.com/Gzips",
+  "text": "网站GZIP压缩"
+ },
+ {
+  "href": "//tool.chinaz.com/pagestatus",
+  "text": "网页状态检测"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/Density.aspx",
+  "text": "关键词密度分析"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/MetaCheck.aspx",
+  "text": "META信息查询"
+ },
+ {
+  "href": "//stool.chinaz.com/tools/robot.aspx",
+  "text": "机器人模拟抓取"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/md5.aspx",
+  "text": "MD5加密"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/jscodeconfusion.aspx",
+  "text": "Js代码混淆"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/escape.aspx",
+  "text": "Escape加/解密"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/jsformat.aspx",
+  "text": "Js/Html格式化"
+ },
+ {
+  "href": "//tool.chinaz.com/js.aspx",
+  "text": "Js混淆压缩"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/thunder_flashget.aspx",
+  "text": "Url加/解密"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/textencrypt.aspx",
+  "text": "文字加/解密"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/unicode.aspx",
+  "text": "Unicode编码"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/html_ubb.aspx",
+  "text": "Html/UBB转换"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/unixtime.aspx",
+  "text": "Unix时间戳"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/urlencode.aspx",
+  "text": "UrlEncode编码"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/native_ascii.aspx",
+  "text": "Ascii/Native转换"
+ },
+ {
+  "href": "//tool.chinaz.com/qrcode",
+  "text": "二维码生成"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/utf-8.aspx",
+  "text": "UTF-8编码"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/html_js.aspx",
+  "text": "HTML/JS转换"
+ },
+ {
+  "href": "//data.chinaz.com/keyword/",
+  "text": "行业词库"
+ },
+ {
+  "href": "//data.chinaz.com/keyworddaily",
+  "text": "每日长尾词"
+ },
+ {
+  "href": "//data.chinaz.com/company",
+  "text": "企业信用"
+ },
+ {
+  "href": "//data.chinaz.com/bid",
+  "text": "竞价词挖掘"
+ },
+ {
+  "href": "//tool.chinaz.com/htmlcheck.aspx",
+  "text": "Html标签检测"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/httptest.aspx",
+  "text": "Http接口测试"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/htmlchar.aspx",
+  "text": "Html特殊符号"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/regexgenerate",
+  "text": "正则表达式生成"
+ },
+ {
+  "href": "//tool.chinaz.com/Tools/cssdesigner.aspx",
+  "text": "Css在线编辑"
+ },
+ {
+  "href": "//tool.chinaz.com/tools/wordcounter",
+  "text": "在线字符统计"
+ },
+ {
+  "href": "//font.chinaz.com/",
+  "text": "字体下载"
+ },
+ {
+  "href": "//sc.chinaz.com/ppt/",
+  "text": "PPT模板"
+ },
+ {
+  "href": "//sc.chinaz.com/jianli/",
+  "text": "简历模板"
+ },
+ {
+  "href": "//font.chinaz.com/diy/",
+  "text": "字体转换器"
+ },
+ {
+  "href": "//sc.chinaz.com/tupian/meinvtupian.html",
+  "text": "美女图片"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_MwsWYgep2b.html",
+  "text": "企业工商信息标准版"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_gJE7TBH8Re.html",
+  "text": "百度PC排名接口"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_TsMSRI22oR.html",
+  "text": "whois实时查询"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_iwO0kPd5kf.html",
+  "text": "QQ域名拦截检测"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_T9wERBm9NZ.html",
+  "text": "IP查询"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_SCRaDKmgCV.html",
+  "text": "百度移动排名"
+ },
+ {
+  "href": "//www.chinaz.net/mall/a_Ub6dqFMQ7H.html",
+  "text": "IP反查域名"
+ },
+ {
+  "href": "http://www.chinaz.com/aboutus/index.html",
+  "text": "关于站长之家"
+ },
+ {
+  "href": "http://ww.chinaz.com/aboutus/contact.php",
+  "text": "联系我们"
+ },
+ {
+  "href": "http://www.chinaz.com/aboutus/ad.html",
+  "text": "广告服务"
+ },
+ {
+  "href": "http://www.chinaz.com/aboutus/link.html",
+  "text": "友情链接"
+ },
+ {
+  "href": "http://www.chinaz.com/aboutus/events.html",
+  "text": "网站动态"
+ },
+ {
+  "href": "http://www.chinaz.com/aboutus/announce.html",
+  "text": "版权声明"
+ },
+ {
+  "href": "http://www.chinaz.com/aboutus/join.html",
+  "text": "人才招聘"
+ },
+ {
+  "href": "http://www.chinaz.com/aboutus/help.html",
+  "text": "帮助"
+ },
+ {
+  "href": "http://www.yisu.com/",
+  "text": "云服务器"
+ }
+]

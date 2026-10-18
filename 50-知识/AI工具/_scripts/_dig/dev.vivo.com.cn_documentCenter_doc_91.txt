@@ -1,0 +1,10 @@
+URL: https://dev.vivo.com.cn/documentCenter/doc/91
+STATUS: 200
+BYTES: 2601
+GBK: false
+TITLE: vivo开放平台
+
+---TEXT---
+vivo开放平台
+
+---LINKS---

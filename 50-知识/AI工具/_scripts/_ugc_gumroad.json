@@ -1,0 +1,5067 @@
+{
+ "meta": {
+  "collected_at": "2026-10-18T07:18:22.853Z",
+  "collector": "subagent ugc-intel",
+  "method": "proxy-fetch.mjs (Clash 127.0.0.1:7897) + Inertia data-page JSON parse"
+ },
+ "gumroad_evidence": {
+  "discover_url": "https://gumroad.com/discover",
+  "total_products_seen": 977,
+  "total_distinct_shops": 775,
+  "shop_domains": [
+   {
+    "shop": "undefined",
+    "appearances": 3697,
+    "url": "https://undefined.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "blossomandroot",
+    "appearances": 45,
+    "url": "https://blossomandroot.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "chasitykwill",
+    "appearances": 44,
+    "url": "https://chasitykwill.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alexsokol",
+    "appearances": 40,
+    "url": "https://alexsokol.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "simplemarketmetrics",
+    "appearances": 40,
+    "url": "https://simplemarketmetrics.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "oca2026",
+    "appearances": 39,
+    "url": "https://oca2026.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "silasmercer",
+    "appearances": 39,
+    "url": "https://silasmercer.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rogers1906",
+    "appearances": 39,
+    "url": "https://rogers1906.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cwsproducts",
+    "appearances": 39,
+    "url": "https://cwsproducts.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tallguytycoon",
+    "appearances": 39,
+    "url": "https://tallguytycoon.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "seniorfinance",
+    "appearances": 39,
+    "url": "https://seniorfinance.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vaxlevrone",
+    "appearances": 38,
+    "url": "https://vaxlevrone.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thebindery",
+    "appearances": 38,
+    "url": "https://thebindery.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "starzens",
+    "appearances": 38,
+    "url": "https://starzens.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dr22",
+    "appearances": 38,
+    "url": "https://dr22.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tudorhg",
+    "appearances": 38,
+    "url": "https://tudorhg.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "codegrid",
+    "appearances": 38,
+    "url": "https://codegrid.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "twostraws",
+    "appearances": 38,
+    "url": "https://twostraws.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "izuanbakar",
+    "appearances": 37,
+    "url": "https://izuanbakar.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "simpligen",
+    "appearances": 37,
+    "url": "https://simpligen.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "opalrowe",
+    "appearances": 37,
+    "url": "https://opalrowe.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "noahnuebling",
+    "appearances": 37,
+    "url": "https://noahnuebling.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rossmillsrant",
+    "appearances": 37,
+    "url": "https://rossmillsrant.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "fcuatro",
+    "appearances": 37,
+    "url": "https://fcuatro.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "discernmentmadeclear",
+    "appearances": 37,
+    "url": "https://discernmentmadeclear.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "eliasyoder",
+    "appearances": 36,
+    "url": "https://eliasyoder.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "geoimgr",
+    "appearances": 36,
+    "url": "https://geoimgr.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "paycheckportfolio",
+    "appearances": 36,
+    "url": "https://paycheckportfolio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bylokki",
+    "appearances": 13,
+    "url": "https://bylokki.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "larkandtweedcreative",
+    "appearances": 13,
+    "url": "https://larkandtweedcreative.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dani17dev",
+    "appearances": 12,
+    "url": "https://dani17dev.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "developassion",
+    "appearances": 11,
+    "url": "https://developassion.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "s1gnsofl1fe",
+    "appearances": 10,
+    "url": "https://s1gnsofl1fe.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "productivesetups",
+    "appearances": 9,
+    "url": "https://productivesetups.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "olguioo",
+    "appearances": 9,
+    "url": "https://olguioo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "leluvfx",
+    "appearances": 9,
+    "url": "https://leluvfx.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lifemathmoney",
+    "appearances": 8,
+    "url": "https://lifemathmoney.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ducvu",
+    "appearances": 8,
+    "url": "https://ducvu.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nazegoreng",
+    "appearances": 8,
+    "url": "https://nazegoreng.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "webfactory",
+    "appearances": 8,
+    "url": "https://webfactory.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bartoszstyperek",
+    "appearances": 7,
+    "url": "https://bartoszstyperek.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hanmen",
+    "appearances": 7,
+    "url": "https://hanmen.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "atouchofthegods",
+    "appearances": 7,
+    "url": "https://atouchofthegods.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ellenescapes",
+    "appearances": 7,
+    "url": "https://ellenescapes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "21marrco12",
+    "appearances": 7,
+    "url": "https://21marrco12.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "milaonni",
+    "appearances": 7,
+    "url": "https://milaonni.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "loveshakedata",
+    "appearances": 6,
+    "url": "https://loveshakedata.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "shuisongbrush",
+    "appearances": 6,
+    "url": "https://shuisongbrush.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "template22",
+    "appearances": 6,
+    "url": "https://template22.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dbarnett",
+    "appearances": 6,
+    "url": "https://dbarnett.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "littlepurlbaby",
+    "appearances": 6,
+    "url": "https://littlepurlbaby.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "grafitschool",
+    "appearances": 6,
+    "url": "https://grafitschool.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "daribodrawing",
+    "appearances": 5,
+    "url": "https://daribodrawing.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "6969634366200",
+    "appearances": 5,
+    "url": "https://6969634366200.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "byhuy",
+    "appearances": 5,
+    "url": "https://byhuy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "juliawinterpaw",
+    "appearances": 5,
+    "url": "https://juliawinterpaw.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "grafitcubeschool",
+    "appearances": 5,
+    "url": "https://grafitcubeschool.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "erasers45",
+    "appearances": 5,
+    "url": "https://erasers45.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jamajurabaev",
+    "appearances": 5,
+    "url": "https://jamajurabaev.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "maxulichney",
+    "appearances": 5,
+    "url": "https://maxulichney.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "trevsagents",
+    "appearances": 5,
+    "url": "https://trevsagents.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "relativegames",
+    "appearances": 5,
+    "url": "https://relativegames.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "growthpioneer",
+    "appearances": 5,
+    "url": "https://growthpioneer.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "svetaminka2",
+    "appearances": 5,
+    "url": "https://svetaminka2.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "notionforadhd",
+    "appearances": 4,
+    "url": "https://notionforadhd.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "writebuildscale",
+    "appearances": 4,
+    "url": "https://writebuildscale.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "annalenkovska",
+    "appearances": 4,
+    "url": "https://annalenkovska.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "darbi",
+    "appearances": 4,
+    "url": "https://darbi.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "artell",
+    "appearances": 4,
+    "url": "https://artell.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dibrushes",
+    "appearances": 4,
+    "url": "https://dibrushes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "staspro1",
+    "appearances": 4,
+    "url": "https://staspro1.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "drawsseal",
+    "appearances": 4,
+    "url": "https://drawsseal.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "iconly",
+    "appearances": 4,
+    "url": "https://iconly.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "techfleet",
+    "appearances": 4,
+    "url": "https://techfleet.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "halfmage",
+    "appearances": 4,
+    "url": "https://halfmage.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hoxy",
+    "appearances": 4,
+    "url": "https://hoxy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "houseofell",
+    "appearances": 4,
+    "url": "https://houseofell.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mitchleeuwe",
+    "appearances": 4,
+    "url": "https://mitchleeuwe.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "healthwaybooks",
+    "appearances": 4,
+    "url": "https://healthwaybooks.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "anhoiiiii",
+    "appearances": 4,
+    "url": "https://anhoiiiii.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mercersgallery",
+    "appearances": 4,
+    "url": "https://mercersgallery.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "syntropybuild",
+    "appearances": 4,
+    "url": "https://syntropybuild.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mataleixo",
+    "appearances": 3,
+    "url": "https://mataleixo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sorakirbys",
+    "appearances": 3,
+    "url": "https://sorakirbys.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "allbadbadgers",
+    "appearances": 3,
+    "url": "https://allbadbadgers.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kapka",
+    "appearances": 3,
+    "url": "https://kapka.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "stacheobj",
+    "appearances": 3,
+    "url": "https://stacheobj.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "polygoniq",
+    "appearances": 3,
+    "url": "https://polygoniq.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ldarro",
+    "appearances": 3,
+    "url": "https://ldarro.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lineicons",
+    "appearances": 3,
+    "url": "https://lineicons.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "draculatheme",
+    "appearances": 3,
+    "url": "https://draculatheme.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pablostanley",
+    "appearances": 3,
+    "url": "https://pablostanley.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bakkashetti",
+    "appearances": 3,
+    "url": "https://bakkashetti.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kambanthemaker",
+    "appearances": 3,
+    "url": "https://kambanthemaker.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "medmorphic",
+    "appearances": 3,
+    "url": "https://medmorphic.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dgtprofit",
+    "appearances": 3,
+    "url": "https://dgtprofit.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "icudoctor",
+    "appearances": 3,
+    "url": "https://icudoctor.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lostwaxoz",
+    "appearances": 3,
+    "url": "https://lostwaxoz.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "golfingwithgary",
+    "appearances": 3,
+    "url": "https://golfingwithgary.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thealg0mist",
+    "appearances": 3,
+    "url": "https://thealg0mist.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "aitorecheveste",
+    "appearances": 3,
+    "url": "https://aitorecheveste.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ayitsphotography",
+    "appearances": 3,
+    "url": "https://ayitsphotography.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ottoarney",
+    "appearances": 3,
+    "url": "https://ottoarney.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "theme24h",
+    "appearances": 3,
+    "url": "https://theme24h.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thecalmkitchensystem",
+    "appearances": 3,
+    "url": "https://thecalmkitchensystem.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "niccofx",
+    "appearances": 3,
+    "url": "https://niccofx.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dscds",
+    "appearances": 3,
+    "url": "https://dscds.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "theaiempire",
+    "appearances": 3,
+    "url": "https://theaiempire.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "yourchatgptguide",
+    "appearances": 3,
+    "url": "https://yourchatgptguide.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "promptrcraftr",
+    "appearances": 3,
+    "url": "https://promptrcraftr.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "luckydezines",
+    "appearances": 3,
+    "url": "https://luckydezines.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thinkaiprompt",
+    "appearances": 3,
+    "url": "https://thinkaiprompt.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "briantoearth",
+    "appearances": 3,
+    "url": "https://briantoearth.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "meatbeats",
+    "appearances": 3,
+    "url": "https://meatbeats.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tradeconfident",
+    "appearances": 3,
+    "url": "https://tradeconfident.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "enhancedinfo",
+    "appearances": 3,
+    "url": "https://enhancedinfo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tournamentmale",
+    "appearances": 3,
+    "url": "https://tournamentmale.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "clutchesgalorestudio",
+    "appearances": 3,
+    "url": "https://clutchesgalorestudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dariapatternmaking",
+    "appearances": 3,
+    "url": "https://dariapatternmaking.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "androidbubbles",
+    "appearances": 3,
+    "url": "https://androidbubbles.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "wpsix",
+    "appearances": 3,
+    "url": "https://wpsix.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "iconsengineer",
+    "appearances": 3,
+    "url": "https://iconsengineer.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gumirefs",
+    "appearances": 2,
+    "url": "https://gumirefs.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thedanishtrader",
+    "appearances": 2,
+    "url": "https://thedanishtrader.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "digitalwealthwithsa",
+    "appearances": 2,
+    "url": "https://digitalwealthwithsa.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tobiweissmann",
+    "appearances": 2,
+    "url": "https://tobiweissmann.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "promptblueprint",
+    "appearances": 2,
+    "url": "https://promptblueprint.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lightlanehomeopathy",
+    "appearances": 2,
+    "url": "https://lightlanehomeopathy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mananparekh",
+    "appearances": 2,
+    "url": "https://mananparekh.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mishmadoodls",
+    "appearances": 2,
+    "url": "https://mishmadoodls.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jahazielgpz",
+    "appearances": 2,
+    "url": "https://jahazielgpz.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "heyalisa",
+    "appearances": 2,
+    "url": "https://heyalisa.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "michelwilfried",
+    "appearances": 2,
+    "url": "https://michelwilfried.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "chrisnotion",
+    "appearances": 2,
+    "url": "https://chrisnotion.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sealinemedia",
+    "appearances": 2,
+    "url": "https://sealinemedia.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "inotion",
+    "appearances": 2,
+    "url": "https://inotion.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "slowcozykelly",
+    "appearances": 2,
+    "url": "https://slowcozykelly.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ellesthetique",
+    "appearances": 2,
+    "url": "https://ellesthetique.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "storyflint",
+    "appearances": 2,
+    "url": "https://storyflint.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ikeiwa",
+    "appearances": 2,
+    "url": "https://ikeiwa.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sweetwater112",
+    "appearances": 2,
+    "url": "https://sweetwater112.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "griffonka",
+    "appearances": 2,
+    "url": "https://griffonka.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "spacejackal",
+    "appearances": 2,
+    "url": "https://spacejackal.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "joeycarlino",
+    "appearances": 2,
+    "url": "https://joeycarlino.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mostafalamey1",
+    "appearances": 2,
+    "url": "https://mostafalamey1.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "graymore",
+    "appearances": 2,
+    "url": "https://graymore.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vertexarcade",
+    "appearances": 2,
+    "url": "https://vertexarcade.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dillongoo",
+    "appearances": 2,
+    "url": "https://dillongoo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "reipart",
+    "appearances": 2,
+    "url": "https://reipart.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "embracefx",
+    "appearances": 2,
+    "url": "https://embracefx.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "corneliusdammrich",
+    "appearances": 2,
+    "url": "https://corneliusdammrich.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "chafouin",
+    "appearances": 2,
+    "url": "https://chafouin.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "zeidsalfiti",
+    "appearances": 2,
+    "url": "https://zeidsalfiti.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "zacretz",
+    "appearances": 2,
+    "url": "https://zacretz.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "smokeoverlay",
+    "appearances": 2,
+    "url": "https://smokeoverlay.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "babich",
+    "appearances": 2,
+    "url": "https://babich.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kkovalenko",
+    "appearances": 2,
+    "url": "https://kkovalenko.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thekevintang",
+    "appearances": 2,
+    "url": "https://thekevintang.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "whatstudio",
+    "appearances": 2,
+    "url": "https://whatstudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thalion",
+    "appearances": 2,
+    "url": "https://thalion.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "maryamato88",
+    "appearances": 2,
+    "url": "https://maryamato88.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "meshhouse",
+    "appearances": 2,
+    "url": "https://meshhouse.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "violentpainter",
+    "appearances": 2,
+    "url": "https://violentpainter.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "franklinwill",
+    "appearances": 2,
+    "url": "https://franklinwill.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "doctorbennett",
+    "appearances": 2,
+    "url": "https://doctorbennett.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "platenom",
+    "appearances": 2,
+    "url": "https://platenom.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bennyknowyourrights",
+    "appearances": 2,
+    "url": "https://bennyknowyourrights.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vijaysarathy",
+    "appearances": 2,
+    "url": "https://vijaysarathy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "theancientstore",
+    "appearances": 2,
+    "url": "https://theancientstore.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "comeonmanpod",
+    "appearances": 2,
+    "url": "https://comeonmanpod.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "edgarthesifu",
+    "appearances": 2,
+    "url": "https://edgarthesifu.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rankingtactics",
+    "appearances": 2,
+    "url": "https://rankingtactics.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bulkmockup",
+    "appearances": 2,
+    "url": "https://bulkmockup.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "xionmaster",
+    "appearances": 2,
+    "url": "https://xionmaster.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "biteme01",
+    "appearances": 2,
+    "url": "https://biteme01.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "monkeyforever",
+    "appearances": 2,
+    "url": "https://monkeyforever.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nawty",
+    "appearances": 2,
+    "url": "https://nawty.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "collegefootballdata",
+    "appearances": 2,
+    "url": "https://collegefootballdata.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "designwithcracka",
+    "appearances": 2,
+    "url": "https://designwithcracka.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "firstgenwealth",
+    "appearances": 2,
+    "url": "https://firstgenwealth.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ruycorto",
+    "appearances": 2,
+    "url": "https://ruycorto.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "servicetunings",
+    "appearances": 2,
+    "url": "https://servicetunings.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "submorphic",
+    "appearances": 2,
+    "url": "https://submorphic.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pixelrec",
+    "appearances": 2,
+    "url": "https://pixelrec.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thiagoklafke",
+    "appearances": 2,
+    "url": "https://thiagoklafke.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "telthona",
+    "appearances": 2,
+    "url": "https://telthona.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lukelucis",
+    "appearances": 2,
+    "url": "https://lukelucis.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nicoleivanov",
+    "appearances": 2,
+    "url": "https://nicoleivanov.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "heladesign",
+    "appearances": 2,
+    "url": "https://heladesign.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "proedit",
+    "appearances": 2,
+    "url": "https://proedit.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "akashxxn",
+    "appearances": 2,
+    "url": "https://akashxxn.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "holoexe",
+    "appearances": 2,
+    "url": "https://holoexe.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "behemox",
+    "appearances": 2,
+    "url": "https://behemox.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tunarig",
+    "appearances": 2,
+    "url": "https://tunarig.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "filiprachunek",
+    "appearances": 2,
+    "url": "https://filiprachunek.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ftus",
+    "appearances": 2,
+    "url": "https://ftus.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "moversodyssey",
+    "appearances": 2,
+    "url": "https://moversodyssey.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "stevecooper",
+    "appearances": 2,
+    "url": "https://stevecooper.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "waltercanada",
+    "appearances": 2,
+    "url": "https://waltercanada.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "offshorecareer",
+    "appearances": 2,
+    "url": "https://offshorecareer.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mdleana",
+    "appearances": 2,
+    "url": "https://mdleana.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "feathered8172",
+    "appearances": 2,
+    "url": "https://feathered8172.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "grandmaedithcooks",
+    "appearances": 2,
+    "url": "https://grandmaedithcooks.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ideastothrive",
+    "appearances": 2,
+    "url": "https://ideastothrive.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "wellnesserin6",
+    "appearances": 2,
+    "url": "https://wellnesserin6.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "worldofprintables",
+    "appearances": 2,
+    "url": "https://worldofprintables.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dutchtrader2",
+    "appearances": 2,
+    "url": "https://dutchtrader2.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "careerascendia",
+    "appearances": 2,
+    "url": "https://careerascendia.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "predictandprofit",
+    "appearances": 2,
+    "url": "https://predictandprofit.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "finestflips",
+    "appearances": 2,
+    "url": "https://finestflips.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "luthe2nd",
+    "appearances": 2,
+    "url": "https://luthe2nd.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "inchristie",
+    "appearances": 2,
+    "url": "https://inchristie.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "shushantlakhyani",
+    "appearances": 2,
+    "url": "https://shushantlakhyani.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "theneurofactory",
+    "appearances": 2,
+    "url": "https://theneurofactory.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cedabranding",
+    "appearances": 2,
+    "url": "https://cedabranding.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ramesquinerie",
+    "appearances": 2,
+    "url": "https://ramesquinerie.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nonarycubed",
+    "appearances": 2,
+    "url": "https://nonarycubed.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sainthelenastudio",
+    "appearances": 2,
+    "url": "https://sainthelenastudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "psychovers",
+    "appearances": 2,
+    "url": "https://psychovers.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "damosfilm",
+    "appearances": 2,
+    "url": "https://damosfilm.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "designedbykirk",
+    "appearances": 2,
+    "url": "https://designedbykirk.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "createdbyjaymard",
+    "appearances": 2,
+    "url": "https://createdbyjaymard.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "logflowtools",
+    "appearances": 2,
+    "url": "https://logflowtools.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "denisbarbas",
+    "appearances": 2,
+    "url": "https://denisbarbas.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "fitandball",
+    "appearances": 2,
+    "url": "https://fitandball.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "remodevico",
+    "appearances": 2,
+    "url": "https://remodevico.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sidebrain",
+    "appearances": 2,
+    "url": "https://sidebrain.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nvktools",
+    "appearances": 2,
+    "url": "https://nvktools.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tugrulakyuz",
+    "appearances": 2,
+    "url": "https://tugrulakyuz.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "muninn",
+    "appearances": 2,
+    "url": "https://muninn.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "signalsniper",
+    "appearances": 2,
+    "url": "https://signalsniper.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ivtrades",
+    "appearances": 2,
+    "url": "https://ivtrades.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "arturparfenenko",
+    "appearances": 2,
+    "url": "https://arturparfenenko.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "yuheyyy",
+    "appearances": 2,
+    "url": "https://yuheyyy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "malcolm3d",
+    "appearances": 2,
+    "url": "https://malcolm3d.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "blissbybinny",
+    "appearances": 2,
+    "url": "https://blissbybinny.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "moodkandi",
+    "appearances": 2,
+    "url": "https://moodkandi.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "crochetescape",
+    "appearances": 2,
+    "url": "https://crochetescape.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "monsurian",
+    "appearances": 2,
+    "url": "https://monsurian.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "stardreams2200",
+    "appearances": 2,
+    "url": "https://stardreams2200.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "atomoon",
+    "appearances": 2,
+    "url": "https://atomoon.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "georgvw",
+    "appearances": 2,
+    "url": "https://georgvw.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "subjectively",
+    "appearances": 2,
+    "url": "https://subjectively.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "richburlew",
+    "appearances": 2,
+    "url": "https://richburlew.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mayosplash34",
+    "appearances": 2,
+    "url": "https://mayosplash34.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mrfreedom",
+    "appearances": 2,
+    "url": "https://mrfreedom.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mastertechit",
+    "appearances": 2,
+    "url": "https://mastertechit.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "0emp0",
+    "appearances": 2,
+    "url": "https://0emp0.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alvarotrigo",
+    "appearances": 2,
+    "url": "https://alvarotrigo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "oaw4390",
+    "appearances": 2,
+    "url": "https://oaw4390.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "edcodes",
+    "appearances": 2,
+    "url": "https://edcodes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bendodson",
+    "appearances": 2,
+    "url": "https://bendodson.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lifesynchub",
+    "appearances": 2,
+    "url": "https://lifesynchub.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "usamaakrm",
+    "appearances": 2,
+    "url": "https://usamaakrm.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "reneeromero",
+    "appearances": 2,
+    "url": "https://reneeromero.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "neetrox",
+    "appearances": 2,
+    "url": "https://neetrox.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "promptcrafterai",
+    "appearances": 2,
+    "url": "https://promptcrafterai.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "spotidown",
+    "appearances": 1,
+    "url": "https://spotidown.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "editedbyviperxvfx",
+    "appearances": 1,
+    "url": "https://editedbyviperxvfx.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mayankgoswami",
+    "appearances": 1,
+    "url": "https://mayankgoswami.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "robotcoach",
+    "appearances": 1,
+    "url": "https://robotcoach.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "connorpaine",
+    "appearances": 1,
+    "url": "https://connorpaine.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mongalo1",
+    "appearances": 1,
+    "url": "https://mongalo1.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "laserpreneur",
+    "appearances": 1,
+    "url": "https://laserpreneur.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hazihezihasi",
+    "appearances": 1,
+    "url": "https://hazihezihasi.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jrtruckstyling",
+    "appearances": 1,
+    "url": "https://jrtruckstyling.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "davysh",
+    "appearances": 1,
+    "url": "https://davysh.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "andipreeschool",
+    "appearances": 1,
+    "url": "https://andipreeschool.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lindaopcuracao",
+    "appearances": 1,
+    "url": "https://lindaopcuracao.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hgdesigns",
+    "appearances": 1,
+    "url": "https://hgdesigns.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dumanyazar",
+    "appearances": 1,
+    "url": "https://dumanyazar.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hotgarbagesports",
+    "appearances": 1,
+    "url": "https://hotgarbagesports.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "visualtale",
+    "appearances": 1,
+    "url": "https://visualtale.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ivyadmitmanga",
+    "appearances": 1,
+    "url": "https://ivyadmitmanga.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "arkevzstudios",
+    "appearances": 1,
+    "url": "https://arkevzstudios.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "codeconstellation",
+    "appearances": 1,
+    "url": "https://codeconstellation.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "elitegeentsss",
+    "appearances": 1,
+    "url": "https://elitegeentsss.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "markkashef",
+    "appearances": 1,
+    "url": "https://markkashef.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "prep4disaster",
+    "appearances": 1,
+    "url": "https://prep4disaster.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lizbethcollab",
+    "appearances": 1,
+    "url": "https://lizbethcollab.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "untools",
+    "appearances": 1,
+    "url": "https://untools.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "staceyplanning",
+    "appearances": 1,
+    "url": "https://staceyplanning.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "trademind5",
+    "appearances": 1,
+    "url": "https://trademind5.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hirabiki",
+    "appearances": 1,
+    "url": "https://hirabiki.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "anmeire",
+    "appearances": 1,
+    "url": "https://anmeire.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ghostly",
+    "appearances": 1,
+    "url": "https://ghostly.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "naiii0108",
+    "appearances": 1,
+    "url": "https://naiii0108.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "aysuhoscan",
+    "appearances": 1,
+    "url": "https://aysuhoscan.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "eternalmemories",
+    "appearances": 1,
+    "url": "https://eternalmemories.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "berkkaplan",
+    "appearances": 1,
+    "url": "https://berkkaplan.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "akittu",
+    "appearances": 1,
+    "url": "https://akittu.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sekiun",
+    "appearances": 1,
+    "url": "https://sekiun.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sergeytyapkin",
+    "appearances": 1,
+    "url": "https://sergeytyapkin.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "glukoz",
+    "appearances": 1,
+    "url": "https://glukoz.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "masterxeon1001",
+    "appearances": 1,
+    "url": "https://masterxeon1001.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "novabandit",
+    "appearances": 1,
+    "url": "https://novabandit.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nda",
+    "appearances": 1,
+    "url": "https://nda.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nellisuneliart",
+    "appearances": 1,
+    "url": "https://nellisuneliart.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "eulhwa",
+    "appearances": 1,
+    "url": "https://eulhwa.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "renasketch",
+    "appearances": 1,
+    "url": "https://renasketch.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "attki",
+    "appearances": 1,
+    "url": "https://attki.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "amandahessink",
+    "appearances": 1,
+    "url": "https://amandahessink.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "archfloyd",
+    "appearances": 1,
+    "url": "https://archfloyd.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "emaillove",
+    "appearances": 1,
+    "url": "https://emaillove.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "grisha",
+    "appearances": 1,
+    "url": "https://grisha.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dwilliames",
+    "appearances": 1,
+    "url": "https://dwilliames.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sixtysixducks",
+    "appearances": 1,
+    "url": "https://sixtysixducks.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "abdelwahabmo",
+    "appearances": 1,
+    "url": "https://abdelwahabmo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kfa",
+    "appearances": 1,
+    "url": "https://kfa.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alouiwadhah",
+    "appearances": 1,
+    "url": "https://alouiwadhah.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "purebacn",
+    "appearances": 1,
+    "url": "https://purebacn.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alienpixels",
+    "appearances": 1,
+    "url": "https://alienpixels.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "designgud",
+    "appearances": 1,
+    "url": "https://designgud.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "templatesystems",
+    "appearances": 1,
+    "url": "https://templatesystems.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "zyumbik",
+    "appearances": 1,
+    "url": "https://zyumbik.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "iliasconfidency",
+    "appearances": 1,
+    "url": "https://iliasconfidency.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "weppy",
+    "appearances": 1,
+    "url": "https://weppy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "valuef",
+    "appearances": 1,
+    "url": "https://valuef.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vanticpro",
+    "appearances": 1,
+    "url": "https://vanticpro.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jesperbylov",
+    "appearances": 1,
+    "url": "https://jesperbylov.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "antonreshetov",
+    "appearances": 1,
+    "url": "https://antonreshetov.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "erindale",
+    "appearances": 1,
+    "url": "https://erindale.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "streamsoft",
+    "appearances": 1,
+    "url": "https://streamsoft.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "zsviczian",
+    "appearances": 1,
+    "url": "https://zsviczian.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "visualstore",
+    "appearances": 1,
+    "url": "https://visualstore.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "erebusrituals",
+    "appearances": 1,
+    "url": "https://erebusrituals.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "papercranedev",
+    "appearances": 1,
+    "url": "https://papercranedev.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "brandonlachappelle",
+    "appearances": 1,
+    "url": "https://brandonlachappelle.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lightmode",
+    "appearances": 1,
+    "url": "https://lightmode.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "adreesai",
+    "appearances": 1,
+    "url": "https://adreesai.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "quanruzhuoxiu",
+    "appearances": 1,
+    "url": "https://quanruzhuoxiu.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "keshavsuki",
+    "appearances": 1,
+    "url": "https://keshavsuki.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "theseasonbetween",
+    "appearances": 1,
+    "url": "https://theseasonbetween.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "trentie",
+    "appearances": 1,
+    "url": "https://trentie.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dhaibuilds",
+    "appearances": 1,
+    "url": "https://dhaibuilds.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "anaestheasier",
+    "appearances": 1,
+    "url": "https://anaestheasier.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "themagickmuse",
+    "appearances": 1,
+    "url": "https://themagickmuse.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "immabunni",
+    "appearances": 1,
+    "url": "https://immabunni.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "robinsanahkai",
+    "appearances": 1,
+    "url": "https://robinsanahkai.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "chengster0",
+    "appearances": 1,
+    "url": "https://chengster0.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bter",
+    "appearances": 1,
+    "url": "https://bter.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thereallblizzy",
+    "appearances": 1,
+    "url": "https://thereallblizzy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "entreprenuer00",
+    "appearances": 1,
+    "url": "https://entreprenuer00.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "swiftmadden",
+    "appearances": 1,
+    "url": "https://swiftmadden.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jeepinsider",
+    "appearances": 1,
+    "url": "https://jeepinsider.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cosmictransmission3",
+    "appearances": 1,
+    "url": "https://cosmictransmission3.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "107sidehustles",
+    "appearances": 1,
+    "url": "https://107sidehustles.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bilaalbrother",
+    "appearances": 1,
+    "url": "https://bilaalbrother.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nicholsenigma765",
+    "appearances": 1,
+    "url": "https://nicholsenigma765.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "itsfineducation",
+    "appearances": 1,
+    "url": "https://itsfineducation.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "robertretires",
+    "appearances": 1,
+    "url": "https://robertretires.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jhanhky",
+    "appearances": 1,
+    "url": "https://jhanhky.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "prattcitysavage",
+    "appearances": 1,
+    "url": "https://prattcitysavage.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "arcturianprotocols",
+    "appearances": 1,
+    "url": "https://arcturianprotocols.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ameliaswedishcandy",
+    "appearances": 1,
+    "url": "https://ameliaswedishcandy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tradingindicators",
+    "appearances": 1,
+    "url": "https://tradingindicators.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "beeskneesbooks",
+    "appearances": 1,
+    "url": "https://beeskneesbooks.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "senpaikae",
+    "appearances": 1,
+    "url": "https://senpaikae.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vikkibreusova",
+    "appearances": 1,
+    "url": "https://vikkibreusova.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "operantpower",
+    "appearances": 1,
+    "url": "https://operantpower.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "petercronin3",
+    "appearances": 1,
+    "url": "https://petercronin3.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "saneaspect",
+    "appearances": 1,
+    "url": "https://saneaspect.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "shannonstretches",
+    "appearances": 1,
+    "url": "https://shannonstretches.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "assassinato",
+    "appearances": 1,
+    "url": "https://assassinato.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "realthomsieloff",
+    "appearances": 1,
+    "url": "https://realthomsieloff.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kareemmhmd",
+    "appearances": 1,
+    "url": "https://kareemmhmd.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "soonquys",
+    "appearances": 1,
+    "url": "https://soonquys.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "glowhubcreative",
+    "appearances": 1,
+    "url": "https://glowhubcreative.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "whereisweatherby",
+    "appearances": 1,
+    "url": "https://whereisweatherby.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "zhaa",
+    "appearances": 1,
+    "url": "https://zhaa.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "survivingarchitectur",
+    "appearances": 1,
+    "url": "https://survivingarchitectur.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "capturexlokz",
+    "appearances": 1,
+    "url": "https://capturexlokz.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ayagadelhak",
+    "appearances": 1,
+    "url": "https://ayagadelhak.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "failwithoutworry",
+    "appearances": 1,
+    "url": "https://failwithoutworry.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "samrogers",
+    "appearances": 1,
+    "url": "https://samrogers.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sulasula",
+    "appearances": 1,
+    "url": "https://sulasula.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "peninsulapresets",
+    "appearances": 1,
+    "url": "https://peninsulapresets.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "luxurygold",
+    "appearances": 1,
+    "url": "https://luxurygold.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "robiinluca",
+    "appearances": 1,
+    "url": "https://robiinluca.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nicksm3dia",
+    "appearances": 1,
+    "url": "https://nicksm3dia.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "zoclip",
+    "appearances": 1,
+    "url": "https://zoclip.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "c47",
+    "appearances": 1,
+    "url": "https://c47.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alexruskman",
+    "appearances": 1,
+    "url": "https://alexruskman.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rodriguezmedia",
+    "appearances": 1,
+    "url": "https://rodriguezmedia.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "infenikslens",
+    "appearances": 1,
+    "url": "https://infenikslens.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jamiecardoso",
+    "appearances": 1,
+    "url": "https://jamiecardoso.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "adrienlambert",
+    "appearances": 1,
+    "url": "https://adrienlambert.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cgaxis",
+    "appearances": 1,
+    "url": "https://cgaxis.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "souhailninia",
+    "appearances": 1,
+    "url": "https://souhailninia.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "wparallax",
+    "appearances": 1,
+    "url": "https://wparallax.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pavelbarnev",
+    "appearances": 1,
+    "url": "https://pavelbarnev.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "juliosillet",
+    "appearances": 1,
+    "url": "https://juliosillet.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "danielvesterbaek",
+    "appearances": 1,
+    "url": "https://danielvesterbaek.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kevlarpixelstudios",
+    "appearances": 1,
+    "url": "https://kevlarpixelstudios.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "knitmotion",
+    "appearances": 1,
+    "url": "https://knitmotion.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "outlier2",
+    "appearances": 1,
+    "url": "https://outlier2.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "realmindguide",
+    "appearances": 1,
+    "url": "https://realmindguide.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "evergreem",
+    "appearances": 1,
+    "url": "https://evergreem.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "fabianstrube",
+    "appearances": 1,
+    "url": "https://fabianstrube.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "galvanicfreak",
+    "appearances": 1,
+    "url": "https://galvanicfreak.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "revoltgpt",
+    "appearances": 1,
+    "url": "https://revoltgpt.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "avilabs",
+    "appearances": 1,
+    "url": "https://avilabs.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hparttoolset",
+    "appearances": 1,
+    "url": "https://hparttoolset.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tharlevfx",
+    "appearances": 1,
+    "url": "https://tharlevfx.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "venetian5gmailcom",
+    "appearances": 1,
+    "url": "https://venetian5gmailcom.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "flamesound",
+    "appearances": 1,
+    "url": "https://flamesound.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alfredbaudisch",
+    "appearances": 1,
+    "url": "https://alfredbaudisch.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "shingidora",
+    "appearances": 1,
+    "url": "https://shingidora.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mortus4",
+    "appearances": 1,
+    "url": "https://mortus4.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "justinfrazee",
+    "appearances": 1,
+    "url": "https://justinfrazee.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "foyezes",
+    "appearances": 1,
+    "url": "https://foyezes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "boreo",
+    "appearances": 1,
+    "url": "https://boreo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rakenval",
+    "appearances": 1,
+    "url": "https://rakenval.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dertwist",
+    "appearances": 1,
+    "url": "https://dertwist.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ogjohnag",
+    "appearances": 1,
+    "url": "https://ogjohnag.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vivifae",
+    "appearances": 1,
+    "url": "https://vivifae.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mrknowmedia",
+    "appearances": 1,
+    "url": "https://mrknowmedia.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "earlknowshow",
+    "appearances": 1,
+    "url": "https://earlknowshow.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "fluxdestiny",
+    "appearances": 1,
+    "url": "https://fluxdestiny.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ezracade07",
+    "appearances": 1,
+    "url": "https://ezracade07.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "reesey4",
+    "appearances": 1,
+    "url": "https://reesey4.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pooljimmy",
+    "appearances": 1,
+    "url": "https://pooljimmy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kentsukamoto",
+    "appearances": 1,
+    "url": "https://kentsukamoto.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "productivitymsd",
+    "appearances": 1,
+    "url": "https://productivitymsd.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "prepwithdrew",
+    "appearances": 1,
+    "url": "https://prepwithdrew.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "modernparentsguide",
+    "appearances": 1,
+    "url": "https://modernparentsguide.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vintagewatts",
+    "appearances": 1,
+    "url": "https://vintagewatts.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "oposinprogress",
+    "appearances": 1,
+    "url": "https://oposinprogress.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "focusedmindco",
+    "appearances": 1,
+    "url": "https://focusedmindco.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "creatorvc",
+    "appearances": 1,
+    "url": "https://creatorvc.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "resellmariano",
+    "appearances": 1,
+    "url": "https://resellmariano.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jdubbsoftware",
+    "appearances": 1,
+    "url": "https://jdubbsoftware.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "unleashyourfierce",
+    "appearances": 1,
+    "url": "https://unleashyourfierce.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "excelog",
+    "appearances": 1,
+    "url": "https://excelog.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hitchlife",
+    "appearances": 1,
+    "url": "https://hitchlife.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "eliteresumewritting",
+    "appearances": 1,
+    "url": "https://eliteresumewritting.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sadeburrell",
+    "appearances": 1,
+    "url": "https://sadeburrell.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "danishhabib111",
+    "appearances": 1,
+    "url": "https://danishhabib111.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "remotern",
+    "appearances": 1,
+    "url": "https://remotern.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "careerpositioner",
+    "appearances": 1,
+    "url": "https://careerpositioner.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sermujernoes",
+    "appearances": 1,
+    "url": "https://sermujernoes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gergelyorosz",
+    "appearances": 1,
+    "url": "https://gergelyorosz.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "travelingarchivist",
+    "appearances": 1,
+    "url": "https://travelingarchivist.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "devrimozcay",
+    "appearances": 1,
+    "url": "https://devrimozcay.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "forrestbrazeal",
+    "appearances": 1,
+    "url": "https://forrestbrazeal.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "whoknew6",
+    "appearances": 1,
+    "url": "https://whoknew6.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "venousfx",
+    "appearances": 1,
+    "url": "https://venousfx.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ibrahimrahim0",
+    "appearances": 1,
+    "url": "https://ibrahimrahim0.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "blender-addons",
+    "appearances": 1,
+    "url": "https://blender-addons.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gothired",
+    "appearances": 1,
+    "url": "https://gothired.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "azmatkhan6",
+    "appearances": 1,
+    "url": "https://azmatkhan6.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "elitesports",
+    "appearances": 1,
+    "url": "https://elitesports.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "justgonzo",
+    "appearances": 1,
+    "url": "https://justgonzo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "scalewithgabs",
+    "appearances": 1,
+    "url": "https://scalewithgabs.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ajaykaja",
+    "appearances": 1,
+    "url": "https://ajaykaja.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "statquest",
+    "appearances": 1,
+    "url": "https://statquest.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "90spminvesting",
+    "appearances": 1,
+    "url": "https://90spminvesting.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "daskydesign",
+    "appearances": 1,
+    "url": "https://daskydesign.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ninetofreeexperiment",
+    "appearances": 1,
+    "url": "https://ninetofreeexperiment.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "joshualisec",
+    "appearances": 1,
+    "url": "https://joshualisec.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "theaigarage",
+    "appearances": 1,
+    "url": "https://theaigarage.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "oliverseo",
+    "appearances": 1,
+    "url": "https://oliverseo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "finntropy",
+    "appearances": 1,
+    "url": "https://finntropy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ninareadsyou",
+    "appearances": 1,
+    "url": "https://ninareadsyou.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kumail",
+    "appearances": 1,
+    "url": "https://kumail.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "drewsreview",
+    "appearances": 1,
+    "url": "https://drewsreview.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bjc",
+    "appearances": 1,
+    "url": "https://bjc.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kesslermathieu",
+    "appearances": 1,
+    "url": "https://kesslermathieu.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "aiwhatever",
+    "appearances": 1,
+    "url": "https://aiwhatever.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "altarch",
+    "appearances": 1,
+    "url": "https://altarch.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "arjunechow",
+    "appearances": 1,
+    "url": "https://arjunechow.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "markisle",
+    "appearances": 1,
+    "url": "https://markisle.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "briguyai",
+    "appearances": 1,
+    "url": "https://briguyai.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mimofr",
+    "appearances": 1,
+    "url": "https://mimofr.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "designbyayelet",
+    "appearances": 1,
+    "url": "https://designbyayelet.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "booterart",
+    "appearances": 1,
+    "url": "https://booterart.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ai3drenderlab",
+    "appearances": 1,
+    "url": "https://ai3drenderlab.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tmnicholson",
+    "appearances": 1,
+    "url": "https://tmnicholson.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "witnox",
+    "appearances": 1,
+    "url": "https://witnox.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "woollyfern",
+    "appearances": 1,
+    "url": "https://woollyfern.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mjkorea",
+    "appearances": 1,
+    "url": "https://mjkorea.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "elevenrb",
+    "appearances": 1,
+    "url": "https://elevenrb.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "promptgeek",
+    "appearances": 1,
+    "url": "https://promptgeek.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mrpuzzles",
+    "appearances": 1,
+    "url": "https://mrpuzzles.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ecolabstudio",
+    "appearances": 1,
+    "url": "https://ecolabstudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "taoprompts",
+    "appearances": 1,
+    "url": "https://taoprompts.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "perqued",
+    "appearances": 1,
+    "url": "https://perqued.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sevenstyles",
+    "appearances": 1,
+    "url": "https://sevenstyles.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tipseason",
+    "appearances": 1,
+    "url": "https://tipseason.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "costoomz",
+    "appearances": 1,
+    "url": "https://costoomz.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "archezinternational",
+    "appearances": 1,
+    "url": "https://archezinternational.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bowespublishing",
+    "appearances": 1,
+    "url": "https://bowespublishing.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tischeins",
+    "appearances": 1,
+    "url": "https://tischeins.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bobinc",
+    "appearances": 1,
+    "url": "https://bobinc.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jpcoder",
+    "appearances": 1,
+    "url": "https://jpcoder.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pathofinspiration",
+    "appearances": 1,
+    "url": "https://pathofinspiration.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lockbetting",
+    "appearances": 1,
+    "url": "https://lockbetting.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "africapenews",
+    "appearances": 1,
+    "url": "https://africapenews.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "blender3darchitect",
+    "appearances": 1,
+    "url": "https://blender3darchitect.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cleancan",
+    "appearances": 1,
+    "url": "https://cleancan.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sharpemoney",
+    "appearances": 1,
+    "url": "https://sharpemoney.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pathtograduation",
+    "appearances": 1,
+    "url": "https://pathtograduation.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "findingland",
+    "appearances": 1,
+    "url": "https://findingland.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "todorovski6",
+    "appearances": 1,
+    "url": "https://todorovski6.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mirrormimicgames",
+    "appearances": 1,
+    "url": "https://mirrormimicgames.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tiannabell",
+    "appearances": 1,
+    "url": "https://tiannabell.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "elomakeitso",
+    "appearances": 1,
+    "url": "https://elomakeitso.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ovadiahearthealth",
+    "appearances": 1,
+    "url": "https://ovadiahearthealth.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "logandynamo2",
+    "appearances": 1,
+    "url": "https://logandynamo2.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rachidnichan",
+    "appearances": 1,
+    "url": "https://rachidnichan.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "aestheticadvantage",
+    "appearances": 1,
+    "url": "https://aestheticadvantage.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gazillionindustries",
+    "appearances": 1,
+    "url": "https://gazillionindustries.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pandoro",
+    "appearances": 1,
+    "url": "https://pandoro.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "wesleyanna",
+    "appearances": 1,
+    "url": "https://wesleyanna.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "notus",
+    "appearances": 1,
+    "url": "https://notus.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "notomantra",
+    "appearances": 1,
+    "url": "https://notomantra.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "carolettemartin",
+    "appearances": 1,
+    "url": "https://carolettemartin.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "somethingorganized",
+    "appearances": 1,
+    "url": "https://somethingorganized.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mrbio",
+    "appearances": 1,
+    "url": "https://mrbio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "organizeddashboard",
+    "appearances": 1,
+    "url": "https://organizeddashboard.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mydigitalplan",
+    "appearances": 1,
+    "url": "https://mydigitalplan.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "digisentials",
+    "appearances": 1,
+    "url": "https://digisentials.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "wrmodding",
+    "appearances": 1,
+    "url": "https://wrmodding.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "oonawho",
+    "appearances": 1,
+    "url": "https://oonawho.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "realvjy",
+    "appearances": 1,
+    "url": "https://realvjy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sambeckman",
+    "appearances": 1,
+    "url": "https://sambeckman.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "designbypepo",
+    "appearances": 1,
+    "url": "https://designbypepo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "udinbv",
+    "appearances": 1,
+    "url": "https://udinbv.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "takerefuge3d",
+    "appearances": 1,
+    "url": "https://takerefuge3d.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "aikastudio",
+    "appearances": 1,
+    "url": "https://aikastudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "futurexstudios",
+    "appearances": 1,
+    "url": "https://futurexstudios.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "chuanhu",
+    "appearances": 1,
+    "url": "https://chuanhu.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "idsley",
+    "appearances": 1,
+    "url": "https://idsley.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pumpkinpress",
+    "appearances": 1,
+    "url": "https://pumpkinpress.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bariqrifki",
+    "appearances": 1,
+    "url": "https://bariqrifki.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lesnicki5",
+    "appearances": 1,
+    "url": "https://lesnicki5.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "adamedits",
+    "appearances": 1,
+    "url": "https://adamedits.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tombisio",
+    "appearances": 1,
+    "url": "https://tombisio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mrviolets",
+    "appearances": 1,
+    "url": "https://mrviolets.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "swarmaudio",
+    "appearances": 1,
+    "url": "https://swarmaudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "amrofilms",
+    "appearances": 1,
+    "url": "https://amrofilms.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "brandingboard",
+    "appearances": 1,
+    "url": "https://brandingboard.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "arioi",
+    "appearances": 1,
+    "url": "https://arioi.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tylerquinn4",
+    "appearances": 1,
+    "url": "https://tylerquinn4.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "philpl",
+    "appearances": 1,
+    "url": "https://philpl.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "seankanedesign",
+    "appearances": 1,
+    "url": "https://seankanedesign.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nguyengobber",
+    "appearances": 1,
+    "url": "https://nguyengobber.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "maximefrancout",
+    "appearances": 1,
+    "url": "https://maximefrancout.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "colorgradinginsights",
+    "appearances": 1,
+    "url": "https://colorgradinginsights.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "shevonsalmon",
+    "appearances": 1,
+    "url": "https://shevonsalmon.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "naujprod",
+    "appearances": 1,
+    "url": "https://naujprod.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jerrzyo",
+    "appearances": 1,
+    "url": "https://jerrzyo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gustavorossimedia",
+    "appearances": 1,
+    "url": "https://gustavorossimedia.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thedormantseed",
+    "appearances": 1,
+    "url": "https://thedormantseed.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rcreativesstudio",
+    "appearances": 1,
+    "url": "https://rcreativesstudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nodexplugins",
+    "appearances": 1,
+    "url": "https://nodexplugins.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "danielernst",
+    "appearances": 1,
+    "url": "https://danielernst.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "phfx",
+    "appearances": 1,
+    "url": "https://phfx.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "eeavisuals",
+    "appearances": 1,
+    "url": "https://eeavisuals.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "stillxjoms",
+    "appearances": 1,
+    "url": "https://stillxjoms.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jurrealma",
+    "appearances": 1,
+    "url": "https://jurrealma.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "adrianflickss",
+    "appearances": 1,
+    "url": "https://adrianflickss.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "navacolorist",
+    "appearances": 1,
+    "url": "https://navacolorist.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thictor",
+    "appearances": 1,
+    "url": "https://thictor.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "linotslr",
+    "appearances": 1,
+    "url": "https://linotslr.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dodashviliguga",
+    "appearances": 1,
+    "url": "https://dodashviliguga.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mgulifes",
+    "appearances": 1,
+    "url": "https://mgulifes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rayvalmores",
+    "appearances": 1,
+    "url": "https://rayvalmores.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "afinity",
+    "appearances": 1,
+    "url": "https://afinity.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "itsguusy",
+    "appearances": 1,
+    "url": "https://itsguusy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "higherplane",
+    "appearances": 1,
+    "url": "https://higherplane.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "morphoice",
+    "appearances": 1,
+    "url": "https://morphoice.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "joecs",
+    "appearances": 1,
+    "url": "https://joecs.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "snakeshaky",
+    "appearances": 1,
+    "url": "https://snakeshaky.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "purgatorialgarden",
+    "appearances": 1,
+    "url": "https://purgatorialgarden.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "stepgrid",
+    "appearances": 1,
+    "url": "https://stepgrid.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kcrosley",
+    "appearances": 1,
+    "url": "https://kcrosley.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "floppiiivr",
+    "appearances": 1,
+    "url": "https://floppiiivr.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "crystalsound",
+    "appearances": 1,
+    "url": "https://crystalsound.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "anothermachines",
+    "appearances": 1,
+    "url": "https://anothermachines.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "febinjohnjames",
+    "appearances": 1,
+    "url": "https://febinjohnjames.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "goldhunterpaul",
+    "appearances": 1,
+    "url": "https://goldhunterpaul.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hftalgo",
+    "appearances": 1,
+    "url": "https://hftalgo.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jesusdailymiracles",
+    "appearances": 1,
+    "url": "https://jesusdailymiracles.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gfinancecollege",
+    "appearances": 1,
+    "url": "https://gfinancecollege.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "eliteentries",
+    "appearances": 1,
+    "url": "https://eliteentries.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "stonkgang",
+    "appearances": 1,
+    "url": "https://stonkgang.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alphaplus2",
+    "appearances": 1,
+    "url": "https://alphaplus2.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "jakefut",
+    "appearances": 1,
+    "url": "https://jakefut.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kassyalicee",
+    "appearances": 1,
+    "url": "https://kassyalicee.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "movefitadmin",
+    "appearances": 1,
+    "url": "https://movefitadmin.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "byrnepress",
+    "appearances": 1,
+    "url": "https://byrnepress.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "blazeredge",
+    "appearances": 1,
+    "url": "https://blazeredge.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "matw1x",
+    "appearances": 1,
+    "url": "https://matw1x.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "garrettmerrill",
+    "appearances": 1,
+    "url": "https://garrettmerrill.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "coachjosh1",
+    "appearances": 1,
+    "url": "https://coachjosh1.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mar1ifts",
+    "appearances": 1,
+    "url": "https://mar1ifts.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vanessaberimbau",
+    "appearances": 1,
+    "url": "https://vanessaberimbau.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "thebackporch",
+    "appearances": 1,
+    "url": "https://thebackporch.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "daviyunmoore",
+    "appearances": 1,
+    "url": "https://daviyunmoore.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ruchomybalans",
+    "appearances": 1,
+    "url": "https://ruchomybalans.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "scareltt",
+    "appearances": 1,
+    "url": "https://scareltt.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "refreshmentrocker",
+    "appearances": 1,
+    "url": "https://refreshmentrocker.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cartermomma",
+    "appearances": 1,
+    "url": "https://cartermomma.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dremmablake",
+    "appearances": 1,
+    "url": "https://dremmablake.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nanarosakitchen",
+    "appearances": 1,
+    "url": "https://nanarosakitchen.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sarahgavigan",
+    "appearances": 1,
+    "url": "https://sarahgavigan.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hoopmaster506",
+    "appearances": 1,
+    "url": "https://hoopmaster506.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "guitarmalade",
+    "appearances": 1,
+    "url": "https://guitarmalade.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kikoranmason",
+    "appearances": 1,
+    "url": "https://kikoranmason.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "highproteinlowcarb",
+    "appearances": 1,
+    "url": "https://highproteinlowcarb.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "marwanajemm",
+    "appearances": 1,
+    "url": "https://marwanajemm.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "chefcaleb",
+    "appearances": 1,
+    "url": "https://chefcaleb.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "grandmamediterranean",
+    "appearances": 1,
+    "url": "https://grandmamediterranean.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "myhealthyrecipes",
+    "appearances": 1,
+    "url": "https://myhealthyrecipes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cecilrowe",
+    "appearances": 1,
+    "url": "https://cecilrowe.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "omadcoachriadan",
+    "appearances": 1,
+    "url": "https://omadcoachriadan.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dietitianjoey",
+    "appearances": 1,
+    "url": "https://dietitianjoey.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mediterraneanrecipes",
+    "appearances": 1,
+    "url": "https://mediterraneanrecipes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tassym",
+    "appearances": 1,
+    "url": "https://tassym.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "soulconnect0",
+    "appearances": 1,
+    "url": "https://soulconnect0.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lifewithmigraine",
+    "appearances": 1,
+    "url": "https://lifewithmigraine.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "soulmindhub",
+    "appearances": 1,
+    "url": "https://soulmindhub.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lastknight",
+    "appearances": 1,
+    "url": "https://lastknight.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "obsidiansaints",
+    "appearances": 1,
+    "url": "https://obsidiansaints.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "millionivation",
+    "appearances": 1,
+    "url": "https://millionivation.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "arcturianfrequency",
+    "appearances": 1,
+    "url": "https://arcturianfrequency.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mindsetaihub",
+    "appearances": 1,
+    "url": "https://mindsetaihub.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "linnatplay",
+    "appearances": 1,
+    "url": "https://linnatplay.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sewinglabmilano",
+    "appearances": 1,
+    "url": "https://sewinglabmilano.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "melsewinganddesign",
+    "appearances": 1,
+    "url": "https://melsewinganddesign.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "joanapatterns",
+    "appearances": 1,
+    "url": "https://joanapatterns.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ruthcallaway",
+    "appearances": 1,
+    "url": "https://ruthcallaway.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "shoemakingcourses",
+    "appearances": 1,
+    "url": "https://shoemakingcourses.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mariejanae",
+    "appearances": 1,
+    "url": "https://mariejanae.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kehindeoni",
+    "appearances": 1,
+    "url": "https://kehindeoni.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cloveghost",
+    "appearances": 1,
+    "url": "https://cloveghost.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "illusionshows",
+    "appearances": 1,
+    "url": "https://illusionshows.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "crochetlylillys",
+    "appearances": 1,
+    "url": "https://crochetlylillys.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sweetwistslocs",
+    "appearances": 1,
+    "url": "https://sweetwistslocs.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sunnyhub",
+    "appearances": 1,
+    "url": "https://sunnyhub.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "crochetbabystar",
+    "appearances": 1,
+    "url": "https://crochetbabystar.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "craftlycrochet",
+    "appearances": 1,
+    "url": "https://craftlycrochet.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "atolyemasal",
+    "appearances": 1,
+    "url": "https://atolyemasal.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alicescrochetcorner",
+    "appearances": 1,
+    "url": "https://alicescrochetcorner.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "xzaixing",
+    "appearances": 1,
+    "url": "https://xzaixing.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nadiyacrochet",
+    "appearances": 1,
+    "url": "https://nadiyacrochet.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "happyhooker",
+    "appearances": 1,
+    "url": "https://happyhooker.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nayvexa",
+    "appearances": 1,
+    "url": "https://nayvexa.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tramaysigno",
+    "appearances": 1,
+    "url": "https://tramaysigno.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "digiembroider",
+    "appearances": 1,
+    "url": "https://digiembroider.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "craggylabs",
+    "appearances": 1,
+    "url": "https://craggylabs.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "saucegawd",
+    "appearances": 1,
+    "url": "https://saucegawd.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nansirinsstudio",
+    "appearances": 1,
+    "url": "https://nansirinsstudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "fashionworkshopbkk",
+    "appearances": 1,
+    "url": "https://fashionworkshopbkk.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "anomalis",
+    "appearances": 1,
+    "url": "https://anomalis.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hydeillustration",
+    "appearances": 1,
+    "url": "https://hydeillustration.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "threadedimpressions",
+    "appearances": 1,
+    "url": "https://threadedimpressions.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bestwegot",
+    "appearances": 1,
+    "url": "https://bestwegot.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "naomihubbardarts",
+    "appearances": 1,
+    "url": "https://naomihubbardarts.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "darksideralex",
+    "appearances": 1,
+    "url": "https://darksideralex.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kennyphases",
+    "appearances": 1,
+    "url": "https://kennyphases.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "medicraft7",
+    "appearances": 1,
+    "url": "https://medicraft7.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "polalab",
+    "appearances": 1,
+    "url": "https://polalab.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "liveworkflowtools",
+    "appearances": 1,
+    "url": "https://liveworkflowtools.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "joannastone",
+    "appearances": 1,
+    "url": "https://joannastone.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "slxde",
+    "appearances": 1,
+    "url": "https://slxde.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alicetrijjet",
+    "appearances": 1,
+    "url": "https://alicetrijjet.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "yeonheeart",
+    "appearances": 1,
+    "url": "https://yeonheeart.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "trentk",
+    "appearances": 1,
+    "url": "https://trentk.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kindergarten",
+    "appearances": 1,
+    "url": "https://kindergarten.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "incrediblecode",
+    "appearances": 1,
+    "url": "https://incrediblecode.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "alxxpaul",
+    "appearances": 1,
+    "url": "https://alxxpaul.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "evanalexander",
+    "appearances": 1,
+    "url": "https://evanalexander.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "enricotam",
+    "appearances": 1,
+    "url": "https://enricotam.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "janosovm",
+    "appearances": 1,
+    "url": "https://janosovm.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ajayshustle",
+    "appearances": 1,
+    "url": "https://ajayshustle.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "haydenpugh",
+    "appearances": 1,
+    "url": "https://haydenpugh.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "riotbones",
+    "appearances": 1,
+    "url": "https://riotbones.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sixtined",
+    "appearances": 1,
+    "url": "https://sixtined.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "daygloayhole",
+    "appearances": 1,
+    "url": "https://daygloayhole.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "vanordenart",
+    "appearances": 1,
+    "url": "https://vanordenart.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "catholiccartoonist",
+    "appearances": 1,
+    "url": "https://catholiccartoonist.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lyriordan",
+    "appearances": 1,
+    "url": "https://lyriordan.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "omarfaruqtawsif",
+    "appearances": 1,
+    "url": "https://omarfaruqtawsif.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "dfinchartist",
+    "appearances": 1,
+    "url": "https://dfinchartist.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "zeetstudio",
+    "appearances": 1,
+    "url": "https://zeetstudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "youmeacademy",
+    "appearances": 1,
+    "url": "https://youmeacademy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "toadscream",
+    "appearances": 1,
+    "url": "https://toadscream.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "joelmayer",
+    "appearances": 1,
+    "url": "https://joelmayer.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "martinbelvisi",
+    "appearances": 1,
+    "url": "https://martinbelvisi.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "demiraito",
+    "appearances": 1,
+    "url": "https://demiraito.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "wisdomtheory",
+    "appearances": 1,
+    "url": "https://wisdomtheory.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gordillozart",
+    "appearances": 1,
+    "url": "https://gordillozart.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "luisfurushio",
+    "appearances": 1,
+    "url": "https://luisfurushio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "artbyha",
+    "appearances": 1,
+    "url": "https://artbyha.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "angrymikko",
+    "appearances": 1,
+    "url": "https://angrymikko.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "andreaga",
+    "appearances": 1,
+    "url": "https://andreaga.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "slabpixel",
+    "appearances": 1,
+    "url": "https://slabpixel.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mangabrush",
+    "appearances": 1,
+    "url": "https://mangabrush.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "aaronrutten",
+    "appearances": 1,
+    "url": "https://aaronrutten.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rpetersendev",
+    "appearances": 1,
+    "url": "https://rpetersendev.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "swit",
+    "appearances": 1,
+    "url": "https://swit.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "erinofbostonphoto",
+    "appearances": 1,
+    "url": "https://erinofbostonphoto.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "network66",
+    "appearances": 1,
+    "url": "https://network66.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "press84",
+    "appearances": 1,
+    "url": "https://press84.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "clapat",
+    "appearances": 1,
+    "url": "https://clapat.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tanyvazzana",
+    "appearances": 1,
+    "url": "https://tanyvazzana.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ooohboi",
+    "appearances": 1,
+    "url": "https://ooohboi.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "danniesoft",
+    "appearances": 1,
+    "url": "https://danniesoft.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "ramsthemes",
+    "appearances": 1,
+    "url": "https://ramsthemes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mwwared",
+    "appearances": 1,
+    "url": "https://mwwared.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "sajib2",
+    "appearances": 1,
+    "url": "https://sajib2.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "314andco",
+    "appearances": 1,
+    "url": "https://314andco.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "maikschott",
+    "appearances": 1,
+    "url": "https://maikschott.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "themecartel",
+    "appearances": 1,
+    "url": "https://themecartel.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "megifytools",
+    "appearances": 1,
+    "url": "https://megifytools.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gsventures",
+    "appearances": 1,
+    "url": "https://gsventures.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pgecom",
+    "appearances": 1,
+    "url": "https://pgecom.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "brandingbybaron",
+    "appearances": 1,
+    "url": "https://brandingbybaron.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kusaprojects",
+    "appearances": 1,
+    "url": "https://kusaprojects.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "shopifytheverting",
+    "appearances": 1,
+    "url": "https://shopifytheverting.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pivot2tech",
+    "appearances": 1,
+    "url": "https://pivot2tech.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "landingpagebro",
+    "appearances": 1,
+    "url": "https://landingpagebro.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mrebati",
+    "appearances": 1,
+    "url": "https://mrebati.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "goodsnooze",
+    "appearances": 1,
+    "url": "https://goodsnooze.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "theusefultech",
+    "appearances": 1,
+    "url": "https://theusefultech.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "zhillustrator",
+    "appearances": 1,
+    "url": "https://zhillustrator.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "rajjaryaa",
+    "appearances": 1,
+    "url": "https://rajjaryaa.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "overment",
+    "appearances": 1,
+    "url": "https://overment.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "mikashortcut",
+    "appearances": 1,
+    "url": "https://mikashortcut.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "clique",
+    "appearances": 1,
+    "url": "https://clique.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "okwasniewski",
+    "appearances": 1,
+    "url": "https://okwasniewski.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "kazazic",
+    "appearances": 1,
+    "url": "https://kazazic.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "chubbyfrogs",
+    "appearances": 1,
+    "url": "https://chubbyfrogs.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "laurenjoseph",
+    "appearances": 1,
+    "url": "https://laurenjoseph.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "walktheline",
+    "appearances": 1,
+    "url": "https://walktheline.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "edvardoarcher",
+    "appearances": 1,
+    "url": "https://edvardoarcher.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "yimello",
+    "appearances": 1,
+    "url": "https://yimello.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "heyimpatrice",
+    "appearances": 1,
+    "url": "https://heyimpatrice.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "notionwithro",
+    "appearances": 1,
+    "url": "https://notionwithro.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "eskomsepush",
+    "appearances": 1,
+    "url": "https://eskomsepush.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "creativetechhub",
+    "appearances": 1,
+    "url": "https://creativetechhub.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "courseprinter",
+    "appearances": 1,
+    "url": "https://courseprinter.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "fieldtoneaudio",
+    "appearances": 1,
+    "url": "https://fieldtoneaudio.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "aloboi",
+    "appearances": 1,
+    "url": "https://aloboi.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "pluglug",
+    "appearances": 1,
+    "url": "https://pluglug.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bmalcolm21",
+    "appearances": 1,
+    "url": "https://bmalcolm21.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nowsquare",
+    "appearances": 1,
+    "url": "https://nowsquare.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "abhinavbhardwaj5",
+    "appearances": 1,
+    "url": "https://abhinavbhardwaj5.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "paumanok",
+    "appearances": 1,
+    "url": "https://paumanok.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "technosupps",
+    "appearances": 1,
+    "url": "https://technosupps.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tropicalabs",
+    "appearances": 1,
+    "url": "https://tropicalabs.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "salesmagic",
+    "appearances": 1,
+    "url": "https://salesmagic.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "midnightlab",
+    "appearances": 1,
+    "url": "https://midnightlab.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "acquisitionai",
+    "appearances": 1,
+    "url": "https://acquisitionai.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "nuovanceai",
+    "appearances": 1,
+    "url": "https://nuovanceai.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "automatewithbishal",
+    "appearances": 1,
+    "url": "https://automatewithbishal.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "synccounttsolutions",
+    "appearances": 1,
+    "url": "https://synccounttsolutions.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "automationproacademy",
+    "appearances": 1,
+    "url": "https://automationproacademy.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "digitalhub091",
+    "appearances": 1,
+    "url": "https://digitalhub091.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lsg",
+    "appearances": 1,
+    "url": "https://lsg.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "tesseractcreator",
+    "appearances": 1,
+    "url": "https://tesseractcreator.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "hatchery",
+    "appearances": 1,
+    "url": "https://hatchery.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "madethemes",
+    "appearances": 1,
+    "url": "https://madethemes.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "amberkaraditya",
+    "appearances": 1,
+    "url": "https://amberkaraditya.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "raphaelscribe548",
+    "appearances": 1,
+    "url": "https://raphaelscribe548.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "lakwatsero",
+    "appearances": 1,
+    "url": "https://lakwatsero.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "buzdesigns",
+    "appearances": 1,
+    "url": "https://buzdesigns.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "adithyan574",
+    "appearances": 1,
+    "url": "https://adithyan574.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cheungy0",
+    "appearances": 1,
+    "url": "https://cheungy0.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "bluegrassdigital",
+    "appearances": 1,
+    "url": "https://bluegrassdigital.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "architjn",
+    "appearances": 1,
+    "url": "https://architjn.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "cubedop",
+    "appearances": 1,
+    "url": "https://cubedop.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   },
+   {
+    "shop": "gladiumai",
+    "appearances": 1,
+    "url": "https://gladiumai.gumroad.com",
+    "source": "https://gumroad.com/discover?query=<q> (Inertia data-page search_results.products)"
+   }
+  ],
+  "top_selling_products": [
+   {
+    "name": "Pablo Stanley",
+    "shop": "pablostanley",
+    "url": "https://pablostanley.gumroad.com/l/openpeeps",
+    "price": "0 USD",
+    "ratings": 9143,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"figma\" on gumroad.com/discover"
+   },
+   {
+    "name": "Sealine",
+    "shop": "sealinemedia",
+    "url": "https://sealinemedia.gumroad.com/l/studentacadashboardos",
+    "price": "24.99 USD",
+    "ratings": 4509,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"notion template\" on gumroad.com/discover"
+   },
+   {
+    "name": "Jordi Bruin",
+    "shop": "goodsnooze",
+    "url": "https://goodsnooze.gumroad.com/l/menugpt",
+    "price": "0 EUR",
+    "ratings": 3025,
+    "avg": 4.7,
+    "type": "digital",
+    "found_via": "query=\"ios shortcut\" on gumroad.com/discover"
+   },
+   {
+    "name": "Julia Winterpaw",
+    "shop": "juliawinterpaw",
+    "url": "https://juliawinterpaw.gumroad.com/l/canine",
+    "price": "0 USD",
+    "ratings": 1373,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"vrchat asset\" on gumroad.com/discover"
+   },
+   {
+    "name": "bartoszstyperek",
+    "shop": "bartoszstyperek",
+    "url": "https://bartoszstyperek.gumroad.com/l/hairtool",
+    "price": "52 USD",
+    "ratings": 1004,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"3d model\" on gumroad.com/discover"
+   },
+   {
+    "name": "masterXeon1001",
+    "shop": "masterxeon1001",
+    "url": "https://masterxeon1001.gumroad.com/l/hopscutter",
+    "price": "37 USD",
+    "ratings": 932,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"blender\" on gumroad.com/discover"
+   },
+   {
+    "name": "Dracula",
+    "shop": "draculatheme",
+    "url": "https://draculatheme.gumroad.com/l/dracula-pro",
+    "price": "79.99 USD",
+    "ratings": 856,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"figma\" on gumroad.com/discover"
+   },
+   {
+    "name": "MaxPacks - Brushes for Procreate",
+    "shop": "maxulichney",
+    "url": "https://maxulichney.gumroad.com/l/watercolormaxpack",
+    "price": "25 USD",
+    "ratings": 830,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"procreate\" on gumroad.com/discover"
+   },
+   {
+    "name": "GHOSTLY",
+    "shop": "ghostly",
+    "url": "https://ghostly.gumroad.com/l/mamagen",
+    "price": "40 USD",
+    "ratings": 643,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"vrchat asset\" on gumroad.com/discover"
+   },
+   {
+    "name": "slow cozy kelly",
+    "shop": "slowcozykelly",
+    "url": "https://slowcozykelly.gumroad.com/l/2025notionplanner",
+    "price": "18 USD",
+    "ratings": 629,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"notion template\" on gumroad.com/discover"
+   },
+   {
+    "name": "Free To Use Sounds",
+    "shop": "ftus",
+    "url": "https://ftus.gumroad.com/l/allinonebundle",
+    "price": "25 USD",
+    "ratings": 608,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"game asset\" on gumroad.com/discover"
+   },
+   {
+    "name": "STRONGLAND Publishing",
+    "shop": "lifemathmoney",
+    "url": "https://lifemathmoney.gumroad.com/l/tough",
+    "price": "29.99 USD",
+    "ratings": 474,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"font\" on gumroad.com/discover"
+   },
+   {
+    "name": "John Weatherby",
+    "shop": "whereisweatherby",
+    "url": "https://whereisweatherby.gumroad.com/l/bg",
+    "price": "49 USD",
+    "ratings": 460,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"photoshop\" on gumroad.com/discover"
+   },
+   {
+    "name": "Wanderson M. Pimenta",
+    "shop": "blender-addons",
+    "url": "https://blender-addons.gumroad.com/l/batch",
+    "price": "0 USD",
+    "ratings": 456,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"resume\" on gumroad.com/discover"
+   },
+   {
+    "name": "akittu",
+    "shop": "akittu",
+    "url": "https://akittu.gumroad.com/l/stylizedexperiment",
+    "price": "0 USD",
+    "ratings": 416,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"3d model\" on gumroad.com/discover"
+   },
+   {
+    "name": "Phil Pluckthun",
+    "shop": "philpl",
+    "url": "https://philpl.gumroad.com/l/dank-mono",
+    "price": "25 GBP",
+    "ratings": 396,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"font\" on gumroad.com/discover"
+   },
+   {
+    "name": "PromptGeek",
+    "shop": "promptgeek",
+    "url": "https://promptgeek.gumroad.com/l/photoreal",
+    "price": "4.99 USD",
+    "ratings": 364,
+    "avg": 4.9,
+    "type": "ebook",
+    "found_via": "query=\"midjourney\" on gumroad.com/discover"
+   },
+   {
+    "name": "Hirabiki",
+    "shop": "hirabiki",
+    "url": "https://hirabiki.gumroad.com/l/rpnel",
+    "price": "10 USD",
+    "ratings": 351,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"vrchat asset\" on gumroad.com/discover"
+   },
+   {
+    "name": "GeorgBrush.club | 2000+ Procreate Brushes",
+    "shop": "georgvw",
+    "url": "https://georgvw.gumroad.com/l/procreate",
+    "price": "15 USD",
+    "ratings": 348,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"coloring\" on gumroad.com/discover"
+   },
+   {
+    "name": "glukoz (3Coords)",
+    "shop": "glukoz",
+    "url": "https://glukoz.gumroad.com/l/uvpackmaster",
+    "price": "44 USD",
+    "ratings": 345,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"blender\" on gumroad.com/discover"
+   },
+   {
+    "name": "Alex Ruskman Presets for Adobe Lightroom \\u0026 DaVinci Resolve",
+    "shop": "alexruskman",
+    "url": "https://alexruskman.gumroad.com/l/35mmvintageanalogfilmlightroompresets",
+    "price": "0 EUR",
+    "ratings": 322,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"lightroom\" on gumroad.com/discover"
+   },
+   {
+    "name": "Thiago Klafke",
+    "shop": "thiagoklafke",
+    "url": "https://thiagoklafke.gumroad.com/l/environmentartmastery",
+    "price": "39 USD",
+    "ratings": 316,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"photoshop\" on gumroad.com/discover"
+   },
+   {
+    "name": "Dave Williames",
+    "shop": "dwilliames",
+    "url": "https://dwilliames.gumroad.com/l/image-tracer",
+    "price": "10 USD",
+    "ratings": 299,
+    "avg": 4.8,
+    "type": "digital",
+    "found_via": "query=\"figma\" on gumroad.com/discover"
+   },
+   {
+    "name": "Paul Hudson",
+    "shop": "twostraws",
+    "url": "https://twostraws.gumroad.com/l/hws-subscription",
+    "price": "20 USD",
+    "ratings": 298,
+    "avg": 4.9,
+    "type": "membership",
+    "found_via": "query=\"course\" on gumroad.com/discover"
+   },
+   {
+    "name": "chafouin",
+    "shop": "chafouin",
+    "url": "https://chafouin.gumroad.com/l/photographer5",
+    "price": "25 USD",
+    "ratings": 265,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"blender\" on gumroad.com/discover"
+   },
+   {
+    "name": "Lokki",
+    "shop": "bylokki",
+    "url": "https://bylokki.gumroad.com/l/vision-icons",
+    "price": "12 USD",
+    "ratings": 247,
+    "avg": 4.8,
+    "type": "digital",
+    "found_via": "query=\"icon pack\" on gumroad.com/discover"
+   },
+   {
+    "name": "Luis Furushio",
+    "shop": "luisfurushio",
+    "url": "https://luisfurushio.gumroad.com/l/bgfjk",
+    "price": "40 USD",
+    "ratings": 241,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"illustration\" on gumroad.com/discover"
+   },
+   {
+    "name": "tugrulakyuz",
+    "shop": "tugrulakyuz",
+    "url": "https://tugrulakyuz.gumroad.com/l/xtwcn",
+    "price": "0 USD",
+    "ratings": 240,
+    "avg": 4.8,
+    "type": "digital",
+    "found_via": "query=\"sound effect\" on gumroad.com/discover"
+   },
+   {
+    "name": "Sean Kane",
+    "shop": "seankanedesign",
+    "url": "https://seankanedesign.gumroad.com/l/sk-modernist",
+    "price": "0 USD",
+    "ratings": 235,
+    "avg": 4.8,
+    "type": "digital",
+    "found_via": "query=\"font\" on gumroad.com/discover"
+   },
+   {
+    "name": "Tropica Labs",
+    "shop": "tropicalabs",
+    "url": "https://tropicalabs.gumroad.com/l/storyradar-elite",
+    "price": "800 USD",
+    "ratings": 232,
+    "avg": 5,
+    "type": "membership",
+    "found_via": "query=\"automation\" on gumroad.com/discover"
+   },
+   {
+    "name": "ikeiwa",
+    "shop": "ikeiwa",
+    "url": "https://ikeiwa.gumroad.com/l/ikehud",
+    "price": "10 EUR",
+    "ratings": 229,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"vrchat asset\" on gumroad.com/discover"
+   },
+   {
+    "name": "crzyzhaa",
+    "shop": "zhaa",
+    "url": "https://zhaa.gumroad.com/l/wfbxv",
+    "price": "0 USD",
+    "ratings": 226,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"photoshop\" on gumroad.com/discover"
+   },
+   {
+    "name": "Di",
+    "shop": "dibrushes",
+    "url": "https://dibrushes.gumroad.com/l/brush",
+    "price": "35 USD",
+    "ratings": 222,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"procreate\" on gumroad.com/discover"
+   },
+   {
+    "name": "polygoniq",
+    "shop": "polygoniq",
+    "url": "https://polygoniq.gumroad.com/l/botaniq-trees",
+    "price": "2 USD",
+    "ratings": 221,
+    "avg": 4.8,
+    "type": "digital",
+    "found_via": "query=\"3d model\" on gumroad.com/discover"
+   },
+   {
+    "name": "Myicons✨",
+    "shop": "lineicons",
+    "url": "https://lineicons.gumroad.com/l/myicons",
+    "price": "135 USD",
+    "ratings": 213,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"figma\" on gumroad.com/discover"
+   },
+   {
+    "name": "MaxPacks - Brushes for Procreate",
+    "shop": "maxulichney",
+    "url": "https://maxulichney.gumroad.com/l/retromaxpack",
+    "price": "25 USD",
+    "ratings": 210,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"procreate\" on gumroad.com/discover"
+   },
+   {
+    "name": "erindale",
+    "shop": "erindale",
+    "url": "https://erindale.gumroad.com/l/erintools",
+    "price": "15 EUR",
+    "ratings": 203,
+    "avg": 4.9,
+    "type": "digital",
+    "found_via": "query=\"raycast\" on gumroad.com/discover"
+   },
+   {
+    "name": "Productive Setups",
+    "shop": "productivesetups",
+    "url": "https://productivesetups.gumroad.com/l/headquarters",
+    "price": "79 AUD",
+    "ratings": 200,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"notion template\" on gumroad.com/discover"
+   },
+   {
+    "name": "S1gns Of L1fe",
+    "shop": "s1gnsofl1fe",
+    "url": "https://s1gnsofl1fe.gumroad.com/l/texture-loom",
+    "price": "0 USD",
+    "ratings": 192,
+    "avg": 4.8,
+    "type": "digital",
+    "found_via": "query=\"sound effect\" on gumroad.com/discover"
+   },
+   {
+    "name": "Mary Amato",
+    "shop": "maryamato88",
+    "url": "https://maryamato88.gumroad.com/l/notioly",
+    "price": "39 USD",
+    "ratings": 188,
+    "avg": 5,
+    "type": "digital",
+    "found_via": "query=\"figma\" on gumroad.com/discover"
+   }
+  ],
+  "note": "每个店铺域名均从真实 <a href>/Inertia JSON \"url\":\"https://<shop>.gumroad.com/l/...\" 提取，未凭想象拼写。rating_count 是真实购买/评价数，\"有人买到\"的直接证据。"
+ }
+}

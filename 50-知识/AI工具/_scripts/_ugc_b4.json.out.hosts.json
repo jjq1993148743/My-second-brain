@@ -1,0 +1,167 @@
+{
+ "useme.com": [
+  "useme-payout-currencies :: https://useme.com/en/invoice/settle-a-deal :: Invoice a client",
+  "useme-payout-currencies :: https://useme.com/en/users/payout :: Payouts",
+  "useme-payout-currencies :: https://useme.com/en/users/payout :: Payouts",
+  "useme-payout-currencies :: https://useme.com/en/contact :: contact us",
+  "useme-payout-currencies :: https://useme.com :: Useme",
+  "useme-taxes :: https://useme.com/en/contact/#contact-form :: message us",
+  "useme-taxes :: https://useme.com :: Useme",
+  "useme-vat-rc :: https://useme.com/en/freelancer-invoice :: ",
+  "useme-vat-rc :: https://useme.com/en/freelancer-invoice :: Invoice a client",
+  "useme-vat-rc :: https://useme.com :: Useme",
+  "useme-jobs-settle :: https://useme.com/en/dashboard :: logged in",
+  "useme-jobs-settle :: https://useme.com/en/freelancer-invoice :: Invoice a client",
+  "useme-jobs-settle :: https://useme.com/en/contact :: Contact us",
+  "useme-jobs-settle :: https://useme.com :: Useme",
+  "useme-subscription :: https://useme.com/pl/useme-plus :: Useme Plus subscription",
+  "useme-subscription :: http://useme.com/en/users/subscription :: Plans",
+  "useme-subscription :: http://useme.com/en/users/subscription :: Plans",
+  "useme-subscription :: http://useme.com/en/users/subscription :: Plans",
+  "useme-subscription :: https://useme.com :: Useme"
+ ],
+ "cone.skima.jp": [
+  "skima-top :: https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=head01 :: 法人でご利用の方はこちら",
+  "skima-top :: https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer01 :: 法人の方はこちら",
+  "skima-top :: https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer02 :: 法人でご利用の方は cone"
+ ],
+ "faq.skima.jp": [
+  "skima-top :: https://faq.skima.jp/hc/ja/articles/23859635259801 :: CHEER! について",
+  "skima-top :: https://faq.skima.jp/hc/ja/categories/115001311547-FAQ :: よくある質問"
+ ],
+ "note.com": [
+  "skima-top :: https://note.com/skimanote :: ",
+  "skima-top :: https://note.com/skimanote :: "
+ ],
+ "9kk.skima.jp": [
+  "skima-top :: https://9kk.skima.jp :: ",
+  "skima-top :: https://9kk.skima.jp :: 創作を投稿するなら 90KU-KAN"
+ ],
+ "account.skima.jp": [
+  "skima-top :: https://account.skima.jp/contact?service=skima :: お問い合わせ"
+ ],
+ "commission.skima.jp": [
+  "skima-top :: https://commission.skima.jp :: 海外からのお取引は SKIMA （Global Site）"
+ ],
+ "mk.skima.jp": [
+  "skima-top :: https://mk.skima.jp :: "
+ ],
+ "x.com": [
+  "skima-top :: https://x.com/SKIMAjp :: "
+ ],
+ "booth.fanbox.cc": [
+  "booth-pm-en :: https://booth.fanbox.cc/posts/264407 :: Packaging Guidelines"
+ ],
+ "booth.pixiv.help": [
+  "booth-pm-en :: https://booth.pixiv.help/hc :: FAQ"
+ ],
+ "pixiv.net": [
+  "booth-pm-en :: https://www.pixiv.net :: pixiv"
+ ],
+ "policies.pixiv.net": [
+  "booth-pm-en :: https://policies.pixiv.net/#booth :: Terms of Use",
+  "booth-pm-en :: https://policies.pixiv.net/#warehouse :: Warehouse Terms of Use"
+ ],
+ "premium.lp-note.com": [
+  "note-top :: https://premium.lp-note.com :: noteプレミアム"
+ ],
+ "pro.lp-note.com": [
+  "note-top :: https://pro.lp-note.com/?utm_source=notecom&amp;utm_medium=footer :: note pro"
+ ],
+ "help-note.com": [
+  "note-top :: https://help-note.com/hc/ja :: ヘルプ",
+  "note-top :: https://help-note.com/hc/ja/requests/new?ticket_form_id=360000081181 :: フィードバック",
+  "note-top :: https://www.help-note.com/hc/ja :: noteの使い方"
+ ],
+ "terms.help-note.com": [
+  "note-top :: https://terms.help-note.com/hc/ja/articles/44948981050649 :: プライバシー",
+  "note-top :: https://terms.help-note.com/hc/ja/articles/44943817565465 :: ご利用規約"
+ ],
+ "note.jp": [
+  "note-top :: https://note.jp :: 運営会社",
+  "note-top :: https://note.jp/n/nc0fe1a230633 :: 採用情報"
+ ],
+ "help.coconala.com": [
+  "coconala-top :: https://help.coconala.com/hc/ja :: お困りのときは",
+  "coconala-top :: https://help.coconala.com/hc/ja :: ",
+  "coconala-top :: https://help.coconala.com/hc/ja :: "
+ ],
+ "legal.coconala.com": [
+  "coconala-top :: https://legal.coconala.com/bbses/ranking :: 法律Q&A",
+  "coconala-top :: https://legal.coconala.com/bbses/ranking :: もっと見る",
+  "coconala-top :: https://legal.coconala.com :: ",
+  "coconala-top :: https://legal.coconala.com :: "
+ ],
+ "line.me": [
+  "coconala-top :: https://line.me/R/ti/p/@758wjohf :: ",
+  "line-creators-guide :: https://line.me/en/terms/policy :: Privacy Policy"
+ ],
+ "job-matching.coconala.com": [
+  "coconala-top :: https://job-matching.coconala.com/client :: ",
+  "coconala-top :: https://job-matching.coconala.com/client :: "
+ ],
+ "assist.coconala.com": [
+  "coconala-top :: https://assist.coconala.com :: ",
+  "coconala-top :: https://assist.coconala.com :: ",
+  "coconala-top :: https://assist.coconala.com :: ",
+  "coconala-top :: https://assist.coconala.com/enterprise/expert :: ",
+  "coconala-top :: https://assist.coconala.com :: ",
+  "coconala-top :: https://assist.coconala.com/enterprise/expert :: ",
+  "coconala-top :: https://assist.coconala.com/talent :: ",
+  "coconala-top :: https://assist.coconala.com/talent/expert :: ",
+  "coconala-top :: https://assist.coconala.com/talent :: ",
+  "coconala-top :: https://assist.coconala.com/talent/expert :: "
+ ],
+ "tech.coconala.com": [
+  "coconala-top :: https://tech.coconala.com/enterprise/inquiry :: ",
+  "coconala-top :: https://tech.coconala.com/enterprise/inquiry :: ",
+  "coconala-top :: https://tech.coconala.com/enterprise/inquiry :: ",
+  "coconala-top :: https://tech.coconala.com/enterprise/inquiry :: ",
+  "coconala-top :: https://tech.coconala.com :: ",
+  "coconala-top :: https://tech.coconala.com :: "
+ ],
+ "professional.coconala.com": [
+  "coconala-top :: https://professional.coconala.com :: ",
+  "coconala-top :: https://professional.coconala.com :: ",
+  "coconala-top :: https://professional.coconala.com :: ",
+  "coconala-top :: https://professional.coconala.com :: "
+ ],
+ "consul.coconala.com": [
+  "coconala-top :: https://consul.coconala.com :: ",
+  "coconala-top :: https://consul.coconala.com :: "
+ ],
+ "mag.coconala.com": [
+  "coconala-top :: https://mag.coconala.com/category/knowhow :: ",
+  "coconala-top :: https://mag.coconala.com/category/knowhow :: ",
+  "coconala-top :: https://mag.coconala.com :: ",
+  "coconala-top :: https://mag.coconala.com :: "
+ ],
+ "coconala.co.jp": [
+  "coconala-top :: https://coconala.co.jp/company :: ",
+  "coconala-top :: https://www.coconala.co.jp/recruit :: ",
+  "coconala-top :: https://coconala.co.jp/company :: ",
+  "coconala-top :: https://www.coconala.co.jp/recruit :: "
+ ],
+ "help2.line.me": [
+  "line-creators-guide :: https://help2.line.me/creators/ios/sp?lang=en :: FAQ",
+  "line-creators-guide :: https://help2.line.me/creators/android/sp?lang=en :: FAQ",
+  "line-creators-guide :: https://help2.line.me/creators/ios/pc?lang=en :: FAQ",
+  "line-creators-guide :: https://help2.line.me/creators/android/pc?lang=en :: FAQ",
+  "line-creators-guide :: https://help2.line.me/creators/web/pc?lang=en :: FAQ"
+ ],
+ "store.line.me": [
+  "line-creators-guide :: https://store.line.me :: LINE STORE"
+ ],
+ "terms2.line.me": [
+  "line-creators-guide :: https://terms2.line.me/usersticker_rev :: Specified Commercial Transactions Act"
+ ],
+ "social-plugins.line.me": [
+  "line-creators-guide :: https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F :: "
+ ],
+ "twitter.com": [
+  "line-creators-guide :: https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F&text=Create%20and%20sell%20your%20own%20LINE%20stickers%2C%20emoji%2C%20and%20themes%20with%20LINE%20Creators%20Market.&hashtags=LINEStickers%2CLINECreatorsEmoji%2CLINEThemes :: "
+ ],
+ "facebook.com": [
+  "line-creators-guide :: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F :: "
+ ]
+}

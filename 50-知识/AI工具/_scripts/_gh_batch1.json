@@ -1,0 +1,457 @@
+[
+ {
+  "host": "news.ycombinator.com",
+  "status": 200,
+  "len": 34819,
+  "title": "Hacker News",
+  "ms": 946,
+  "from": [
+   "iAmCorey/awesome-indie-hacker-tools",
+   "johackim/awesome-indiehackers",
+   "chen103226/awesome-one-person-company"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "api.star-history.com",
+  "status": 404,
+  "len": 13,
+  "title": "",
+  "ms": 817,
+  "from": [
+   "chen103226/awesome-one-person-company",
+   "jakeolschewski/awesome-solopreneur-ai",
+   "ishandutta2007/Awesome-Digital-Product-Marketplaces"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "notebooklm.google.com",
+  "status": 302,
+  "len": 0,
+  "title": "",
+  "ms": 498,
+  "from": [
+   "XiaomingX/indie-hacker-tools-plus",
+   "weavefox/awesome-opc",
+   "zlc000190/awesome-super-individual"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "bannerbear.com",
+  "status": 301,
+  "len": 42,
+  "title": "",
+  "ms": 1143,
+  "from": [
+   "chen103226/awesome-one-person-company",
+   "weavefox/awesome-opc",
+   "klf8277/awesome-ai-side-hustle"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "star-history.com",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently",
+  "ms": 792,
+  "from": [
+   "jakeolschewski/awesome-solopreneur-ai",
+   "ishandutta2007/Awesome-Digital-Product-Marketplaces",
+   "hanchihuang/awesome-side-hustle"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "drawkit.com",
+  "status": 301,
+  "len": 166,
+  "title": "301 Moved Permanently",
+  "ms": 1373,
+  "from": [
+   "noobnooc/awesome-design-dev",
+   "Anmol-Baranwal/Awesome-Illustrations-4Projects"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "tailwindui.com",
+  "status": 301,
+  "len": 358,
+  "title": "Redirecting to https://tailwindcss.com/plus",
+  "ms": 1109,
+  "from": [
+   "iAmCorey/awesome-indie-hacker-tools",
+   "toofast1/awesome-micro-saas"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "formnx.com",
+  "status": 200,
+  "len": 269819,
+  "title": "Free Form Builder Online - FormNX",
+  "ms": 5349,
+  "from": [
+   "kairichard/awesome-nocode-lowcode",
+   "Stevemillerai5/awesome-nocode-tools"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "simpleanalytics.com",
+  "status": 302,
+  "len": 5,
+  "title": "",
+  "ms": 1282,
+  "from": [
+   "zlc000190/awesome-super-individual",
+   "klf8277/awesome-ai-side-hustle"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "lowcode-book.com",
+  "status": 200,
+  "len": 19656,
+  "title": "The Low-Code Handbook — Pragmatic answers to all your low-code questions",
+  "ms": 2723,
+  "from": [
+   "kairichard/awesome-nocode-lowcode",
+   "Stevemillerai5/awesome-nocode-tools"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "savedollars.store",
+  "status": 301,
+  "len": 0,
+  "title": "",
+  "ms": 8743,
+  "from": [
+   "SAVEDOLLARSTORE/awesome-offline-micro-saas"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "okky.kr",
+  "status": 200,
+  "len": 300674,
+  "title": "OKKY - All That Developer",
+  "ms": 1552,
+  "from": [
+   "ClintJang/awesome-freelance-korea-information"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "yourincomeathome.com",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "ms": 519,
+  "from": [
+   "yourincomehome/awesome-passive-income"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "nocode.tech",
+  "status": 429,
+  "len": 34224,
+  "title": "Vercel Security Checkpoint",
+  "ms": 886,
+  "from": [
+   "Stevemillerai5/awesome-nocode-tools"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "kkuistore.gumroad.com",
+  "status": 200,
+  "len": 30305,
+  "title": "KK UI Store",
+  "ms": 1620,
+  "from": [
+   "Anmol-Baranwal/Awesome-Illustrations-4Projects"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "kirokuforms.com",
+  "status": 308,
+  "len": 142,
+  "title": "",
+  "ms": 1352,
+  "from": [
+   "kairichard/awesome-nocode-lowcode"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "lunchbag.ca",
+  "status": 200,
+  "len": 15618,
+  "title": "lunchbag &#183; lunchbag",
+  "ms": 1593,
+  "from": [
+   "klf8277/awesome-ai-side-hustle"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "marketplace.visualstudio.com",
+  "status": 200,
+  "len": 69346,
+  "title": "Extensions for Visual Studio family of products | Visual Studio Marketplace",
+  "ms": 765,
+  "from": [
+   "iAmCorey/awesome-indie-hacker-tools"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "store.steampowered.com",
+  "status": 200,
+  "len": 985867,
+  "title": "Welcome to Steam",
+  "ms": 2733,
+  "from": [
+   "XiaomingX/indie-hacker-tools-plus"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "epicgames.com",
+  "status": 301,
+  "len": 134,
+  "title": "301 Moved Permanently",
+  "ms": 1016,
+  "from": [
+   "XiaomingX/indie-hacker-tools-plus"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "tillerhq.com",
+  "status": 301,
+  "len": 0,
+  "title": "",
+  "ms": 788,
+  "from": [
+   "kairichard/awesome-nocode-lowcode"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "gatherly.shop",
+  "status": 200,
+  "len": 264970,
+  "title": "Gatherly - Client Intake &amp; Document Collection Platform",
+  "ms": 2166,
+  "from": [
+   "kairichard/awesome-nocode-lowcode"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "shopsavvy.com",
+  "status": 200,
+  "len": 93181,
+  "title": "ShopSavvy: Free Price Comparison App, Lowest Price First",
+  "ms": 1372,
+  "from": [
+   "kairichard/awesome-nocode-lowcode"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "reelworkshop.com",
+  "status": 404,
+  "len": 1227,
+  "title": "Project deleted",
+  "ms": 2349,
+  "from": [
+   "kairichard/awesome-nocode-lowcode"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "growthcourse.teachable.com",
+  "status": 200,
+  "len": 298767,
+  "title": "B2B SaaS Growth Course - Million Dollar Marketer | Growth Marketing",
+  "ms": 2196,
+  "from": [
+   "johackim/awesome-indiehackers"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "templatemonster.com",
+  "status": 301,
+  "len": 523,
+  "title": "301 Moved Permanently",
+  "ms": 611,
+  "from": [
+   "yourincomehome/awesome-passive-income"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "mojomarketplace.com",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently",
+  "ms": 827,
+  "from": [
+   "yourincomehome/awesome-passive-income"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "sellmyapp.com",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently",
+  "ms": 1293,
+  "from": [
+   "yourincomehome/awesome-passive-income"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "squareup.com",
+  "status": 301,
+  "len": 40,
+  "title": "",
+  "ms": 330,
+  "from": [
+   "yourincomehome/awesome-passive-income"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "prestashop.com",
+  "status": 200,
+  "len": 290301,
+  "title": "Create an online shop easily - Ecommerce | PrestaShop",
+  "ms": 1884,
+  "from": [
+   "yourincomehome/awesome-passive-income"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "sellthetrend.com",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently",
+  "ms": 873,
+  "from": [
+   "yourincomehome/awesome-passive-income"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "greatcontent.com",
+  "status": 302,
+  "len": 301,
+  "title": "302 Found",
+  "ms": 1866,
+  "from": [
+   "yourincomehome/awesome-passive-income"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "pro.aceternity.com",
+  "status": 308,
+  "len": 510,
+  "title": "",
+  "ms": 1570,
+  "from": [
+   "noobnooc/awesome-design-dev"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "burst.shopify.com",
+  "status": 301,
+  "len": 0,
+  "title": "",
+  "ms": 732,
+  "from": [
+   "noobnooc/awesome-design-dev"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "thebookofshaders.com",
+  "status": 200,
+  "len": 13060,
+  "title": "The Book of Shaders",
+  "ms": 1820,
+  "from": [
+   "noobnooc/awesome-design-dev"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "store.tapmention.com",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "ms": 809,
+  "from": [
+   "Alex0x47/awesome-indie-hackers-tools"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "fastfluttertemplate.com",
+  "status": 308,
+  "len": 150,
+  "title": "",
+  "ms": 1597,
+  "from": [
+   "Alex0x47/awesome-indie-hackers-tools"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "aladin.co.kr",
+  "status": 302,
+  "len": 159,
+  "title": "Object moved",
+  "ms": 516,
+  "from": [
+   "ClintJang/awesome-freelance-korea-information"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "digital.kyobobook.co.kr",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "ms": 4812,
+  "from": [
+   "ClintJang/awesome-freelance-korea-information"
+  ],
+  "cat": "money-suspected"
+ },
+ {
+  "host": "series.naver.com",
+  "status": 302,
+  "len": 0,
+  "title": "",
+  "ms": 961,
+  "from": [
+   "ClintJang/awesome-freelance-korea-information"
+  ],
+  "cat": "money-suspected"
+ }
+]

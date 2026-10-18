@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
+    <title>编辑推荐 - 博客园</title>
+    
+    
+    <meta property="og:description" content="专注于为开发者服务，帮助开发者用代码改变世界" />
+    <meta property="og:image" content="https://assets.cnblogs.com/logo_square.png" />
+    <link rel="Stylesheet" type="text/css" href="/css/aggsite-new.min.css?v=29s5E09dOqVERO0TjLBosbVVYhsQWUXVL2q_TWOM694" />
+    <link rel="Stylesheet" type="text/css" href="/css/aggsite-mobile-new.min.css?v=aW7isQVy4FGJny6fao6m6YSJNfBREffDLPQOwaLbLDk" media="only screen and (max-width: 767px)" />
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="https://assets.cnblogs.com/favicon_v3_3.ico" />
+    <link rel="icon" type="image/svg+xml" href="https://assets.cnblogs.com/favicon_v3_3.svg" />
+    <link rel="apple-touch-icon" href="https://assets.cnblogs.com/apple-touch-icon.png?v=2" />
+    
+    <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" />
+    <script src="//assets.cnblogs.com/scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="https://cdn-www.cnblogs.com/js/aggsite-new.min.js?v=C6eSL9tNRmjSsS6V6e3Tjd_R6aAYGnXVLqayfcNR4D4"></script>
+</head>
+<body>
+    <div id="wrapper" class="flow">
+        <div id="top_nav" class="navbar border-none">
+            <nav id="nav_main" class="navbar-main">
+                <ul id="nav_left" class="navbar-list navbar-left">
+                    <li class="navbar-branding">                        
+                        <a href="https://www.cnblogs.com/" title="开发者的网上家园" role="banner">
+                            <img src="/images/logo.svg?v=2SMrXdIvlZwVoB1akyXm38WIKuTHVqvGD0CweV-B6cY" alt="博客园Logo" />
+                        </a>
+                    </li>                    
+                    <li><a href="https://cnblogs.vip/">会员</a></li>
+                    <li><a href="https://cnblogs.vip/store">周边</a></li>
+                    <li><a href="https://news.cnblogs.com/">新闻</a></li>
+                    <li><a href="https://q.cnblogs.com/">博问</a></li>
+                    <li><a href="https://ing.cnblogs.com/">闪存</a></li>
+                    <li><a href="https://edu.cnblogs.com/">班级</a></li>                    
+                    <li><a href="https://www.cnblogs.com/cmt/p/19316348">赞助商</a></li>
+                    <li><a href="https://harmonyos.cnblogs.com/" onclick="countClicks('nav', 'sitehome-navbar-harmonyos')">HarmonyOS</a></li>
+                    <li><a href="https://chat2db-ai.com/" target="_blank">Chat2DB</a></li>
+                    <li class="dropdown">
+                        <div class="dropdown-button">
+                            <img src="/images/aggsite/pulldown-light.svg" />
+                        </div>
+                        <div class="dropdown-menu">
+                            <a id="nav_legacy" href="/legacy">怀旧</a>
+                            <a href="https://home.cnblogs.com/">园子</a>
+                            <a href="https://wz.cnblogs.com/">收藏</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul id="nav_right" class="navbar-list navbar-right">
+                    <li>
+                        <form id="zzk_search_enhanced" style="display: none" class="navbar-search dropdown" action="https://zzk.cnblogs.com/s" method="get" role="search">
+                            <input name="w" id="zzk_search_input" placeholder="代码改变世界" type="search" tabindex="3" autocomplete="off" />
+                            <button id="zzk_search_button" onclick="window.navbarSearchManager.triggerActiveOption()">
+                                <img id="search_icon" class="focus-hidden" src="//assets.cnblogs.com/icons/search.svg" alt="搜索" />
+                                <img class="hidden focus-visible" src="//assets.cnblogs.com/icons/enter.svg" alt="搜索" />
+                            </button>
+                            <ul id="navbar_search_options" class="dropdown-menu quick-search-menu">
+                                <li tabindex="0" class="active" onclick="zzkSearch(event, document.getElementById('zzk_search_input').value)">
+                                    <div class="keyword-wrapper">
+                                        <img src="//assets.cnblogs.com/icons/search.svg" alt="搜索" />
+                                        <div class="keyword"></div>
+                                    </div>
+                                    <span class="search-area">所有博客</span>
+                                </li>
+                                <li id="navbar_self_search" tabindex="2">
+                                    <div class="keyword-wrapper">
+                                        <img src="//assets.cnblogs.com/icons/search.svg" alt="搜索" />
+                                        <div class="keyword"></div>
+                                    </div>
+                                    <span class="search-area">我的博客</span>
+                                </li>
+                            </ul>
+                        </form>
+                        <form id="zzk_search" class="navbar-search" action="https://zzk.cnblogs.com/s" method="get" role="search">
+                            <input name="w" id="zzk_search_input" placeholder="代码改变世界" type="text" autocomplete="off" tabindex="3"/>
+                            <button type="submit" id="zzk_search_button">
+                                <img src="/images/aggsite/search.svg" alt="搜索" />
+                            </button>
+                        </form>
+                    </li>
+                    <li id="navbar_login_status" class="navbar-list">
+                        <a class="navbar-user-info navbar-blog" href="https://i.cnblogs.com/EditPosts.aspx?opt=1" alt="写随笔" title="写随笔">
+                            <img id="new_post_icon" class="navbar-icon" src="/images/icons/newpost.svg" alt="写随笔" />
+                        </a>
+                        <a id="navblog-myblog-icon" class="navbar-user-info navbar-blog" href="https://www.cnblogs.com/my" alt="我的博客" title="我的博客">
+                            <img id="myblog_icon" class="navbar-icon" src="/images/icons/myblog.svg" alt="我的博客" />
+                        </a>
+                        <a class="navbar-user-info navbar-message navbar-icon-wrapper" href="https://msg.cnblogs.com/" alt="短消息" title="短消息">
+                            <img id="msg_icon" class="navbar-icon" src="/images/icons/message.svg?v=9K5-cNsbJbeitPFRa_xhJlz37hiIsm4mu7-MMPgi9LQ" alt="短消息" />
+                            <span id="msg_count" style="display: none"></span>
+                        </a>
+                        <a id="navbar_lite_mode_indicator" data-current-page="aggsite" style="display: none" href="javascript:void(0)" alt="简洁模式" title="简洁模式启用，您在访问他人博客时会使用简洁款皮肤展示">
+                            <img class="navbar-icon" src="/images/icons/lite-mode-on.svg" alt="简洁模式" />
+                        </a>
+                        <div id="user_info" class="navbar-user-info dropdown">
+                            <a class="dropdown-button" href="https://home.cnblogs.com/">
+                                <img id="user_icon" class="navbar-avatar" src="/images/icons/avatar-default.svg" alt="用户头像" />
+                            </a>
+                            <div class="dropdown-menu" id="navbar_menu">
+                                <a id="navblog-myblog-text" href="https://www.cnblogs.com/my">我的博客</a>
+                                <a href="https://home.cnblogs.com/">我的园子</a>
+                                <a href="https://account.cnblogs.com/settings/account">账号设置</a>
+                                <a href="https://vip.cnblogs.com/my">会员中心</a>
+                                <a href="javascript:void(0)" id="navbar_lite_mode_toggle" title="简洁模式会使用简洁款皮肤显示所有博客">
+    简洁模式 <span id="navbar_lite_mode_spinner" class="hide">...</span>
+</a>
+
+                                <a href="javascript:void(0)" onclick="account.logout();">退出登录</a>
+                            </div>
+                        </div>
+                        <a class="navbar-anonymous" href="https://account.cnblogs.com/signup">注册</a>
+                        <a class="navbar-anonymous" href="https://account.cnblogs.com/signin?returnUrl=https://www.cnblogs.com/">登录</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="nav_mobile" class="navbar-mobile">
+                <ul class="navbar-list">
+                    <li class="navbar-branding">
+                        <a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo.svg?v=2SMrXdIvlZwVoB1akyXm38WIKuTHVqvGD0CweV-B6cY" alt="博客园Logo" /></a>
+                    </li>
+                    <li class="dropdown">
+                        <div class="dropdown-button" onclick="toggleDropdownMenu()">
+                            <a href="javascript:void(0)">发现</a>
+                            <img src="/images/aggsite/pulldown-bold.svg" height="5" />
+                        </div>
+                        <div id="nav_dropdown_menu" class="dropdown-menu">
+                            <a href="https://www.cnblogs.com/my">博客</a>
+                            <a href="https://news.cnblogs.com/">新闻</a>                                                   
+                            <a href="https://q.cnblogs.com/">博问</a>
+                            <a href="https://ing.cnblogs.com/">闪存</a>
+                            <a href="https://edu.cnblogs.com/">班级</a>
+                            <a href="https://cnblogs.vip/">会员</a>
+                            <a href="https://cnblogs.vip/store">周边</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-list">
+                    <li>
+                        <form id="zzk_search_mobile" class="navbar-search" action="https://zzk.cnblogs.com/s" role="search" method="get">
+                            <input name="w" id="zzk_search_input_mobile" placeholder="搜索" type="search" autocomplete="off" tabindex="3" />
+                            <button type="submit" id="zzk_search_button_mobile">
+                                <img src="/images/aggsite/search.svg" alt="搜索" />
+                            </button>
+                        </form>
+                    </li>
+                    <li id="user_info_mobile" class="navbar-user-info dropdown">
+                        <a class="dropdown-button" href="https://home.cnblogs.com/">
+                            <img id="user_icon_mobile" class="navbar-icon avatar" />
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="https://account.cnblogs.com/settings/account">设置</a>
+                            <a href="javascript:void(0)" onclick="account.logout();">退出</a>
+                        </div>
+                    </li>
+                    <li class="navbar-anonymous" id="login_area_mobile">
+                        <a href="https://account.cnblogs.com/signup">注册</a>
+                    </li>
+                    <li class="navbar-anonymous">
+                        <a href="https://account.cnblogs.com/signin?returnUrl=https://www.cnblogs.com/">登录</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            <a href="https://www.volcengine.com/activity/codingplan?utm_campaign=hw&amp;utm_content=hw&amp;utm_medium=devrel_tool_web&amp;utm_source=OWO&amp;utm_term=cnblogs" onclick="countCreativeClicks('B0-volcengine-codingplan')" target="_blank" rel="nofollow">
+                <div class="imagebar forpc" style="background-size: contain;background-color:#d0defc;">
+                    
+                    <img src="https://img2024.cnblogs.com/blog/35695/202606/35695-20260609221836280-1720685857.jpg" style="" onload="countCreativeImpressions('B0-volcengine-codingplan')" />
+                    
+                    
+                    <span id="b0_impression" style="display:none"></span>
+                </div>
+            </a>
+        <div id="main_content" class="hero">
+            <div id="main" class="main">
+                <div id="side_nav" class="side-left tab-bar">
+                    
+<ul class="sidenav">
+            <li id="sidenav_category" class="sidenav-item ">
+                <a href="#cate-menu" title="网站分类">
+                    <img src="/images/aggsite/category.svg" />
+                    <span>分类</span>
+                </a>
+            </li>
+            <li id="sidenav_pick" class="sidenav-item ">
+                <a href="/pick/" title="精华区博文">
+                    <img src="/images/aggsite/picked.svg" />
+                    <span>精华</span>
+                </a>
+            </li>
+            <li id="sidenav_candidate" class="sidenav-item ">
+                <a href="/candidate/" title="候选区博文">
+                    <img src="/images/aggsite/candidate.svg" />
+                    <span>候选</span>
+                </a>
+            </li>
+            <li class="sidenav-splitter"></li>
+            <li id="sidenav_subscription" class="sidenav-item ">
+                <a href="/subscription" title="我订阅的博客">
+                    <img src="/images/aggsite/subscription.svg" />
+                    <span>订阅</span>
+                </a>
+            </li>
+            <li id="sidenav_following" class="sidenav-item ">
+                <a href="/following" title="我关注的博客">
+                    <img src="/images/aggsite/following.svg" />
+                    <span>关注</span>
+                </a>
+            </li>
+            <li id="sidenav_commented" class="sidenav-item ">
+                <a href="/aggsite/mycommented" title="我评论过的博文">
+                    <img src="/images/aggsite/commented.svg" />
+                    <span>我评</span>
+                </a>
+            </li>
+            <li id="sidenav_digged" class="sidenav-item ">
+                <a href="/aggsite/mydigged" title="我推荐过的博文">
+                    <img src="/images/aggsite/digged.svg" />
+                    <span>我赞</span>
+                </a>
+            </li>
+            <li id="sidenav_history" class="sidenav-item ">
+                <a href="/aggsite/myhistory" title="我的足迹">
+                    <img src="/images/aggsite/history.svg" />
+                    <span>足迹</span>
+                </a>
+            </li>
+    <li id="sidenav_more" class="dropdown sidenav-item ">
+        <div class="dropdown-button">
+            <a href="javascript:void(0)">
+                <img src="/images/aggsite/more.svg" />
+                <span>更多</span>
+            </a>
+        </div>
+        <div class="dropdown-menu">
+            <a href="/cate/all">所有随笔</a>
+            <a href="/cate/articles">所有文章</a>
+            <a href="/comment/">最新评论</a>
+            <a href="/cmt/">官方博客</a>
+            <a href="/skins.aspx">博客皮肤</a>
+        </div>
+    </li>
+    <li class="sidenav-splitter"></li>
+    <li class="sidenav-item feedback">
+        <a href="https://group.cnblogs.com/forum/public/" class="feedback">
+            <img src="/images/aggsite/feedback.svg" />
+            <span>反馈</span>
+        </a>
+    </li>
+    <li id="dark_switch">
+        <a href="javascript:void(0)"><img src="/images/aggsite/dark.svg" /></a>
+    </li>
+</ul>
+                </div>
+
+                <div id="main_flow" class="main-flow">
+                    <div class="card">
+                            <div id="post_list_title" class="card-title-block">
+                                <div class="card-title">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.819 4H17.18c.764 0 1.381.692 1.381 1.547v12.906c0 .855-.617 1.547-1.38 1.547H6.818c-.764 0-1.381-.692-1.381-1.547V5.547c0-.855.617-1.547 1.38-1.547z" fill="#8D8EA2" /><path d="M12.488 10.769h-3.91c-.284 0-.515.34-.515.76 0 .418.23.759.515.759h3.912c.284 0 .515-.341.515-.76 0-.418-.231-.76-.517-.76zm-1.646 3.947H8.578c-.284 0-.515.34-.515.76 0 .418.23.76.515.76h2.264c.284 0 .515-.342.515-.76 0-.42-.231-.76-.515-.76zm3.705-7.892h-5.97c-.283 0-.514.34-.514.76 0 .418.23.759.515.759h5.97c.283 0 .514-.341.514-.76s-.23-.76-.515-.76z" fill="#FFF" /></svg><a href="/aggsite/editorpicks">编辑推荐</a>
+                                </div>
+                            </div>
+                            <div class="card-title-line"></div>
+
+                        <div class="card headline">
+    <ul>
+        <li>
+                <a href="https://www.cnblogs.com/KBin/p/23219928" id="editor_pick_lnk" target="_blank" title="评论7, 推荐5, 阅读1503" data-postId="23219928">
+                    <span class="headline-label">【编辑推荐】</span>Linux桌面端应用向鸿蒙PC迁移适配纪实(7/5/1503)
+                </a>
+                <a href="/aggsite/headline" title="查看更多编辑推荐" class="right_more">»</a>
+        </li>
+        <li>
+                <a href="https://www.cnblogs.com/shanyou/p/23330221/introducing-dotnetup" target="_blank" title="评论2, 推荐9, 阅读893">
+                    <span class="headline-label">【最多推荐】</span>装了这么多年 .NET，微软终于把 rustup 那套搬过来了(2/9/893)
+                </a>
+                <a href="/aggsite/topdigged24h" title="查看24小时推荐排行" class="right_more">»</a>
+        </li>
+        <li>
+                <a href="https://news.cnblogs.com/n/841518/" target="_blank" title="评论1, 推荐4, 阅读109">
+                    <span class="headline-label">【新闻头条】</span>特斯拉会飞了！马斯克把火箭装进汽车，奥特曼惊呼(1/4/109)
+                </a>
+                <a href="https://news.cnblogs.com/" title="查看更多新闻" class="right_more">»</a>
+        </li>
+        <li>
+                <a href="https://news.cnblogs.com/n/841402/" target="_blank" title="评论2, 推荐2, 阅读783">
+                    <span class="headline-label">【推荐新闻】</span>155款App集体说「不」：豆包手机公示期结束，半个中国互联网关上了门(2/2/783)
+                </a>
+                <a href="https://news.cnblogs.com/n/recommend" title="查看更多推荐新闻" class="right_more">»</a>
+        </li>
+    </ul>
+</div>
+
+                        <div id="pager_top" style="display: none"></div>
+                        <div id="post_list_tips" class="hide"></div>
+                        
+                        <div id="post_list" class="post-list">
+                                <style>
+        #post_list {
+            margin-top: 20px;
+        }
+    </style>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/KBin/p/23219928" target="_blank">Linux桌面端应用向鸿蒙PC迁移适配纪实</a>
+                    <span class="editorpick-item-meta">2026-10-14</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/joy99/p/23171167" target="_blank">Koog Agent 的编程模型</a>
+                    <span class="editorpick-item-meta">2026-10-13</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/yuyisi/p/23139319" target="_blank">你把时间放在哪里，哪里就会生长 | 一个互联网人的时间配置法</a>
+                    <span class="editorpick-item-meta">2026-10-03</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/yuyisi/p/23058239" target="_blank">一切都会回潮-写在一个职业周期的低处</a>
+                    <span class="editorpick-item-meta">2026-09-25</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/skychen1218/p/22961976" target="_blank">开源：基于.Net开发的数据库自治诊断平台——DBPilot </a>
+                    <span class="editorpick-item-meta">2026-09-20</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/duwenlong/p/22879534" target="_blank">Memory 记忆设计讨论：Agent Memory 到底应该是什么？</a>
+                    <span class="editorpick-item-meta">2026-09-13</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/HaiJun-Aion/p/22870343" target="_blank">AI 越来越强，打工人怎么反而越来越累了？</a>
+                    <span class="editorpick-item-meta">2026-09-09</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/shanyou/p/22817435" target="_blank">都是 AI 写代码，为什么 C# 比 Java 快半拍</a>
+                    <span class="editorpick-item-meta">2026-09-06</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/DolphinDB/p/22733056" target="_blank">AI Coding 蜜月期之后，我们重新思考了 AI 提效 </a>
+                    <span class="editorpick-item-meta">2026-08-31</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/zer0Black/p/22630128" target="_blank">具身智能运动控制与软件栈：你的代码只活在中间件之上</a>
+                    <span class="editorpick-item-meta">2026-08-23</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/hez2010/p/22444617/make-generic-virtual-methods-faster-in-dotnet11" target="_blank">让 .NET 11 的泛型虚方法变得更快！</a>
+                    <span class="editorpick-item-meta">2026-08-17</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/hez2010/p/22380086/runtime-async-in-dotnet-11" target="_blank">.NET 11 Runtime Async 详解 </a>
+                    <span class="editorpick-item-meta">2026-08-12</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/eventhorizon/p/21973620" target="_blank">ValueTask 应该怎么 await</a>
+                    <span class="editorpick-item-meta">2026-08-01</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/zhayujie/p/21524003/cli-for-agents" target="_blank">如何设计一个 Agent 友好的 CLI 工具 </a>
+                    <span class="editorpick-item-meta">2026-07-20</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/kewei/p/20887495" target="_blank">使用 PublishAotClang 轻松交叉编译 Linux Native AOT </a>
+                    <span class="editorpick-item-meta">2026-07-13</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/guangzan/p/20774394" target="_blank">过去三个月对我帮助最大的一个 skill：grill-me</a>
+                    <span class="editorpick-item-meta">2026-07-07</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/hez2010/p/20979630/build-a-very-large-array-in-dotnet" target="_blank">在 .NET 上构建超大托管数组 </a>
+                    <span class="editorpick-item-meta">2026-07-01</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/shiyafan/p/20576627" target="_blank">[经验分享] 我的第一个 Skill</a>
+                    <span class="editorpick-item-meta">2026-06-24</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/zhayujie/p/20523587/self-evolution" target="_blank">让 Agent 在对话中成长：自进化机制的五层实现 </a>
+                    <span class="editorpick-item-meta">2026-06-16</span>
+                </div>
+            </section>
+        </article>
+        <article class="post-item editorpick-item">
+            <section class="post-item-body">
+                <div class="post-item-text">
+                    <a class="post-item-title" href="https://www.cnblogs.com/charlee44/p/20296178" target="_blank">代码之外：一个技术人的职场困境与自我和解</a>
+                    <span class="editorpick-item-meta">2026-06-09</span>
+                </div>
+            </section>
+        </article>
+
+
+
+
+
+                        </div>
+                        <script type="text/javascript">
+                            var aggSiteModel = {"CategoryType":"Undefined","ParentCategoryId":0,"CategoryId":0,"PageIndex":1,"PageSize":20,"TotalPostCount":5540,"ItemListActionName":"AggSitePostList"};
+                        </script>
+                        <div id="pager_bottom">
+<div id="paging_block"><div class="pager"><a href="/aggsite/editorpicks" class="p_1 current" onclick="aggSite.loadEditorpicks(1,20);buildPaging(1);return false;">1</a><a href="/#p2" class="p_2 middle" onclick="aggSite.loadEditorpicks(2,20);buildPaging(2);return false;">2</a><a href="/#p3" class="p_3 middle" onclick="aggSite.loadEditorpicks(3,20);buildPaging(3);return false;">3</a><span class="ellipsis">···</span><a href="/#p277" class="p_277 last" onclick="aggSite.loadEditorpicks(277,20);buildPaging(277);return false;">277</a><a href="/#p2" onclick="aggSite.loadEditorpicks(2,20);buildPaging(2);return false;">&gt;</a></div></div><script type="text/javascript">var pagingBuider={"OnlyLinkText":false,"TotalCount":5540,"PageIndex":1,"PageSize":20,"ShowPageCount":1,"SkipCount":0,"UrlFormat":"/#p{0}","OnClickJsFunc":"aggSite.loadEditorpicks()","FirstPageLink":"/aggsite/editorpicks","AjaxUrl":"/AggSite/Pager","AjaxCallbak":null,"TopPagerId":"pager_top","IsRenderScript":true};function buildPaging(pageIndex){pagingBuider.PageIndex=pageIndex;$.ajax({url:pagingBuider.AjaxUrl,data:JSON.stringify(pagingBuider),type:'post',dataType:'text',contentType:'application/json; charset=utf-8',success:function (data) { $('#paging_block').html(data); var pagerTop=$('#pager_top');if(pageIndex>1){$(pagerTop).html(data).show();}else{$(pagerTop).hide();}}});}</script>
+                        </div>
+                    </div>
+                    <div id="site_categories_wrapper">
+                        <div id="site_categories_card"></div>
+                    </div>
+                </div>
+
+                <div id="side_right" class="side-right card-list sidebar"></div>
+            </div>
+        </div>
+        <footer id="footer" class="footer">
+            <div class="ally-link">
+    战略合作：<a href="https://chat2db-ai.com/" target="_blank">Chat2DB</a><a href="//www.lxware.cn" target="_blank">凌霞软件</a>
+</div>
+<div id="friend_link" class="link-list friend-link">
+    友情链接：
+    <a href="//ais.cn/u/QjqYJr" target="_blank">艾思科蓝</a>
+    <a href="//www.fit2cloud.com" target="_blank">飞致云</a>
+    <a href="//www.aliyun.com" target="_blank">阿里云</a>
+    <a href="//cloud.tencent.com" target="_blank">腾讯云</a>
+    <a href="//www.huaweicloud.com" target="_blank">华为云</a>
+    <a href="//www.ctyun.cn" target="_blank">天翼云</a>
+    <a href="//www.chinaz.com" target="_blank">站长之家</a>
+    <a href="//wetest.qq.com/?from=links_cnblogs" target="_blank">腾讯WeTest</a>
+    <a href="//ishell.cc/" target="_blank">IShell</a>
+</div>
+
+            <div class="footer-splitter"></div>
+            <div id="footer_bottom">
+                <div class="poweredby">Powered by .NET 10.0 on Kubernetes</div>
+                <div class="about"><a href="//about.cnblogs.com/">关于博客园</a><a href="//about.cnblogs.com/contact">联系我们</a><a href="//about.cnblogs.com/bd">商务合作</a><a href="//about.cnblogs.com/corp-blog">企业博客</a><a href="/corp/posts">企业发布</a><span>Copyright © 2004-2026 博客园 版权所有</span></div>
+                <div class="beian"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602011771" rel="nofollow" class="gongan"><img src="//assets.cnblogs.com/images/ghs.png" /><span>浙公网安备 33010602011771号</span></a><a href="https://beian.miit.gov.cn" target="_blank" rel="nofollow">浙ICP备2021040463号-3</a></div>
+                <div class="report-contact"><a href="https://www.12377.cn/" target="_blank" rel="nofollow">违法和不良信息举报中心</a><span>举报邮箱：report@cnblogs.com</span><a href="https://report.cnblogs.com/">网站举报中心</a></div>
+            </div>
+        </footer>
+        
+    </div>
+    <input type="hidden" id="antiforgery_token" />
+    <script defer src="https://hm.baidu.com/hm.js?866c9be12d4a814454792b1fd0fed295"></script>
+<script defer src="https://lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js?32d945448dd797af605da9156763de3dc11c9886368d0f917d6388e4fcf5542030632485602430134f60bc55ca391050b680e2741bf7233a8f1da9902314a3fa" id="ttzz"></script>
+    <blog-root></blog-root>
+<link rel="stylesheet" href="/ng/styles-emr2blhk.css">
+<script src="https://cdn-www.cnblogs.com/ng/polyfills-jq6heycx.js" type="module"></script>
+<script src="https://cdn-www.cnblogs.com/ng/main-ia2uqgxu.js" type="module"></script>
+</body>
+</html>

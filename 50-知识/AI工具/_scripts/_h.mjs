@@ -1,0 +1,16 @@
+import { get, strip, gbk, sleep } from './proxy-fetch.mjs';
+import fs from 'node:fs';
+const S = 'D:/GitHub/My-second-brain/50-知识/AI工具/_scripts/';
+const LINK_RE = new RegExp('<a[^>]+href=["\']([^"\']+)["\'][^>]*>([\\s\\S]*?)</a>', 'gi');
+const args = process.argv.slice(2);
+const url = args[0];
+const out = args[1];
+const enc = args[2] || 'utf8';
+const r = await get(url, 'text/html,application/xhtml+xml');
+console.log('STATUS', r.status, 'BYTES', r.body.length, 'CT', r.headers['content-type']);
+const txt = enc === 'gbk' ? gbk(r.body) : r.body.toString('utf8');
+if (out) fs.writeFileSync(S + out, txt);
+const links = [...txt.matchAll(LINK_RE)].map(m => ({ href: m[1].trim(), text: strip(m[2]).slice(0,60) }));
+fs.writeFileSync(S + (out||'page') + '.links.json', JSON.stringify(links, null, 1));
+console.log('LINKS', links.length);
+console.log(links.slice(0, 2000).map(l => l.href + ' | ' + l.text).join(String.fromCharCode(10)));

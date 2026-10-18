@@ -1,0 +1,124 @@
+{
+ "gh_awesome_ai_tools": {
+  "url": "https://raw.githubusercontent.com/mahseail/awesome-ai-tools/main/README.md",
+  "status": 404,
+  "bytes": 14,
+  "title": "md",
+  "links": 0
+ },
+ "gh_awesome_china_dev": {
+  "url": "https://raw.githubusercontent.com/tauri-apps/awesome-tauri/README.md",
+  "status": 404,
+  "bytes": 14,
+  "title": "md",
+  "links": 0
+ },
+ "gh_awesome_side_hustle": {
+  "url": "https://raw.githubusercontent.com/XiaomingX/ai-money-maker-handbook/main/README.md",
+  "status": 200,
+  "bytes": 9581,
+  "title": "兼职赚钱方案博物馆",
+  "links": 38
+ },
+ "gh_awesome_design": {
+  "url": "https://raw.githubusercontent.com/gztchan/awesome-design/README.md",
+  "status": 404,
+  "bytes": 14,
+  "title": "md",
+  "links": 0
+ },
+ "gh_awesome_selfhosted": {
+  "url": "https://raw.githubusercontent.com/awesome-selfhosted/awesome-selfhosted/master/README.md",
+  "status": 200,
+  "bytes": 331243,
+  "title": "Awesome-Selfhosted",
+  "links": 2942
+ },
+ "zhblogs": {
+  "url": "https://zhblogs.oor.show/",
+  "status": 502,
+  "bytes": 0,
+  "title": "md",
+  "links": 0
+ },
+ "blogcircle": {
+  "url": "https://blogcircle.cn/",
+  "status": 502,
+  "bytes": 0,
+  "title": "md",
+  "links": 0
+ },
+ "travellings": {
+  "url": "https://www.travellings.cn/",
+  "status": 200,
+  "bytes": 25855,
+  "title": "开往 | 友链接力",
+  "links": 20
+ },
+ "rss3": {
+  "url": "https://rss3.io/",
+  "status": 200,
+  "bytes": 34537,
+  "title": "RSS3",
+  "links": 22
+ },
+ "ai_bot": {
+  "url": "https://ai-bot.cn/",
+  "status": 200,
+  "bytes": 742077,
+  "title": "AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全",
+  "links": 563
+ },
+ "aitools": {
+  "url": "https://www.aitoolhunt.com/",
+  "status": 522,
+  "bytes": 16,
+  "title": "md",
+  "links": 0
+ },
+ "toolify": {
+  "url": "https://www.toolify.ai/",
+  "status": 403,
+  "bytes": 5586,
+  "title": "Just a moment...",
+  "links": 0
+ },
+ "alternativeto_free": {
+  "url": "https://alternativeto.net/platform/open-source/",
+  "status": 403,
+  "bytes": 5673,
+  "title": "Just a moment...",
+  "links": 0
+ },
+ "shejidaren": {
+  "url": "https://www.shejidaren.com/",
+  "status": 403,
+  "bytes": 110,
+  "title": "md",
+  "links": 0
+ },
+ "redocn_home": {
+  "url": "https://www.redocn.com/",
+  "status": 0,
+  "error": "connect EADDRINUSE 127.0.0.1:7897"
+ },
+ "ph_freelance": {
+  "url": "https://www.producthunt.com/topics/freelancing",
+  "status": 403,
+  "bytes": 5708,
+  "title": "Just a moment...",
+  "links": 0
+ },
+ "52pojie": {
+  "url": "https://www.52pojie.cn/forum-2-1.html",
+  "status": 200,
+  "bytes": 174528,
+  "title": "『原创发布区』 - 吾爱破解 - 52pojie.cn",
+  "links": 988
+ },
+ "hostloc": {
+  "url": "https://hostloc.com/forum.php",
+  "status": 0,
+  "error": "connect EADDRINUSE 127.0.0.1:7897"
+ }
+}

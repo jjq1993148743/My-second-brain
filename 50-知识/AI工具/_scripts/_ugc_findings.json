@@ -1,0 +1,54 @@
+{
+ "generated": "2026-10-18T07:15:22.172Z",
+ "scope": "非英语市场 UGC/接单/销售平台 + Useme 费率实锤",
+ "rules": "所有域名必须来自真实页面 <a href>；未标 source 的是任务给定已知真实站",
+ "useme": {
+  "fee_verified_from": "https://help.useme.com/en/pricing-for-freelancers （200, HubSpot help center 正文）",
+  "service_fee": "按 invoice 额阶梯；单笔服务费下限 US$5、上限 US$69；PLN 发票 9.8%（波兰本地）",
+  "flex_plan": "Useme Flex: 4.x% 服务费（页面数字被句号截断为 \"4.\"，需复核）",
+  "subscription": "Useme Plus / Comfort / Club 订阅制：订阅期内开票不再逐笔收服务费",
+  "payout": "服务费从客户付款中直接扣除，剩余打给自由职业者；支持多币种 payout（help.useme.com/en/how-to-set-different-payout-for-different-currencies）",
+  "tax": "Useme 不代办个税（help.useme.com/en/do-i-have-to-pay-taxes-if-i-sign-a-freelancer-contract-with-useme）；支持 VAT reverse charge 发票",
+  "no_company": "实测 useme.com/en/contractors + help.useme.com/en/freelancer 均不需公司主体，个人可注册收款（任务给定的核心结论，来源：同页面）",
+  "all_countries": "首页 useme.com/en/pricing 原文：\"All countries except for Poland have the same service fee and subscription cost.\" → 非波兰费率全球统一"
+ },
+ "new_sources_confirmed": [],
+ "jp_skima": {
+  "commission_sell_rate_source": "https://skima.jp/guide/sell （待抓：STEP4 手数料）",
+  "global_site": "https://commission.skima.jp （有 en / ko-KR / zh-Hant 语言切换 → SKIMA Global Site，从 skima.jp 首页 <a> 提取）",
+  "corporate_variant": "https://cone.skima.jp （法人向，从 skima.jp 页脚提取）",
+  "faq_host": "faq.skima.jp (Zendesk; wskima.zendesk.com 为 commission 站 help)",
+  "pricing_seen_on_homepage": "立ち絵 ¥3,000~ 起（logo 210730: \"⋆✦ ￥3,000~⌇ VTuber様などロゴ制作\"）；0.8円〜/文字の夢小説執筆（106044）；Live2D/モデリング另有品类",
+  "categories_from_homepage": "イラスト/一枚絵/漫画/キャラ/YCH/似顔絵/音楽BGM/ナレーション/小説シナリオ/デザイン/アニメーション/モデリング(Live2D)/VTuber/TRPG",
+  "kyash_note": "SKIMA 有振込先口座確認 + 本人確認公告（information?id=542）→ 收款需要日本银行口座，大陆个人基本不可",
+  "fee_verified": {
+   "source": "https://skima.jp/guide/payment",
+   "tier_example": "オプション込み個別販売総額 20,001〜50,000円 → 手数料16%（消費税込み）→ 存在按金额分档的阶梯费率",
+   "commission_note": "出品無料；販売手数料は出品価格から差引かれ取引完了後に売上金として反映",
+   "payout_fee": "振込申請ごとに 385円（税込）手数料",
+   "payout_schedule": "1日〜15日申請→20日振込（土日祝挟むと翌々営業日）→ 半月一批，结款周期约5-19天",
+   "kyc": "本人確認＋振込先口座確認必須；SKIMA登録から7日後から申請可能 → 需要日本银行口座，大陆个人无路",
+   "payout_deadline_article": "faq.skima.jp/hc/ja/articles/115007852787（振込申請期限）"
+  },
+  "global_site_rate": {
+   "source": "https://commission.skima.jp/agreement",
+   "fee": "买方向运营方 Visualworks 支付「商品价格 × 指定费率」；页面含 \"22% commission rate regardless of the amount received by the artist\"（上下文待复核）",
+   "operator": "Visualworks（从 commission.skima.jp/agreement 提取）",
+   "langs": "en / ko-KR / zh-Hant / ja"
+  }
+ },
+ "th_fastwork": {
+  "source": "https://fastwork.co/ （首页 <a> 提取全部子站与品类）",
+  "commission_seen": "首页 i18n string \"share-commission\":\"แชร์สำหรับรับค่าบริการ 0%\"（分享返佣，非平台抽成说明；抽成待查 fee 页）",
+  "payout_menu": "profile-menu-page.withdrawal = 「รายได้」",
+  "ai_verticals_count": 18,
+  "ai_verticals": "AI Automation / Chatbot / Prompt / AI Tool / No Code App / Prototype / Website Builder / AI Design / AI Model / AI Video / AI Content / Voice Over / Video Editing / AI Consultant / AI Course / AI Transformation / Data Analyst / Data Engineering / Data Labeling / Data Science",
+  "sibling_sites_from_footer": "https://fastwork.id （印尼）/ https://fastlance.vn （越南）/ https://jobboard.fastwork.co",
+  "help": "fastwork4276.zendesk.com/hc/th",
+  "app": "iOS id1154830520 / Android com.fastwork.app"
+ },
+ "funding_risk": {
+  "th_fastwork": "收款走泰国本地渠道（银行转账/TrueMoney），大陆个人基本不可直接提现 —— 待复核 help 页",
+  "jp_skima": "需日本銀行口座 + 本人確認，大陆个人不可"
+ }
+}

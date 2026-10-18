@@ -1,0 +1,938 @@
+[
+ {
+  "href": "https://www.ifanr.com/category/aigc",
+  "text": "AIGC"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ces2018",
+  "text": "CES 2018"
+ },
+ {
+  "href": "https://www.ifanr.com/category/cesaisa",
+  "text": "CES Asia"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ces2019",
+  "text": "CES2019"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanq",
+  "text": "ifanQ"
+ },
+ {
+  "href": "https://www.ifanr.com/category/top-rank",
+  "text": "ifanRank"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanrank-2018",
+  "text": "ifanRank 2018"
+ },
+ {
+  "href": "https://www.ifanr.com/category/mindtalk",
+  "text": "MindTalk"
+ },
+ {
+  "href": "https://www.ifanr.com/category/mwc-2018",
+  "text": "MWC 2018"
+ },
+ {
+  "href": "https://www.ifanr.com/category/interviews",
+  "text": "专访"
+ },
+ {
+  "href": "https://www.ifanr.com/category/product",
+  "text": "产品"
+ },
+ {
+  "href": "https://www.ifanr.com/category/people",
+  "text": "人物"
+ },
+ {
+  "href": "https://www.ifanr.com/category/business",
+  "text": "公司"
+ },
+ {
+  "href": "https://www.ifanr.com/category/candysign",
+  "text": "制糖工厂"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e5%95%86%e4%b8%9a",
+  "text": "商业"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e5%9b%be%e8%ae%b0",
+  "text": "图记"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e5%b0%8f%e7%a8%8b%e5%ba%8f",
+  "text": "小程序"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e5%b9%bf%e5%91%8a",
+  "text": "广告"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e6%96%87%e5%a8%b1",
+  "text": "文娱"
+ },
+ {
+  "href": "https://www.ifanr.com/category/innovation",
+  "text": "新创"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e6%96%b0%e6%b6%88%e8%b4%b9",
+  "text": "新消费"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanrnews",
+  "text": "早报"
+ },
+ {
+  "href": "https://www.ifanr.com/category/evaluation",
+  "text": "模范评测"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e6%b1%bd%e8%bd%a6",
+  "text": "汽车"
+ },
+ {
+  "href": "https://www.ifanr.com/category/game-special",
+  "text": "游戏"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanr",
+  "text": "爱范儿"
+ },
+ {
+  "href": "https://www.ifanr.com/category/special",
+  "text": "特稿"
+ },
+ {
+  "href": "https://www.ifanr.com/category/life",
+  "text": "生活"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e7%a1%ac%e4%bb%b6",
+  "text": "硬件"
+ },
+ {
+  "href": "https://www.ifanr.com/category/tangzhi",
+  "text": "糖纸"
+ },
+ {
+  "href": "https://www.ifanr.com/category/tangzhi-evaluation",
+  "text": "糖纸众测"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e8%8c%83%e8%af%84",
+  "text": "范评"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/video",
+  "text": "视频"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e8%ae%be%e8%ae%a1",
+  "text": "设计"
+ },
+ {
+  "href": "https://www.ifanr.com/category/review",
+  "text": "评测"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e8%bd%af%e4%bb%b6",
+  "text": "软件"
+ },
+ {
+  "href": "https://www.ifanr.com/category/future",
+  "text": "近未来"
+ },
+ {
+  "href": "https://www.ifanr.com/",
+  "text": ""
+ },
+ {
+  "href": "https://cloud.minapp.com/?utm_source=ifanr&utm_medium=navigation",
+  "text": "知晓云"
+ },
+ {
+  "href": "https://thecandysign.com/?utm_source=ifanr&utm_medium=navigation",
+  "text": "制糖工厂"
+ },
+ {
+  "href": "https://www.ifanr.com/adinfo",
+  "text": "商务合作"
+ },
+ {
+  "href": "https://www.ifanr.com/about/contribute/",
+  "text": "内容投稿"
+ },
+ {
+  "href": "/ifanr-app-download/",
+  "text": "下载客户端"
+ },
+ {
+  "href": "https://sso.ifanr.com/myaccount/",
+  "text": ""
+ },
+ {
+  "href": "https://sso.ifanr.com/myactivity/",
+  "text": "我的动态"
+ },
+ {
+  "href": "https://sso.ifanr.com/mymessage/",
+  "text": "消息中心"
+ },
+ {
+  "href": "https://sso.ifanr.com/mycollection/",
+  "text": "我的收藏"
+ },
+ {
+  "href": "https://sso.ifanr.com/myaccount/",
+  "text": "账户设置"
+ },
+ {
+  "href": "https://sso.ifanr.com/logout/",
+  "text": "退出登录"
+ },
+ {
+  "href": "https://www.ifanr.com/1684431",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684442",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684477",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/video/1670537",
+  "text": "视频 | 爱范儿视频 4:48 我在 MWC 上找到了折叠屏最该有的样子"
+ },
+ {
+  "href": "https://www.ifanr.com/1684619",
+  "text": "董车会 | 李华 2026-10-16 13:33"
+ },
+ {
+  "href": "https://www.ifanr.com/1684619",
+  "text": "特斯拉发布全新 Roadster！不开玩笑，它真的会飞"
+ },
+ {
+  "href": "https://www.ifanr.com/1684204",
+  "text": "产品 | 罗嘉阳 2026-10-14 10:31"
+ },
+ {
+  "href": "https://www.ifanr.com/1684204",
+  "text": "我建议你马上更新，国行 Apple Watch 终于等来这个「救命功能」！"
+ },
+ {
+  "href": "https://www.ifanr.com/1682750",
+  "text": "产品 | 彭海星 2026-09-30 23:04"
+ },
+ {
+  "href": "https://www.ifanr.com/1682750",
+  "text": "突发！苹果全新产品线曝光，Siri AI 进家门"
+ },
+ {
+  "href": "https://www.ifanr.com/",
+  "text": "最新"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanrnews",
+  "text": "每日早报"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanr",
+  "text": "爱范儿"
+ },
+ {
+  "href": "https://www.ifanr.com/app",
+  "text": "APPSO"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/video",
+  "text": "视频"
+ },
+ {
+  "href": "https://www.ifanr.com/category/candysign",
+  "text": "制糖工厂"
+ },
+ {
+  "href": "https://www.ifanr.com/coolbuy",
+  "text": "玩物志"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanrnews",
+  "text": "早报"
+ },
+ {
+  "href": "https://www.ifanr.com/1684782",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684782",
+  "text": "早报｜iPhone Duo开启预购，发货排到明年/特斯拉超跑发布会现场飞了/华为阔直板出货量超71万台"
+ },
+ {
+  "href": "https://www.ifanr.com/author/zhengtingxu",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684782#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/1684729",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684729",
+  "text": "预售 16.98 万元起，MONA L05 攻入小鹏主品牌腹地"
+ },
+ {
+  "href": "https://www.ifanr.com/author/chenshichen",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684729#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/product",
+  "text": "产品"
+ },
+ {
+  "href": "https://www.ifanr.com/1684682",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684682",
+  "text": "英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由"
+ },
+ {
+  "href": "https://www.ifanr.com/author/zhangzihao",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684682#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/business",
+  "text": "公司"
+ },
+ {
+  "href": "https://www.ifanr.com/1684660",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684660",
+  "text": "8 年 10 亿美金，为什么《GTA VI》是今年最值得期待的游戏？"
+ },
+ {
+  "href": "https://www.ifanr.com/author/zhengtingxu",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684660#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/dasheng/1671432",
+  "text": "一个车的重量是一个车的灵魂，不是马力是一个车的灵魂。就像莲花创始人林·查普曼说的，马力大可以让你在直线上快，重量轻可以让你在任何地方都快。"
+ },
+ {
+  "href": "https://www.ifanr.com/dasheng/1671432#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/dasheng/1671432",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/video/1669245",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/video/1669245",
+  "text": "搞鸿蒙还有戏吗？00 后月入 50 万…"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1669245",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/video/1669245",
+  "text": "搞鸿蒙还有戏吗？00 后月入 50 万… 7:40"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1669246",
+  "text": "我们拉上 vivo，聊聊 AI 时代的折叠屏 5:09"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1666934",
+  "text": "首发 | 小米 YU7 GT 最适合慢慢开？ 7:40"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1642434",
+  "text": "M5 Macbook Pro 首发体验：可能是最接近「游戏本」的一次 4:42"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1642425",
+  "text": "最适合记录生活的小相机！Insta360 GO Ultra 上手体验 2:34"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1642420",
+  "text": "iPad Pro M5 首发体验：eSIM 升级，但还有更多 1:21"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1639141",
+  "text": "视频｜正面对决！大疆 OSMO nano 和影石 GO Ultra 怎么选？ 04:53"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1639139",
+  "text": "视频｜戴上眼镜，起飞！影翎 A1 全景无人机首发评测 04:33"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1639138",
+  "text": "视频｜大疆首款扫地机实测：占领天空后，又来统治地板？ 05:39"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1639136",
+  "text": "视频｜这台全景相机，让我重现《F1》飞车镜头 04:22"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1639134",
+  "text": "视频｜买前必看！2025 年 AI 眼镜怎么选？ 03:05"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1628756",
+  "text": "小米 YU7 首测：当一台性能猛兽，开启了「顾家模式」 06:49"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1628714",
+  "text": "视频｜小米 MIX Flip 2 首发体验：升级点，都在点上 03:39"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1628125",
+  "text": "在开发者大会，华为给每个「走得慢的人」留了座位 06:43"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1627903",
+  "text": "手机影像的风向标！华为Pura 80 Ultra 影像实测 10:19"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1623646",
+  "text": "视频｜鸿蒙电脑，靠国产软件能用起来吗？ 5:11"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1621318",
+  "text": "专访苹果副总裁：AI 时代，苹果如何设计 Mac？ 09:08"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1621250",
+  "text": "视频｜你见过物理外挂吗？这就是！ 09:51"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1620366",
+  "text": "拍港风夜景人像大片，只用一部 OPPO Find X8 Ultra！ 06：39"
+ },
+ {
+  "href": "https://www.ifanr.com/video/1621093",
+  "text": "视频｜华为 Pura X 一周感受：这是最佳的折叠屏形态吗？ 03:41"
+ },
+ {
+  "href": "https://www.ifanr.com/category/business",
+  "text": "公司"
+ },
+ {
+  "href": "https://www.ifanr.com/1684640",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684640",
+  "text": "苹果为「家」开场，果然家庭 AI 还是绕不开「语音+屏幕」"
+ },
+ {
+  "href": "https://www.ifanr.com/author/luojiayang",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684640#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/1684619",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684619",
+  "text": "特斯拉发布全新 Roadster！不开玩笑，它真的会飞"
+ },
+ {
+  "href": "https://www.ifanr.com/author/tanjiewen",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684619#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanrnews",
+  "text": "早报"
+ },
+ {
+  "href": "https://www.ifanr.com/1684579",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684579",
+  "text": "早报｜库克确认苹果AI国行本月推出/《GTA6》全新宣传片发布/特努斯：AI不会让iPhone消失"
+ },
+ {
+  "href": "https://www.ifanr.com/author/zhengtingxu",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684579#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/1684559",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684559",
+  "text": "Mission S 正式发布，保时捷向世人展示了一台超级跑车应该有的模样"
+ },
+ {
+  "href": "https://www.ifanr.com/author/chenshichen",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684559#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/1684510",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684510",
+  "text": "大电池+低能耗！宝马新世代 i3 跑了 1213 公里，百公里能耗只有 8.8 度？"
+ },
+ {
+  "href": "https://www.ifanr.com/author/tanjiewen",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684510#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/1684538",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684538",
+  "text": "给现实世界按下复制键，禾赛做了一台「AI 空间相机」"
+ },
+ {
+  "href": "https://www.ifanr.com/author/chenshichen",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684538#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/business",
+  "text": "公司"
+ },
+ {
+  "href": "https://www.ifanr.com/1684477",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684477",
+  "text": "技术没有捷径：十年 1.3 万亿研发投入，华为选择走自己的路"
+ },
+ {
+  "href": "https://www.ifanr.com/author/aifan",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684477#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/product",
+  "text": "产品"
+ },
+ {
+  "href": "https://www.ifanr.com/1684442",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684442",
+  "text": "Surface Laptop Ultra 首发体验：是最强 Windows 笔记本，也是 AI 时代的全能本"
+ },
+ {
+  "href": "https://www.ifanr.com/author/xiaoqinpeng",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684442#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/product",
+  "text": "产品"
+ },
+ {
+  "href": "https://www.ifanr.com/1684431",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684431",
+  "text": "独家｜库克确认苹果国行 AI，10 月底上线测试版！"
+ },
+ {
+  "href": "https://www.ifanr.com/author/zhengtingxu",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684431#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/1684409",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684409",
+  "text": "一台车出厂前，要过多少道关？我们在一汽-大众工厂找到了答案"
+ },
+ {
+  "href": "https://www.ifanr.com/author/chenshichen",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684409#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/ifanrnews",
+  "text": "早报"
+ },
+ {
+  "href": "https://www.ifanr.com/1684374",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684374",
+  "text": "早报｜iPhone Duo完成大模型备案，有望12月上线/企业微信与WorkBuddy打通/OPPO与Manus官宣合作"
+ },
+ {
+  "href": "https://www.ifanr.com/author/zhengtingxu",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684374#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/product",
+  "text": "产品"
+ },
+ {
+  "href": "https://www.ifanr.com/1684341",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684341",
+  "text": "苹果 HomeView 上手汇总：「果家」首秀小惊艳，SiriAI 很聪明"
+ },
+ {
+  "href": "https://www.ifanr.com/author/luojiayang",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684341#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/product",
+  "text": "产品"
+ },
+ {
+  "href": "https://www.ifanr.com/1683906",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1683906",
+  "text": "Nothing Headphone (1) Pro 体验：全面晋级，当旗舰头戴也开始玩多单元"
+ },
+ {
+  "href": "https://www.ifanr.com/author/komoleung",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1683906#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://www.ifanr.com/1684288",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684288",
+  "text": "纯电续航破千！比亚迪大汉 23.59 万元起，看齐全尺寸行政旗舰"
+ },
+ {
+  "href": "https://www.ifanr.com/author/tanjiewen",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684288#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/%e8%bd%af%e4%bb%b6",
+  "text": "软件"
+ },
+ {
+  "href": "https://www.ifanr.com/1684269",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684269",
+  "text": "刚刚，Anthropic 宣布弃用Git，统治编程20年的工具顶不住AI了"
+ },
+ {
+  "href": "https://www.ifanr.com/author/zhangzihao",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684269#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/category/business",
+  "text": "公司"
+ },
+ {
+  "href": "https://www.ifanr.com/1684241",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684241",
+  "text": "‌​‌⁤‌⁢​​​​​‬⁣⁣⁢⁢⁡⁡⁢​⁡‌​‬‍⁤⁢‌ ⁡⁤⁡⁣⁡⁤ ​‌​⁢​⁤⁤‌⁢​‬⁣⁡刚刚，Gemini 4 发布！性价比「斩杀」GPT-6 和 Opus 5.5，重回御三家"
+ },
+ {
+  "href": "https://www.ifanr.com/author/mochongyu",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/1684241#article-comments",
+  "text": "-"
+ },
+ {
+  "href": "https://www.ifanr.com/page/2",
+  "text": "加载更多"
+ },
+ {
+  "href": "https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ifanr.com%2Fdigest%2F1684809%2F&amp;title=%E4%B8%9C%E9%A3%8E%C3%97%E5%8D%8E%E4%B8%BA%22%E5%A2%83%E6%A8%A1%E5%BC%8F%22%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E6%9C%80%E4%BC%98%E8%A7%A3%EF%BC%9F%E5%A5%95%E5%A2%83X9%E7%BB%99%E5%87%BA%E7%AD%94%E6%A1%88",
+  "text": ""
+ },
+ {
+  "href": "https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ifanr.com%2Fdigest%2F1684777%2F&amp;title=%E5%A5%95%E5%A2%83X9%E7%BA%AF%E7%94%B5%E7%89%88%E7%99%BB%E9%99%86%E5%B7%A5%E4%BF%A1%E9%83%A8%E5%85%AC%E7%A4%BA%E7%9B%AE%E5%BD%95%EF%BC%8C%E9%A2%84%E8%AE%A111%E6%9C%88%E6%AD%A3%E5%BC%8F%E4%BA%AE%E7%9B%B8",
+  "text": ""
+ },
+ {
+  "href": "https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ifanr.com%2Fdigest%2F1684772%2F&amp;title=%E9%98%85%E6%96%87%E5%8F%91%E5%B8%83OPC%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B9%B3%E5%8F%B0%EF%BC%8C%E3%80%8A%E4%B8%8D%E7%A7%91%E5%AD%A6%E5%BE%A1%E5%85%BD%E3%80%8B%E3%80%8A%E8%A3%81%E5%86%B3%E3%80%8B%E7%AD%89%E9%A6%96%E6%89%B9AI%E7%B2%BE%E5%93%81%E5%8A%A8%E7%94%BB%E4%BA%AE%E7%9B%B8",
+  "text": ""
+ },
+ {
+  "href": "https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ifanr.com%2Fdigest%2F1684766%2F&amp;title=%E6%9E%97%E9%87%8CLINLEE%E6%90%BA%E6%89%8B%E3%80%8A%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E3%80%8B%E5%BC%80%E5%90%AF%E8%B7%A8%E7%95%8C%E8%81%94%E5%8A%A8",
+  "text": ""
+ },
+ {
+  "href": "https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ifanr.com%2Fdigest%2F1684761%2F&amp;title=2026%20AI%20Cloud%20100%20China%E6%A6%9C%E5%8D%95%E5%8F%91%E5%B8%83%EF%BC%9A%E4%B8%80%E7%9B%AE%E7%A7%91%E6%8A%80%E4%BB%A3%E8%A1%A8Physical%20AI%E8%B5%9B%E9%81%93%E5%85%A5%E9%80%89",
+  "text": ""
+ },
+ {
+  "href": "https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ifanr.com%2Fdigest%2F1684754%2F&amp;title=%E7%AB%AF%E4%BE%A7%E8%B7%91%E9%80%9A%E8%B6%85%E5%8D%83%E4%BA%BF%E5%A4%A7%E6%A8%A1%E5%9E%8B%EF%BC%8C%E8%81%94%E6%83%B3YOGA%20Pro%2015%20RTX%20Spark%E8%B6%85%E7%BA%A7AIPC%E4%BB%8A%E6%97%A5%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%94%AE",
+  "text": ""
+ },
+ {
+  "href": "https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ifanr.com%2Fdigest%2F1684744%2F&amp;title=%E6%90%AD%E8%BD%BDNVIDIA%20RTX%20Spark%20N1X%EF%BC%8C%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BEAI%E6%99%BA%E8%83%BD%E4%BD%93PC%20%E5%8D%8E%E7%A1%95ProArt%20%E5%88%9B16%E5%BC%80%E5%94%AE",
+  "text": ""
+ },
+ {
+  "href": "https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ifanr.com%2Fdigest%2F1684605%2F&amp;title=Kling%204.0%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF%EF%BC%9A10-bit%20HDR%E3%80%8130%E7%A7%92%E5%8E%9F%E7%94%9F%E7%9B%B4%E5%87%BA%20%20%E5%88%B7%E6%96%B0%E8%A7%86%E9%A2%91%E6%A8%A1%E5%9E%8B%E6%96%B0%E5%9F%BA%E5%87%86",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com/buzz/1382781",
+  "text": "深康佳A子公司以6.37亿元竞得479亩项目用地"
+ },
+ {
+  "href": "https://www.ifanr.com/buzz/1322727",
+  "text": "复制错误和自私基因，什么是生命的本质？"
+ },
+ {
+  "href": "https://www.ifanr.com/buzz/1320640",
+  "text": "从科学转向哲学的波兰尼，如何理解知识和人？"
+ },
+ {
+  "href": "https://www.ifanr.com/buzz/1316605",
+  "text": "关于两栖爬行动物，为什么我们会对它们又爱又恨？"
+ },
+ {
+  "href": "https://www.ifanr.com/buzz/1315192",
+  "text": "罗伯特·谢克里的小说集，他被看作科幻领域的幽默宗师"
+ },
+ {
+  "href": "https://www.ifanr.com/buzz/1314120",
+  "text": "数学家哈代的辩白，什么是数学中的美学？"
+ },
+ {
+  "href": "https://www.ifanr.com/buzz/1312319",
+  "text": "有朝一日，人类可以完全消灭流行病吗？"
+ },
+ {
+  "href": "https://www.ifanr.com/buzz/1312317",
+  "text": "比尔·盖茨推荐的书，“直面科技行业最紧迫的争议性问题”"
+ },
+ {
+  "href": "https://www.ifanr.com/digest/",
+  "text": "查看更多"
+ },
+ {
+  "href": "https://www.ifanr.com/about/contribute/",
+  "text": ""
+ },
+ {
+  "href": "https://www.ifanr.com",
+  "text": "爱范儿"
+ },
+ {
+  "href": "/app/",
+  "text": "AppSo"
+ },
+ {
+  "href": "/category/intelligentcar",
+  "text": "董车会"
+ },
+ {
+  "href": "https://thecandysign.com/",
+  "text": "制糖工厂"
+ },
+ {
+  "href": "https://www.ifanr.com/about/our-team/",
+  "text": "关于我们"
+ },
+ {
+  "href": "https://www.ifanr.com/shequguize/",
+  "text": "社区规则"
+ },
+ {
+  "href": "https://www.ifanr.com/privacypolicy/",
+  "text": "隐私策略"
+ },
+ {
+  "href": "https://www.lagou.com/gongsi/j25623.html",
+  "text": "加入我们"
+ },
+ {
+  "href": "https://www.ifanr.com/adinfo/",
+  "text": "商务合作"
+ },
+ {
+  "href": "https://cloud.minapp.com/",
+  "text": ""
+ },
+ {
+  "href": "https://aws.amazon.com/what-is-cloud-computing",
+  "text": ""
+ },
+ {
+  "href": "https://weibo.com/u/1642720480?tabtype=feed",
+  "text": ""
+ },
+ {
+  "href": "https://x.com/ifanr",
+  "text": ""
+ },
+ {
+  "href": "https://www.xiaohongshu.com/user/profile/60dc0bae000000002002d9fd",
+  "text": ""
+ },
+ {
+  "href": "https://space.bilibili.com/12351332?spm_id_from=333.337.0.0",
+  "text": ""
+ },
+ {
+  "href": "https://www.douyin.com/user/MS4wLjABAAAAZY-Gty7wfG99FzGnseJLC4SlcBpJOSXNOaaj6Fz9QwQ",
+  "text": ""
+ },
+ {
+  "href": "https://www.toutiao.com/c/user/token/MS4wLjABAAAAQkBPIHsXri8lTUIQNFb4uEaiM7YLWh-FdUCK7pb4FTg/?source=mine_profile",
+  "text": ""
+ },
+ {
+  "href": "https://author.baidu.com/home?from=bjh_article&app_id=1543625795951172",
+  "text": ""
+ },
+ {
+  "href": "https://www.youtube.com/@ifanrvideo6692",
+  "text": ""
+ },
+ {
+  "href": "http://beian.miit.gov.cn/",
+  "text": "粤ICP备2025424624号-2"
+ },
+ {
+  "href": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "text": "CC BY-NC 4.0"
+ }
+]

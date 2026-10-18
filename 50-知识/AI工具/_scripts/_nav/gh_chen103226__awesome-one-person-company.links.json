@@ -1,0 +1,566 @@
+[
+ {
+  "href": "https://www.momtestbook.com/",
+  "text": "《The Mom Test》"
+ },
+ {
+  "href": "https://www.freecodecamp.org/",
+  "text": "FreeCodeCamp"
+ },
+ {
+  "href": "https://www.indiehackers.com/interviews",
+  "text": "Indie Hackers访谈"
+ },
+ {
+  "href": "https://nomadlist.com/",
+  "text": "Nomad List"
+ },
+ {
+  "href": "https://remoteok.com/",
+  "text": "Remote OK"
+ },
+ {
+  "href": "https://photoai.com/",
+  "text": "Photo AI"
+ },
+ {
+  "href": "https://twitter.com/levelsio",
+  "text": "@levelsio"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=oFtjKbXKqbg",
+  "text": "Lex Fridman访谈"
+ },
+ {
+  "href": "https://shipfa.st/",
+  "text": "ShipFast"
+ },
+ {
+  "href": "https://twitter.com/marc_louvion",
+  "text": "@marc_louvion"
+ },
+ {
+  "href": "https://www.bannerbear.com/",
+  "text": "Bannerbear"
+ },
+ {
+  "href": "https://smallbets.co/",
+  "text": "Small Bets"
+ },
+ {
+  "href": "https://twitter.com/dvassallo",
+  "text": "@dvassallo"
+ },
+ {
+  "href": "https://nomadlist.com/open",
+  "text": "Nomad List公开收入页"
+ },
+ {
+  "href": "https://twitter.com/levelsio",
+  "text": "Pieter的X账号"
+ },
+ {
+  "href": "https://www.indiehackers.com/podcast/043-pieter-levels-of-nomad-list",
+  "text": "Indie Hackers访谈"
+ },
+ {
+  "href": "https://yongfook.com/",
+  "text": "Jon的博客"
+ },
+ {
+  "href": "https://www.indiehackers.com/product/bannerbear",
+  "text": "Bannerbear案例研究"
+ },
+ {
+  "href": "https://nathanbarry.com/",
+  "text": "Nathan Barry博客"
+ },
+ {
+  "href": "https://nathanbarry.com/authority/",
+  "text": "Authority书籍"
+ },
+ {
+  "href": "https://github.com/royqh1979/RedPanda-CPP",
+  "text": "小熊猫C++ GitHub"
+ },
+ {
+  "href": "https://www.failory.com/",
+  "text": "Failory"
+ },
+ {
+  "href": "https://muselearner.com/",
+  "text": "IdeaLens"
+ },
+ {
+  "href": "https://www.framer.com/",
+  "text": "Framer"
+ },
+ {
+  "href": "https://webflow.com/",
+  "text": "Webflow"
+ },
+ {
+  "href": "https://carrd.co/",
+  "text": "Carrd"
+ },
+ {
+  "href": "https://super.so/",
+  "text": "Super"
+ },
+ {
+  "href": "https://www.figma.com/",
+  "text": "Figma"
+ },
+ {
+  "href": "https://www.canva.com/",
+  "text": "Canva"
+ },
+ {
+  "href": "https://excalidraw.com/",
+  "text": "Excalidraw"
+ },
+ {
+  "href": "https://unsplash.com/",
+  "text": "Unsplash"
+ },
+ {
+  "href": "https://supabase.com/",
+  "text": "Supabase"
+ },
+ {
+  "href": "https://planetscale.com/",
+  "text": "PlanetScale"
+ },
+ {
+  "href": "https://upstash.com/",
+  "text": "Upstash"
+ },
+ {
+  "href": "https://turso.tech/",
+  "text": "Turso"
+ },
+ {
+  "href": "https://stripe.com/",
+  "text": "Stripe"
+ },
+ {
+  "href": "https://lemonsqueezy.com/",
+  "text": "Lemon Squeezy"
+ },
+ {
+  "href": "https://paddle.com/",
+  "text": "Paddle"
+ },
+ {
+  "href": "https://pay.weixin.qq.com/",
+  "text": "微信支付"
+ },
+ {
+  "href": "https://b.alipay.com/",
+  "text": "支付宝"
+ },
+ {
+  "href": "https://plausible.io/",
+  "text": "Plausible"
+ },
+ {
+  "href": "https://posthog.com/",
+  "text": "PostHog"
+ },
+ {
+  "href": "https://umami.is/",
+  "text": "Umami"
+ },
+ {
+  "href": "https://analytics.google.com/",
+  "text": "Google Analytics 4"
+ },
+ {
+  "href": "https://convertkit.com/",
+  "text": "ConvertKit"
+ },
+ {
+  "href": "https://buttondown.email/",
+  "text": "Buttondown"
+ },
+ {
+  "href": "https://www.mailerlite.com/",
+  "text": "MailerLite"
+ },
+ {
+  "href": "https://resend.com/",
+  "text": "Resend"
+ },
+ {
+  "href": "https://zapier.com/",
+  "text": "Zapier"
+ },
+ {
+  "href": "https://make.com/",
+  "text": "Make"
+ },
+ {
+  "href": "https://n8n.io/",
+  "text": "n8n"
+ },
+ {
+  "href": "https://chat.openai.com/",
+  "text": "ChatGPT"
+ },
+ {
+  "href": "https://claude.ai/",
+  "text": "Claude"
+ },
+ {
+  "href": "https://cursor.sh/",
+  "text": "Cursor"
+ },
+ {
+  "href": "https://v0.dev/",
+  "text": "v0.dev"
+ },
+ {
+  "href": "https://midjourney.com/",
+  "text": "Midjourney"
+ },
+ {
+  "href": "https://crisp.chat/",
+  "text": "Crisp"
+ },
+ {
+  "href": "https://intercom.com/",
+  "text": "Intercom"
+ },
+ {
+  "href": "https://www.tawk.to/",
+  "text": "Tawk.to"
+ },
+ {
+  "href": "https://plain.com/",
+  "text": "Plain"
+ },
+ {
+  "href": "https://vercel.com/",
+  "text": "Vercel"
+ },
+ {
+  "href": "https://netlify.com/",
+  "text": "Netlify"
+ },
+ {
+  "href": "https://railway.app/",
+  "text": "Railway"
+ },
+ {
+  "href": "https://fly.io/",
+  "text": "Fly.io"
+ },
+ {
+  "href": "https://hetzner.com/",
+  "text": "Hetzner"
+ },
+ {
+  "href": "https://digitalocean.com/",
+  "text": "DigitalOcean"
+ },
+ {
+  "href": "https://producthunt.com/",
+  "text": "Product Hunt"
+ },
+ {
+  "href": "https://news.ycombinator.com/",
+  "text": "Hacker News"
+ },
+ {
+  "href": "https://reddit.com/",
+  "text": "Reddit"
+ },
+ {
+  "href": "https://x.com/",
+  "text": "X (Twitter)"
+ },
+ {
+  "href": "https://okjike.com/",
+  "text": "即刻"
+ },
+ {
+  "href": "https://v2ex.com/",
+  "text": "V2EX"
+ },
+ {
+  "href": "https://xiaohongshu.com/",
+  "text": "小红书"
+ },
+ {
+  "href": "https://momtestbook.com/",
+  "text": "Amazon"
+ },
+ {
+  "href": "https://ofone.co/",
+  "text": "官网"
+ },
+ {
+  "href": "https://sahillavingia.com/book",
+  "text": "官网"
+ },
+ {
+  "href": "https://theleanstartup.com/",
+  "text": "Amazon"
+ },
+ {
+  "href": "https://amazon.com/",
+  "text": "Amazon"
+ },
+ {
+  "href": "https://basecamp.com/books/rework",
+  "text": "Basecamp"
+ },
+ {
+  "href": "https://personalmba.com/",
+  "text": "官网"
+ },
+ {
+  "href": "https://30x500.com/",
+  "text": "30x500 Academy"
+ },
+ {
+  "href": "https://www.indiehackers.com/start",
+  "text": "Indie Hackers学习中心"
+ },
+ {
+  "href": "https://startupschool.org/",
+  "text": "Y Combinator Startup School"
+ },
+ {
+  "href": "https://freecodecamp.org/",
+  "text": "FreeCodeCamp"
+ },
+ {
+  "href": "https://levels.io/",
+  "text": "Blog"
+ },
+ {
+  "href": "https://thebootstrappedfounder.com/",
+  "text": "Newsletter"
+ },
+ {
+  "href": "https://twitter.com/dvassallo",
+  "text": "X账号"
+ },
+ {
+  "href": "https://justinjackson.ca/",
+  "text": "Blog"
+ },
+ {
+  "href": "https://nathanbarry.com/",
+  "text": "Blog"
+ },
+ {
+  "href": "https://stratechery.com/",
+  "text": "Stratechery"
+ },
+ {
+  "href": "https://ruanyifeng.com/blog/",
+  "text": "博客"
+ },
+ {
+  "href": "https://okjike.com/u/moonvy",
+  "text": "即刻"
+ },
+ {
+  "href": "https://pengjie.dev/",
+  "text": "Blog"
+ },
+ {
+  "href": "https://indiehackers.com/",
+  "text": "订阅"
+ },
+ {
+  "href": "https://smallbets.co/",
+  "text": "订阅"
+ },
+ {
+  "href": "https://tinyempires.substack.com/",
+  "text": "订阅"
+ },
+ {
+  "href": "https://wanqu.co/",
+  "text": "订阅"
+ },
+ {
+  "href": "https://indiehackers.com/",
+  "text": "Indie Hackers"
+ },
+ {
+  "href": "https://indiehackers.com/",
+  "text": "Join"
+ },
+ {
+  "href": "https://wip.co/",
+  "text": "WIP"
+ },
+ {
+  "href": "https://wip.co/",
+  "text": "Join"
+ },
+ {
+  "href": "https://indieworldwide.com/",
+  "text": "Indie Worldwide"
+ },
+ {
+  "href": "https://indieworldwide.com/",
+  "text": "Join"
+ },
+ {
+  "href": "https://microconfconnect.com/",
+  "text": "MicroConf Connect"
+ },
+ {
+  "href": "https://microconfconnect.com/",
+  "text": "Join"
+ },
+ {
+  "href": "https://reddit.com/r/SideProject",
+  "text": "r/SideProject"
+ },
+ {
+  "href": "https://reddit.com/r/SideProject",
+  "text": "Join"
+ },
+ {
+  "href": "https://reddit.com/r/Entrepreneur",
+  "text": "r/Entrepreneur"
+ },
+ {
+  "href": "https://reddit.com/r/Entrepreneur",
+  "text": "Join"
+ },
+ {
+  "href": "https://eleduck.com/",
+  "text": "eleduck.com"
+ },
+ {
+  "href": "https://indev.cn/",
+  "text": "indev.cn"
+ },
+ {
+  "href": "https://v2ex.com/",
+  "text": "v2ex.com"
+ },
+ {
+  "href": "https://sspai.com/",
+  "text": "sspai.com"
+ },
+ {
+  "href": "https://microconf.com/",
+  "text": "microconf.com"
+ },
+ {
+  "href": "https://indieworldwide.com/",
+  "text": "indieworldwide.com"
+ },
+ {
+  "href": "http://paulgraham.com/ds.html",
+  "text": "阅读"
+ },
+ {
+  "href": "http://paulgraham.com/growth.html",
+  "text": "阅读"
+ },
+ {
+  "href": "http://paulgraham.com/aord.html",
+  "text": "阅读"
+ },
+ {
+  "href": "https://kk.org/thetechnium/1000-true-fans/",
+  "text": "阅读"
+ },
+ {
+  "href": "https://dvassallo.gumroad.com/",
+  "text": "阅读"
+ },
+ {
+  "href": "https://nathanbarry.com/",
+  "text": "阅读"
+ },
+ {
+  "href": "https://www.xiaoyuzhoufm.com/",
+  "text": "小宇宙"
+ },
+ {
+  "href": "https://www.xiaoyuzhoufm.com/",
+  "text": "小宇宙"
+ },
+ {
+  "href": "https://www.xiaoyuzhoufm.com/",
+  "text": "小宇宙"
+ },
+ {
+  "href": "https://t.me/xiaobao_xb",
+  "text": "@lixian"
+ },
+ {
+  "href": "https://cubox.pro/",
+  "text": "@cubox"
+ },
+ {
+  "href": "https://twitter.com/minghuachen22",
+  "text": "@yourhandle"
+ },
+ {
+  "href": "https://api.star-history.com/svg?repos=chen103226/awesome-one-person-company&type=Date",
+  "text": "Star History"
+ },
+ {
+  "href": "https://creativecommons.org/licenses/by/4.0/",
+  "text": "CC BY 4.0"
+ },
+ {
+  "href": "https://github.com/sindresorhus/awesome",
+  "text": "Awesome"
+ },
+ {
+  "href": "https://github.com/KrishMunot/awesome-startup",
+  "text": "Awesome Startup"
+ },
+ {
+  "href": "https://indiehackers.com/",
+  "text": "Indie Hackers"
+ },
+ {
+  "href": "https://x.com/minghuachen22",
+  "text": "M&H"
+ },
+ {
+  "href": "https://awesome.re",
+  "text": ""
+ },
+ {
+  "href": "https://awesome.re/badge.svg",
+  "text": ""
+ },
+ {
+  "href": "https://github.com/chen103226/awesome-one-person-company",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/github/stars/chen103226/awesome-one-person-company?style=social",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/twitter/follow/minghuachen22?style=social",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/badge/语言-中文-red.svg",
+  "text": ""
+ },
+ {
+  "href": "https://img.shields.io/badge/lang-English-blue.svg",
+  "text": ""
+ },
+ {
+  "href": "https://datacentric-1316957999.cos.ap-beijing.myqcloud.com/idealens/M%26H_wechat.png",
+  "text": ""
+ }
+]

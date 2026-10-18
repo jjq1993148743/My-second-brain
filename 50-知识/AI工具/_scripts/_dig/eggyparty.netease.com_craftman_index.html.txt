@@ -1,0 +1,10 @@
+URL: https://eggyparty.netease.com/craftman/index.html
+STATUS: 404
+BYTES: 22
+GBK: false
+TITLE: 
+
+---TEXT---
+{"detail":"Not Found"}
+
+---LINKS---

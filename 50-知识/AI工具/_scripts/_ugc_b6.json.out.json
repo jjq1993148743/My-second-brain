@@ -1,0 +1,6172 @@
+[
+ {
+  "key": "skima-sell",
+  "url": "https://skima.jp/guide/sell",
+  "note": "SKIMA 出品流程含手数料",
+  "status": 200,
+  "ok": true,
+  "title": "ご利用ガイド | SKIMA（スキマ）",
+  "host": "skima.jp",
+  "fee": [
+   "<a href=https://commission.",
+   "出品するのは無料、手数料率は販売総額によって変動",
+   "手数料の計算方法等を知りたい",
+   "取引完了時の為替レートで日本円に換算され、売上金を受け取ることができます。",
+   "<a href=\"https://commission."
+  ],
+  "links": [
+   {
+    "href": "https://skima.jp",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=head01",
+    "text": "法人でご利用の方はこちら",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/entry",
+    "text": "新規登録",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/login",
+    "text": "ログイン",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/dl",
+    "text": "opt販売",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cc_id=&w=vtuber",
+    "text": "VTuber活動応援",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cc_id=&w=trpg",
+    "text": "TRPG向け",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/search",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/illustration",
+    "text": "イラスト総合",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=56",
+    "text": "アイコン・ヘッダー・スタンプ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=57",
+    "text": "TRPGイラスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=49",
+    "text": "VTuberイラスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=67",
+    "text": "モデリング",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=2",
+    "text": "一枚絵",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=58",
+    "text": "漫画制作",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=59",
+    "text": "キャラクターイラスト・YCH",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=5",
+    "text": "似顔絵・添削",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/design",
+    "text": "デザイン・アニメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/writing",
+    "text": "小説・シナリオ・文章作成",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=35",
+    "text": "音楽・BGM・ナレーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/search",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/dl",
+    "text": "出品の流れ（opt販売）",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/regist",
+    "text": "出品画面",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_01.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/360032280031",
+    "text": "カテゴリについて",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_00.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_02.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_03.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_creator",
+    "text": "見積もり相談・専用出品について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_04.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_05.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/promote_sns.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/promote_sns2.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/promote_renew.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment_flow#05",
+    "text": "お支払いについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/promote_renew2.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/promote_renew_iine2.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/promote_renew_iine.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/setting/notification/form",
+    "text": "お知らせ設定",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_message.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/360052756051",
+    "text": "取引開始前に購入希望者からの連絡が途絶えた場合",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_todo.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/360052309332",
+    "text": "購入希望者から連絡がない状態で購入申請された場合",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_creator",
+    "text": "見積もり相談・専用出品",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_check_buyer.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/negotiate/list",
+    "text": "購入申請一覧へ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step1.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step2.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007852307",
+    "text": "ファイルのやり取りについて",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115008271647",
+    "text": "商品（イラスト・文章等、制作物）の受け取り方法（納品方法）について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step4-1.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step4-2.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step4-3.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007850927",
+    "text": "取引金額の変更について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step3.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step3_wait.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007852247",
+    "text": "納品を承諾してくれない場合",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/review/review.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/rank",
+    "text": "ランクの基準等を確認したい",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment#04",
+    "text": "手数料の計算方法等を知りたい",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/list",
+    "text": "商品管理",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/list",
+    "text": "商品管理へ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/creator/detail",
+    "text": "クリエイター情報管理",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/creator/detail",
+    "text": "クリエイター情報管理へ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/regist",
+    "text": "出品画面",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_oversea_01.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_oversea_02.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_oversea_02-1.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_oversea_03.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_creator",
+    "text": "見積もり相談・専用出品について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_oversea_04.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/item_regist_oversea_05.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_message_oversea.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_todo_oversea.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_todo_oversea-1.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step2_oversea.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115008271647",
+    "text": "商品（イラスト・文章等、制作物）の受け取り方法（納品方法）について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step3_oversea.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/sell/sell_trade_step3_wait_oversea.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/review/review_oversea.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/assets/img/skiweb/guide/review/review02.png",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイドトップへ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/dl",
+    "text": "出品の流れ（opt販売）",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/buy",
+    "text": "スキルを購入したい",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/dl",
+    "text": "opt販売について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/request_buyer",
+    "text": "リクエストについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/flow_commission",
+    "text": "取引の流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment",
+    "text": "お支払い方法・手数料",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment_flow",
+    "text": "お支払いの流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/shipping",
+    "text": "配送について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/review",
+    "text": "CHEER!・評価について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_buyer",
+    "text": "見積もり相談・専用出品",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/messagetemplates",
+    "text": "メッセージテンプレート",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/categories/115001311547-FAQ",
+    "text": "よくある質問",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイドトップへ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "トップページ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/entry",
+    "text": "新規登録",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/regist",
+    "text": "出品する",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/regist",
+    "text": "リクエストする",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/creator/search",
+    "text": "クリエイターを探す",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/gallery/search",
+    "text": "ギャラリーを探す",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/information/list",
+    "text": "インフォメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/whatis",
+    "text": "初めての方へ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer01",
+    "text": "法人の方はこちら",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/rank",
+    "text": "ランクについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイド",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/messagetemplates",
+    "text": "メッセージテンプレート",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/categories/115001311547-FAQ",
+    "text": "よくある質問",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://account.skima.jp/contact?service=skima",
+    "text": "お問い合わせ",
+    "host": "account.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/useful",
+    "text": "SKIMAのオススメサービス",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary",
+    "text": "用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary-en",
+    "text": "海外向け用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://9kk.skima.jp",
+    "text": "創作を投稿するなら 90KU-KAN",
+    "host": "9kk.skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer02",
+    "text": "法人でご利用の方は cone",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp",
+    "text": "海外からのお取引は SKIMA （Global Site）",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/agreement",
+    "text": "利用規約",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/banlist",
+    "text": "禁止行為・禁止リスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/privacypolicy",
+    "text": "プライバシーポリシー",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/tokusyou",
+    "text": "特定商取引法に基づく表示",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/logo",
+    "text": "ロゴの利用について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/corporate",
+    "text": "運営会社",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/landing/recruit",
+    "text": "採用情報",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://note.com/skimanote",
+    "text": "",
+    "host": "note.com"
+   },
+   {
+    "href": "https://mk.skima.jp",
+    "text": "",
+    "host": "mk.skima.jp"
+   },
+   {
+    "href": "https://x.com/SKIMAjp",
+    "text": "",
+    "host": "x.com"
+   }
+  ],
+  "bytes": 64980,
+  "err": "",
+  "ms": 642
+ },
+ {
+  "key": "skima-flow-commission",
+  "url": "https://skima.jp/guide/flow_commission",
+  "note": "SKIMA 代金受け渡し流程",
+  "status": 200,
+  "ok": true,
+  "title": "ご利用ガイド | SKIMA（スキマ）",
+  "host": "skima.jp",
+  "fee": [
+   "<a href=https://commission.",
+   "７ 商品代金が売上金で支払われる",
+   "銀行口座情報を登録し、振込申請をします。",
+   "<a href=\"https://commission."
+  ],
+  "links": [
+   {
+    "href": "https://skima.jp",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=head01",
+    "text": "法人でご利用の方はこちら",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/entry",
+    "text": "新規登録",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/login",
+    "text": "ログイン",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/dl",
+    "text": "opt販売",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cc_id=&w=vtuber",
+    "text": "VTuber活動応援",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cc_id=&w=trpg",
+    "text": "TRPG向け",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/search",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/illustration",
+    "text": "イラスト総合",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=56",
+    "text": "アイコン・ヘッダー・スタンプ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=57",
+    "text": "TRPGイラスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=49",
+    "text": "VTuberイラスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=67",
+    "text": "モデリング",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=2",
+    "text": "一枚絵",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=58",
+    "text": "漫画制作",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=59",
+    "text": "キャラクターイラスト・YCH",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=5",
+    "text": "似顔絵・添削",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/design",
+    "text": "デザイン・アニメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/writing",
+    "text": "小説・シナリオ・文章作成",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=35",
+    "text": "音楽・BGM・ナレーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/search",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/flow_commission",
+    "text": "コミッション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/flow_dl",
+    "text": "opt販売",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/flow_request",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell",
+    "text": "出品について詳細を確認する",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/regist",
+    "text": "さっそく出品する",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/buy#03",
+    "text": "クリエイターの探し方について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/messagetemplates#msg_01",
+    "text": "購入前のメッセージテンプレートを確認",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell#06",
+    "text": "こちら",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115008008888",
+    "text": "購入申請について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/buy#01",
+    "text": "購入の流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/negotiate/list",
+    "text": "送った購入申請の確認はこちらから",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell#03",
+    "text": "依頼から取引完了までの流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_creator",
+    "text": "見積もり相談とは",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_buyer",
+    "text": "見積もり相談とは",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007850587",
+    "text": "専用出品について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_creator#03",
+    "text": "専用出品の作成方法",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/buy#01",
+    "text": "購入の流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_buyer#03",
+    "text": "専用出品から購入する方法",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/negotiate/list",
+    "text": "送った購入申請の確認はこちらから",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell#03",
+    "text": "依頼から取引完了までの流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment",
+    "text": "支払い方法について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007850927",
+    "text": "支払い金額の変更について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/360033680131",
+    "text": "取引中のコミッションにオプションを追加したい場合",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007850927",
+    "text": "取引金額の変更について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007850927",
+    "text": "取引金額の変更について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/review",
+    "text": "「CHEER!」",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/payout/form",
+    "text": "売上管理・振込申請",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイドトップへ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell",
+    "text": "スキルを出品・販売したい",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/buy",
+    "text": "スキルを購入したい",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/dl",
+    "text": "opt販売について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/request_buyer",
+    "text": "リクエストについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/flow_commission",
+    "text": "コミッション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/flow_dl",
+    "text": "opt販売",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/flow_request",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment",
+    "text": "お支払い方法・手数料",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment_flow",
+    "text": "お支払いの流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/shipping",
+    "text": "配送について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/review",
+    "text": "CHEER!・評価について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_buyer",
+    "text": "見積もり相談・専用出品",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/messagetemplates",
+    "text": "メッセージテンプレート",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/categories/115001311547-FAQ",
+    "text": "よくある質問",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイドトップへ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "トップページ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/entry",
+    "text": "新規登録",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/regist",
+    "text": "出品する",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/regist",
+    "text": "リクエストする",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/creator/search",
+    "text": "クリエイターを探す",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/gallery/search",
+    "text": "ギャラリーを探す",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/information/list",
+    "text": "インフォメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/whatis",
+    "text": "初めての方へ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer01",
+    "text": "法人の方はこちら",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/rank",
+    "text": "ランクについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイド",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/messagetemplates",
+    "text": "メッセージテンプレート",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/categories/115001311547-FAQ",
+    "text": "よくある質問",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://account.skima.jp/contact?service=skima",
+    "text": "お問い合わせ",
+    "host": "account.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/useful",
+    "text": "SKIMAのオススメサービス",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary",
+    "text": "用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary-en",
+    "text": "海外向け用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://9kk.skima.jp",
+    "text": "創作を投稿するなら 90KU-KAN",
+    "host": "9kk.skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer02",
+    "text": "法人でご利用の方は cone",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp",
+    "text": "海外からのお取引は SKIMA （Global Site）",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/agreement",
+    "text": "利用規約",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/banlist",
+    "text": "禁止行為・禁止リスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/privacypolicy",
+    "text": "プライバシーポリシー",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/tokusyou",
+    "text": "特定商取引法に基づく表示",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/logo",
+    "text": "ロゴの利用について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/corporate",
+    "text": "運営会社",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/landing/recruit",
+    "text": "採用情報",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://note.com/skimanote",
+    "text": "",
+    "host": "note.com"
+   },
+   {
+    "href": "https://mk.skima.jp",
+    "text": "",
+    "host": "mk.skima.jp"
+   },
+   {
+    "href": "https://x.com/SKIMAjp",
+    "text": "",
+    "host": "x.com"
+   }
+  ],
+  "bytes": 42799,
+  "err": "",
+  "ms": 582
+ },
+ {
+  "key": "skima-payment",
+  "url": "https://skima.jp/guide/payment",
+  "note": "SKIMA 決済手段/手数料",
+  "status": 200,
+  "ok": true,
+  "title": "ご利用ガイド | SKIMA（スキマ）",
+  "host": "skima.jp",
+  "fee": [
+   "<a href=https://commission.",
+   "」等にかかる手数料、販売代金の受け取り方法などについて、ここではご説明いたします。",
+   "売上金は、お取引のお支払いに使用することができます。",
+   "売上金とはクリエイターに支払われる商品代金です。",
+   "売上金支払いで行われたお取引のキャンセルやコンペ形式のリクエストのキャンセルの返金も、売上金として返金されます。",
+   "※売上金を商品の購入代金として使用する場合は、本人確認・振込先口座確認が必要となります。",
+   "jp/hc/ja/articles/115007850147\" target=\"_blank\">売上金について詳しく",
+   "商品の料金は、 売上金 としてクリエイターのアカウントに反映されます。",
+   "売上金は、下記タイミングでクリエイターのアカウントに反映されます。",
+   "その他、売上金を受け取るタイミング",
+   "売上金を現金にする場合は、振込申請を行ってください。",
+   "① マイページより「 振込申請(本人確認・振込先口座確認) 」を選択",
+   "※本人確認・振込先口座確認に関しましては、SKIMAに登録いただいた7日後から申請可能となります。",
+   "本人確認、振込先口座確認で必要な確認書類について",
+   "③ 本人確認・振込先口座確認の承認後、振込申請金額を入力し、振込申請を行う。",
+   "※振込には385円手数料がかかり、売上金より差し引かれます。",
+   "※購入・キャンセルによる手数料の返金はしておりませんのでご了承ください。",
+   "jp/hc/ja/articles/115007852787\" target=\"_blank\">売上金の振込申請期限について",
+   "1日～15日の申請 → 20日振込",
+   "※土日祝日を挟む場合は翌々営業日の振込となります。",
+   "振込申請(本人確認・振込先口座確認)",
+   "下記の場合にのみ手数料が発生いたします。",
+   "取引成立時に商品の価格に対して、指定の料率を乗じた販売手数料がクリエイターにかかります。",
+   "取引中増額を行った場合は、増額後の価格に対して、指定の料率に乗じた販売手数料がクリエイターにかかります。",
+   "手数料はクリエイターの出品価格より差引かれ、取引完了後に販売手数料が差し引かれた金額が売上として反映されます。",
+   "・オプションを含む個別販売総額が20,001～50,000円までのお取引：手数料16％（消費税込み）",
+   "売上金の振込申請時に、振込手数料として385円(税込)が必要となります。",
+   "」の受取額に対して指定の料率を乗じた手数料がかかります。",
+   "お預かりしている商品代金(採用報酬として設定した金額)が差し戻され、売上金として返還されます。",
+   "コンペ形式のリクエストを掲載後、非公開に設定された場合は、お支払いの方法に関わらず、キャンセル時と同様に売上金として返還されます。",
+   "コンペ形式リクエストにて提案報酬として設定された数に、提案数が満たない場合、不足した提案報酬分の金額が、売上金として返還されます。",
+   "<a href=\"https://commission."
+  ],
+  "links": [
+   {
+    "href": "https://skima.jp",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=head01",
+    "text": "法人でご利用の方はこちら",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/entry",
+    "text": "新規登録",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/login",
+    "text": "ログイン",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/dl",
+    "text": "opt販売",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cc_id=&w=vtuber",
+    "text": "VTuber活動応援",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cc_id=&w=trpg",
+    "text": "TRPG向け",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/search",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/illustration",
+    "text": "イラスト総合",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=56",
+    "text": "アイコン・ヘッダー・スタンプ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=57",
+    "text": "TRPGイラスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=49",
+    "text": "VTuberイラスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=67",
+    "text": "モデリング",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=2",
+    "text": "一枚絵",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=58",
+    "text": "漫画制作",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=59",
+    "text": "キャラクターイラスト・YCH",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=5",
+    "text": "似顔絵・添削",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/design",
+    "text": "デザイン・アニメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/writing",
+    "text": "小説・シナリオ・文章作成",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=35",
+    "text": "音楽・BGM・ナレーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/search",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment_flow",
+    "text": "お支払いの流れについてはこちらです。",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/review#03",
+    "text": "CHEER!について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment_flow",
+    "text": "お支払いの流れについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007850147",
+    "text": "売上金について詳しく",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/payout/form",
+    "text": "売上金を確認",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007849967",
+    "text": "「取引完了」までのお取引の流れ",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/payout/form",
+    "text": "振込申請(本人確認・振込先口座確認)",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/ekyc",
+    "text": "本人確認、振込先口座確認で必要な確認書類について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/115007852787",
+    "text": "売上金の振込申請期限について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/information/list",
+    "text": "インフォメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/payout/form",
+    "text": "振込申請(本人確認・振込先口座確認)",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/information/list",
+    "text": "インフォメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/articles/360000309911",
+    "text": "コンペ形式のキャンセル料について",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイドトップへ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell",
+    "text": "スキルを出品・販売したい",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/buy",
+    "text": "スキルを購入したい",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/dl",
+    "text": "opt販売について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/request_buyer",
+    "text": "リクエストについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/flow_commission",
+    "text": "取引の流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/review#03",
+    "text": "CHEER!について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/payment_flow",
+    "text": "お支払いの流れ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/shipping",
+    "text": "配送について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/review",
+    "text": "CHEER!・評価について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/sell_private_buyer",
+    "text": "見積もり相談・専用出品",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/messagetemplates",
+    "text": "メッセージテンプレート",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/categories/115001311547-FAQ",
+    "text": "よくある質問",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイドトップへ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "トップページ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/entry",
+    "text": "新規登録",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/regist",
+    "text": "出品する",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/regist",
+    "text": "リクエストする",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/creator/search",
+    "text": "クリエイターを探す",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/gallery/search",
+    "text": "ギャラリーを探す",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/information/list",
+    "text": "インフォメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/whatis",
+    "text": "初めての方へ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer01",
+    "text": "法人の方はこちら",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/rank",
+    "text": "ランクについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイド",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/messagetemplates",
+    "text": "メッセージテンプレート",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/categories/115001311547-FAQ",
+    "text": "よくある質問",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://account.skima.jp/contact?service=skima",
+    "text": "お問い合わせ",
+    "host": "account.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/useful",
+    "text": "SKIMAのオススメサービス",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary",
+    "text": "用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary-en",
+    "text": "海外向け用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://9kk.skima.jp",
+    "text": "創作を投稿するなら 90KU-KAN",
+    "host": "9kk.skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer02",
+    "text": "法人でご利用の方は cone",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp",
+    "text": "海外からのお取引は SKIMA （Global Site）",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/agreement",
+    "text": "利用規約",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/banlist",
+    "text": "禁止行為・禁止リスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/privacypolicy",
+    "text": "プライバシーポリシー",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/tokusyou",
+    "text": "特定商取引法に基づく表示",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/logo",
+    "text": "ロゴの利用について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/corporate",
+    "text": "運営会社",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/landing/recruit",
+    "text": "採用情報",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://note.com/skimanote",
+    "text": "",
+    "host": "note.com"
+   },
+   {
+    "href": "https://mk.skima.jp",
+    "text": "",
+    "host": "mk.skima.jp"
+   },
+   {
+    "href": "https://x.com/SKIMAjp",
+    "text": "",
+    "host": "x.com"
+   }
+  ],
+  "bytes": 38822,
+  "err": "",
+  "ms": 565
+ },
+ {
+  "key": "skima-commission-about",
+  "url": "https://commission.skima.jp/about",
+  "note": "SKIMA Global About",
+  "status": 200,
+  "ok": true,
+  "title": "SKIMAについて ｜ SKIMA",
+  "host": "commission.skima.jp",
+  "fee": [
+   "locale-select_wrapper[data-v-49fee938]{width:100%;",
+   "locale-select[data-v-49fee938]{cursor:pointer;",
+   "locale-select[data-v-49fee938]:after{content:\"\";",
+   "locale-select_value[data-v-49fee938]{display:block}.",
+   "locale-select_options--container[data-v-49fee938]{z-index:4;",
+   "option[data-v-49fee938]{cursor:pointer;",
+   "locale-select[data-v-49fee938]:hover,.",
+   "option[data-v-49fee938]:hover{background-color:#ececf5}}.",
+   "locale-select_search[data-v-49fee938]{cursor:default;",
+   "locale-select_search input[type=text][data-v-49fee938]{box-sizing:border-box;",
+   "locale-select_options--list[data-v-49fee938]{flex:auto;",
+   "\"> <meta property=\"og:url\" content=\"https://commission.",
+   "png\"> <meta name=\"twitter:image\" content=\"https://commission.",
+   "jp/about\"><link rel=\"alternate\" hreflang=\"en\" href=\"https://commission.",
+   "jp/about\"><link rel=\"alternate\" hreflang=\"ko-KR\" href=\"https://commission.",
+   "jp/zh-Hant/about\"><link rel=\"alternate\" hreflang=\"x-default\" href=\"https://commission.",
+   "商品価格に対し一律20%の購入手数料がかかります。",
+   "には一律22%の手数料がかかり、手数料は購入者負担となります。",
+   "jp\",siteBaseUrl:\"https://commission.",
+   "gle/oWvt6xJNnJy9sTLf9\",feedbackFormCommonUrl:\"https://forms.",
+   "jp\",accountClientId:\"d720337a-eb33-411d-87e8-f42493980818\",ssoRedirectUri:\"https://commission."
+  ],
+  "links": [
+   {
+    "href": "https://commission.skima.jp",
+    "text": "",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/commission",
+    "text": "コミッション",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/pre-made-illustration",
+    "text": "opt販売",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/announce/list",
+    "text": "全てを見る",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/messages/list",
+    "text": "見積もり相談一覧",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/trades/list",
+    "text": "取引管理",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/account",
+    "text": "アカウント設定",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/purchase/commission",
+    "text": "購入履歴",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/about",
+    "text": "SKIMAについて",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://wskima.zendesk.com",
+    "text": "ヘルプ",
+    "host": "wskima.zendesk.com"
+   },
+   {
+    "href": "https://commission.skima.jp/about",
+    "text": "SKIMAについて",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://wskima.zendesk.com",
+    "text": "ヘルプ",
+    "host": "wskima.zendesk.com"
+   },
+   {
+    "href": "https://commission.skima.jp/privacypolicy",
+    "text": "プライバシーポリシー",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/agreement",
+    "text": "利用規約",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/prohibitions",
+    "text": "禁止事項",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/corporate",
+    "text": "会社概要",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp",
+    "text": "SKIMAをさっそく使う",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp",
+    "text": "クリエイターを探しに行こう！",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://wskima.zendesk.com/hc/en-us",
+    "text": "さらに詳しく",
+    "host": "wskima.zendesk.com"
+   },
+   {
+    "href": "https://commission.skima.jp/commission",
+    "text": "作品を探しに行こう！",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp",
+    "text": "",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/about",
+    "text": "SKIMAについて",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://wskima.zendesk.com",
+    "text": "ヘルプ",
+    "host": "wskima.zendesk.com"
+   },
+   {
+    "href": "https://commission.skima.jp/privacypolicy",
+    "text": "プライバシーポリシー",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/agreement",
+    "text": "利用規約",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/prohibitions",
+    "text": "禁止事項",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/corporate",
+    "text": "会社概要",
+    "host": "commission.skima.jp"
+   }
+  ],
+  "bytes": 52353,
+  "err": "",
+  "ms": 746
+ },
+ {
+  "key": "skima-commission-agreement",
+  "url": "https://commission.skima.jp/agreement",
+  "note": "SKIMA Global 利用規約(费率)",
+  "status": 200,
+  "ok": true,
+  "title": "利用規約 ｜ SKIMA",
+  "host": "commission.skima.jp",
+  "fee": [
+   "locale-select_wrapper[data-v-49fee938]{width:100%;",
+   "locale-select[data-v-49fee938]{cursor:pointer;",
+   "locale-select[data-v-49fee938]:after{content:\"\";",
+   "locale-select_value[data-v-49fee938]{display:block}.",
+   "locale-select_options--container[data-v-49fee938]{z-index:4;",
+   "option[data-v-49fee938]{cursor:pointer;",
+   "locale-select[data-v-49fee938]:hover,.",
+   "option[data-v-49fee938]:hover{background-color:#ececf5}}.",
+   "locale-select_search[data-v-49fee938]{cursor:default;",
+   "locale-select_search input[type=text][data-v-49fee938]{box-sizing:border-box;",
+   "locale-select_options--list[data-v-49fee938]{flex:auto;",
+   "\"> <meta property=\"og:url\" content=\"https://commission.",
+   "jp/agreement\"><meta property=\"og:image\" content=\"https://commission.",
+   "png\"> <link rel=\"canonical\" href=\"https://commission.",
+   "jp/agreement\"><link rel=\"alternate\" hreflang=\"en\" href=\"https://commission.",
+   "jp/agreement\"><link rel=\"alternate\" hreflang=\"ko-KR\" href=\"https://commission.",
+   "jp/zh-Hant/agreement\"><link rel=\"alternate\" hreflang=\"x-default\" href=\"https://commission.",
+   "] ・22% commission rate regardless of the amount received by the artist Article 11 (Cancellation and Return) 1.",
+   "In the event of a transaction cancellation, a full refund of the product price and a partial refund of the SKIMA service fee will be provided.",
+   "The Buyer shall pay to Visualworks an amount, as a fee for using the Service, calculated by multiplying the product price by the following rate specified by Visualworks.",
+   "s method of charging the service usage fee by adding it to the product price.",
+   "(4) In cases where cooperation is necessary for the execution of duties stipulated by law by a national agency, local public entity, or a person commissioned by them, and it is deemed that obtaining the consent of the person concerned may hinder the execution of said duties.",
+   "jp\",siteBaseUrl:\"https://commission.",
+   "gle/oWvt6xJNnJy9sTLf9\",feedbackFormCommonUrl:\"https://forms.",
+   "jp\",accountClientId:\"d720337a-eb33-411d-87e8-f42493980818\",ssoRedirectUri:\"https://commission."
+  ],
+  "links": [
+   {
+    "href": "https://commission.skima.jp",
+    "text": "",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/commission",
+    "text": "コミッション",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/pre-made-illustration",
+    "text": "opt販売",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/announce/list",
+    "text": "全てを見る",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/messages/list",
+    "text": "見積もり相談一覧",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/trades/list",
+    "text": "取引管理",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/account",
+    "text": "アカウント設定",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/purchase/commission",
+    "text": "購入履歴",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/about",
+    "text": "SKIMAについて",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://wskima.zendesk.com",
+    "text": "ヘルプ",
+    "host": "wskima.zendesk.com"
+   },
+   {
+    "href": "https://commission.skima.jp/about",
+    "text": "SKIMAについて",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://wskima.zendesk.com",
+    "text": "ヘルプ",
+    "host": "wskima.zendesk.com"
+   },
+   {
+    "href": "https://commission.skima.jp/privacypolicy",
+    "text": "プライバシーポリシー",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/agreement",
+    "text": "利用規約",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/prohibitions",
+    "text": "禁止事項",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/corporate",
+    "text": "会社概要",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp",
+    "text": "",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/about",
+    "text": "SKIMAについて",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://wskima.zendesk.com",
+    "text": "ヘルプ",
+    "host": "wskima.zendesk.com"
+   },
+   {
+    "href": "https://commission.skima.jp/privacypolicy",
+    "text": "プライバシーポリシー",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/agreement",
+    "text": "利用規約",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/prohibitions",
+    "text": "禁止事項",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp/corporate",
+    "text": "会社概要",
+    "host": "commission.skima.jp"
+   }
+  ],
+  "bytes": 77857,
+  "err": "",
+  "ms": 659
+ },
+ {
+  "key": "skima-glossary-en",
+  "url": "https://skima.jp/glossary-en",
+  "note": "SKIMA 海外向け用語集",
+  "status": 200,
+  "ok": true,
+  "title": "海外向け用語集 | SKIMA（スキマ）",
+  "host": "skima.jp",
+  "fee": [
+   "<a href=https://commission.",
+   "Illustration commission",
+   "<a href=\"https://commission."
+  ],
+  "links": [
+   {
+    "href": "https://skima.jp",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=head01",
+    "text": "法人でご利用の方はこちら",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/entry",
+    "text": "新規登録",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/account/login",
+    "text": "ログイン",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/dl",
+    "text": "opt販売",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cc_id=&w=vtuber",
+    "text": "VTuber活動応援",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cc_id=&w=trpg",
+    "text": "TRPG向け",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/search",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/illustration",
+    "text": "イラスト総合",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=56",
+    "text": "アイコン・ヘッダー・スタンプ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=57",
+    "text": "TRPGイラスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=49",
+    "text": "VTuberイラスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=67",
+    "text": "モデリング",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=2",
+    "text": "一枚絵",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=58",
+    "text": "漫画制作",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=59",
+    "text": "キャラクターイラスト・YCH",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=5",
+    "text": "似顔絵・添削",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/design",
+    "text": "デザイン・アニメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/writing",
+    "text": "小説・シナリオ・文章作成",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/search?cg=35",
+    "text": "音楽・BGM・ナレーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/search",
+    "text": "リクエスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "ホーム",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary-en",
+    "text": "海外向け用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp",
+    "text": "トップページ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/entry",
+    "text": "新規登録",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/item/regist",
+    "text": "出品する",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/request/regist",
+    "text": "リクエストする",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/creator/search",
+    "text": "クリエイターを探す",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/gallery/search",
+    "text": "ギャラリーを探す",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/information/list",
+    "text": "インフォメーション",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/whatis",
+    "text": "初めての方へ",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer01",
+    "text": "法人の方はこちら",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/rank",
+    "text": "ランクについて",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide",
+    "text": "ご利用ガイド",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/guide/messagetemplates",
+    "text": "メッセージテンプレート",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://faq.skima.jp/hc/ja/categories/115001311547-FAQ",
+    "text": "よくある質問",
+    "host": "faq.skima.jp"
+   },
+   {
+    "href": "https://account.skima.jp/contact?service=skima",
+    "text": "お問い合わせ",
+    "host": "account.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/useful",
+    "text": "SKIMAのオススメサービス",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary",
+    "text": "用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/glossary-en",
+    "text": "海外向け用語集",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://9kk.skima.jp",
+    "text": "創作を投稿するなら 90KU-KAN",
+    "host": "9kk.skima.jp"
+   },
+   {
+    "href": "https://cone.skima.jp/landing/2?utm_source=skima&utm_medium=link&utm_campaign=footer02",
+    "text": "法人でご利用の方は cone",
+    "host": "cone.skima.jp"
+   },
+   {
+    "href": "https://commission.skima.jp",
+    "text": "海外からのお取引は SKIMA （Global Site）",
+    "host": "commission.skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/agreement",
+    "text": "利用規約",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/banlist",
+    "text": "禁止行為・禁止リスト",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/privacypolicy",
+    "text": "プライバシーポリシー",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/rule/tokusyou",
+    "text": "特定商取引法に基づく表示",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/description/logo",
+    "text": "ロゴの利用について",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/corporate",
+    "text": "運営会社",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://skima.jp/landing/recruit",
+    "text": "採用情報",
+    "host": "skima.jp"
+   },
+   {
+    "href": "https://note.com/skimanote",
+    "text": "",
+    "host": "note.com"
+   },
+   {
+    "href": "https://mk.skima.jp",
+    "text": "",
+    "host": "mk.skima.jp"
+   },
+   {
+    "href": "https://x.com/SKIMAjp",
+    "text": "",
+    "host": "x.com"
+   }
+  ],
+  "bytes": 57703,
+  "err": "",
+  "ms": 594
+ },
+ {
+  "key": "coconala-usage2",
+  "url": "https://coconala.com/usage",
+  "note": "coconala 利用方法",
+  "status": 404,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 427346,
+  "err": "HTTP 404"
+ },
+ {
+  "key": "coconala-help",
+  "url": "https://assist.coconala.com",
+  "note": "coconala 帮助站 assist",
+  "status": 200,
+  "ok": true,
+  "title": "ココナラアシスト ｜ 法人向け月額制のオンラインアシスタント",
+  "host": "assist.coconala.com",
+  "fee": [
+   "DOCTYPE html> ココナラアシスト ｜ 法人向け月額制のオンラインアシスタント <link rel=\"preconnect\" href=\"https://fonts.",
+   "com\\u002Fproduction-os-assets\\u002Fassets\\u002F94e76280-434b-42b6-bedb-6871c87b195e\",\"ココナラアシスト ｜ 法人向け月額制のオンラインアシスタント\",\"page\",\"dec395dd-5194-47cb-ba82-f22e5a70936c\",[186,187,188,189],\"c03a04c4-dfd2-43c4-8c38-00a9f3138385\",\"2aecc86a-1fd9-4ae7-8bc6-69543a5d1e7b\",\"02870101-b140-4050-901a-987a060f2e46\",\"49c12d4b-8668-4358-bf07-c4e23aec6fbc\",{\"head\":191,\"id\":202,\"type\":183,\"uuid\":203,\"symbolIds\":204},{\"customCode\":192,\"met",
+   "初期費用・月額固定費はすべて0円。",
+   "月額8万円から最短3日で採用可能。",
+   "com\\u002Fproduction-os-assets\\u002Fassets\\u002Fb9fddc75-d0e6-4d21-b0dd-1bc028b6051e\",\"ココナラアシスト ｜ 法人向け月額制の経理業務代行人材紹介サービス\",\"lp\\u002Frecruiting\",\"c2020ae8-e2f9-4b5f-8174-0ecae113bfb0\",[189],{\"head\":437,\"id\":446,\"type\":183,\"uuid\":447,\"symbolIds\":448},{\"customCode\":438,\"meta\":442,\"title\":445},{\"bodyEnd\":439},[440,441],{\"memo\":172,\"src\":173,\"uuid\":174},{\"memo\":176,\"src\":177,\"uuid\":178},{\"description\":443,\"og:image\":444},\"労"
+  ],
+  "links": [],
+  "bytes": 50646,
+  "err": "",
+  "ms": 1207
+ },
+ {
+  "key": "booth-pm-shop",
+  "url": "https://booth.pm/en/shop",
+  "note": "BOOTH 商店列表",
+  "status": 404,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 2632,
+  "err": "HTTP 404"
+ },
+ {
+  "key": "booth-pixiv-help",
+  "url": "https://booth.pixiv.help/hc/en",
+  "note": "BOOTH FAQ EN",
+  "status": 403,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 5645,
+  "err": "HTTP 403"
+ },
+ {
+  "key": "suzuri-ja",
+  "url": "https://suzuri.jp/howto",
+  "note": "SUZURI 教程",
+  "status": 404,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 260571,
+  "err": "HTTP 404"
+ },
+ {
+  "key": "fastwork-th",
+  "url": "https://fastwork.co/",
+  "note": "泰国 Fastwork",
+  "status": 200,
+  "ok": true,
+  "title": "Fastwork.co แหล่งรวมฟรีแลนซ์คุณภาพอันดับ 1 ที่ธุรกิจทั่วไทยเลือกใช้",
+  "host": "fastwork.co",
+  "fee": [
+   "jpg\",\"is_new\":null,\"slug\":\"analytics-tracking\",\"sort_order\":24,\"title\":\"Tracking Data\"},{\"active\":true,\"id\":\"acec757f-c43b-4f68-a3e4-efee48af0c50\",\"image\":\"https://storage.",
+   "jpg\",\"is_new\":null,\"slug\":\"custom-tailors\",\"sort_order\":139,\"title\":\"ตัดสูท\"}],\"title\":\"Fashion \\u0026 Beauty\"},{\"id\":\"283c0cee-a266-4275-8261-8964462eb5a9\",\"subcategories\":[{\"active\":true,\"id\":\"8feea4ee-eecd-45ad-a701-b940b4582c8d\",\"image\":\"https://storage.",
+   "jpg\",\"is_new\":null,\"slug\":\"food-consultation\",\"sort_order\":40,\"title\":\"คิดสูตรอาหาร\"},{\"active\":true,\"id\":\"d52c8a29-9192-4131-a032-91e34cfee632\",\"image\":\"https://storage.",
+   "jpg\",\"is_new\":null,\"slug\":\"detective\",\"sort_order\":4,\"title\":\"นักสืบ\"},{\"active\":true,\"id\":\"bc1e8506-feea-4724-86f0-30e95ee8e663\",\"image\":\"https://storage.",
+   "jpg\",\"is_new\":null,\"slug\":\"alphard-rental\",\"sort_order\":12,\"title\":\"เช่ารถ Alphard\"},{\"active\":true,\"id\":\"1809fee4-79a5-4eea-9d56-73cad74b6b7a\",\"image\":\"https://storage.",
+   "share-commission\":\"แชร์เพื่อรับค่าบริการ 0%\",\"byob.",
+   "feedback\":\"แจ้งปัญหาการใช้งาน\",\"profile-menu-page.",
+   "withdrawal\":\"รายได้\",\"profile-menu-page.",
+   "feedback\":\"Feedback พวกเรา\",\"about-us.",
+   "select-project\":\"เทรนด์มาแรง\",\"commission-tier\":\"ฟรีแลนซ์ระดับ\",\"commission-tier-short\":\"ระดับ\",\"meta.",
+   "withdrawal\":\"รายได้\",\"mega-menu."
+  ],
+  "links": [
+   {
+    "href": "https://fastwork.co",
+    "text": "",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://jobboard.fastwork.co",
+    "text": "Jobboard",
+    "host": "jobboard.fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/start-selling",
+    "text": "เริ่มรับงาน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-services",
+    "text": "ผู้เชี่ยวชาญ AI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-automation?source=navigation-bar",
+    "text": "รับทำ AI Automation",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/chatbot?source=navigation-bar",
+    "text": "Chatbot",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/prompt-engineering?source=navigation-bar",
+    "text": "เขียน Prompt AI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-tool-and-saas?source=navigation-bar",
+    "text": "สร้าง AI Tool",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-no-code-app?source=navigation-bar",
+    "text": "ทำแอพด้วย AI No Code App",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-prototype?source=navigation-bar",
+    "text": "ทำ AI Prototype",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-website-builder?source=navigation-bar",
+    "text": "บริการ AI Website Builder",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-design?source=navigation-bar",
+    "text": "สร้างภาพด้วย AI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-model?source=navigation-bar",
+    "text": "สร้างนายแบบ นางแบบ AI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-video?source=navigation-bar",
+    "text": "ทำ AI Video",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-content-writing?source=navigation-bar",
+    "text": "ทำ AI Content",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-voice-over?source=navigation-bar",
+    "text": "สร้าง AI Voice Over",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-video-editing?source=navigation-bar",
+    "text": "ตัดต่อวิดิโอ AI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-consultant?source=navigation-bar",
+    "text": "AI Consultant",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-course?source=navigation-bar",
+    "text": "คอร์สเรียน AI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ai-transformation?source=navigation-bar",
+    "text": "ปรึกษา AI Transformation",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/data-analyst?source=navigation-bar",
+    "text": "วิเคราะห์ดาต้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/data-engineering?source=navigation-bar",
+    "text": "Data Engineering",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/data-labeling?source=navigation-bar",
+    "text": "Data Labeling",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/data-science?source=navigation-bar",
+    "text": "Data Science & AI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/marketing-advertising",
+    "text": "โฆษณาการตลาด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/seo?source=navigation-bar",
+    "text": "ทำ SEO",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/social-media-ads?source=navigation-bar",
+    "text": "Social Media Ads",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/content-marketing?source=navigation-bar",
+    "text": "Creative & Content Marketing",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/google-map-review?source=navigation-bar",
+    "text": "รับรีวิว Google Map",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/google-ads?source=navigation-bar",
+    "text": "Google ads & Youtube ads",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/public-relations?source=navigation-bar",
+    "text": "PR ประชาสัมพันธ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/promote-page?source=navigation-bar",
+    "text": "โปรโมทเพจ / เว็บ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/google-map?source=navigation-bar",
+    "text": "Google Map & My Business",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/reviews?source=navigation-bar",
+    "text": "เขียนรีวิว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/promote-real-estate?source=navigation-bar",
+    "text": "โปรโมทอสังหาฯ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/rich-menu?source=navigation-bar",
+    "text": "ออกแบบริชเมนู",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/seeding?source=navigation-bar",
+    "text": "รับทำ Seeding",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/linktree-creating?source=navigation-bar",
+    "text": "สร้าง Linktree",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/email-marketing?source=navigation-bar",
+    "text": "Email Marketing",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/influencer-marketing?source=navigation-bar",
+    "text": "Influencer Marketing Plan",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/claque?source=navigation-bar",
+    "text": "จ้างหน้าม้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/blogger-netidol?source=navigation-bar",
+    "text": "เน็ตไอดอลและบล็อกเกอร์รีวิว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gamecaster?source=navigation-bar",
+    "text": "Gamecaster",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/questionnaire?source=navigation-bar",
+    "text": "ทําแบบสอบถามออนไลน์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/research?source=navigation-bar",
+    "text": "รับทำวิจัยการตลาด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/analytics-tracking?source=navigation-bar",
+    "text": "Tracking Data",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/focus-group?source=navigation-bar",
+    "text": "Focus Group",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/marketing?source=navigation-bar",
+    "text": "การตลาด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/branding?source=navigation-bar",
+    "text": "Branding",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/shop-and-page-admin?source=navigation-bar",
+    "text": "แอดมินออนไลน์ ทำที่บ้าน ดูแลเพจ ตอบแชท",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/shop-registration-and-listing?source=navigation-bar",
+    "text": "เปิดร้านค้าออนไลน์และลงสินค้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/callcenter-telesale?source=navigation-bar",
+    "text": "Callcenter / Telesale",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sales?source=navigation-bar",
+    "text": "พนักงานขาย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/marketing-advertising-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/design-graphic",
+    "text": "ออกแบบและ กราฟิก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/logo-design?source=navigation-bar",
+    "text": "Logo",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/social-media-banner?source=navigation-bar",
+    "text": "Banner โฆษณา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/packaging?source=navigation-bar",
+    "text": "Label & Packaging",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/publication?source=navigation-bar",
+    "text": "สื่อสิ่งพิมพ์และนามบัตร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/3d-model?source=navigation-bar",
+    "text": "ทำโมเดล 3D",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/presentation?source=navigation-bar",
+    "text": "Presentation",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/corporate-identity?source=navigation-bar",
+    "text": "ออกแบบ CI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photoshop?source=navigation-bar",
+    "text": "ไดคัท & Photoshop",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/portfolio-resume?source=navigation-bar",
+    "text": "ทำ Portfolio",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/canva?source=navigation-bar",
+    "text": "ทำ Canva",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/infographics?source=navigation-bar",
+    "text": "Infographics",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/art-and-craft?source=navigation-bar",
+    "text": "Art & Craft",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/3d-rendering?source=navigation-bar",
+    "text": "รับ Render 3D",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ar-filter?source=navigation-bar",
+    "text": "ทำ Filter",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/stamp-design?source=navigation-bar",
+    "text": "รับทำตรายาง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/art-toy?source=navigation-bar",
+    "text": "ทำ Art Toy",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/wallpaper-design?source=navigation-bar",
+    "text": "ทำวอลเปเปอร์โทรศัพท์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/board-game-design?source=navigation-bar",
+    "text": "ออกแบบบอร์ดเกม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/giveaway?source=navigation-bar",
+    "text": "ทำ Giveaway",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/icon-design?source=navigation-bar",
+    "text": "รับออกแบบ Icon",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dolls-making?source=navigation-bar",
+    "text": "ทำตุ๊กตา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/trophy-design?source=navigation-bar",
+    "text": "ออกแบบเหรียญรางวัล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/qr-code-design?source=navigation-bar",
+    "text": "ออกแบบ QR Code",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/fashion-design?source=navigation-bar",
+    "text": "ออกแบบชุดแฟชั่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/illustration?source=navigation-bar",
+    "text": "วาดภาพประกอบ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/line-sticker?source=navigation-bar",
+    "text": "ออกแบบ LINE Sticker",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/vector?source=navigation-bar",
+    "text": "เปลี่ยนรูปเป็นเวกเตอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/character-design?source=navigation-bar",
+    "text": "ออกแบบ Character & Mascot",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cartoon-drawing?source=navigation-bar",
+    "text": "วาดภาพการ์ตูน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/map-design?source=navigation-bar",
+    "text": "วาดแผนที่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sticker?source=navigation-bar",
+    "text": "ออกแบบสติ๊กเกอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/illustration-portrait?source=navigation-bar",
+    "text": "วาดภาพเหมือน Portrait",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/vector-illustration?source=navigation-bar",
+    "text": "ภาพประกอบเวกเตอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/game-character-bg?source=navigation-bar",
+    "text": "ตัวละครเกมและฉาก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/fabric-design?source=navigation-bar",
+    "text": "ออกแบบลายผ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/font-design?source=navigation-bar",
+    "text": "ออกแบบตัวอักษร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/fanart?source=navigation-bar",
+    "text": "วาดแฟนอาร์ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/storyboard?source=navigation-bar",
+    "text": "วาด/ออกแบบสตอรี่บอร์ด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/line-art-illustration?source=navigation-bar",
+    "text": "วาดภาพลายเส้น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tattoo-design?source=navigation-bar",
+    "text": "ออกแบบลายสัก แทททู",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/wall-painting?source=navigation-bar",
+    "text": "เพ้นท์ผนัง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/caricature?source=navigation-bar",
+    "text": "วาดภาพล้อเลียน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/nft-art?source=navigation-bar",
+    "text": "NFT Art",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/3d-printing?source=navigation-bar",
+    "text": "รับปริ้น 3D",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/screen-printing?source=navigation-bar",
+    "text": "สกรีนเสื้อผ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/standee-printing?source=navigation-bar",
+    "text": "ป้ายสแตนดี้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sign-printing?source=navigation-bar",
+    "text": "ผลิตป้าย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/poster-printing?source=navigation-bar",
+    "text": "ผลิตโปสเตอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/backdrop-printing?source=navigation-bar",
+    "text": "ทํา Backdrop",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/namecard-printing?source=navigation-bar",
+    "text": "ทำนามบัตร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/brochure-printing?source=navigation-bar",
+    "text": "รับพิมพ์โบรชัวร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/vinyl-printing?source=navigation-bar",
+    "text": "ผลิตป้ายไวนิล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/rollup-printing?source=navigation-bar",
+    "text": "ทำป้ายโรลอัพ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/card-printing?source=navigation-bar",
+    "text": "รับทำการ์ด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/print-delivery?source=navigation-bar",
+    "text": "ถ่ายเอกสาร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/picture-frame?source=navigation-bar",
+    "text": "ทำกรอบรูป",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photo-print?source=navigation-bar",
+    "text": "ล้างรูป",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/calendar-printing?source=navigation-bar",
+    "text": "ผลิตปฏิทิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/design-graphic-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/web-programming",
+    "text": "ทำแอปเว็บไซต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/web-development?source=navigation-bar",
+    "text": "Web Development",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/wordpress?source=navigation-bar",
+    "text": "Wordpress",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/game-development?source=navigation-bar",
+    "text": "พัฒนาเกม (Game Development)",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/html-css?source=navigation-bar",
+    "text": "รับตัด HTML & CSS",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ux-ui-design-web-app?source=navigation-bar",
+    "text": "UX/UI Design for Web & App",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/mobile-application?source=navigation-bar",
+    "text": "Mobile Application",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/desktop-application?source=navigation-bar",
+    "text": "Desktop Application",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/it-solution-and-support?source=navigation-bar",
+    "text": "IT Solution และ Support",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ea-development?source=navigation-bar",
+    "text": "เขียน EA",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/iot?source=navigation-bar",
+    "text": "ทำโปรเจค IoT",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/quality-assurance?source=navigation-bar",
+    "text": "Quality Assurance",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/it-project-management?source=navigation-bar",
+    "text": "IT Project Management",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/web-scraping?source=navigation-bar",
+    "text": "Website Scraping",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/rpa?source=navigation-bar",
+    "text": "พัฒนาระบบอัตโนมัติ RPA",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/data-recovery?source=navigation-bar",
+    "text": "กู้ข้อมูล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gis?source=navigation-bar",
+    "text": "ทำแผนที่ GIS",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pcb-design?source=navigation-bar",
+    "text": "ออกแบบวงจรอิเล็กทรอนิกซ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/web-programming-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/token-creation?source=navigation-bar",
+    "text": "สร้างเหรียญ Crypto",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cybersecurity?source=navigation-bar",
+    "text": "ที่ปรึกษาความปลอดภัยทางไซเบอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lifestyle",
+    "text": "ไลฟ์สไตล์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/horoscope?source=navigation-bar",
+    "text": "ดูดวง โหราศาสตร์ ความเชื่อ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/make-merit?source=navigation-bar",
+    "text": "รับจ้างทำบุญ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/auspicious-signature?source=navigation-bar",
+    "text": "ลายเซ็นมงคล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/feng-shui?source=navigation-bar",
+    "text": "ฮวงจุ้ยสำหรับธุรกิจ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/auspicious-name?source=navigation-bar",
+    "text": "ตั้งชื่อมงคล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/auspicious-time?source=navigation-bar",
+    "text": "ฤกษ์มงคล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/auspicious-number?source=navigation-bar",
+    "text": "เบอร์มงคล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/eyelash-extension?source=navigation-bar",
+    "text": "ต่อขนตา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/makeup?source=navigation-bar",
+    "text": "ช่างแต่งหน้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/nail-salon?source=navigation-bar",
+    "text": "ช่างทำเล็บ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/personal-stylist?source=navigation-bar",
+    "text": "Personal Stylist",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/personal-color?source=navigation-bar",
+    "text": "ทำ Personal Color",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/custom-sewing?source=navigation-bar",
+    "text": "รับตัดเย็บเสื้อผ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/hair-salon?source=navigation-bar",
+    "text": "เสริมสวย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/haircut?source=navigation-bar",
+    "text": "ช่างตัดผม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/prop-stylist?source=navigation-bar",
+    "text": "Prop & Stylist",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/clothing-repair?source=navigation-bar",
+    "text": "รับซ่อมเสื้อผ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/shoe-repair?source=navigation-bar",
+    "text": "รับซ่อมรองเท้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/hair-washing?source=navigation-bar",
+    "text": "สระผม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lips-tattoo?source=navigation-bar",
+    "text": "สักปาก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/beauty-consulting?source=navigation-bar",
+    "text": "ที่ปรึกษาความงาม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/custom-embroidery?source=navigation-bar",
+    "text": "ปักเสื้อ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tattoo-studio?source=navigation-bar",
+    "text": "สักลาย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/accessory-repairs?source=navigation-bar",
+    "text": "ซ่อมเครื่องประดับ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/hair-braids?source=navigation-bar",
+    "text": "ถักผม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cosmetic-surgery?source=navigation-bar",
+    "text": "เอเจนซี่ศัลยกรรมเกาหลี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/piercing?source=navigation-bar",
+    "text": "เจาะหู",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/custom-tailors?source=navigation-bar",
+    "text": "ตัดสูท",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cleaning?source=navigation-bar",
+    "text": "จ้างแม่บ้าน ทำความสะอาด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/big-cleaning?source=navigation-bar",
+    "text": "รับทําความสะอาด big cleaning",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sofa-cleaning?source=navigation-bar",
+    "text": "รับทำความสะอาดโซฟา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/curtain-washing?source=navigation-bar",
+    "text": "ซักผ้าม่าน พรม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/balcony-cleaning?source=navigation-bar",
+    "text": "รับทําความสะอาดระเบียง ล้างขี้นก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/home-organizing?source=navigation-bar",
+    "text": "รับจัดระเบียบบ้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pest-control?source=navigation-bar",
+    "text": "รับกำจัดปลวก แมลง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dust-mites-removal?source=navigation-bar",
+    "text": "รับกำจัดไรฝุ่น ดูดไรฝุ่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/shoe-cleaning?source=navigation-bar",
+    "text": "รับซักรองเท้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/carcare-delivery?source=navigation-bar",
+    "text": "ล้างรถนอกสถานที่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/laundry?source=navigation-bar",
+    "text": "ซัก อบ รีดผ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pool-cleaning-maintenance?source=navigation-bar",
+    "text": "รับทำความสะอาดสระว่ายน้ำ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bag-spa?source=navigation-bar",
+    "text": "สปากระเป๋า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorbike-wash?source=navigation-bar",
+    "text": "ล้างรถมอเตอร์ไซค์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ozone-odour-removal?source=navigation-bar",
+    "text": "รับอบโอโซน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/headlight?source=navigation-bar",
+    "text": "ขัดไฟหน้ารถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cleaning-near-me?source=navigation-bar",
+    "text": "หาแม่บ้านด่วน ใกล้ฉัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/trauma-cleaning?source=navigation-bar",
+    "text": "Trauma Cleaning",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/beneat?source=navigation-bar",
+    "text": "BeNeat New",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/music-band?source=navigation-bar",
+    "text": "นักดนตรี วงดนตรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dj?source=navigation-bar",
+    "text": "จ้าง DJ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dance-choreography?source=navigation-bar",
+    "text": "ออกแบบท่าเต้น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/singer?source=navigation-bar",
+    "text": "นักร้อง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gaming?source=navigation-bar",
+    "text": "รับจ้างเล่นเกม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gamer-friends?source=navigation-bar",
+    "text": "หาเพื่อนเล่นเกม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/massage?source=navigation-bar",
+    "text": "นวด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/personal-trainer?source=navigation-bar",
+    "text": "Personal Trainer",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/private-chef?source=navigation-bar",
+    "text": "เชฟส่วนตัว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sport-massage?source=navigation-bar",
+    "text": "นวด Sport Massage",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/babysitting?source=navigation-bar",
+    "text": "รับเลี้ยงเด็ก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/facial-treatment?source=navigation-bar",
+    "text": "นวดหน้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/wax-hair-removal?source=navigation-bar",
+    "text": "แว็กซ์ขน กำจัดขน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/spa?source=navigation-bar",
+    "text": "สปา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/art-therapy?source=navigation-bar",
+    "text": "ศิลปะบำบัด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/milk-duct-massage?source=navigation-bar",
+    "text": "นวดเปิดท่อน้ำนม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sound-healing?source=navigation-bar",
+    "text": "Sound Healing",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/eyebrow-trimming?source=navigation-bar",
+    "text": "กันคิ้ว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/eyebrow-tattoo?source=navigation-bar",
+    "text": "สักคิ้ว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/hangout?source=navigation-bar",
+    "text": "หาเพื่อนทำกิจกรรม กิน เที่ยว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/visa?source=navigation-bar",
+    "text": "รับทำวีซ่า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/trip-planner?source=navigation-bar",
+    "text": "วางแพลนเที่ยว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/traveling-friends?source=navigation-bar",
+    "text": "เพื่อนพาเที่ยว คนนำเที่ยว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/k-eta?source=navigation-bar",
+    "text": "รับลง K-ETA",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tour-guide?source=navigation-bar",
+    "text": "ไกด์ & บริษัททัวร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/red-truck-rental?source=navigation-bar",
+    "text": "รถแดงเที่ยวเชียงใหม่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/live-streaming?source=navigation-bar",
+    "text": "ไลฟ์สด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/workshop-organizer?source=navigation-bar",
+    "text": "จัดอบรม สัมมนา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/event-organizer?source=navigation-bar",
+    "text": "รับจัดอีเว้น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/wedding-organizer?source=navigation-bar",
+    "text": "รับจัดงานแต่ง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/booth-organizer?source=navigation-bar",
+    "text": "รับจัดบูธ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/surprise-organizer?source=navigation-bar",
+    "text": "รับจัดเซอร์ไพรส์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/catering?source=navigation-bar",
+    "text": "รับจัดเลี้ยงนอกสถานที่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/wedding-planner?source=navigation-bar",
+    "text": "Wedding Planner",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/event-show?source=navigation-bar",
+    "text": "รับจัดแสดงโชว์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/balloon?source=navigation-bar",
+    "text": "จัดลูกโป่ง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/table-decoration?source=navigation-bar",
+    "text": "จัดตกแต่งโต๊ะ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pretty?source=navigation-bar",
+    "text": "พริตตี้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/housewarming?source=navigation-bar",
+    "text": "รับจัดงานทำบุญบ้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/funeral-wreath?source=navigation-bar",
+    "text": "พวงหรีดงานศพ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/funeral-organizer?source=navigation-bar",
+    "text": "รับจัดงานศพ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dissertation-consulting?source=navigation-bar",
+    "text": "ที่ปรึกษางานวิจัย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/food-consultation?source=navigation-bar",
+    "text": "คิดสูตรอาหาร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/study-abroad-consultant?source=navigation-bar",
+    "text": "ที่ปรึกษาเรียนต่อต่างประเทศ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/moving-service?source=navigation-bar",
+    "text": "รถขนของ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/warehouse?source=navigation-bar",
+    "text": "เช่าโกดังเก็บของ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cool-logistic?source=navigation-bar",
+    "text": "ขนส่งห้องเย็น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pet-sitting?source=navigation-bar",
+    "text": "รับจ้างเลี้ยงสัตว์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pet-grooming?source=navigation-bar",
+    "text": "อาบน้ำ ตัดขนสัตว์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pet-training?source=navigation-bar",
+    "text": "รับฝึกสุนัข",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pet-nutrition?source=navigation-bar",
+    "text": "นักโภชนาการอาหารสัตว์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pet-funeral?source=navigation-bar",
+    "text": "ฌาปนกิจสัตว์เลี้ยง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/studio-rental?source=navigation-bar",
+    "text": "สตูดิโอให้เช่า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/projector-rental?source=navigation-bar",
+    "text": "เช่าโปรเจคเตอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photobooth-rental?source=navigation-bar",
+    "text": "เช่า Photo Booth",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/instrument-rental?source=navigation-bar",
+    "text": "เช่าเครื่องดนตรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/clothing-rental?source=navigation-bar",
+    "text": "เช่าชุด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/recording-studio-rental?source=navigation-bar",
+    "text": "เช่าห้องอัดเสียง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tool-equipment-rental?source=navigation-bar",
+    "text": "เช่าเครื่องมือช่าง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/camera-rental?source=navigation-bar",
+    "text": "เช่ากล้อง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/venue-rental?source=navigation-bar",
+    "text": "เช่าสถานที่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/music-studio-rental?source=navigation-bar",
+    "text": "เช่าห้องซ้อมดนตรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/portable-aircon-rental?source=navigation-bar",
+    "text": "เช่าแอร์เคลื่อนที่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/plant-rental?source=navigation-bar",
+    "text": "เช่าต้นไม้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/powerbank-rental?source=navigation-bar",
+    "text": "เช่าพาวเวอร์แบงค์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/retail-space-rental?source=navigation-bar",
+    "text": "ล็อคขายของให้เช่า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/parking-service?source=navigation-bar",
+    "text": "รับฝากรถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/mobile-phone-rental?source=navigation-bar",
+    "text": "เช่ามือถือ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/accessory-rental?source=navigation-bar",
+    "text": "เช่าเครื่องประดับ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/printer-rental?source=navigation-bar",
+    "text": "เช่าเครื่องปริ้น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/event-rental?source=navigation-bar",
+    "text": "เช่าอุปกรณ์จัดเลี้ยง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/notebook-rental?source=navigation-bar",
+    "text": "เช่าโน๊ตบุ๊ค",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tent-rental?source=navigation-bar",
+    "text": "เช่าเต็นท์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/scaffolding-rental?source=navigation-bar",
+    "text": "เช่านั่งร้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dowry-rental?source=navigation-bar",
+    "text": "เช่าสินสอด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/golf-club?source=navigation-bar",
+    "text": "สนามกอล์ฟ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/badminton-courts?source=navigation-bar",
+    "text": "คอร์ทแบด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-sports-courts?source=navigation-bar",
+    "text": "เช่าสนามกีฬาอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/football-fields?source=navigation-bar",
+    "text": "สนามฟุตบอล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/padel-courts?source=navigation-bar",
+    "text": "สนาม Padel",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/volleyball-courts?source=navigation-bar",
+    "text": "สนามวอลเลย์บอล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tennis-courts?source=navigation-bar",
+    "text": "สนามเทนนิส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/basketball-courts?source=navigation-bar",
+    "text": "สนามบาส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/futsal-fields?source=navigation-bar",
+    "text": "สนามฟุตซอล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pickleball-courts?source=navigation-bar",
+    "text": "สนาม Pickleball",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-inspection?source=navigation-bar",
+    "text": "ตรวจสภาพรถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/driver?source=navigation-bar",
+    "text": "คนขับรถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lifestyle-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ticket-queue-service?source=navigation-bar",
+    "text": "รับกดบัตรคอนเสิร์ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/queue-booking?source=navigation-bar",
+    "text": "รับจองคิว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bodyguard?source=navigation-bar",
+    "text": "บอดี้การ์ด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/item-finder?source=navigation-bar",
+    "text": "รับจ้างหาของ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/representative?source=navigation-bar",
+    "text": "รับติดต่อราชการ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gundam-building?source=navigation-bar",
+    "text": "ต่อกันพลา กันดั้ม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/florist?source=navigation-bar",
+    "text": "รับจัดดอกไม้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/meal-delivery?source=navigation-bar",
+    "text": "รับทำอาหารส่ง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lego-building?source=navigation-bar",
+    "text": "ต่อเลโก้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pre-order?source=navigation-bar",
+    "text": "รับพรีออเดอร์สินค้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/custom-cake?source=navigation-bar",
+    "text": "สั่งทำเค้ก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/security?source=navigation-bar",
+    "text": "บริการรักษาความปลอดภัย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/legit-check-inspection?source=navigation-bar",
+    "text": "บริการเช็คของแท้ปลอม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gift-basket?source=navigation-bar",
+    "text": "จัดกระเช้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gift-wrap?source=navigation-bar",
+    "text": "ห่อของขวัญ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/souvenir?source=navigation-bar",
+    "text": "ทำของชำร่วย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/optical-vision-care?source=navigation-bar",
+    "text": "ตัดแว่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/numeiang?source=navigation-bar",
+    "text": "น่ำเอี๊ยง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-towing?source=navigation-bar",
+    "text": "รถยก รถสไลด์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/watch-repair?source=navigation-bar",
+    "text": "รับซ่อมนาฬิกา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/vacuum-truck?source=navigation-bar",
+    "text": "ดูดส้วม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/psychologist?source=navigation-bar",
+    "text": "นักจิตวิทยา / จิตแพทย์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/physiotherapist?source=navigation-bar",
+    "text": "นักกายภาพบำบัด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/medical-companion?source=navigation-bar",
+    "text": "รับจ้างพาไปหาหมอ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/patient-care?source=navigation-bar",
+    "text": "รับดูแลผู้ป่วย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/elderly-care?source=navigation-bar",
+    "text": "รับจ้างดูแลผู้สูงอายุ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/nutrition?source=navigation-bar",
+    "text": "ปรึกษานักโภชนาการ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/telepet?source=navigation-bar",
+    "text": "ปรึกษาสัตวแพทย์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/telemedicine?source=navigation-bar",
+    "text": "ปรึกษาแพทย์ออนไลน์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/postpartum-care?source=navigation-bar",
+    "text": "อยู่ไฟหลังคลอด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dental-assistant?source=navigation-bar",
+    "text": "ผู้ช่วยทันตแพทย์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/nurse-assistant?source=navigation-bar",
+    "text": "พยาบาลและผู้ช่วยพยาบาล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/medical-and-healthcare-other?source=navigation-bar",
+    "text": "การแพทย์ และสุขภาพอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photography-video",
+    "text": "ภาพ เสียงและโปรดักชัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/video-editing?source=navigation-bar",
+    "text": "ตัดต่อวีดีโอ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photography?source=navigation-bar",
+    "text": "Photography",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/videography?source=navigation-bar",
+    "text": "ถ่ายวีดีโอ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motion-graphics?source=navigation-bar",
+    "text": "Motion Graphics",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/animations?source=navigation-bar",
+    "text": "Animations",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/subtitle?source=navigation-bar",
+    "text": "Subtitle",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photo-studio?source=navigation-bar",
+    "text": "ร้านถ่ายรูป",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/intro-outro-video?source=navigation-bar",
+    "text": "Intro & Outro Video",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/color-grading?source=navigation-bar",
+    "text": "เกลี่ยสีวิดีโอ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/assistant-photographer?source=navigation-bar",
+    "text": "ผู้ช่วยช่างภาพ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/voice-over?source=navigation-bar",
+    "text": "Voice Over",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/music-production?source=navigation-bar",
+    "text": "ทำเพลง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/mc?source=navigation-bar",
+    "text": "พิธีกร MC",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/mixing-mastering?source=navigation-bar",
+    "text": "Mixing Mastering",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/vfx-cgi?source=navigation-bar",
+    "text": "รับทำ VFX และ CGI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sound-engineer?source=navigation-bar",
+    "text": "Sound Engineer",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/production-sound?source=navigation-bar",
+    "text": "รับบันทึกเสียง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sound-effect?source=navigation-bar",
+    "text": "Sound Effect",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/podcast?source=navigation-bar",
+    "text": "Podcast",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dialogue-edit?source=navigation-bar",
+    "text": "รับตัดเสียงรบกวน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/acting-modeling?source=navigation-bar",
+    "text": "Acting & Modeling",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pet-model?source=navigation-bar",
+    "text": "นายแบบ นางแบบสัตว์เลี้ยง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/stand-up-comedy?source=navigation-bar",
+    "text": "Stand-Up Comedy",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/project-management-production?source=navigation-bar",
+    "text": "Production & Project Management",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photo-stock?source=navigation-bar",
+    "text": "ขายภาพออนไลน์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photography-video-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/consultant",
+    "text": "ทนาย บัญชีและที่ปรึกษา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/legal?source=navigation-bar",
+    "text": "กฎหมาย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/fda-registration?source=navigation-bar",
+    "text": "จดทะเบียน อย.",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/commercial-registration?source=navigation-bar",
+    "text": "จดทะเบียนการค้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/copyright-registration?source=navigation-bar",
+    "text": "จดสิทธิบัตร ลิขสิทธิ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/business-registration?source=navigation-bar",
+    "text": "จดทะเบียนบริษัท",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lawyer?source=navigation-bar",
+    "text": "ทนายความ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/title-deed-extraction?source=navigation-bar",
+    "text": "คัดโฉนดที่ดิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-registration?source=navigation-bar",
+    "text": "จดทะเบียนรถยนต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/vat-registration?source=navigation-bar",
+    "text": "จดทะเบียนภาษีมูลค่าเพิ่ม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/mou-document?source=navigation-bar",
+    "text": "รับทําบัตรต่างด้าว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/limited-partnership-registration?source=navigation-bar",
+    "text": "รับจดทะเบียนห้างหุ้นส่วนจำกัด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-plates?source=navigation-bar",
+    "text": "รับจองทะเบียนรถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/accounting-and-finance?source=navigation-bar",
+    "text": "ทำบัญชีและยื่นภาษี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tax-filing?source=navigation-bar",
+    "text": "ทำภาษี ยื่นภาษี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/auditor?source=navigation-bar",
+    "text": "ตรวจสอบบัญชี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/financial-planning?source=navigation-bar",
+    "text": "วางแผนการเงิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tax-planning?source=navigation-bar",
+    "text": "วางแผนภาษี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/payroll-outsourcing?source=navigation-bar",
+    "text": "ทำเงินเดือน Payroll",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/debt-consulting?source=navigation-bar",
+    "text": "ปรึกษาปัญหาหนี้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-clothing?source=navigation-bar",
+    "text": "ผลิตเสื้อผ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-cosmetic?source=navigation-bar",
+    "text": "รับผลิตเครื่องสำอาง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-supplement?source=navigation-bar",
+    "text": "รับผลิตอาหารเสริม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-pet-food?source=navigation-bar",
+    "text": "ผลิตอาหารสัตว์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-premium?source=navigation-bar",
+    "text": "ผลิตของพรีเมี่ยม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-soap?source=navigation-bar",
+    "text": "ผลิตสบู่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-skincare?source=navigation-bar",
+    "text": "ผลิตสกินแคร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-packaging?source=navigation-bar",
+    "text": "ผลิตบรรจุภัณฑ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-paper-box?source=navigation-bar",
+    "text": "ผลิตกล่องกระดาษ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-plastic-bag?source=navigation-bar",
+    "text": "ผลิตถุงพลาสติก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-bag?source=navigation-bar",
+    "text": "รับผลิตกระเป๋า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/headhunter?source=navigation-bar",
+    "text": "จัดหาพนักงาน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/secretary?source=navigation-bar",
+    "text": "เลขาส่วนตัว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/agent?source=navigation-bar",
+    "text": "นายหน้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/business?source=navigation-bar",
+    "text": "ปรึกษาธุรกิจ & Startup",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/order-from-china?source=navigation-bar",
+    "text": "สั่งของและนำเข้าสินค้าจีน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/hr-consulting?source=navigation-bar",
+    "text": "ที่ปรึกษาด้าน HR",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/stock-management?source=navigation-bar",
+    "text": "ระบบสต๊อกสินค้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/order-management?source=navigation-bar",
+    "text": "ระบบจัดการออเดอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dropship?source=navigation-bar",
+    "text": "Dropship",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/oem-china-factory?source=navigation-bar",
+    "text": "โรงงานต่างประเทศ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/detective?source=navigation-bar",
+    "text": "นักสืบ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/consultant-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/counseling?source=navigation-bar",
+    "text": "ที่ปรึกษาปัญหาชีวิต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/self-improvement?source=navigation-bar",
+    "text": "พัฒนาตนเอง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/training-speaker?source=navigation-bar",
+    "text": "วิทยากรและการฝึกอบรม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/architect-engineer",
+    "text": "สถาปัตย์วิศวกรรม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/architect-and-interior?source=navigation-bar",
+    "text": "ออกแบบตกแต่งภายในและภายนอก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/perspective?source=navigation-bar",
+    "text": "3D Perspective",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/plan-design?source=navigation-bar",
+    "text": "ออกแบบแปลน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/landscape?source=navigation-bar",
+    "text": "ออกแบบภูมิทัศน์และตกแต่งสวน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lighting-design?source=navigation-bar",
+    "text": "ออกแบบแสงสว่าง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/engineering-structural-design?source=navigation-bar",
+    "text": "เขียนแบบวิศวกรรมและออกแบบโครงสร้าง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/architect-engineer-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cadastral-survey?source=navigation-bar",
+    "text": "ช่างรังวัดที่ดิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/land-filling?source=navigation-bar",
+    "text": "รับถมที่ดิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/building-demolition?source=navigation-bar",
+    "text": "ทุบตึก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/writing-translation",
+    "text": "งานเขียนและแปลภาษา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/typing-and-data-entry?source=navigation-bar",
+    "text": "พิมพ์งาน และคีย์ข้อมูล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/content-writing?source=navigation-bar",
+    "text": "เขียนบทความ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/story-writing?source=navigation-bar",
+    "text": "เขียนนิยาย / เรื่องสั้น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/transcription?source=navigation-bar",
+    "text": "ถอดเทป",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/turnitin?source=navigation-bar",
+    "text": "ตรวจ TurnItIn",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sop?source=navigation-bar",
+    "text": "เขียน SOP",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/translation?source=navigation-bar",
+    "text": "แปลภาษา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/translator?source=navigation-bar",
+    "text": "ล่าม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/proofreading?source=navigation-bar",
+    "text": "พิสูจน์อักษร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/writing-translation-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/technician",
+    "text": "ช่าง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/it-device-repair?source=navigation-bar",
+    "text": "ซ่อมอุปกรณ์ไอที",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/home-appliance-repair?source=navigation-bar",
+    "text": "ซ่อมเครื่องใช้ไฟฟ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/roof-leak-repair?source=navigation-bar",
+    "text": "ซ่อมหลังคารั่ว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/door-repair?source=navigation-bar",
+    "text": "ซ่อมประตู",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/furniture-repair?source=navigation-bar",
+    "text": "ซ่อมเฟอร์นิเจอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/refrigerator-repair?source=navigation-bar",
+    "text": "ซ่อมตู้เย็น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/clogged-pipe-repair?source=navigation-bar",
+    "text": "ซ่อมท่อตัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-repair-services?source=navigation-bar",
+    "text": "งานซ่อมอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/washing-machine-repair?source=navigation-bar",
+    "text": "ซ่อมเครื่องซักผ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ceiling-repair?source=navigation-bar",
+    "text": "ซ่อมฝ้าเพดาน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/television-repair?source=navigation-bar",
+    "text": "ซ่อมทีวี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/water-pump-repair?source=navigation-bar",
+    "text": "ซ่อมปั๊มน้ำ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorbike-repair?source=navigation-bar",
+    "text": "ซ่อมมอเตอร์ไซค์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-repair?source=navigation-bar",
+    "text": "ซ่อมรถยนต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bag-repair?source=navigation-bar",
+    "text": "ซ่อมกระเป๋า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/technician-near-me?source=navigation-bar",
+    "text": "หาช่างด่วน ใกล้ฉัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-ac-repair?source=navigation-bar",
+    "text": "ซ่อมแอร์รถยนต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/eye-glasses-repair?source=navigation-bar",
+    "text": "ซ่อมแว่นตา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/guitar-repair?source=navigation-bar",
+    "text": "ซ่อมกีต้าร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/construction?source=navigation-bar",
+    "text": "รับเหมาก่อสร้าง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/painting?source=navigation-bar",
+    "text": "รับทาสี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/home-renovation?source=navigation-bar",
+    "text": "รับรีโนเวทบ้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tile-flooring?source=navigation-bar",
+    "text": "รับปูกระเบื้อง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ceiling-installation?source=navigation-bar",
+    "text": "รับทําฝ้าเพดาน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/built-in-installation?source=navigation-bar",
+    "text": "รับบิ้วอิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/condo-renovation?source=navigation-bar",
+    "text": "รับรีโนเวทคอนโด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-extension-services?source=navigation-bar",
+    "text": "งานต่อเติมอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/hang-wallpaper?source=navigation-bar",
+    "text": "รับติดวอลเปเปอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/carpenter?source=navigation-bar",
+    "text": "ช่างไม้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/custom-furniture?source=navigation-bar",
+    "text": "ผลิตเฟอร์นิเจอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/plastering?source=navigation-bar",
+    "text": "รับเทพื้นปูน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/garage-extension?source=navigation-bar",
+    "text": "ต่อเติมโรงรถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/kitchen-extension?source=navigation-bar",
+    "text": "ต่อเติมครัว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/aircon-cleaning?source=navigation-bar",
+    "text": "ล้างแอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/aircon-installation?source=navigation-bar",
+    "text": "ติดตั้งแอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/aircon-repair?source=navigation-bar",
+    "text": "ซ่อมแอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/aircon-service-near-me?source=navigation-bar",
+    "text": "หาช่างแอร์ด่วน ใกล้ฉัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/homepro?source=navigation-bar",
+    "text": "ช่างโฮมโปร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/electrical?source=navigation-bar",
+    "text": "ช่างไฟฟ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tree-trimming?source=navigation-bar",
+    "text": "รับตัดหญ้าและตัดต้นไม้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/plumbing?source=navigation-bar",
+    "text": "งานประปา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/washing-machine-cleaning?source=navigation-bar",
+    "text": "ล้างเครื่องซักผ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/water-tank-cleaning?source=navigation-bar",
+    "text": "ล้างถังเก็บน้ำ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/fridge-cleaning?source=navigation-bar",
+    "text": "ล้างตู้เย็น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/grease-trap-cleaning?source=navigation-bar",
+    "text": "ล้างบ่อดักไขมัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/maintenance-services?source=navigation-bar",
+    "text": "บริการบำรุงรักษาอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/wood-floor-polishing?source=navigation-bar",
+    "text": "รับขัดพื้นไม้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/home-inspection?source=navigation-bar",
+    "text": "ตรวจบ้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/electrical-inspection?source=navigation-bar",
+    "text": "ตรวจระบบไฟฟ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/condo-inspection?source=navigation-bar",
+    "text": "ตรวจคอนโด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-inspections?source=navigation-bar",
+    "text": "งานตรวจอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-installation-services?source=navigation-bar",
+    "text": "งานติดตั้งอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cctv-installation?source=navigation-bar",
+    "text": "ติดตั้งกล้องวงจรปิด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/appliance-installation?source=navigation-bar",
+    "text": "ติดตั้งเครื่องใช้ไฟฟ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lan-cable-installation?source=navigation-bar",
+    "text": "ติดตั้งสายแลน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/door-installation?source=navigation-bar",
+    "text": "ติดตั้งประตู",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bird-net-installation?source=navigation-bar",
+    "text": "ติดตาข่ายกันนก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/curtain-installation?source=navigation-bar",
+    "text": "ติดตั้งผ้าม่าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/window-film-installation?source=navigation-bar",
+    "text": "ติดฟิล์มกระจกบ้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bathroom-installation?source=navigation-bar",
+    "text": "ติดตั้งสุขภัณฑ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/electrical-system?source=navigation-bar",
+    "text": "ติดตั้งระบบไฟฟ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/solar-cell-installation?source=navigation-bar",
+    "text": "ติดตั้งโซล่าเซลล์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/fan-installation?source=navigation-bar",
+    "text": "ติดตั้งพัดลม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dash-cam?source=navigation-bar",
+    "text": "ติดตั้งกล้องติดรถยนต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-film-installation?source=navigation-bar",
+    "text": "รับติดฟิล์มรถยนต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ev-charger-installation?source=navigation-bar",
+    "text": "ติดตั้งที่ชาร์จรถไฟฟ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/water-pump-installation?source=navigation-bar",
+    "text": "ติดตั้งปั๊มน้ำ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-custom-configurator?source=navigation-bar",
+    "text": "ติดตั้งประดับยนต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/window-screen?source=navigation-bar",
+    "text": "ติดตั้งมุ้งลวด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/glass-aluminum-installation?source=navigation-bar",
+    "text": "ติดตั้งกระจกอลูมิเนียม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/roof-installation?source=navigation-bar",
+    "text": "ติดตั้งหลังคา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/building-consultant?source=navigation-bar",
+    "text": "ที่ปรึกษางานก่อสร้าง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/locksmith?source=navigation-bar",
+    "text": "ช่างกุญแจ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/technician-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pc-specs?source=navigation-bar",
+    "text": "จัดสเปคคอม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-battery-change?source=navigation-bar",
+    "text": "เปลี่ยนแบตเตอรี่รถยนต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/engine-oil-change?source=navigation-bar",
+    "text": "เปลี่ยนน้ำมันเครื่อง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tire-patching?source=navigation-bar",
+    "text": "ปะยาง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tire-service?source=navigation-bar",
+    "text": "เปลี่ยนยาง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-seat?source=navigation-bar",
+    "text": "ทำเบาะมอเตอร์ไซค์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/custom-motorcycle?source=navigation-bar",
+    "text": "แต่งรถมอเตอร์ไซค์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tutor",
+    "text": "เรียนพิเศษ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/math-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษคณิตศาสตร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/accounting-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษบัญชี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/academic-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษวิชาอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/physics-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษฟิสิกส์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/thai-language-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษภาษาไทย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/science-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษวิทยาศาสตร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/chemistry-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษเคมี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/econ-finance-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษเศรษฐศาสตร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/biology-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษชีวะ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/homework?source=navigation-bar",
+    "text": "รับปรึกษาการบ้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/kindergarten-tutoring?source=navigation-bar",
+    "text": "สอนพิเศษอนุบาล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/computer-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษคอมพิวเตอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/social-studies-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษสังคม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/history-tutoring?source=navigation-bar",
+    "text": "เรียนพิเศษประวัติศาสตร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/a-level-tutoring?source=navigation-bar",
+    "text": "ติวสอบ A-Level",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/interview-prep-tutoring?source=navigation-bar",
+    "text": "ติวสอบสัมภาษณ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-exams-tutoring?source=navigation-bar",
+    "text": "ติวสอบอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ielts-tutoring?source=navigation-bar",
+    "text": "ติวสอบ IELTS",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/sat-tutoring?source=navigation-bar",
+    "text": "ติวสอบ SAT",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gov-exam-tutoring?source=navigation-bar",
+    "text": "ติวสอบ ก.พ.",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/m4-high-school-entrance?source=navigation-bar",
+    "text": "ติวสอบเข้า ม.4",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/university-admission-tutoring?source=navigation-bar",
+    "text": "ติวสอบเข้ามหาวิทยาลัย TCAS",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/triam-udom-tutoring?source=navigation-bar",
+    "text": "ติวเข้าเตรียมอุดม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tgat-tutoring?source=navigation-bar",
+    "text": "ติวสอบ TGAT",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/m1-middle-school-entrance?source=navigation-bar",
+    "text": "ติวสอบเข้า ม.1",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/toeic-tutoring?source=navigation-bar",
+    "text": "ติวสอบ TOEIC",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ged-tutoring?source=navigation-bar",
+    "text": "ติวสอบ GED",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/toefl-tutoring?source=navigation-bar",
+    "text": "ติวสอบ TOEFL",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/o-net-tutoring?source=navigation-bar",
+    "text": "ติวสอบ O-NET",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tu-get-tutoring?source=navigation-bar",
+    "text": "ติวสอบ TU-GET",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/civil-service-exam-tutoring?source=navigation-bar",
+    "text": "ติวสอบราชการ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bmat-tutoring?source=navigation-bar",
+    "text": "ติวสอบ BMAT",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/scholarship-exam-tutoring?source=navigation-bar",
+    "text": "ติวสอบชิงทุน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cu-tep-tutoring?source=navigation-bar",
+    "text": "ติวสอบ CU-TEP",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/teacher-exam-tutoring?source=navigation-bar",
+    "text": "ติวสอบครูผู้ช่วย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/english-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาอังกฤษ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/chinese-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาจีน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/japanese-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาญี่ปุ่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/french-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาฝรั่งเศส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/korean-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาเกาหลี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/german-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาเยอรมัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-languages-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาต่างประเทศอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/teaching-thai-foreigners?source=navigation-bar",
+    "text": "สอนภาษาไทยให้ชาวต่างชาติ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/arabic-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาอาหรับ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/spanish-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาสเปน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/italian-tutoring?source=navigation-bar",
+    "text": "เรียนภาษาอิตาลี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tennis-training?source=navigation-bar",
+    "text": "เรียนเทนนิส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/running-training?source=navigation-bar",
+    "text": "เทรนเนอร์สอนวิ่ง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/swimming-training?source=navigation-bar",
+    "text": "เรียนว่ายน้ำ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/badminton-training?source=navigation-bar",
+    "text": "เรียนแบดมินตัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/yoga-classes?source=navigation-bar",
+    "text": "เรียนโยคะ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/ice-skating-training?source=navigation-bar",
+    "text": "เรียนไอซ์สเก็ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/table-tennis-training?source=navigation-bar",
+    "text": "เรียนปิงปอง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/muay-thai-training?source=navigation-bar",
+    "text": "เรียนมวยไทย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-sports-training?source=navigation-bar",
+    "text": "เรียนกีฬาอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/golf-training?source=navigation-bar",
+    "text": "เรียนกอล์ฟ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/football-training?source=navigation-bar",
+    "text": "เรียนฟุตบอล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/basketball-training?source=navigation-bar",
+    "text": "เรียนบาสเกตบอล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/skateboard-training?source=navigation-bar",
+    "text": "เรียนสเก็ตบอร์ด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/volleyball-training?source=navigation-bar",
+    "text": "เรียนวอลเลย์บอล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/gymnastics-training?source=navigation-bar",
+    "text": "เรียนยิมนาสติก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/taekwondo-training?source=navigation-bar",
+    "text": "เรียนเทควันโด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/horse-riding-training?source=navigation-bar",
+    "text": "เรียนขี่ม้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/singing-lessons?source=navigation-bar",
+    "text": "เรียนร้องเพลง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dance-classes?source=navigation-bar",
+    "text": "เรียนเต้น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/piano-lessons?source=navigation-bar",
+    "text": "เรียนเปียโน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/guitar-lessons?source=navigation-bar",
+    "text": "เรียนกีตาร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/drawing-lessons?source=navigation-bar",
+    "text": "เรียนวาดรูป",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/other-instrument-lessons?source=navigation-bar",
+    "text": "เรียนดนตรีอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/thai-dance-classes?source=navigation-bar",
+    "text": "เรียนนาฏศิลป์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/violin-lessons?source=navigation-bar",
+    "text": "เรียนไวโอลิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/art-lessons?source=navigation-bar",
+    "text": "เรียนศิลปะ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/drum-lessons?source=navigation-bar",
+    "text": "เรียนตีกลอง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/saxophone-lessons?source=navigation-bar",
+    "text": "เรียนแซกโซโฟน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/thai-instruments-lessons?source=navigation-bar",
+    "text": "เรียนดนตรีไทย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bass-lessons?source=navigation-bar",
+    "text": "เรียนเบส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/advertising-course?source=navigation-bar",
+    "text": "สอนยิงแอด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/investing-course?source=navigation-bar",
+    "text": "สอนการลงทุน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/coding-course?source=navigation-bar",
+    "text": "เรียนเขียนโปรแกรม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/shopee-lazada-course?source=navigation-bar",
+    "text": "เรียนขายของ shopee lazada",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tutoring?source=navigation-bar",
+    "text": "ผู้เชี่ยวชาญให้ความรู้เฉพาะด้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/video-editing-course?source=navigation-bar",
+    "text": "เรียนตัดต่อวิดีโอ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/excel-course?source=navigation-bar",
+    "text": "สอน Excel",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/driving-school?source=navigation-bar",
+    "text": "สอนขับรถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/digital-marketing-course?source=navigation-bar",
+    "text": "เรียนการตลาดออนไลน์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/power-bi-course?source=navigation-bar",
+    "text": "เรียน Power BI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/teaching-material-design?source=navigation-bar",
+    "text": "ทำสื่อการสอน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/seo-course?source=navigation-bar",
+    "text": "สอน SEO",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pilates-classes?source=navigation-bar",
+    "text": "เรียนพิลาทิส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/canva-course?source=navigation-bar",
+    "text": "เรียน Canva",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/live-streaming-course?source=navigation-bar",
+    "text": "สอนไลฟ์สด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/makeup-course?source=navigation-bar",
+    "text": "สอนแต่งหน้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/nail-course?source=navigation-bar",
+    "text": "เรียนทำเล็บ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cooking-course?source=navigation-bar",
+    "text": "สอนทำอาหาร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/astrology-course?source=navigation-bar",
+    "text": "เรียนดูดวง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/chess-course?source=navigation-bar",
+    "text": "เรียนหมากรุก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/3d-model-course?source=navigation-bar",
+    "text": "เรียนปั้นโมเดล 3D",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/eyelash-extension-course?source=navigation-bar",
+    "text": "เรียนต่อขนตา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/salon-course?source=navigation-bar",
+    "text": "เรียนเสริมสวย ทำผม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-school?source=navigation-bar",
+    "text": "เรียนขี่มอเตอร์ไซค์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bakery-course?source=navigation-bar",
+    "text": "เรียนทำขนม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/barista-course?source=navigation-bar",
+    "text": "เรียนชงกาแฟ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/eyebrow-course?source=navigation-bar",
+    "text": "เรียนสักคิ้ว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dj-mixing-course?source=navigation-bar",
+    "text": "เรียน DJ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/meditation-classes?source=navigation-bar",
+    "text": "เรียนเจริญสติ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/floristry-course?source=navigation-bar",
+    "text": "เรียนจัดดอกไม้",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dog-grooming-classes?source=navigation-bar",
+    "text": "เรียนตัดขนสุนัข",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/hairdressing-course?source=navigation-bar",
+    "text": "เรียนตัดผม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/air-hostess-course?source=navigation-bar",
+    "text": "เรียนแอร์โฮสเตส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bartender-course?source=navigation-bar",
+    "text": "เรียนบาร์เทนเดอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tutor-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental",
+    "text": "เช่ารถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-with-driver?source=navigation-bar",
+    "text": "เช่ารถพร้อมคนขับ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/daily-car-rental?source=navigation-bar",
+    "text": "เช่ารถรายวัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-bangkok?source=navigation-bar",
+    "text": "เช่ารถกรุงเทพ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-chiang-mai?source=navigation-bar",
+    "text": "เช่ารถเชียงใหม่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-phuket?source=navigation-bar",
+    "text": "เช่ารถภูเก็ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-udon-thani?source=navigation-bar",
+    "text": "เช่ารถอุดรธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/monthly-car-rental?source=navigation-bar",
+    "text": "เช่ารถรายเดือน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-other-area?source=navigation-bar",
+    "text": "เช่ารถจังหวัดอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-hat-yai?source=navigation-bar",
+    "text": "เช่ารถหาดใหญ่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-krabi?source=navigation-bar",
+    "text": "เช่ารถกระบี่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-khon-kaen?source=navigation-bar",
+    "text": "เช่ารถขอนแก่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-nan?source=navigation-bar",
+    "text": "เช่ารถน่าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-surat-thani?source=navigation-bar",
+    "text": "เช่ารถสุราษฎร์ธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-phitsanulok?source=navigation-bar",
+    "text": "เช่ารถพิษณุโลก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-nakhon-si-thammarat?source=navigation-bar",
+    "text": "เช่ารถนครศรีธรรมราช",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-pattaya?source=navigation-bar",
+    "text": "เช่ารถพัทยา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-nonthaburi?source=navigation-bar",
+    "text": "เช่ารถนนทบุรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/long-term-car-rental?source=navigation-bar",
+    "text": "เช่ารถระยะยาว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-chiang-rai?source=navigation-bar",
+    "text": "เช่ารถเชียงราย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-chonburi?source=navigation-bar",
+    "text": "เช่ารถชลบุรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-hua-hin?source=navigation-bar",
+    "text": "เช่ารถหัวหิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-ubon-ratchathani?source=navigation-bar",
+    "text": "เช่ารถอุบลราชธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-bangkok?source=navigation-bar",
+    "text": "เช่ารถตู้กรุงเทพ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/self-drive-van-rental?source=navigation-bar",
+    "text": "เช่ารถตู้ขับเอง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/alphard-rental?source=navigation-bar",
+    "text": "เช่ารถ Alphard",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-phuket?source=navigation-bar",
+    "text": "เช่ารถตู้ภูเก็ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-other-area?source=navigation-bar",
+    "text": "เช่ารถตู้ไปต่างจังหวัด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-nakhon-si-thammarat?source=navigation-bar",
+    "text": "เช่ารถตู้นครศรีธรรมราช",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-nonthaburi?source=navigation-bar",
+    "text": "เช่ารถตู้นนทบุรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-surat-thani?source=navigation-bar",
+    "text": "เช่ารถตู้สุราษฎร์ธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-chiang-mai?source=navigation-bar",
+    "text": "เช่ารถตู้เชียงใหม่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-ubon-ratchathani?source=navigation-bar",
+    "text": "เช่ารถตู้อุบลราชธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-khon-kaen?source=navigation-bar",
+    "text": "เช่ารถตู้ขอนแก่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-nan?source=navigation-bar",
+    "text": "เช่ารถตู้น่าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-phitsanulok?source=navigation-bar",
+    "text": "เช่ารถตู้พิษณุโลก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-krabi?source=navigation-bar",
+    "text": "เช่ารถตู้กระบี่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-hat-yai?source=navigation-bar",
+    "text": "เช่ารถตู้หาดใหญ่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-hua-hin?source=navigation-bar",
+    "text": "เช่ารถตู้หัวหิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-pattaya?source=navigation-bar",
+    "text": "เช่ารถตู้พัทยา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-chiang-rai?source=navigation-bar",
+    "text": "เช่ารถตู้เชียงราย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-udon-thani?source=navigation-bar",
+    "text": "เช่ารถตู้อุดรธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/van-rental-chonburi?source=navigation-bar",
+    "text": "เช่ารถตู้ชลบุรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-khon-kaen?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์ขอนแก่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-nakhon-si-thammarat?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์นครศรีธรรมราช",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-phuket?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์ภูเก็ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/electric-motorcycle-rental?source=navigation-bar",
+    "text": "เช่ารถมอเตอร์ไซค์ไฟฟ้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-other-area?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์จังหวัดอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-udon-thani?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์อุดรธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-phitsanulok?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์พิษณุโลก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-chiang-mai?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์เชียงใหม่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-ubon-ratchathani?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์อุบลราชธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-chiang-rai?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์เชียงราย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-nonthaburi?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์นนทบุรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-nan?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์น่าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-hua-hin?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์หัวหิน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-krabi?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์กระบี่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-bangkok?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์กรุงเทพ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-surat-thani?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์สุราษฎร์ธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-pattaya?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์พัทยา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-hat-yai?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์หาดใหญ่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/motorcycle-rental-chonburi?source=navigation-bar",
+    "text": "เช่ามอเตอร์ไซค์ชลบุรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/electric-ev-car-rental?source=navigation-bar",
+    "text": "เช่ารถไฟฟ้า EV",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/luxury-car-rental?source=navigation-bar",
+    "text": "เช่ารถหรู รถสปอร์ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/7-seater-car-rental?source=navigation-bar",
+    "text": "เช่ารถ 7 ที่นั่ง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/hiab-truck-rental?source=navigation-bar",
+    "text": "เช่ารถเฮี๊ยบ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/10-wheel-truck-rental?source=navigation-bar",
+    "text": "เช่ารถบรรทุก 10 ล้อ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/fortuner-car-rental?source=navigation-bar",
+    "text": "เช่ารถ Fortuner",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/campervan-rental?source=navigation-bar",
+    "text": "เช่ารถบ้าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/6-wheel-truck-rental?source=navigation-bar",
+    "text": "เช่ารถบรรทุก 6 ล้อ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/minibus-rental?source=navigation-bar",
+    "text": "เช่ารถมินิบัส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/pickup-truck-rental?source=navigation-bar",
+    "text": "เช่ารถกระบะ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/forklift-rental?source=navigation-bar",
+    "text": "เช่ารถโฟล์คลิฟท์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bus-rental?source=navigation-bar",
+    "text": "เช่ารถบัส",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/classic-car-rental?source=navigation-bar",
+    "text": "เช่ารถคลาสสิค รถวินเทจ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-don-mueang-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน ดอนเมือง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-hat-yai-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน หาดใหญ่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-suvarnabhumi-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน สุวรรณภูมิ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-udon-thani-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน อุดรธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-phuket-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน ภูเก็ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-phitsanulok-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน พิษณุโลก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-chiang-rai-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน เชียงราย",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-surat-thani-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน สุราษฎร์ธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-chiang-mai-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน เชียงใหม่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-khon-kaen-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน ขอนแก่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-nan-airport?source=navigation-bar",
+    "text": "เช่ารถสนามบิน น่าน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental-other?source=navigation-bar",
+    "text": "อื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-jobs",
+    "text": "งานพาร์ทไทม์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-bangkok?source=navigation-bar",
+    "text": "งานพาร์ทไทม์กรุงเทพ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-other-provinces?source=navigation-bar",
+    "text": "งานพาร์ทไทม์จังหวัดอื่นๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-chiang-mai?source=navigation-bar",
+    "text": "งานพาร์ทไทม์เชียงใหม่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-khon-kaen?source=navigation-bar",
+    "text": "งานพาร์ทไทม์ขอนแก่น",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-chonburi?source=navigation-bar",
+    "text": "งานพาร์ทไทม์ชลบุรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-pathum-thani?source=navigation-bar",
+    "text": "งานพาร์ทไทม์ปทุมธานี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-korat?source=navigation-bar",
+    "text": "งานพาร์ทไทม์โคราช",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-ubon?source=navigation-bar",
+    "text": "งานพาร์ทไทม์อุบล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-nonthaburi?source=navigation-bar",
+    "text": "งานพาร์ทไทม์นนทบุรี",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-phuket?source=navigation-bar",
+    "text": "งานพาร์ทไทม์ภูเก็ต",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-nakhon-pathom?source=navigation-bar",
+    "text": "งานพาร์ทไทม์นครปฐม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-hat-yai?source=navigation-bar",
+    "text": "งานพาร์ทไทม์หาดใหญ่",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/work-from-home-jobs?source=navigation-bar",
+    "text": "งานพาร์ทไทม์ ออนไลน์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/daily-jobs?source=navigation-bar",
+    "text": "งานรายวัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time?source=navigation-bar",
+    "text": "จ้างพนักงานพาร์ทไทม์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-student?source=navigation-bar",
+    "text": "งานพาร์ทไทม์ นักเรียน/นักศึกษา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/casual-jobs?source=navigation-bar",
+    "text": "งานแคชชวล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/night-shift-jobs?source=navigation-bar",
+    "text": "งานพาร์ทไทม์กลางคืน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/weekend-jobs?source=navigation-bar",
+    "text": "งานพาร์ทไทม์ เสาร์ อาทิตย์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/delivery-own-vehicle?source=navigation-bar",
+    "text": "ขับรถส่งของ รถตัวเอง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lifting-goods?source=navigation-bar",
+    "text": "พนักงานยกของ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/warehouse-jobs?source=navigation-bar",
+    "text": "พนักงานคลังสินค้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/delivery-jobs?source=navigation-bar",
+    "text": "พนักงานจัดส่งสินค้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/parcel-delivery?source=navigation-bar",
+    "text": "พนักงานส่งของ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/delivery-assistant?source=navigation-bar",
+    "text": "งานติดรถขนส่ง เด็กติดรถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/parcel-sorting?source=navigation-bar",
+    "text": "พนักงานคัดแยกพัสดุ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/inventory-checker?source=navigation-bar",
+    "text": "พนักงานเช็คสต๊อก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/fulfillment?source=navigation-bar",
+    "text": "รับแพ็คสินค้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/delivery-driver?source=navigation-bar",
+    "text": "พนักงานขับรถส่งของ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/product-consultant?source=navigation-bar",
+    "text": "พนักงาน PC",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/receptionist?source=navigation-bar",
+    "text": "พนักงานต้อนรับ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cashier?source=navigation-bar",
+    "text": "พนักงานแคชเชียร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/event-staff?source=navigation-bar",
+    "text": "งานสตาฟอีเว้นท์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/booth-staff?source=navigation-bar",
+    "text": "พนักงานออกบูธ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/flyer-distributor?source=navigation-bar",
+    "text": "พนักงานแจกใบปลิว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/bartender?source=navigation-bar",
+    "text": "บาร์เทนเดอร์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/barista?source=navigation-bar",
+    "text": "บาริสต้า",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cafe-jobs?source=navigation-bar",
+    "text": "พนักงานร้านกาแฟ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/restaurant-jobs?source=navigation-bar",
+    "text": "พนักงานร้านอาหาร",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/kitchen-jobs?source=navigation-bar",
+    "text": "พนักงานครัว",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/waiter?source=navigation-bar",
+    "text": "พนักงานเสิร์ฟ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/dishwasher?source=navigation-bar",
+    "text": "พนักงานล้างจาน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-other?source=navigation-bar",
+    "text": "อื่น ๆ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/popular-subcat?source=web_marketplace_category_popular-subcat",
+    "text": "ดูเพิ่มเติม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/guarantee",
+    "text": "Fastwork Guarantee",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/search?badges=%3Aspecialist&amp;filter_used=true&amp;q=specialist&amp;source=home_specialist-section",
+    "text": "ดูงานทั้งหมด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/professional",
+    "text": "ดูงานทั้งหมด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://apps.apple.com/us/app/fastwork-hire-freelancers/id1154830520?ls=1",
+    "text": "",
+    "host": "apps.apple.com"
+   },
+   {
+    "href": "https://play.google.com/store/apps/details?id=com.fastwork.app&amp;hl=en",
+    "text": "",
+    "host": "play.google.com"
+   },
+   {
+    "href": "https://fastwork.co/ai-services",
+    "text": "ผู้เชี่ยวชาญ AI",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/marketing-advertising",
+    "text": "โฆษณาการตลาด",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/design-graphic",
+    "text": "ออกแบบและ กราฟิก",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/web-programming",
+    "text": "ทำแอปเว็บไซต์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/lifestyle",
+    "text": "ไลฟ์สไตล์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/photography-video",
+    "text": "ภาพ เสียงและโปรดักชัน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/consultant",
+    "text": "ทนาย บัญชีและที่ปรึกษา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/architect-engineer",
+    "text": "สถาปัตย์วิศวกรรม",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/writing-translation",
+    "text": "งานเขียนและแปลภาษา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/technician",
+    "text": "ช่าง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/tutor",
+    "text": "เรียนพิเศษ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/car-rental",
+    "text": "เช่ารถ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/part-time-jobs",
+    "text": "งานพาร์ทไทม์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/start-selling",
+    "text": "สมัครเป็นฟรีแลนซ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/how",
+    "text": "เริ่มขายงานอย่างไร",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1818-/7393-",
+    "text": "การชำระค่าจ้าง",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/guarantee",
+    "text": "รับประกันการจ้างงาน",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://blog.fastwork.co",
+    "text": "บล็อกความรู้",
+    "host": "blog.fastwork.co"
+   },
+   {
+    "href": "https://fastwork4276.zendesk.com/hc/th",
+    "text": "คำถามที่เจอบ่อย",
+    "host": "fastwork4276.zendesk.com"
+   },
+   {
+    "href": "https://fastwork.co/consent-management",
+    "text": "จัดการการใช้ข้อมูล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co",
+    "text": "Fastwork",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/for-business/enterprise/?utm_source=fastwork&amp;utm_medium=pr&amp;utm_campaign=fwhomepagefooter_pr",
+    "text": "Fastwork for Business",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/directory",
+    "text": "ผลงานฟรีแลนซ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://form.jotform.me/63044292363453",
+    "text": "Feedback พวกเรา",
+    "host": "form.jotform.me"
+   },
+   {
+    "href": "https://careers.fastwork.co",
+    "text": "ร่วมงานกับ Fastwork",
+    "host": "careers.fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/terms",
+    "text": "เงื่อนไขการใช้บริการ",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/privacy",
+    "text": "นโยบายความเป็นส่วนตัว",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/support-center",
+    "text": "ติดต่อเรา",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cdn-cgi/l/email-protection#691a1c1919061b1d290f081a1d1e061b02470a06",
+    "text": "[email&#160;protected]",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://www.facebook.com/fastworkco",
+    "text": "Facebook Messenger",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://lin.ee/CAnH9Gf",
+    "text": "",
+    "host": "lin.ee"
+   },
+   {
+    "href": "https://www.instagram.com/fastworkco",
+    "text": "",
+    "host": "instagram.com"
+   },
+   {
+    "href": "https://www.facebook.com/fastworkco",
+    "text": "",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://twitter.com/fastworkco",
+    "text": "",
+    "host": "twitter.com"
+   },
+   {
+    "href": "https://www.youtube.com/channel/UCroiT_lHdQl7iGZ6CxlmwAg",
+    "text": "",
+    "host": "youtube.com"
+   },
+   {
+    "href": "https://www.linkedin.com/company/fastworkco",
+    "text": "",
+    "host": "linkedin.com"
+   },
+   {
+    "href": "https://www.tiktok.com/@fastworkco",
+    "text": "",
+    "host": "tiktok.com"
+   },
+   {
+    "href": "https://www.blockdit.com/fastworkco",
+    "text": "",
+    "host": "blockdit.com"
+   },
+   {
+    "href": "https://www.pinterest.com/fastworkco",
+    "text": "",
+    "host": "pinterest.com"
+   },
+   {
+    "href": "https://fastwork.co/categories",
+    "text": "Sitemaps",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/?source=footer_th",
+    "text": "",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.id/?source=footer_id",
+    "text": "",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastlance.vn/?source=footer_vn",
+    "text": "",
+    "host": "fastlance.vn"
+   }
+  ],
+  "bytes": 544124,
+  "err": "",
+  "ms": 2036
+ }
+]
