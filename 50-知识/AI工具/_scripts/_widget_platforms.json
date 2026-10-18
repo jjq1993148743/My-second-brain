@@ -5,7 +5,7 @@
   "len": 6418,
   "title": "MIUI 14 锐意新生",
   "from": "https://home.miui.com/",
-  "note": "redirect->https://home.miui.com/; hits=2"
+  "note": "www.miui.com 302→home.miui.com（MIUI 沿革页，非小米国际商城）。文中仅历史性提到“设计师可制作锁屏/主题”，无上传入口、无分成/收益说明。"
  },
  {
   "host": "themes.mi.com",
@@ -13,30 +13,38 @@
   "len": 0,
   "title": "",
   "from": "https://themes.mi.com/",
-  "note": "no usable body (status 502)"
+  "note": "未取得内容：Clash 代理(127.0.0.1:7897)返回 502，直连 fetch 失败。需换节点重试；该域为小米主题商店。"
  },
  {
   "host": "zedge.net/creators",
-  "status": 502,
+  "status": 404,
   "len": 0,
-  "title": "",
+  "title": "Free Ringtones and Wallpapers - ZEDGE™",
   "from": "https://www.zedge.net/creators",
-  "note": "no usable body (status 502)"
+  "note": "直连 200 但 /creators 路径 404（回退首页）。首页含 “Top tier content creators / Learn about artists”，但无“上传→获得收益/分成”入口或费率说明，创作者页已不存在。"
  },
  {
   "host": "wallpaperengine.io",
-  "status": 502,
-  "len": 0,
-  "title": "",
+  "status": 200,
+  "len": 6203,
+  "title": "Wallpaper Engine: Animated Wallpapers on Windows",
   "from": "https://www.wallpaperengine.io/",
-  "note": "no usable body (status 502)"
+  "note": "有 “Creator Documentation” 与 Steam Workshop 上传（需 Steam 运行）。但全站无分成/收益/payout：商业模式为一次性购买(Buy Now)。创作者上传壁纸不获报酬。"
  },
  {
   "host": "iconpack.app",
-  "status": 502,
-  "len": 0,
-  "title": "",
+  "status": 200,
+  "len": 7617,
+  "title": "Iconpack — AI Icon & Favicon Generator",
   "from": "https://www.iconpack.app/",
-  "note": "no usable body (status 502)"
+  "note": "实为 AI 图标/Favicon 生成器，关键字命中 0。无上传市场、无创作者分成。"
+ },
+ {
+  "host": "zhuti.xiaomi.com (bonus)",
+  "status": 200,
+  "len": 34,
+  "title": "MIUI主题设计师站",
+  "from": "https://zhuti.xiaomi.com/",
+  "note": "小米主题“设计师站”——确认存在设计师上传入口（页面需 JS，只渲染出标题）。收益/分成条款需 JS 渲染或登录后确认。"
  }
 ]

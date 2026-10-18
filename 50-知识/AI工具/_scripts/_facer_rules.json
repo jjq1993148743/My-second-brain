@@ -1,203 +1,236 @@
-[
- {
-  "host": "www.facer.io",
-  "status": "local",
-  "len": 2713,
-  "title": "",
-  "from": "_ov1_facer_topic_3540.txt",
-  "note": "pre-existing local capture",
-  "matches": [
-   {
-    "kw": "creator",
-    "count": 2,
-    "snips": [
-     " interested in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and everything you need to know about the program there to help you get started. We look forward to reviewing your applications! Sincerely, -The Facer Team --- post by Mellin --- BTW.: How can one ",
-     "we properly address your concern/need. Cheers! --- post by Mellin --- For the sake of the creator, this would be a good thing to have (for me at least). Also, if it is not available, we cannot determinate if we qualify for that 3000 sync in 30 days thing. --- post by Ray_Hope --- If a designer is successful are they ab"
-    ]
-   },
-   {
-    "kw": "partner",
-    "count": 2,
-    "snips": [
-     "ns-on-facer/3540 --- post by Facer_Official --- If you’re interested in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and everything you need to know about the program there to help you get started. We look forward to reviewing your applications! Sincerely, ",
-     "ted in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and everything you need to know about the program there to help you get started. We look forward to reviewing your applications! Sincerely, -The Facer Team --- post by Mellin --- BTW.: How can one check, w"
-    ]
-   },
-   {
-    "kw": "premium",
-    "count": 6,
-    "snips": [
-     "TITLE: How to become a Premium Designer and sell your watch face designs on Facer URL: https://community.facer.io/t/how-to-become-a-premium-designer-and-sell-your-watch-face-designs-on-facer/3540 --- post by Facer_Official --- If you’re interested in jo",
-     "d sell your watch face designs on Facer URL: https://community.facer.io/t/how-to-become-a-premium-designer-and-sell-your-watch-face-designs-on-facer/3540 --- post by Facer_Official --- If you’re interested in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and",
-     "over 3,000 syncs within the first 30 days after publishing, to PAID? --- post by Kris --- Premium designers are allowed re-submit previously free faces as Premium faces. However, we urge them to increase the value of the watches by using premium designer features like themes, complications or stickers so that consumers",
-     "ID? --- post by Kris --- Premium designers are allowed re-submit previously free faces as Premium faces. However, we urge them to increase the value of the watches by using premium designer features like themes, complications or stickers so that consumers see the increased value of the premium faces over the free versi"
-    ]
-   }
-  ]
- },
- {
-  "host": "www.facer.io",
-  "status": "local",
-  "len": 3803,
-  "title": "",
-  "from": "_ov1_facer_topic_92147.txt",
-  "note": "pre-existing local capture",
-  "matches": [
-   {
-    "kw": "creator",
-    "count": 3,
-    "snips": [
-     "ry. --- post by mrantisocialguy --- @enderuckun9 If you go to this webpage Become a Facer Creator Partner you will find what it takes to become a Facer Partner. You will also find that it is by Invitation Only If you satisfy (Facer’s) criteria and are selected by the Facer team , you will receive an invite by email. Ge",
-     "since they do not read every post, just the ones they are tagged in or if a current Facer Creator Partner recommends you to them as a possible partner candidate. --- post by enderuckun9 --- so much thank you mrantisocialguy I will wait --- post by kirium0212 --- enderuckun9: I design watch faces for watches. We all des",
-     " regarding your success elsewhere, then let them know and I am sure we will all see a new creator partner shortly. --- post by christianfernandes38 --- Desculpem pela pergunta mas, existem outros aplicativos como o FACER? --- post by kirium0212 --- Not as far a I have seen. Facer is really the best thing out there in t"
-    ]
-   },
-   {
-    "kw": "partner",
-    "count": 5,
-    "snips": [
-     "post by mrantisocialguy --- @enderuckun9 If you go to this webpage Become a Facer Creator Partner you will find what it takes to become a Facer Partner. You will also find that it is by Invitation Only If you satisfy (Facer’s) criteria and are selected by the Facer team , you will receive an invite by email. Getting no",
-     "this webpage Become a Facer Creator Partner you will find what it takes to become a Facer Partner. You will also find that it is by Invitation Only If you satisfy (Facer’s) criteria and are selected by the Facer team , you will receive an invite by email. Getting noticed by them and impressing them enough to consider y",
-     "ey do not read every post, just the ones they are tagged in or if a current Facer Creator Partner recommends you to them as a possible partner candidate. --- post by enderuckun9 --- so much thank you mrantisocialguy I will wait --- post by kirium0212 --- enderuckun9: I design watch faces for watches. We all design watc",
-     " are tagged in or if a current Facer Creator Partner recommends you to them as a possible partner candidate. --- post by enderuckun9 --- so much thank you mrantisocialguy I will wait --- post by kirium0212 --- enderuckun9: I design watch faces for watches. We all design watch faces for watches. If I were you, I would j"
-    ]
-   },
-   {
-    "kw": "revenue",
-    "count": 1,
-    "snips": [
-     "e who have a proven track record generating their brand, followers, and most importantly, revenue, somewhere else. So, if what you say is the truth regarding your success elsewhere, then let them know and I am sure we will all see a new creator partner shortly. --- post by christianfernandes38 --- Desculpem pela pergun"
-    ]
-   },
-   {
-    "kw": "premium",
-    "count": 4,
-    "snips": [
-     "TITLE: About premium seller URL: https://community.facer.io/t/about-premium-seller/92147 --- post by enderuckun9 --- Dear FACER It’s been 2 months today. I have designed and sent 138 free clock faces for your page so far. I think my watch face",
-     "TITLE: About premium seller URL: https://community.facer.io/t/about-premium-seller/92147 --- post by enderuckun9 --- Dear FACER It’s been 2 months today. I have designed and sent 138 free clock faces for your page so far. I think my watch faces attracted a lot of attention. So far, in 2 months, 30",
-     " Some designers sell and publish their watch faces for a fee. I think these designers are premium designers. I want to become a premium designer to make more beautiful watch faces. My goal is to sell my watch faces. What should I do for this? Could you give me information regarding this issue? I have also been going to",
-     " watch faces for a fee. I think these designers are premium designers. I want to become a premium designer to make more beautiful watch faces. My goal is to sell my watch faces. What should I do for this? Could you give me information regarding this issue? I have also been going to the Huawei store for 2 years. Band6 -"
-    ]
-   }
-  ]
- },
- {
-  "host": "www.facer.io",
-  "status": "local",
-  "len": 185924,
-  "title": "",
-  "from": "_ov1_facer_partner_rendered.html",
-  "note": "pre-existing local capture",
-  "matches": [
-   {
-    "kw": "creator",
-    "count": 9,
-    "snips": [
-     "Facer Creator - Design Watch Faces for Apple Watch, Wear OS, Samsung, and More Facer Explore All Watch Faces Facer Creator Design Your Own Watch Face Facer Store Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the ",
-     "tch Faces for Apple Watch, Wear OS, Samsung, and More Facer Explore All Watch Faces Facer Creator Design Your Own Watch Face Facer Store Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the App Sign in Get Premium Featured Looks Top Charts Brands Explore Sign in Discover more from Facer Facer Store",
-     "owcase Most Popular Growth Marketing Tools Community Forum Help Get Started Documentation Creator Reference Contact Support Other Rate Facer Creator Changelog Feature Request Upgrade © 2026 FACER - All rights reserved v7.68.0.692 v7.68.0.692 Monetize your watch faces on the #1 platform for Apple Watch, WearOS, Tizen, a",
-     "y Forum Help Get Started Documentation Creator Reference Contact Support Other Rate Facer Creator Changelog Feature Request Upgrade © 2026 FACER - All rights reserved v7.68.0.692 v7.68.0.692 Monetize your watch faces on the #1 platform for Apple Watch, WearOS, Tizen, and more. Join the top platform empowering independe"
-    ]
-   },
-   {
-    "kw": "partner",
-    "count": 9,
-    "snips": [
-     "eator Design Your Own Watch Face Facer Store Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the App Sign in Get Premium Featured Looks Top Charts Brands Explore Sign in Discover more from Facer Facer Store Watch Bands & Accessories Create Import Workspace Watch Faces Inspiration Hub Showcase Most",
-     "ndent watch face designers. Apply Now Requires an active Pro plan or an invitation from a Partner to apply. 0 --> Designer Tools & Benefits Facer Creator, without limits – Design and publish paid watch faces effortlessly with our powerful editor. Everything you need to grow – Access clear documentation and helpful tool",
-     "es, plus direct support from the Facer team and access to a real-time chatroom with other Partner creators. How it works Create and build Use Facer Creator to design high-quality watch faces. Everything you need to bring your ideas to life is built in. Get approval We’ll review your designs to make sure they meet the q",
-     "performance and revenue breakdown is available in your dashboard. What kind of support do partners receive? Partners get access to dedicated support for program-related questions, tips on publishing best practices, and ongoing updates from the Facer team to help them succeed. Subscriptions: Earn recurring revenue based"
-    ]
-   },
-   {
-    "kw": "earn",
-    "count": 9,
-    "snips": [
-     "our designs to make sure they meet the quality standards for publishing and monetization. Earn money Once approved, your watch faces will be available for purchase by millions of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces throu",
-     "e for purchase by millions of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earning",
-     "s of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly ",
-     "or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly and distributed through supported payout options. A full performance and revenue breakdown is available in your dashboard. What kind of support do partners receive?"
-    ]
-   },
-   {
-    "kw": "revenue",
-    "count": 4,
-    "snips": [
-     "to support every step of your creative journey. Track your success in real time – Monitor revenue, syncs, and top-performing designs through the built-in Insights dashboard. Exclusive marketing and publishing opportunities, plus direct support from the Facer team and access to a real-time chatroom with other Partner cr",
-     "users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly and d",
-     "lculated monthly and distributed through supported payout options. A full performance and revenue breakdown is available in your dashboard. What kind of support do partners receive? Partners get access to dedicated support for program-related questions, tips on publishing best practices, and ongoing updates from the Fa",
-     "d ongoing updates from the Facer team to help them succeed. Subscriptions: Earn recurring revenue based on how many of your paid watch faces are synced by Facer Premium subscribers. The more users choose your designs, the more you earn each month. Individual purchases: Users can buy your paid watch faces individually f"
-    ]
-   },
-   {
-    "kw": "payout",
-    "count": 1,
-    "snips": [
-     "and when do I get paid? Earnings are calculated monthly and distributed through supported payout options. A full performance and revenue breakdown is available in your dashboard. What kind of support do partners receive? Partners get access to dedicated support for program-related questions, tips on publishing best pra"
-    ]
-   },
-   {
-    "kw": "monetiz",
-    "count": 2,
-    "snips": [
-     "ngelog Feature Request Upgrade © 2026 FACER - All rights reserved v7.68.0.692 v7.68.0.692 Monetize your watch faces on the #1 platform for Apple Watch, WearOS, Tizen, and more. Join the top platform empowering independent watch face designers. Apply Now Requires an active Pro plan or an invitation from a Partner to app",
-     "We’ll review your designs to make sure they meet the quality standards for publishing and monetization. Earn money Once approved, your watch faces will be available for purchase by millions of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid wat"
-    ]
-   },
-   {
-    "kw": "premium",
-    "count": 3,
-    "snips": [
-     "Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the App Sign in Get Premium Featured Looks Top Charts Brands Explore Sign in Discover more from Facer Facer Store Watch Bands & Accessories Create Import Workspace Watch Faces Inspiration Hub Showcase Most Popular Growth Marketing Tools Community For",
-     "earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly and distributed through supported payout options. A full performa",
-     "ns: Earn recurring revenue based on how many of your paid watch faces are synced by Facer Premium subscribers. The more users choose your designs, the more you earn each month. Individual purchases: Users can buy your paid watch faces individually from the Facer platform. Each time a user purchases and syncs your face,"
-    ]
-   }
-  ]
- },
- {
-  "host": "www.facer.io",
-  "status": "local",
-  "len": 123,
-  "title": "",
-  "from": "_ov1_facer_partner.txt",
-  "note": "pre-existing local capture",
-  "matches": []
- },
- {
-  "host": "www.facer.io",
-  "status": "local",
-  "len": 260,
-  "title": "",
-  "from": "_ov1_facer_forum_monetization.json",
-  "note": "pre-existing local capture",
-  "matches": [
-   {
-    "kw": "premium",
-    "count": 2,
-    "snips": [
-     " p4] Another collaboration with russellcresser | id=94195 | posts=7\", \"[general p4] About premium seller | id=92147 | posts=35\", \"[announcements p4] How to become a Premium Designer and sell your watch face designs on Facer | id=3540 | posts=122\" ]",
-     "eral p4] About premium seller | id=92147 | posts=35\", \"[announcements p4] How to become a Premium Designer and sell your watch face designs on Facer | id=3540 | posts=122\" ]"
-    ]
-   }
-  ]
- },
- {
-  "host": "www.facer.io",
-  "status": "empty",
-  "len": 0,
-  "title": "",
-  "from": "_f1.html",
-  "note": "chrome-fetch returned 0 bytes (SPA/proxy issue)",
-  "matches": []
- },
- {
-  "host": "www.facer.io",
-  "status": "empty",
-  "len": 0,
-  "title": "",
-  "from": "_f2.html",
-  "note": "chrome-fetch returned 0 bytes (SPA/proxy issue)",
-  "matches": []
+{
+ "records": [
+  {
+   "host": "www.facer.io",
+   "status": "local",
+   "len": 2713,
+   "title": "",
+   "from": "_ov1_facer_topic_3540.txt",
+   "note": "pre-existing local capture",
+   "matches": [
+    {
+     "kw": "creator",
+     "count": 2,
+     "snips": [
+      " interested in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and everything you need to know about the program there to help you get started. We look forward to reviewing your applications! Sincerely, -The Facer Team --- post by Mellin --- BTW.: How can one ",
+      "we properly address your concern/need. Cheers! --- post by Mellin --- For the sake of the creator, this would be a good thing to have (for me at least). Also, if it is not available, we cannot determinate if we qualify for that 3000 sync in 30 days thing. --- post by Ray_Hope --- If a designer is successful are they ab"
+     ]
+    },
+    {
+     "kw": "partner",
+     "count": 2,
+     "snips": [
+      "ns-on-facer/3540 --- post by Facer_Official --- If you’re interested in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and everything you need to know about the program there to help you get started. We look forward to reviewing your applications! Sincerely, ",
+      "ted in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and everything you need to know about the program there to help you get started. We look forward to reviewing your applications! Sincerely, -The Facer Team --- post by Mellin --- BTW.: How can one check, w"
+     ]
+    },
+    {
+     "kw": "premium",
+     "count": 6,
+     "snips": [
+      "TITLE: How to become a Premium Designer and sell your watch face designs on Facer URL: https://community.facer.io/t/how-to-become-a-premium-designer-and-sell-your-watch-face-designs-on-facer/3540 --- post by Facer_Official --- If you’re interested in jo",
+      "d sell your watch face designs on Facer URL: https://community.facer.io/t/how-to-become-a-premium-designer-and-sell-your-watch-face-designs-on-facer/3540 --- post by Facer_Official --- If you’re interested in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and",
+      "over 3,000 syncs within the first 30 days after publishing, to PAID? --- post by Kris --- Premium designers are allowed re-submit previously free faces as Premium faces. However, we urge them to increase the value of the watches by using premium designer features like themes, complications or stickers so that consumers",
+      "ID? --- post by Kris --- Premium designers are allowed re-submit previously free faces as Premium faces. However, we urge them to increase the value of the watches by using premium designer features like themes, complications or stickers so that consumers see the increased value of the premium faces over the free versi"
+     ]
+    }
+   ],
+   "full_text": "TITLE: How to become a Premium Designer and sell your watch face designs on Facer URL: https://community.facer.io/t/how-to-become-a-premium-designer-and-sell-your-watch-face-designs-on-facer/3540 --- post by Facer_Official --- If you’re interested in joining the Facer Partner Program, you can apply here https://www.facer.io/creator/partner You’ll find FAQs and everything you need to know about the program there to help you get started. We look forward to reviewing your applications! Sincerely, -The Facer Team --- post by Mellin --- BTW.: How can one check, when was his/hers face uploaded (originally)? Under Facer - Thousands of FREE watch faces for Apple Watch, Samsung Gear S3, Huawei Watch, and more I can see mostly last edited date. --- post by Facer_Official --- @Mellin we do not show this date today but it’d be pretty easy for us to add! Just for our information, what is the use case for you to want to see that date? That will help us make sure we properly address your concern/need. Cheers! --- post by Mellin --- For the sake of the creator, this would be a good thing to have (for me at least). Also, if it is not available, we cannot determinate if we qualify for that 3000 sync in 30 days thing. --- post by Ray_Hope --- If a designer is successful are they able to change the 3 FREE watch faces, that received over 3,000 syncs within the first 30 days after publishing, to PAID? --- post by Kris --- Premium designers are allowed re-submit previously free faces as Premium faces. However, we urge them to increase the value of the watches by using premium designer features like themes, complications or stickers so that consumers see the increased value of the premium faces over the free versions. --- post by MadisonLastrega --- Freaking WOW… 9000 syncs in a month…seems IMPOSSIBLE for the average solo artist… I love the concept, but set more realistic goals… I aint sayin, Im just saying… I feel good with 25 a day… And I put ALOT of time with pro grade software to make them… but almost 150 a day to reach that goal… I will try but, with goals like this it makes me want to just give up… goals like that are too high with out a full development team… and oh most of us are just solo artist, have lives and work be fair and judge the piece not how many times you get synced… thanks for listening --- post by Mellin --- I kind of agree with @MadisonLastrega Untile now I had only 1 face that reached that goal and another 5, or 6 that reached between 2000 and 2500 (some of them are still younger than a month, but I can see a definite decline in daily syncs on them). Maybe one day… BTW.: I wonder how many active users does the Facer app have?"
+  },
+  {
+   "host": "www.facer.io",
+   "status": "local",
+   "len": 3803,
+   "title": "",
+   "from": "_ov1_facer_topic_92147.txt",
+   "note": "pre-existing local capture",
+   "matches": [
+    {
+     "kw": "creator",
+     "count": 3,
+     "snips": [
+      "ry. --- post by mrantisocialguy --- @enderuckun9 If you go to this webpage Become a Facer Creator Partner you will find what it takes to become a Facer Partner. You will also find that it is by Invitation Only If you satisfy (Facer’s) criteria and are selected by the Facer team , you will receive an invite by email. Ge",
+      "since they do not read every post, just the ones they are tagged in or if a current Facer Creator Partner recommends you to them as a possible partner candidate. --- post by enderuckun9 --- so much thank you mrantisocialguy I will wait --- post by kirium0212 --- enderuckun9: I design watch faces for watches. We all des",
+      " regarding your success elsewhere, then let them know and I am sure we will all see a new creator partner shortly. --- post by christianfernandes38 --- Desculpem pela pergunta mas, existem outros aplicativos como o FACER? --- post by kirium0212 --- Not as far a I have seen. Facer is really the best thing out there in t"
+     ]
+    },
+    {
+     "kw": "partner",
+     "count": 5,
+     "snips": [
+      "post by mrantisocialguy --- @enderuckun9 If you go to this webpage Become a Facer Creator Partner you will find what it takes to become a Facer Partner. You will also find that it is by Invitation Only If you satisfy (Facer’s) criteria and are selected by the Facer team , you will receive an invite by email. Getting no",
+      "this webpage Become a Facer Creator Partner you will find what it takes to become a Facer Partner. You will also find that it is by Invitation Only If you satisfy (Facer’s) criteria and are selected by the Facer team , you will receive an invite by email. Getting noticed by them and impressing them enough to consider y",
+      "ey do not read every post, just the ones they are tagged in or if a current Facer Creator Partner recommends you to them as a possible partner candidate. --- post by enderuckun9 --- so much thank you mrantisocialguy I will wait --- post by kirium0212 --- enderuckun9: I design watch faces for watches. We all design watc",
+      " are tagged in or if a current Facer Creator Partner recommends you to them as a possible partner candidate. --- post by enderuckun9 --- so much thank you mrantisocialguy I will wait --- post by kirium0212 --- enderuckun9: I design watch faces for watches. We all design watch faces for watches. If I were you, I would j"
+     ]
+    },
+    {
+     "kw": "revenue",
+     "count": 1,
+     "snips": [
+      "e who have a proven track record generating their brand, followers, and most importantly, revenue, somewhere else. So, if what you say is the truth regarding your success elsewhere, then let them know and I am sure we will all see a new creator partner shortly. --- post by christianfernandes38 --- Desculpem pela pergun"
+     ]
+    },
+    {
+     "kw": "premium",
+     "count": 4,
+     "snips": [
+      "TITLE: About premium seller URL: https://community.facer.io/t/about-premium-seller/92147 --- post by enderuckun9 --- Dear FACER It’s been 2 months today. I have designed and sent 138 free clock faces for your page so far. I think my watch face",
+      "TITLE: About premium seller URL: https://community.facer.io/t/about-premium-seller/92147 --- post by enderuckun9 --- Dear FACER It’s been 2 months today. I have designed and sent 138 free clock faces for your page so far. I think my watch faces attracted a lot of attention. So far, in 2 months, 30",
+      " Some designers sell and publish their watch faces for a fee. I think these designers are premium designers. I want to become a premium designer to make more beautiful watch faces. My goal is to sell my watch faces. What should I do for this? Could you give me information regarding this issue? I have also been going to",
+      " watch faces for a fee. I think these designers are premium designers. I want to become a premium designer to make more beautiful watch faces. My goal is to sell my watch faces. What should I do for this? Could you give me information regarding this issue? I have also been going to the Huawei store for 2 years. Band6 -"
+     ]
+    }
+   ],
+   "full_text": "TITLE: About premium seller URL: https://community.facer.io/t/about-premium-seller/92147 --- post by enderuckun9 --- Dear FACER It’s been 2 months today. I have designed and sent 138 free clock faces for your page so far. I think my watch faces attracted a lot of attention. So far, in 2 months, 30101 users have downloaded my watchfaces. He uploaded it to his own watches. and I was very pleased. I want to do the best for them. I want to make the most beautiful watch faces. I want to do this job professionally. But right now my opportunities are very limited. I would like to make more beautiful watch faces. I see it on your page. Some designers sell and publish their watch faces for a fee. I think these designers are premium designers. I want to become a premium designer to make more beautiful watch faces. My goal is to sell my watch faces. What should I do for this? Could you give me information regarding this issue? I have also been going to the Huawei store for 2 years. Band6 - Watchfit1 - Watchfit2 - Gt2 Pro - Gt3 Pro - Watch3 I design watch faces for watches. For 2 years, 2000 of my watch faces have been approved and sold by Huawei. They send the money to my bank account regularly every month. I’m very pleased for now. I want to work with you under these conditions. I would be very grateful if you could help me with this. I’m waiting for your good news as soon as possible. I wish you good days and good work. Designer: MASTER22 --- post by christianfernandes38 --- Interessante sua pergunta. Eu estou muito longe de um nível desse mas, também gostariar pois, o Facer ganha quando alguns são baixados, não me refiro aos meus mas, vejo que diversos modelos estão classificados como Gold e, a fazer está tendo lucro! --- post by jason.clarke.uk --- You should submit a request at https://help.facer.io/hc/en-us This community forum is not the correct place to submit your query. --- post by mrantisocialguy --- @enderuckun9 If you go to this webpage Become a Facer Creator Partner you will find what it takes to become a Facer Partner. You will also find that it is by Invitation Only If you satisfy (Facer’s) criteria and are selected by the Facer team , you will receive an invite by email. Getting noticed by them and impressing them enough to consider you is the main problem you have to overcome. Getting noticed by them here in the community isn’t going to happen since they do not read every post, just the ones they are tagged in or if a current Facer Creator Partner recommends you to them as a possible partner candidate. --- post by enderuckun9 --- so much thank you mrantisocialguy I will wait --- post by kirium0212 --- enderuckun9: I design watch faces for watches. We all design watch faces for watches. If I were you, I would just point Facer to where I can show them that I am MAKING money selling watches on other platforms. I personally believe that Facer isn’t really interested in new, fresh, unique designs because let’s be honest, we all do the same thing really. It seems apparent to myself and probably most of us “designers” who languish here in Facer free-land hoping against all hope to get the call to go to the big show that Facer is only interested in those who have a proven track record generating their brand, followers, and most importantly, revenue, somewhere else. So, if what you say is the truth regarding your success elsewhere, then let them know and I am sure we will all see a new creator partner shortly. --- post by christianfernandes38 --- Desculpem pela pergunta mas, existem outros aplicativos como o FACER? --- post by kirium0212 --- Not as far a I have seen. Facer is really the best thing out there in terms of ease of use and community. It’s just too bad I cannot make a little money with it."
+  },
+  {
+   "host": "www.facer.io",
+   "status": "local",
+   "len": 185924,
+   "title": "",
+   "from": "_ov1_facer_partner_rendered.html",
+   "note": "pre-existing local capture",
+   "matches": [
+    {
+     "kw": "creator",
+     "count": 9,
+     "snips": [
+      "Facer Creator - Design Watch Faces for Apple Watch, Wear OS, Samsung, and More Facer Explore All Watch Faces Facer Creator Design Your Own Watch Face Facer Store Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the ",
+      "tch Faces for Apple Watch, Wear OS, Samsung, and More Facer Explore All Watch Faces Facer Creator Design Your Own Watch Face Facer Store Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the App Sign in Get Premium Featured Looks Top Charts Brands Explore Sign in Discover more from Facer Facer Store",
+      "owcase Most Popular Growth Marketing Tools Community Forum Help Get Started Documentation Creator Reference Contact Support Other Rate Facer Creator Changelog Feature Request Upgrade © 2026 FACER - All rights reserved v7.68.0.692 v7.68.0.692 Monetize your watch faces on the #1 platform for Apple Watch, WearOS, Tizen, a",
+      "y Forum Help Get Started Documentation Creator Reference Contact Support Other Rate Facer Creator Changelog Feature Request Upgrade © 2026 FACER - All rights reserved v7.68.0.692 v7.68.0.692 Monetize your watch faces on the #1 platform for Apple Watch, WearOS, Tizen, and more. Join the top platform empowering independe"
+     ]
+    },
+    {
+     "kw": "partner",
+     "count": 9,
+     "snips": [
+      "eator Design Your Own Watch Face Facer Store Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the App Sign in Get Premium Featured Looks Top Charts Brands Explore Sign in Discover more from Facer Facer Store Watch Bands & Accessories Create Import Workspace Watch Faces Inspiration Hub Showcase Most",
+      "ndent watch face designers. Apply Now Requires an active Pro plan or an invitation from a Partner to apply. 0 --> Designer Tools & Benefits Facer Creator, without limits – Design and publish paid watch faces effortlessly with our powerful editor. Everything you need to grow – Access clear documentation and helpful tool",
+      "es, plus direct support from the Facer team and access to a real-time chatroom with other Partner creators. How it works Create and build Use Facer Creator to design high-quality watch faces. Everything you need to bring your ideas to life is built in. Get approval We’ll review your designs to make sure they meet the q",
+      "performance and revenue breakdown is available in your dashboard. What kind of support do partners receive? Partners get access to dedicated support for program-related questions, tips on publishing best practices, and ongoing updates from the Facer team to help them succeed. Subscriptions: Earn recurring revenue based"
+     ]
+    },
+    {
+     "kw": "earn",
+     "count": 9,
+     "snips": [
+      "our designs to make sure they meet the quality standards for publishing and monetization. Earn money Once approved, your watch faces will be available for purchase by millions of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces throu",
+      "e for purchase by millions of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earning",
+      "s of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly ",
+      "or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly and distributed through supported payout options. A full performance and revenue breakdown is available in your dashboard. What kind of support do partners receive?"
+     ]
+    },
+    {
+     "kw": "revenue",
+     "count": 4,
+     "snips": [
+      "to support every step of your creative journey. Track your success in real time – Monitor revenue, syncs, and top-performing designs through the built-in Insights dashboard. Exclusive marketing and publishing opportunities, plus direct support from the Facer team and access to a real-time chatroom with other Partner cr",
+      "users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly and d",
+      "lculated monthly and distributed through supported payout options. A full performance and revenue breakdown is available in your dashboard. What kind of support do partners receive? Partners get access to dedicated support for program-related questions, tips on publishing best practices, and ongoing updates from the Fa",
+      "d ongoing updates from the Facer team to help them succeed. Subscriptions: Earn recurring revenue based on how many of your paid watch faces are synced by Facer Premium subscribers. The more users choose your designs, the more you earn each month. Individual purchases: Users can buy your paid watch faces individually f"
+     ]
+    },
+    {
+     "kw": "payout",
+     "count": 1,
+     "snips": [
+      "and when do I get paid? Earnings are calculated monthly and distributed through supported payout options. A full performance and revenue breakdown is available in your dashboard. What kind of support do partners receive? Partners get access to dedicated support for program-related questions, tips on publishing best pra"
+     ]
+    },
+    {
+     "kw": "monetiz",
+     "count": 2,
+     "snips": [
+      "ngelog Feature Request Upgrade © 2026 FACER - All rights reserved v7.68.0.692 v7.68.0.692 Monetize your watch faces on the #1 platform for Apple Watch, WearOS, Tizen, and more. Join the top platform empowering independent watch face designers. Apply Now Requires an active Pro plan or an invitation from a Partner to app",
+      "We’ll review your designs to make sure they meet the quality standards for publishing and monetization. Earn money Once approved, your watch faces will be available for purchase by millions of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid wat"
+     ]
+    },
+    {
+     "kw": "premium",
+     "count": 3,
+     "snips": [
+      "Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the App Sign in Get Premium Featured Looks Top Charts Brands Explore Sign in Discover more from Facer Facer Store Watch Bands & Accessories Create Import Workspace Watch Faces Inspiration Hub Showcase Most Popular Growth Marketing Tools Community For",
+      "earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly and distributed through supported payout options. A full performa",
+      "ns: Earn recurring revenue based on how many of your paid watch faces are synced by Facer Premium subscribers. The more users choose your designs, the more you earn each month. Individual purchases: Users can buy your paid watch faces individually from the Facer platform. Each time a user purchases and syncs your face,"
+     ]
+    }
+   ],
+   "full_text": "Facer Creator - Design Watch Faces for Apple Watch, Wear OS, Samsung, and More Facer Explore All Watch Faces Facer Creator Design Your Own Watch Face Facer Store Watch Bands & Accessories Facer B2B Business Partnerships Sign in Get the App Sign in Get Premium Featured Looks Top Charts Brands Explore Sign in Discover more from Facer Facer Store Watch Bands & Accessories Create Import Workspace Watch Faces Inspiration Hub Showcase Most Popular Growth Marketing Tools Community Forum Help Get Started Documentation Creator Reference Contact Support Other Rate Facer Creator Changelog Feature Request Upgrade © 2026 FACER - All rights reserved v7.68.0.692 v7.68.0.692 Monetize your watch faces on the #1 platform for Apple Watch, WearOS, Tizen, and more. Join the top platform empowering independent watch face designers. Apply Now Requires an active Pro plan or an invitation from a Partner to apply. 0 --> Designer Tools & Benefits Facer Creator, without limits – Design and publish paid watch faces effortlessly with our powerful editor. Everything you need to grow – Access clear documentation and helpful tools to support every step of your creative journey. Track your success in real time – Monitor revenue, syncs, and top-performing designs through the built-in Insights dashboard. Exclusive marketing and publishing opportunities, plus direct support from the Facer team and access to a real-time chatroom with other Partner creators. How it works Create and build Use Facer Creator to design high-quality watch faces. Everything you need to bring your ideas to life is built in. Get approval We’ll review your designs to make sure they meet the quality standards for publishing and monetization. Earn money Once approved, your watch faces will be available for purchase by millions of users around the world. Frequently Asked Questions How do I earn money on Facer? You earn revenue when users sync your paid watch faces through Facer Premium, or when they purchase them individually. The more users choose your designs, the more you earn. How and when do I get paid? Earnings are calculated monthly and distributed through supported payout options. A full performance and revenue breakdown is available in your dashboard. What kind of support do partners receive? Partners get access to dedicated support for program-related questions, tips on publishing best practices, and ongoing updates from the Facer team to help them succeed. Subscriptions: Earn recurring revenue based on how many of your paid watch faces are synced by Facer Premium subscribers. The more users choose your designs, the more you earn each month. Individual purchases: Users can buy your paid watch faces individually from the Facer platform. Each time a user purchases and syncs your face, you earn a share of that sale. --> What kinds of designs can I sell? Analog, digital, hybrid, interactive, or animated—any style is welcome, as long as it's original and high-quality. Infringement on copyrights and trademarks is not tolerated. How much can I make as a Facer Creator Partner? Your earnings depend on how many users sync or purchase your designs. Some partners in the Facer Creator Partner Program make a living from their watch face creations. Do I retain ownership of my work? Yes, your designs remain yours. By publishing on Facer, you grant permission for your work to be distributed and promoted through the platform. You must be an independent designer who produces high-quality, innovative, and diverse watch faces on Facer. Your watch faces must have received at least 5,000 syncs in the past 30 days. You must have created at least one collection of watch faces showcasing your own designs, with a banner respecting our quality guidelines. You must be an active and constructive member of the Facer community, including its forums, comment threads, etc. --> Ready to start selling your watch faces? Apply Now Requires an active Pro plan or an invitation from a Partner to apply. 0 --> --> created with www.facer.io"
+  },
+  {
+   "host": "www.facer.io",
+   "status": "local",
+   "len": 123,
+   "title": "",
+   "from": "_ov1_facer_partner.txt",
+   "note": "pre-existing local capture",
+   "matches": []
+  },
+  {
+   "host": "www.facer.io",
+   "status": "local",
+   "len": 260,
+   "title": "",
+   "from": "_ov1_facer_forum_monetization.json",
+   "note": "pre-existing local capture",
+   "matches": [
+    {
+     "kw": "premium",
+     "count": 2,
+     "snips": [
+      " p4] Another collaboration with russellcresser | id=94195 | posts=7\", \"[general p4] About premium seller | id=92147 | posts=35\", \"[announcements p4] How to become a Premium Designer and sell your watch face designs on Facer | id=3540 | posts=122\" ]",
+      "eral p4] About premium seller | id=92147 | posts=35\", \"[announcements p4] How to become a Premium Designer and sell your watch face designs on Facer | id=3540 | posts=122\" ]"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "www.facer.io",
+   "status": "empty",
+   "len": 0,
+   "title": "",
+   "from": "_f1.html",
+   "note": "chrome-fetch returned 0 bytes (SPA/proxy issue)",
+   "matches": []
+  },
+  {
+   "host": "www.facer.io",
+   "status": "empty",
+   "len": 0,
+   "title": "",
+   "from": "_f2.html",
+   "note": "chrome-fetch returned 0 bytes (SPA/proxy issue)",
+   "matches": []
+  }
+ ],
+ "note": {
+  "fetched": {
+   "f1": "https://www.facer.io/creator -> _f1.html (0 bytes, chrome-fetch OK 0)",
+   "f2": "https://www.facer.io/partner -> _f2.html (0 bytes, chrome-fetch OK 0)"
+  },
+  "fallbacks_failed": [
+   "proxy-fetch.mjs -> HTTP 502 for both URLs (Clash 127.0.0.1:7897)",
+   "direct node https -> TLS socket disconnected"
+  ],
+  "substitute": "_ov1_facer_partner_rendered.html (185,924 B) is a previously captured rendered snapshot of the same Facer Partner Program page; used as source of record.",
+  "program_facts": {
+   "name": "Facer Creator Partner Program",
+   "apply": "https://www.facer.io/creator (Apply Now) / https://www.facer.io/creator/partner",
+   "eligibility": "Requires an active Pro plan or an invitation from a Partner to apply.",
+   "revenue_models": [
+    "Recurring subscription revenue based on how many of your paid watch faces are synced by Facer Premium subscribers",
+    "Individual purchases by users on the Facer platform; paid on each purchase+sync"
+   ],
+   "payout": "Earnings calculated monthly and distributed through supported payout options; full performance and revenue breakdown in the Insights dashboard.",
+   "benefits": "Facer Creator without limits, documentation, real-time chatroom with Partner creators, dedicated support, exclusive marketing/publishing opportunities.",
+   "how_it_works": [
+    "Design in Facer Creator",
+    "Get approval (quality standards review)",
+    "Earn money / faces available for purchase"
+   ],
+   "community": "Program is invite/application gated; Pro plan required; forum topics 3540 and 92147 document the application path."
+  }
  }
-]
+}
