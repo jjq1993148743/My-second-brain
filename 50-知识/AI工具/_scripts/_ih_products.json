@@ -1,0 +1,5492 @@
+[
+ {
+  "slug": "ghost",
+  "name": "Ghost",
+  "tagline": "Indie subscription platform for creators",
+  "monthlyRevenue": "880,167",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/ghost"
+ },
+ {
+  "slug": "blender-market",
+  "name": "Blender Market",
+  "tagline": "The indie market for Blender creators",
+  "monthlyRevenue": "556,893",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/blender-market"
+ },
+ {
+  "slug": "cloud-campaign",
+  "name": "Cloud Campaign",
+  "tagline": "Social media marketing software for digital agencies.",
+  "monthlyRevenue": "432,645",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/cloud-campaign"
+ },
+ {
+  "slug": "whaticket",
+  "name": "Whaticket",
+  "tagline": "Multi-agent chat automation platform",
+  "monthlyRevenue": "424,817",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/whaticket"
+ },
+ {
+  "slug": "postiz-2",
+  "name": "Postiz",
+  "tagline": "Agentic social media scheduling tool",
+  "monthlyRevenue": "308,549",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/postiz-2"
+ },
+ {
+  "slug": "savvy-nomad",
+  "name": "Savvy Nomad",
+  "tagline": "Domicile service for American nomads",
+  "monthlyRevenue": "305,104",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/savvy-nomad"
+ },
+ {
+  "slug": "browserless",
+  "name": "browserless",
+  "tagline": "Headless browser automation for developers",
+  "monthlyRevenue": "300,693",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/browserless"
+ },
+ {
+  "slug": "rezi",
+  "name": "Rezi",
+  "tagline": "Best resume software in the world | https://www.rezi.ai/",
+  "monthlyRevenue": "214,034",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/rezi"
+ },
+ {
+  "slug": "shugert",
+  "name": "Shugert",
+  "tagline": "Shopify Select Partner for DTC brands doing $500K–$10M+",
+  "monthlyRevenue": "160,781",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/shugert"
+ },
+ {
+  "slug": "appraiseitnow",
+  "name": "AppraiseItNow",
+  "tagline": "Modern, tech-enabled appraisal platform",
+  "monthlyRevenue": "140,902",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/appraiseitnow"
+ },
+ {
+  "slug": "taxx",
+  "name": "TAXX",
+  "tagline": "Luxembourgish income tax statement made easy",
+  "monthlyRevenue": "115,672",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/taxx"
+ },
+ {
+  "slug": "dealsourcr",
+  "name": "Dealsourcr",
+  "tagline": "Helps UK investors find amazing property deals in seconds",
+  "monthlyRevenue": "98,214",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/dealsourcr"
+ },
+ {
+  "slug": "quotaguard",
+  "name": "QuotaGuard",
+  "tagline": "Static IP Proxies for Cloud-based Apps",
+  "monthlyRevenue": "76,407",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/quotaguard"
+ },
+ {
+  "slug": "gigalixir",
+  "name": "Gigalixir",
+  "tagline": "The only PaaS that fully supports Elixir and Phoenix.",
+  "monthlyRevenue": "67,325",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/gigalixir"
+ },
+ {
+  "slug": "apiframe-the-midjourney-api",
+  "name": "Apiframe",
+  "tagline": "One API to Access Multiple AI Media Models",
+  "monthlyRevenue": "47,944",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/apiframe-the-midjourney-api"
+ },
+ {
+  "slug": "wp-fusion",
+  "name": "WP Fusion",
+  "tagline": "Marketing automation plugin for WordPres",
+  "monthlyRevenue": "46,563",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/wp-fusion"
+ },
+ {
+  "slug": "typebot",
+  "name": "Typebot",
+  "tagline": "Open-source conversational apps builder",
+  "monthlyRevenue": "45,525",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/typebot"
+ },
+ {
+  "slug": "taskforce-sh",
+  "name": "Taskforce.sh",
+  "tagline": "Dashboard for Bull/BullMQ Queues",
+  "monthlyRevenue": "44,641",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/taskforce-sh"
+ },
+ {
+  "slug": "calcbloc",
+  "name": "CalcBloc",
+  "tagline": "Free, source-checked paycheck and tax calculators.",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/calcbloc"
+ },
+ {
+  "slug": "spinandwheel",
+  "name": "SpinAndWheel",
+  "tagline": "Randomisation tool",
+  "monthlyRevenue": "20",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/spinandwheel"
+ },
+ {
+  "slug": "real-alpha",
+  "name": "Real Alpha",
+  "tagline": "Find the best minutes of long interviews. Skip the intro",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/real-alpha"
+ },
+ {
+  "slug": "maidpath",
+  "name": "MaidPath",
+  "tagline": "Free Employee Training Software for Cleaning Businesses",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/maidpath"
+ },
+ {
+  "slug": "launchnestln",
+  "name": "LaunchNestLN",
+  "tagline": "Introducing LN Finder: Discover the Right Products, Tools",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/launchnestln"
+ },
+ {
+  "slug": "hotel-lobby-video-ai",
+  "name": "Hotel Lobby Video AI",
+  "tagline": "Generate 9:16 viral rap videos with Wan 3.0",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/hotel-lobby-video-ai"
+ },
+ {
+  "slug": "notch-radio",
+  "name": "Notch Radio",
+  "tagline": "Internet radio that lives in your MacBook&#39;s notch",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/notch-radio"
+ },
+ {
+  "slug": "textfold",
+  "name": "Textfold",
+  "tagline": "Text Expander for Mac",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/textfold"
+ },
+ {
+  "slug": "blogpilot",
+  "name": "BlogPilot",
+  "tagline": "AI blog Assist, Keyword Research, SEO Scoring &amp; AI Content",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/blogpilot"
+ },
+ {
+  "slug": "lens-3",
+  "name": "Lens",
+  "tagline": "Customer and product knowledge that stay current.",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/lens-3"
+ },
+ {
+  "slug": "hyperverse",
+  "name": "Hyperverse",
+  "tagline": "make your robot reliable",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/hyperverse"
+ },
+ {
+  "slug": "blooming",
+  "name": "Blooming",
+  "tagline": "40+ AI agents. One platform. Built to make businesses bloom.",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/blooming"
+ },
+ {
+  "slug": "raise-sonar",
+  "name": "Raise Sonar",
+  "tagline": "Startup deals from every platform, the moment they go live.",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/raise-sonar"
+ },
+ {
+  "slug": "marketotter",
+  "name": "MarketOtter",
+  "tagline": "Marketing that runs itself.",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/marketotter"
+ },
+ {
+  "slug": "defence-jobs-eu",
+  "name": "Defence Jobs EU",
+  "tagline": "FInd defence jobs across multiple sectors in Europe",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/defence-jobs-eu"
+ },
+ {
+  "slug": "kitedocs",
+  "name": "KiteDocs",
+  "tagline": "Affordable, beautiful documentation for your website.",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/kitedocs"
+ },
+ {
+  "slug": "kelbra",
+  "name": "Kelbra",
+  "tagline": "Two-way calendar sync for Google, Outlook, iCloud &amp; CalDAV",
+  "monthlyRevenue": "200",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/kelbra"
+ },
+ {
+  "slug": "offshoot",
+  "name": "Offshoot",
+  "tagline": "Multi-provider AI Chat with Branching",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/offshoot"
+ },
+ {
+  "slug": "gamesmom",
+  "name": "GamesMom",
+  "tagline": "Free Educational Games and Learning Activities for Kids",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/gamesmom"
+ },
+ {
+  "slug": "course-creator-suite",
+  "name": "Course Creator Suite",
+  "tagline": "Turn a course outline into a finished lecture video with AI",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/course-creator-suite"
+ },
+ {
+  "slug": "round-the-way",
+  "name": "Round The Way",
+  "tagline": "Like Uber for mobile businesses in LA",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/round-the-way"
+ },
+ {
+  "slug": "alesian-security",
+  "name": "Alesian Security",
+  "tagline": "One Character is the Whole Attack",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/alesian-security"
+ },
+ {
+  "slug": "launcholio",
+  "name": "Launcholio",
+  "tagline": "Website audits, product discovery &amp; badge management",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/launcholio"
+ },
+ {
+  "slug": "langprotect-armor",
+  "name": "LangProtect Armor",
+  "tagline": "AI application security for LLM apps and agents",
+  "monthlyRevenue": "1,200",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/langprotect-armor"
+ },
+ {
+  "slug": "airocards",
+  "name": "AIrocards",
+  "tagline": "Virtual cards for AI agents with spending limits",
+  "monthlyRevenue": "1,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/airocards"
+ },
+ {
+  "slug": "wishaboo",
+  "name": "Wishaboo",
+  "tagline": "Collect messages &amp; GIFs for any celebration",
+  "monthlyRevenue": "0",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/wishaboo"
+ },
+ {
+  "slug": "labgpt",
+  "name": "LabGPT",
+  "tagline": "Deploying AI agents into physical labs, accelerating science",
+  "monthlyRevenue": "10,000,000,000,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/labgpt"
+ },
+ {
+  "slug": "onegov",
+  "name": "OneGov",
+  "tagline": "Real-time legislative intelligence across all 50 states, pow",
+  "monthlyRevenue": "100,000,000,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/onegov"
+ },
+ {
+  "slug": "trading-token",
+  "name": "Trading Token",
+  "tagline": "Web3, Tokenization, Blockchain",
+  "monthlyRevenue": "10,000,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/trading-token"
+ },
+ {
+  "slug": "audjust-ai",
+  "name": "Audjust AI",
+  "tagline": "Audjust AI - Audio Editor &amp; AI Music Generator: Shorten Song",
+  "monthlyRevenue": "900,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/audjust-ai"
+ },
+ {
+  "slug": "ailoitte",
+  "name": "Ailoitte",
+  "tagline": "We build AI-native apps for startups, Fixed Price, Outcomes.",
+  "monthlyRevenue": "567,890,678",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ailoitte"
+ },
+ {
+  "slug": "groupon",
+  "name": "Groupon",
+  "tagline": "Local marketplace connecting 16M customers with 1,000 cities",
+  "monthlyRevenue": "498,400,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/groupon"
+ },
+ {
+  "slug": "snapcontract",
+  "name": "Snapcontract",
+  "tagline": "10 trillion $Construction revolution app",
+  "monthlyRevenue": "200,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/snapcontract"
+ },
+ {
+  "slug": "highlevel",
+  "name": "HighLevel",
+  "tagline": "All-in-One AI Powered Sales &amp; Marketing CRM",
+  "monthlyRevenue": "100,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/highlevel"
+ },
+ {
+  "slug": "zyora",
+  "name": "Zyora",
+  "tagline": "Zyora AI is a business assistant platform that helps entrepr",
+  "monthlyRevenue": "80,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/zyora"
+ },
+ {
+  "slug": "moveinsync",
+  "name": "MoveInSync",
+  "tagline": "Simplifying Office Commute",
+  "monthlyRevenue": "54,965,731",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/moveinsync"
+ },
+ {
+  "slug": "age-calculator-2",
+  "name": "Age Calculator",
+  "tagline": "Calculate exact age with precision. Get detailed breakdowns",
+  "monthlyRevenue": "32,560,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/age-calculator-2"
+ },
+ {
+  "slug": "jcbl-india-auto-moto",
+  "name": "JCBL India Auto Moto",
+  "tagline": "Automotive Spare Parts &amp; Aftermarket Components Supplier for",
+  "monthlyRevenue": "23,333,333",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/jcbl-india-auto-moto"
+ },
+ {
+  "slug": "catalyst-test-prep",
+  "name": "Catalyst Test Prep",
+  "tagline": "Score Higher on SAT, ACT &amp; AP Exams",
+  "monthlyRevenue": "19,700,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/catalyst-test-prep"
+ },
+ {
+  "slug": "b2b-tam-calculator",
+  "name": "B2B TAM Calculator",
+  "tagline": "A product by Avention Media",
+  "monthlyRevenue": "19,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/b2b-tam-calculator"
+ },
+ {
+  "slug": "nextiva",
+  "name": "Nextiva",
+  "tagline": "Everything a business needs to communicate",
+  "monthlyRevenue": "10,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/nextiva"
+ },
+ {
+  "slug": "envato",
+  "name": "Envato",
+  "tagline": "A platform for getting creative projects done",
+  "monthlyRevenue": "8,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/envato"
+ },
+ {
+  "slug": "boom-bucket",
+  "name": "BOOM &amp; BUCKET",
+  "tagline": "Most Trusted Used Equipment Marketplace for Buyers &amp; Sellers",
+  "monthlyRevenue": "5,500,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/boom-bucket"
+ },
+ {
+  "slug": "ransomware-help",
+  "name": "Ransomware Help",
+  "tagline": "Ransomware Recovery Company",
+  "monthlyRevenue": "5,000,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ransomware-help"
+ },
+ {
+  "slug": "toko",
+  "name": "Toko",
+  "tagline": "BIG UPDATE COMING SOON",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/toko"
+ },
+ {
+  "slug": "recouple",
+  "name": "Recouple",
+  "tagline": "Reviving couples&#39; intimacy and parenting with online therapy",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/recouple"
+ },
+ {
+  "slug": "the-gringos-autotrader",
+  "name": "The Gringo&#39;s Autotrader",
+  "tagline": "TheGringo.ai vs The Financial Markets",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/the-gringos-autotrader"
+ },
+ {
+  "slug": "timekeeper-bank",
+  "name": "TimeKeeper Bank",
+  "tagline": "Social Networking and Collaboration Tool for Communities",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/timekeeper-bank"
+ },
+ {
+  "slug": "notah-ai",
+  "name": "Notah AI",
+  "tagline": "Transform your meetings and conversations into actionable in",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/notah-ai"
+ },
+ {
+  "slug": "web-development-basics",
+  "name": "WebDevBasics.com",
+  "tagline": "Web Development Basics",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/web-development-basics"
+ },
+ {
+  "slug": "topical-map-ai",
+  "name": "Topical Map Ai",
+  "tagline": "AI-Powered Topical Map Generator for SEO &amp; Content Strategy",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/topical-map-ai"
+ },
+ {
+  "slug": "robomonkey",
+  "name": "Robomonkey",
+  "tagline": "Build Chrome Extensions By Chatting With AI",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/robomonkey"
+ },
+ {
+  "slug": "pc-workman-1-5-7",
+  "name": "PC_Workman - 1.5.7",
+  "tagline": "PC resource monitor - With a friendly AI assist. Full data!",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/pc-workman-1-5-7"
+ },
+ {
+  "slug": "onestepto",
+  "name": "OneStepTo",
+  "tagline": "A guide to launch your own product in ai era",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/onestepto"
+ },
+ {
+  "slug": "mpeaceful",
+  "name": "MPeaceful",
+  "tagline": "Pomodoro Application, Transform your workday into a peaceful",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/mpeaceful"
+ },
+ {
+  "slug": "clean-subtitle",
+  "name": "Clean Subtitle",
+  "tagline": "auto subtitles, captioning, AI subtitle auto fixing",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/clean-subtitle"
+ },
+ {
+  "slug": "sidewrk",
+  "name": "SideWRK",
+  "tagline": "Invoicing and payments built for tradespeople — estimate",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sidewrk"
+ },
+ {
+  "slug": "oreler-fit",
+  "name": "Oreler Fit",
+  "tagline": "Android and iOS workout app.",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/oreler-fit"
+ },
+ {
+  "slug": "wannago",
+  "name": "WannaGo",
+  "tagline": "Plan, collaborate and make friends! Instant and in-browser",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/wannago"
+ },
+ {
+  "slug": "messagedrop",
+  "name": "Messagedrop",
+  "tagline": "Connecting digital content with real places.",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/messagedrop"
+ },
+ {
+  "slug": "edurata",
+  "name": "Edurata",
+  "tagline": "Workflow documentation and automation that is fun",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/edurata"
+ },
+ {
+  "slug": "dilidaly",
+  "name": "DiliDaly",
+  "tagline": "Trade Risk-Free. Live Leaderboard",
+  "monthlyRevenue": null,
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/dilidaly"
+ },
+ {
+  "slug": "plutio",
+  "name": "Plutio",
+  "tagline": "One app to manage your entire small business 🎉",
+  "monthlyRevenue": "17,187",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/plutio"
+ },
+ {
+  "slug": "the-marketing-vault",
+  "name": "The Marketing Vault",
+  "tagline": "AI marketing tools built from $50M in client sales",
+  "monthlyRevenue": "14,310",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/the-marketing-vault"
+ },
+ {
+  "slug": "jetsloth",
+  "name": "JetSloth",
+  "tagline": "Clever Add-ons for Gravity Forms.",
+  "monthlyRevenue": "12,710",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/jetsloth"
+ },
+ {
+  "slug": "taskerarmy",
+  "name": "TaskerArmy",
+  "tagline": "Autonomous Shopify engineering.",
+  "monthlyRevenue": "8,415",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/taskerarmy"
+ },
+ {
+  "slug": "traverse-link",
+  "name": "Traverse.link",
+  "tagline": "Optimize your learning",
+  "monthlyRevenue": "4,805",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/traverse-link"
+ },
+ {
+  "slug": "nocodedevs",
+  "name": "NoCodeDevs",
+  "tagline": "Build anything, no code required.",
+  "monthlyRevenue": "4,457",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/nocodedevs"
+ },
+ {
+  "slug": "christian-tech-jobs",
+  "name": "Christian Tech Jobs",
+  "tagline": "Top job board for finding tech jobs at Christian companies",
+  "monthlyRevenue": "4,056",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/christian-tech-jobs"
+ },
+ {
+  "slug": "funnelrolodex",
+  "name": "Funnel Builder Marketplace",
+  "tagline": "Your Digital Rolodex of Funnel Experts (We&#39;re Hiring)",
+  "monthlyRevenue": "3,413",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/funnelrolodex"
+ },
+ {
+  "slug": "blitzit",
+  "name": "Blitzit",
+  "tagline": "Remove distraction, focus on what matters &amp; get things done",
+  "monthlyRevenue": "3,105",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/blitzit"
+ },
+ {
+  "slug": "guruhotel",
+  "name": "GuruHotel",
+  "tagline": "The Ultimate E-commerce Platform for Hotels",
+  "monthlyRevenue": "3,099",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/guruhotel"
+ },
+ {
+  "slug": "gladys",
+  "name": "Gladys Assistant",
+  "tagline": "A privacy-first, open-source home assistant",
+  "monthlyRevenue": "2,981",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/gladys"
+ },
+ {
+  "slug": "awesound",
+  "name": "Awesound",
+  "tagline": "Simple, secure audio publishing",
+  "monthlyRevenue": "2,270",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/awesound"
+ },
+ {
+  "slug": "academlo",
+  "name": "Academlo",
+  "tagline": "Online Academy for LatAm",
+  "monthlyRevenue": "2,124",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/academlo"
+ },
+ {
+  "slug": "breadcrumbs",
+  "name": "Breadcrumbs",
+  "tagline": "Transitioning people into careers they&#39;re passionate about",
+  "monthlyRevenue": "1,300",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/breadcrumbs"
+ },
+ {
+  "slug": "inbox-pirates",
+  "name": "Inbox Pirates - Email Preview &amp; Email Testing",
+  "tagline": "Preview, test and analyze your emails to boost open rates",
+  "monthlyRevenue": "1,258",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/inbox-pirates"
+ },
+ {
+  "slug": "build-a-mvp",
+  "name": "Build A MVP",
+  "tagline": "SaaS Consulting and Coaching",
+  "monthlyRevenue": "36,000",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/build-a-mvp"
+ },
+ {
+  "slug": "beeminder",
+  "name": "Beeminder",
+  "tagline": "Reminders with a sting",
+  "monthlyRevenue": "34,012",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/beeminder"
+ },
+ {
+  "slug": "webido-ctr",
+  "name": "Webido CTR",
+  "tagline": "The four-platform CTR specialist for local business",
+  "monthlyRevenue": "17,872",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/webido-ctr"
+ },
+ {
+  "slug": "textbelt",
+  "name": "Textbelt",
+  "tagline": "Outgoing SMS API",
+  "monthlyRevenue": "16,232",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/textbelt"
+ },
+ {
+  "slug": "blog-trackr",
+  "name": "Centori",
+  "tagline": "Fractional SEO and content marketing services",
+  "monthlyRevenue": "13,529",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/blog-trackr"
+ },
+ {
+  "slug": "mailbluster",
+  "name": "MailBluster",
+  "tagline": "Super cost-effective email marketing software",
+  "monthlyRevenue": "13,024",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/mailbluster"
+ },
+ {
+  "slug": "cracking-the-coding-career",
+  "name": "The Coding Career Handbook",
+  "tagline": "Principles, Strategies, and Tactic for Junior to Senior Devs",
+  "monthlyRevenue": "10,038",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/cracking-the-coding-career"
+ },
+ {
+  "slug": "benasleo",
+  "name": "Avium",
+  "tagline": "Personal Branding Agency for World-Class Experts",
+  "monthlyRevenue": "9,780",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/benasleo"
+ },
+ {
+  "slug": "xquik",
+  "name": "Xquik",
+  "tagline": "X/Twitter API alternative for developers and agents",
+  "monthlyRevenue": "6,789",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/xquik"
+ },
+ {
+  "slug": "mailingr",
+  "name": "Zanfia",
+  "tagline": "Build online courses and communites with AI!",
+  "monthlyRevenue": "42,780",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/mailingr"
+ },
+ {
+  "slug": "virlo",
+  "name": "Virlo",
+  "tagline": "Go viral with Virlo",
+  "monthlyRevenue": "41,732",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/virlo"
+ },
+ {
+  "slug": "smoothlines",
+  "name": "SmoothLines",
+  "tagline": "Generate the perfect pickup line for your dating app chats",
+  "monthlyRevenue": "99",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/smoothlines"
+ },
+ {
+  "slug": "postpilot",
+  "name": "Zenpost",
+  "tagline": "Lead Generation On Autopilot For Your Services Business",
+  "monthlyRevenue": "99",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/postpilot"
+ },
+ {
+  "slug": "postclaw",
+  "name": "PostClaw",
+  "tagline": "Publish to 13 Platforms. From One Chat.",
+  "monthlyRevenue": "99",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/postclaw"
+ },
+ {
+  "slug": "autogram-2",
+  "name": "AutoGram",
+  "tagline": "Automate liking posts on Instagram",
+  "monthlyRevenue": "99",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/autogram-2"
+ },
+ {
+  "slug": "easyclaw",
+  "name": "EasyClaw",
+  "tagline": "Run OpenClaw instantly. No setup required.",
+  "monthlyRevenue": "98",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/easyclaw"
+ },
+ {
+  "slug": "contentcory",
+  "name": "ContentCory",
+  "tagline": "Super Simple Content Calendar",
+  "monthlyRevenue": "98",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/contentcory"
+ },
+ {
+  "slug": "prowriter",
+  "name": "ProWriter",
+  "tagline": "Helping writers verify their skills and find jobs they love.",
+  "monthlyRevenue": "97",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/prowriter"
+ },
+ {
+  "slug": "bugyard",
+  "name": "Bugyard",
+  "tagline": "Visual feedback &amp; bug reporting for websites",
+  "monthlyRevenue": "97",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/bugyard"
+ },
+ {
+  "slug": "hybride-place",
+  "name": "Hybride.place",
+  "tagline": "Manage your office visits using Slack",
+  "monthlyRevenue": "96",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/hybride-place"
+ },
+ {
+  "slug": "siegrs-gg",
+  "name": "Siegrs.GG",
+  "tagline": "Team and player finder for Rainbow Six: Siege",
+  "monthlyRevenue": "95",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/siegrs-gg"
+ },
+ {
+  "slug": "buildside",
+  "name": "Buildside",
+  "tagline": "Social Network for Founders Building in Public",
+  "monthlyRevenue": "95",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/buildside"
+ },
+ {
+  "slug": "humor-api",
+  "name": "Humor API",
+  "tagline": "The API for everything funny: jokes, memes, gifs.",
+  "monthlyRevenue": "94",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/humor-api"
+ },
+ {
+  "slug": "linkedgrow",
+  "name": "LinkedGrow",
+  "tagline": "AI Agents that find high-intent leads for you",
+  "monthlyRevenue": "91",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/linkedgrow"
+ },
+ {
+  "slug": "storista",
+  "name": "Storista",
+  "tagline": "Service for embedding Instagram Stories into web-site",
+  "monthlyRevenue": "90",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/storista"
+ },
+ {
+  "slug": "flexible-sites",
+  "name": "Flexible Sites",
+  "tagline": "Website Building Platform with CMS",
+  "monthlyRevenue": "90",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/flexible-sites"
+ },
+ {
+  "slug": "100daysofcode-club",
+  "name": "#100DaysOfCode Club",
+  "tagline": "A community coding for 100 straight days",
+  "monthlyRevenue": "90",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/100daysofcode-club"
+ },
+ {
+  "slug": "brainybear-ai-chatbot",
+  "name": "Brainybear AI Chatbot",
+  "tagline": "Train AI Chatbots in 3 Clicks. Help Customers Instantly.",
+  "monthlyRevenue": "89",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/brainybear-ai-chatbot"
+ },
+ {
+  "slug": "visahire",
+  "name": "Visahire",
+  "tagline": "Search 700k+ hired roles at U.S. companies who sponsor visas",
+  "monthlyRevenue": "87",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/visahire"
+ },
+ {
+  "slug": "chatkit",
+  "name": "ChatKit",
+  "tagline": "Probably the best ChatGPT API wrapper out there",
+  "monthlyRevenue": "493",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/chatkit"
+ },
+ {
+  "slug": "digistorms",
+  "name": "DigiStorms",
+  "tagline": "Turn free users into paying customers, on autopilot.",
+  "monthlyRevenue": "490",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/digistorms"
+ },
+ {
+  "slug": "noticky",
+  "name": "Noticky",
+  "tagline": "Sticky notes that float above fullscreen apps on macOS",
+  "monthlyRevenue": "488",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/noticky"
+ },
+ {
+  "slug": "profileguard",
+  "name": "ProfileGuard",
+  "tagline": "A &quot;boring&quot; SaaS protecting contractors",
+  "monthlyRevenue": "485",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/profileguard"
+ },
+ {
+  "slug": "scrt-link-2",
+  "name": "scrt.link",
+  "tagline": "Securely share sensitive information online. One time.",
+  "monthlyRevenue": "462",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/scrt-link-2"
+ },
+ {
+  "slug": "react-native-starter-kits",
+  "name": "Start React Native",
+  "tagline": "React Native Courses and Premium Starter Kits",
+  "monthlyRevenue": "462",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/react-native-starter-kits"
+ },
+ {
+  "slug": "productivity-tools-and-apis-dev-me",
+  "name": "Productivity Tools &amp; APIs",
+  "tagline": "Currency Rates, IP Location, Email and Phone Validation",
+  "monthlyRevenue": "454",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/productivity-tools-and-apis-dev-me"
+ },
+ {
+  "slug": "startup-buffer",
+  "name": "Startup Buffer",
+  "tagline": "Startup Directory For Emerging Startups",
+  "monthlyRevenue": "446",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/startup-buffer"
+ },
+ {
+  "slug": "maestrix-ai-gen-ai-marketing-tool-for-startups",
+  "name": "Maestrix AI,  Gen-AI marketing tool for startups",
+  "tagline": "Build your entire marketing plan &amp; assets from descriptions",
+  "monthlyRevenue": "436",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/maestrix-ai-gen-ai-marketing-tool-for-startups"
+ },
+ {
+  "slug": "chatdox-ai-2",
+  "name": "ChatDox AI",
+  "tagline": "Chat with Your Docs &amp; Youtube Videos.",
+  "monthlyRevenue": "429",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/chatdox-ai-2"
+ },
+ {
+  "slug": "site-palette",
+  "name": "Site Palette",
+  "tagline": "Get the essential colours from any website",
+  "monthlyRevenue": "415",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/site-palette"
+ },
+ {
+  "slug": "t2themes",
+  "name": "LayeredCraft",
+  "tagline": "A theme shop building Ghost themes",
+  "monthlyRevenue": "400",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/t2themes"
+ },
+ {
+  "slug": "logology",
+  "name": "Logology",
+  "tagline": "Inspiring brand design for your startup.",
+  "monthlyRevenue": "399",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/logology"
+ },
+ {
+  "slug": "tracknack",
+  "name": "Tracknack",
+  "tagline": "Music discovery for diggers",
+  "monthlyRevenue": "398",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/tracknack"
+ },
+ {
+  "slug": "taskratchet",
+  "name": "TaskRatchet",
+  "tagline": "Todo List with Teeth",
+  "monthlyRevenue": "398",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/taskratchet"
+ },
+ {
+  "slug": "wild-apricot-quickbooks-manager",
+  "name": "Wild Apricot QuickBooks Manager",
+  "tagline": "Connect your Wild Apricot membership site to QuickBooks",
+  "monthlyRevenue": "396",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/wild-apricot-quickbooks-manager"
+ },
+ {
+  "slug": "eden-photos",
+  "name": "Eden Photos",
+  "tagline": "AI-powered image organisation for Mac",
+  "monthlyRevenue": "396",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/eden-photos"
+ },
+ {
+  "slug": "shipfast-so",
+  "name": "shipfast.so",
+  "tagline": "Next.js boilerplate with all essential features.",
+  "monthlyRevenue": "383",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/shipfast-so"
+ },
+ {
+  "slug": "zyaku",
+  "name": "Zyaku",
+  "tagline": "Zyaku is building an AI Operating System",
+  "monthlyRevenue": "1,000",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/zyaku"
+ },
+ {
+  "slug": "trypost-it",
+  "name": "TryPost.it",
+  "tagline": "Open Source Social Media Scheduler &amp; Automation Tool",
+  "monthlyRevenue": "965",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/trypost-it"
+ },
+ {
+  "slug": "nforce",
+  "name": "NForce",
+  "tagline": "The adaptable AI platform that fits your business",
+  "monthlyRevenue": "937",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/nforce"
+ },
+ {
+  "slug": "confluence-vc",
+  "name": "Confluence.VC",
+  "tagline": "The operating playbook for venture investors",
+  "monthlyRevenue": "916",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/confluence-vc"
+ },
+ {
+  "slug": "azlabels",
+  "name": "AZLabels",
+  "tagline": "One-Click Amazon FBA Labels for Thermal Printers",
+  "monthlyRevenue": "915",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/azlabels"
+ },
+ {
+  "slug": "broadcast",
+  "name": "Broadcast Email Software",
+  "tagline": "Self-Hosted Email Marketing Software",
+  "monthlyRevenue": "901",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/broadcast"
+ },
+ {
+  "slug": "brandingstudio-ai",
+  "name": "BrandingStudio.ai",
+  "tagline": "Agency-quality branding in 60 minutes, not 6 months",
+  "monthlyRevenue": "868",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/brandingstudio-ai"
+ },
+ {
+  "slug": "piano-technicians-masterclasses",
+  "name": "Piano Technicians Masterclasses",
+  "tagline": "Live, Online, Interactive, Masterclasses",
+  "monthlyRevenue": "855",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/piano-technicians-masterclasses"
+ },
+ {
+  "slug": "localhost-run",
+  "name": "localhost.run",
+  "tagline": "Put localhost on the internet instantly",
+  "monthlyRevenue": "845",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/localhost-run"
+ },
+ {
+  "slug": "live-like-louise",
+  "name": "Live Like Louise",
+  "tagline": "Health &amp; Fitness Service",
+  "monthlyRevenue": "835",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/live-like-louise"
+ },
+ {
+  "slug": "orimon",
+  "name": "Orimon",
+  "tagline": "AI Chatbot, GenAi, No Code , Support Chatbot, Sales Bot",
+  "monthlyRevenue": "829",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/orimon"
+ },
+ {
+  "slug": "introcave",
+  "name": "Intro Maker",
+  "tagline": "The easiest way to build your own YouTube intro video.",
+  "monthlyRevenue": "828",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/introcave"
+ },
+ {
+  "slug": "cartta-maps",
+  "name": "Carta Maps",
+  "tagline": "Create, customize and share maps on the internet",
+  "monthlyRevenue": "794",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/cartta-maps"
+ },
+ {
+  "slug": "vento-screen-recorder",
+  "name": "Vento Screen Recorder",
+  "tagline": "Screen recorder that lets you rewind &amp; re-record mistakes",
+  "monthlyRevenue": "773",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/vento-screen-recorder"
+ },
+ {
+  "slug": "fable-fiesta",
+  "name": "Fable Fiesta",
+  "tagline": "Your AI co-author",
+  "monthlyRevenue": "769",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/fable-fiesta"
+ },
+ {
+  "slug": "graphjson",
+  "name": "GraphJSON",
+  "tagline": "The easiest way to create and embed beautiful graphs in your",
+  "monthlyRevenue": "746",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/graphjson"
+ },
+ {
+  "slug": "notebooklm-podcast",
+  "name": "AIdeaFlow Podcast",
+  "tagline": "AI Audio &amp; Podcast Tool",
+  "monthlyRevenue": "743",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/notebooklm-podcast"
+ },
+ {
+  "slug": "glorify-2",
+  "name": "Glorify",
+  "tagline": "Graphic Design tool for E-commerce",
+  "monthlyRevenue": "738",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/glorify-2"
+ },
+ {
+  "slug": "un-talent",
+  "name": "UN Talent",
+  "tagline": "Every position currently open in the UN",
+  "monthlyRevenue": "4,985",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/un-talent"
+ },
+ {
+  "slug": "hubspot-website-theme",
+  "name": "Generator Theme for HubSpot CMS",
+  "tagline": "Build a HubSpot CMS website without a developer",
+  "monthlyRevenue": "4,985",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/hubspot-website-theme"
+ },
+ {
+  "slug": "capturecollab",
+  "name": "Capture Collab",
+  "tagline": "Simple photo-sharing for teams.",
+  "monthlyRevenue": "4,894",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/capturecollab"
+ },
+ {
+  "slug": "maximise-ai",
+  "name": "Maximise AI",
+  "tagline": "Identify and engage anonymous visitors on your website",
+  "monthlyRevenue": "4,698",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/maximise-ai"
+ },
+ {
+  "slug": "notionsocial",
+  "name": "NotionSocial",
+  "tagline": "Schedule posts on social media from Notion",
+  "monthlyRevenue": "4,685",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/notionsocial"
+ },
+ {
+  "slug": "solidgigs",
+  "name": "SolidGigs",
+  "tagline": "Get freelance leads on autopilot.",
+  "monthlyRevenue": "4,509",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/solidgigs"
+ },
+ {
+  "slug": "finwise",
+  "name": "FinWise",
+  "tagline": "Budgeting, wealth tracking, personal finance management, AI",
+  "monthlyRevenue": "4,298",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/finwise"
+ },
+ {
+  "slug": "cloud-emdr",
+  "name": "CloudEMDR",
+  "tagline": "Remote EMDR Therapy (that&#39;s a way to treat trauma)",
+  "monthlyRevenue": "4,254",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/cloud-emdr"
+ },
+ {
+  "slug": "echo-knowledge-base",
+  "name": "Knowledge Base",
+  "tagline": "The Knowledge Base Platform, created for growing companies",
+  "monthlyRevenue": "4,173",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/echo-knowledge-base"
+ },
+ {
+  "slug": "goodsign",
+  "name": "GoodSign",
+  "tagline": "Digital eSignatures for documents that save the environment",
+  "monthlyRevenue": "3,661",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/goodsign"
+ },
+ {
+  "slug": "nemomakes",
+  "name": "Nemomakes",
+  "tagline": "UX/UI Design, Branding, and Development Services",
+  "monthlyRevenue": "3,533",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/nemomakes"
+ },
+ {
+  "slug": "my-little-team",
+  "name": "My Little Team",
+  "tagline": "A recruitment platform focused on teams and their values 💖",
+  "monthlyRevenue": "3,457",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/my-little-team"
+ },
+ {
+  "slug": "packetriot",
+  "name": "Packetriot",
+  "tagline": "Host applications on the Internet from any network or device",
+  "monthlyRevenue": "3,439",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/packetriot"
+ },
+ {
+  "slug": "simplesaas",
+  "name": "SimpleSaaS",
+  "tagline": "A self-built portfolio project of microsaas companies",
+  "monthlyRevenue": "3,426",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/simplesaas"
+ },
+ {
+  "slug": "dynamics-labs",
+  "name": "Dynamics Labs",
+  "tagline": "Online learning platform for Microsoft technologies.",
+  "monthlyRevenue": "3,417",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/dynamics-labs"
+ },
+ {
+  "slug": "vocal-email",
+  "name": "Vocal.email",
+  "tagline": "Voice emails for teams",
+  "monthlyRevenue": "9,400",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/vocal-email"
+ },
+ {
+  "slug": "browserflow",
+  "name": "Browserflow",
+  "tagline": "Automate your work on any website",
+  "monthlyRevenue": "9,165",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/browserflow"
+ },
+ {
+  "slug": "mimikflow",
+  "name": "MimikFlow",
+  "tagline": "AILinkedIn prospecting and setting that gets real replies",
+  "monthlyRevenue": "9,154",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/mimikflow"
+ },
+ {
+  "slug": "visualizee-ai",
+  "name": "Visualizee.ai",
+  "tagline": "Bring Your Architectural Visions to life in seconds.",
+  "monthlyRevenue": "8,625",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/visualizee-ai"
+ },
+ {
+  "slug": "taskerarmy-2",
+  "name": "TaskerArmy",
+  "tagline": "Boost Your Ecommerce Success",
+  "monthlyRevenue": "8,415",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/taskerarmy-2"
+ },
+ {
+  "slug": "radaar",
+  "name": "RADAAR",
+  "tagline": "A best-in-class social media managment platform!",
+  "monthlyRevenue": "8,163",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/radaar"
+ },
+ {
+  "slug": "natural-music",
+  "name": "Natural Music",
+  "tagline": "Online Gospel Piano Lessons",
+  "monthlyRevenue": "7,996",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/natural-music"
+ },
+ {
+  "slug": "openalternative",
+  "name": "OpenAlternative",
+  "tagline": "Discover Open Source Alternatives to Popular Software",
+  "monthlyRevenue": "7,703",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/openalternative"
+ },
+ {
+  "slug": "quantt",
+  "name": "Quantt",
+  "tagline": "Land your dream job in quantitative finance",
+  "monthlyRevenue": "7,527",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/quantt"
+ },
+ {
+  "slug": "replyagent-ai",
+  "name": "ReplyAgent.ai",
+  "tagline": "AI Reddit Marketing Automation Without Getting Banned",
+  "monthlyRevenue": "7,417",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/replyagent-ai"
+ },
+ {
+  "slug": "easymailing",
+  "name": "Easymailing",
+  "tagline": "Mail It Easy! User-friendly email marketing solution",
+  "monthlyRevenue": "7,333",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/easymailing"
+ },
+ {
+  "slug": "play-designer-pro",
+  "name": "Play Designer Pro",
+  "tagline": "A play design tool that turns your playbook into quizzes",
+  "monthlyRevenue": "6,875",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/play-designer-pro"
+ },
+ {
+  "slug": "nextdocs",
+  "name": "NextDocs",
+  "tagline": "The Most Powerful AI Document Editor",
+  "monthlyRevenue": "6,770",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/nextdocs"
+ },
+ {
+  "slug": "contentable-ai",
+  "name": "contentable.ai",
+  "tagline": "Compare AI before you integrate AI in your business",
+  "monthlyRevenue": "6,770",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/contentable-ai"
+ },
+ {
+  "slug": "guidejar",
+  "name": "Guidejar",
+  "tagline": "Create AI-powered interactive product demos and guides",
+  "monthlyRevenue": "6,430",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/guidejar"
+ },
+ {
+  "slug": "capgo",
+  "name": "Capgo",
+  "tagline": "OTA update system for capacitor mobile app",
+  "monthlyRevenue": "40,256",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/capgo"
+ },
+ {
+  "slug": "tape",
+  "name": "Tape",
+  "tagline": "The all-in-one platform to organize your team.",
+  "monthlyRevenue": "38,598",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/tape"
+ },
+ {
+  "slug": "emailengine",
+  "name": "EmailEngine",
+  "tagline": "EmailEngine is an email client but for apps, not people.",
+  "monthlyRevenue": "34,652",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/emailengine"
+ },
+ {
+  "slug": "calendesk",
+  "name": "Calendesk",
+  "tagline": "Scheduling appointment software for business",
+  "monthlyRevenue": "33,469",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/calendesk"
+ },
+ {
+  "slug": "teach-n-go",
+  "name": "Teach &#39;n Go",
+  "tagline": "School Management Software",
+  "monthlyRevenue": "33,123",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/teach-n-go"
+ },
+ {
+  "slug": "linkedb-io",
+  "name": "Liinks",
+  "tagline": "A new kind of link in bio tool.",
+  "monthlyRevenue": "32,303",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/linkedb-io"
+ },
+ {
+  "slug": "prediction-guard",
+  "name": "Prediction Guard",
+  "tagline": "Reliable, evolving AI predictions",
+  "monthlyRevenue": "30,860",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/prediction-guard"
+ },
+ {
+  "slug": "plugbear",
+  "name": "Runbear",
+  "tagline": "DIY Agent for Your Team!",
+  "monthlyRevenue": "28,931",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/plugbear"
+ },
+ {
+  "slug": "nailted",
+  "name": "Nailted",
+  "tagline": "The employee engagement platform for modern People&amp;HR teams",
+  "monthlyRevenue": "26,784",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/nailted"
+ },
+ {
+  "slug": "enrich-labs",
+  "name": "Enrich.so",
+  "tagline": "The most powerful real-time data enrichment API platform",
+  "monthlyRevenue": "26,636",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/enrich-labs"
+ },
+ {
+  "slug": "zelf",
+  "name": "ZELF",
+  "tagline": "Instant money in messengers",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/zelf"
+ },
+ {
+  "slug": "youtube-video-2",
+  "name": "YouTube Video",
+  "tagline": "Affiliate videos, B2B, B2C",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/youtube-video-2"
+ },
+ {
+  "slug": "yo-whatsapp",
+  "name": "yo whatsapp",
+  "tagline": "YoWhatsApp APK is a modified version of WhatsApp designed to",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/yo-whatsapp"
+ },
+ {
+  "slug": "xvideosave",
+  "name": "XVideoSave",
+  "tagline": "Twitter",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/xvideosave"
+ },
+ {
+  "slug": "wisepops",
+  "name": "WisePops",
+  "tagline": "Flexible popup builder for demanding marketers.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/wisepops"
+ },
+ {
+  "slug": "widebot",
+  "name": "WideBot",
+  "tagline": "The First Arabic-Focused Bot Builder Platform!",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/widebot"
+ },
+ {
+  "slug": "web4realty",
+  "name": "Web4Realty",
+  "tagline": "Web Marketing Solutions For Real Estate Agents",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/web4realty"
+ },
+ {
+  "slug": "web-scraping-services-2",
+  "name": "Web Data Scraping Services",
+  "tagline": "Extract Data from Any Kind of Website",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/web-scraping-services-2"
+ },
+ {
+  "slug": "wala-token",
+  "name": "Wala Token",
+  "tagline": "Plataforma DeFi com swap e transações seguras: #crypto",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/wala-token"
+ },
+ {
+  "slug": "w3-solved",
+  "name": "W3 Solved",
+  "tagline": "Digital Marketing Services that crush it",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/w3-solved"
+ },
+ {
+  "slug": "var80",
+  "name": "Var80",
+  "tagline": "VAR80 | AI Workflow Automation &amp; Business Solutions",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/var80"
+ },
+ {
+  "slug": "valuer-ai",
+  "name": "Valuer.ai",
+  "tagline": "We match startups and enterprises.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/valuer-ai"
+ },
+ {
+  "slug": "valuemarkers",
+  "name": "ValueMarkers",
+  "tagline": "Global stock screener for value investors.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/valuemarkers"
+ },
+ {
+  "slug": "valentina-studio-pro",
+  "name": "Valentina Studio Pro",
+  "tagline": "DB Admin | Reporting | DB Diagramming | Forms &amp; more",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/valentina-studio-pro"
+ },
+ {
+  "slug": "valentina-server",
+  "name": "Valentina Server",
+  "tagline": "Database | Reporting | Forms Server",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/valentina-server"
+ },
+ {
+  "slug": "workhub-connect",
+  "name": "WorkHub Connect",
+  "tagline": "A Smart Way to Connect",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/workhub-connect"
+ },
+ {
+  "slug": "visibility",
+  "name": "Visibility",
+  "tagline": "When AI Answers, Be the Brand It Recommends.",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/visibility"
+ },
+ {
+  "slug": "saas-group",
+  "name": "SaaS.group",
+  "tagline": "A portfolio of various SaaS products",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/saas-group"
+ },
+ {
+  "slug": "octoparse",
+  "name": "Octoparse",
+  "tagline": "No-coding web scraping tool with both free and paid plans",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/octoparse"
+ },
+ {
+  "slug": "domain-broker",
+  "name": "Domain Broker",
+  "tagline": "The #1 domain broker in the World.",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/domain-broker"
+ },
+ {
+  "slug": "digital-marketing-services-2",
+  "name": "Digital Marketing Services",
+  "tagline": "We provide all the Digital Marketing services.",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/digital-marketing-services-2"
+ },
+ {
+  "slug": "datatrics",
+  "name": "Datatrics",
+  "tagline": "Creating more revenue by using data and AI",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/datatrics"
+ },
+ {
+  "slug": "chili-piper",
+  "name": "Chili Piper",
+  "tagline": "Buyer Enablement Platform",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/chili-piper"
+ },
+ {
+  "slug": "appsumo-marketplace",
+  "name": "AppSumo Marketplace",
+  "tagline": "Sell your product to our network of everyday entrepreneurs",
+  "monthlyRevenue": "250,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/appsumo-marketplace"
+ },
+ {
+  "slug": "social-fetch",
+  "name": "Social Fetch",
+  "tagline": "Scraper API for TikTok, Instagram, YouTube, X &amp; LinkedIn",
+  "monthlyRevenue": "231,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/social-fetch"
+ },
+ {
+  "slug": "keyapi-2",
+  "name": "Keyapi",
+  "tagline": "One API Key. Unlimited Social Intelligence.",
+  "monthlyRevenue": "230,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/keyapi-2"
+ },
+ {
+  "slug": "creatok",
+  "name": "CreatOK",
+  "tagline": "Turn one winning video into hundreds",
+  "monthlyRevenue": "230,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/creatok"
+ },
+ {
+  "slug": "play-coin",
+  "name": "$PLAY Coin",
+  "tagline": "Cryptocurrency which supports play-based programs",
+  "monthlyRevenue": "220,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/play-coin"
+ },
+ {
+  "slug": "vulse",
+  "name": "Vulse",
+  "tagline": "B2B employee advocacy tool for LinkedIn.",
+  "monthlyRevenue": "3,185",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/vulse"
+ },
+ {
+  "slug": "built-written",
+  "name": "Built&amp;Written",
+  "tagline": "AI Book Editor for Amazon KDP",
+  "monthlyRevenue": "2,824",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/built-written"
+ },
+ {
+  "slug": "changeflow",
+  "name": "Changeflow",
+  "tagline": "Subscribe to any web page",
+  "monthlyRevenue": "2,735",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/changeflow"
+ },
+ {
+  "slug": "sublo",
+  "name": "Sublo",
+  "tagline": "Subtitle Translator and Dual Subtitles for all Netflix &amp; co.",
+  "monthlyRevenue": "2,163",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/sublo"
+ },
+ {
+  "slug": "threadsignals",
+  "name": "ThreadSignals",
+  "tagline": "Warm leads from real conversations",
+  "monthlyRevenue": "2,059",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/threadsignals"
+ },
+ {
+  "slug": "codekidz",
+  "name": "CodeKidz",
+  "tagline": "The first AI-powered programming learning platform for kids.",
+  "monthlyRevenue": "1,695",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/codekidz"
+ },
+ {
+  "slug": "northr",
+  "name": "Northr",
+  "tagline": "Daily clarity for builders doing too much",
+  "monthlyRevenue": "1,683",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/northr"
+ },
+ {
+  "slug": "romulus-2",
+  "name": "Romulus",
+  "tagline": "Find local businesses without websites and sell them one",
+  "monthlyRevenue": "1,636",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/romulus-2"
+ },
+ {
+  "slug": "docuwriter-ai",
+  "name": "DocuWriter.ai",
+  "tagline": "#1 AI Code documentation tools",
+  "monthlyRevenue": "1,499",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/docuwriter-ai"
+ },
+ {
+  "slug": "mksaas",
+  "name": "MkSaaS",
+  "tagline": "Nextjs boilerplate, SaaS starter kit, AI SaaS template",
+  "monthlyRevenue": "1,417",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/mksaas"
+ },
+ {
+  "slug": "listinglab",
+  "name": "ListingLab",
+  "tagline": "AI-powered Etsy listing optimiser — score, fix, and rewrite",
+  "monthlyRevenue": "1,415",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/listinglab"
+ },
+ {
+  "slug": "ligo-for-linkedin",
+  "name": "LiGo for LinkedIn",
+  "tagline": "Get content ideas and human-sounding LinkedIn posts",
+  "monthlyRevenue": "1,357",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/ligo-for-linkedin"
+ },
+ {
+  "slug": "localhq",
+  "name": "LocalHQ",
+  "tagline": "Ai-Driven Local SEO Tool",
+  "monthlyRevenue": "1,285",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/localhq"
+ },
+ {
+  "slug": "hourlyrate",
+  "name": "ValidateThat!",
+  "tagline": "New product idea? Don&#39;t guess. ValidateThat",
+  "monthlyRevenue": "1,115",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/hourlyrate"
+ },
+ {
+  "slug": "oneminutebranding",
+  "name": "OneMinuteBranding",
+  "tagline": "Stop overthinking your brand. Now ship.",
+  "monthlyRevenue": "1,106",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/oneminutebranding"
+ },
+ {
+  "slug": "bazzly",
+  "name": "Bazzly",
+  "tagline": "Get customers from Reddit on autopilot 🔥",
+  "monthlyRevenue": "17,781",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/bazzly"
+ },
+ {
+  "slug": "zenframe",
+  "name": "Zenframe",
+  "tagline": "A calm planning system for modern families",
+  "monthlyRevenue": "14,843",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/zenframe"
+ },
+ {
+  "slug": "white-label-chat-gpt3",
+  "name": "White Label Chat GPT3",
+  "tagline": "iFrame &amp; Embed OpenAI API powered tools for your end users",
+  "monthlyRevenue": "14,656",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/white-label-chat-gpt3"
+ },
+ {
+  "slug": "chatgpt-writer",
+  "name": "Jetwriter AI",
+  "tagline": "Your personal AI assistant, on any site.",
+  "monthlyRevenue": "11,996",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/chatgpt-writer"
+ },
+ {
+  "slug": "fairmeadow",
+  "name": "FairMeadow",
+  "tagline": "Doorstep laundry service",
+  "monthlyRevenue": "11,309",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/fairmeadow"
+ },
+ {
+  "slug": "scrapegraphai",
+  "name": "ScrapeGraphAI",
+  "tagline": "AI Scraping all in one API",
+  "monthlyRevenue": "11,260",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/scrapegraphai"
+ },
+ {
+  "slug": "rantir",
+  "name": "Rantir",
+  "tagline": "Build Software not Websites",
+  "monthlyRevenue": "10,887",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/rantir"
+ },
+ {
+  "slug": "brickdrop-co",
+  "name": "BrickDrop.co",
+  "tagline": "The premier Lego® rental service",
+  "monthlyRevenue": "10,238",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/brickdrop-co"
+ },
+ {
+  "slug": "listadum",
+  "name": "Listadum",
+  "tagline": "Shop and listing analyzer to help Etsy Sellers boost sales.",
+  "monthlyRevenue": "22,275",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/listadum"
+ },
+ {
+  "slug": "turbo-transcription-ai",
+  "name": "Turbo Transcription AI",
+  "tagline": "This is a tool for converting audio and video to text",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/turbo-transcription-ai"
+ },
+ {
+  "slug": "transcribenext",
+  "name": "TranscribeNext",
+  "tagline": "AI Audio &amp; Video Transcription",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/transcribenext"
+ },
+ {
+  "slug": "sovi-ai",
+  "name": "Sovi AI",
+  "tagline": "An AI study buddy built for different ways of learning.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sovi-ai"
+ },
+ {
+  "slug": "side-school",
+  "name": "Side School",
+  "tagline": "Master AI in 1 month",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/side-school"
+ },
+ {
+  "slug": "sharpr",
+  "name": "Sharpr",
+  "tagline": "Helping you make decisions, faster",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sharpr"
+ },
+ {
+  "slug": "secta-labs",
+  "name": "Secta Labs",
+  "tagline": "Secta Labs: Your Studio-Quality Portraits, Anytime, Anywhere",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/secta-labs"
+ },
+ {
+  "slug": "recovoly",
+  "name": "Recovoly",
+  "tagline": "To help people preserve, recover important document",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/recovoly"
+ },
+ {
+  "slug": "pulse-speech-to-text",
+  "name": "Pulse Speech to Text",
+  "tagline": "Production Grade Transcription for Devs and Enterprises",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/pulse-speech-to-text"
+ },
+ {
+  "slug": "talanoa",
+  "name": "Talanoa",
+  "tagline": "Inbox for people who hate email",
+  "monthlyRevenue": "2,791",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/talanoa"
+ },
+ {
+  "slug": "press-hunt",
+  "name": "Press Hunt 🚀",
+  "tagline": "Searchable database of 500K journalists",
+  "monthlyRevenue": "2,400",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/press-hunt"
+ },
+ {
+  "slug": "image-charts",
+  "name": "Image-Charts",
+  "tagline": "No more server-side rendering pain, 1 url = 1 chart",
+  "monthlyRevenue": "2,334",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/image-charts"
+ },
+ {
+  "slug": "kalendme",
+  "name": "KalendMe",
+  "tagline": "The scheduling platform for Startups and teams",
+  "monthlyRevenue": "2,310",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/kalendme"
+ },
+ {
+  "slug": "basincheck",
+  "name": "BasinCheck",
+  "tagline": "Safety Audit Software for Oil &amp; Gas Contractors",
+  "monthlyRevenue": "2,226",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/basincheck"
+ },
+ {
+  "slug": "buzzmein",
+  "name": "FreshBuzzer",
+  "tagline": "Call-forwarding &amp; Automated Access For Your Buzzer",
+  "monthlyRevenue": "2,083",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/buzzmein"
+ },
+ {
+  "slug": "my-legends-collection",
+  "name": "Legendsverse",
+  "tagline": "Action Figures Collection tracker",
+  "monthlyRevenue": "2,049",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/my-legends-collection"
+ },
+ {
+  "slug": "raaft",
+  "name": "Raaft",
+  "tagline": "Understand and reduce Saas cancellations",
+  "monthlyRevenue": "1,945",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/raaft"
+ },
+ {
+  "slug": "zirano-finance",
+  "name": "Zirano Finance",
+  "tagline": "AI-powered CFO tool designed for founders, solopreneurs etc.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/zirano-finance"
+ },
+ {
+  "slug": "webharvy",
+  "name": "WebHarvy",
+  "tagline": "Visual Web Scraping Software",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/webharvy"
+ },
+ {
+  "slug": "voiceping",
+  "name": "VoicePing",
+  "tagline": "Walkie Talkie and Instant Messaging App",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/voiceping"
+ },
+ {
+  "slug": "vfit-virtual-fitness-session",
+  "name": "vFit virtual fitness session",
+  "tagline": "Virtual Fitness &amp; Gym Solution",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/vfit-virtual-fitness-session"
+ },
+ {
+  "slug": "torii-image-translator",
+  "name": "Torii Image Translator",
+  "tagline": "The Ultimate AI Manga and Image Translator",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/torii-image-translator"
+ },
+ {
+  "slug": "rybbit",
+  "name": "Rybbit",
+  "tagline": "The open source Google Analytics replacement",
+  "monthlyRevenue": "12,066",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/rybbit"
+ },
+ {
+  "slug": "chromestats",
+  "name": "ChromeStats",
+  "tagline": "Chrome extension stats, insights, and safety evaluation",
+  "monthlyRevenue": "5,156",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/chromestats"
+ },
+ {
+  "slug": "synoril-com",
+  "name": "Synoril.com",
+  "tagline": "Simply Advanced",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/synoril-com"
+ },
+ {
+  "slug": "stock-alarm",
+  "name": "Stock Alarm",
+  "tagline": "Wake up when it matters most with reliable stock alerts.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/stock-alarm"
+ },
+ {
+  "slug": "secapps",
+  "name": "SecApps",
+  "tagline": "Better tools Better security",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/secapps"
+ },
+ {
+  "slug": "safervpn",
+  "name": "SaferVPN",
+  "tagline": "The Fastest and Simplest VPN",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/safervpn"
+ },
+ {
+  "slug": "powerpack-for-beaver-builder",
+  "name": "PowerPack for Beaver Builder",
+  "tagline": "50+ Modules &amp; 250+ Templates for Beaver Builder",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/powerpack-for-beaver-builder"
+ },
+ {
+  "slug": "polydust",
+  "name": "Polydust",
+  "tagline": "Simple yet powerful app for iPad for 3D modeling.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/polydust"
+ },
+ {
+  "slug": "oneringci",
+  "name": "OneRingCI",
+  "tagline": "CI/CD as a managed service",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/oneringci"
+ },
+ {
+  "slug": "feedcheck",
+  "name": "FeedCheck",
+  "tagline": "Ratings &amp; reviews management tool for consumer brands",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/feedcheck"
+ },
+ {
+  "slug": "anexplorer",
+  "name": "AnExplorer",
+  "tagline": "All-in-one File Manager for Android",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/anexplorer"
+ },
+ {
+  "slug": "750-words",
+  "name": "750 Words",
+  "tagline": "A private journaling site with analytics and a community.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/750-words"
+ },
+ {
+  "slug": "sahha",
+  "name": "Sahha",
+  "tagline": "User Health, Lifestyle &amp; Behavior API",
+  "monthlyRevenue": "19,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sahha"
+ },
+ {
+  "slug": "s-advertising",
+  "name": "S² Advertising",
+  "tagline": "Digital marketing services focused on paid ads, branding, an",
+  "monthlyRevenue": "19,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/s-advertising"
+ },
+ {
+  "slug": "aimoway",
+  "name": "AIMOWAY",
+  "tagline": "OpenAI-compatible AI API Access for AI Agent Builders",
+  "monthlyRevenue": "19,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/aimoway"
+ },
+ {
+  "slug": "bytegeometry",
+  "name": "ByteGeometry",
+  "tagline": "Software Development and Consuting agency",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/bytegeometry"
+ },
+ {
+  "slug": "military-time-chart",
+  "name": "Military Time Chart",
+  "tagline": "Complete Guide to 24-Hour Time Format",
+  "monthlyRevenue": "98,700",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/military-time-chart"
+ },
+ {
+  "slug": "chronological-age-calculator",
+  "name": "Chronological Age Calculator",
+  "tagline": "Discover your exact age in years, months, days, and more!",
+  "monthlyRevenue": "98,700",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/chronological-age-calculator"
+ },
+ {
+  "slug": "8base",
+  "name": "8base",
+  "tagline": "BaaS Platform and Development Service for Digital Products.",
+  "monthlyRevenue": "89,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/8base"
+ },
+ {
+  "slug": "sidekiq",
+  "name": "Sidekiq",
+  "tagline": "Open-Source Background Job Framework",
+  "monthlyRevenue": "80,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sidekiq"
+ },
+ {
+  "slug": "proxyman",
+  "name": "Proxyman",
+  "tagline": "Capture HTTP(s) in a few clicks",
+  "monthlyRevenue": "75,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/proxyman"
+ },
+ {
+  "slug": "logojoy",
+  "name": "Logojoy",
+  "tagline": "AI-Powered Logo Maker",
+  "monthlyRevenue": "70,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/logojoy"
+ },
+ {
+  "slug": "tinypilot",
+  "name": "TinyPilot",
+  "tagline": "A low-cost, open source device for remote server management",
+  "monthlyRevenue": "69,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/tinypilot"
+ },
+ {
+  "slug": "chess-menswear",
+  "name": "Chess Menswear",
+  "tagline": "Premium Chess Menswear Collection",
+  "monthlyRevenue": "66,290",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/chess-menswear"
+ },
+ {
+  "slug": "social-intents",
+  "name": "Social Intents",
+  "tagline": "AI Live Chat for Microsoft Teams,  Slack, and Google Chat",
+  "monthlyRevenue": "65,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/social-intents"
+ },
+ {
+  "slug": "rpa-tools",
+  "name": "RPA Tools",
+  "tagline": "Discover automated complex processes without coding.",
+  "monthlyRevenue": "55,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/rpa-tools"
+ },
+ {
+  "slug": "browse-ai",
+  "name": "Browse AI",
+  "tagline": "Train a robot to scrape any website in 2 mins with no-code",
+  "monthlyRevenue": "53,958",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/browse-ai"
+ },
+ {
+  "slug": "viralqr",
+  "name": "ViralQR",
+  "tagline": "QR Code Generator",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/viralqr"
+ },
+ {
+  "slug": "complice",
+  "name": "Intend",
+  "tagline": "the to-do list that never goes stale",
+  "monthlyRevenue": "2,273",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/complice"
+ },
+ {
+  "slug": "mgrs-mapper",
+  "name": "MGRS Mapper",
+  "tagline": "Operational planning tool for junior military leaders",
+  "monthlyRevenue": "1,945",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/mgrs-mapper"
+ },
+ {
+  "slug": "investor-hunt-2",
+  "name": "Investor Hunt",
+  "tagline": "A database of 100k+ investors to raise seed round",
+  "monthlyRevenue": "1,912",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/investor-hunt-2"
+ },
+ {
+  "slug": "the-letter-pilot",
+  "name": "The Letter Pilot",
+  "tagline": "Send mail online, real letters, certified mail, no printer",
+  "monthlyRevenue": "1,845",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/the-letter-pilot"
+ },
+ {
+  "slug": "unsection",
+  "name": "Unsection",
+  "tagline": "Where designer find website section design inspiration",
+  "monthlyRevenue": "1,694",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/unsection"
+ },
+ {
+  "slug": "scribbl-co",
+  "name": "Scribbl.co",
+  "tagline": "Scribbl auto-transcribes your customer calls",
+  "monthlyRevenue": "17,487",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/scribbl-co"
+ },
+ {
+  "slug": "ramen-club",
+  "name": "Ramen Club",
+  "tagline": "The community supporting you to ramen profitable, and beyond",
+  "monthlyRevenue": "16,581",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/ramen-club"
+ },
+ {
+  "slug": "pirsch-analytics",
+  "name": "Pirsch Analytics",
+  "tagline": "Next level analytics for the modern web",
+  "monthlyRevenue": "15,379",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/pirsch-analytics"
+ },
+ {
+  "slug": "clientpint",
+  "name": "ClientPing",
+  "tagline": "Client updates from your actual work.",
+  "monthlyRevenue": "13,965",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/clientpint"
+ },
+ {
+  "slug": "hirevire",
+  "name": "Hirevire",
+  "tagline": "Screening automation",
+  "monthlyRevenue": "11,532",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/hirevire"
+ },
+ {
+  "slug": "nat-bot",
+  "name": "Nat.app",
+  "tagline": "A Personal CRM that knows who you&#39;re losing touch with",
+  "monthlyRevenue": "11,396",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/nat-bot"
+ },
+ {
+  "slug": "fina",
+  "name": "Fina Money",
+  "tagline": "Build your own finance tracking app on Fina",
+  "monthlyRevenue": "6,085",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/fina"
+ },
+ {
+  "slug": "flipidea",
+  "name": "roiquant",
+  "tagline": "affordable business decision support system",
+  "monthlyRevenue": "5,904",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/flipidea"
+ },
+ {
+  "slug": "angel-match",
+  "name": "Angel Match",
+  "tagline": "A database of 110k+ Angels and VCs to raise your capital 💰",
+  "monthlyRevenue": "26,566",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/angel-match"
+ },
+ {
+  "slug": "karmabot",
+  "name": "Karma",
+  "tagline": "WFH sorted: praise, rewards, surveys and watercooler chats",
+  "monthlyRevenue": "23,904",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/karmabot"
+ },
+ {
+  "slug": "timodesk",
+  "name": "TimoDesk",
+  "tagline": "TimoDesk - Best Time Tracking Software For Global Teams",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/timodesk"
+ },
+ {
+  "slug": "remotegenies",
+  "name": "RemoteGenies",
+  "tagline": "Hire top-tier, pre-vetted Filipino freelancers",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/remotegenies"
+ },
+ {
+  "slug": "pulse-ai",
+  "name": "Pulse AI",
+  "tagline": "AI-native team chat that eliminates the coordination tax",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/pulse-ai"
+ },
+ {
+  "slug": "maze-engineers",
+  "name": "Maze Engineers",
+  "tagline": "Scientific Manufacturer",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/maze-engineers"
+ },
+ {
+  "slug": "lingflow",
+  "name": "Lingflow",
+  "tagline": "Automate Your Global Content Flow",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/lingflow"
+ },
+ {
+  "slug": "leadiy",
+  "name": "Leadiy",
+  "tagline": "AI-powered business discovery and customer acquisition",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/leadiy"
+ },
+ {
+  "slug": "infinity",
+  "name": "Infinity",
+  "tagline": "One Tool to Organize All Your Work, Your Way.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/infinity"
+ },
+ {
+  "slug": "wordpress-support-help",
+  "name": "WP Small Fix",
+  "tagline": "Quality WordPress Support",
+  "monthlyRevenue": "3,389",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/wordpress-support-help"
+ },
+ {
+  "slug": "integrate-firebase-pro",
+  "name": "Integrate Firebase PRO",
+  "tagline": "Integrate Firebase Apps &amp; WooCommerce",
+  "monthlyRevenue": "1,196",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/integrate-firebase-pro"
+ },
+ {
+  "slug": "gravity-hopper",
+  "name": "Orbital Forge",
+  "tagline": "Easy Gravity Forms management. Build once. Use everywhere.",
+  "monthlyRevenue": "1,120",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/gravity-hopper"
+ },
+ {
+  "slug": "speedfactor",
+  "name": "WP Lighthouse",
+  "tagline": "Improve your website pagespeed with our WP Lighthouse plugin",
+  "monthlyRevenue": "1,056",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/speedfactor"
+ },
+ {
+  "slug": "wp-hacked-help",
+  "name": "WP Hacked Help",
+  "tagline": "First Ever AI Powered Online Wordpress malware scanner",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/wp-hacked-help"
+ },
+ {
+  "slug": "webscore360",
+  "name": "WebScore360",
+  "tagline": "All-in-one website audit tool",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/webscore360"
+ },
+ {
+  "slug": "webhosting",
+  "name": "SPEEDHUB.eu",
+  "tagline": "SPEEDHUB.eu - The Hosting Company",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/webhosting"
+ },
+ {
+  "slug": "techfusion-gear",
+  "name": "Techfusion Gear",
+  "tagline": "We Build It, We Grow It",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/techfusion-gear"
+ },
+ {
+  "slug": "qwegle",
+  "name": "Qwegle",
+  "tagline": "Build faster. Scale smarter.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/qwegle"
+ },
+ {
+  "slug": "pgp-links",
+  "name": "PGP-Links",
+  "tagline": "SEO, Guest Post, WEB Development, Social media marketing,",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/pgp-links"
+ },
+ {
+  "slug": "oidom-websites",
+  "name": "Oidom websites",
+  "tagline": "Fast static website builder",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/oidom-websites"
+ },
+ {
+  "slug": "jobsfrontier",
+  "name": "JobsFrontier",
+  "tagline": "India&#39;s First Niche Job Portal for Digital Marketing Pros...",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/jobsfrontier"
+ },
+ {
+  "slug": "design-sprint-2-0",
+  "name": "Design Sprint 2.0",
+  "tagline": "Test &amp; validate your product ideas in a few days!",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/design-sprint-2-0"
+ },
+ {
+  "slug": "cloudstick",
+  "name": "CloudStick",
+  "tagline": "Server Management tool",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/cloudstick"
+ },
+ {
+  "slug": "ciao",
+  "name": "Ciao",
+  "tagline": "Full Service Digital Agency",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ciao"
+ },
+ {
+  "slug": "chirp-circle",
+  "name": "Chirp Circle",
+  "tagline": "Marketing Campaigns Made Simple",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/chirp-circle"
+ },
+ {
+  "slug": "carpets",
+  "name": "Carpet Hub Team",
+  "tagline": "Custom Carpets, Flooring, Curtains And Sofas In The UAE",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/carpets"
+ },
+ {
+  "slug": "calypsu",
+  "name": "Calypsu",
+  "tagline": "Prototyping focused Design Studio",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/calypsu"
+ },
+ {
+  "slug": "zyro-ai",
+  "name": "Zyro AI",
+  "tagline": "A unified dashboard for managing SEO, social media, user exp",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/zyro-ai"
+ },
+ {
+  "slug": "xblog-ai",
+  "name": "xBlog AI",
+  "tagline": "Instant Content Mastery Crush Search Results",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/xblog-ai"
+ },
+ {
+  "slug": "ubuntu-baba",
+  "name": "Ubuntu Baba",
+  "tagline": "Organic hemp baby carriers",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ubuntu-baba"
+ },
+ {
+  "slug": "snowhouse-studio",
+  "name": "Snowhouse Studio",
+  "tagline": "Unlimited. Design. Fast",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/snowhouse-studio"
+ },
+ {
+  "slug": "saltmarketing-agency",
+  "name": "SaltMarketing.agency",
+  "tagline": "Subscription based WordPress Development",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/saltmarketing-agency"
+ },
+ {
+  "slug": "right-tail-corp",
+  "name": "Right tail Corp",
+  "tagline": "Product teams on demand for Startups",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/right-tail-corp"
+ },
+ {
+  "slug": "over-site",
+  "name": "Over.Site",
+  "tagline": "All your websites. All your work. One platform.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/over-site"
+ },
+ {
+  "slug": "keytomic",
+  "name": "Keytomic",
+  "tagline": "Your AI SEO Automation Platform to help you rank in LLMs",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/keytomic"
+ },
+ {
+  "slug": "honter-studio",
+  "name": "Honter Studio",
+  "tagline": "Elevate your brand with an unlimited design subscription",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/honter-studio"
+ },
+ {
+  "slug": "elementskit",
+  "name": "ElementsKit",
+  "tagline": "All-in-One Addons for Elementor | Design webpages super fast",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/elementskit"
+ },
+ {
+  "slug": "candy-ai-clone",
+  "name": "Tech and Trends",
+  "tagline": "Get Your White Label Candy.ai Chatbot",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/candy-ai-clone"
+ },
+ {
+  "slug": "designpac-2",
+  "name": "DesignPac",
+  "tagline": "Rent vetted &amp; dedicated web experts on a low monthly fee.",
+  "monthlyRevenue": "19,750",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/designpac-2"
+ },
+ {
+  "slug": "oshine",
+  "name": "Oshine",
+  "tagline": "Creative WordPress theme for professionals and agencies",
+  "monthlyRevenue": "16,500",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/oshine"
+ },
+ {
+  "slug": "vimeography",
+  "name": "Vimeography",
+  "tagline": "Full-featured Vimeo video galleries for WordPress",
+  "monthlyRevenue": "16,450",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/vimeography"
+ },
+ {
+  "slug": "sender",
+  "name": "Sender",
+  "tagline": "Email Marketing Tool",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sender"
+ },
+ {
+  "slug": "organic-seo-optimization-with-0-advertising",
+  "name": "Organic SEO Optimization with $0 Advertising",
+  "tagline": "Organic SEO Checklist",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/organic-seo-optimization-with-0-advertising"
+ },
+ {
+  "slug": "ipnote-2",
+  "name": "iPNOTE",
+  "tagline": "Your Virtual IP Team Powered by AI. Delivered via Chat.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ipnote-2"
+ },
+ {
+  "slug": "gogonano",
+  "name": "GoGoNano",
+  "tagline": "Nanotechnology made simple",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/gogonano"
+ },
+ {
+  "slug": "done-for-you-affiliate-websites-and-services",
+  "name": "Human Proof Designs",
+  "tagline": "We build done for you affiliate websites, and other services",
+  "monthlyRevenue": "90,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/done-for-you-affiliate-websites-and-services"
+ },
+ {
+  "slug": "geetest",
+  "name": "GeeTest",
+  "tagline": "Smarter Way to Stop Bad Bots",
+  "monthlyRevenue": "80,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/geetest"
+ },
+ {
+  "slug": "seo-cloud",
+  "name": "Huckabuy Cloud",
+  "tagline": "dynamic rendering for optimal Google crawl experience",
+  "monthlyRevenue": "57,500",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/seo-cloud"
+ },
+ {
+  "slug": "curator-io",
+  "name": "Curator.io",
+  "tagline": "A brandable social media aggregator, with a free tier",
+  "monthlyRevenue": "55,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/curator-io"
+ },
+ {
+  "slug": "best-gold-and-metal-detectors-machines",
+  "name": "Best Gold And Metal Detectors Machines",
+  "tagline": "How I Boosted My Low-Authority Niche eCommerce Site?",
+  "monthlyRevenue": "55,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/best-gold-and-metal-detectors-machines"
+ },
+ {
+  "slug": "servicebot",
+  "name": "Billflow",
+  "tagline": "Build your Stripe billing flow with no code in minutes",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/servicebot"
+ },
+ {
+  "slug": "logaster-logo-maker",
+  "name": "Logaster Logo Maker",
+  "tagline": "Online Brand Identity Builder. Designer-Approved Quality.",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/logaster-logo-maker"
+ },
+ {
+  "slug": "kintsu-ai",
+  "name": "Kintsu.Ai",
+  "tagline": "Vibe code your existing WordPress site",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/kintsu-ai"
+ },
+ {
+  "slug": "fittrack",
+  "name": "FitTrack",
+  "tagline": "our personal fitness &amp; calorie tracking companion",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/fittrack"
+ },
+ {
+  "slug": "affpilot-ai",
+  "name": "AFFPILOT AI",
+  "tagline": "Write 1000+ Article Just 1 Click",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/affpilot-ai"
+ },
+ {
+  "slug": "bookwellnow",
+  "name": "BookWellNow",
+  "tagline": "Simple Booking System for WordPress Businesses",
+  "monthlyRevenue": "49,999",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/bookwellnow"
+ },
+ {
+  "slug": "tulave-knizky",
+  "name": "Tulave knizky",
+  "tagline": "Library, but online",
+  "monthlyRevenue": "2,310",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/tulave-knizky"
+ },
+ {
+  "slug": "wordxpress-wp-website-management",
+  "name": "wpXPRESS",
+  "tagline": "WordPress Support &amp; Maintenance",
+  "monthlyRevenue": "1,509",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/wordxpress-wp-website-management"
+ },
+ {
+  "slug": "whatsplaid-gpt",
+  "name": "Whatsplaid GPT",
+  "tagline": "Get your own WhatsApp Chatbot with ChatGPT AI",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/whatsplaid-gpt"
+ },
+ {
+  "slug": "visustock",
+  "name": "VisuStock",
+  "tagline": "AI Marketplace for Videos, Images, Music, Ebooks, Vectors &amp;",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/visustock"
+ },
+ {
+  "slug": "v2-car-covers",
+  "name": "V2 Car Covers",
+  "tagline": "Design Solutions for a Non-Contact Car Cover",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/v2-car-covers"
+ },
+ {
+  "slug": "tro-matcher",
+  "name": "TRO Matcher",
+  "tagline": "Scan receipts &amp; invoices with AI OCR",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/tro-matcher"
+ },
+ {
+  "slug": "the-video-valley-fr",
+  "name": "The Video Valley FR",
+  "tagline": "Vidéo scribing, animation et explicatives",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/the-video-valley-fr"
+ },
+ {
+  "slug": "spf-50-suncreen",
+  "name": "SPF 50 Suncreen",
+  "tagline": "Sunscrenn For men ,Sun protection cream,light weight",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/spf-50-suncreen"
+ },
+ {
+  "slug": "snappyit-2",
+  "name": "Snappyit",
+  "tagline": "Snappyit is an AI product photography platform made for appa",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/snappyit-2"
+ },
+ {
+  "slug": "smartypilot",
+  "name": "Smartypilot",
+  "tagline": "Smarter Search, More Sales.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/smartypilot"
+ },
+ {
+  "slug": "friendly",
+  "name": "Friendly",
+  "tagline": "Software for companies who want their data to remain in Swit",
+  "monthlyRevenue": "10,515",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/friendly"
+ },
+ {
+  "slug": "automatio-co",
+  "name": "Automatio.ai",
+  "tagline": "Web Automation &amp; Scraping w/o coding powered by AI",
+  "monthlyRevenue": "5,775",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/automatio-co"
+ },
+ {
+  "slug": "underpriced-ai-2",
+  "name": "Underpriced AI",
+  "tagline": "Price smarter, flip faster",
+  "monthlyRevenue": "5,239",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/underpriced-ai-2"
+ },
+ {
+  "slug": "website-development-2",
+  "name": "Website development",
+  "tagline": "we bild best website and mobile application",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/website-development-2"
+ },
+ {
+  "slug": "used-graphics-card-gpu",
+  "name": "High-End GPU Graphics Card AI Accelerator",
+  "tagline": "Sell used GPU to save money",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/used-graphics-card-gpu"
+ },
+ {
+  "slug": "unconventional-acquisitions",
+  "name": "Unconventional Acquisitions",
+  "tagline": "Turning workers into owners. Private equity tactics for us.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/unconventional-acquisitions"
+ },
+ {
+  "slug": "tableai",
+  "name": "TableAI",
+  "tagline": "Restaurant operations on WhatsApp. No app to install.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/tableai"
+ },
+ {
+  "slug": "sqspthemes-com",
+  "name": "Sqspthemes",
+  "tagline": "A curated directory of Squarespace themes and plugins",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sqspthemes-com"
+ },
+ {
+  "slug": "social-flow-machine",
+  "name": "SOCIAL FLOW MACHINE",
+  "tagline": "Profit in 4 Clicks—Join the $466K Digital Service Success!",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/social-flow-machine"
+ },
+ {
+  "slug": "shopscarlet",
+  "name": "Shopscarlet",
+  "tagline": "Create your website and start selling online.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/shopscarlet"
+ },
+ {
+  "slug": "cg-cookie",
+  "name": "CG Cookie",
+  "tagline": "Amazing Blender Training for Artists.",
+  "monthlyRevenue": "21,022",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/cg-cookie"
+ },
+ {
+  "slug": "snipcart",
+  "name": "Snipcart",
+  "tagline": "Easy, flexible e-commerce for developers",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/snipcart"
+ },
+ {
+  "slug": "productoslimpiezahoreca-es",
+  "name": "ProductosLimpiezaHoreca.es",
+  "tagline": "Selling  innovating cleaning products around the world",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/productoslimpiezahoreca-es"
+ },
+ {
+  "slug": "priceproven",
+  "name": "PriceProven",
+  "tagline": "Track daily prices to verify if discounts are real.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/priceproven"
+ },
+ {
+  "slug": "pickitoo",
+  "name": "Pickitoo",
+  "tagline": "Manage all online orders and in-store fulfillment in one sys",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/pickitoo"
+ },
+ {
+  "slug": "payram",
+  "name": "PayRam",
+  "tagline": "A Self Hosted Crypto Payment Processor",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/payram"
+ },
+ {
+  "slug": "niuproxy",
+  "name": "NiuProxy",
+  "tagline": "ost-Effective Residential, ISP, Mobile, and Datacenter Proxi",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/niuproxy"
+ },
+ {
+  "slug": "netnut-proxy-network",
+  "name": "NetNut Proxy Network",
+  "tagline": "Fastest residential IPs proxy network for companies.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/netnut-proxy-network"
+ },
+ {
+  "slug": "mercury",
+  "name": "Mercury",
+  "tagline": "Non-technical friendly software development platform",
+  "monthlyRevenue": "2,610",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/mercury"
+ },
+ {
+  "slug": "sticky-live-preview",
+  "name": "Sticky Live Preview",
+  "tagline": "Floating always-on-top live preview for VS Code &amp; Cursor",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sticky-live-preview"
+ },
+ {
+  "slug": "salvo",
+  "name": "Salvo",
+  "tagline": "AI content engine that remembers your brand voice.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/salvo"
+ },
+ {
+  "slug": "ravlay",
+  "name": "Ravlay",
+  "tagline": "Top-notch design service for SaaS startups",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ravlay"
+ },
+ {
+  "slug": "producthq",
+  "name": "ProductHQ",
+  "tagline": "Product Management Platform",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/producthq"
+ },
+ {
+  "slug": "polygonjs",
+  "name": "Polygonjs",
+  "tagline": "node-based WebGL design tool",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/polygonjs"
+ },
+ {
+  "slug": "piper",
+  "name": "Piper",
+  "tagline": "Your on-demand research assistant",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/piper"
+ },
+ {
+  "slug": "tappr-dev",
+  "name": "tappr.dev",
+  "tagline": "Your top-notch Mobile App Development team",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/tappr-dev"
+ },
+ {
+  "slug": "slidescarnival",
+  "name": "SlidesCarnival",
+  "tagline": "Free Powerpoint templates and Google Slides themes",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/slidescarnival"
+ },
+ {
+  "slug": "rotate-watches",
+  "name": "Rotate Watches Watchmaking Kits",
+  "tagline": "All-in-one kits to build a mechanical watch.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/rotate-watches"
+ },
+ {
+  "slug": "pogumax-designer-software-for-video-projection",
+  "name": "POGUMAX Designer",
+  "tagline": "The easiest tool for interior 3d mapping video projection",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/pogumax-designer-software-for-video-projection"
+ },
+ {
+  "slug": "graphic-design",
+  "name": "cueballcreatives",
+  "tagline": "digital marketing",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/graphic-design"
+ },
+ {
+  "slug": "freecodecamp",
+  "name": "freeCodeCamp.org",
+  "tagline": "Learn to code for free together with millions of people",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/freecodecamp"
+ },
+ {
+  "slug": "coolz-watch-faces-widgets",
+  "name": "Coolz - Watch Faces &amp; Widgets",
+  "tagline": "The Largest Watch Faces Collection for Apple Watch",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/coolz-watch-faces-widgets"
+ },
+ {
+  "slug": "imagebyqwen-com",
+  "name": "imagebyqwen.com",
+  "tagline": "Qwen Image - Advanced AI Photo Generator | ImageByQwen",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/imagebyqwen-com"
+ },
+ {
+  "slug": "hue",
+  "name": "DesignJoy",
+  "tagline": "Unlimited product design as a service.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/hue"
+ },
+ {
+  "slug": "houspire",
+  "name": "Houspire",
+  "tagline": "India&#39;s first transparent Interior Design Platform.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/houspire"
+ },
+ {
+  "slug": "bunny-honey-club",
+  "name": "Bunny Honey Club",
+  "tagline": "AI That Scales Your Business &amp; Reduces Workload",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/bunny-honey-club"
+ },
+ {
+  "slug": "seaverse",
+  "name": "SeaVerse",
+  "tagline": "Create your  films, games, music, worlds - one prompt",
+  "monthlyRevenue": "99,999",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/seaverse"
+ },
+ {
+  "slug": "stripo-email-3",
+  "name": "Stripo.email",
+  "tagline": "All-in-one platform for creating beautiful email templates",
+  "monthlyRevenue": "85,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/stripo-email-3"
+ },
+ {
+  "slug": "ultimate-team-products",
+  "name": "Ultimate Team Products",
+  "tagline": "Become your own boss with our Sports tech",
+  "monthlyRevenue": "75,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ultimate-team-products"
+ },
+ {
+  "slug": "you-are-launched",
+  "name": "You are launched",
+  "tagline": "Launching Startups that get Success Stories",
+  "monthlyRevenue": "70,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/you-are-launched"
+ },
+ {
+  "slug": "arctos",
+  "name": "ARCTOS",
+  "tagline": "Digital Marketing for Startups/SaaS/Seed Businesses",
+  "monthlyRevenue": "60,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/arctos"
+ },
+ {
+  "slug": "dotyeti-com",
+  "name": "DotYeti.com",
+  "tagline": "Unlimited Design Service",
+  "monthlyRevenue": "58,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/dotyeti-com"
+ },
+ {
+  "slug": "moonlight",
+  "name": "Moonlight",
+  "tagline": "A professional community of software developers.",
+  "monthlyRevenue": "55,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/moonlight"
+ },
+ {
+  "slug": "nipyata",
+  "name": "NIPYATA!",
+  "tagline": "Kickass Booze Piñatas Delivered",
+  "monthlyRevenue": "53,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/nipyata"
+ },
+ {
+  "slug": "workshop-tactics",
+  "name": "Workshop Tactics",
+  "tagline": "Ditch dull meetings. Design better products.",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/workshop-tactics"
+ },
+ {
+  "slug": "gini",
+  "name": "gini",
+  "tagline": "Digital CFO for Startups",
+  "monthlyRevenue": "1,670",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/gini"
+ },
+ {
+  "slug": "transaction-tinder",
+  "name": "Transaction Tinder",
+  "tagline": "White-label SaaS that kills mystery charge emails for CPA fi",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/transaction-tinder"
+ },
+ {
+  "slug": "savology",
+  "name": "Savology",
+  "tagline": "The modern way to plan your money.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/savology"
+ },
+ {
+  "slug": "robin",
+  "name": "Robin",
+  "tagline": "Robin lets you build an immersive interaction experience!",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/robin"
+ },
+ {
+  "slug": "quantdinger",
+  "name": "QuantDinger",
+  "tagline": "Next-Gen AI Quantitative Trading Platform",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/quantdinger"
+ },
+ {
+  "slug": "precisa-in",
+  "name": "Precisa.in",
+  "tagline": "Democratising Risk Profiling - AI statement analysis",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/precisa-in"
+ },
+ {
+  "slug": "origami-2",
+  "name": "Origami",
+  "tagline": "Find your perfect customers with one prompt. Yes, just one.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/origami-2"
+ },
+ {
+  "slug": "nationly",
+  "name": "Nationly",
+  "tagline": "Foreign Earned Income Exclusion Tracking App  Nationly",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/nationly"
+ },
+ {
+  "slug": "mumara-one",
+  "name": "Mumara one",
+  "tagline": "Email built for the inbox. Not the spam folder",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/mumara-one"
+ },
+ {
+  "slug": "hodlbot-4",
+  "name": "HodlBot",
+  "tagline": "Cryptocurrency Investing on Autopilot",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/hodlbot-4"
+ },
+ {
+  "slug": "create-invoice-uk",
+  "name": "Create Invoice UK",
+  "tagline": "Create professional UK invoices with your own logo and brand",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/create-invoice-uk"
+ },
+ {
+  "slug": "coinpanda",
+  "name": "Coinpanda",
+  "tagline": "Bitcoin and crypto tax calculation solution",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/coinpanda"
+ },
+ {
+  "slug": "sesen-ai",
+  "name": "SESEN.AI",
+  "tagline": "Boutique AI consultancy for finance and healthcare",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sesen-ai"
+ },
+ {
+  "slug": "saas-business-broker",
+  "name": "SaaS Business Broker",
+  "tagline": "Helping owners exit their SaaS or Software enabled company",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/saas-business-broker"
+ },
+ {
+  "slug": "proptradingvibes",
+  "name": "Proptradingvibes",
+  "tagline": "Find the right Prop Firm. Skip the Bullshit.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/proptradingvibes"
+ },
+ {
+  "slug": "plugsky-unlimited-ai-model-usage",
+  "name": "Plugsky Unlimited AI Model Usage",
+  "tagline": "Plugsky Unlimited AI Model Usage",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/plugsky-unlimited-ai-model-usage"
+ },
+ {
+  "slug": "company-automators-legal-pro",
+  "name": "Company Automator&#39;s Legal Pro",
+  "tagline": "Streamline, Automate, and Scale Your Business Operations",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/company-automators-legal-pro"
+ },
+ {
+  "slug": "bulk-barcode-generator",
+  "name": "Bulk Barcode Generator",
+  "tagline": "The fastest batch barcode generator on the market",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/bulk-barcode-generator"
+ },
+ {
+  "slug": "branchspot",
+  "name": "Branchspot",
+  "tagline": "ATM and Bank Branch Location App",
+  "monthlyRevenue": "18,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/branchspot"
+ },
+ {
+  "slug": "advisorbob",
+  "name": "AdvisorBob",
+  "tagline": "Financial Advisory Compensation Software",
+  "monthlyRevenue": "18,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/advisorbob"
+ },
+ {
+  "slug": "grindup",
+  "name": "GrindUp",
+  "tagline": "AI that finds your best money opportunity in 60 seconds",
+  "monthlyRevenue": "16,500",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/grindup"
+ },
+ {
+  "slug": "quicka",
+  "name": "Quicka",
+  "tagline": "Free Invoicing tools with magic to help you get paid, Quicka",
+  "monthlyRevenue": "16,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/quicka"
+ },
+ {
+  "slug": "revenue-multiplication-engine",
+  "name": "Revenue Multiplication Engine",
+  "tagline": "14-Day System to Recover Lost Revenue &amp; 2–5x Your Existing T",
+  "monthlyRevenue": "15,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/revenue-multiplication-engine"
+ },
+ {
+  "slug": "ok-win",
+  "name": "Ok Win",
+  "tagline": "Best Games In india 2026",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ok-win"
+ },
+ {
+  "slug": "neurox",
+  "name": "NeuroX™",
+  "tagline": "Autonomous AI built to dominate real-time digital trading an",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/neurox"
+ },
+ {
+  "slug": "nada",
+  "name": "nada",
+  "tagline": "Tech-enabled real estate: Flat fee listings, buyer refunds.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/nada"
+ },
+ {
+  "slug": "invoicexml",
+  "name": "InvoiceXML",
+  "tagline": "Factur-X, ZUGFeRD, XRechnung, UBL. One API.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/invoicexml"
+ },
+ {
+  "slug": "embroker-startup-program",
+  "name": "Embroker Startup Program",
+  "tagline": "Intelligent Startup Insurance",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/embroker-startup-program"
+ },
+ {
+  "slug": "projectifi",
+  "name": "ProjectionLab",
+  "tagline": "Modern financial and retirement planning software for FIRE",
+  "monthlyRevenue": "83,500",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/projectifi"
+ },
+ {
+  "slug": "statesets",
+  "name": "StateSet",
+  "tagline": "The iCommerce Company powering Agentic Commerce Operations",
+  "monthlyRevenue": "82,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/statesets"
+ },
+ {
+  "slug": "finage-financial-data",
+  "name": "Finage Financial Data",
+  "tagline": "Stock, Forex, Cryptocurrency,Indices real-time data provider",
+  "monthlyRevenue": "80,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/finage-financial-data"
+ },
+ {
+  "slug": "precisa-in-2",
+  "name": "Precisa.in",
+  "tagline": "AI-powered financial document analysis",
+  "monthlyRevenue": "75,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/precisa-in-2"
+ },
+ {
+  "slug": "fin-vs-fin",
+  "name": "Fin vs Fin",
+  "tagline": "Direct-to-Consumer (D2C) Wellness Product Reviews",
+  "monthlyRevenue": "70,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/fin-vs-fin"
+ },
+ {
+  "slug": "dream-life-planning",
+  "name": "Strategic Bonds",
+  "tagline": "Designing Business Owner Lifestyle through Impactful Support",
+  "monthlyRevenue": "60,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/dream-life-planning"
+ },
+ {
+  "slug": "pitchpilot-3",
+  "name": "PitchPilot",
+  "tagline": "A tool for sales, that ensures every e-mail you send is read",
+  "monthlyRevenue": "57,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/pitchpilot-3"
+ },
+ {
+  "slug": "replymer",
+  "name": "Replymer",
+  "tagline": "Human replies that sell your product on autopilot",
+  "monthlyRevenue": "3,130",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/replymer"
+ },
+ {
+  "slug": "amazing-gains",
+  "name": "Amazing Gains",
+  "tagline": "We bring brands and clients together through podcasting",
+  "monthlyRevenue": "3,050",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/amazing-gains"
+ },
+ {
+  "slug": "heliumsites-com",
+  "name": "HeliumSites",
+  "tagline": "Work free websites for small business &amp; real estate",
+  "monthlyRevenue": "2,710",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/heliumsites-com"
+ },
+ {
+  "slug": "auto-swiper",
+  "name": "Auto Swiper",
+  "tagline": "Auto Swiper for Tinder, Bumble, Badoo, Lovoo and OkCupid.",
+  "monthlyRevenue": "2,573",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/auto-swiper"
+ },
+ {
+  "slug": "refgrow",
+  "name": "Refgrow",
+  "tagline": "Grow your revenue with referrals on autopilot",
+  "monthlyRevenue": "2,180",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/refgrow"
+ },
+ {
+  "slug": "one-person-business-system",
+  "name": "One Person Business System",
+  "tagline": "The 4-phase growth OS for solo founders",
+  "monthlyRevenue": "2,049",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/one-person-business-system"
+ },
+ {
+  "slug": "reachowl",
+  "name": "ReachOWL",
+  "tagline": "Cloud based FB/IG DM Marketing tool",
+  "monthlyRevenue": "1,420",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/reachowl"
+ },
+ {
+  "slug": "picasi",
+  "name": "Picasi - One inbox. All updates. Pure insight.",
+  "tagline": "A unified inbox for tweets, email newsletters, RSS, ...",
+  "monthlyRevenue": "5,311",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/picasi"
+ },
+ {
+  "slug": "rightmessage",
+  "name": "RightMessage",
+  "tagline": "Website personalize software",
+  "monthlyRevenue": "22,261",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/rightmessage"
+ },
+ {
+  "slug": "salestarget-ai",
+  "name": "salestarget.ai",
+  "tagline": "Discover, Engage &amp; Convert your Ideal Clients - Effortlessly",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/salestarget-ai"
+ },
+ {
+  "slug": "prerender-io",
+  "name": "Prerender.io",
+  "tagline": "JavaScript SEO, solved.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/prerender-io"
+ },
+ {
+  "slug": "itprofiles",
+  "name": "ITProfiles",
+  "tagline": "A Global Neutral Intelligence B2B Platform",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/itprofiles"
+ },
+ {
+  "slug": "iglead",
+  "name": "IGLead",
+  "tagline": "Extract emails &amp; phone numbers from any Instagram audience,",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/iglead"
+ },
+ {
+  "slug": "gibble-ai",
+  "name": "Gibble AI",
+  "tagline": "1-click launch",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/gibble-ai"
+ },
+ {
+  "slug": "elink",
+  "name": "eLink",
+  "tagline": "Your All-in-One Live Streaming and Marketing Tool",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/elink"
+ },
+ {
+  "slug": "youvico",
+  "name": "YouViCo",
+  "tagline": "Video review platform born from real production pain",
+  "monthlyRevenue": "1,075",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/youvico"
+ },
+ {
+  "slug": "y2k-hairstyle-generator",
+  "name": "Y2K Hairstyle Generator",
+  "tagline": "AI Y2K fashion, photo editor, 2000s trends, retro looks",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/y2k-hairstyle-generator"
+ },
+ {
+  "slug": "unknot",
+  "name": "Unknot",
+  "tagline": "Twitter audience monetization platform.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/unknot"
+ },
+ {
+  "slug": "snipfeed",
+  "name": "Snipfeed",
+  "tagline": "Create your Snipfeed page to sell worldwide",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/snipfeed"
+ },
+ {
+  "slug": "redditblast",
+  "name": "RedditBlast",
+  "tagline": "Reddit Upvote Service via Telegram Bot",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/redditblast"
+ },
+ {
+  "slug": "quiturl",
+  "name": "QuitURL",
+  "tagline": "The #1 Bitly Alternative for Smart Link Management.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/quiturl"
+ },
+ {
+  "slug": "orchestra-3",
+  "name": "Orchestra",
+  "tagline": "Strategy, ads, content, email, and SEO",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/orchestra-3"
+ },
+ {
+  "slug": "justlikeapi",
+  "name": "justLikeAPI",
+  "tagline": "An advanced data crawling API service",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/justlikeapi"
+ },
+ {
+  "slug": "botsify",
+  "name": "Botsify - Agentic AI",
+  "tagline": "Build AI agents, use EVERYWHERE.",
+  "monthlyRevenue": "5,568",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/botsify"
+ },
+ {
+  "slug": "tweet-hunter",
+  "name": "Tweet Hunter",
+  "tagline": "Grow your audience by writing high performing tweets.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/tweet-hunter"
+ },
+ {
+  "slug": "onai",
+  "name": "onai",
+  "tagline": "for creating creative assets",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/onai"
+ },
+ {
+  "slug": "target-up-1-facebook-interest-findng-tool",
+  "name": "Target Up | Facebook Interest Finding Tool",
+  "tagline": "Facebook Interest Targeting &amp; Finding Tool",
+  "monthlyRevenue": "16,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/target-up-1-facebook-interest-findng-tool"
+ },
+ {
+  "slug": "social-rocketship",
+  "name": "Social Rocketship",
+  "tagline": "Digital Marketing Company",
+  "monthlyRevenue": "16,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/social-rocketship"
+ },
+ {
+  "slug": "yegking",
+  "name": "Yegking",
+  "tagline": "High-quality replica sneakers for sneakerheads who value des",
+  "monthlyRevenue": "15,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/yegking"
+ },
+ {
+  "slug": "wos-world-of-sports",
+  "name": "WOS - World of Sports",
+  "tagline": "Sports content, data and creator platform",
+  "monthlyRevenue": "15,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/wos-world-of-sports"
+ },
+ {
+  "slug": "veme-ly",
+  "name": "Veme.ly",
+  "tagline": "Create Social Videos With Subtitles",
+  "monthlyRevenue": "15,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/veme-ly"
+ },
+ {
+  "slug": "post-for-me",
+  "name": "Post for Me",
+  "tagline": "A unified API for integrating with social media platforms",
+  "monthlyRevenue": "24,532",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/post-for-me"
+ },
+ {
+  "slug": "leapd",
+  "name": "Leapd",
+  "tagline": "AI that builds and runs your business — 24/7",
+  "monthlyRevenue": "89,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/leapd"
+ },
+ {
+  "slug": "statnexa",
+  "name": "StatNexa",
+  "tagline": "StatNexa is a unified analytics dashboard to generate report",
+  "monthlyRevenue": "86,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/statnexa"
+ },
+ {
+  "slug": "coworking-space",
+  "name": "wishcowork",
+  "tagline": "Wish Cowork is one of Jaipur&#39;s best coworking spaces.",
+  "monthlyRevenue": "85,752",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/coworking-space"
+ },
+ {
+  "slug": "noiz-ai",
+  "name": "Noiz AI",
+  "tagline": "Next-Gen Expressive TTS &amp; Instant AI Voice Design.",
+  "monthlyRevenue": "80,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/noiz-ai"
+ },
+ {
+  "slug": "ioss",
+  "name": "ioss",
+  "tagline": "NO MATTER WHAT THE PROBLEM IS, We have Infinite Solutions!",
+  "monthlyRevenue": "60,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ioss"
+ },
+ {
+  "slug": "inputkit",
+  "name": "InputKit",
+  "tagline": "Customer Feedback Software",
+  "monthlyRevenue": "60,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/inputkit"
+ },
+ {
+  "slug": "contentellect",
+  "name": "Contentellect",
+  "tagline": "We&#39;re a content marketing agency, without the BS!",
+  "monthlyRevenue": "60,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/contentellect"
+ },
+ {
+  "slug": "valheimserverhosting",
+  "name": "Valheim Server Hosting",
+  "tagline": "Set up a Valheim server within minutes",
+  "monthlyRevenue": "1,606",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/valheimserverhosting"
+ },
+ {
+  "slug": "codepip",
+  "name": "Codepip",
+  "tagline": "Coding games to help you learn web dev",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/codepip"
+ },
+ {
+  "slug": "backlink-garden-link-building-agency",
+  "name": "Backlink Garden | Link Building Agency",
+  "tagline": "Helping brands and SEO agencies build authority",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/backlink-garden-link-building-agency"
+ },
+ {
+  "slug": "42",
+  "name": "42",
+  "tagline": "Small highly skilled team of Designers and Developers",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/42"
+ },
+ {
+  "slug": "ludiz",
+  "name": "Ludiz",
+  "tagline": "Ludiz is the no-code gamified content creation platform.",
+  "monthlyRevenue": "4,300",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/ludiz"
+ },
+ {
+  "slug": "purplebundle",
+  "name": "Purplebundle",
+  "tagline": "Cross Bundle Subscription",
+  "monthlyRevenue": "4,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/purplebundle"
+ },
+ {
+  "slug": "playhop",
+  "name": "PlayHop",
+  "tagline": "Free instant-play browser games hub featuring hundreds of ca",
+  "monthlyRevenue": "4,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/playhop"
+ },
+ {
+  "slug": "draft-fantasy",
+  "name": "Draft Fantasy",
+  "tagline": "Fantasy football game for the Premier League",
+  "monthlyRevenue": "4,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/draft-fantasy"
+ },
+ {
+  "slug": "cssbattle",
+  "name": "CSSBattle",
+  "tagline": "First ever CSS code-golfing game",
+  "monthlyRevenue": "4,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/cssbattle"
+ },
+ {
+  "slug": "actorle",
+  "name": "Actorle",
+  "tagline": "Actor guessing game",
+  "monthlyRevenue": "4,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/actorle"
+ },
+ {
+  "slug": "sfesports",
+  "name": "SFESports",
+  "tagline": "Your Ultimate eSports Management Platform",
+  "monthlyRevenue": "3,800",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sfesports"
+ },
+ {
+  "slug": "master-of-business-leadership-program",
+  "name": "Master of Business Leadership Program",
+  "tagline": "Conscious Living Is The Antidote To The Turmoil We Face",
+  "monthlyRevenue": "3,500",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/master-of-business-leadership-program"
+ },
+ {
+  "slug": "sprite-ai",
+  "name": "Sprite-AI",
+  "tagline": "Sprite-AI turns text prompts into pixel-perfect game sprites",
+  "monthlyRevenue": "5,303",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/sprite-ai"
+ },
+ {
+  "slug": "metados",
+  "name": "MetaDOS",
+  "tagline": "-players Battle Royale game with time-as-currency concept",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/metados"
+ },
+ {
+  "slug": "arkservers-io",
+  "name": "ArkServers.io",
+  "tagline": "Game Server Hosting",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/arkservers-io"
+ },
+ {
+  "slug": "mexican-train-dominoes",
+  "name": "Mexican Train Dominoes",
+  "tagline": "Game for iOS and Android",
+  "monthlyRevenue": "16,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/mexican-train-dominoes"
+ },
+ {
+  "slug": "cognitive-behavior-sdk-v2",
+  "name": "Cognitive Behavior SDK V2",
+  "tagline": "I have been building something a bit unusual for game NPCs.",
+  "monthlyRevenue": "15,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/cognitive-behavior-sdk-v2"
+ },
+ {
+  "slug": "sullivan-studios",
+  "name": "Sullivan Studios",
+  "tagline": "We build VR shops",
+  "monthlyRevenue": "10,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sullivan-studios"
+ },
+ {
+  "slug": "star-wars-name-generator",
+  "name": "Star Wars Name Generator",
+  "tagline": "Generate Authentic Star Wars Names for Jedi, Sith, &amp; Droids",
+  "monthlyRevenue": "10,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/star-wars-name-generator"
+ },
+ {
+  "slug": "rapport-self-service",
+  "name": "Rapport Self-Service",
+  "tagline": "Animate ChatGPT and other AIs in seconds!",
+  "monthlyRevenue": "10,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/rapport-self-service"
+ },
+ {
+  "slug": "qwurty",
+  "name": "Qwurty",
+  "tagline": "The place to build your community and share interests.",
+  "monthlyRevenue": "10,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/qwurty"
+ },
+ {
+  "slug": "payapp2",
+  "name": "PayApp2",
+  "tagline": "Smartest Way to Orchestrate Payments Globally",
+  "monthlyRevenue": "10,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/payapp2"
+ },
+ {
+  "slug": "online-solitaire",
+  "name": "Online Solitaire",
+  "tagline": "Free online design-first solitaire card games",
+  "monthlyRevenue": "10,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/online-solitaire"
+ },
+ {
+  "slug": "moto-x3m-bike-racing-game",
+  "name": "Moto X3M Bike Racing Game",
+  "tagline": "Master Every Jump, Conquer Every Track.",
+  "monthlyRevenue": "10,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/moto-x3m-bike-racing-game"
+ },
+ {
+  "slug": "bigspy-2",
+  "name": "BigSpy",
+  "tagline": "An adspy tool covering multiple channels.",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/bigspy-2"
+ },
+ {
+  "slug": "codewars",
+  "name": "Codewars",
+  "tagline": "Train with others on real coding challenges",
+  "monthlyRevenue": "80,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/codewars"
+ },
+ {
+  "slug": "heroes-empires",
+  "name": "Heroes &amp; Empires",
+  "tagline": "Next-gen NFT gaming project.",
+  "monthlyRevenue": "60,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/heroes-empires"
+ },
+ {
+  "slug": "traderie",
+  "name": "Traderie",
+  "tagline": "One stop shop for all in-game trading",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/traderie"
+ },
+ {
+  "slug": "povchat-ai",
+  "name": "PovChat AI",
+  "tagline": "Free and Private AI Roleplay and Companion",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/povchat-ai"
+ },
+ {
+  "slug": "bswan",
+  "name": "BSwan",
+  "tagline": "AI Voice and Messaging platform for user reactivation",
+  "monthlyRevenue": "50,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/bswan"
+ },
+ {
+  "slug": "chatbrat-ai",
+  "name": "Chatbrat.ai",
+  "tagline": "AI chatbots &amp;  character chats for roleplay &amp; gaming",
+  "monthlyRevenue": "33,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/chatbrat-ai"
+ },
+ {
+  "slug": "strumace-custom-mouse-pads",
+  "name": "Strumace Custom Mouse Pads",
+  "tagline": "Best Custom Gaming Mouse Pads UK",
+  "monthlyRevenue": "25,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/strumace-custom-mouse-pads"
+ },
+ {
+  "slug": "slides-with-friends",
+  "name": "Slides with Friends",
+  "tagline": "Interactive presentations audiences love",
+  "monthlyRevenue": "25,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/slides-with-friends"
+ },
+ {
+  "slug": "webhosting-vps-and-dedicated-servers",
+  "name": "Webhosting, VPS and Dedicated Servers",
+  "tagline": "Hosting Performance you can count on!",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/webhosting-vps-and-dedicated-servers"
+ },
+ {
+  "slug": "verbalized-sampling-promptbook",
+  "name": "Verbalized Sampling Promptbook",
+  "tagline": "30+ plug-and-play prompts to bypass LLM mode collapse.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/verbalized-sampling-promptbook"
+ },
+ {
+  "slug": "tapsy-ai",
+  "name": "Tapsy AI",
+  "tagline": "Turn every tap into feedback, rewards, and happy guests",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/tapsy-ai"
+ },
+ {
+  "slug": "sms-wholesale-platform",
+  "name": "SMS Wholesale Platform",
+  "tagline": "A Scalable SMS Wholesale Solution for Carriers &amp; MNOs.",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sms-wholesale-platform"
+ },
+ {
+  "slug": "sendapi",
+  "name": "SendAPI",
+  "tagline": "One API key to send WhatsApp, SMS and Email",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sendapi"
+ },
+ {
+  "slug": "robotalp",
+  "name": "Robotalp",
+  "tagline": "Uptime Monitoring and Status Page",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/robotalp"
+ },
+ {
+  "slug": "punchname",
+  "name": "PunchName",
+  "tagline": "Premium domain marketplace offering hand-picked domains for",
+  "monthlyRevenue": "5,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/punchname"
+ },
+ {
+  "slug": "getmymfa",
+  "name": "GetMyMFA",
+  "tagline": "SMS Multi-Factor Authentication testing made easy",
+  "monthlyRevenue": "5,176",
+  "revenuePeriod": "month",
+  "revenueNote": "-verified revenue",
+  "stripeVerified": true,
+  "url": "https://www.indiehackers.com/product/getmymfa"
+ },
+ {
+  "slug": "with-content",
+  "name": "With Content",
+  "tagline": "Content Production for Tech Companies",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/with-content"
+ },
+ {
+  "slug": "standuply",
+  "name": "Standuply",
+  "tagline": "Digital Scrum Master bot for Slack",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/standuply"
+ },
+ {
+  "slug": "sellizer-3",
+  "name": "Sellizer",
+  "tagline": "See exactly what happens to every proposal you send.",
+  "monthlyRevenue": "20,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/sellizer-3"
+ },
+ {
+  "slug": "myoperator",
+  "name": "MyOperator",
+  "tagline": "Business Call Management System on Cloud",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/myoperator"
+ },
+ {
+  "slug": "calday",
+  "name": "Calday",
+  "tagline": "Online Appointment Scheduling App",
+  "monthlyRevenue": "100,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/calday"
+ },
+ {
+  "slug": "q-reviews",
+  "name": "Q-Reviews",
+  "tagline": "Real Time patient feedback platform",
+  "monthlyRevenue": "99,999",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/q-reviews"
+ },
+ {
+  "slug": "helpwise",
+  "name": "Helpwise",
+  "tagline": "Shared inbox for all your team email accounts",
+  "monthlyRevenue": "90,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/helpwise"
+ },
+ {
+  "slug": "zapyon",
+  "name": "Zapyon",
+  "tagline": "AI employee that runs your business 24/7",
+  "monthlyRevenue": "87,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/zapyon"
+ },
+ {
+  "slug": "pr-volt",
+  "name": "PR Volt",
+  "tagline": "The World&#39;s First AI-Powered PR Service",
+  "monthlyRevenue": "75,000",
+  "revenuePeriod": "month",
+  "revenueNote": "self-reported revenue",
+  "stripeVerified": false,
+  "url": "https://www.indiehackers.com/product/pr-volt"
+ }
+]

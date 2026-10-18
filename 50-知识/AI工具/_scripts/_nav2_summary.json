@@ -1,0 +1,19 @@
+{
+ "total": 27,
+ "ok": 21,
+ "blocked": 3,
+ "dead": 3,
+ "cats": {
+  "开发者工具": 2,
+  "设计": 8,
+  "素材/模板": 1,
+  "赚钱/副业": 1,
+  "独立开发": 1
+ },
+ "files": [
+  "_nav2_batch1.json",
+  "_nav2_batch2.json",
+  "_nav2_final.json",
+  "_nav2_sites.json"
+ ]
+}

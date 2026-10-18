@@ -1,0 +1,1642 @@
+[
+ {
+  "host": "gitea.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "neovim.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "sentry.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "gogs.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "thingsboard.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "developers.raycast.com",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.meilisearch.com",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.beekeeperstudio.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "typesense.org",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "semgrep.dev",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "responsively.app",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "vscodium.com",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.webmin.com",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "pyroscope.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.verdaccio.org",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "quickwit.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "formbricks.com",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "vestacp.com",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.growthbook.io",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "docs.windmill.dev",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "univer.ai",
+  "from": "osa:cat:developer-tools",
+  "cat": "recommender"
+ },
+ {
+  "host": "rocket.chat",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "zulip.com",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "mattermost.com",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "element.io",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "signal.org",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "bigbluebutton.org",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.chatwoot.com",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "meet.jit.si",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.nvaccess.org",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.zammad.com",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "ntfy.sh",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.uvdesk.com",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "cinny.in",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "remark42.com",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "berty.tech",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "getsession.org",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "helpy.io",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "twake.app",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "wire.com",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "chaskiq.io",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "posativ.org",
+  "from": "osa:cat:communication",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.pingcap.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "prometheus.io",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "dbeaver.io",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.influxdata.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.nocodb.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.diagrams.net",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "tdengine.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "ckan.org",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "platform.uno",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "questdb.io",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.arangodb.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.timescale.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "neo4j.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "janusgraph.org",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "dragonflydb.io",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "manticoresearch.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.heidisql.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "sandstorm.io",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "dgraph.io",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.getgrist.com",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.postgresql.org",
+  "from": "osa:cat:database",
+  "cat": "recommender"
+ },
+ {
+  "host": "ghidra-sre.org",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "nuclei.projectdiscovery.io",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "cryptomator.org",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.clamav.net",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "opnsense.org",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "crowdsec.net",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.cloudquery.io",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.firez.one",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "safing.io",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.pfsense.org",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "opengrep.dev",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "linktr.ee",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "grapheneos.org",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.matano.dev",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "github.com",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "trycomp.ai",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.getprobo.com",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "checkmarble.com",
+  "from": "osa:cat:cybersecurity",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.home-assistant.io",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "pipedream.com",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "comma.ai",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "github.com",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "n8n.io",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "demo.netbox.dev",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.mautic.org",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "temporal.io",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "exchange.stackstorm.org",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "screenpi.pe",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "postiz.com",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.jenkins.io",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "automatisch.io",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "nifi.apache.org",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "formsflow.ai",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "testsigma.com",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "terrateam.io",
+  "from": "osa:cat:automation",
+  "cat": "recommender"
+ },
+ {
+  "host": "obsproject.com",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "mpv.io",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "losslesscut.app",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "freetubeapp.io",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "avideo.tube",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.rrweb.io",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "piped.kavin.rocks",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.shotcut.org",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "lbry.com",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "olivevideoeditor.org",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.blender.org",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "github.com",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "nexrender.vercel.app",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "sfu.mirotalk.com",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "brie.fi",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "invent.kde.org",
+  "from": "osa:cat:video",
+  "cat": "recommender"
+ },
+ {
+  "host": "logseq.com",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "github.com",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "rust-lang.github.io",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "xournalpp.github.io",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "apps.ankiweb.net",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.getoutline.com",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "notesnook.com",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "wallabag.org",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "planka.app",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "laverna.cc",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.freeplane.org",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.dendron.so",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "paperless-ngx.readthedocs.io",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "standardnotes.com",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "bangle.io",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "potatoproject.co",
+  "from": "osa:cat:notetaking",
+  "cat": "recommender"
+ },
+ {
+  "host": "clickhouse.com",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "matomo.org",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "umami.is",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "goaccess.io",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "plausible.io",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "count.ly",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.openwebanalytics.com",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.goatcounter.com",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "ackee.electerious.com",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "github.com",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "usefathom.com",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "kalker.xyz",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.offen.dev",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "pirsch.io",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "kindmetrics.io",
+  "from": "osa:cat:analytics",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.focalboard.com",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "affine.pro",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "plane.so",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.drone.io",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "filegator.io",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "restya.com",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "boostnote.io",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.orangehrm.com",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.openproject.org",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "redmine.org",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "scoold.com",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.tuleap.org",
+  "from": "osa:cat:project-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.keycloak.org",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "github.com",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "zitadel.com",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.ory.sh",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.authelia.com",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "supertokens.com",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.hanko.io",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "getaegis.app",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "cerbos.dev",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.openidentityplatform.org",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.fief.dev",
+  "from": "osa:cat:auth-and-sso",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.vaultproject.io",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "keepassxc.org",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "bitwarden.com",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "buttercup.pw",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "authpass.app",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.lesspass.com",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "padloc.app",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.passbolt.com",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "clipperz.is",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "passwordcockpit.com",
+  "from": "osa:cat:password-managers",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.appsmith.com",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "minikube.sigs.k8s.io",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "tooljet.com",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "labelstud.io",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "budibase.com",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.kimai.org",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.illacloud.com",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.bleachbit.org",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "lowdefy.com",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "play.google.com",
+  "from": "osa:cat:internal-tool",
+  "cat": "recommender"
+ },
+ {
+  "host": "wekan.github.io",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "posthog.com",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "kanboard.org",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "leantime.io",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "openreplay.com",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "getfider.com",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "github.com",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "taiga.io",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "logchimp.codecarrot.net",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "clearflask.com",
+  "from": "osa:cat:product-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "traefik.io",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "hoppscotch.io",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "parseplatform.org",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "insomnia.rest",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "apisix.apache.org",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "karatelabs.github.io",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "wundergraph.com",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "milkman.dev",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "computir.ai",
+  "from": "osa:cat:api-platform",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.odoo.com",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "erpnext.com",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.suitecrm.com",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "erxes.io",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "cortezaproject.org",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "yetiforce.com",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "krayincrm.com",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "hitobito.com",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "github.com",
+  "from": "osa:cat:crm",
+  "cat": "recommender"
+ },
+ {
+  "host": "opensearch.org",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "docs.searxng.org",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "qdrant.tech",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.deepset.ai",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.semi.technology",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "jina.ai",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "crates.io",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "zincsearch.com",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.appbase.io",
+  "from": "osa:cat:enterprise-search",
+  "cat": "recommender"
+ },
+ {
+  "host": "grafana.com",
+  "from": "osa:cat:observability-and-monitoring",
+  "cat": "recommender"
+ },
+ {
+  "host": "uptime.kuma.pet",
+  "from": "osa:cat:observability-and-monitoring",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.netdata.cloud",
+  "from": "osa:cat:observability-and-monitoring",
+  "cat": "recommender"
+ },
+ {
+  "host": "signoz.io",
+  "from": "osa:cat:observability-and-monitoring",
+  "cat": "recommender"
+ },
+ {
+  "host": "victoriametrics.com",
+  "from": "osa:cat:observability-and-monitoring",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.pimcore.org",
+  "from": "osa:cat:observability-and-monitoring",
+  "cat": "recommender"
+ },
+ {
+  "host": "cachethq.io",
+  "from": "osa:cat:observability-and-monitoring",
+  "cat": "recommender"
+ },
+ {
+  "host": "checkmk.com",
+  "from": "osa:cat:observability-and-monitoring",
+  "cat": "recommender"
+ },
+ {
+  "host": "podman.io",
+  "from": "osa:cat:platform-as-a-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "ghost.org",
+  "from": "osa:cat:platform-as-a-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "coolify.io",
+  "from": "osa:cat:platform-as-a-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "filecxx.com",
+  "from": "osa:cat:platform-as-a-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "moodle.org",
+  "from": "osa:cat:platform-as-a-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "space-cloud.io",
+  "from": "osa:cat:platform-as-a-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "unigraph.dev",
+  "from": "osa:cat:platform-as-a-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.qovery.com",
+  "from": "osa:cat:platform-as-a-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "min.io",
+  "from": "osa:cat:deployment",
+  "cat": "recommender"
+ },
+ {
+  "host": "dokku.viewdocs.io",
+  "from": "osa:cat:deployment",
+  "cat": "recommender"
+ },
+ {
+  "host": "caprover.com",
+  "from": "osa:cat:deployment",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.openfaas.com",
+  "from": "osa:cat:deployment",
+  "cat": "recommender"
+ },
+ {
+  "host": "tsuru.io",
+  "from": "osa:cat:deployment",
+  "cat": "recommender"
+ },
+ {
+  "host": "dyrector.io",
+  "from": "osa:cat:deployment",
+  "cat": "recommender"
+ },
+ {
+  "host": "staticdeploy.io",
+  "from": "osa:cat:deployment",
+  "cat": "recommender"
+ },
+ {
+  "host": "flynn.io",
+  "from": "osa:cat:deployment",
+  "cat": "recommender"
+ },
+ {
+  "host": "supabase.io",
+  "from": "osa:cat:backend-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "appwrite.io",
+  "from": "osa:cat:backend-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "pocketbase.io",
+  "from": "osa:cat:backend-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "nhost.io",
+  "from": "osa:cat:backend-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.fusio-project.org",
+  "from": "osa:cat:backend-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "rivet.gg",
+  "from": "osa:cat:backend-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "kuzzle.io",
+  "from": "osa:cat:backend-service",
+  "cat": "recommender"
+ },
+ {
+  "host": "nextcloud.com",
+  "from": "osa:cat:cloud",
+  "cat": "recommender"
+ },
+ {
+  "host": "owncloud.org",
+  "from": "osa:cat:cloud",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.seafile.com",
+  "from": "osa:cat:cloud",
+  "cat": "recommender"
+ },
+ {
+  "host": "cryptpad.fr",
+  "from": "osa:cat:cloud",
+  "cat": "recommender"
+ },
+ {
+  "host": "cozystack.io",
+  "from": "osa:cat:cloud",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.univention.com",
+  "from": "osa:cat:cloud",
+  "cat": "recommender"
+ },
+ {
+  "host": "getsharex.com",
+  "from": "osa:cat:utilities",
+  "cat": "recommender"
+ },
+ {
+  "host": "activitywatch.net",
+  "from": "osa:cat:utilities",
+  "cat": "recommender"
+ },
+ {
+  "host": "getgreenshot.org",
+  "from": "osa:cat:utilities",
+  "cat": "recommender"
+ },
+ {
+  "host": "getmailspring.com",
+  "from": "osa:cat:utilities",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.linkace.org",
+  "from": "osa:cat:utilities",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.invoiceninja.com",
+  "from": "osa:cat:finances",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.firefly-iii.org",
+  "from": "osa:cat:finances",
+  "cat": "recommender"
+ },
+ {
+  "host": "openbb.co",
+  "from": "osa:cat:finances",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.boxbilling.org",
+  "from": "osa:cat:finances",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.getlago.com",
+  "from": "osa:cat:finances",
+  "cat": "recommender"
+ },
+ {
+  "host": "cal.com",
+  "from": "osa:cat:scheduling",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.buildbot.net",
+  "from": "osa:cat:scheduling",
+  "cat": "recommender"
+ },
+ {
+  "host": "rallly.co",
+  "from": "osa:cat:scheduling",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.sogo.nu",
+  "from": "osa:cat:scheduling",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.kukkee.com",
+  "from": "osa:cat:scheduling",
+  "cat": "recommender"
+ },
+ {
+  "host": "superset.apache.org",
+  "from": "osa:cat:visual-database",
+  "cat": "recommender"
+ },
+ {
+  "host": "redash.io",
+  "from": "osa:cat:visual-database",
+  "cat": "recommender"
+ },
+ {
+  "host": "photoprism.app",
+  "from": "osa:cat:visual-database",
+  "cat": "recommender"
+ },
+ {
+  "host": "piwigo.org",
+  "from": "osa:cat:visual-database",
+  "cat": "recommender"
+ },
+ {
+  "host": "ente.io",
+  "from": "osa:cat:visual-database",
+  "cat": "recommender"
+ },
+ {
+  "host": "listmonk.app",
+  "from": "osa:cat:email-marketing",
+  "cat": "recommender"
+ },
+ {
+  "host": "docs.postalserver.io",
+  "from": "osa:cat:email-marketing",
+  "cat": "recommender"
+ },
+ {
+  "host": "sendportal.io",
+  "from": "osa:cat:email-marketing",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.keila.io",
+  "from": "osa:cat:email-marketing",
+  "cat": "recommender"
+ },
+ {
+  "host": "rustdesk.com",
+  "from": "osa:cat:remote-desktop",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.meshcommander.com",
+  "from": "osa:cat:remote-desktop",
+  "cat": "recommender"
+ },
+ {
+  "host": "remotely.one",
+  "from": "osa:cat:remote-desktop",
+  "cat": "recommender"
+ },
+ {
+  "host": "cedrozor.github.io",
+  "from": "osa:cat:remote-desktop",
+  "cat": "recommender"
+ },
+ {
+  "host": "mindsdb.com",
+  "from": "osa:cat:ml-ops",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.cortex.dev",
+  "from": "osa:cat:ml-ops",
+  "cat": "recommender"
+ },
+ {
+  "host": "ploomber.io",
+  "from": "osa:cat:ml-ops",
+  "cat": "recommender"
+ },
+ {
+  "host": "towhee.io",
+  "from": "osa:cat:ml-ops",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.filestash.app",
+  "from": "osa:cat:file-hosting",
+  "cat": "recommender"
+ },
+ {
+  "host": "privatebin.info",
+  "from": "osa:cat:file-hosting",
+  "cat": "recommender"
+ },
+ {
+  "host": "papermark.io",
+  "from": "osa:cat:file-hosting",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.ballerine.io",
+  "from": "osa:cat:kyc",
+  "cat": "recommender"
+ },
+ {
+  "host": "akaunting.com",
+  "from": "osa:cat:accounting",
+  "cat": "recommender"
+ },
+ {
+  "host": "netbird.io",
+  "from": "osa:cat:vpn",
+  "cat": "recommender"
+ },
+ {
+  "host": "headscale.net",
+  "from": "osa:cat:vpn",
+  "cat": "recommender"
+ },
+ {
+  "host": "gravitl.com",
+  "from": "osa:cat:vpn",
+  "cat": "recommender"
+ },
+ {
+  "host": "brave.com",
+  "from": "osa:cat:browser",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.automa.site",
+  "from": "osa:cat:browser",
+  "cat": "recommender"
+ },
+ {
+  "host": "dub.co",
+  "from": "osa:cat:link-shortener",
+  "cat": "recommender"
+ },
+ {
+  "host": "yourls.org",
+  "from": "osa:cat:link-shortener",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.dolicloud.com",
+  "from": "osa:cat:erp",
+  "cat": "recommender"
+ },
+ {
+  "host": "gauzy.co",
+  "from": "osa:cat:erp",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.graylog.org",
+  "from": "osa:cat:log-management",
+  "cat": "recommender"
+ },
+ {
+  "host": "homebridge.io",
+  "from": "osa:cat:smart-home",
+  "cat": "recommender"
+ },
+ {
+  "host": "lineageos.org",
+  "from": "osa:cat:os",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.metabase.com",
+  "from": "osa:cat:business-intelligence",
+  "cat": "recommender"
+ },
+ {
+  "host": "godotengine.org",
+  "from": "osa:cat:gaming",
+  "cat": "recommender"
+ },
+ {
+  "host": "gdevelop.io",
+  "from": "osa:cat:gaming",
+  "cat": "recommender"
+ },
+ {
+  "host": "flaxengine.com",
+  "from": "osa:cat:gaming",
+  "cat": "recommender"
+ },
+ {
+  "host": "rebelfork.io",
+  "from": "osa:cat:gaming",
+  "cat": "recommender"
+ },
+ {
+  "host": "modrinth.com",
+  "from": "osa:cat:gaming",
+  "cat": "recommender"
+ },
+ {
+  "host": "classquiz.de",
+  "from": "osa:cat:gaming",
+  "cat": "recommender"
+ },
+ {
+  "host": "wordle.global",
+  "from": "osa:cat:gaming",
+  "cat": "recommender"
+ },
+ {
+  "host": "retroarcher.github.io",
+  "from": "osa:cat:gaming",
+  "cat": "recommender"
+ },
+ {
+  "host": "cube.dev",
+  "from": "osa:cat:metric-store",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.lightdash.com",
+  "from": "osa:cat:metric-store",
+  "cat": "recommender"
+ },
+ {
+  "host": "metriql.com",
+  "from": "osa:cat:metric-store",
+  "cat": "recommender"
+ },
+ {
+  "host": "mlcraft.io",
+  "from": "osa:cat:metric-store",
+  "cat": "recommender"
+ },
+ {
+  "host": "airbyte.com",
+  "from": "osa:cat:eltetl",
+  "cat": "recommender"
+ },
+ {
+  "host": "dagster.io",
+  "from": "osa:cat:eltetl",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.prefect.io",
+  "from": "osa:cat:eltetl",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.orchest.io",
+  "from": "osa:cat:eltetl",
+  "cat": "recommender"
+ }
+]

@@ -1,0 +1,322 @@
+[
+ {
+  "host": "gitea.io",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://gitea.com/",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "neovim.io",
+  "status": 200,
+  "len": 22930,
+  "title": "Neovim",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "sentry.io",
+  "status": 302,
+  "len": 0,
+  "title": " | -> /welcome/",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "gogs.io",
+  "status": 308,
+  "len": 112557,
+  "title": " | -> /getting-started/introduction",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "thingsboard.io",
+  "status": 200,
+  "len": 715253,
+  "title": "ThingsBoard - All-in-one IoT Platform",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.meilisearch.com",
+  "status": 200,
+  "len": 309480,
+  "title": "Meilisearch: Unified Search &amp; AI Retrieval Platform",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.beekeeperstudio.io",
+  "status": 200,
+  "len": 73275,
+  "title": "The SQL Editor and Database Manager Of Your Dreams | Beekeeper Studio",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "typesense.org",
+  "status": 200,
+  "len": 231469,
+  "title": "Typesense | Open Source Alternative to Algolia + Pinecone",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "semgrep.dev",
+  "status": 200,
+  "len": 100880,
+  "title": "Semgrep App Security Platform | AI-assisted SAST, SCA and Secrets Detection",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "responsively.app",
+  "status": 200,
+  "len": 65033,
+  "title": "Responsively App - A web developer&#x27;s browser",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "vscodium.com",
+  "status": 200,
+  "len": 18992,
+  "title": "VSCodium - Open Source Binaries of VSCode",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.webmin.com",
+  "status": 301,
+  "len": 227,
+  "title": "301 Moved Permanently | -> https://webmin.com/",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "pyroscope.io",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://grafana.com/docs/pyroscope/latest/",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.verdaccio.org",
+  "status": 200,
+  "len": 53324,
+  "title": "A lightweight Node.js private proxy registry | Verdaccio",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "quickwit.io",
+  "status": 200,
+  "len": 44788,
+  "title": "Search more with less | Quickwit",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "formbricks.com",
+  "status": 200,
+  "len": 151044,
+  "title": "The Open Source Experience Data Hub",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "vestacp.com",
+  "status": 200,
+  "len": 94240,
+  "title": "Vesta Control Panel",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.growthbook.io",
+  "status": 200,
+  "len": 191722,
+  "title": "GrowthBook | Experimentation, Feature Flags &amp; Product Analytics Platform",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "docs.windmill.dev",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://www.windmill.dev/docs/intro",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "univer.ai",
+  "status": 200,
+  "len": 215861,
+  "title": "Univer — The Office Harness for AI Agents",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.getgrist.com",
+  "status": 200,
+  "len": 186259,
+  "title": "Spreadsheet Software to End Data Chaos | Grist",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.getoutline.com",
+  "status": 200,
+  "len": 42515,
+  "title": "Outline – Team knowledge base &amp; wiki",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "notesnook.com",
+  "status": 200,
+  "len": 387781,
+  "title": "Notesnook | Open source &amp; zero knowledge private note taking app",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "wallabag.org",
+  "status": 200,
+  "len": 15438,
+  "title": "Save the web, freely | wallabag: a self hostable application for saving web pages",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "planka.app",
+  "status": 200,
+  "len": 102942,
+  "title": "PLANKA - Self-Hosted Kanban Board for Agile Teams",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "affine.pro",
+  "status": 200,
+  "len": 308692,
+  "title": "AFFiNE — Open-Source Knowledge Base Software",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "plane.so",
+  "status": 200,
+  "len": 357675,
+  "title": "AI-native project management | Plane",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "filegator.io",
+  "status": 200,
+  "len": 10975,
+  "title": "FileGator - Free and Open Source Web File Manager",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "scoold.com",
+  "status": 200,
+  "len": 74648,
+  "title": "Scoold - Self-Hosted Q&amp;A Platform &amp; Knowledge Base for Teams",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "modrinth.com",
+  "status": 200,
+  "len": 538081,
+  "title": "Modrinth",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "gdevelop.io",
+  "status": 200,
+  "len": 404146,
+  "title": "GDevelop: Free, Fast, Easy Game Engine - No-code, AI-assisted, Lightweight, Super Powerful | GDevelop",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "flaxengine.org",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "pipedream.com",
+  "status": 200,
+  "len": 370598,
+  "title": "Pipedream — The integration layer for AI agents",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "postiz.com",
+  "status": 200,
+  "len": 317933,
+  "title": "Postiz: The Agentic Social Media Scheduling Platform",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "automatisch.io",
+  "status": 200,
+  "len": 81551,
+  "title": "Automatisch - Open Source Zapier Alternative",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "testsigma.com",
+  "status": 200,
+  "len": 251548,
+  "title": "#1 Unified Agentic Test Automation Platform",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.budibase.com",
+  "status": 301,
+  "len": 36,
+  "title": " | -> https://budibase.com/",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "tooljet.com",
+  "status": 200,
+  "len": 235951,
+  "title": "ToolJet | AI App Builder for Internal Tools",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "www.appsmith.com",
+  "status": 200,
+  "len": 314743,
+  "title": "Appsmith | Open-Source Low-Code Application Platform",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ },
+ {
+  "host": "labelstud.io",
+  "status": 200,
+  "len": 428066,
+  "title": "Open Source Data Labeling and AI Evaluation | Label Studio",
+  "from": "osa-cats",
+  "cat": "devtools/pm/ugc"
+ }
+]

@@ -1,0 +1,1074 @@
+[
+ {
+  "key": "line-help-creators-ja",
+  "url": "https://help2.line.me/creators/ios/sp?lang=ja",
+  "note": "LINE Creators 帮助(日)",
+  "status": 200,
+  "ok": true,
+  "title": "ホーム | Creators Appヘルプセンター",
+  "host": "help2.line.me",
+  "fee": [],
+  "links": [],
+  "bytes": 43657,
+  "err": "",
+  "ms": 885
+ },
+ {
+  "key": "line-help-creators-pc",
+  "url": "https://help2.line.me/creators/pc/sp?lang=ja",
+  "note": "LINE Creators 帮助 PC",
+  "status": 400,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 392,
+  "err": "HTTP 400"
+ },
+ {
+  "key": "line-help-creators-en-pc",
+  "url": "https://help2.line.me/creators/pc/sp?lang=en",
+  "note": "LINE Creators 帮助 PC EN",
+  "status": 400,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 392,
+  "err": "HTTP 400"
+ },
+ {
+  "key": "line-creators-sticker-guide",
+  "url": "https://creator.line.me/ja/guideline/",
+  "note": "LINE Creators 规范日文",
+  "status": 200,
+  "ok": true,
+  "title": "ガイドライン - LINE Creators Market",
+  "host": "creator.line.me",
+  "fee": [],
+  "links": [
+   {
+    "href": "https://creator.line.me/studio/app/folder",
+    "text": "開く",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja",
+    "text": "image.logo",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/signup/line_auth",
+    "text": "マイページ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline",
+    "text": "English",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hant/guideline",
+    "text": "中文(繁體)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hans/guideline",
+    "text": "中文(简体)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ko/guideline",
+    "text": "한국어",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/th/guideline",
+    "text": "ภาษาไทย",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/id/guideline",
+    "text": "Bahasa Indonesia",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/howto",
+    "text": "ご利用方法",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline",
+    "text": "制作ガイドライン",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/sticker",
+    "text": "スタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/animationsticker",
+    "text": "アニメーションスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/customsticker",
+    "text": "カスタムスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/messagesticker",
+    "text": "メッセージスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/bigsticker",
+    "text": "BIGスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/popupsticker",
+    "text": "ポップアップスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/effectsticker",
+    "text": "エフェクトスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/emoji",
+    "text": "絵文字",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/animationemoji",
+    "text": "アニメーション絵文字",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/theme",
+    "text": "着せかえ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/stickermaker",
+    "text": "LINEスタンプメーカー",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/ios/sp?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/android/sp?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/ios/pc?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/android/pc?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/web/pc?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://note.com/line_cm",
+    "text": "公式note",
+    "host": "note.com"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/terms",
+    "text": "利用規約",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://line.me/ja/terms/policy",
+    "text": "プライバシーポリシー",
+    "host": "line.me"
+   },
+   {
+    "href": "https://terms2.line.me/usersticker_rev",
+    "text": "特定商取引法の表記",
+    "host": "terms2.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/review_guideline",
+    "text": "スタンプ審査ガイドライン",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline",
+    "text": "English",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hant/guideline",
+    "text": "中文(繁體)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hans/guideline",
+    "text": "中文(简体)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ko/guideline",
+    "text": "한국어",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/th/guideline",
+    "text": "ภาษาไทย",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/id/guideline",
+    "text": "Bahasa Indonesia",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F",
+    "text": "",
+    "host": "social-plugins.line.me"
+   },
+   {
+    "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F&text=LINE%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E3%82%BA%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E3%81%A7%E3%80%81%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%81%AELINE%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%82%84%E7%B5%B5%E6%96%87%E5%AD%97%E3%80%81%E7%9D%80%E3%81%9B%E3%81%8B%E3%81%88%E3%82%92%E8%B2%A9%E5%A3%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%80%82&hashtags=LINE%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%2CLINE%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E3%82%BA%E7%B5%B5%E6%96%87%E5%AD%97%2CLINE%E7%9D%80%E3%81%9B%E3%81%8B%E3%81%88",
+    "text": "",
+    "host": "twitter.com"
+   },
+   {
+    "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F",
+    "text": "",
+    "host": "facebook.com"
+   }
+  ],
+  "bytes": 55036,
+  "err": "",
+  "ms": 636
+ },
+ {
+  "key": "line-creators-sale-page",
+  "url": "https://creator.line.me/ja/sale/",
+  "note": "LINE Creators 销售页",
+  "status": 404,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 8625,
+  "err": "HTTP 404"
+ },
+ {
+  "key": "fastwork-slimfaq-hire",
+  "url": "https://www.slimfaq.com/fastwork-id/3475-mempekerjakan-melakukan-pembayaran/14459-bagaimana-cara-hire-freelancer",
+  "note": "Fastwork 支付 FAQ",
+  "status": 200,
+  "ok": true,
+  "title": "Mempekerjakan/Melakukan pembayaran: Bagaimana cara mempekerjakan freelancer?",
+  "host": "slimfaq.com",
+  "fee": [],
+  "links": [
+   {
+    "href": "https://www.slimfaq.com/fastwork-id/3475-mempekerjakan-melakukan-pembayaran/14459-bagaimana-cara-hire-freelancer",
+    "text": "",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://faq.fastwork.id",
+    "text": "",
+    "host": "faq.fastwork.id"
+   },
+   {
+    "href": "https://www.slimfaq.com/fastwork-id",
+    "text": "Home",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://slimfaq.com/fastwork-id/3475-mempekerjakan-melakukan-pembayaran",
+    "text": "Mempekerjakan/Melakukan pembayaran",
+    "host": "slimfaq.com"
+   }
+  ],
+  "bytes": 9333,
+  "err": "",
+  "ms": 1884
+ },
+ {
+  "key": "fastwork-th-start",
+  "url": "https://fastwork.co/start-selling",
+  "note": "Fastwork TH start-selling(重试)",
+  "status": 200,
+  "ok": true,
+  "title": "สมัครเป็นฟรีแลนซ์ อิสระของการทำงานที่คุณเลือกเองได้ | Fastwork.co",
+  "host": "fastwork.co",
+  "fee": [
+   "share-commission\":\"แชร์เพื่อรับค่าบริการ 0%\",\"byob.",
+   "price-label\":\"ราคา\",\"checkout.",
+   "estimated-payment-price\":\"ยอดที่ต้องชำระโดยประมาณ\",\"checkout.",
+   "payment-price\":\"ยอดที่ต้องชำระ\",\"checkout.",
+   "feedback\":\"แจ้งปัญหาการใช้งาน\",\"profile-menu-page.",
+   "withdrawal\":\"รายได้\",\"profile-menu-page.",
+   "feedback\":\"Feedback พวกเรา\",\"about-us.",
+   "select-project\":\"เทรนด์มาแรง\",\"commission-tier\":\"ฟรีแลนซ์ระดับ\",\"commission-tier-short\":\"ระดับ\",\"meta.",
+   "withdrawal\":\"รายได้\",\"mega-menu."
+  ],
+  "links": [
+   {
+    "href": "https://fastwork.co",
+    "text": "",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://jobboard.fastwork.co",
+    "text": "Jobboard",
+    "host": "jobboard.fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/start-selling",
+    "text": "เริ่มรับงาน",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://youtu.be/c_Zbam4k8xw",
+    "text": "ตัวอย่างการสมัครเป็นฟรีแลนซ์",
+    "host": "youtu.be"
+   },
+   {
+    "href": "https://blog.fastwork.co/category/freelance-tips",
+    "text": "เทคนิคน่ารู้สําหรับฟรีแลนซ์",
+    "host": "blog.fastwork.co"
+   },
+   {
+    "href": "https://seller.fastwork.co",
+    "text": "Seller Center",
+    "host": "seller.fastwork.co"
+   },
+   {
+    "href": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1823-/7395-",
+    "text": "เงื่อนไขการรับเงิน",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://fastwork.co/logo-design",
+    "text": "Logo",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/seo",
+    "text": "SEO",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/promote-page",
+    "text": "โปรโมทเพจ / เว็บ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/web-development",
+    "text": "Web Development",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/content-writing",
+    "text": "เขียนบทความ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/engineering-structural-design",
+    "text": "เขียนวิศวกรรมและออกแบบโครงสร้าง",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/translation",
+    "text": "แปลภาษา",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/videography",
+    "text": "ถ่ายวิดิโอและตัดต่อ",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/start-selling",
+    "text": "สมัครเป็นฟรีแลนซ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/how",
+    "text": "เริ่มขายงานอย่างไร",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1818-/7393-",
+    "text": "การชำระค่าจ้าง",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/guarantee",
+    "text": "รับประกันการจ้างงาน",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://blog.fastwork.co",
+    "text": "บล็อกความรู้",
+    "host": "blog.fastwork.co"
+   },
+   {
+    "href": "https://fastwork4276.zendesk.com/hc/th",
+    "text": "คำถามที่เจอบ่อย",
+    "host": "fastwork4276.zendesk.com"
+   },
+   {
+    "href": "https://fastwork.co/consent-management",
+    "text": "จัดการการใช้ข้อมูล",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co",
+    "text": "Fastwork",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/for-business/enterprise/?utm_source=fastwork&amp;utm_medium=pr&amp;utm_campaign=fwhomepagefooter_pr",
+    "text": "Fastwork for Business",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/directory",
+    "text": "ผลงานฟรีแลนซ์",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://form.jotform.me/63044292363453",
+    "text": "Feedback พวกเรา",
+    "host": "form.jotform.me"
+   },
+   {
+    "href": "https://careers.fastwork.co",
+    "text": "ร่วมงานกับ Fastwork",
+    "host": "careers.fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/terms",
+    "text": "เงื่อนไขการใช้บริการ",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/privacy",
+    "text": "นโยบายความเป็นส่วนตัว",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.co/contents/support-center",
+    "text": "ติดต่อเรา",
+    "host": "static.fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/cdn-cgi/l/email-protection#50232520203f22241036312324273f223b7e333f",
+    "text": "[email&#160;protected]",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://www.facebook.com/fastworkco",
+    "text": "Facebook Messenger",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://lin.ee/CAnH9Gf",
+    "text": "",
+    "host": "lin.ee"
+   },
+   {
+    "href": "https://www.instagram.com/fastworkco",
+    "text": "",
+    "host": "instagram.com"
+   },
+   {
+    "href": "https://www.facebook.com/fastworkco",
+    "text": "",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://twitter.com/fastworkco",
+    "text": "",
+    "host": "twitter.com"
+   },
+   {
+    "href": "https://www.youtube.com/channel/UCroiT_lHdQl7iGZ6CxlmwAg",
+    "text": "",
+    "host": "youtube.com"
+   },
+   {
+    "href": "https://www.linkedin.com/company/fastworkco",
+    "text": "",
+    "host": "linkedin.com"
+   },
+   {
+    "href": "https://www.tiktok.com/@fastworkco",
+    "text": "",
+    "host": "tiktok.com"
+   },
+   {
+    "href": "https://www.blockdit.com/fastworkco",
+    "text": "",
+    "host": "blockdit.com"
+   },
+   {
+    "href": "https://www.pinterest.com/fastworkco",
+    "text": "",
+    "host": "pinterest.com"
+   },
+   {
+    "href": "https://fastwork.co/categories",
+    "text": "Sitemaps",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.co/?source=footer_th",
+    "text": "",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.id/?source=footer_id",
+    "text": "",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastlance.vn/?source=footer_vn",
+    "text": "",
+    "host": "fastlance.vn"
+   }
+  ],
+  "bytes": 201070,
+  "err": "",
+  "ms": 1117
+ },
+ {
+  "key": "fastwork-th-seller",
+  "url": "https://seller.fastwork.co",
+  "note": "Fastwork TH Seller Center",
+  "status": 307,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 190,
+  "err": "HTTP 307"
+ },
+ {
+  "key": "seller-fastwork-id",
+  "url": "https://seller.fastwork.id",
+  "note": "Fastwork ID Seller Center",
+  "status": 307,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 190,
+  "err": "HTTP 307"
+ },
+ {
+  "key": "fastwork-blog-id",
+  "url": "https://blog.fastwork.id",
+  "note": "Fastwork ID 博客",
+  "status": 200,
+  "ok": true,
+  "title": "Home - Fastwork.id",
+  "host": "blog.fastwork.id",
+  "fee": [
+   "id/comments/feed/\" />"
+  ],
+  "links": [
+   {
+    "href": "https://blog.fastwork.id/category/news",
+    "text": "Fastwork News",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/inspirasi-trend",
+    "text": "Inspirasi & Trend",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/media-sosial",
+    "text": "Media Sosial",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/photography",
+    "text": "Fotografi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/architect-interior",
+    "text": "Arsitektur",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/desain-grafis",
+    "text": "Desain Grafis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/lifestyle",
+    "text": "Tips & Gaya Hidup",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/tips-freelancer",
+    "text": "Tips Freelancer",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/pengembangan-skill",
+    "text": "Pengembangan Skill",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/buyer",
+    "text": "Tips Bisnis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/digital-marketing",
+    "text": "Digital Marketing",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/ai-technology",
+    "text": "AI & Teknologi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/web-development",
+    "text": "Web Development",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/mobile-apps",
+    "text": "Mobile Apps",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id",
+    "text": "Hire Pejasa",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/start-selling",
+    "text": "Join as Pejasa",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/campaign/9.9PROMOPEJASA",
+    "text": "",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/campaign/9.9PROMOPEJASA",
+    "text": "",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/apa-itu-cloud-ai",
+    "text": "Apa itu Cloud AI, Cara Kerja, dan Manfaatnya?",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/kata-kata-konten-kreator-fb-pro",
+    "text": "50 Kata-Kata Konten Kreator FB Pro yang Lucu dan Memotivasi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/apa-itu-mistery-shopper",
+    "text": "Apa Itu Mystery Shopper dan Bagaimana Cara Menjadi Mystery Shopper?",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id",
+    "text": "Hire Sekarang",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/apa-itu-fastwork-com",
+    "text": "Apa itu fastwork.com?",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/bebas-komisi",
+    "text": "Partner Andalan: Pelanggan repeat, order makin untung dengan Bebas Komisi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/cara-baru-kelola-chat-dan-pesanan",
+    "text": "Cara Baru yang Lebih Mudah untuk Mengelola Chat dan Pesanan",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/bring-your-own-buyer-byob-dapatkan-komisi-0",
+    "text": "Bring Your Own Buyer (BYOB), Dapatkan Komisi 0%!",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/start-selling",
+    "text": "Gabung Sekarang",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/apakah-fastwork-aman",
+    "text": "Penipuan Freelancer? Apakah Fastwork Aman?",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/apakah-fastwork-aman",
+    "text": "Read More",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/tips-menulis-deskripsi-pekerjaan",
+    "text": "Tips Menulis Deskripsi Pekerjaan yang Menarik, Auto Dapat Klien!",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/tips-menulis-deskripsi-pekerjaan",
+    "text": "Read More",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/mengatasi-ulasan-negatif",
+    "text": "Cara Mengatasi Ulasan Negatif Pelanggan",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/mengatasi-ulasan-negatif",
+    "text": "Read More",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/kata-kata-konten-kreator-fb-pro",
+    "text": "50 Kata-Kata Konten Kreator FB Pro yang Lucu dan Memotivasi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/pernak-pernik-agustusan-yang-kreatif",
+    "text": "Rekomendasi Pernak-Pernik Agustusan yang Kreatif untuk Memeriahkan Hari Kemerdekaan",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/macam-lomba-kreatif",
+    "text": "Macam-Macam Lomba Kreatif yang Bisa Kamu Coba",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/contoh-proposal-kerjasama-bisnis-yang-profesional-dan-mudah-dibuat",
+    "text": "Contoh Proposal Kerjasama Bisnis yang Profesional dan Mudah Dibuat",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/desain-grafis",
+    "text": "Desain Grafis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/buyer",
+    "text": "Tips Bisnis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/pengembangan-skill",
+    "text": "Pengembangan Skill",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/media-sosial",
+    "text": "Media Sosial",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/tips-freelancer",
+    "text": "Tips Freelancer",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/buyer",
+    "text": "Tips Bisnis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/website-development",
+    "text": "Web Development",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/desain-grafis",
+    "text": "Desain Grafis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/media-sosial",
+    "text": "Media Sosial",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/digital-marketing",
+    "text": "Digital Marketing",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/news",
+    "text": "Fastwork News",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/mobile-apps",
+    "text": "Mobile Apps",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/fotografi",
+    "text": "Fotografi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://fastwork.co",
+    "text": "Fastwork",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://business.fastwork.co",
+    "text": "Fastwork for Business",
+    "host": "business.fastwork.co"
+   },
+   {
+    "href": "https://www.facebook.com/fastwork.id",
+    "text": "",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://www.instagram.com/fastwork.id",
+    "text": "",
+    "host": "instagram.com"
+   },
+   {
+    "href": "https://www.tiktok.com/@fastwork.id",
+    "text": "",
+    "host": "tiktok.com"
+   },
+   {
+    "href": "https://twitter.com/fastworkid",
+    "text": "",
+    "host": "twitter.com"
+   },
+   {
+    "href": "https://www.pinterest.com/fastworkid",
+    "text": "",
+    "host": "pinterest.com"
+   },
+   {
+    "href": "https://www.linkedin.com/company/fastwork-technologies-indonesia",
+    "text": "",
+    "host": "linkedin.com"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/news",
+    "text": "Fastwork News",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/inspirasi-trend",
+    "text": "Inspirasi & Trend",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/media-sosial",
+    "text": "Media Sosial",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/photography",
+    "text": "Fotografi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/architect-interior",
+    "text": "Arsitektur",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/desain-grafis",
+    "text": "Desain Grafis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/lifestyle",
+    "text": "Tips & Gaya Hidup",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/tips-freelancer",
+    "text": "Tips Freelancer",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/pengembangan-skill",
+    "text": "Pengembangan Skill",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/buyer",
+    "text": "Tips Bisnis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/digital-marketing",
+    "text": "Digital Marketing",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/ai-technology",
+    "text": "AI & Teknologi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/web-development",
+    "text": "Web Development",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/mobile-apps",
+    "text": "Mobile Apps",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/news",
+    "text": "Fastwork News",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/inspirasi-trend",
+    "text": "Inspirasi & Trend",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/media-sosial",
+    "text": "Media Sosial",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/photography",
+    "text": "Fotografi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/architect-interior",
+    "text": "Arsitektur",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/desain-grafis",
+    "text": "Desain Grafis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/lifestyle",
+    "text": "Tips & Gaya Hidup",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/tips-freelancer",
+    "text": "Tips Freelancer",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/pengembangan-skill",
+    "text": "Pengembangan Skill",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/buyer",
+    "text": "Tips Bisnis",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/digital-marketing",
+    "text": "Digital Marketing",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/ai-technology",
+    "text": "AI & Teknologi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/web-development",
+    "text": "Web Development",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id/category/mobile-apps",
+    "text": "Mobile Apps",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id",
+    "text": "Hire Pejasa",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/start-selling",
+    "text": "Join as Pejasa",
+    "host": "fastwork.id"
+   }
+  ],
+  "bytes": 112799,
+  "err": "",
+  "ms": 1544
+ },
+ {
+  "key": "taling-chrome",
+  "url": "https://taling.me/",
+  "note": "Taling 重试",
+  "status": 308,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 136,
+  "err": "HTTP 308"
+ },
+ {
+  "key": "useme-jobs-en",
+  "url": "https://useme.com/en/jobs",
+  "note": "Useme jobs 重试",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 301"
+ }
+]

@@ -1,0 +1,14 @@
+{
+ "fastwork.co": [
+  "fw-payout-cond :: https://fastwork.co :: ",
+  "fw-pay-fee :: https://fastwork.co :: "
+ ],
+ "help.useme.com": [
+  "useme-flex :: https://help.useme.com/useme-deal-assurance :: ",
+  "useme-flex :: https://help.useme.com/useme-deal-assurance :: ",
+  "useme-flex :: https://help.useme.com/en :: Help Center",
+  "useme-flex :: https://help.useme.com/en :: Help",
+  "useme-flex :: https://help.useme.com/en/useme-privacy-policy-1 :: Privacy policy",
+  "useme-flex :: https://help.useme.com/en/terms-and-conditions-privacy-policy :: Terms and conditions"
+ ]
+}

@@ -1,0 +1,322 @@
+[
+ {
+  "host": "strapi.io",
+  "status": 200,
+  "len": 398644,
+  "title": "Strapi - Open-Source TypeScript Headless CMS",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "directus.io",
+  "status": 301,
+  "len": 534,
+  "title": "301 Moved Permanently | -> https://directus.com/",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.webiny.com",
+  "status": 200,
+  "len": 274595,
+  "title": "Webiny – The Open-Source AI-Programmable CMS | Webiny",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "webstudio.is",
+  "status": 200,
+  "len": 175889,
+  "title": "Webstudio — Advanced Open Source Website Builder",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "microweber.org",
+  "status": 403,
+  "len": 1663,
+  "title": "403 Forbidden",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.builder.io",
+  "status": 200,
+  "len": 266674,
+  "title": "Builder.io: Collaborative Platform to Build With AI Agents",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "tina.io",
+  "status": 200,
+  "len": 438190,
+  "title": "TinaCMS – GitHub’s #1 Headless CMS, powered by an awesome Visual Editor for Markdown",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "saltcorn.com",
+  "status": 200,
+  "len": 53946,
+  "title": "Saltcorn — Build custom apps around your own data",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.concretecms.com",
+  "status": 200,
+  "len": 47537,
+  "title": "Concrete CMS is a Free and Open Source Content Management System for Teams",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "apostrophecms.com",
+  "status": 200,
+  "len": 380263,
+  "title": "ApostropheCMS: Open Source CMS for Modern Websites",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "silex.me",
+  "status": 200,
+  "len": 56613,
+  "title": "Silex: Free Website Builder, Libre Software, Open-Source No-Code",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "sulu.io",
+  "status": 200,
+  "len": 203508,
+  "title": "Sulu, the Symfony CMS - Sulu",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.plasmic.app",
+  "status": 200,
+  "len": 2502214,
+  "title": "Plasmic | Build powerful apps fast— without the limits",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "rocket.chat",
+  "status": 301,
+  "len": 166,
+  "title": "301 Moved Permanently | -> https://www.rocket.chat/",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "zulip.com",
+  "status": 200,
+  "len": 49713,
+  "title": "Zulip — organized team chat",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "mattermost.com",
+  "status": 200,
+  "len": 329906,
+  "title": "Mattermost | Operational and AI Sovereignty for Critical Infrastructure and National Security",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "element.io",
+  "status": 200,
+  "len": 320312,
+  "title": "Element | Secure collaboration and messaging",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "signal.org",
+  "status": 200,
+  "len": 22194,
+  "title": "Signal >> Home",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "bigbluebutton.org",
+  "status": 200,
+  "len": 262453,
+  "title": "Virtual Classroom Software | BigBlueButton",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.chatwoot.com",
+  "status": 200,
+  "len": 577174,
+  "title": "Chatwoot: AI-Powered, Open-Source Customer Support Platform",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "meet.jit.si",
+  "status": 200,
+  "len": 32922,
+  "title": "Jitsi Meet",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.zammad.com",
+  "status": 302,
+  "len": 243,
+  "title": "302 Found | -> https://zammad.com/",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "ntfy.sh",
+  "status": 200,
+  "len": 224435,
+  "title": "ntfy.sh | Send push notifications to your phone via PUT/POST",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.uvdesk.com",
+  "status": 302,
+  "len": 657,
+  "title": "302 Found | -> https://www.uvdesk.com/en/",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "cinny.in",
+  "status": 200,
+  "len": 11729,
+  "title": "Cinny | Site",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "remark42.com",
+  "status": 200,
+  "len": 7916,
+  "title": "Remark42 – Privacy-focused lightweight commenting engine | Remark42",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "berty.tech",
+  "status": 200,
+  "len": 76221,
+  "title": "Berty · Berty Technologies",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "getsession.org",
+  "status": 200,
+  "len": 111001,
+  "title": "Session | Send Messages, Not Metadata. | Private Messenger",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "helpy.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "twake.app",
+  "status": 200,
+  "len": 58935,
+  "title": "Twake App",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "wire.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://wire.com/en",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "chaskiq.io",
+  "status": 429,
+  "len": 34224,
+  "title": "Vercel Security Checkpoint",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "posativ.org",
+  "status": 403,
+  "len": 555,
+  "title": "403 Forbidden",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.forem.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://forem.com/",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "fritzing.org",
+  "status": 200,
+  "len": 24032,
+  "title": "Welcome to Fritzing",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.discourse.org",
+  "status": 200,
+  "len": 112380,
+  "title": "Discourse | One platform. Any community.",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "flarum.org",
+  "status": 200,
+  "len": 145485,
+  "title": "The extensible community framework - Flarum",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "mybb.com",
+  "status": 200,
+  "len": 40595,
+  "title": "MyBB - Free and Open Source Forum Software",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "vanillaforums.com",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> http://vanilla.higherlogic.com/",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ },
+ {
+  "host": "www.phpbb.com",
+  "status": 403,
+  "len": 350,
+  "title": "phpBB.com",
+  "from": "osa",
+  "cat": "cms/comm/community"
+ }
+]

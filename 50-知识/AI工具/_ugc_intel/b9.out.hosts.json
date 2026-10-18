@@ -1,0 +1,159 @@
+{
+ "line.me": [
+  "line-help-webstore :: https://line.me :: LINE",
+  "line-help-webstore :: http://line.me/R/nv/settings/account :: this link",
+  "line-help-webstore :: https://line.me/download :: here",
+  "line-help-webstore :: https://line.me/download :: here",
+  "line-help-webstore :: https://line.me/R/nv/settings/lypPremium/status?entry=store_help_lsp_to_standard :: here",
+  "line-creators-en-root :: https://line.me/en/terms/policy :: Privacy Policy",
+  "line-creators-ja :: https://line.me/ja/terms/policy :: プライバシーポリシー",
+  "line-terms-sticker :: http://line.me :: LINE"
+ ],
+ "contact.line.me": [
+  "line-help-webstore :: https://contact.line.me/serviceId/10371 :: Inquiry Form",
+  "line-help-webstore :: https://contact.line.me/serviceId/10371 :: Inquiry Form"
+ ],
+ "store.line.me": [
+  "line-help-webstore :: https://store.line.me :: LINE STORE",
+  "line-help-webstore :: https://store.line.me :: LINE STORE",
+  "line-help-webstore :: http://store.line.me :: LINE STORE",
+  "line-help-webstore :: http://store.line.me :: LINE STORE",
+  "line-help-webstore :: http://store.line.me :: LINE STORE",
+  "line-help-webstore :: http://store.line.me :: LINE STORE",
+  "line-help-webstore :: https://store.line.me :: LINE STORE",
+  "line-help-webstore :: https://store.line.me :: LINE STORE",
+  "line-help-webstore :: https://store.line.me :: LINE STORE",
+  "line-help-webstore :: https://store.line.me :: LINE STORE",
+  "line-help-webstore :: https://store.line.me/mypage/CHARGE :: Credit log",
+  "line-help-webstore :: https://store.line.me/creditback :: LINE Credit rewards details page",
+  "line-help-webstore :: https://store.line.me/creditback :: these important notes",
+  "line-help-webstore :: https://store.line.me/creditback :: here",
+  "line-help-webstore :: https://store.line.me/mypage/CHARGE :: Credit log",
+  "line-creators-en-root :: https://store.line.me :: LINE STORE",
+  "line-creators-ja :: https://store.line.me :: LINE STORE"
+ ],
+ "paypal.com": [
+  "line-help-webstore :: https://www.paypal.com/webapps/mpp/home :: PayPal website"
+ ],
+ "help2.line.me": [
+  "line-help-webstore :: https://help2.line.me/linepay_jp :: this Help page",
+  "line-creators-en-root :: https://help2.line.me/creators/ios/sp?lang=en :: FAQ",
+  "line-creators-en-root :: https://help2.line.me/creators/android/sp?lang=en :: FAQ",
+  "line-creators-en-root :: https://help2.line.me/creators/ios/pc?lang=en :: FAQ",
+  "line-creators-en-root :: https://help2.line.me/creators/android/pc?lang=en :: FAQ",
+  "line-creators-en-root :: https://help2.line.me/creators/web/pc?lang=en :: FAQ",
+  "line-creators-ja :: https://help2.line.me/creators/ios/sp?lang=ja :: Q&A",
+  "line-creators-ja :: https://help2.line.me/creators/android/sp?lang=ja :: Q&A",
+  "line-creators-ja :: https://help2.line.me/creators/ios/pc?lang=ja :: Q&A",
+  "line-creators-ja :: https://help2.line.me/creators/android/pc?lang=ja :: Q&A",
+  "line-creators-ja :: https://help2.line.me/creators/web/pc?lang=ja :: Q&A"
+ ],
+ "contact-cc.line.me": [
+  "line-help-webstore :: https://contact-cc.line.me/categoryId/10641 :: this Inquiry Form",
+  "line-help-webstore :: https://contact-cc.line.me/serviceId/10371 :: Inquiry Form",
+  "line-help-webstore :: https://contact-cc.line.me/categoryId/10641 :: this Inquiry Form",
+  "line-terms-sticker :: https://contact-cc.line.me/serviceId/10569 :: https://contact-cc.line.me/serviceId/10569"
+ ],
+ "line-sticker.landpress.line.me": [
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i",
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i",
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i",
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i",
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i",
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i",
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i",
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i",
+  "line-help-webstore :: https://line-sticker.landpress.line.me/Notice_202607premium_en :: Important: Price revisions following LINE Stickers Premium i"
+ ],
+ "music.line.me": [
+  "line-help-webstore :: https://music.line.me/lp-studio/withlitepaid :: this LINE MUSIC with LYP Premium Enjoy page"
+ ],
+ "linemo.jp": [
+  "line-help-webstore :: https://www.linemo.jp :: this link"
+ ],
+ "lyp-home.landpress.line.me": [
+  "line-help-webstore :: https://lyp-home.landpress.line.me/lyp-premium-launch/?type=status&amp;entry=store_help_lsp_to_standard :: here"
+ ],
+ "itunes.apple.com": [
+  "line-help-webstore :: https://itunes.apple.com/jp/app/line/id443904275?mt=8 :: LINE for iPhone",
+  "line-creators-en-root :: https://itunes.apple.com/jp/app/line/id1239684967 :: ",
+  "line-creators-ja :: https://itunes.apple.com/jp/app/line/id1239684967 :: "
+ ],
+ "play.google.com": [
+  "line-help-webstore :: https://play.google.com/store/apps/details?id=jp.naver.line.android :: LINE for Android",
+  "line-creators-en-root :: https://play.google.com/store/apps/details?id=com.linecorp.usersticker :: ",
+  "line-creators-ja :: https://play.google.com/store/apps/details?id=com.linecorp.usersticker :: "
+ ],
+ "https": [
+  "line-help-webstore :: https://https//contact-cc.line.me/serviceId/10371 :: the Inquiry Form"
+ ],
+ "terms2.line.me": [
+  "line-creators-en-root :: https://terms2.line.me/usersticker_rev :: Specified Commercial Transactions Act",
+  "line-creators-ja :: https://terms2.line.me/usersticker_rev :: 特定商取引法の表記"
+ ],
+ "social-plugins.line.me": [
+  "line-creators-en-root :: https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F :: ",
+  "line-creators-ja :: https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F :: "
+ ],
+ "twitter.com": [
+  "line-creators-en-root :: https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F&text=Create%20and%20sell%20your%20own%20LINE%20stickers%2C%20emoji%2C%20and%20themes%20with%20LINE%20Creators%20Market.&hashtags=LINEStickers%2CLINECreatorsEmoji%2CLINEThemes :: ",
+  "line-creators-ja :: https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F&text=LINE%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E3%82%BA%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E3%81%A7%E3%80%81%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%81%AELINE%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%82%84%E7%B5%B5%E6%96%87%E5%AD%97%E3%80%81%E7%9D%80%E3%81%9B%E3%81%8B%E3%81%88%E3%82%92%E8%B2%A9%E5%A3%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%80%82&hashtags=LINE%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%2CLINE%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E3%82%BA%E7%B5%B5%E6%96%87%E5%AD%97%2CLINE%E7%9D%80%E3%81%9B%E3%81%8B%E3%81%88 :: ",
+  "fastwork-id-start :: https://twitter.com/fastworkid :: "
+ ],
+ "facebook.com": [
+  "line-creators-en-root :: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F :: ",
+  "line-creators-ja :: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F :: ",
+  "fastwork-id-start :: https://www.facebook.com/fastwork.id :: Facebook Messenger",
+  "fastwork-id-start :: https://www.facebook.com/fastwork.id :: "
+ ],
+ "note.com": [
+  "line-creators-ja :: https://note.com/line_cm :: 公式note"
+ ],
+ "jobboard.fastwork.id": [
+  "fastwork-id-start :: https://jobboard.fastwork.id :: Jobboard"
+ ],
+ "seller.fastwork.id": [
+  "fastwork-id-start :: https://seller.fastwork.id :: Seller Center"
+ ],
+ "static.fastwork.id": [
+  "fastwork-id-start :: https://static.fastwork.id/contents/how :: Cara Mulai Jual Pekerjaan",
+  "fastwork-id-start :: https://static.fastwork.id/contents/guarantee :: Jaminan Pekerjaan",
+  "fastwork-id-start :: https://static.fastwork.id/contents/terms :: Syarat dan ketentuan",
+  "fastwork-id-start :: https://static.fastwork.id/contents/privacy :: Kebijakan privasi",
+  "fastwork-id-start :: https://static.fastwork.id/contents/support-center :: Hubungi kami"
+ ],
+ "slimfaq.com": [
+  "fastwork-id-start :: https://www.slimfaq.com/fastwork-id/3475-mempekerjakan-melakukan-pembayaran/14459-bagaimana-cara-hire-freelancer :: Pembayaran"
+ ],
+ "blog.fastwork.id": [
+  "fastwork-id-start :: https://blog.fastwork.id :: Blog Informasi"
+ ],
+ "fastwork4276.zendesk.com": [
+  "fastwork-id-start :: https://fastwork4276.zendesk.com/hc/id :: FAQ"
+ ],
+ "careers.fastwork.co": [
+  "fastwork-id-start :: https://careers.fastwork.co :: Bekerja dengan Fastwork"
+ ],
+ "api.whatsapp.com": [
+  "fastwork-id-start :: https://api.whatsapp.com/send?phone=6285694262973 :: WhatsApp",
+  "fastwork-id-start :: https://api.whatsapp.com/send?phone=6285694262973 :: "
+ ],
+ "instagram.com": [
+  "fastwork-id-start :: https://www.instagram.com/fastwork.id :: "
+ ],
+ "linkedin.com": [
+  "fastwork-id-start :: https://www.linkedin.com/company/fastwork-technologies-indonesia :: "
+ ],
+ "tiktok.com": [
+  "fastwork-id-start :: https://www.tiktok.com/@fastwork.id :: "
+ ],
+ "pinterest.com": [
+  "fastwork-id-start :: https://www.pinterest.com/fastworkid :: "
+ ],
+ "fastwork.co": [
+  "fastwork-id-start :: https://fastwork.co/?source=footer_th :: "
+ ],
+ "fastlance.vn": [
+  "fastwork-id-start :: https://fastlance.vn/?source=footer_vn :: "
+ ]
+}

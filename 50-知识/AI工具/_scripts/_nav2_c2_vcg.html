@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>安全验证</title>
+<style>html{height:100%;background:#f3f4f6;}body{height:100%;margin:0;display:flex;justify-content:center;align-items:center;background:transparent;font-family:system-ui,sans-serif;color:#222;}#background{position:fixed;inset:0;width:100%;height:100%;z-index:-1;object-fit:cover;}.message-container{box-sizing:border-box;width:21rem;max-width:92%;padding:24px;background:#fff;border-radius:16px;box-shadow:0 8px 28px #1112;}.vcg-hd{display:flex;align-items:center;gap:8px;margin:0 0 14px;padding:0 0 12px;border-bottom:1px solid #eee;font-weight:700;}.vcg-hd b{width:36px;height:36px;border-radius:8px;background:#f5c518;font-size:11px;line-height:36px;text-align:center;}.vcg-hd i{font-style:normal;display:block;}.vcg-hd span{display:block;font-size:12px;font-weight:400;color:#999;}.main-title{margin:0 0 12px;font-size:1.2rem;}.loader{height:8px;margin:0 0 12px;overflow:hidden;border-radius:8px;background:#eee;}.loader div{display:none;}.loader::after{content:"";display:block;width:36%;height:100%;background:#f5c518;animation:v 1.2s infinite;}@keyframes v{to{transform:translateX(280%);}}.status-text{margin:0 0 10px;font-size:14px;}.status-text:empty{display:none;}.hint{margin:0 0 10px;font-size:13px;color:#888;}.hint a{color:#c9a227;}#captcha{position:relative;}#waap-session-id{position:fixed;bottom:16px;left:12px;right:12px;margin:0;font-size:12px;color:#bbb;text-align:center;word-break:break-all;user-select:all;}</style>
+</head>
+
+<body>
+<img id="background" alt="" src="https://www.vcg.com/mwaap_background.png?v=1789824083">
+<div class="message-container">
+<div class="vcg-hd"><b>VCG</b><i>视觉中国<span>正版视觉内容平台</span></i></div>
+<h1 class="main-title">正在为您建立安全的访问通道</h1>
+<p class="hint">VCG高清内容加载中，请稍候。</p>
+<div id="loader" class="loader" style="display: none;">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<p id="status-text" class="status-text">正在启动安全组件…</p>
+<p class="hint">若长时间无响应请点击 <a href="" onclick="location.reload();return false">刷新重试</a></p>
+</div>
+<div id="captcha"></div>
+<div id="waap-session-id">session-id: <span class="waap-session-id-value">24f0950155d9073ada0b0dd902014c36</span></div>
+<div style="display: none" id="page-id">000000000</div>
+<!-- observe -->
+<script>
+var maxUnsupportedVersion = {
+Edge: '79',
+IE: '11',
+Chrome: '68',
+Firefox: '64',
+Safari: '10.2',
+Opera: '65.1'
+};
+function getObserveMode() {
+return (window.__WAAP_CONFIG__ || {}).mode || 'deny';
+}
+function setCookie(name, value) {
+var date = new Date();
+date.setTime(date.getTime() + (24 * 60 * 60 * 1000));
+var expires = "; expires=" + date.toGMTString();
+document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value) +
+expires + "; path=/";
+}
+setCookie('waap_observe_mode', getObserveMode());
+</script>
+<link rel="prefetch" href="/mwaap_runtime.js?v=1789824083" as="script">
+<script id="steg" src="/mwaap_steg.js?v=1789824083"></script>
+<script id="main" src="/mwaap_main.js?v=1789824083"></script>
+
+
+
+</body></html>

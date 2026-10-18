@@ -1,0 +1,42 @@
+[
+ {
+  "host": "vcg.com",
+  "status": 403,
+  "len": 3147,
+  "title": "安全验证",
+  "from": "uicn_ext",
+  "name": "",
+  "cat": "",
+  "note": "chrome BLOCKED(cloudflare)"
+ },
+ {
+  "host": "wanxiang.art",
+  "status": 403,
+  "len": 1157795,
+  "title": "万相营造",
+  "from": "uicn_ext",
+  "name": "",
+  "cat": "",
+  "note": "chrome BLOCKED(cloudflare)"
+ },
+ {
+  "host": "huoming.com",
+  "status": -1,
+  "len": 0,
+  "title": "chrome-fetch failed",
+  "from": "uicn_ext",
+  "name": "",
+  "cat": "",
+  "note": ""
+ },
+ {
+  "host": "bugtags.com",
+  "status": 200,
+  "len": 0,
+  "title": "",
+  "from": "uicn_ext",
+  "name": "",
+  "cat": "",
+  "note": ""
+ }
+]

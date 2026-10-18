@@ -1,0 +1,130 @@
+[
+ {
+  "host": "influxdata.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://www.influxdata.com/",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "c15t.com",
+  "status": 200,
+  "len": 752682,
+  "title": "c15t: The open standard for cookie banners",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "coderabbit.link",
+  "status": 301,
+  "len": 136,
+  "title": " | -> https://coderabbit.ai/",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "capture.page",
+  "status": 429,
+  "len": 34224,
+  "title": "Vercel Security Checkpoint",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "docmost.com",
+  "status": 200,
+  "len": 91543,
+  "title": "Enterprise-ready Wiki for Teams | Docmost",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "devsuite.co",
+  "status": 200,
+  "len": 275602,
+  "title": "Find the Best Developer Tools for Your Next Project – DevSuite",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "terminaldock.com",
+  "status": 200,
+  "len": 258417,
+  "title": "The terminal ecosystem, curated. – TerminalDock",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "revinel.com",
+  "status": 200,
+  "len": 29182,
+  "title": "Revinel – Sell ad space on your site directly",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "kulpinski.pl",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://kulpinski.dev/",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "euroalternative.eu",
+  "status": 200,
+  "len": 660601,
+  "title": "Discover European Alternatives to Big Tech Companies – EuroAlternative",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "octolens.com",
+  "status": 200,
+  "len": 343659,
+  "title": "Octolens | The AI Social Listening Tool",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "www.zettlr.com",
+  "status": 200,
+  "len": 43263,
+  "title": "Your One-Stop Publication Workbench | Zettlr",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "www.medusa-commerce.com",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "str-io.github.io",
+  "status": 404,
+  "len": 9115,
+  "title": "Site not found &middot; GitHub Pages",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "musescore.com",
+  "status": 403,
+  "len": 15510,
+  "title": "Just a moment...",
+  "from": "openalt",
+  "cat": "misc"
+ },
+ {
+  "host": "www.musescore.com",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://musescore.com/",
+  "from": "openalt",
+  "cat": "misc"
+ }
+]

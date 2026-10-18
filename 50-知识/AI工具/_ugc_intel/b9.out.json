@@ -1,0 +1,1181 @@
+[
+ {
+  "key": "line-help-webstore",
+  "url": "https://help.line.me/webstore/web?lang=en",
+  "note": "LINE STORE 帮助",
+  "status": 200,
+  "ok": true,
+  "title": "Home | LINE STORE Help Center",
+  "host": "help.line.me",
+  "fee": [
+   "Thank you for your feedback.",
+   "You'll get a percentage of the purchase price back as LINE Credit when you buy eligible items.",
+   "This means that even if you purchase eligible items, you will not receive a percentage of the purchase price back as a LINE Credit reward if you use LINE Points to make your payment."
+  ],
+  "links": [
+   {
+    "href": "https://line.me",
+    "text": "LINE",
+    "host": "line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web?lang=en",
+    "text": "Help center",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/pc?lang=ja",
+    "text": "日本語",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/pc?lang=ko",
+    "text": "한국어",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/pc?lang=zh-Hant",
+    "text": "中文(繁體)",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/pc?lang=th",
+    "text": "ภาษาไทย",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://contact.line.me/serviceId/10371",
+    "text": "Inquiry Form",
+    "host": "contact.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web?contentId=198",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "http://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "http://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "http://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "http://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://help.line.me/line/?contentId=20000143",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web?contentId=738",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=148",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "http://line.me/R/nv/settings/account",
+    "text": "this link",
+    "host": "line.me"
+   },
+   {
+    "href": "https://help.line.me/line/smartphone/?contentId=20000060",
+    "text": "Registering/checking/changing your email address and password",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web?contentId=198",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://www.paypal.com/webapps/mpp/home",
+    "text": "PayPal website",
+    "host": "paypal.com"
+   },
+   {
+    "href": "https://help2.line.me/linepay_jp",
+    "text": "this Help page",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=220",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://contact.line.me/serviceId/10371",
+    "text": "Inquiry Form",
+    "host": "contact.line.me"
+   },
+   {
+    "href": "https://contact-cc.line.me/categoryId/10641",
+    "text": "this Inquiry Form",
+    "host": "contact-cc.line.me"
+   },
+   {
+    "href": "https://line.me/download",
+    "text": "here",
+    "host": "line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20012315",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://line.me/download",
+    "text": "here",
+    "host": "line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20016030",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=738",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20014397",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://music.line.me/lp-studio/withlitepaid",
+    "text": "this LINE MUSIC with LYP Premium Enjoy page",
+    "host": "music.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=200002696",
+    "text": "Changing your LINE Stickers Premium plan to an LYP Premium plan",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=200002696",
+    "text": "Changing your LINE Stickers Premium plan to an LYP Premium plan",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20014401",
+    "text": "What's the latest I can cancel my plan (course) subscription before being charged?",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20014400",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20014400",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/line/?contentId=20023226",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20014391",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://www.linemo.jp",
+    "text": "this link",
+    "host": "linemo.jp"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20023626",
+    "text": "this Help article",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://line-sticker.landpress.line.me/Notice_202607premium_en",
+    "text": "Important: Price revisions following LINE Stickers Premium integration into LYP Premium",
+    "host": "line-sticker.landpress.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20014400",
+    "text": "Canceling a subscription",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://help.line.me/webstore/web/?contentId=20023626",
+    "text": "Canceling your LINE Stickers Premium for LINEMO plan",
+    "host": "help.line.me"
+   },
+   {
+    "href": "https://line.me/R/nv/settings/lypPremium/status?entry=store_help_lsp_to_standard",
+    "text": "here",
+    "host": "line.me"
+   },
+   {
+    "href": "https://lyp-home.landpress.line.me/lyp-premium-launch/?type=status&amp;entry=store_help_lsp_to_standard",
+    "text": "here",
+    "host": "lyp-home.landpress.line.me"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://contact-cc.line.me/serviceId/10371",
+    "text": "Inquiry Form",
+    "host": "contact-cc.line.me"
+   },
+   {
+    "href": "https://itunes.apple.com/jp/app/line/id443904275?mt=8",
+    "text": "LINE for iPhone",
+    "host": "itunes.apple.com"
+   },
+   {
+    "href": "https://play.google.com/store/apps/details?id=jp.naver.line.android",
+    "text": "LINE for Android",
+    "host": "play.google.com"
+   },
+   {
+    "href": "https://contact-cc.line.me/categoryId/10641",
+    "text": "this Inquiry Form",
+    "host": "contact-cc.line.me"
+   },
+   {
+    "href": "https://store.line.me/mypage/CHARGE",
+    "text": "Credit log",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://store.line.me/creditback",
+    "text": "LINE Credit rewards details page",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://store.line.me/creditback",
+    "text": "these important notes",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://store.line.me/creditback",
+    "text": "here",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://store.line.me/mypage/CHARGE",
+    "text": "Credit log",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://https//contact-cc.line.me/serviceId/10371",
+    "text": "the Inquiry Form",
+    "host": "https"
+   }
+  ],
+  "bytes": 900937,
+  "err": "",
+  "ms": 1565
+ },
+ {
+  "key": "line-creators-en-root",
+  "url": "https://creator.line.me/en/",
+  "note": "LINE Creators EN 首页（已200）",
+  "status": 200,
+  "ok": true,
+  "title": "LINE Creators Market",
+  "host": "creator.line.me",
+  "fee": [
+   "bb32dbcfee47e30fce80e1e6e7f159b3.",
+   "4a75feee90167116c0f815d9b1f92692.",
+   "I feel elated when I see someone actually using stickers I've created.",
+   "When I see friends and family enjoying my stickers or when I receive positive comments on social media about merchandise featuring my characters, it makes me feel like I made the right decision."
+  ],
+  "links": [
+   {
+    "href": "https://creator.line.me/studio/app/folder",
+    "text": "View",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en",
+    "text": "image.logo",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/signup/line_auth",
+    "text": "My Page",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja",
+    "text": "日本語",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hant",
+    "text": "中文(繁體)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hans",
+    "text": "中文(简体)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ko",
+    "text": "한국어",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/th",
+    "text": "ภาษาไทย",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/id",
+    "text": "Bahasa Indonesia",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/howto",
+    "text": "How to Use",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline",
+    "text": "Creation Guidelines",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/sticker",
+    "text": "Stickers",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/animationsticker",
+    "text": "Animated Stickers",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/customsticker",
+    "text": "Custom Stickers",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/messagesticker",
+    "text": "Message Stickers",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/bigsticker",
+    "text": "Big Stickers",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/popupsticker",
+    "text": "Pop-up stickers",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/effectsticker",
+    "text": "Effect stickers",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/emoji",
+    "text": "Emoji",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/animationemoji",
+    "text": "Animated emoji",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/guideline/theme",
+    "text": "Themes",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/stickermaker",
+    "text": "LINE Sticker Maker",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/ios/sp?lang=en",
+    "text": "FAQ",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/android/sp?lang=en",
+    "text": "FAQ",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/ios/pc?lang=en",
+    "text": "FAQ",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/android/pc?lang=en",
+    "text": "FAQ",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/web/pc?lang=en",
+    "text": "FAQ",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://itunes.apple.com/jp/app/line/id1239684967",
+    "text": "",
+    "host": "itunes.apple.com"
+   },
+   {
+    "href": "https://play.google.com/store/apps/details?id=com.linecorp.usersticker",
+    "text": "",
+    "host": "play.google.com"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/terms",
+    "text": "Terms and Conditions of Use",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://line.me/en/terms/policy",
+    "text": "Privacy Policy",
+    "host": "line.me"
+   },
+   {
+    "href": "https://terms2.line.me/usersticker_rev",
+    "text": "Specified Commercial Transactions Act",
+    "host": "terms2.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en/review_guideline",
+    "text": "Sticker Review Guidelines",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja",
+    "text": "日本語",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hant",
+    "text": "中文(繁體)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hans",
+    "text": "中文(简体)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ko",
+    "text": "한국어",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/th",
+    "text": "ภาษาไทย",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/id",
+    "text": "Bahasa Indonesia",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F",
+    "text": "",
+    "host": "social-plugins.line.me"
+   },
+   {
+    "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F&text=Create%20and%20sell%20your%20own%20LINE%20stickers%2C%20emoji%2C%20and%20themes%20with%20LINE%20Creators%20Market.&hashtags=LINEStickers%2CLINECreatorsEmoji%2CLINEThemes",
+    "text": "",
+    "host": "twitter.com"
+   },
+   {
+    "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcreator.line.me%2Fen%2Fstickermaker%2F",
+    "text": "",
+    "host": "facebook.com"
+   }
+  ],
+  "bytes": 53006,
+  "err": "",
+  "ms": 958
+ },
+ {
+  "key": "line-creators-ja",
+  "url": "https://creator.line.me/ja/",
+  "note": "LINE Creators JA",
+  "status": 200,
+  "ok": true,
+  "title": "LINE Creators Market",
+  "host": "creator.line.me",
+  "fee": [
+   "bb32dbcfee47e30fce80e1e6e7f159b3.",
+   "4a75feee90167116c0f815d9b1f92692."
+  ],
+  "links": [
+   {
+    "href": "https://creator.line.me/studio/app/folder",
+    "text": "開く",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja",
+    "text": "image.logo",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/signup/line_auth",
+    "text": "マイページ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en",
+    "text": "English",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hant",
+    "text": "中文(繁體)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hans",
+    "text": "中文(简体)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ko",
+    "text": "한국어",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/th",
+    "text": "ภาษาไทย",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/id",
+    "text": "Bahasa Indonesia",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/howto",
+    "text": "ご利用方法",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline",
+    "text": "制作ガイドライン",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/sticker",
+    "text": "スタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/animationsticker",
+    "text": "アニメーションスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/customsticker",
+    "text": "カスタムスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/messagesticker",
+    "text": "メッセージスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/bigsticker",
+    "text": "BIGスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/popupsticker",
+    "text": "ポップアップスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/effectsticker",
+    "text": "エフェクトスタンプ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/emoji",
+    "text": "絵文字",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/animationemoji",
+    "text": "アニメーション絵文字",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/guideline/theme",
+    "text": "着せかえ",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/stickermaker",
+    "text": "LINEスタンプメーカー",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/ios/sp?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/android/sp?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/ios/pc?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/android/pc?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://help2.line.me/creators/web/pc?lang=ja",
+    "text": "Q&A",
+    "host": "help2.line.me"
+   },
+   {
+    "href": "https://note.com/line_cm",
+    "text": "公式note",
+    "host": "note.com"
+   },
+   {
+    "href": "https://itunes.apple.com/jp/app/line/id1239684967",
+    "text": "",
+    "host": "itunes.apple.com"
+   },
+   {
+    "href": "https://play.google.com/store/apps/details?id=com.linecorp.usersticker",
+    "text": "",
+    "host": "play.google.com"
+   },
+   {
+    "href": "https://creator.line.me/ja/award",
+    "text": "",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://store.line.me",
+    "text": "LINE STORE",
+    "host": "store.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/terms",
+    "text": "利用規約",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://line.me/ja/terms/policy",
+    "text": "プライバシーポリシー",
+    "host": "line.me"
+   },
+   {
+    "href": "https://terms2.line.me/usersticker_rev",
+    "text": "特定商取引法の表記",
+    "host": "terms2.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ja/review_guideline",
+    "text": "スタンプ審査ガイドライン",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/en",
+    "text": "English",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hant",
+    "text": "中文(繁體)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/zh-hans",
+    "text": "中文(简体)",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/ko",
+    "text": "한국어",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/th",
+    "text": "ภาษาไทย",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://creator.line.me/id",
+    "text": "Bahasa Indonesia",
+    "host": "creator.line.me"
+   },
+   {
+    "href": "https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F",
+    "text": "",
+    "host": "social-plugins.line.me"
+   },
+   {
+    "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F&text=LINE%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E3%82%BA%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E3%81%A7%E3%80%81%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%81%AELINE%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%82%84%E7%B5%B5%E6%96%87%E5%AD%97%E3%80%81%E7%9D%80%E3%81%9B%E3%81%8B%E3%81%88%E3%82%92%E8%B2%A9%E5%A3%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86%E3%80%82&hashtags=LINE%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%2CLINE%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E3%82%BA%E7%B5%B5%E6%96%87%E5%AD%97%2CLINE%E7%9D%80%E3%81%9B%E3%81%8B%E3%81%88",
+    "text": "",
+    "host": "twitter.com"
+   },
+   {
+    "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcreator.line.me%2Fja%2Fstickermaker%2F",
+    "text": "",
+    "host": "facebook.com"
+   }
+  ],
+  "bytes": 58875,
+  "err": "",
+  "ms": 898
+ },
+ {
+  "key": "line-terms-sticker",
+  "url": "https://terms2.line.me/usersticker_rev",
+  "note": "LINE 表情销售条款",
+  "status": 200,
+  "ok": true,
+  "title": "LINE PRスタンプ",
+  "host": "terms2.line.me",
+  "fee": [
+   "※消費税は内税として表示しております。",
+   "クレジットカード決済完了後または銀行振込による場合は、別途当社が指定する時期まで",
+   "消費税は内税として表示しております。",
+   "銀行振り込みでのお支払の場合、振込手数料はお客様の負担となります。",
+   "購入に関するページに特別な定めを置いている場合を除き、支払手続き完了後、直ちにまたは、銀行振込による場合は、入金確認完了後直ちにご配布いただけます。"
+  ],
+  "links": [
+   {
+    "href": "http://line.me",
+    "text": "LINE",
+    "host": "line.me"
+   },
+   {
+    "href": "https://contact-cc.line.me/serviceId/10569",
+    "text": "https://contact-cc.line.me/serviceId/10569",
+    "host": "contact-cc.line.me"
+   }
+  ],
+  "bytes": 6035,
+  "err": "",
+  "ms": 771
+ },
+ {
+  "key": "line-cc",
+  "url": "https://contact-cc.line.me",
+  "note": "LINE Creators 联系/结算",
+  "status": 302,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 302"
+ },
+ {
+  "key": "fastwork-id-how2",
+  "url": "https://static.fastwork.id/contents/how",
+  "note": "Fastwork How（再试）",
+  "status": 200,
+  "ok": true,
+  "title": "",
+  "host": "static.fastwork.id",
+  "fee": [],
+  "links": [],
+  "bytes": 1749,
+  "err": "",
+  "ms": 612
+ },
+ {
+  "key": "fastwork-id-terms2",
+  "url": "https://static.fastwork.id/contents/terms",
+  "note": "Fastwork 条款（再试）",
+  "status": 200,
+  "ok": true,
+  "title": "",
+  "host": "static.fastwork.id",
+  "fee": [],
+  "links": [],
+  "bytes": 1757,
+  "err": "",
+  "ms": 1667
+ },
+ {
+  "key": "fastwork-id-start",
+  "url": "https://fastwork.id/start-selling",
+  "note": "Fastwork.id 成为自由职业者",
+  "status": 200,
+  "ok": true,
+  "title": "Daftar Sekarang, Mulai Kebebasan Bekerja Anda | Fastwork.id",
+  "host": "fastwork.id",
+  "fee": [
+   "share-commission\":\"Share untuk nikmati komisi 0%\",\"byob.",
+   "term1\":\"Nikmati biaya komisi 0% saat seseorang membuka link yang kamu share di luar Fastwork dan melakukan pekerjaan dengan kamu.",
+   "term3\":\"Semua order dari klien baru akan dikenakan biaya platform 0% selama program ini berlangsung.",
+   "price-label\":\"Harga\",\"checkout.",
+   "estimated-payment-price\":\"Jumlah Tagihan\",\"checkout.",
+   "payment-price\":\"Jumlah yang harus dibayar\",\"checkout.",
+   "feedback\":\"Laporkan masalah\",\"profile-menu-page.",
+   "withdrawal\":\"Pendapatan\",\"profile-menu-page.",
+   "feedback\":\"Berikan Feedback\",\"about-us.",
+   "select-project\":\"\",\"commission-tier\":\"Freelance tingkat\",\"commission-tier-short\":\"Tingkat\",\"meta.",
+   "withdrawal\":\"Pendapatan\",\"mega-menu.",
+   "now it feels like I’m working with Fastwork instead."
+  ],
+  "links": [
+   {
+    "href": "https://fastwork.id",
+    "text": "",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://jobboard.fastwork.id",
+    "text": "Jobboard",
+    "host": "jobboard.fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/start-selling",
+    "text": "Daftar sebagai freelancer",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://seller.fastwork.id",
+    "text": "Seller Center",
+    "host": "seller.fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/web-development",
+    "text": "Web Development",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/logo-design",
+    "text": "Logo",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/mobile-application",
+    "text": "Aplikasi Ponsel",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/translation",
+    "text": "Penerjemahan",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/digital-marketing",
+    "text": "Digital Marketing",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/content-writing",
+    "text": "Penulisan Konten",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/3d-2d-model",
+    "text": "3D & Perspektif",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/video-editing",
+    "text": "Video Editing",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/start-selling",
+    "text": "Daftar sebagai Freelancer",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://static.fastwork.id/contents/how",
+    "text": "Cara Mulai Jual Pekerjaan",
+    "host": "static.fastwork.id"
+   },
+   {
+    "href": "https://www.slimfaq.com/fastwork-id/3475-mempekerjakan-melakukan-pembayaran/14459-bagaimana-cara-hire-freelancer",
+    "text": "Pembayaran",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://static.fastwork.id/contents/guarantee",
+    "text": "Jaminan Pekerjaan",
+    "host": "static.fastwork.id"
+   },
+   {
+    "href": "https://blog.fastwork.id",
+    "text": "Blog Informasi",
+    "host": "blog.fastwork.id"
+   },
+   {
+    "href": "https://fastwork4276.zendesk.com/hc/id",
+    "text": "FAQ",
+    "host": "fastwork4276.zendesk.com"
+   },
+   {
+    "href": "https://fastwork.id/consent-management",
+    "text": "Atur Penggunaan Data Personal",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id",
+    "text": "Fastwork",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://careers.fastwork.co",
+    "text": "Bekerja dengan Fastwork",
+    "host": "careers.fastwork.co"
+   },
+   {
+    "href": "https://static.fastwork.id/contents/terms",
+    "text": "Syarat dan ketentuan",
+    "host": "static.fastwork.id"
+   },
+   {
+    "href": "https://static.fastwork.id/contents/privacy",
+    "text": "Kebijakan privasi",
+    "host": "static.fastwork.id"
+   },
+   {
+    "href": "https://static.fastwork.id/contents/support-center",
+    "text": "Hubungi kami",
+    "host": "static.fastwork.id"
+   },
+   {
+    "href": "https://fastwork.id/cdn-cgi/l/email-protection#a4d7d1d4d4cbd6d0e4c2c5d7d0d3cbd6cf8acdc0",
+    "text": "[email&#160;protected]",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://api.whatsapp.com/send?phone=6285694262973",
+    "text": "WhatsApp",
+    "host": "api.whatsapp.com"
+   },
+   {
+    "href": "https://www.facebook.com/fastwork.id",
+    "text": "Facebook Messenger",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://api.whatsapp.com/send?phone=6285694262973",
+    "text": "",
+    "host": "api.whatsapp.com"
+   },
+   {
+    "href": "https://www.instagram.com/fastwork.id",
+    "text": "",
+    "host": "instagram.com"
+   },
+   {
+    "href": "https://www.facebook.com/fastwork.id",
+    "text": "",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://twitter.com/fastworkid",
+    "text": "",
+    "host": "twitter.com"
+   },
+   {
+    "href": "https://www.linkedin.com/company/fastwork-technologies-indonesia",
+    "text": "",
+    "host": "linkedin.com"
+   },
+   {
+    "href": "https://www.tiktok.com/@fastwork.id",
+    "text": "",
+    "host": "tiktok.com"
+   },
+   {
+    "href": "https://www.pinterest.com/fastworkid",
+    "text": "",
+    "host": "pinterest.com"
+   },
+   {
+    "href": "https://fastwork.id/categories",
+    "text": "Sitemaps",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastwork.co/?source=footer_th",
+    "text": "",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://fastwork.id/?source=footer_id",
+    "text": "",
+    "host": "fastwork.id"
+   },
+   {
+    "href": "https://fastlance.vn/?source=footer_vn",
+    "text": "",
+    "host": "fastlance.vn"
+   }
+  ],
+  "bytes": 98584,
+  "err": "",
+  "ms": 1111
+ },
+ {
+  "key": "taling-me-home",
+  "url": "https://taling.me/Home",
+  "note": "Taling Home",
+  "status": 308,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 140,
+  "err": "HTTP 308"
+ },
+ {
+  "key": "class101-main",
+  "url": "https://class101.net/",
+  "note": "Class101 main",
+  "status": 307,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 3,
+  "err": "HTTP 307"
+ },
+ {
+  "key": "cakeresume-www",
+  "url": "https://www.cakeresume.com/zh-tw",
+  "note": "CakeResume 繁中",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 167,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "yourator-www",
+  "url": "https://yourator.co/",
+  "note": "Yourator",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 17,
+  "err": "HTTP 301"
+ }
+]

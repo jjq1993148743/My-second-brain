@@ -1,0 +1,67 @@
+[
+ {
+  "key": "skima-uriage",
+  "url": "https://faq.skima.jp/hc/ja/articles/115007850147--%E5%A3%B2%E4%B8%8A%E9%87%91-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+  "note": "",
+  "status": 403,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 5991,
+  "err": "HTTP 403"
+ },
+ {
+  "key": "skima-furikomi-req",
+  "url": "https://faq.skima.jp/hc/ja/articles/115008011488-%E6%8C%AF%E8%BE%BC%E7%94%B3%E8%AB%8B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+  "note": "",
+  "status": 403,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 6033,
+  "err": "HTTP 403"
+ },
+ {
+  "key": "skima-furikomi-amount",
+  "url": "https://faq.skima.jp/hc/ja/articles/115008585407-%E6%8C%AF%E8%BE%BC%E7%94%B3%E8%AB%8B%E3%81%AE%E9%87%91%E9%A1%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+  "note": "",
+  "status": 403,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 6135,
+  "err": "HTTP 403"
+ },
+ {
+  "key": "skima-kaigai-comm",
+  "url": "https://faq.skima.jp/hc/ja/sections/115002291587-%E6%B5%B7%E5%A4%96%E5%87%BA%E5%93%81%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+  "note": "",
+  "status": 403,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 6033,
+  "err": "HTTP 403"
+ },
+ {
+  "key": "skima-sankakakute",
+  "url": "https://faq.skima.jp/hc/ja/articles/115007853067-%E5%8F%82%E8%80%83%E4%BE%A1%E6%A0%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+  "note": "",
+  "status": 403,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 6033,
+  "err": "HTTP 403"
+ }
+]

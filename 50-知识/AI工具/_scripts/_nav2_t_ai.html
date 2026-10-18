@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="applicable-device" content="pc,mobile">
+<title>安全验证</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background: #000;
+        color: #fff;
+        line-height: 1.6;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        text-align: center;
+        padding: 3rem;
+        max-width: 700px;
+        width: 90%;
+        position: relative;
+        z-index: 10;
+    }
+
+    .captcha-title {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        letter-spacing: 1px;
+        background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        text-shadow: 0 10px 30px rgba(0, 114, 255, 0.3);
+    }
+
+    .captcha-box {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 1.5rem;
+        margin: 1rem auto;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    .captcha-box::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(45deg, transparent, rgba(0, 114, 255, 0.1), transparent);
+        transform: rotate(45deg);
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    .captcha-img-container {
+        position: relative;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .captcha-img {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        overflow: hidden;
+        width: 100%;
+        max-width: 320px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .captcha-img:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 114, 255, 0.2);
+        border-color: rgba(0, 114, 255, 0.3);
+    }
+
+    .captcha-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .refresh-btn {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+        border: none;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 5px 15px rgba(0, 114, 255, 0.4);
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        z-index: 2;
+    }
+
+    .refresh-btn:hover {
+        transform: translateY(-50%) scale(1.1) rotate(15deg);
+        box-shadow: 0 8px 25px rgba(0, 114, 255, 0.6);
+    }
+
+    .input-group {
+        margin-bottom: 1rem;
+    }
+
+    .captcha-input {
+        width: 100%;
+        padding: 14px 20px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .captcha-input:focus {
+        outline: none;
+        border-color: rgba(0, 114, 255, 0.5);
+        box-shadow: 0 0 20px rgba(0, 114, 255, 0.2);
+        background: rgba(255, 255, 255, 0.08);
+    }
+
+    .captcha-input::placeholder {
+        color: rgba(255, 255, 255, 0.4);
+        font-weight: 300;
+    }
+
+    .verify-btn {
+        width: 100%;
+        padding: 14px 40px;
+        background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        box-shadow: 0 5px 15px rgba(0, 114, 255, 0.4);
+    }
+
+    .verify-btn::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+        transform: translateX(-100%);
+        transition: 0.6s;
+    }
+
+    .verify-btn:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0, 114, 255, 0.4);
+    }
+
+    .verify-btn:hover::after {
+        transform: translateX(100%);
+    }
+
+    .verify-btn:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+    .error-msg {
+        color: #ff4757;
+        margin-top: 20px;
+        font-size: 16px;
+        display: none;
+        background: rgba(255, 71, 87, 0.1);
+        border: 1px solid rgba(255, 71, 87, 0.3);
+        border-radius: 12px;
+        padding: 15px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .success-msg {
+        color: #2ed573;
+        margin-top: 20px;
+        font-size: 16px;
+        display: none;
+        background: rgba(46, 213, 115, 0.1);
+        border: 1px solid rgba(46, 213, 115, 0.3);
+        border-radius: 12px;
+        padding: 15px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .loading {
+        display: none;
+        margin: 20px auto;
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(0, 114, 255, 0.1);
+        border-radius: 50%;
+        border-top-color: #0072ff;
+        animation: spin 1s ease-in-out infinite;
+    }
+
+    .info-box {
+        margin-top: 30px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 15px;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.7);
+        text-align: left;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .info-box p {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        margin: 8px 0;
+        align-items: center;
+    }
+
+    .contact-info {
+        margin-top: 15px !important;
+        padding-top: 15px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .contact-info a {
+        color: #00c6ff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .contact-info a:hover {
+        color: #0072ff;
+        text-decoration: underline;
+    }
+
+    .info-box p {
+        font-size: 15px;
+    }
+    
+    .info-box p:last-child {
+        margin-bottom: 0;
+    }
+
+    /* 背景动画 */
+    .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: linear-gradient(45deg, #000428 0%, #004e92 100%);
+        overflow: hidden;
+    }
+
+    .stars {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+    }
+
+    .star {
+        position: absolute;
+        background: #fff;
+        border-radius: 50%;
+        opacity: 0;
+        animation: twinkle var(--duration) linear infinite;
+        animation-delay: var(--delay);
+    }
+
+    .comet {
+        position: absolute;
+        width: 100px;
+        height: 2px;
+        background: linear-gradient(90deg, rgba(0, 198, 255, 0.8), transparent);
+        transform: rotate(var(--angle));
+        top: var(--top);
+        left: var(--left);
+        opacity: 0;
+        animation: comet 10s linear infinite;
+        animation-delay: var(--delay);
+    }
+
+    @keyframes spin {
+        to { transform: rotate(360deg); }
+    }
+
+    @keyframes twinkle {
+        0%, 100% { opacity: 0; transform: scale(0.5); }
+        50% { opacity: var(--opacity); transform: scale(1); }
+    }
+
+    @keyframes comet {
+        0% { transform: translateX(-100px) rotate(var(--angle)); opacity: 1; }
+        20% { opacity: 1; }
+        30% { opacity: 0; }
+        100% { transform: translateX(calc(100vw + 100px)) rotate(var(--angle)); opacity: 0; }
+    }
+
+    @media (max-width: 768px) {
+        .captcha-title {
+            font-size: 2.5rem;
+        }
+
+        .container {
+            padding: 2rem 1.5rem;
+        }
+
+        .captcha-box {
+            padding: 1.5rem;
+        }
+        
+        .verify-btn {
+            padding: 15px 40px;
+            font-size: 16px;
+        }
+    }
+    
+    .verify-notice {
+        text-align: center;
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 auto 30px;
+    }
+
+    .verify-notice .main-text {
+        font-size: 17px;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    .verify-notice .main-text span {
+        color: #00c6ff;
+        background: rgba(0, 198, 255, 0.1);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 15px;
+        border: 1px solid rgba(0, 198, 255, 0.2);
+    }
+    
+    .verify-notice .sub-text {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.7);
+        margin: 8px 0;
+        line-height: 1.6;
+    }
+    
+    .verify-notice .tip {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.6);
+        margin-top: 15px;
+        background: rgba(255, 255, 255, 0.05);
+        padding: 8px 16px;
+        border-radius: 20px;
+        display: inline-block;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+</style>
+</head>
+<body>
+    <div class="background">
+        <div class="stars" id="stars"><div class="star" style="left: 9.36274%; top: 17.1373%; width: 1.78599px; height: 1.78599px; animation-delay: 3.21859s; --duration: 2.129177572271742s; --opacity: 0.8477164162198683;"></div><div class="star" style="left: 50.5319%; top: 41.2857%; width: 1.10103px; height: 1.10103px; animation-delay: 1.32881s; --duration: 4.284511024249765s; --opacity: 0.7914339092455216;"></div><div class="star" style="left: 75.6628%; top: 88.3943%; width: 2.43869px; height: 2.43869px; animation-delay: 3.60388s; --duration: 2.062438702683367s; --opacity: 0.3932190932380164;"></div><div class="star" style="left: 84.5859%; top: 78.9638%; width: 1.96443px; height: 1.96443px; animation-delay: 3.6854s; --duration: 3.4760436922720945s; --opacity: 0.7060485364004019;"></div><div class="star" style="left: 89.679%; top: 60.3421%; width: 1.67247px; height: 1.67247px; animation-delay: 3.61317s; --duration: 3.6459191289413053s; --opacity: 0.5936743527548077;"></div><div class="star" style="left: 20.6427%; top: 92.9315%; width: 2.4322px; height: 2.4322px; animation-delay: 2.78981s; --duration: 3.9240279540766s; --opacity: 0.9947582342081833;"></div><div class="star" style="left: 31.8172%; top: 72.9321%; width: 1.32363px; height: 1.32363px; animation-delay: 4.42407s; --duration: 2.9281082305697814s; --opacity: 0.8296854887279272;"></div><div class="star" style="left: 22.0438%; top: 84.0756%; width: 1.8182px; height: 1.8182px; animation-delay: 0.070882s; --duration: 3.2068383139404517s; --opacity: 0.43247800935538105;"></div><div class="star" style="left: 26.7362%; top: 95.4425%; width: 2.8488px; height: 2.8488px; animation-delay: 3.40602s; --duration: 3.0980516221626297s; --opacity: 0.7079663059915373;"></div><div class="star" style="left: 34.0811%; top: 6.93724%; width: 2.88974px; height: 2.88974px; animation-delay: 0.573337s; --duration: 4.852269662721753s; --opacity: 0.5381679104109129;"></div><div class="star" style="left: 42.2778%; top: 18.185%; width: 1.32338px; height: 1.32338px; animation-delay: 3.68518s; --duration: 2.2673215006051146s; --opacity: 0.39195801907510974;"></div><div class="star" style="left: 38.8894%; top: 43.4862%; width: 1.3255px; height: 1.3255px; animation-delay: 1.87245s; --duration: 4.9452832487128795s; --opacity: 0.731610206617995;"></div><div class="star" style="left: 50.8961%; top: 60.0084%; width: 2.64645px; height: 2.64645px; animation-delay: 0.231645s; --duration: 2.664263778929239s; --opacity: 0.8477677181289889;"></div><div class="star" style="left: 74.2371%; top: 79.1912%; width: 1.25788px; height: 1.25788px; animation-delay: 0.2634s; --duration: 4.702232761467616s; --opacity: 0.94497617161638;"></div><div class="star" style="left: 72.4313%; top: 21.2045%; width: 1.31199px; height: 1.31199px; animation-delay: 2.06972s; --duration: 3.0384397285325595s; --opacity: 0.4051559059446861;"></div><div class="star" style="left: 74.1192%; top: 3.92869%; width: 2.42883px; height: 2.42883px; animation-delay: 1.75518s; --duration: 4.16758756938479s; --opacity: 0.8504898438283772;"></div><div class="star" style="left: 89.1423%; top: 90.1948%; width: 2.25959px; height: 2.25959px; animation-delay: 0.960597s; --duration: 2.275451562255755s; --opacity: 0.8681855931215956;"></div><div class="star" style="left: 30.1327%; top: 81.1977%; width: 2.25713px; height: 2.25713px; animation-delay: 0.859657s; --duration: 3.556064729887788s; --opacity: 0.9709811644282016;"></div><div class="star" style="left: 28.6969%; top: 65.712%; width: 1.12294px; height: 1.12294px; animation-delay: 2.04088s; --duration: 4.718727203882285s; --opacity: 0.975395519732378;"></div><div class="star" style="left: 80.1175%; top: 42.9431%; width: 1.7026px; height: 1.7026px; animation-delay: 0.40962s; --duration: 2.5200606391171307s; --opacity: 0.307875086948263;"></div><div class="star" style="left: 88.2943%; top: 25.389%; width: 2.70999px; height: 2.70999px; animation-delay: 4.43371s; --duration: 2.6873806255977954s; --opacity: 0.500084944940149;"></div><div class="star" style="left: 65.3642%; top: 44.7993%; width: 2.45464px; height: 2.45464px; animation-delay: 4.92206s; --duration: 2.3492964129096054s; --opacity: 0.3700537846847984;"></div><div class="star" style="left: 66.89%; top: 85.1203%; width: 2.9236px; height: 2.9236px; animation-delay: 4.90833s; --duration: 3.825990943465248s; --opacity: 0.4987558768633901;"></div><div class="star" style="left: 41.8608%; top: 99.6341%; width: 1.36665px; height: 1.36665px; animation-delay: 0.97664s; --duration: 3.6288211089152576s; --opacity: 0.3580909414089091;"></div><div class="star" style="left: 32.8513%; top: 2.47028%; width: 2.84005px; height: 2.84005px; animation-delay: 4.87576s; --duration: 2.572968995838261s; --opacity: 0.5677037163013636;"></div><div class="star" style="left: 74.076%; top: 45.0768%; width: 1.71633px; height: 1.71633px; animation-delay: 0.446548s; --duration: 3.553525916581984s; --opacity: 0.9290826497369131;"></div><div class="star" style="left: 31.604%; top: 35.8964%; width: 2.475px; height: 2.475px; animation-delay: 2.05365s; --duration: 2.02262093725492s; --opacity: 0.37024446359162116;"></div><div class="star" style="left: 19.6783%; top: 70.811%; width: 2.63955px; height: 2.63955px; animation-delay: 2.18546s; --duration: 4.851897089163998s; --opacity: 0.9430126054964658;"></div><div class="star" style="left: 24.5107%; top: 52.2045%; width: 2.86704px; height: 2.86704px; animation-delay: 0.8967s; --duration: 3.1144172773284255s; --opacity: 0.8157775260352638;"></div><div class="star" style="left: 80.2755%; top: 53.1486%; width: 2.13175px; height: 2.13175px; animation-delay: 2.45252s; --duration: 4.233304191211726s; --opacity: 0.9630174397812574;"></div><div class="star" style="left: 41.1291%; top: 75.1723%; width: 1.53351px; height: 1.53351px; animation-delay: 1.02933s; --duration: 2.5272417531527123s; --opacity: 0.34280910385128427;"></div><div class="star" style="left: 71.6941%; top: 47.235%; width: 2.81164px; height: 2.81164px; animation-delay: 0.994725s; --duration: 2.078607902768143s; --opacity: 0.30309026133947653;"></div><div class="star" style="left: 35.1898%; top: 19.1743%; width: 1.12093px; height: 1.12093px; animation-delay: 0.513384s; --duration: 2.2158161222545387s; --opacity: 0.6801021095943292;"></div><div class="star" style="left: 8.96022%; top: 94.2112%; width: 2.51685px; height: 2.51685px; animation-delay: 3.57071s; --duration: 4.226812091408194s; --opacity: 0.6175438852928591;"></div><div class="star" style="left: 92.8136%; top: 67.2633%; width: 1.3745px; height: 1.3745px; animation-delay: 2.66273s; --duration: 2.9866074156227587s; --opacity: 0.7894712771318393;"></div><div class="star" style="left: 59.1654%; top: 42.5054%; width: 2.71829px; height: 2.71829px; animation-delay: 4.61564s; --duration: 4.157392171745403s; --opacity: 0.7509281994384873;"></div><div class="star" style="left: 67.2608%; top: 88.8271%; width: 2.26173px; height: 2.26173px; animation-delay: 4.13565s; --duration: 4.978581016786415s; --opacity: 0.837124554564509;"></div><div class="star" style="left: 58.026%; top: 14.7284%; width: 2.66671px; height: 2.66671px; animation-delay: 0.923733s; --duration: 3.9405920490000517s; --opacity: 0.5443255042264963;"></div><div class="star" style="left: 49.6814%; top: 31.8172%; width: 2.16344px; height: 2.16344px; animation-delay: 1.92318s; --duration: 2.7408958660643807s; --opacity: 0.9231301768809983;"></div><div class="star" style="left: 64.3781%; top: 87.7632%; width: 2.74083px; height: 2.74083px; animation-delay: 1.40993s; --duration: 4.03930687598147s; --opacity: 0.5074550420548407;"></div><div class="star" style="left: 82.4062%; top: 86.1917%; width: 2.83881px; height: 2.83881px; animation-delay: 1.61229s; --duration: 3.119211529369423s; --opacity: 0.9281788540179778;"></div><div class="star" style="left: 27.2908%; top: 44.6454%; width: 2.01062px; height: 2.01062px; animation-delay: 4.78607s; --duration: 3.571323113530851s; --opacity: 0.35441859768979683;"></div><div class="star" style="left: 42.3862%; top: 39.1693%; width: 2.80172px; height: 2.80172px; animation-delay: 2.93935s; --duration: 4.051705905734273s; --opacity: 0.6500507111935927;"></div><div class="star" style="left: 29.144%; top: 50.0423%; width: 2.78734px; height: 2.78734px; animation-delay: 0.968757s; --duration: 3.2815288215600664s; --opacity: 0.5627193688624379;"></div><div class="star" style="left: 14.0268%; top: 91.0874%; width: 2.91222px; height: 2.91222px; animation-delay: 0.53099s; --duration: 4.294940433741987s; --opacity: 0.3541666511843737;"></div><div class="star" style="left: 62.7224%; top: 1.26116%; width: 1.878px; height: 1.878px; animation-delay: 3.12928s; --duration: 4.544598185716722s; --opacity: 0.32297571992446167;"></div><div class="star" style="left: 95.605%; top: 66.4357%; width: 1.41323px; height: 1.41323px; animation-delay: 2.40211s; --duration: 4.5900879028096675s; --opacity: 0.5352364953243236;"></div><div class="star" style="left: 25.6311%; top: 80.0888%; width: 2.14567px; height: 2.14567px; animation-delay: 1.59523s; --duration: 4.53786415014016s; --opacity: 0.8187454894993627;"></div><div class="star" style="left: 39.8421%; top: 10.4927%; width: 1.82345px; height: 1.82345px; animation-delay: 4.81394s; --duration: 3.201422236129619s; --opacity: 0.38286636814102726;"></div><div class="star" style="left: 64.5792%; top: 35.439%; width: 2.19807px; height: 2.19807px; animation-delay: 2.83782s; --duration: 3.5731162503836877s; --opacity: 0.9077473427761045;"></div><div class="star" style="left: 24.5004%; top: 90.9326%; width: 1.04354px; height: 1.04354px; animation-delay: 2.41315s; --duration: 4.439523715281972s; --opacity: 0.9294344609718999;"></div><div class="star" style="left: 30.4444%; top: 7.92427%; width: 1.57663px; height: 1.57663px; animation-delay: 4.84714s; --duration: 3.828019175513265s; --opacity: 0.45589130631205455;"></div><div class="star" style="left: 58.2602%; top: 45.3754%; width: 2.40357px; height: 2.40357px; animation-delay: 0.220579s; --duration: 2.0660687114490566s; --opacity: 0.30497130268313727;"></div><div class="star" style="left: 48.0491%; top: 77.6897%; width: 2.91254px; height: 2.91254px; animation-delay: 4.64092s; --duration: 2.7950832717589624s; --opacity: 0.8302731521602356;"></div><div class="star" style="left: 52.8263%; top: 68.9325%; width: 1.9904px; height: 1.9904px; animation-delay: 3.26675s; --duration: 2.2336953104262705s; --opacity: 0.7121100091608162;"></div><div class="star" style="left: 36.7264%; top: 96.4791%; width: 2.59327px; height: 2.59327px; animation-delay: 0.269799s; --duration: 2.0511279623709893s; --opacity: 0.9217396523919499;"></div><div class="star" style="left: 95.3976%; top: 54.1361%; width: 1.06363px; height: 1.06363px; animation-delay: 2.06825s; --duration: 2.4123898860541955s; --opacity: 0.3509932589902007;"></div><div class="star" style="left: 13.3699%; top: 34.7462%; width: 2.12597px; height: 2.12597px; animation-delay: 1.77081s; --duration: 3.246924786510766s; --opacity: 0.851613573415696;"></div><div class="star" style="left: 51.9807%; top: 99.7974%; width: 2.7233px; height: 2.7233px; animation-delay: 0.0548226s; --duration: 3.6983997044482315s; --opacity: 0.6126730456928277;"></div><div class="star" style="left: 59.5688%; top: 18.98%; width: 2.1074px; height: 2.1074px; animation-delay: 4.17533s; --duration: 3.6119542360751686s; --opacity: 0.6502178335113117;"></div><div class="star" style="left: 22.9655%; top: 18.6293%; width: 2.43231px; height: 2.43231px; animation-delay: 2.00737s; --duration: 2.6293284282505396s; --opacity: 0.9514431642925949;"></div><div class="star" style="left: 2.04771%; top: 91.585%; width: 1.33635px; height: 1.33635px; animation-delay: 3.95904s; --duration: 2.8411173946949995s; --opacity: 0.38402158217072796;"></div><div class="star" style="left: 63.5439%; top: 17.2788%; width: 1.5871px; height: 1.5871px; animation-delay: 0.803528s; --duration: 4.546304318589204s; --opacity: 0.7292054866277512;"></div><div class="star" style="left: 6.51629%; top: 64.9673%; width: 1.61527px; height: 1.61527px; animation-delay: 4.85068s; --duration: 2.9375294855620173s; --opacity: 0.5245264817189167;"></div><div class="star" style="left: 34.0909%; top: 66.9148%; width: 2.5541px; height: 2.5541px; animation-delay: 3.22775s; --duration: 3.9312072333809853s; --opacity: 0.5549177694700231;"></div><div class="star" style="left: 87.944%; top: 58.1556%; width: 1.77318px; height: 1.77318px; animation-delay: 4.52294s; --duration: 2.4823126787025354s; --opacity: 0.38201817852114156;"></div><div class="star" style="left: 95.7678%; top: 44.4513%; width: 2.26224px; height: 2.26224px; animation-delay: 3.7028s; --duration: 4.706525882531899s; --opacity: 0.9155159617671045;"></div><div class="star" style="left: 30.4766%; top: 84.1987%; width: 2.5176px; height: 2.5176px; animation-delay: 2.9674s; --duration: 3.494601027872518s; --opacity: 0.6920046275986889;"></div><div class="star" style="left: 44.0826%; top: 81.9882%; width: 2.20088px; height: 2.20088px; animation-delay: 4.03503s; --duration: 3.1915483912630433s; --opacity: 0.8796537525889294;"></div><div class="star" style="left: 64.1886%; top: 26.4216%; width: 1.49745px; height: 1.49745px; animation-delay: 2.97592s; --duration: 3.1545083249794854s; --opacity: 0.7238202817908681;"></div><div class="star" style="left: 49.4827%; top: 88.3136%; width: 1.03441px; height: 1.03441px; animation-delay: 4.16771s; --duration: 3.0372648614962636s; --opacity: 0.5793467411394828;"></div><div class="star" style="left: 32.7143%; top: 16.9877%; width: 2.94146px; height: 2.94146px; animation-delay: 1.01848s; --duration: 2.3306281594027047s; --opacity: 0.6947637013134673;"></div><div class="star" style="left: 73.2725%; top: 78.2617%; width: 2.91221px; height: 2.91221px; animation-delay: 0.745618s; --duration: 3.8763099218108734s; --opacity: 0.7511090559522431;"></div><div class="star" style="left: 68.0832%; top: 98.1326%; width: 1.86943px; height: 1.86943px; animation-delay: 3.72s; --duration: 4.133045893522378s; --opacity: 0.9726649682640456;"></div><div class="star" style="left: 61.8809%; top: 16.5251%; width: 1.6131px; height: 1.6131px; animation-delay: 4.34101s; --duration: 2.112753476090502s; --opacity: 0.741393511043998;"></div><div class="star" style="left: 3.81328%; top: 67.2086%; width: 1.90454px; height: 1.90454px; animation-delay: 1.51771s; --duration: 4.728838565467139s; --opacity: 0.6034639401369055;"></div><div class="star" style="left: 71.7186%; top: 90.5963%; width: 1.15388px; height: 1.15388px; animation-delay: 0.615451s; --duration: 2.4420225365083033s; --opacity: 0.33900604349298824;"></div><div class="star" style="left: 57.4789%; top: 30.8225%; width: 1.76275px; height: 1.76275px; animation-delay: 1.7101s; --duration: 3.727340585363636s; --opacity: 0.8840243663792273;"></div><div class="star" style="left: 54.7089%; top: 4.55226%; width: 2.26391px; height: 2.26391px; animation-delay: 3.87758s; --duration: 4.264048850796305s; --opacity: 0.4299256833536444;"></div><div class="star" style="left: 62.1867%; top: 18.1543%; width: 2.63191px; height: 2.63191px; animation-delay: 2.50217s; --duration: 4.1077386718474465s; --opacity: 0.7525972899284028;"></div><div class="star" style="left: 43.7381%; top: 63.4786%; width: 1.27452px; height: 1.27452px; animation-delay: 0.391706s; --duration: 3.8554826602048182s; --opacity: 0.7146714399573462;"></div><div class="star" style="left: 66.1544%; top: 83.4909%; width: 1.81516px; height: 1.81516px; animation-delay: 2.68674s; --duration: 3.2639751219867583s; --opacity: 0.3748825007298782;"></div><div class="star" style="left: 26.6959%; top: 25.9385%; width: 1.08182px; height: 1.08182px; animation-delay: 2.71167s; --duration: 3.6862062634758805s; --opacity: 0.5781107662042806;"></div><div class="star" style="left: 40.0986%; top: 17.5811%; width: 2.19095px; height: 2.19095px; animation-delay: 3.45697s; --duration: 4.916999018002668s; --opacity: 0.7680619125511181;"></div><div class="star" style="left: 6.76037%; top: 94.4737%; width: 2.93435px; height: 2.93435px; animation-delay: 3.50801s; --duration: 3.681458718701468s; --opacity: 0.3126797364138358;"></div><div class="star" style="left: 6.16641%; top: 55.7854%; width: 2.38222px; height: 2.38222px; animation-delay: 2.89624s; --duration: 2.5434617404319555s; --opacity: 0.382792175234058;"></div><div class="star" style="left: 1.89913%; top: 17.159%; width: 2.81253px; height: 2.81253px; animation-delay: 3.20999s; --duration: 3.373148872450026s; --opacity: 0.5189272320999139;"></div><div class="star" style="left: 31.6771%; top: 10.3879%; width: 2.24872px; height: 2.24872px; animation-delay: 0.976158s; --duration: 4.446436596359525s; --opacity: 0.4212963103630041;"></div><div class="star" style="left: 83.0313%; top: 97.8124%; width: 2.04037px; height: 2.04037px; animation-delay: 1.92818s; --duration: 4.363023017403236s; --opacity: 0.8581682300115208;"></div><div class="star" style="left: 27.2469%; top: 44.1702%; width: 1.24048px; height: 1.24048px; animation-delay: 0.0206424s; --duration: 2.9080730657303646s; --opacity: 0.6608727855483216;"></div><div class="star" style="left: 91.5744%; top: 88.1316%; width: 2.76398px; height: 2.76398px; animation-delay: 1.76731s; --duration: 4.014731319709276s; --opacity: 0.6947502619982356;"></div><div class="star" style="left: 79.9741%; top: 87.051%; width: 2.12805px; height: 2.12805px; animation-delay: 4.31655s; --duration: 4.9158560096506285s; --opacity: 0.4480200952283831;"></div><div class="star" style="left: 30.877%; top: 85.2359%; width: 1.36971px; height: 1.36971px; animation-delay: 2.00862s; --duration: 4.132358371815027s; --opacity: 0.5301774633399727;"></div><div class="star" style="left: 70.3514%; top: 19.5834%; width: 2.10935px; height: 2.10935px; animation-delay: 2.56698s; --duration: 2.287551289216915s; --opacity: 0.31231836892636766;"></div><div class="star" style="left: 21.2813%; top: 17.8225%; width: 1.94854px; height: 1.94854px; animation-delay: 0.125651s; --duration: 2.0068932073224706s; --opacity: 0.32845257331915123;"></div><div class="star" style="left: 18.6758%; top: 97.9542%; width: 1.12954px; height: 1.12954px; animation-delay: 2.84154s; --duration: 3.5843207938135455s; --opacity: 0.5318631402004844;"></div><div class="star" style="left: 78.4772%; top: 74.0577%; width: 1.70784px; height: 1.70784px; animation-delay: 2.22986s; --duration: 4.603396044316953s; --opacity: 0.3031384082996711;"></div><div class="star" style="left: 16.0514%; top: 98.0284%; width: 2.85955px; height: 2.85955px; animation-delay: 3.89582s; --duration: 2.6558761389673418s; --opacity: 0.5299948458824137;"></div><div class="star" style="left: 75.0182%; top: 75.8101%; width: 2.42058px; height: 2.42058px; animation-delay: 0.299547s; --duration: 4.6041916241719605s; --opacity: 0.5442271738489473;"></div><div class="star" style="left: 91.9733%; top: 23.6364%; width: 1.88427px; height: 1.88427px; animation-delay: 3.09041s; --duration: 2.0185076255062313s; --opacity: 0.3392144854815587;"></div><div class="comet" style="top: 4.37369%; left: 19.2698%; --angle: 6.686991523693052deg; --delay: 13.821128476676652s;"></div><div class="comet" style="top: 34.1216%; left: 15.369%; --angle: 5.900443467835345deg; --delay: 0.10622873976722069s;"></div><div class="comet" style="top: 43.9222%; left: 6.82954%; --angle: -5.637127263813166deg; --delay: 10.110030379806842s;"></div><div class="comet" style="top: 32.7467%; left: 19.1557%; --angle: -4.439657328087378deg; --delay: 0.4171514596464321s;"></div><div class="comet" style="top: 24.941%; left: 14.0616%; --angle: -1.378677470962593deg; --delay: 3.1006124848463608s;"></div></div>
+    </div>
+    <div class="container">
+        <h1 class="captcha-title">安全验证</h1>
+        <div class="verify-notice">
+            <p class="main-text">亲爱的访客，您的IP（141.164.58.245）访问行为触发了安全机制</p>
+            <p class="sub-text">为了确保网站服务稳定，保护所有用户的访问体验</p>
+            <p class="sub-text">请完成下方的安全验证，验证通过后即可继续访问</p>
+            <p class="tip">验证过程简单快速，通常几秒内即可完成</p>
+        </div>
+        
+        <div class="captcha-box">
+            <div class="captcha-img-container">
+                <div class="captcha-img" id="captchaImg"><img src="data:image/jpeg;base64,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" alt="验证码"></div>
+                <button type="button" class="refresh-btn" id="refreshBtn">↻</button>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" class="captcha-input" id="captchaCode" placeholder="请输入图片中的验证码" autocomplete="off">
+            </div>
+            
+            <button type="button" class="verify-btn" id="submitBtn">确认验证</button>
+            <!-- 141.164.58.245 -->
+        </div>
+        
+        <div class="loading" id="loading" style="display: none;"></div>
+        <div class="error-msg" id="errorMsg" style="display: none;"></div>
+        <div class="success-msg" id="successMsg"></div>
+        
+        <div class="info-box">
+            <p>ℹ 验证码不区分大小写</p>
+            <p>↻ 如果看不清，可以点击图片或刷新按钮更换</p>
+            <p>↬ 验证通过后，将自动跳转到您要访问的页面</p>
+            <p class="contact-info">遇到问题？请发邮件至 <a href="mailto:ieliwb@gmail.com">ieliwb@gmail.com</a></p>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 创建星空背景
+            const starsContainer = document.getElementById('stars');
+            const starCount = 100;
+            const cometCount = 5;
+            
+            // 创建星星
+            for (let i = 0; i < starCount; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                
+                // 随机位置、大小和动画延迟
+                const x = Math.random() * 100;
+                const y = Math.random() * 100;
+                const size = Math.random() * 2 + 1;
+                const delay = Math.random() * 5;
+                const duration = Math.random() * 3 + 2;
+                const opacity = Math.random() * 0.7 + 0.3;
+                
+                star.style.left = x + '%';
+                star.style.top = y + '%';
+                star.style.width = size + 'px';
+                star.style.height = size + 'px';
+                star.style.animationDelay = delay + 's';
+                star.style.setProperty('--duration', duration + 's');
+                star.style.setProperty('--opacity', opacity);
+                
+                starsContainer.appendChild(star);
+            }
+            
+            // 创建流星
+            for (let i = 0; i < cometCount; i++) {
+                const comet = document.createElement('div');
+                comet.className = 'comet';
+                
+                // 随机位置、角度和动画延迟
+                const top = Math.random() * 50;
+                const left = Math.random() * 30;
+                const angle = Math.random() * 20 - 10;
+                const delay = Math.random() * 15;
+                
+                comet.style.top = top + '%';
+                comet.style.left = left + '%';
+                comet.style.setProperty('--angle', angle + 'deg');
+                comet.style.setProperty('--delay', delay + 's');
+                
+                starsContainer.appendChild(comet);
+            }
+            
+            // 获取元素
+            const captchaImg = document.getElementById('captchaImg');
+            const refreshBtn = document.getElementById('refreshBtn');
+            const captchaCode = document.getElementById('captchaCode');
+            const submitBtn = document.getElementById('submitBtn');
+            const loading = document.getElementById('loading');
+            const errorMsg = document.getElementById('errorMsg');
+            const successMsg = document.getElementById('successMsg');
+            
+            // 存储验证码token和重定向URL
+            let captchaToken = '';
+            let redirectUrl = '//tophub.today/c/ai';
+            
+            // 获取验证码
+            function getCaptcha() {
+                loading.style.display = 'block';
+                errorMsg.style.display = 'none';
+                
+                fetch('/captcha/generate')
+                    .then(response => response.json())
+                    .then(data => {
+                        if (!data.error) {
+                            captchaImg.innerHTML = `<img src="${data.data.image}" alt="验证码">`;
+                            captchaToken = data.data.token;
+                        } else {
+                            showError('获取验证码失败，请刷新页面重试');
+                        }
+                        loading.style.display = 'none';
+                    })
+                    .catch(error => {
+                        showError('网络错误，请刷新页面重试');
+                        loading.style.display = 'none';
+                    });
+            }
+            
+            // 显示错误信息
+            function showError(message) {
+                errorMsg.textContent = message;
+                errorMsg.style.display = 'block';
+                successMsg.style.display = 'none';
+            }
+            
+            // 显示成功信息
+            function showSuccess(message) {
+                successMsg.textContent = message;
+                successMsg.style.display = 'block';
+                errorMsg.style.display = 'none';
+            }
+            
+            // 验证验证码
+            function verifyCaptcha() {
+                const code = captchaCode.value.trim();
+                
+                if (!code) {
+                    showError('请输入验证码');
+                    return;
+                }
+                
+                loading.style.display = 'block';
+                submitBtn.disabled = true;
+                
+                const formData = new FormData();
+                formData.append('token', captchaToken);
+                formData.append('code', code);
+                formData.append('redirect_url', redirectUrl);
+                
+                fetch('/captcha/verify', {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (!data.error) {
+                            showSuccess('验证成功，正在跳转...');
+                            setTimeout(() => {
+                                window.location.href = data.data.redirect_url;
+                            }, 1500);
+                        } else {
+                            showError(data.msg || '验证失败，请重试');
+                            getCaptcha();
+                            captchaCode.value = '';
+                            submitBtn.disabled = false;
+                        }
+                        loading.style.display = 'none';
+                    })
+                    .catch(error => {
+                        showError('网络错误，请重试');
+                        loading.style.display = 'none';
+                        submitBtn.disabled = false;
+                    });
+            }
+            
+            // 初始化获取验证码
+            getCaptcha();
+            
+            // 绑定事件
+            refreshBtn.addEventListener('click', getCaptcha);
+            captchaImg.addEventListener('click', getCaptcha);
+            
+            submitBtn.addEventListener('click', verifyCaptcha);
+            
+            captchaCode.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    verifyCaptcha();
+                }
+            });
+        });
+    </script>
+
+</body></html>

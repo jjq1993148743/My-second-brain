@@ -1,0 +1,366 @@
+[
+ {
+  "key": "fw-payout-cond",
+  "url": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1823-/7395-",
+  "note": "Fastwork 收款条件",
+  "status": 200,
+  "ok": true,
+  "title": "ทำงานเสร็จแล้วจะได้รับเงินเมื่อไหร่: การตัดยอดเงินค่าจ้าง",
+  "host": "slimfaq.com",
+  "fee": [],
+  "links": [
+   {
+    "href": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1823-/7395-",
+    "text": "",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://fastwork.co",
+    "text": "",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e",
+    "text": "หน้าหลัก",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1823-",
+    "text": "ทำงานเสร็จแล้วจะได้รับเงินเมื่อไหร่",
+    "host": "slimfaq.com"
+   }
+  ],
+  "bytes": 15528,
+  "err": "",
+  "ms": 1378
+ },
+ {
+  "key": "fw-pay-fee",
+  "url": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1818-/7393-",
+  "note": "Fastwork 付款/佣金",
+  "status": 200,
+  "ok": true,
+  "title": "การจ้างงาน/การชำระเงิน: ชำระเงินอย่างไร ?",
+  "host": "slimfaq.com",
+  "fee": [],
+  "links": [
+   {
+    "href": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1818-/7393-",
+    "text": "",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://fastwork.co",
+    "text": "",
+    "host": "fastwork.co"
+   },
+   {
+    "href": "https://www.slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e",
+    "text": "หน้าหลัก",
+    "host": "slimfaq.com"
+   },
+   {
+    "href": "https://slimfaq.com/fastwork-co-bfa21e87-1550-4d30-9cb2-a8eec7a0969e/1818-",
+    "text": "การจ้างงาน/การชำระเงิน",
+    "host": "slimfaq.com"
+   }
+  ],
+  "bytes": 10495,
+  "err": "",
+  "ms": 1182
+ },
+ {
+  "key": "fw-blog-byob",
+  "url": "https://blog.fastwork.id/bring-your-own-buyer-byob-dapatkan-komisi-0",
+  "note": "Fastwork BYOB 0%",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "fw-blog-bebas",
+  "url": "https://blog.fastwork.id/bebas-komisi",
+  "note": "Fastwork Bebas Komisi",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "useme-flex",
+  "url": "https://useme.com/en/pricing/",
+  "note": "Useme 费率页（再试）",
+  "status": 200,
+  "ok": true,
+  "title": "Useme Pricing » How Much Does Invoicing Cost? Calculator For Freelancers",
+  "host": "useme.com",
+  "fee": [
+   "Learn everything about our service fees and invoicing costs.",
+   "--um-colors-whatsapp-50:#dffeec;",
+   "Learn more We take a service fee from your client&#x27;",
+   "The higher the payment, the higher the fee – but it&#x27;",
+   "Learn more You link your card and pay one fixed amount every month instead of a fee for each deal.",
+   "3\" class=\"css-0\"> <button data-accordion-button=\"81\" type=\"button\" data-gtm=\"click\" data-gtm-event=\"button_click\" data-gtm-button_text=\"Are the prices the same in all countries?",
+   "3753Z\" class=\"css-2pxfza\"> All countries except for Poland have the same service fee and subscription cost.",
+   "A fee only applies when you actually earn – so no project means no fee.",
+   "<button data-accordion-button=\"83\" type=\"button\" data-gtm=\"click\" data-gtm-event=\"button_click\" data-gtm-button_text=\"How does the payout calculator for freelancers work?",
+   "3753Z\" class=\"css-2pxfza\"> The Useme calculator lets you calculate: client invoice value – the \"Your client pays\" field, your payout value – the \"Your payout\" field.",
+   "com/en/what-are-the-invoicing-fees-on-useme/\" data-target=\"_blank\" data-gtm=\"click\" data-gtm-event=\"button_click\" data-gtm-button_text=\"CHECK HELP CENTER\" data-gtm-button_link=\"https://help."
+  ],
+  "links": [
+   {
+    "href": "https://useme.com/en/pricing",
+    "text": "Pricing",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://help.useme.com/useme-deal-assurance",
+    "text": "",
+    "host": "help.useme.com"
+   },
+   {
+    "href": "https://useme.com/pl/pricing",
+    "text": "Polski",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://help.useme.com/useme-deal-assurance",
+    "text": "",
+    "host": "help.useme.com"
+   },
+   {
+    "href": "https://useme.com/en/freelancer-invoice",
+    "text": "Invoice a client",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/invoice/demo/start",
+    "text": "See how it works",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/jobs",
+    "text": "Find a job",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/for-employer",
+    "text": "Our solution",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/contractors",
+    "text": "Find a freelancer",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/jobs/new",
+    "text": "Post a job",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/request-invoice",
+    "text": "Request an invoice",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/blog",
+    "text": "Blog",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://help.useme.com/en",
+    "text": "Help Center",
+    "host": "help.useme.com"
+   },
+   {
+    "href": "https://useme.com/en/pricing",
+    "text": "Pricing",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/users/login",
+    "text": "Log in",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/pl/pricing",
+    "text": "Polski",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/freelancer-invoice",
+    "text": "Invoice a client",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/invoice/demo/start",
+    "text": "See how it works - demo",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/jobs",
+    "text": "Find a job",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/for-employer",
+    "text": "Our solution",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/contractors",
+    "text": "Find a freelancer",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/jobs/new",
+    "text": "Post a job",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/request-invoice",
+    "text": "Request an invoice",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/pricing",
+    "text": "Pricing",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://help.useme.com/en",
+    "text": "Help",
+    "host": "help.useme.com"
+   },
+   {
+    "href": "https://help.useme.com/en/useme-privacy-policy-1",
+    "text": "Privacy policy",
+    "host": "help.useme.com"
+   },
+   {
+    "href": "https://help.useme.com/en/terms-and-conditions-privacy-policy",
+    "text": "Terms and conditions",
+    "host": "help.useme.com"
+   },
+   {
+    "href": "https://useme.com/en/blog",
+    "text": "Blog",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/for-investors",
+    "text": "For investors",
+    "host": "useme.com"
+   },
+   {
+    "href": "https://useme.com/en/contact",
+    "text": "Contact",
+    "host": "useme.com"
+   }
+  ],
+  "bytes": 189416,
+  "err": "",
+  "ms": 2759
+ },
+ {
+  "key": "free-work-en-2",
+  "url": "https://www.free-work.com/en/freelance",
+  "note": "free-work 法 EN",
+  "status": 404,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 186383,
+  "err": "HTTP 404"
+ },
+ {
+  "key": "freelance-de-preise",
+  "url": "https://freelance.de/preise",
+  "note": "freelance.de 价格",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 162,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "freelance-de-info",
+  "url": "https://freelance.de/infos",
+  "note": "freelance.de infos",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 162,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "ureed-ar",
+  "url": "https://ureed.io/ar",
+  "note": "Ureed 阿语",
+  "status": 502,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 502"
+ },
+ {
+  "key": "workana-fees",
+  "url": "https://www.workana.com/en/fees",
+  "note": "Workana fees",
+  "status": 404,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 26034,
+  "err": "HTTP 404"
+ },
+ {
+  "key": "useme-inv-fees-2",
+  "url": "https://help.useme.com/en/what-are-the-invoicing-fees-on-useme?hsLang=en",
+  "note": "Useme invoicing fees",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "note-help-ja",
+  "url": "https://help-note.com/hc/ja",
+  "note": "note 帮助中心",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 301"
+ }
+]
