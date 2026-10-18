@@ -1,0 +1,322 @@
+[
+ {
+  "host": "listmonk.app",
+  "status": 200,
+  "len": 10893,
+  "title": "listmonk - Free and open source self-hosted newsletter, mailing list manager, and transactional mails",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "docs.postalserver.io",
+  "status": 200,
+  "len": 363419,
+  "title": "Postal - an open source mail delivery platform",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "sendportal.io",
+  "status": 200,
+  "len": 11381,
+  "title": "SendPortal - Open Source Email Marketing Software",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.keila.sh",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "rustdesk.com",
+  "status": 200,
+  "len": 79150,
+  "title": "RustDesk: Open-Source Remote Desktop with Self-Hosted Server Solutions",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.meshcommander.com",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://meshcommander.com/",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "remotely.one",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "cedrozor.github.io",
+  "status": 404,
+  "len": 9115,
+  "title": "Site not found &middot; GitHub Pages",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "mindsdb.com",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://mindshub.ai/",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.cortex.dev",
+  "status": 200,
+  "len": 26422,
+  "title": "Cloud infrastructure for machine learning at scale",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "ploomber.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "towhee.io",
+  "status": 200,
+  "len": 562625,
+  "title": "Towhee | Home - Towhee",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.ballerine.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "akaunting.com",
+  "status": 200,
+  "len": 61574,
+  "title": "Free Accounting Software for Small Businesses - Akaunting",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "netbird.io",
+  "status": 200,
+  "len": 151991,
+  "title": "NetBird - Open Source Zero Trust Networking",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "headscale.net",
+  "status": 200,
+  "len": 374,
+  "title": "Redirecting",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "gravitl.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://www.netmaker.io",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "brave.com",
+  "status": 200,
+  "len": 143765,
+  "title": "The browser that puts you first | Brave",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.automa.site",
+  "status": 301,
+  "len": 134,
+  "title": "301 Moved Permanently | -> https://www.goautoma.com:443/",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "dub.co",
+  "status": 200,
+  "len": 702125,
+  "title": "Dub - The Modern Link Attribution Platform",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "yourls.org",
+  "status": 200,
+  "len": 35230,
+  "title": "YOURLS",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.dolicloud.com",
+  "status": 200,
+  "len": 50256,
+  "title": "Cloud Open Source ERP and CRM for business - The online on demand SaaS hosting service for SME of Dolibarr sui",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "gauzy.co",
+  "status": 200,
+  "len": 946210,
+  "title": "Ever Gauzy - ERP, CRM, HRM &amp; Project Management Open-Source",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.graylog.org",
+  "status": 403,
+  "len": 1686,
+  "title": "Just a moment...",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "homebridge.io",
+  "status": 200,
+  "len": 9769,
+  "title": "Homebridge",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "lineageos.org",
+  "status": 200,
+  "len": 21446,
+  "title": "LineageOS – LineageOS Android Distribution",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.metabase.com",
+  "status": 200,
+  "len": 219662,
+  "title": "Open source AI analytics you can verify | Metabase",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "godotengine.org",
+  "status": 200,
+  "len": 40305,
+  "title": "Godot Engine - Free and open source 2D and 3D game engine",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "rebelfork.io",
+  "status": 200,
+  "len": 204,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "classquiz.de",
+  "status": 200,
+  "len": 19406,
+  "title": "ClassQuiz - Home",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "wordle.global",
+  "status": 200,
+  "len": 278812,
+  "title": "Wordle Global - Play Wordle Free, No Limits, 91+ Languages",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "retroarcher.github.io",
+  "status": 404,
+  "len": 9115,
+  "title": "Site not found &middot; GitHub Pages",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "cube.dev",
+  "status": 200,
+  "len": 103957,
+  "title": "Cube — The agentic analytics platform built on a semantic layer",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.lightdash.com",
+  "status": 200,
+  "len": 179579,
+  "title": "Lightdash | Build Intelligence, not just dashboards.",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "metriql.com",
+  "status": 200,
+  "len": 16906,
+  "title": "Metriql Docs | Metriql Docs",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "mlcraft.io",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://synmetrix.org/",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "airbyte.com",
+  "status": 200,
+  "len": 241881,
+  "title": "Data Movement for Analytics and AI Agents",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "dagster.io",
+  "status": 200,
+  "len": 176426,
+  "title": "Modern Data Orchestrator Platform | Dagster",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.prefect.io",
+  "status": 200,
+  "len": 320965,
+  "title": "Prefect - Workflow Orchestration for Data, ML, and Agents",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ },
+ {
+  "host": "www.orchest.io",
+  "status": 403,
+  "len": 4913,
+  "title": "Attention Required! | Cloudflare",
+  "from": "osa-cats",
+  "cat": "misc-final"
+ }
+]

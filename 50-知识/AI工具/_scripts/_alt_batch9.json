@@ -1,0 +1,346 @@
+[
+ {
+  "host": "unigraph.dev",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.qovery.com",
+  "status": 200,
+  "len": 121361,
+  "title": "Qovery - The Agentic Infrastructure Platform",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "min.io",
+  "status": 301,
+  "len": 166,
+  "title": "301 Moved Permanently | -> https://www.min.io/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "dokku.viewdocs.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "caprover.com",
+  "status": 200,
+  "len": 42364,
+  "title": "CapRover · Scalable, Free and Self-hosted PaaS",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.openfaas.com",
+  "status": 200,
+  "len": 48378,
+  "title": "Home | OpenFaaS - Serverless Functions Made Simple",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "tsuru.io",
+  "status": 200,
+  "len": 11292,
+  "title": "Tsuru",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "dyrector.io",
+  "status": 200,
+  "len": 43078,
+  "title": "dyrector.io @ platform",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "staticdeploy.io",
+  "status": 200,
+  "len": 4577,
+  "title": "StaticDeploy · An Open-Source Platform for Deploying Static Apps",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "flynn.io",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "supabase.io",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://supabase.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "appwrite.io",
+  "status": 200,
+  "len": 168914,
+  "title": "Appwrite · The open-source cloud for developers and agents",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "pocketbase.io",
+  "status": 200,
+  "len": 74909,
+  "title": "PocketBase - Open Source backend in 1 file",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "nhost.io",
+  "status": 200,
+  "len": 128422,
+  "title": "Postgres Backend to Build, Deploy &amp; Scale | Nhost",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.fusio-project.org",
+  "status": 200,
+  "len": 33665,
+  "title": "Open Source API & AI Management Platform",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "rivet.gg",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://www.rivet.gg/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "kuzzle.io",
+  "status": 200,
+  "len": 197276,
+  "title": "IoT, Data &amp; Hypervision Platform - Kuzzle",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "nextcloud.com",
+  "status": 200,
+  "len": 238200,
+  "title": "Nextcloud - Open source content collaboration platform",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "owncloud.org",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://owncloud.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.seafile.com",
+  "status": 302,
+  "len": 0,
+  "title": " | -> /en/home/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "cryptpad.fr",
+  "status": 200,
+  "len": 3196,
+  "title": "CryptPad: Collaboration suite, encrypted and open-source",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "cozystack.io",
+  "status": 200,
+  "len": 42489,
+  "title": "Cozystack",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.univention.com",
+  "status": 200,
+  "len": 256354,
+  "title": "Univention GmbH – be open",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "getsharex.com",
+  "status": 200,
+  "len": 29063,
+  "title": "ShareX - The best free and open source screenshot tool for Windows",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "activitywatch.net",
+  "status": 200,
+  "len": 56691,
+  "title": "ActivityWatch - Open-source time tracker",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "getgreenshot.org",
+  "status": 200,
+  "len": 7409,
+  "title": "Greenshot",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "getmailspring.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> http://www.getmailspring.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.linkace.org",
+  "status": 200,
+  "len": 35042,
+  "title": "LinkAce - Your self-hosted bookmark archive. Free and open source.",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.invoiceninja.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://invoiceninja.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.firefly-iii.org",
+  "status": 200,
+  "len": 12996,
+  "title": "Firefly III - A free and open source personal finance manager",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "openbb.co",
+  "status": 200,
+  "len": 211841,
+  "title": "OpenBB - Build your own financial workspace",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.boxbilling.org",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://boxbilling.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.getlago.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://getlago.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "cal.com",
+  "status": 200,
+  "len": 2316438,
+  "title": "Cal.com | Scheduling Software for Online Bookings",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.buildbot.net",
+  "status": 200,
+  "len": 11340,
+  "title": "Buildbot",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "rallly.co",
+  "status": 200,
+  "len": 436507,
+  "title": "Rallly: Free Group Meeting Scheduling Tool",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.sogo.nu",
+  "status": 200,
+  "len": 13205,
+  "title": "SOGo | Free Open Source Webmail",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "www.kukkee.com",
+  "status": 429,
+  "len": 1568,
+  "title": "Too many requests",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "superset.apache.org",
+  "status": 200,
+  "len": 99353,
+  "title": "Welcome | Superset",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "redash.io",
+  "status": 200,
+  "len": 200191,
+  "title": "Redash helps you make sense of your data",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "photoprism.app",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://www.photoprism.app/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "piwigo.org",
+  "status": 200,
+  "len": 112187,
+  "title": "Piwigo | Open Source Photo Library and DAM Software",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ },
+ {
+  "host": "ente.io",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://ente.com/",
+  "from": "osa-cats",
+  "cat": "paas/backend/cloud/util/finance/sched/viz"
+ }
+]

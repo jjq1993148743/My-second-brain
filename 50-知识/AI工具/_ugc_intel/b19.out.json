@@ -1,0 +1,708 @@
+[
+ {
+  "key": "chickpt",
+  "url": "https://www.chickpt.com.tw/",
+  "note": "",
+  "status": 200,
+  "ok": true,
+  "title": "小雞上工－兼職必備！找兼職、短期打工、臨時工的首選",
+  "host": "chickpt.com.tw",
+  "fee": [],
+  "links": [
+   {
+    "href": "https://www.google.com.tw/chrome/browser/desktop/index.html",
+    "text": "Google Chrome",
+    "host": "google.com.tw"
+   },
+   {
+    "href": "https://www.mozilla.org/zh-TW/firefox/new",
+    "text": "Firefox",
+    "host": "mozilla.org"
+   },
+   {
+    "href": "https://www.chickpt.com.tw",
+    "text": "小雞上工",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw",
+    "text": "打工兼職",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/tutor_introduce",
+    "text": "小雞家教",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/social",
+    "text": "雞地台",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/news",
+    "text": "最新公告",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/manager/job/list",
+    "text": "企業專區",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw",
+    "text": "打工兼職",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/tutor_introduce",
+    "text": "小雞家教",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/social",
+    "text": "雞地台",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/news",
+    "text": "最新公告",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw",
+    "text": "回到首頁",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/login",
+    "text": "企業登入",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw",
+    "text": "打工",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/cases",
+    "text": "任務",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/tutors",
+    "text": "家教",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=stayHome",
+    "text": "在家工作",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Taipei",
+    "text": "台北市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=NewTaipei",
+    "text": "新北市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Keelung",
+    "text": "基隆市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Taoyuan",
+    "text": "桃園市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=HsinchuCity",
+    "text": "新竹市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=HsinchuCounty",
+    "text": "新竹縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Miaoli",
+    "text": "苗栗縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Taichung",
+    "text": "台中市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Changhua",
+    "text": "彰化縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Nantou",
+    "text": "南投縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Yunlin",
+    "text": "雲林縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=ChiayiCity",
+    "text": "嘉義市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=ChiayiCounty",
+    "text": "嘉義縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Tainan",
+    "text": "台南市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Kaohsiung",
+    "text": "高雄市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Pingtung",
+    "text": "屏東縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Yilan",
+    "text": "宜蘭縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Hualien",
+    "text": "花蓮縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Taitung",
+    "text": "台東縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Penghu",
+    "text": "澎湖縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Kinmen",
+    "text": "金門縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?area=Lienchiang",
+    "text": "連江縣",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=1",
+    "text": "人力",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=2",
+    "text": "餐飲",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=3",
+    "text": "門市",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=4",
+    "text": "辦公",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=6",
+    "text": "補教",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=7",
+    "text": "活動",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=8",
+    "text": "銷售 / 業務",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=9",
+    "text": "市調",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=12",
+    "text": "倉儲 / 物流",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=13",
+    "text": "美業",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=14",
+    "text": "外送",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=15",
+    "text": "旅宿",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=16",
+    "text": "醫護",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?categories=11",
+    "text": "其他",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?keyword=%E5%9C%A8%E5%AE%B6%E5%B7%A5%E4%BD%9C",
+    "text": "在家工作",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?keyword=%E7%9F%AD%E6%9C%9F%E6%89%93%E5%B7%A5",
+    "text": "短期打工",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?keyword=%E7%8F%BE%E9%A0%98%20%E6%97%A5%E9%A0%98",
+    "text": "現領 日領",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?keyword=%E8%A3%9C%E7%BF%92%E7%8F%AD",
+    "text": "補習班",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?keyword=%E5%85%BC%E8%81%B7",
+    "text": "兼職",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?keyword=10/18",
+    "text": "10/18",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?keyword=%E8%9D%A6%E7%9A%AE",
+    "text": "蝦皮",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=2",
+    "text": "2",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=3",
+    "text": "3",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=4",
+    "text": "4",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=5",
+    "text": "5",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=6",
+    "text": "6",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=7",
+    "text": "7",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=8",
+    "text": "8",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=9",
+    "text": "9",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/?page=2",
+    "text": "",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw",
+    "text": "找打工",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/cases",
+    "text": "找任務",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/tutors",
+    "text": "找家教",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/manager/job/list",
+    "text": "職缺管理",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/recruitment/pricing",
+    "text": "刊登方案",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/premium/overview",
+    "text": "加值服務",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/bonus_points",
+    "text": "企業儲值方案",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/bonus_points_dispatch",
+    "text": "人派儲值方案",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/about",
+    "text": "品牌介紹",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/tutor_introduce",
+    "text": "家教服務",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/news",
+    "text": "最新公告",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/service",
+    "text": "平台規範",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/help_center",
+    "text": "幫助中心",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://forms.gle/2gE9BnCq8iy8fRPS6",
+    "text": "合作提案",
+    "host": "forms.gle"
+   },
+   {
+    "href": "https://www.facebook.com/ChickPTs",
+    "text": "",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://www.instagram.com/accounts/login/?next=/chickpts",
+    "text": "",
+    "host": "instagram.com"
+   },
+   {
+    "href": "https://chickpt.com.tw/146",
+    "text": "",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/145",
+    "text": "",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/146",
+    "text": "",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://chickpt.com.tw/145",
+    "text": "",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.facebook.com/ChickPTs",
+    "text": "",
+    "host": "facebook.com"
+   },
+   {
+    "href": "https://www.instagram.com/accounts/login/?next=/chickpts",
+    "text": "",
+    "host": "instagram.com"
+   },
+   {
+    "href": "https://www.518.com.tw",
+    "text": "518 熊班",
+    "host": "518.com.tw"
+   },
+   {
+    "href": "https://www.tasker.com.tw",
+    "text": "出任務",
+    "host": "tasker.com.tw"
+   },
+   {
+    "href": "https://www.945.com.tw/?gad_source=1&gad_campaignid=20800511722&gbraid=0AAAAAqSU35Vq0JXTwWCTDJ4gs08SY23Rg&gclid=CjwKCAjw7_DEBhAeEiwAWKiCC_SZZKtVa6V1iT4Xi6msjag_Ufy5EgaH9-Ao6R3QPTGvthdBxPqFXBoC9QgQAvD_BwE&a_id=17890",
+    "text": "找師傅",
+    "host": "945.com.tw"
+   },
+   {
+    "href": "https://www.591.com.tw",
+    "text": "591 房屋交易",
+    "host": "591.com.tw"
+   },
+   {
+    "href": "https://www.100.com.tw",
+    "text": "100 室內設計",
+    "host": "100.com.tw"
+   },
+   {
+    "href": "https://www.8591.com.tw",
+    "text": "8591 寶物交易",
+    "host": "8591.com.tw"
+   },
+   {
+    "href": "https://www.8891.com.tw",
+    "text": "8891 汽車交易",
+    "host": "8891.com.tw"
+   },
+   {
+    "href": "https://c.8891.com.tw",
+    "text": "8891 新車",
+    "host": "c.8891.com.tw"
+   },
+   {
+    "href": "https://auto.8891.com.tw",
+    "text": "8891 中古車",
+    "host": "auto.8891.com.tw"
+   },
+   {
+    "href": "https://ieye.cc",
+    "text": "慧眼工商查詢",
+    "host": "ieye.cc"
+   },
+   {
+    "href": "https://www.addcn.com/app/job-listings?utm_source=chickpt&utm_medium=link&utm_campaign=hire",
+    "text": "數字徵才",
+    "host": "addcn.com"
+   },
+   {
+    "href": "https://www.addcn.com",
+    "text": "數字科技股份有限公司",
+    "host": "addcn.com"
+   },
+   {
+    "href": "https://profiles.dunsregistered.com/DunsRegisteredProfileAnywhereESG.aspx?Key1=47C93AD4A030F9C1CAAAAED9DAE0EEAF",
+    "text": "鄧白氏 ESG 永續標章",
+    "host": "profiles.dunsregistered.com"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/about",
+    "text": "品牌介紹",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/news",
+    "text": "最新公告",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/service",
+    "text": "平台規範",
+    "host": "chickpt.com.tw"
+   },
+   {
+    "href": "https://www.chickpt.com.tw/159",
+    "text": "立即開啟小雞上工APP",
+    "host": "chickpt.com.tw"
+   }
+  ],
+  "bytes": 81891,
+  "err": "",
+  "ms": 1557
+ },
+ {
+  "key": "tasker",
+  "url": "https://tasker.com.tw/",
+  "note": "",
+  "status": 0,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "Parse Error: Header overflow",
+  "ms": 768
+ },
+ {
+  "key": "tasker-tw",
+  "url": "https://www.tasker.com.tw/",
+  "note": "",
+  "status": 0,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "Parse Error: Header overflow",
+  "ms": 731
+ },
+ {
+  "key": "945",
+  "url": "https://945.com.tw/",
+  "note": "",
+  "status": 302,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 338,
+  "err": "HTTP 302"
+ },
+ {
+  "key": "useme-home",
+  "url": "https://useme.com/en",
+  "note": "",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "useme-contact",
+  "url": "https://useme.com/en/contact",
+  "note": "",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "free-work-root",
+  "url": "https://www.free-work.com",
+  "note": "",
+  "status": 302,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 89,
+  "err": "HTTP 302"
+ },
+ {
+  "key": "ureed-main",
+  "url": "https://ureed.io",
+  "note": "",
+  "status": 502,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 0,
+  "err": "HTTP 502"
+ },
+ {
+  "key": "workana-pricing",
+  "url": "https://www.workana.com/en/pricing",
+  "note": "",
+  "status": 404,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 26043,
+  "err": "HTTP 404"
+ },
+ {
+  "key": "class101-creator-join",
+  "url": "https://class101.net/creator/join",
+  "note": "",
+  "status": 200,
+  "ok": true,
+  "title": "클래스101 - 원하는 모든 것, 나답게 배우다",
+  "host": "class101.net",
+  "fee": [],
+  "links": [],
+  "bytes": 29389,
+  "err": "",
+  "ms": 1304
+ },
+ {
+  "key": "class101-creator2",
+  "url": "https://class101.net/creators",
+  "note": "",
+  "status": 308,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 13,
+  "err": "HTTP 308"
+ },
+ {
+  "key": "taling-main",
+  "url": "https://www.taling.me/Home",
+  "note": "",
+  "status": 404,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 31627,
+  "err": "HTTP 404"
+ }
+]

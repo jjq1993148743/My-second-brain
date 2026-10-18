@@ -1,0 +1,317 @@
+[
+ {
+  "host": "typebot.io",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "formbricks.com",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "supereasyforms.com",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "ohmyform.com",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.contentful.com",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "1password.com",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.airtable.com",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.notion.so",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "trello.com",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.tableau.com",
+  "from": "osa:altsto/alternativesto/typeform",
+  "cat": "recommender"
+ },
+ {
+  "host": "strapi.io",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "directus.io",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.webiny.com",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.builder.io",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "tina.io",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.typeform.com",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "1password.com",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.airtable.com",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.notion.so",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "trello.com",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.tableau.com",
+  "from": "osa:altsto/alternativesto/contentful",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.vaultproject.io",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "keepassxc.org",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "bitwarden.com",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "buttercup.pw",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "authpass.app",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.typeform.com",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.contentful.com",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.airtable.com",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.notion.so",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "trello.com",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.tableau.com",
+  "from": "osa:altsto/alternativesto/1password",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.nocodb.com",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.getgrist.com",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.espocrm.com",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.rowy.io",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "baserow.io",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.typeform.com",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.contentful.com",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "1password.com",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.notion.so",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "trello.com",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.tableau.com",
+  "from": "osa:altsto/alternativesto/airtable",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.appflowy.io",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.focalboard.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "affine.pro",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.getoutline.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.zettlr.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.typeform.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.contentful.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "1password.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.airtable.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "trello.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.tableau.com",
+  "from": "osa:altsto/alternativesto/notion",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.metabase.com",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ },
+ {
+  "host": "superset.apache.org",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ },
+ {
+  "host": "redash.io",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.typeform.com",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.contentful.com",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ },
+ {
+  "host": "1password.com",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.airtable.com",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ },
+ {
+  "host": "www.notion.so",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ },
+ {
+  "host": "trello.com",
+  "from": "osa:altsto/alternativesto/tableau",
+  "cat": "recommender"
+ }
+]

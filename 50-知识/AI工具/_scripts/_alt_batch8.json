@@ -1,0 +1,330 @@
+[
+ {
+  "host": "dbeaver.io",
+  "status": 200,
+  "len": 81915,
+  "title": "DBeaver Community &#124; Free Open-Source Database Management Tool",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.influxdata.com",
+  "status": 200,
+  "len": 211760,
+  "title": "InfluxData",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.pingcap.com",
+  "status": 200,
+  "len": 156802,
+  "title": "Database for AI Agents | TiDB Distributed SQL | TiDB",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "prometheus.io",
+  "status": 200,
+  "len": 135655,
+  "title": "Prometheus - Monitoring system &amp; time series database",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "ghidra-sre.org",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://github.com/NationalSecurityAgency/ghidra",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "nuclei.projectdiscovery.io",
+  "status": 302,
+  "len": 143,
+  "title": "302 Found | -> https://docs.nuclei.sh",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "cryptomator.org",
+  "status": 200,
+  "len": 52880,
+  "title": "Cryptomator - Free & Open-Source Cloud Storage Encryption",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.clamav.net",
+  "status": 200,
+  "len": 35801,
+  "title": "ClamAVNet",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "opnsense.org",
+  "status": 200,
+  "len": 53315,
+  "title": "OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protect",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "crowdsec.net",
+  "status": 308,
+  "len": 139,
+  "title": " | -> https://www.crowdsec.net/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.cloudquery.io",
+  "status": 200,
+  "len": 397695,
+  "title": "CloudQuery | Cloud ops, without the chaos",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.firez.one",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "safing.io",
+  "status": 200,
+  "len": 30240,
+  "title": "Portmaster - Application Firewall by Safing",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.pfsense.org",
+  "status": 200,
+  "len": 26549,
+  "title": "pfSense&reg; - World's Most Trusted Open Source Firewall",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "opengrep.dev",
+  "status": 301,
+  "len": 162,
+  "title": "301 Moved Permanently | -> https://www.opengrep.dev/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "grapheneos.org",
+  "status": 200,
+  "len": 6946,
+  "title": "GrapheneOS: the private and secure mobile OS",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.matano.dev",
+  "status": 302,
+  "len": 0,
+  "title": " | -> http://www.matanosecurity.com",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "trycomp.ai",
+  "status": 308,
+  "len": 137,
+  "title": " | -> https://www.trycomp.ai/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.getprobo.com",
+  "status": 301,
+  "len": 167,
+  "title": "301 Moved Permanently | -> https://www.probo.com/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "checkmarble.com",
+  "status": 301,
+  "len": 166,
+  "title": "301 Moved Permanently | -> https://www.checkmarble.com/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "opensearch.org",
+  "status": 200,
+  "len": 261219,
+  "title": "Home - OpenSearch",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "docs.searxng.org",
+  "status": 200,
+  "len": 49620,
+  "title": "SearXNG Documentation (2026.10.17+1c10abe2d)",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "qdrant.tech",
+  "status": 200,
+  "len": 783734,
+  "title": "Qdrant - Vector Search Engine",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.deepset.ai",
+  "status": 200,
+  "len": 165329,
+  "title": "The Sovereign AI Platform for Agents",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.semi.technology",
+  "status": 502,
+  "len": 0,
+  "title": "",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "jina.ai",
+  "status": 200,
+  "len": 279838,
+  "title": "Jina AI - Your Search Foundation, Supercharged.",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "zincsearch.com",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://zinc.dev",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.appbase.io",
+  "status": 301,
+  "len": 534,
+  "title": "301 Moved Permanently | -> https://www.reactivesearch.io/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "grafana.com",
+  "status": 200,
+  "len": 767936,
+  "title": "Full-stack observability for the agentic era | Grafana Labs",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "uptime.kuma.pet",
+  "status": 200,
+  "len": 2048,
+  "title": "Uptime Kuma",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.netdata.cloud",
+  "status": 200,
+  "len": 241059,
+  "title": "Netdata: Monitoring and troubleshooting transformed",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "signoz.io",
+  "status": 200,
+  "len": 388423,
+  "title": "SigNoz | The Open Source Datadog Alternative",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "victoriametrics.com",
+  "status": 200,
+  "len": 126149,
+  "title": "VictoriaMetrics: Simple, Reliable & Efficient Observability",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "www.pimcore.org",
+  "status": 301,
+  "len": 0,
+  "title": " | -> https://pimcore.com/",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "cachethq.io",
+  "status": 200,
+  "len": 99539,
+  "title": "The open source status page system - Cachet Website",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "checkmk.com",
+  "status": 200,
+  "len": 262995,
+  "title": "Full-Stack Monitoring and Observability for Hybrid IT | Checkmk",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "podman.io",
+  "status": 200,
+  "len": 28619,
+  "title": "Podman",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "ghost.org",
+  "status": 200,
+  "len": 123112,
+  "title": "Ghost: The best open source blog & newsletter platform",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "coolify.io",
+  "status": 200,
+  "len": 128519,
+  "title": "Coolify - Self-hosting with superpowers",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "moodle.org",
+  "status": 403,
+  "len": 86194,
+  "title": "Moodle challenge",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ },
+ {
+  "host": "space-cloud.io",
+  "status": 200,
+  "len": 26374,
+  "title": "Space Cloud: Instant Realtime APIs for Serverless Apps",
+  "from": "osa-cats",
+  "cat": "db/sec/search/ops"
+ }
+]

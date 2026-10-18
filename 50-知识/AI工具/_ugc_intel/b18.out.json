@@ -1121,5 +1121,45 @@
   "bytes": 135305,
   "err": "",
   "ms": 1998
+ },
+ {
+  "key": "tw-104-case",
+  "url": "https://www.104.com.tw/jobs/search/list?jobcatExpansionType=1&jobsource=case",
+  "note": "",
+  "status": 200,
+  "ok": true,
+  "title": "最新找工作職缺－104人力銀行",
+  "host": "104.com.tw",
+  "fee": [],
+  "links": [],
+  "bytes": 4180,
+  "err": "",
+  "ms": 887
+ },
+ {
+  "key": "cake-resume-com",
+  "url": "https://www.cakeresume.com",
+  "note": "",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 167,
+  "err": "HTTP 301"
+ },
+ {
+  "key": "yourator-co",
+  "url": "https://yourator.co",
+  "note": "",
+  "status": 301,
+  "ok": false,
+  "title": "",
+  "host": "",
+  "fee": [],
+  "links": [],
+  "bytes": 17,
+  "err": "HTTP 301"
  }
 ]

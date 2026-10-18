@@ -264,5 +264,61 @@
  },
  "kr_taling": {
   "status": "taling.me 308 循环（chrome 也无输出）→ 未取到；已知任务给定：有奖学金机制"
+ },
+ "tw_518": {
+  "source": "https://www.518.com.tw/ (200, title 「518熊班 – 找工作和技能交換…」(原518人力銀行))",
+  "note": "已从传统人力银行转型「熊班 Bearworks」：找工作 + AI求职工具 + 征才方案(企业方案免费)",
+  "footer_hosts": [
+   "chickpt.com.tw（小鸡市集 - 台湾任务/接案平台，待挖）",
+   "tasker.com.tw（Tasker 接案）",
+   "945.com.tw",
+   "ieye.cc",
+   "addcn.com / addcn.com.tw（数字征才）"
+  ],
+  "key": "518 页脚外链是「台湾接单生态」的一手来源：chickpt + tasker 即台湾版 Fiverr"
+ },
+ "tasker_chickpt": {
+  "source": "www.518.com.tw footer <a>（真实页面提取）"
+ },
+ "tw_chickpt": {
+  "source": "https://www.chickpt.com.tw/ (200)",
+  "title": "小雞上工－兼職必備！找兼職、短期打工、臨時工的首選",
+  "tasks_board": "https://www.chickpt.com.tw/cases （任務/找任務）",
+  "categories": "人力/餐飮/門市/辦公/補教/活動/銷售業務/市調/倉儲物流/美業/外送/旅宿/醫護/其他",
+  "enterprise": "https://www.chickpt.com.tw/manager/job/list （企業專區/職缺管理）",
+  "platform_rules": "https://www.chickpt.com.tw/service （平台規範）",
+  "sister_tasker": "https://www.tasker.com.tw （出任務）—— chickpt 站内直链",
+  "note": "chickpt 偏线下短期打工，tasker 偏线上任务；台湾最像「接单」的二站"
+ },
+ "tw_tasker": {
+  "source": "https://www.tasker.com.tw/ (chrome-fetch；直连 Header overflow)",
+  "title": "出任務｜外包發案找專家．台灣專業媒合平台",
+  "positioning": "台湾版「外包接案」平台；同生态含 8591/591/100/8891/518熊班/小鸡上工/找师傅（页脚互链）",
+  "categories_with_expert_counts": "商業設計 7418 / 軟硬體開發 4887 / 攝影娛樂 5967 / 行銷企劃 6019 / 會計財稅 644 / 翻譯寫作 5535 / AI應用 3250 / 法律服務 141 / 企管顧問 2831 / 運動健康 103",
+  "scale": "3,500+ 认证活跃专家；近期已解决 12,000+ 数位需求",
+  "free_post": "免费刊登案件 + 智能匹配 + 专家实名认证",
+  "hot_outsourcing": "AI 应用 / 平面设计 / 会计记账 / 短影音拍摄 / 公司记账报税 / 借址登记 / 商业摄影 / 社群行销代操 / 日文翻译口译",
+  "ai_vertical": "AI應用 3250 位专家 —— 大陆 AI 服务提供者本地化套利的直接对接口",
+  "monetization": "专家方案 / 订阅方案 / 加值服务 / T Points 方案",
+  "funding_risk": "台湾本地银行结算；大陆个人需台湾账户或第三方（待复核帮助中心）"
+ },
+ "fr_free_work": {
+  "source": "https://www.free-work.com/fr/ (chrome-fetch)",
+  "title": "Missions freelance, emplois, forum : Free-Work, LA référence IT",
+  "positioning": "法国 IT 自由职业市场（CDI + Freelance 双轨），0 佣金（任务给定），靠企业端与增值服务变现",
+  "verticals_from_home": "Architecte solutions métiers / Responsable Qualité Logiciel / Dev Oracle EBS senior / Architecte plateformes / Leader technique SIRH / Dev HR Access / Ingénieur système Linux / Service Delivery Manager / Ingénieur cybersécurité",
+  "side_products": "Free-Work Deals / Free-Work MyBusiness / Baromètre IT Rémunérations IT / Tests de soft skills / Annuaire des recruteurs IT / Simulation de salaire",
+  "note": "以 IT 岗位为主，非泛接单；适合技术型大陆自由职业者，但需法语/欧盟税务身份"
+ },
+ "useme": {
+  "product_tour": {
+   "source": "https://useme.com/en/ (chrome-fetch)",
+   "headline": "Work with clients worldwide without formal barriers / We handle contracts, invoices, and payments",
+   "no_company": "页面原文：\"international invoicing – you don’t need a company!\"",
+   "payout": "Your currency, your preferred method – PayPal, Wise, bank transfer, and more",
+   "plans": "Useme Flex（按单付费）/ Useme Comfort（订阅，无限 deal）",
+   "process": "填客户与项目信息（3分钟）→ 平台发付款链接给客户（客户无需注册）→ 钱进你的账户",
+   "client_examples": "Dubai, Toronto, Berlin → 全球客户同一流程"
+  }
  }
 }

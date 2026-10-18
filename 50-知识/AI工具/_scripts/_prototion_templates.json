@@ -1,156 +1,135 @@
 [
  {
-  "name": "Life Projects",
-  "price": "$9",
-  "author": "@danielblng",
-  "link": "https://prototion.com/notion-template/Life-Projects-Y3iiOvJUAi041TqT",
+  "name": "THE template for video creators",
+  "price": "$5",
+  "author": "@scrole1805",
+  "link": "https://prototion.com/notion-template/THE-template-for-video-creators-XPSToiuoDmRjuste",
   "channel": "prototion-internal"
  },
  {
-  "name": "Software Developer Interview Prep",
-  "price": "$10",
-  "author": "@j9torlesp",
-  "link": "https://prototion.com/notion-template/Software-Developer-Interview-Prep-6oPq7BdYVTAIIBtx",
+  "name": "All-in-one Website Builder | Digital Notion Template 2022",
+  "price": "$15",
+  "author": "@makisodesign",
+  "link": "https://prototion.com/notion-template/makiso-website-builder",
   "channel": "prototion-internal"
  },
  {
-  "name": "Notion CRM System",
+  "name": "Leavy Finances | Premium",
   "price": "$9",
   "author": null,
-  "link": "https://gumroad.com/a/774678227/zdmdh",
+  "link": "https://gumroad.com/a/511011283/qztxy",
   "channel": "gumroad-affiliate"
  },
  {
-  "name": "Simple Notion Habit Tracker",
-  "price": "$2",
-  "author": "@Dedic",
-  "link": "https://prototion.com/notion-template/Simple-Notion-Habit-Tracker",
+  "name": "Le Product Management en 8 modèles sur Notion",
+  "price": "$24",
+  "author": "@cedricpm",
+  "link": "https://prototion.com/notion-template/cedricpm",
   "channel": "prototion-internal"
  },
  {
-  "name": "Events &amp; Library Helper - Secondary Brown",
+  "name": "Climbing Training Tracker",
   "price": null,
-  "author": "@nathanaelnux",
-  "link": "https://prototion.com/notion-template/Events-%26-Library-Helper---Secondary-Brown-llB7nPELfKvSzfN0",
+  "author": "@rebekka.lagace-cusiac",
+  "link": "https://prototion.com/notion-template/Climbing-Training-Tracker",
   "channel": "prototion-internal"
  },
  {
-  "name": "Health Hub OS",
-  "price": "$30",
-  "author": "@notionpascio",
-  "link": "https://prototion.com/notion-template/healthhubos",
-  "channel": "prototion-internal"
- },
- {
-  "name": "Crypto Finance OS",
-  "price": "$37",
+  "name": "Premium Notion Covers: Green Aesthetic Collection | 250+ Covers",
+  "price": "$5.99",
   "author": null,
-  "link": "https://gumroad.com/a/211665619/uqujwz",
+  "link": "https://gumroad.com/a/241182419/oenga",
   "channel": "gumroad-affiliate"
  },
  {
-  "name": "National Parks Quest",
-  "price": "$6",
-  "author": "@notionquest",
-  "link": "https://prototion.com/notion-template/national-parks-quest",
+  "name": "Task Management System",
+  "price": "$10",
+  "author": "@phdnotion",
+  "link": "https://prototion.com/notion-template/Task-Management-System-aOx9IsTslY0HXZio",
   "channel": "prototion-internal"
  },
  {
-  "name": "Soul Speak: Your Digital Prayer Companion",
+  "name": "Ultimate UX/UI Designer Career Pack",
+  "price": "$19",
+  "author": "@iamkarmalla",
+  "link": "https://prototion.com/notion-template/Ultimate-UX-UI-Designer-Career",
+  "channel": "prototion-internal"
+ },
+ {
+  "name": "Job Tracker",
+  "price": "$15",
+  "author": "@shreyasrd31",
+  "link": "https://prototion.com/notion-template/Job-Tracker",
+  "channel": "prototion-internal"
+ },
+ {
+  "name": "To Dos",
+  "price": "$5",
+  "author": null,
+  "link": "https://gumroad.com/a/961164755/zvokll",
+  "channel": "gumroad-affiliate"
+ },
+ {
+  "name": "Time Tracker",
+  "price": null,
+  "author": "@soltwagner",
+  "link": "https://prototion.com/notion-template/time-tracker",
+  "channel": "prototion-internal"
+ },
+ {
+  "name": "Habit Hub",
+  "price": "$15",
+  "author": null,
+  "link": "https://prototion.com/notion-template/Habit-Hub-YYs0YRh1k5jCZKvw",
+  "channel": "prototion-internal"
+ },
+ {
+  "name": "Notion Simplified Language Hub Template",
+  "price": "$7",
+  "author": "@sakurapalette",
+  "link": "https://prototion.com/notion-template/Notion-Simplified-Language-Hub-Template-q1ptKbq8aMDm6EWm",
+  "channel": "prototion-internal"
+ },
+ {
+  "name": "Aesthetic Personal Blue Homepage Template",
+  "price": "$3",
+  "author": null,
+  "link": "https://gumroad.com/a/570853331/puivn",
+  "channel": "gumroad-affiliate"
+ },
+ {
+  "name": "Job Hacking OS",
+  "price": "$29",
+  "author": "@matteo.cellini",
+  "link": "https://prototion.com/notion-template/Job-Hacking-OS-3OEa8l9zw7EQlX8c",
+  "channel": "prototion-internal"
+ },
+ {
+  "name": "University Class Management",
+  "price": null,
+  "author": "@Janice",
+  "link": "https://prototion.com/notion-template/University-Class-Management-8euE5T1Y2W64Jd3K",
+  "channel": "prototion-internal"
+ },
+ {
+  "name": "Side Project OS / Notion Template",
   "price": "$25",
-  "author": "@lindagitau2.lg",
-  "link": "https://prototion.com/notion-template/Soul-Speak%3A-Your-Digital-Prayer-Companion-HzjdjpvjJcIcRM6d",
-  "channel": "prototion-internal"
- },
- {
-  "name": "Course Architect Pro",
-  "price": "$97",
-  "author": "@notionpascio",
-  "link": "https://prototion.com/notion-template/Course-Architect",
-  "channel": "prototion-internal"
- },
- {
-  "name": "Journal",
-  "price": "$27",
   "author": null,
-  "link": "https://gumroad.com/a/533855763/zdcnn",
+  "link": "https://gumroad.com/a/963761267/nqtkc",
   "channel": "gumroad-affiliate"
  },
  {
-  "name": "Growth Doc",
-  "price": null,
-  "author": "@hayleyjolliffe",
-  "link": "https://prototion.com/notion-template/Growth-Doc-g5AIMFccN0VNhVIt",
+  "name": "4P’s Analysis for Startup Validation with Notion AI",
+  "price": "$2",
+  "author": "@k.pulkitgehlot",
+  "link": "https://prototion.com/notion-template/4P%E2%80%99s-Analysis-for-Startup-Validation-with-Notion-AI-Oxn4YBsoVwTSTDCx",
   "channel": "prototion-internal"
  },
  {
-  "name": "Cash Flow System",
-  "price": "$5",
-  "author": "@Libby",
-  "link": "https://prototion.com/notion-template/Cash-Flow-System-lwrfuebCKYj4YRQJ",
+  "name": "The ultimate note-taking system",
+  "price": "$15",
+  "author": "@simonesette01",
+  "link": "https://prototion.com/notion-template/The-ultimate-note-taking-system-0aF9Plv2JaquK8b9",
   "channel": "prototion-internal"
- },
- {
-  "name": "Animal Crossing New Horizons List Southern Hemisphere",
-  "price": "$10",
-  "author": "@kayestyle",
-  "link": "https://prototion.com/notion-template/Animal-Crossing-New-Horizons-List-Southern-Hemisphere-OEBUjk9H2anqoeL9",
-  "channel": "prototion-internal"
- },
- {
-  "name": "Swift Digital Journal &amp; Task Manager",
-  "price": "$9",
-  "author": null,
-  "link": "https://gumroad.com/a/814406611/uhkym",
-  "channel": "gumroad-affiliate"
- },
- {
-  "name": "Habit Tracker",
-  "price": "$5",
-  "author": "@BoB",
-  "link": "https://prototion.com/notion-template/habit",
-  "channel": "prototion-internal"
- },
- {
-  "name": "The All-In-One Life Planner",
-  "price": "$8",
-  "author": "@artslanestudio",
-  "link": "https://prototion.com/notion-template/The-All-In-One-Life-Planner-9VhMUi5RMJXVDEDH",
-  "channel": "prototion-internal"
- },
- {
-  "name": "Ultimate Habit Tracker",
-  "price": null,
-  "author": "@ramesquinerie",
-  "link": "https://prototion.com/notion-template/habittracker",
-  "channel": "prototion-internal"
- },
- {
-  "name": "Notion Booking OS",
-  "price": "$39",
-  "author": null,
-  "link": "https://gumroad.com/a/972816083/eaiim",
-  "channel": "gumroad-affiliate"
- },
- {
-  "name": "Ultimate Week Planner",
-  "price": "$5",
-  "author": "@deveshb583",
-  "link": "https://prototion.com/notion-template/Ultimate-Week-Planner-wI6j5QncilpQYytP",
-  "channel": "prototion-internal"
- },
- {
-  "name": "GaiaHub Herbalist - The Ultimate Notion System for Herbalists",
-  "price": "$99",
-  "author": "@storiedgrounds",
-  "link": "https://prototion.com/notion-template/Gaiahub-Herbalist",
-  "channel": "prototion-internal"
- },
- {
-  "name": "Brain Extension — Notion Second Brain",
-  "price": "$20",
-  "author": null,
-  "link": "https://gumroad.com/a/301476051/lygqaq",
-  "channel": "gumroad-affiliate"
  }
 ]
