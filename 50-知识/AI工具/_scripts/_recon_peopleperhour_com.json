@@ -1,0 +1,20 @@
+{
+ "host": "peopleperhour.com",
+ "checkedAt": "2026-10-19T08:26:17.248Z",
+ "homeBytes": 2376,
+ "blocked": false,
+ "title": "",
+ "desc": "",
+ "signals": {
+  "hasSignup": false,
+  "hasSellerEntry": false,
+  "inviteOnly": false,
+  "hasJobs": false
+ },
+ "fees": [],
+ "payout": [],
+ "devRelevant": false,
+ "jobPageBytes": 2376,
+ "jobPageTitle": "",
+ "budgets": []
+}
