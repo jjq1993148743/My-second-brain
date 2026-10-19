@@ -1,0 +1,97 @@
+[
+ {
+  "host": "twago.com",
+  "url": "https://www.twago.com/projects/",
+  "method": "curl"
+ },
+ {
+  "host": "workana.com",
+  "url": "https://www.workana.com/jobs",
+  "method": "curl"
+ },
+ {
+  "host": "freelancer.nl",
+  "url": "https://www.freelancer.nl/opdrachten",
+  "method": "curl"
+ },
+ {
+  "host": "sribu.com",
+  "url": "https://www.sribu.com/en/projects",
+  "method": "curl"
+ },
+ {
+  "host": "contra.com",
+  "url": "https://contra.com/discover",
+  "method": "curl"
+ },
+ {
+  "host": "arc.dev",
+  "url": "https://arc.dev/remote-jobs",
+  "method": "curl"
+ },
+ {
+  "host": "lemon.io",
+  "url": "https://lemon.io/for-developers/",
+  "method": "curl"
+ },
+ {
+  "host": "moonlightwork.com",
+  "url": "https://www.moonlightwork.com/",
+  "method": "curl"
+ },
+ {
+  "host": "turing.com",
+  "url": "https://www.turing.com/jobs",
+  "method": "curl"
+ },
+ {
+  "host": "flexiple.com",
+  "url": "https://flexiple.com/",
+  "method": "curl"
+ },
+ {
+  "host": "supersourcing.com",
+  "url": "https://supersourcing.com/",
+  "method": "curl"
+ },
+ {
+  "host": "intigriti.com",
+  "url": "https://www.intigriti.com/programs",
+  "method": "curl"
+ },
+ {
+  "host": "gitcoin.co",
+  "url": "https://www.gitcoin.co/",
+  "method": "curl"
+ },
+ {
+  "host": "freelancer.com",
+  "url": "https://www.freelancer.com/jobs/",
+  "method": "curl"
+ },
+ {
+  "host": "fiverr.com",
+  "url": "https://www.fiverr.com/categories",
+  "method": "curl"
+ },
+ {
+  "host": "themeforest.net",
+  "url": "https://themeforest.net/",
+  "method": "curl"
+ },
+ {
+  "host": "buymeacoffee.com",
+  "url": "https://www.buymeacoffee.com/explore",
+  "method": "curl"
+ },
+ {
+  "host": "patreon.com",
+  "url": "https://www.patreon.com/explore",
+  "method": "curl"
+ },
+ {
+  "host": "fl.ru",
+  "url": "https://www.fl.ru/projects/",
+  "method": "chrome"
+ }
+]
