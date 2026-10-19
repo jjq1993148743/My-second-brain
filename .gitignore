@@ -16,3 +16,16 @@ WorkBuddy2API/
 
 # 本机工具（二进制，不入库）
 tools/
+
+# 抓取调试产物（不入库）
+50-知识/AI工具/_scripts/_dbg*
+50-知识/AI工具/_scripts/_chk_*
+50-知识/AI工具/_scripts/_serp_*
+50-知识/AI工具/_scripts/_chrome_*
+50-知识/AI工具/_scripts/_brave_test*
+50-知识/AI工具/_scripts/_page_hosts_*
+50-知识/AI工具/_scripts/*.bak.json
+50-知识/AI工具/_scripts/_t*.mjs
+50-知识/AI工具/_scripts/_verify*
+50-知识/AI工具/_scripts/_*.log
+50-知识/AI工具/_scripts/_discord_readme.md
