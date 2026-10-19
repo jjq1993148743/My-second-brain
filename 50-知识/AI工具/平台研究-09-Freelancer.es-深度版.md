@@ -99,7 +99,21 @@ tags: [工作, 平台研究, 接单, 深度, 已验证, 西班牙]
 
 **德国站和西班牙站的最高出价（468）和最高预算（€56,004）完全相同。**
 
-**结论：这不是四个独立市场，是同一个项目池的四语言外壳。**
+**进一步验证：直接对比两个站的 URL**
+
+| 指标 | 数值 |
+|---|---|
+| 德国站项目 | 455 |
+| 西班牙站项目 | 470 |
+| **重叠项目** | **330** |
+| **重叠率** | **73%** |
+
+**重叠样例（同一 URL 出现在两站）：**
+- `/projects/content-writing/businessplan-profell-berarbeiten`
+- `/projects/ai-chatbot-development/customer-support-agent-creation`
+- `/projects/3d-printing/high-detail-sambhaji-miniature`
+
+**结论：这不是四个独立市场，是同一个项目池的四语言外壳。73% 的项目完全重复。**
 
 ## 含义
 
