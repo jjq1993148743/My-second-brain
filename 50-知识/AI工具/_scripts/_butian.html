@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=1.0, user-scalable=yes" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <title>补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞|AI安全|大模型安全</title>
+    <meta name="keywords" content="漏洞,众测,安全漏洞,系统漏洞,漏洞检测,逻辑漏洞,IoT漏洞,APP漏洞,移动漏洞,工控漏洞,web漏洞,SRC,安全事件,ai安全,Ai安全" />
+    <meta name="description" content="补天漏洞响应平台旨在建立企业与白帽子之间的桥梁，帮助企业建立SRC(安全应急响应中心)，让企业更安全，让白帽子获益。漏洞平台为您提供权威准确漏洞、包括漏洞基本信息与描述、漏洞类型、危害等级、影响产品、解决方案等信息。" />
+    <link rel="stylesheet" type="text/css" href="/Public/css/base.css?v=202606301716">
+    <link rel="stylesheet" type="text/css" href="/Public/css/loopSetting.css?v=202606301716">
+    <link rel="stylesheet" type="text/css" href="/Public/css/ele.css?v=202606301716">
+    <link rel="stylesheet" type="text/css" href="/Public/css/ele-common.css?v=202606301716">
+    <script type="text/javascript" src="/Public/js/config/logo.js?v=202606301716"></script>
+    <script type="text/javascript" src="/Public/js/jquery.min.js?v=202606301716"></script>
+    <script type="text/javascript" src="/Public/js/layer/layer.js?v=202606301716"></script>
+    <script type="text/javascript" src="/Public/js/single-sign.js?v=202606301716"></script>
+    <script type="text/javascript" src="/Public/js/base.js?v=202606301716"></script>
+    <script type="text/javascript" src="/Public/js/head.js?v=202606301716"></script>
+    <script type="text/javascript" src="/Public/js/messageBox.js?v="></script>
+    <script type="text/javascript"
+        src="https://user.skyeye.qianxin.com/public/sso/sso.js?v=202606301716"></script>
+    <script language="JavaScript">
+        // <!--
+        //var URL = '/Home/Reward';
+        var APP = '';
+        var PUBLIC = '/Public';
+        var TPML = '/Public/admin/';
+        //-->
+    </script>
+    <style>
+        .loginSeting p {
+            clear: both;
+        }
+
+        .active-li {
+            position: relative;
+        }
+
+        .active-li>img {
+            position: absolute;
+            right: -17px;
+            top: 22px;
+        }
+        .headerBox .nav{
+            width: 620px;
+            justify-content: start;
+        }
+        .headerBox .nav>li{
+            flex: 0 0 auto;
+            margin-right:14px;
+        }
+        .headerBox .nav li:last-child{
+            margin-right:0;
+        }
+        .navTools,
+        .navTools li,
+        .navTools li a{
+            white-space: nowrap;
+            word-break: keep-all;
+        }
+        .navTools li a{
+            display: inline-block;
+        }
+        .navTools .btn-submit{
+            width: 120px;
+        }
+        .headerBox .nav .pwn{
+            width: 110px;
+            line-height: 64px;
+        }
+        .headerBox .nav .pwn img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .headerBox .nav .grow-plan-nav{
+            width:68px;
+            flex:0 0 68px;
+        }
+        .headerBox .nav .grow-plan-nav>a{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            height:60px;
+            line-height:normal;
+        }
+        .headerBox .nav .grow-plan-nav>a::after,
+        .headerBox .nav .grow-plan-nav>a:hover::after,
+        .headerBox .nav .grow-plan-nav>a:focus::after{
+            display:none !important;
+        }
+        .headerBox .nav .grow-plan-nav img{
+            position:static !important;
+            width:auto !important;
+            height:28px !important;
+            max-width:none !important;
+            max-height:28px !important;
+            margin:0 !important;
+            border:0 !important;
+            transform:none !important;
+            vertical-align:middle;
+        }
+        .headerBox .nav .hot{
+            padding: 1px 5px;
+            position: absolute;
+            top: 0px;
+            line-height: 16px;
+            right: -22px;
+            color: #ffffff;
+            background: #c3000e;
+            border-radius: 10px 10px 10px 0;
+            font-size: 12px;
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+
+<body class="lotteryWrap">
+    <div class="header header2">
+        <div class="headerBox">
+            <h1 class="logo"><a href="/"><img class="logo-img" src="" height="35px" alt='' /></a></h1>
+                            <ul class="nav">
+                    <li>
+                        <a href="/Reward/plan/1">白帽服务</a>
+                        <ul class="subnav" style="left: 0px; width: 500px;">
+                            <li>
+                                <dl>
+                                    <dt>白帽服务</dt>
+                                    <dd><a href="/Shop">补天商城</a></dd>
+                                    <dd><a href="/newneed">新人须知</a></dd>
+                                    <dd><a href="/Help/plan">奖励计划</a></dd>
+                                </dl>
+                            </li>
+
+                            <li>
+                                <dl>
+                                    <dt>其他</dt>
+                                    <dd><a href="https://whc.butian.net" target="_blank">白帽大会</a></dd>
+                                    <dd><a href="https://vol.butian.net">冬奥卫士</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>注册咨询</dt>
+                                    <dd>电话：010-56509093</dd>
+                                    <dd>邮箱：<img style="position: relative;top:4px;"
+                                            src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f742315b416af1d5b7d2fdcc091b2f8b06ae8a00272e0.png"
+                                            alt="补天"></dd>
+                                    <dd>（工作时间：周一至周五，09:30-18:30）</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/Reward/plan/2">项目大厅</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">企业服务</a>
+                        <ul class="subnav" style="left:-130px;">
+                            <li>
+                                <dl>
+                                    <dt>产品服务</dt>
+                                    <dd><a href="/Service/pub">公益SRC</a></dd>
+                                    <dd><a href="/Service/pri">专属SRC</a></dd>
+                                    <dd><a href="/Service/ce">补天众测</a></dd>
+                                    <dd><a href="/Service/secureInfo">安全情报</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>其他</dt>
+                                    <dd><a href="https://whc.butian.net" target="_blank"
+                                            rel="noopenner noreferrer">白帽大会</a></dd>
+                                    <dd><a href="/School/listRecruit.html?t=13">招聘专场</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>注册咨询</dt>
+                                    <dd>电话：010-56509036</dd>
+                                    <dd>邮箱：<img style="position: relative;top:4px;" src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f742315b416af1d5b7d2fdcc091b2f8b06ae8a00272e0.png" alt="补天"></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>商务合作</dt>
+                                    <dd>咨询邮箱：<img style="position: relative;top:4px;" src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f8778639c74c393804585f598fcdf073ce5fde95dcedd.png" alt="补天"></dd>
+                                    <dd>咨询热线：010-56509041</dd>
+                                    <dd>（工作时间：周一至周五，09:30-18:30）</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">风云排行</a>
+                        <ul class="subnav" style="left: -20px; width: 100px;">
+                            <li>
+                                <dl>
+                                    <dd><a href="/Rank/whitehat">风云白帽</a></dd>
+                                    <dd><a href="/Rank/team">风云团队</a></dd>
+                                    <dd><a href="/Reward/rule">月度荣誉</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/Article/index">公告活动</a>
+                    </li>
+                    <li>
+                        <a href="/Active/center">活动中心
+                            <!-- <img src="/Public/images/NEW.svg" /> -->
+                        </a>
+                    </li>
+                    <li id="forum" style="display: none;">
+                        <a href="https://forum.butian.net/community" target="_blank" rel="noopenner noreferrer">攻防社区</a>
+                    </li>
+                    <li>
+                        <a href="/Help/faq">帮助中心</a>
+                    </li>
+                    <li class="grow-plan-nav">
+                        <a href="/Grow"><img src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f657997dc96ce07c2a9622b8d7e12680cd70d904c36ca.png" alt="Grow计划"></a>
+                    </li>
+                    <!-- <li>
+                        <a class="pwn" href="https://skyeye.butian.net" target="_blank"><img src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f274608e0dc8312eaf2caee850f9933b320bfaf5824ad.png" alt=""></a>
+                        <span class="hot">HOT</span>
+                    </li> -->
+                    <!-- <li>
+                        <a class="pwn" href="https://pwn.butian.net" target="_blank"><img src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f989062695c7ae2fb4251d6141834e558420e18108b53.png" alt=""></a>
+                    </li> -->
+                </ul>            <!-- 如果不是第一次登陆则直接使用服务器渲染 -->
+            <ul class="navTools" id="navTools">
+                                <li><a href="/Login/choose?ut=1" class="btn btn-blue btn-submit" id="btnSub">提交漏洞</a></li>
+                <li><a href="https://www.butian.net/Register.html">注册账号</a><a href="/Login/choose?ut=1">白帽登录</a><a href="/Login/choose?ut=2">企业登录</a>
+                </li>
+                            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(function () {
+            const hostName = 'https://user.skyeye.qianxin.com/'.split('https://')[1].split('/')[0];
+            const siteUrl = 'https://www.butian.net/';
+            const isLoginBt = "" !== '';
+
+            singleSign({ hostName, siteUrl, isLoginBt });
+
+            $('.nav > li a').on('click', function () {
+                if (!$(this).hasClass('on')) {
+                    $(this).addClass('on');
+                    $('.nav > li a').removeClass('on');
+                }
+            });
+            if ($('#whitehat').size() > 0) {
+                $('#forum').show();
+            } else {
+                $('#forum').hide();
+            }
+
+            $('.logo-img').attr('src', LOGO.IMG)
+            $('.logo-img').attr('alt', LOGO.ALTINFO)
+
+        });
+    </script>
+
+	<link rel="stylesheet" type="text/css" href="/Public/css/loop.css?v=202606301716">
+	<script type="text/javascript" src="/Public/js/move.js?v=202606301716"></script>
+	<script type="text/javascript" src="/Public/js/index.js?v=202606301716"></script>
+	<style type="text/css">
+				.qtotal{display: none;} .loophole-content .loophole-first:after, .loophole-content .loophole-second:after{zoom:1; } .loophole-content .loophole-first{background:#f7f7f7; } .loophole-content .loophole-first, .loophole-content .loophole-second{clear:both; display:block; content:""; overflow: hidden; /*visibility:hidden; height:0;*/ } .loophole-content .loophole-second{border-bottom:1px solid #f7f7f7; } .loophole-content .loophole-first li{width: 22%; float: left; font-size: 14px; height: 48px; line-height: 48px; background: #f7f7f7; padding-left: 20px; border-left: 1px solid #e2e2e2; } .loophole-content .loophole-second li{border: 1px solid #ffffff; width: 25%; float: left; width: 22%; float: left; font-size: 14px; height: 48px; line-height: 48px; /* background: #f7f7f7; */ padding-left: 20px; /* border-left: 1px solid #e2e2e2; */ overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .loophole-content .loophole-second span{color:#0099ff; } .loophole-content .loophole-second img{width:42px; height:42px; border-radius:50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; vertical-align: middle; margin: 4px 10px 4px 0; } .loophole-first li:nth-of-type(1){width:44%; } .loophole-second li:nth-of-type(1){width:44%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } </style>
+	<div class="boxContent">
+		<div class="boxRight">
+			<div class="rightIconBox">
+				<h2><span>事件漏洞奖励标准</span></h2>
+				<div class="rightBoxCon">
+					<ul class="loopJiangli">
+						<li>
+							<p>1、低危漏洞</p>
+							<p class="red">小型厂商 1-3 库币</p>
+							<p class="red">中型厂商 2-6 库币</p>
+							<p class="red">大型厂商 3-10 库币</p>
+						</li>
+						<li>
+							<p>2、中危漏洞</p>
+							<p class="red">小型厂商 2-5 库币</p>
+							<p class="red">中型厂商 3-12 库币</p>
+							<p class="red">大型厂商 10-30 库币 或 ¥100 -¥500</p>
+						</li>
+						<li>
+							<p>3、高危漏洞</p>
+							<p class="red">小型厂商 4-20 库币 或 ¥100 -¥200</p>
+							<p class="red">中型厂商 6-25 库币 或 ¥100 - ¥1000</p>
+							<p class="red"> 大型厂商 ¥100 - ¥2000</p>
+						</li>
+						<li>
+							<p>4、更多详情请见：<a href="/Help/plan" target="_blank" rel="noopenner noreferrer">补天奖励计划</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="rightIconBox">
+			  <h2><span>通用漏洞奖励标准</span></h2>
+			  <div class="rightBoxCon">
+				<ul class="loopJiangli">
+				  <li>
+					<p>1、低危漏洞</p>
+					<p class="red">￥200-￥800</p>
+				  </li>
+				  <li>
+					<p>2、中危漏洞</p>
+					<p class="red">￥800-￥3000</p>
+				  </li>
+				  <li>
+					<p>3、高危漏洞</p>
+					<p class="red">￥3000-￥10000</p>
+				  </li>
+				  <li>
+					<p>4、更多详情请见：<a href="/Help/plan" target="_blank" rel="noopenner noreferrer">补天奖励计划</a></p>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		</div>
+	  	<div class="boxCon">
+		  	
+			<div class="rightIconBox">
+			  <h2 style="border-bottom:none; float:left;"><span>企业列表</span></h2>
+			  <div class="looplistSerach" style="margin: 15px 0 10px;">
+				<a href="javascript:void(0);" class="inputSearch"></a>
+				<input type="text" name="search" placeholder="搜索漏洞或厂商">
+			   </div>
+			</div>
+			
+			<div class="loophole-content">
+				<ul class="loophole-first">
+					<li style="width: 70%">厂商信息</li>
+					<li>操作</li>
+				</ul>
+				<div class="xuanshangList">
+
+				</div>
+				<!---->
+			</div>
+			<div class="btPage">
+							</div>
+	  	</div>
+	</div>
+<style>
+  .bt-footer {
+    background-color: #344671;
+    color: #fff;
+    padding: 30px 0 0;
+  }
+
+  .bt-footer a {
+    color: #fff;
+  }
+
+  .bt-footer a:hover {
+    color: #527AF7;
+  }
+
+  .bt-footer .menu-wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .bt-footer .menu-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bt-footer .menu-list .menu-item-group {
+    font-size: 18px;
+    color: rgba(250, 250, 250, 1);
+  }
+
+  .bt-footer .menu-list .menu-item:last-child .submenu-item {
+    top: 0px;
+    position: relative;
+    left: -60px;
+  }
+
+  .img-wrapper {
+    display: flex;
+    .img {
+      background: #fff;
+      width: 150px;
+      height: 150px;
+      border-radius: 4px;
+    }
+    .platform-qr-code-wrapper {
+      margin-left: 16px;
+    }
+    .platform-qr-code {
+      width: 150px;
+      border-radius: 4px;;
+    }
+    .platform-qr-code-text {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+
+  .bt-footer .menu-list .menu-item:last-child .submenu-item .img {
+    border-radius: 4px;
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .bt-footer .menu-list .submenu-list {
+    margin-top: 30px;
+  }
+
+  .bt-footer .menu-list .submenu-item {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .bt-footer .menu-list .submenu-item :first-child {
+    margin-top: 0;
+  }
+
+  .bt-footer .friend {
+    padding-top: 20px;
+  }
+
+  .bt-footer .friend dl {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+  }
+
+  .bt-footer .friend dt,
+  .bt-footer .friend dd {
+    display: inline-block;
+    padding-right: 30px;
+  }
+
+  .bt-footer .friend dd a {
+    margin-right: 30px;
+  }
+
+  .bt-footer .copyright {
+    border-top: 1px solid #979797;
+    width: 1200px;
+    margin: 0px auto 0;
+    font-size: 12px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+  }
+</style>
+<div class="bt-footer">
+  <div class="menu-wrapper">
+    <div class="menu-list">
+      <div class="menu-item">
+        <div class="menu-item-group">企业服务</div>
+        <ul class="submenu-list">
+          <li class="submenu-item">
+            <a href="/Service/pri">专属SRC</a>
+          </li>
+          <li class="submenu-item">
+            <a href="/Service/ce">补天众测</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-group">白帽服务</div>
+        <ul class="submenu-list">
+          <li class="submenu-item">
+            <a href="/Reward/plan">项目大厅</a>
+          </li>
+          <li class="submenu-item">
+            <a href="/Shop">补天商城</a>
+          </li>
+          <li class="submenu-item">
+            <a href="/newneed">新人须知</a>
+          </li>
+          <li class="submenu-item">
+                        <a href="https://user.skyeye.qianxin.com/user/sign-in?next=https://www.butian.net/login.html&style=1#/pages/white-hat/login/login">个人空间</a>
+                      </li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-group">注册热线</div>
+        <ul class="submenu-list">
+          <li class="submenu-item">
+            企业咨询：010-56509036
+          </li>
+          <li class="submenu-item">
+            白帽咨询：010-56509041
+          </li>
+          <li class="submenu-item">
+            咨询邮箱：<img style="position:relative;top:4px;"
+              src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f856403e91c3741e8c164bff0a814adbb07fdbe5f4827.png" alt="补天">
+          </li>
+          <li class="submenu-item">
+            （工作时间：周一至周五，09：30～18：30）
+          </li>
+                    <li class="submenu-item">官方12群：976981384</li>
+                    <li class="submenu-item">官方11群：985139112（已满）</li>
+                    <li class="submenu-item">官方10群：639525982（已满）</li>
+                    <li class="submenu-item">官方9群：1015536219（已满）</li>
+                    <li class="submenu-item">官方8群：1075904955（已满）</li>
+                    <li class="submenu-item">官方7群：826269079（已满）</li>
+                    <li class="submenu-item">官方6群：1017401334（已满）</li>
+                    <li class="submenu-item">官方5群：777567082（已满）</li>
+                    <li class="submenu-item">官方4群：1016907399（已满）</li>
+                    <li class="submenu-item">官方3群：774737398（已满）</li>
+                    <li class="submenu-item">官方2群：320235411（已满）</li>
+                    <li class="submenu-item">官方1群：322640164（已满）</li>
+                  </ul>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-group">商务合作</div>
+        <ul class="submenu-list">
+          <li class="submenu-item">
+            咨询邮箱：<img style="position:relative;top:4px;"
+              src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f700607ab3f1704ab79728705c945170096d1e3d10956.png" alt="补天">
+          </li>
+          <li class="submenu-item">
+            咨询热线：010-56509036
+          </li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-group">关注我们</div>
+        <ul class="submenu-list">
+          <li class="submenu-item">
+            <a href="https://whc.butian.net" target="_blank" rel="noopenner noreferrer">白帽大会</a>
+          </li>
+          <li class="submenu-item">
+            <a href="http://www.weibo.com/u/1915533737">官方微博</a>
+          </li>
+          <li class="submenu-item">
+            官方微信
+          </li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-group">&nbsp;</div>
+        <div class="img-wrapper">
+          <div class="img">
+            <img src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f493943bb5dae1aba30bcf6747e08e3feab8cc4fe8d59.jpg" class="platform-qr-code" alt="">
+            <div class="platform-qr-code-text">补天漏洞响应平台</div>
+          </div>
+          <div class="img platform-qr-code-wrapper">
+            <img src="/Public/images/platform-qr-code.jpg" class="platform-qr-code" alt="">
+            <div class="platform-qr-code-text">补天平台</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="friend">
+    <dl>
+      <dt>友情链接：</dt>
+      <dd><a href="https://research.qianxin.com/">奇安信技术研究院</a>|</dd>
+      <dd><a href="https://ti.qianxin.com/">奇安信威胁情报中心</a>|</dd>
+      <dd><a href="https://www.secrss.com/">安全内参</a>|</dd>
+      <dd><a href="https://poc.qianxin.com">破壳平台</a></dd>
+    </dl>
+  </div>
+  <div class="copyright">
+    Copyright © 2013-2026 BUTIAN.NET 版权所有 <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopenner noreferrer">京ICP备18014330号-2</a> <a href="https://beian.mps.gov.cn/" target="_blank" rel="noopenner noreferrer">京公安网备11010202011288号</a> <a href="https://nvdb.org.cn/" target="_blank" rel="noopenner noreferrer">NVDB备-20230002号</a>
+  </div>
+</div>
+
+<div class="fixRight">
+  <ul>
+    <li>
+      <a href="javascript:void(0);" class="erweima">
+        <div class="erweima2Box">
+          <img src="https://oss-yg-cztt.yun.qianxin.com/butian-public/f493943bb5dae1aba30bcf6747e08e3feab8cc4fe8d59.jpg"
+            alt="补天二维码">
+        </div>
+      </a>
+    </li>
+    <div class="bt-feed-back" id="feed-back" v-cloak v-loading="loading" element-loading-custom-class="feed-back-loading">
+    <el-popover
+    placement="right"
+    width="600"
+    v-model="visiblePopover"
+    :append-to-body="false"
+    popper-class="feed-back-popover"
+    trigger="manual">
+    <p class="title">问题反馈</p>
+    <el-form size="small" :model="ruleForm" :rules="rules" ref="ruleForm" label-width="82px" class="ruleForm">
+      <el-form-item label="反馈类型:" prop="type">
+        <el-radio-group v-model="ruleForm.type">
+          <el-radio v-for="item in typeEnum" :key="item.value" :label="item.value">{{ item.name }}</el-radio>
+        </el-radio-group>
+      </el-form-item>
+      <el-form-item label="内容描述:" prop="content">
+        <el-input placeholder="请输入您要反馈的内容" :autosize="{ minRows: 5}" maxlength="500" show-word-limit type="textarea" v-model="ruleForm.content"></el-input>
+      </el-form-item>
+      <el-form-item label="上传截图:" prop="images">
+        <upload-image ref="uploadImage" :upload-disabled="uploadDisabled" :accept-type="acceptType" :max-limit="maxLimit" :max-images-size="maxImagesSize" :http-request-api="httpRequestApi" @success="uploadSuccess" @delete="uploadDelete" :file-list="ruleForm.images" ></upload-image>
+        <span class="img_txt">(上传图片格式为：jpg、jpeg、png，不大于5M)</span>
+      </el-form-item>
+      <el-form-item label="联系方式:" prop="contact">
+        <el-input placeholder="请输入您的手机号/邮箱" v-model="ruleForm.contact"></el-input>
+      </el-form-item>
+      <el-form-item label="验证码:" prop="verify_code" class="code">
+        <el-input placeholder="请输入验证码" v-model="ruleForm.verify_code"></el-input>
+        <el-button class="btn-code" plain type="primary" :disabled="isDisabled" @click="getCheckCode">{{get_code_text}}</el-button>
+      </el-form-item>
+      <el-form-item label="QQ号码:" prop="qq">
+        <el-input placeholder="请输入您的QQ号码" v-model="ruleForm.qq"></el-input>
+      </el-form-item>
+      <el-form-item class="operate">
+        <el-button type="primary" @click="handleSubmit('ruleForm')">提交</el-button>
+        <el-button plain @click="setPopover">取消</el-button>
+      </el-form-item>
+    </el-form>
+    <a slot="reference" href="javascript:void(0)" class="page-bt-advise"><img src="/Public/images/advise.png" @click="setPopover" alt="反馈"></a>
+  </el-popover>
+</div>
+<script type="text/javascript" src="/Public/js/lodash.min.js"></script>
+<script type="text/javascript" src="/Public/js/gt.js?v=202606301716"></script>
+<script type="text/javascript" src="/Public/js/axios/axios0.27.2.js?v=202606301716"></script>
+<script type="module">
+import uploadImage from '/Public/upload-image/index.js?v=202606301716';
+// import { startCaptchaGet, uploadImg, feedbackCode, submitFeedback } from '@/api/feedback.js';
+axios.defaults.headers.post['X-Requested-With'] = 'XMLHttpRequest';
+	axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+    axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
+    axios.defaults.transformRequest = [function (data) {
+        let ret = ''
+        for (let it in data) {
+            ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&'
+        }
+        return ret
+    }];
+const COUNT_DOWN = 120;
+function validMobile(arg) {
+  return /^((13[0-9])|(14[0-9])|(15([0-9]))|(16([0-9]))|(17[0-9])|(18([0-9]))|(19([0-9])))\d{8}$/.test(arg);
+}
+function validEmail(arg) {
+  return /^[A-Za-z0-9]+([-_.][A-Za-z0-9]+)*@([A-Za-z0-9]+[.])+[A-Za-z0-9]{2,5}$/.test(arg);
+}
+function validQq(arg) {
+  return /^[1-9][0-9]{4,10}$/.test(arg);
+}
+var vm=new Vue({
+  el:'#feed-back',
+  components: {
+    uploadImage
+  },
+  data () {
+    const validateMobile = (rule, value, callback) => {
+      if (!validMobile(value) && !validEmail(value)) {
+        callback(new Error('请输入合法手机号/邮箱'));
+      } else {
+        callback();
+      }
+    };
+    const validateQq = (rule, value, callback) => {
+      if (value && !validQq(value)) {
+        callback(new Error('请输入正确的QQ号码'));
+      } else {
+        callback();
+      }
+    };
+    return {
+      visiblePopover: false,
+      typeEnum: [
+        {name: '账号类', value: '2'},
+        {name: '漏洞类', value: '1'},
+        {name: '服务类', value: '3'},
+        {name: '其他', value: '4'}
+      ],
+      rules: {
+        type: [
+          { required: true, message: '请选择反馈类型', trigger: 'change' }
+        ],
+        content: [
+          { required: true, message: '请填写内容描述', trigger: 'blur' }
+        ],
+        contact: [
+          { required: true, validator: validateMobile, trigger: 'blur' }
+        ],
+        verify_code: [
+          { required: true, message: '请填写验证码', trigger: 'blur' }
+        ],
+        qq: [
+          { required: false, validator: validateQq, trigger: 'blur' }
+        ]
+      },
+      ruleForm: {
+        type: '2',
+        content: '',
+        contact: '',
+        verify_code: '',
+        qq: '',
+        images: []
+      },
+      loading:false,
+      count: COUNT_DOWN,
+      get_code_text: '获取验证码',
+      isDisabled: false,
+      timer: null,
+      uploadDisabled: false,
+      acceptType: '.jpg,.jpeg,.png',
+      maxLimit: 3,
+      maxImagesSize: 5 // 以M为单位
+    };
+  },
+  watch: {
+    count(val) {
+      if (val <= -1) {
+        clearInterval(this.timer);
+        this.timer = null;
+        this.isDisabled = false;
+        this.get_code_text = '获取验证码';
+        this.count = COUNT_DOWN;
+      }
+    }
+  },
+  methods: {
+    setPopover() {
+      this.visiblePopover = !this.visiblePopover;
+    },
+    async httpRequestApi(file) {
+      this.loading=true
+      const formData = new FormData();
+      formData.append('image', file);
+      const config = {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        },
+        transformRequest: [(data) => data] // 禁用默认的请求体转换
+      };
+      return await axios.post('/Service/image_upload', formData, config);
+    },
+    uploadSuccess({res,uid}) {
+      const {status,info,data}=res.data
+      this.ruleForm.images.push({uid,url:data.url});
+      const img = new Image();
+      img.src = data.url;
+      img.onload = () => {
+        // 图片地址有效继续其他操作
+        this.$message({
+          type: 'success',
+          offset: 70,
+          message: '上传成功'
+        });
+      };
+      img.onerror = () => {
+        // 图片地址无效
+        this.uploadDelete(data);
+        this.$message({type: 'error', message: info, offset: 70});
+      };
+      this.loading=false
+    },
+    uploadDelete(file) {
+      if(file){
+        const index = this.ruleForm.images.findIndex(item => item.url === file.url);
+        if (index !== -1) {
+          this.ruleForm.images.splice(index, 1);
+        }
+      }
+    },
+    getCheckCode: _.debounce(async function () {
+      if (this.isDisabled) return;
+      let isValidPhone = true;
+      this.$refs.ruleForm.validateField('contact', (error) => {
+        error && (isValidPhone = false);
+      });
+      if (!isValidPhone) return;
+      await this.getInitGeeTestData();
+    }, 300),
+    async getInitGeeTestData() {
+      if (this.count !== COUNT_DOWN) {
+        return;
+      }
+      // 初始化极验
+      const {data} = await axios.get('/Service/startCaptcha')
+      window.initGeetest({
+        width: '264px',
+        gt: data.gt,
+        challenge: data.challenge,
+        offline: !data.success, // 表示用户后台检测极验服务器是否宕机，一般不需要关注
+        new_captcha: data.new_captcha,
+        product: 'bind'
+        // 更多配置参数请参见：http://www.geetest.com/install/sections/idx-client-sdk.html#config
+      }, (captchaObj) => {
+        captchaObj.onReady(function () {
+          captchaObj.verify();
+        }).onSuccess(async () => {
+          var result = captchaObj.getValidate();
+          const params = {
+            ...result,
+            contact: this.ruleForm.contact
+          };
+          // 获取验证码
+          const { data: { info, status } } = await axios.post('/Service/feedbackCode', params);
+          this.$message({type: status==1?'success':'error', offset: 70, message: info});
+          this.isDisabled = true;
+          this.timer = setInterval(() => {
+            if (this.count > -1) {
+              this.get_code_text = `${this.count--}秒后重新获取`;
+            }
+          }, 1000);
+          this.$once('hook:beforeDestory', () => {
+            clearInterval(this.timer);
+          });
+        });
+      });
+    },
+    async handleSubmit(ruleForm) {
+      this.$refs[ruleForm].validate(async (valid) => {
+        if (valid) {
+          const params = {
+            ...this.ruleForm,
+            images: this.ruleForm.images.length > 0 ? JSON.stringify(this.ruleForm.images.map(item => item.url)) : ''
+          };
+          const { data: { info, status } } = await axios.post('/Service/feedback', params);
+          this.$message({type: status===1?'success':'error', offset: 70, message: info});
+          if (status === 1) {
+            this.clearFields();
+            this.setPopover()
+          }
+        } else {
+          return false;
+        }
+      });
+    },
+    clearFields(){
+      this.$refs.ruleForm.resetFields();
+      this.ruleForm.images = [];
+      this.$refs.uploadImage.clearImages();
+    }
+  },
+  beforeDestroy() {
+    this.timer=null
+  },
+
+})
+</script>
+<style lang="scss" scoped>
+  [v-cloak] {
+    display: none;
+  }
+  .feed-back-loading{
+    z-index: 2002;
+  }
+ ::v-deep .el-popover{
+  padding: 0 !important;
+ }
+  .feed-back-popover{
+    padding: 0 !important;
+    .title{
+      height: 48px;
+      line-height: 48px;
+      padding: 0 14px;
+      font-size: 16px;
+      border-bottom: 1px solid #E8E8E8;
+    }
+    .ruleForm{
+      padding: 12px 30px 0;
+      .el-form-item__label{
+        font-size: 12px;
+      }
+      .el-input--small{
+        font-size: 12px;
+      }
+      .el-button{
+        padding: 9px 15px;
+      }
+      .img_txt{
+        color: #999999;
+        font-size: 12px;
+      }
+      .code{
+        .el-form-item__content{
+          display: flex;
+          align-items: center;
+        }
+        .btn-code{
+          margin-left: 12px;
+        }
+      }
+      .operate{
+        text-align: right;
+      }
+    }
+  }
+.bt-feed-back{
+  .page-bt-advise{
+    position: relative;
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin-bottom: 4px;
+    img{width: 100%;height: 100%;}
+  }
+}
+</style>
+
+    <li><a href="javascript:void(0);" class="returntop" style="display:none;"></a></li>
+  </ul>
+</div>
+<script type="text/javascript" src="/Public/js/config.js?v=202606301716"></script>
+<script type="text/javascript" src="/Public/js/vue.js?v=202606301716"></script>
+<script type="text/javascript" src="/Public/js/ele.js?v=202606301716"></script>
+<script type="text/javascript">
+  $(function () {
+    /*返回顶部*/
+    $('.returntop').click(function () {
+      $(document).scrollTop(0)
+    })
+    $(window).scroll(function () {
+      if ($(document).scrollTop() == 0) {
+        $('.returntop').hide()
+      } else {
+        $('.returntop').show()
+      }
+    });
+  });
+
+  function goPage() {
+    var url = location.href;
+    var page = $('#goPage').val();
+    if (url.indexOf("/p/") > 0) {
+      var reger = new RegExp("(/p/[0-9]*)");
+      location.href = url.replace(reger, "/p/" + page);
+    } else {
+      location.href = location.href + "/index/p/" + page;
+    }
+  }
+</script>
+</body>
+
+</html>
+
+<script type="text/javascript">
+	$(function(){
+        var token=''
+		$('.inputSearch').click(function(){
+		    var name = $('.looplistSerach input').val()
+            if(name != ''){
+                var setting = {'s':1,'name':name,'p':1,"token":token};
+                changePage(setting)
+            }
+		});
+
+		var setting = {'s':1,'p':1,"token":token};
+		changePage(setting)
+		//按下回车键执行事件
+		$(document).keydown(function(event){ 
+			if(event.keyCode==13){ 
+				var name = $('.looplistSerach input').val()
+	            if(name != ''){
+	                var setting = {'s':1,'name':name,'p':1,"token":token};
+	                changePage(setting)
+	            }
+			}
+		})
+
+		function changePage(set){
+			$.ajax({
+				url : "/Reward/pub",
+				type: 'POST',
+				dataType:  'json',
+				data:set,
+				success: function(data){
+					if (data.status == 1) {
+						var list = data.data.list;
+						if(set.p == "1"){
+							var count = data.data.count;
+							createPages(count,set)
+						}
+						var html='';
+						if(list == ''){
+							html+='<p>暂无数据</p>';
+						}else{
+							for(var i in list){
+								html+='<ul class="loophole-second">';
+								if(!list[i].avatar){
+									list[i].avatar='/Public/images/t01603699bd63f52ea3.png';
+								}
+								html+='<li style="width: 70%"><img src="'+ list[i].avatar +'" style="max-width:145px;max-height:145px">';
+								html+='<a href="/Company/'+ list[i].company_id +'">'+ list[i].company_name +'</a></li>';
+								html+='<li><span><a href="/Loo/submit?cid='+ list[i].company_id +'">提交漏洞</a></span></li>';
+								html+='</ul>';
+							}
+						}
+						$('.xuanshangList').html(html)
+					}else if(data.status == 2){
+						MessageBox.Show('系统提示',{'esp':'esp','width':300,'height':100,'htmls':'状态变化，需要刷新页面'},true)
+					} else {
+						MessageBox.Show('确认操作',{'esp':'esp','height':100,'htmls':data.info},true)
+					}
+				}
+			});
+		}
+		/*生成分页效果*/
+		function createPages(count,set){
+
+			$('.btPage').html('')
+			var obj = $('.btPage');
+			var now = 1;
+			var html='';
+			if(count>5){
+				html+='<span class="perv" style="float:left;line-height:28px;">&lt;上一页</span>';
+			}
+			html+='<var class="pageOut" style="position:relative;width:420px;overflow:hidden;height:28px;float:left;line-height:28px;"><em>'
+			for(var i = 1;i<=count;i++){
+				if(i == 1 ){
+					html+='<a style="width:30px;float:left;" href="javascript:void(0);" class="aNow" page="'+ i +'">'+ i +'</a>'
+				}else{
+					html+='<a style="width:30px;float:left;" href="javascript:void(0);" page="'+ i +'">'+ i +'</a>'
+				}
+
+			}
+			html+='</em></var>'
+			if(count > 10){
+				html+='<span style="float:left;line-height:28px;text-align:center;margin:0 5px;" class="morebtn">下10页</span><span style="float:left;line-height:28px;text-align:center;margin:0 5px;" class="lessbtn">上10页</span><span style="float:left;line-height:28px;text-align:center;margin:0 5px;" class="theOne">回首页</span>';
+			}
+			if(count>5){
+				html+='<span class="next" style="float:left;line-height:28px;margin:0 5px;">下一页&gt;</span>';
+			}
+
+			obj.html(html)
+			var w = parseInt(count)*42;
+			$('.pageOut em').css({'position':'absolute','width':w+'px','left':'0'})
+			var ci = 0;
+			var wi = 420;
+			var abtn = $('.btPage a');
+			$('.perv').click(function(){
+				var num = $('.btPage .aNow').attr('page')
+				if(num == 1){
+					MessageBox.Show('系统提示',{'esp':'esp','height':100,'htmls':"这是第一页了"},true)
+				}else{
+					num--;
+					if(num==(ci*10)){
+						ci--;
+						$('.pageOut em').css('left',-(wi*ci)+'px')
+					}
+					abtn.eq(num-1).addClass('aNow').siblings().removeClass('aNow')
+					set.p = num;
+					changePage(set)
+				}
+
+			})
+			$('.next').click(function(){
+				var num = $('.btPage .aNow').attr('page')
+				if(num == count){
+					MessageBox.Show('系统提示',{'esp':'esp','height':100,'htmls':"这是最后一页了"},true)
+				}else{
+					if(num==((ci+1)*10)){
+						ci++;
+						$('.pageOut em').css('left',-(wi*ci)+'px')
+					}
+					num++;
+					abtn.eq(num-1).addClass('aNow').siblings().removeClass('aNow')
+					set.p = num;
+					changePage(set)
+				}
+
+			})
+			$('.morebtn').click(function(){
+				if(count < (parseInt($('.btPage .aNow').attr('page'))+10)){
+					MessageBox.Show('系统提示',{'esp':'esp','height':100,'htmls':"没有更多了"},true)
+					return;
+				}
+				ci++;
+				$('.pageOut em').css('left',-(wi*ci)+'px')
+				var m = ci*10;
+				abtn.eq(m).addClass('aNow').siblings().removeClass('aNow')
+				set.p = (m+1);
+				changePage(set)
+			})
+			$('.lessbtn').click(function(){
+				if(0 > (parseInt($('.btPage .aNow').attr('page'))-10)){
+					MessageBox.Show('系统提示',{'esp':'esp','height':100,'htmls':"没有更少了"},true)
+					return;
+				}
+				ci--;
+				$('.pageOut em').css('left',-(wi*ci)+'px')
+				var m = ci*10;
+				abtn.eq(m).addClass('aNow').siblings().removeClass('aNow')
+				set.p = (m+1);
+				changePage(set)
+			})
+			$('.theOne').click(function(){
+				abtn.eq(0).addClass('aNow').siblings().removeClass('aNow')
+				set.p = 1;
+				changePage(set)
+			})
+			abtn.click(function(){
+				if($(this).attr('class') != 'aNow'){
+					var num = $(this).attr('page')
+					$(this).addClass('aNow').siblings().removeClass('aNow')
+					set.p = num;
+					changePage(set)
+				}
+			})
+		}
+		/*最下公司运动*/
+		var companyBox = $('.qiyeList');
+		var companyHtml = companyBox.html();
+		var left = 0;
+		var companyNow=2;
+		companyBox.append(companyHtml)
+		var companylist = $('.qiyeList li');
+		var companyNum =  companylist.length;
+		companyBox.css('width',companyNum*2*195+'px')
+		$('.next2').click(function(){
+			companyNow++
+			if(companyNow>=(companyNum/2+2)){
+				companyNow = 2;
+				left = 0;
+				companyBox.css({'left':left+'px'})
+			}else{
+				left-=195;
+				companyBox.stop().animate({'left':left+'px'},600)
+			}
+
+			companylist.removeClass()
+			companylist.eq(companyNow).addClass('skey1')
+			companylist.eq(companyNow-1).addClass('skey2')
+			companylist.eq(companyNow-2).addClass('skey3')
+			companylist.eq(companyNow+1).addClass('skey2')
+			companylist.eq(companyNow+2).addClass('skey3')
+		})
+		$('.prev2').click(function(){
+			companyNow--
+			if(companyNow<2){
+				companyNow = companyNum-3;
+				left = -(companyNum-5)*195;
+				companyBox.css({'left':left+'px'})
+			}else{
+				left+=195;
+				companyBox.stop().animate({'left':left+'px'},600)
+			}
+
+			companylist.removeClass()
+			companylist.eq(companyNow).addClass('skey1')
+			companylist.eq(companyNow-1).addClass('skey2')
+			companylist.eq(companyNow-2).addClass('skey3')
+			companylist.eq(companyNow+1).addClass('skey2')
+			companylist.eq(companyNow+2).addClass('skey3')
+		})
+		companylist.on('mouseover',function(){
+			$('.jiangli').show()
+			$(this).find('.jiangli').hide()
+		})
+    })
+</script>

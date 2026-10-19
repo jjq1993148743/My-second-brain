@@ -1,0 +1,17 @@
+import { execFile } from 'node:child_process';
+import fs from 'node:fs';
+const run=(c,a)=>new Promise(res=>execFile(c,a,{maxBuffer:32*1024*1024,windowsHide:true,timeout:20000},(e,so)=>res(so||'')));
+const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+const curl=u=>run('curl',['-sL','-x','http://127.0.0.1:7897','-H','User-Agent: '+UA,'--max-time','18','--compressed',u]);
+const h=await curl('https://www.butian.net/Reward/pub');
+fs.writeFileSync('_butian.html',h,'utf8');
+const text=h.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,'\n').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&');
+const lines=text.split('\n').map(s=>s.trim()).filter(s=>s.length>1);
+const u=[]; for(const l of lines) if(u[u.length-1]!==l) u.push(l);
+const money=u.filter(l=>/[\u00a5\uffe5]\s?[0-9]/.test(l)).slice(0,10);
+const vendors=u.filter(l=>l.length>4 && l.length<50 && /[\u4e00-\u9fa5]/.test(l) && !/^(\u767b\u5f55|\u6ce8\u518c|\u9996\u9875)/.test(l)).slice(0,15);
+console.log('bytes='+h.length);
+console.log('MONEY: '+JSON.stringify(money));
+console.log('VENDORS: '+JSON.stringify(vendors));
+const pg=[...new Set([...h.matchAll(/href="([^"]{3,50}(?:page|\/p\/)[^"]{0,10})"/g)].map(m=>m[1]))].slice(0,6);
+console.log('PAGER: '+JSON.stringify(pg));
