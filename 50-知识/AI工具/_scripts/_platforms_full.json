@@ -1,0 +1,2585 @@
+[
+ {
+  "host": "adevait.com",
+  "url": "https://adevait.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "arc.dev",
+  "url": "https://arc.dev",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "careers.superside.com",
+  "url": "https://careers.superside.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Superside Careers"
+ },
+ {
+  "host": "clarrow.com",
+  "url": "https://clarrow.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "codementor.io",
+  "url": "https://codementor.io",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "codersclan.net",
+  "url": "https://codersclan.net",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "dreamlance.io",
+  "url": "https://dreamlance.io",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "fiverr.com",
+  "url": "https://fiverr.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancer.com",
+  "url": "https://freelancer.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "gigster.com",
+  "url": "https://gigster.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "gun.io",
+  "url": "https://gun.io",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "guru.com",
+  "url": "https://guru.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "jobdone.net",
+  "url": "https://jobdone.net",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "JobDone.net - Freelance Services Marketp"
+ },
+ {
+  "host": "moonlightwork.com",
+  "url": "https://moonlightwork.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": ""
+ },
+ {
+  "host": "peopleperhour.com",
+  "url": "https://peopleperhour.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 202)",
+  "title": ""
+ },
+ {
+  "host": "scalablepath.com",
+  "url": "https://scalablepath.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": ""
+ },
+ {
+  "host": "seatguru.com",
+  "url": "https://seatguru.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": ""
+ },
+ {
+  "host": "soshace.com",
+  "url": "https://soshace.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "Revenue Systems for Real Estate and Loca"
+ },
+ {
+  "host": "speedlancer.com",
+  "url": "https://speedlancer.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Speedlancer"
+ },
+ {
+  "host": "storetasker.com",
+  "url": "https://storetasker.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "superside.com",
+  "url": "https://superside.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": ""
+ },
+ {
+  "host": "toptal.com",
+  "url": "https://toptal.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "toptalent.co",
+  "url": "https://toptalent.co",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "upwork.com",
+  "url": "https://upwork.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Challenge - Upwork"
+ },
+ {
+  "host": "x-team.com",
+  "url": "https://x-team.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "X-Team: Elite, On-Demand Tech Talent"
+ },
+ {
+  "host": "airtasker.com",
+  "url": "https://airtasker.com",
+  "type": "接单市场",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": "302 Found"
+ },
+ {
+  "host": "freelancer.co.nz",
+  "url": "https://freelancer.co.nz",
+  "type": "接单市场",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancer.com.au",
+  "url": "https://freelancer.com.au",
+  "type": "接单市场",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "hipages.com.au",
+  "url": "https://hipages.com.au",
+  "type": "接单市场",
+  "region": "大洋洲",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "hipages: The #1 Place To Connect With Tr"
+ },
+ {
+  "host": "coconala.co.th",
+  "url": "https://coconala.co.th",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "fastwork.co",
+  "url": "https://fastwork.co",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Fastwork.co แหล่งรวมฟรีแลนซ์คุณภาพอันดับ"
+ },
+ {
+  "host": "fastwork.id",
+  "url": "https://fastwork.id",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Fastwork.id: Situs Freelance Online Terp"
+ },
+ {
+  "host": "freelancer.co.id",
+  "url": "https://freelancer.co.id",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancerviet.vn",
+  "url": "https://freelancerviet.vn",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Tuyển dụng nhân sự, việc làm freelance, "
+ },
+ {
+  "host": "m.fastwork.id",
+  "url": "https://m.fastwork.id",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "sribu.com",
+  "url": "https://sribu.com",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "upwork.co.th",
+  "url": "https://upwork.co.th",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "workana.com",
+  "url": "https://workana.com",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "fl.ru",
+  "url": "https://fl.ru",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelance.ru",
+  "url": "https://freelance.ru",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "freelancehunt.com",
+  "url": "https://freelancehunt.com",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Just a moment..."
+ },
+ {
+  "host": "upwork.ru",
+  "url": "https://upwork.ru",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "upwork.ua",
+  "url": "https://upwork.ua",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "andela.com",
+  "url": "https://andela.com",
+  "type": "接单市场",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancer.co.ke",
+  "url": "https://freelancer.co.ke",
+  "type": "接单市场",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "epwk.com",
+  "url": "https://epwk.com",
+  "type": "接单市场",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freelancer.cn",
+  "url": "https://freelancer.cn",
+  "type": "接单市场",
+  "region": "国内",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "zbj.com",
+  "url": "https://zbj.com",
+  "type": "接单市场",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "kmong.com",
+  "url": "https://kmong.com",
+  "type": "接单市场",
+  "region": "韩国",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "실력 있는 전문가 찾기, 크몽"
+ },
+ {
+  "host": "soomgo.com",
+  "url": "https://soomgo.com",
+  "type": "接单市场",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "403 Forbidden"
+ },
+ {
+  "host": "wishket.com",
+  "url": "https://wishket.com",
+  "type": "接单市场",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "403 Forbidden"
+ },
+ {
+  "host": "freelancer.com.br",
+  "url": "https://freelancer.com.br",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Um profissional freelancer ao seu alcanc"
+ },
+ {
+  "host": "freelancer.mx",
+  "url": "https://freelancer.mx",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "soyfreelancer.com.mx",
+  "url": "https://soyfreelancer.com.mx",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "workana.com.br",
+  "url": "https://workana.com.br",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "workana.mx",
+  "url": "https://workana.mx",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "codeur.com",
+  "url": "https://codeur.com",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancer.ch",
+  "url": "https://freelancer.ch",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freelancer.de",
+  "url": "https://freelancer.de",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancer.es",
+  "url": "https://freelancer.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancer.nl",
+  "url": "https://freelancer.nl",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Freelancer.nl | Binnen 24 u de perfecte "
+ },
+ {
+  "host": "freelancer.pl",
+  "url": "https://freelancer.pl",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancer.pt",
+  "url": "https://freelancer.pt",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancer.se",
+  "url": "https://freelancer.se",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelanceria.es",
+  "url": "https://freelanceria.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freelancermap.at",
+  "url": "https://freelancermap.at",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancermap.de",
+  "url": "https://freelancermap.de",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "frilansare.se",
+  "url": "https://frilansare.se",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "frilansfinans.se",
+  "url": "https://frilansfinans.se",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "hubstafftalent.net",
+  "url": "https://hubstafftalent.net",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Hire Freelancers & Remote Workers For Fr"
+ },
+ {
+  "host": "malt.de",
+  "url": "https://malt.de",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "malt.es",
+  "url": "https://malt.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "malt.fr",
+  "url": "https://malt.fr",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "soyfreelancer.es",
+  "url": "https://soyfreelancer.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "twago.de",
+  "url": "https://twago.de",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "useme.com",
+  "url": "https://useme.com",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "useme.eu",
+  "url": "https://useme.eu",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 308，需跟随",
+  "title": ""
+ },
+ {
+  "host": "useme.pl",
+  "url": "https://useme.pl",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "workana.es",
+  "url": "https://workana.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "yeeply.com",
+  "url": "https://yeeply.com",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "Empresas de desarrollo de software certi"
+ },
+ {
+  "host": "yunojuno.com",
+  "url": "https://yunojuno.com",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "coconala.com",
+  "url": "https://coconala.com",
+  "type": "接单市场",
+  "region": "日本",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "ココナラ - プロが集まる日本最大級のスキルマーケット"
+ },
+ {
+  "host": "crowdworks.jp",
+  "url": "https://crowdworks.jp",
+  "type": "接单市场",
+  "region": "日本",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "クラウドソーシング・仕事依頼・求人情報は日本最大級の「クラウドワークス」【クラウ"
+ },
+ {
+  "host": "lancers.jp",
+  "url": "https://lancers.jp",
+  "type": "接单市场",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "104.com.tw",
+  "url": "https://104.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "518.com.tw",
+  "url": "https://518.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "591.com.tw",
+  "url": "https://591.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "anywhere.com.tw",
+  "url": "https://anywhere.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "hellotoby.com.tw",
+  "url": "https://hellotoby.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "pro360.com.tw",
+  "url": "https://pro360.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "tasker.com.tw",
+  "url": "https://tasker.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "❌ 不通",
+  "detail": "连接失败",
+  "title": ""
+ },
+ {
+  "host": "toolbox.com.tw",
+  "url": "https://toolbox.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freelance.com.hk",
+  "url": "https://freelance.com.hk",
+  "type": "接单市场",
+  "region": "香港",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "HKfreelance | 香港 Freelancer 免費配對平台 2026"
+ },
+ {
+  "host": "hellotoby.com",
+  "url": "https://hellotoby.com",
+  "type": "接单市场",
+  "region": "香港",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "fiverr.in",
+  "url": "https://fiverr.in",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freelancer.in",
+  "url": "https://freelancer.in",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "truelancer.com",
+  "url": "https://truelancer.com",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 429)",
+  "title": "Vercel Security Checkpoint"
+ },
+ {
+  "host": "turing.com",
+  "url": "https://turing.com",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "upwork.in",
+  "url": "https://upwork.in",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "freelancer.ir",
+  "url": "https://freelancer.ir",
+  "type": "接单市场",
+  "region": "中东",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "ponisha.ir",
+  "url": "https://ponisha.ir",
+  "type": "接单市场",
+  "region": "中东",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "استخدام فریلنسر و دورکار | سایت فریلنسری"
+ },
+ {
+  "host": "52pojie.cn",
+  "url": "https://52pojie.cn",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "butian.net",
+  "url": "https://butian.net",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "ichunqiu.com",
+  "url": "https://ichunqiu.com",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "seebug.org",
+  "url": "https://seebug.org",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 521",
+  "title": ""
+ },
+ {
+  "host": "t00ls.net",
+  "url": "https://t00ls.net",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "vulbox.com",
+  "url": "https://vulbox.com",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "bountysource.com",
+  "url": "https://bountysource.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "bugcrowd.com",
+  "url": "https://bugcrowd.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "gitcoin.co",
+  "url": "https://gitcoin.co",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "gitpay.me",
+  "url": "https://gitpay.me",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "go.intigriti.com",
+  "url": "https://go.intigriti.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": ""
+ },
+ {
+  "host": "hackerone.com",
+  "url": "https://hackerone.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "intigriti.com",
+  "url": "https://intigriti.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "issuehunt.io",
+  "url": "https://issuehunt.io",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "synack.com",
+  "url": "https://synack.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": ""
+ },
+ {
+  "host": "yeswehack.com",
+  "url": "https://yeswehack.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "careers.etsy.com",
+  "url": "https://careers.etsy.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Home"
+ },
+ {
+  "host": "codecanyon.net",
+  "url": "https://codecanyon.net",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "codester.com",
+  "url": "https://codester.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "creativemarket.com",
+  "url": "https://creativemarket.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "envato.com",
+  "url": "https://envato.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "etsy.com",
+  "url": "https://etsy.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "lemonsqueezy.com",
+  "url": "https://lemonsqueezy.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "paddle.com",
+  "url": "https://paddle.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "printful.com",
+  "url": "https://printful.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "printify.com",
+  "url": "https://printify.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "redbubble.com",
+  "url": "https://redbubble.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "shopify.com",
+  "url": "https://shopify.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "substack.com",
+  "url": "https://substack.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "teespring.com",
+  "url": "https://teespring.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": "302 Found"
+ },
+ {
+  "host": "themeforest.net",
+  "url": "https://themeforest.net",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "title": ""
+ },
+ {
+  "host": "zazzle.com",
+  "url": "https://zazzle.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Permanent Redirect"
+ },
+ {
+  "host": "awin.com",
+  "url": "https://awin.com",
+  "type": "联盟营销",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": "301 - Moved Permanently"
+ },
+ {
+  "host": "cj.com",
+  "url": "https://cj.com",
+  "type": "联盟营销",
+  "region": "全球/未分类",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "clickbank.com",
+  "url": "https://clickbank.com",
+  "type": "联盟营销",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "ClickBank | Top Affiliate Marketing Prog"
+ },
+ {
+  "host": "flexoffers.com",
+  "url": "https://flexoffers.com",
+  "type": "联盟营销",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "rakutenadvertising.com",
+  "url": "https://rakutenadvertising.com",
+  "type": "联盟营销",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Elevate Your Affiliate Marketing with th"
+ },
+ {
+  "host": "shareasale.com",
+  "url": "https://shareasale.com",
+  "type": "联盟营销",
+  "region": "全球/未分类",
+  "state": "✅ 已验证",
+  "detail": "Chrome 实测可打开",
+  "title": ""
+ },
+ {
+  "host": "juejin.cn",
+  "url": "https://juejin.cn",
+  "type": "技术社区",
+  "region": "国内",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "v2ex.com",
+  "url": "https://v2ex.com",
+  "type": "技术社区",
+  "region": "国内",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "V2EX"
+ },
+ {
+  "host": "angi.com",
+  "url": "https://angi.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "dice.com",
+  "url": "https://dice.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "flexjobs.com",
+  "url": "https://flexjobs.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "❌ 不通",
+  "detail": "连接失败",
+  "title": ""
+ },
+ {
+  "host": "handy.com",
+  "url": "https://handy.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "homeadvisor.com",
+  "url": "https://homeadvisor.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "indeed.com",
+  "url": "https://indeed.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Security Check - Indeed.com"
+ },
+ {
+  "host": "sixty.com.au",
+  "url": "https://sixty.com.au",
+  "type": "其他",
+  "region": "北美",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "sixty.com.au - Coming Soon"
+ },
+ {
+  "host": "solidgigs.com",
+  "url": "https://solidgigs.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "SolidGigs — Get Freelance Leads on Autop"
+ },
+ {
+  "host": "taskrabbit.com",
+  "url": "https://taskrabbit.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "thumbtack.com",
+  "url": "https://thumbtack.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 202)",
+  "title": ""
+ },
+ {
+  "host": "ziprecruiter.com",
+  "url": "https://ziprecruiter.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "jobspress.com.au",
+  "url": "https://jobspress.com.au",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "nofluffjobs.com",
+  "url": "https://nofluffjobs.com",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "Portal with IT, marketing, sales, HR, re"
+ },
+ {
+  "host": "oneflare.com.au",
+  "url": "https://oneflare.com.au",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "onsite.com.au",
+  "url": "https://onsite.com.au",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "twine.com.au",
+  "url": "https://twine.com.au",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "glints.com",
+  "url": "https://glints.com",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Glints - Career Discovery & Development "
+ },
+ {
+  "host": "jobstreet.com",
+  "url": "https://jobstreet.com",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 308，需跟随",
+  "title": "308 Permanent Redirect"
+ },
+ {
+  "host": "jobtopgun.com",
+  "url": "https://jobtopgun.com",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "kalibrr.com",
+  "url": "https://kalibrr.com",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "mfast.vn",
+  "url": "https://mfast.vn",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "MFast - Trên Cả Thu Nhập"
+ },
+ {
+  "host": "projects.co.id",
+  "url": "https://projects.co.id",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Cari Freelancer Indonesia, Project Kerja"
+ },
+ {
+  "host": "skima.jp",
+  "url": "https://skima.jp",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "SKIMA - 気軽にイラスト依頼・販売 | SKIMA（スキマ）"
+ },
+ {
+  "host": "topcv.vn",
+  "url": "https://topcv.vn",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Attention Required! | Cloudflare"
+ },
+ {
+  "host": "vlance.vn",
+  "url": "https://vlance.vn",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Just a moment..."
+ },
+ {
+  "host": "career.habr.com",
+  "url": "https://career.habr.com",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Работа в IT-индустрии, свежие вакансии и"
+ },
+ {
+  "host": "djinni.co",
+  "url": "https://djinni.co",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "dou.ua",
+  "url": "https://dou.ua",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Just a moment..."
+ },
+ {
+  "host": "freelance.ua",
+  "url": "https://freelance.ua",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "freelansim.ru",
+  "url": "https://freelansim.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "frilance.ru",
+  "url": "https://frilance.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "habr.com",
+  "url": "https://habr.com",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "kwork.ru",
+  "url": "https://kwork.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": ""
+ },
+ {
+  "host": "profi.ru",
+  "url": "https://profi.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "rabota.ua",
+  "url": "https://rabota.ua",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "tproger.ru",
+  "url": "https://tproger.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Tproger — всё о программировании"
+ },
+ {
+  "host": "web-lancer.net",
+  "url": "https://web-lancer.net",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "youdo.com",
+  "url": "https://youdo.com",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": ""
+ },
+ {
+  "host": "brightermon.de",
+  "url": "https://brightermon.de",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freelance.ng",
+  "url": "https://freelance.ng",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "fuzu.com",
+  "url": "https://fuzu.com",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Just a moment..."
+ },
+ {
+  "host": "jiji.co.ke",
+  "url": "https://jiji.co.ke",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Just a moment..."
+ },
+ {
+  "host": "jobberman.com",
+  "url": "https://jobberman.com",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "kazi254.co.ke",
+  "url": "https://kazi254.co.ke",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "myjobmag.com",
+  "url": "https://myjobmag.com",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Just a moment..."
+ },
+ {
+  "host": "olx.co.ke",
+  "url": "https://olx.co.ke",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": "302 Found"
+ },
+ {
+  "host": "ainet.cn",
+  "url": "https://ainet.cn",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "aliali.com",
+  "url": "https://aliali.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "dianzhong.com",
+  "url": "https://dianzhong.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "北京点众科技股份有限公司"
+ },
+ {
+  "host": "dushu.com",
+  "url": "https://dushu.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "javp.com",
+  "url": "https://javp.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "kuaikuaishou.com",
+  "url": "https://kuaikuaishou.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "tianfucan.com",
+  "url": "https://tianfucan.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "class101.net",
+  "url": "https://class101.net",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 307，需跟随",
+  "title": ""
+ },
+ {
+  "host": "crowdpic.co.kr",
+  "url": "https://crowdpic.co.kr",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freemoa.net",
+  "url": "https://freemoa.net",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 307，需跟随",
+  "title": ""
+ },
+ {
+  "host": "openads.co.kr",
+  "url": "https://openads.co.kr",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "taling.me",
+  "url": "https://taling.me",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 308，需跟随",
+  "title": ""
+ },
+ {
+  "host": "toss.im",
+  "url": "https://toss.im",
+  "type": "其他",
+  "region": "韩国",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "토스"
+ },
+ {
+  "host": "zipadosa.com",
+  "url": "https://zipadosa.com",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "99freelas.com.br",
+  "url": "https://99freelas.com.br",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Attention Required! | Cloudflare"
+ },
+ {
+  "host": "catarinense.com.br",
+  "url": "https://catarinense.com.br",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "chilefreelance.cl",
+  "url": "https://chilefreelance.cl",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freela.com.br",
+  "url": "https://freela.com.br",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "getninjas.com.br",
+  "url": "https://getninjas.com.br",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "latinhire.com",
+  "url": "https://latinhire.com",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "nubelo.com",
+  "url": "https://nubelo.com",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "remotolatinos.com",
+  "url": "https://remotolatinos.com",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "trabajando.cl",
+  "url": "https://trabajando.cl",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "yapo.cl",
+  "url": "https://yapo.cl",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "title": "Just a moment..."
+ },
+ {
+  "host": "bulldogjob.pl",
+  "url": "https://bulldogjob.pl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Bulldogjob - Think IT"
+ },
+ {
+  "host": "comet.co",
+  "url": "https://comet.co",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "coolcompany.com",
+  "url": "https://coolcompany.com",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Cool Company - Börja frilansa med Cool C"
+ },
+ {
+  "host": "efecto.se",
+  "url": "https://efecto.se",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "etengo.de",
+  "url": "https://etengo.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "free-work.com",
+  "url": "https://free-work.com",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelance-info.fr",
+  "url": "https://freelance-info.fr",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "freelance.de",
+  "url": "https://freelance.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelance.es",
+  "url": "https://freelance.es",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "Freelance SCM"
+ },
+ {
+  "host": "freelance.nl",
+  "url": "https://freelance.nl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "freelancemarketing.nl",
+  "url": "https://freelancemarketing.nl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "gulp.de",
+  "url": "https://gulp.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "hays.de",
+  "url": "https://hays.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "hoofdkraan.nl",
+  "url": "https://hoofdkraan.nl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 308，需跟随",
+  "title": "308 Permanent Redirect"
+ },
+ {
+  "host": "itjobs.pt",
+  "url": "https://itjobs.pt",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "itport.co",
+  "url": "https://itport.co",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "justjoin.it",
+  "url": "https://justjoin.it",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "IT Job Board and Job Offers | Just Join "
+ },
+ {
+  "host": "klussen.marktplaats.nl",
+  "url": "https://klussen.marktplaats.nl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "landing.jobs",
+  "url": "https://landing.jobs",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Find Tech Jobs in Europe | Landing.Jobs"
+ },
+ {
+  "host": "laotop.fr",
+  "url": "https://laotop.fr",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "malasmadres.es",
+  "url": "https://malasmadres.es",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "nosmalltime.com",
+  "url": "https://nosmalltime.com",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "pracuj.pl",
+  "url": "https://pracuj.pl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "rocketjobs.pl",
+  "url": "https://rocketjobs.pl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "Praca - rocketjobs.pl"
+ },
+ {
+  "host": "solcom.de",
+  "url": "https://solcom.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "Redirecting to https://www.solcom.de/"
+ },
+ {
+  "host": "solid.jobs",
+  "url": "https://solid.jobs",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Praca dla specjalistów 100% jawnych wyna"
+ },
+ {
+  "host": "swissdevjobs.ch",
+  "url": "https://swissdevjobs.ch",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": ""
+ },
+ {
+  "host": "talent.com",
+  "url": "https://talent.com",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "worksome.co.uk",
+  "url": "https://worksome.co.uk",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "yuno.co.uk",
+  "url": "https://yuno.co.uk",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 307，需跟随",
+  "title": ""
+ },
+ {
+  "host": "artists-studio.jp",
+  "url": "https://artists-studio.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "atsoho.com",
+  "url": "https://atsoho.com",
+  "type": "其他",
+  "region": "日本",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "@SOHO - クラウドソーシング・フリーランス求人マッチング｜手数料無料"
+ },
+ {
+  "host": "best-works.jp",
+  "url": "https://best-works.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "bizseek.jp",
+  "url": "https://bizseek.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Bizseek"
+ },
+ {
+  "host": "c-strategist.jp",
+  "url": "https://c-strategist.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "cowcamo.co.jp",
+  "url": "https://cowcamo.co.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "curama.jp",
+  "url": "https://curama.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "くらしのマーケット15周年 秋トク祭 - くらべておトク、プロのお仕事。"
+ },
+ {
+  "host": "ex-pa.jp",
+  "url": "https://ex-pa.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "オンラインビジネスを完全自動化する｜エキスパ公式"
+ },
+ {
+  "host": "monokakido.jp",
+  "url": "https://monokakido.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "notes.jp",
+  "url": "https://notes.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "paintbbs.jp",
+  "url": "https://paintbbs.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "pro.members.jp",
+  "url": "https://pro.members.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "shufti.jp",
+  "url": "https://shufti.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "sokudaku.com",
+  "url": "https://sokudaku.com",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "twine.jp",
+  "url": "https://twine.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "workship.jp",
+  "url": "https://workship.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "ランサーズ.jp",
+  "url": "https://ランサーズ.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "❌ 不通",
+  "detail": "连接失败",
+  "title": ""
+ },
+ {
+  "host": "pinkoi.com",
+  "url": "https://pinkoi.com",
+  "type": "其他",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "tobyhk.com",
+  "url": "https://tobyhk.com",
+  "type": "其他",
+  "region": "香港",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "codechef.com",
+  "url": "https://codechef.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "cutshort.io",
+  "url": "https://cutshort.io",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "Cutshort: Making Top Professionals More "
+ },
+ {
+  "host": "flexiple.com",
+  "url": "https://flexiple.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Build Your Offshore India Team in Weeks "
+ },
+ {
+  "host": "geektrust.in",
+  "url": "https://geektrust.in",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "hackerearth.com",
+  "url": "https://hackerearth.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 403",
+  "title": "HackerEarth Guardian"
+ },
+ {
+  "host": "hackerrank.com",
+  "url": "https://hackerrank.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "hirect.in",
+  "url": "https://hirect.in",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "instahyre.com",
+  "url": "https://instahyre.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ },
+ {
+  "host": "internshala.com",
+  "url": "https://internshala.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "title": "Search Internships, Jobs, & Courses | Hi"
+ },
+ {
+  "host": "naukri.com",
+  "url": "https://naukri.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "remotehunt.in",
+  "url": "https://remotehunt.in",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "shine.com",
+  "url": "https://shine.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "sifars.com",
+  "url": "https://sifars.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Sifars | Production AI, Automation & Com"
+ },
+ {
+  "host": "supersourcing.com",
+  "url": "https://supersourcing.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "Supersourcing - AI-Powered Hiring | IT S"
+ },
+ {
+  "host": "todoenuno.in",
+  "url": "https://todoenuno.in",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "uplers.com",
+  "url": "https://uplers.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": ""
+ },
+ {
+  "host": "worknhire.com",
+  "url": "https://worknhire.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "anymod.com",
+  "url": "https://anymod.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "bawaba.com",
+  "url": "https://bawaba.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "beyoot.com",
+  "url": "https://beyoot.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "title": ""
+ },
+ {
+  "host": "kayan.com",
+  "url": "https://kayan.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "khamsat.com",
+  "url": "https://khamsat.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "mostaql.com",
+  "url": "https://mostaql.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "title": ""
+ },
+ {
+  "host": "nabbesh.com",
+  "url": "https://nabbesh.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "parscoders.com",
+  "url": "https://parscoders.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "✅ 已验证",
+  "detail": "HTTP 200",
+  "title": "فریلنسر باشید یا پروژه برون‌سپاری کنید -"
+ },
+ {
+  "host": "talentera.com",
+  "url": "https://talentera.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "title": ""
+ },
+ {
+  "host": "tasmeemme.com",
+  "url": "https://tasmeemme.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "title": "301 Moved Permanently"
+ }
+]
