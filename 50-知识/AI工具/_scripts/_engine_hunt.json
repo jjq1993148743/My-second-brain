@@ -1,0 +1,540 @@
+[
+ {
+  "name": "google",
+  "status": 200,
+  "len": 92571,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "google-ncr",
+  "status": 200,
+  "len": 92240,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "bing-intl",
+  "status": 200,
+  "len": 105487,
+  "blocked": false,
+  "rawLinks": 10,
+  "cleanHosts": 6,
+  "sample": [
+   "dictionary.cambridge.org",
+   "github.com",
+   "blog.csdn.net",
+   "iciba.com",
+   "fontawesome.com",
+   "runoob.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "bing-cn",
+  "status": 200,
+  "len": 104313,
+  "blocked": false,
+  "rawLinks": 10,
+  "cleanHosts": 6,
+  "sample": [
+   "dictionary.cambridge.org",
+   "github.com",
+   "blog.csdn.net",
+   "iciba.com",
+   "fontawesome.com",
+   "runoob.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "bing-api-style",
+  "status": 200,
+  "len": 4407,
+  "blocked": false,
+  "rawLinks": 12,
+  "cleanHosts": 6,
+  "sample": [
+   "dictionary.cambridge.org",
+   "github.com",
+   "blog.csdn.net",
+   "iciba.com",
+   "fontawesome.com",
+   "runoob.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "ddg-lite",
+  "status": 200,
+  "len": 23792,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "ddg-html",
+  "status": 202,
+  "len": 14243,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "ddg-api",
+  "status": 200,
+  "len": 1252,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "brave",
+  "status": 429,
+  "len": 73893,
+  "blocked": true,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "startpage",
+  "status": 200,
+  "len": 22099,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "mojeek",
+  "status": 200,
+  "len": 5528,
+  "blocked": true,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "marginalia",
+  "status": 200,
+  "len": 37990,
+  "blocked": false,
+  "rawLinks": 7,
+  "cleanHosts": 2,
+  "sample": [
+   "github.com",
+   "lite.ip2location.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "marginalia-old",
+  "status": 200,
+  "len": 1045,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "yandex",
+  "status": 200,
+  "len": 14162,
+  "blocked": true,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "ecosia",
+  "status": 403,
+  "len": 4681,
+  "blocked": true,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "qwant-api",
+  "status": 403,
+  "len": 43,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "searx-be",
+  "status": 200,
+  "len": 11324,
+  "blocked": true,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "searx-tiekoetter",
+  "status": 429,
+  "len": 17,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "searx-bus-hit",
+  "status": 502,
+  "len": 0,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "searxng-site",
+  "status": 429,
+  "len": 17,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "searx-ng",
+  "status": 502,
+  "len": 0,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "yep",
+  "status": 403,
+  "len": 5480,
+  "blocked": true,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "presearch",
+  "status": 530,
+  "len": 17,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "gigablast",
+  "status": 404,
+  "len": 313,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "rightdao",
+  "status": 200,
+  "len": 9426,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "alexandria",
+  "status": 502,
+  "len": 0,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "baidu",
+  "status": 200,
+  "len": 1438,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "sogou",
+  "status": 200,
+  "len": 323920,
+  "blocked": false,
+  "rawLinks": 20,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "so360",
+  "status": 200,
+  "len": 358027,
+  "blocked": false,
+  "rawLinks": 3,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "toutiao",
+  "status": 200,
+  "len": 1659424,
+  "blocked": false,
+  "rawLinks": 10,
+  "cleanHosts": 2,
+  "sample": [
+   "lf3-material.searchpstatp.com",
+   "lf3-search.searchpstatp.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "quark",
+  "status": 200,
+  "len": 978,
+  "blocked": true,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "shenma",
+  "status": 200,
+  "len": 292887,
+  "blocked": false,
+  "rawLinks": 3,
+  "cleanHosts": 1,
+  "sample": [
+   "b.dailyact.cn"
+  ],
+  "err": ""
+ },
+ {
+  "name": "wiby",
+  "status": 200,
+  "len": 1057,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "stract",
+  "status": 404,
+  "len": 1582,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "searchmysite",
+  "status": 200,
+  "len": 7241,
+  "blocked": false,
+  "rawLinks": 5,
+  "cleanHosts": 2,
+  "sample": [
+   "aeliantech.com",
+   "github.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "teclis",
+  "status": 400,
+  "len": 133,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "lukol",
+  "status": 200,
+  "len": 6155,
+  "blocked": false,
+  "rawLinks": 1,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "exalead",
+  "status": 200,
+  "len": 11458,
+  "blocked": false,
+  "rawLinks": 2,
+  "cleanHosts": 1,
+  "sample": [
+   "3ds.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "seznam",
+  "status": 200,
+  "len": 135843,
+  "blocked": true,
+  "rawLinks": 24,
+  "cleanHosts": 1,
+  "sample": [
+   "github.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "naver",
+  "status": 200,
+  "len": 402985,
+  "blocked": true,
+  "rawLinks": 112,
+  "cleanHosts": 3,
+  "sample": [
+   "ssl.pstatic.net",
+   "github.com",
+   "gist.github.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "yahoo",
+  "status": 500,
+  "len": 0,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "aol",
+  "status": 404,
+  "len": 1516,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "ask",
+  "status": 404,
+  "len": 2353,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "dogpile",
+  "status": 403,
+  "len": 919,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "metager",
+  "status": 200,
+  "len": 25006,
+  "blocked": true,
+  "rawLinks": 70,
+  "cleanHosts": 3,
+  "sample": [
+   "suma-ev.de",
+   "hetzner.de",
+   "wecanhelp.de"
+  ],
+  "err": ""
+ },
+ {
+  "name": "swisscows",
+  "status": 200,
+  "len": 87572,
+  "blocked": false,
+  "rawLinks": 14,
+  "cleanHosts": 3,
+  "sample": [
+   "s.flocdn.com",
+   "teleguard.com",
+   "apps.apple.com"
+  ],
+  "err": ""
+ },
+ {
+  "name": "lukol2",
+  "status": 200,
+  "len": 6155,
+  "blocked": false,
+  "rawLinks": 1,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "grep-app",
+  "status": 429,
+  "len": 31449,
+  "blocked": true,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ },
+ {
+  "name": "commoncrawl-index",
+  "status": 400,
+  "len": 85,
+  "blocked": false,
+  "rawLinks": 0,
+  "cleanHosts": 0,
+  "sample": [],
+  "err": ""
+ }
+]

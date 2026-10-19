@@ -1,0 +1,225 @@
+[
+ {
+  "engine": "yahoo-jp",
+  "url": "https://search.yahoo.co.jp/search?p=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 14,
+  "list": [
+   "s.yimg.jp",
+   "coffeegeek.com",
+   "downtown-mag.com",
+   "coffeeblog.co.uk",
+   "coffeechronicler.com",
+   "reddit.com",
+   "nytimes.com",
+   "wholelattelove.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "bing-intl",
+  "url": "https://www.bing.com/search?q=best%20espresso%20machine%20for%20home&setlang=en&cc=us",
+  "status": 200,
+  "hosts": 10,
+  "list": [
+   "baike.baidu.com",
+   "dictionary.cambridge.org",
+   "iciba.com",
+   "ncego.com",
+   "dictionary.net",
+   "zhibs.net",
+   "bestbuy.com",
+   "dxzhgl.miit.gov.cn"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "searx-bnd",
+  "url": "https://baresearch.org/search?q=best%20espresso%20machine%20for%20home&format=json",
+  "status": 200,
+  "hosts": 3,
+  "list": [
+   "github.com",
+   "techaro.lol",
+   "bsky.app"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "searx-inetol",
+  "url": "https://search.inetol.net/search?q=best%20espresso%20machine%20for%20home&format=json",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "searx-rhscz",
+  "url": "https://search.rhscz.eu/search?q=best%20espresso%20machine%20for%20home&format=json",
+  "status": 429,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "searx-work",
+  "url": "https://searx.work/search?q=best%20espresso%20machine%20for%20home&format=json",
+  "status": 0,
+  "hosts": 0,
+  "list": [],
+  "note": "fetch failed"
+ },
+ {
+  "engine": "marginalia",
+  "url": "https://search.marginalia.nu/search?query=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 4,
+  "list": [
+   "about.marginalia-search.com",
+   "github.com",
+   "lite.ip2location.com",
+   "creativecommons.org"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "so-net",
+  "url": "https://www.so-net.ne.jp/search/web/?query=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "wiby",
+  "url": "https://wiby.me/?q=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 8,
+  "list": [
+   "homepages.cwi.nl",
+   "wiki.chadnet.org",
+   "beyond-the-pale.uk",
+   "lynchnet.com",
+   "philip.greenspun.com",
+   "greecetravel.com",
+   "prepwithmike.com",
+   "sgidepot.co.uk"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "searchmysite",
+  "url": "https://searchmysite.net/search/?q=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 12,
+  "list": [
+   "onlinegoddess.net",
+   "dheinemann.com",
+   "beesbuzz.biz",
+   "wesl.ee",
+   "cleverlaziness.com",
+   "xn--gckvb8fzb.com",
+   "kelake.org",
+   "candost.blog"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "shenma",
+  "url": "https://m.sm.cn/s?q=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 7,
+  "list": [
+   "b.dailyact.cn",
+   "m.gafei.com",
+   "slashgear.com",
+   "bestproducts.com",
+   "merakitech.com",
+   "rocket-espresso.com",
+   "professionalcoffeemachines.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "seznam",
+  "url": "https://search.seznam.cz/?q=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 9,
+  "list": [
+   "o-seznam.cz",
+   "alza.cz",
+   "lidl.cz",
+   "zbozi.cz",
+   "blackinkcoffee.com",
+   "coffeebros.com",
+   "youtube.com",
+   "ebay.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "naver",
+  "url": "https://search.naver.com/search.naver?query=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 21,
+  "list": [
+   "youtube.com",
+   "myespressomachine.org",
+   "breville.com",
+   "theguardian.com",
+   "papago-plus.com",
+   "techradar.com",
+   "businessinsider.com",
+   "coffeee.uk"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "metager",
+  "url": "https://metager.org/meta/meta.ger3?eingabe=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 5,
+  "list": [
+   "suma-ev.de",
+   "gitlab.metager.de",
+   "hetzner.de",
+   "maps.metager.de",
+   "wecanhelp.de"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "swisscows",
+  "url": "https://swisscows.com/en/web?query=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 6,
+  "list": [
+   "teleguard.com",
+   "facebook.com",
+   "instagram.com",
+   "linkedin.com",
+   "twitter.com",
+   "play.google.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "mojeek",
+  "url": "https://www.mojeek.com/search?q=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 2,
+  "list": [
+   "mastodon.social",
+   "buttondown.email"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "startpage",
+  "url": "https://www.startpage.com/sp/search?query=best%20espresso%20machine%20for%20home",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ }
+]

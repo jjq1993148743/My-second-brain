@@ -1,0 +1,57 @@
+no     google status=200 links=0 hosts=0
+no     google-ncr status=200 links=0 hosts=0
+USABLE bing-intl status=200 links=10 hosts=6
+USABLE bing-cn status=200 links=10 hosts=6
+USABLE bing-api-style status=200 links=12 hosts=6
+no     ddg-lite status=200 links=0 hosts=0
+no     ddg-html status=202 links=0 hosts=0
+no     ddg-api status=200 links=0 hosts=0
+no     brave status=429 links=0 hosts=0 BLOCKED
+no     startpage status=200 links=0 hosts=0
+no     mojeek status=200 links=0 hosts=0 BLOCKED
+weak   marginalia status=200 links=7 hosts=2
+no     marginalia-old status=200 links=0 hosts=0
+no     yandex status=200 links=0 hosts=0 BLOCKED
+no     ecosia status=403 links=0 hosts=0 BLOCKED
+no     qwant-api status=403 links=0 hosts=0
+no     searx-be status=200 links=0 hosts=0 BLOCKED
+no     searx-tiekoetter status=429 links=0 hosts=0
+no     searx-bus-hit status=502 links=0 hosts=0
+no     searxng-site status=429 links=0 hosts=0
+no     searx-ng status=502 links=0 hosts=0
+no     yep status=403 links=0 hosts=0 BLOCKED
+no     presearch status=530 links=0 hosts=0
+no     gigablast status=404 links=0 hosts=0
+no     rightdao status=200 links=0 hosts=0
+no     alexandria status=502 links=0 hosts=0
+no     baidu status=200 links=0 hosts=0
+no     sogou status=200 links=20 hosts=0
+no     so360 status=200 links=3 hosts=0
+weak   toutiao status=200 links=10 hosts=2
+no     quark status=200 links=0 hosts=0 BLOCKED
+weak   shenma status=200 links=3 hosts=1
+no     wiby status=200 links=0 hosts=0
+no     stract status=404 links=0 hosts=0
+weak   searchmysite status=200 links=5 hosts=2
+no     teclis status=400 links=0 hosts=0
+no     lukol status=200 links=1 hosts=0
+weak   exalead status=200 links=2 hosts=1
+weak   seznam status=200 links=24 hosts=1 BLOCKED
+USABLE naver status=200 links=112 hosts=3 BLOCKED
+no     yahoo status=500 links=0 hosts=0
+no     aol status=404 links=0 hosts=0
+no     ask status=404 links=0 hosts=0
+no     dogpile status=403 links=0 hosts=0
+USABLE metager status=200 links=70 hosts=3 BLOCKED
+USABLE swisscows status=200 links=14 hosts=3
+no     lukol2 status=200 links=1 hosts=0
+no     grep-app status=429 links=0 hosts=0 BLOCKED
+no     commoncrawl-index status=400 links=0 hosts=0
+
+=== USABLE COUNT: 6 / 49 ===
+bing-intl -> ["dictionary.cambridge.org","github.com","blog.csdn.net","iciba.com","fontawesome.com","runoob.com"]
+bing-cn -> ["dictionary.cambridge.org","github.com","blog.csdn.net","iciba.com","fontawesome.com","runoob.com"]
+bing-api-style -> ["dictionary.cambridge.org","github.com","blog.csdn.net","iciba.com","fontawesome.com","runoob.com"]
+naver -> ["ssl.pstatic.net","github.com","gist.github.com"]
+metager -> ["suma-ev.de","hetzner.de","wecanhelp.de"]
+swisscows -> ["s.flocdn.com","teleguard.com","apps.apple.com"]

@@ -1,0 +1,110 @@
+[
+ {
+  "engine": "qwant-api",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "ddg-html-post",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "startpage",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "ecosia",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "yandex",
+  "status": 200,
+  "hosts": 1,
+  "list": [
+   "yastatic.net"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "brave-2",
+  "status": 200,
+  "hosts": 21,
+  "list": [
+   "coffeechronicler.com",
+   "cnn.com",
+   "reddit.com",
+   "businessinsider.com",
+   "danielnorris.com",
+   "youtube.com",
+   "seriouseats.com",
+   "downtown-mag.com",
+   "coffeegeek.com",
+   "nytimes.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "mojeek-2",
+  "status": 200,
+  "hosts": 2,
+  "list": [
+   "mastodon.social",
+   "buttondown.email"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "searx.be",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "searx-bnd2",
+  "status": 200,
+  "hosts": 3,
+  "list": [
+   "github.com",
+   "techaro.lol",
+   "bsky.app"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "presearch",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "yahoojp-3",
+  "status": 200,
+  "hosts": 10,
+  "list": [
+   "coffeegeek.com",
+   "downtown-mag.com",
+   "coffeeblog.co.uk",
+   "coffeechronicler.com",
+   "reddit.com",
+   "nytimes.com",
+   "danielnorris.com",
+   "wholelattelove.com",
+   "crateandbarrel.com",
+   "lycbiz.com"
+  ],
+  "note": ""
+ }
+]

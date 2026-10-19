@@ -1,0 +1,79 @@
+{
+ "remote-job-49k": {
+  "repo": "lukasz-madon/awesome-remote-job",
+  "count": 449
+ },
+ "bug-bounty-5k": {
+  "repo": "djadmin/awesome-bug-bounty",
+  "count": 87
+ },
+ "freelance-fr-688": {
+  "repo": "etnbrd/awesome-freelance-fr",
+  "status": "fail",
+  "count": 0
+ },
+ "job-boards-1k8": {
+  "repo": "tramcar/awesome-job-boards",
+  "count": 101
+ },
+ "job-boards-1k0": {
+  "repo": "emredurukn/awesome-job-boards",
+  "count": 496
+ },
+ "indie-zh-1k4": {
+  "repo": "josephzhang23/awesome-indie",
+  "count": 25
+ },
+ "indie-zh-888": {
+  "repo": "apachecn/awesome-indie-zh",
+  "count": 65
+ },
+ "indie-tools-1k4": {
+  "repo": "iAmCorey/awesome-indie-hacker-tools",
+  "count": 143
+ },
+ "indiehackers-662": {
+  "repo": "johackim/awesome-indiehackers",
+  "count": 41
+ },
+ "remote-work-489": {
+  "repo": "zenika-open-source/awesome-remote-work",
+  "count": 117
+ },
+ "remote-co-478": {
+  "repo": "fireball787b/awesome-remote-companies",
+  "count": 137
+ },
+ "saas-boiler-3k": {
+  "repo": "xcomptek/awesome-saas-boilerplates",
+  "count": 157
+ },
+ "saas-svc-562": {
+  "repo": "GetStream/awesome-saas-services",
+  "count": 71
+ },
+ "remotework-1k6": {
+  "repo": "hugo53/awesome-RemoteWork",
+  "count": 86
+ },
+ "vietnam-1k5": {
+  "repo": "awesome-jobs/vietnam",
+  "count": 5
+ },
+ "visa-jobs-725": {
+  "repo": "Lamiiine/Awesome-daily-list-of-visa-sponsored-jobs",
+  "count": 89
+ },
+ "sustain-jobs-512": {
+  "repo": "pogopaule/awesome-sustainability-jobs",
+  "count": 303
+ },
+ "ecom-stack-443": {
+  "repo": "astrotars/awesome-ecommerce-stack",
+  "count": 133
+ },
+ "ecom-os-546": {
+  "repo": "olivrg/Awesome-Open-Source-eCommerce-Platforms",
+  "count": 4
+ }
+}

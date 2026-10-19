@@ -1,0 +1,737 @@
+{
+ "side-hustle": [
+  {
+   "name": "fayerman-source/startup-ideas",
+   "stars": 34,
+   "desc": "A curated, monthly-updated list of real startup ideas worth building, surfaced from public pain sign"
+  },
+  {
+   "name": "PoPzQ/Wifi-Cashbot",
+   "stars": 24,
+   "desc": "Earn money passively! This is the best Docker stack to transform unused internet bandwidth into a st"
+  },
+  {
+   "name": "bookreaderpage/ai-automation-yield-pipeline",
+   "stars": 22,
+   "desc": " A comprehensive technical blueprint and workflow guide for building automated, low-maintenance digi"
+  },
+  {
+   "name": "digital-marketing-engineer/designer-affiliate-program-hub",
+   "stars": 17,
+   "desc": "This GitHub repository is your go-to resource for discovering affiliate programs tailored to the nee"
+  },
+  {
+   "name": "jakeolschewski/faceless-content-guide",
+   "stars": 14,
+   "desc": "👻 The complete guide to building a faceless content channel on YouTube, TikTok, and Instagram. Scri"
+  },
+  {
+   "name": "waseemnasir2k26/fiverr-gig-optimizer",
+   "stars": 10,
+   "desc": "Free Fiverr gig optimizer: offline CLI that scores your gig 0-100, lints buyer messages for off-plat"
+  },
+  {
+   "name": "wsjxphz-png/opc-digdaily",
+   "stars": 8,
+   "desc": "免费飞书群日报｜每天推送 1-2 个真实一人公司拆解 + 约 10 条可复刻赚钱机会。专为不会写代码的人，硬剔除卖铲子/卖课的人。扫码进群即可收，无需部署、无需付费。"
+  },
+  {
+   "name": "haoyousun60-create/ai-money-hunter",
+   "stars": 5,
+   "desc": "🤖 AI side hustles & code bounty platforms for developers. 16k+ stars template. Build in public."
+  },
+  {
+   "name": "Sudiddii/build-DNA",
+   "stars": 5,
+   "desc": "A Claude skill that turns your skills, experiences, unfair advantages into a business. Adaptive inta"
+  },
+  {
+   "name": "aitippro/TIP",
+   "stars": 5,
+   "desc": "AI 轻创业机会雷达 | 每日采集 · 总结 · 机会 · 痛点 | 由 Claude Code 全自动维护"
+  }
+ ],
+ "make-money": [
+  {
+   "name": "hellokaton/profit",
+   "stars": 401,
+   "desc": "🤔 biezhi 在线打赏系统，开启你的要饭生涯。"
+  },
+  {
+   "name": "XternA/honeygain-reward",
+   "stars": 25,
+   "desc": "🐳 Ultra-lightweight, blazingly fast Docker image for auto claiming Honeygain's lucky pot 🐝🍯 daily"
+  },
+  {
+   "name": "VolkanSah/Bitcoin-Lottery-Miner",
+   "stars": 20,
+   "desc": "Welcome to the Bitcoin Lottery Miner, a unique simulation and mining tool for both fun and education"
+  },
+  {
+   "name": "WeFresh/MyCashFactory",
+   "stars": 9,
+   "desc": "Make $30 to $100 USD every month selling your GPU power to us."
+  },
+  {
+   "name": "cryptokoki-services/honeypot-token-v6",
+   "stars": 8,
+   "desc": "Create honeypot token with ready-made source code and detailed guidance. Launch honeypot BSC now and"
+  },
+  {
+   "name": "irontaleadapt3/eviews-plus",
+   "stars": 7,
+   "desc": "EViews Plus"
+  },
+  {
+   "name": "DebuggingMax/ai-income-playbook",
+   "stars": 5,
+   "desc": "💰 The definitive guide to making money with open-source AI. Not just a list — a playbook with real "
+  },
+  {
+   "name": "problemsolvewithridoy/QR-code-using-python",
+   "stars": 4,
+   "desc": "This is a Python script that allows you to generate QR codes easily. QR codes are two-dimensional ba"
+  },
+  {
+   "name": "Robertino10/developer-roadmap",
+   "stars": 3,
+   "desc": "Robertino10"
+  },
+  {
+   "name": "AtticusKuhn/make-money-2",
+   "stars": 2,
+   "desc": "The sequel to the game \"make money\""
+  }
+ ],
+ "freelance": [
+  {
+   "name": "sourcerer-io/sourcerer-app",
+   "stars": 6737,
+   "desc": "🦄 Sourcerer app makes a visual profile from your GitHub and git repositories."
+  },
+  {
+   "name": "district0x/ethlance",
+   "stars": 714,
+   "desc": "Ethlance is the first job market platform built entirely on the Ethereum blockchain. Free to use for"
+  },
+  {
+   "name": "johackim/awesome-indiehackers",
+   "stars": 662,
+   "desc": "Awesome list about indie hackers"
+  },
+  {
+   "name": "is-a-good-dev/register",
+   "stars": 631,
+   "desc": "Register for your is-a-good.dev domain!"
+  },
+  {
+   "name": "nonsalant/contract",
+   "stars": 547,
+   "desc": "A signable contract that lives in a single file"
+  },
+  {
+   "name": "hql287/awesome-free-services",
+   "stars": 410,
+   "desc": "Awesome free online services for startups and freelancers!"
+  },
+  {
+   "name": "jackmorgan/the-plain-contract",
+   "stars": 310,
+   "desc": "The Plain Contract is a crowsourced, open source freelance contract template, written in plain langu"
+  },
+  {
+   "name": "ertugrulakben/cashclaw",
+   "stars": 304,
+   "desc": "The Agent Economy Layer — agents earn, agents spend, Guard protects. 13 skills, runtime cost cap, re"
+  },
+  {
+   "name": "cloudycotton/whiz",
+   "stars": 277,
+   "desc": "A copilot for your terminal"
+  },
+  {
+   "name": "neeilya/upwork-toolkit",
+   "stars": 200,
+   "desc": "Chrome extension helping with project bidding on Upwork: https://chromewebstore.google.com/detail/up"
+  }
+ ],
+ "remote-jobs": [
+  {
+   "name": "speedyapply/2027-SWE-College-Jobs",
+   "stars": 9513,
+   "desc": "2027 SWE internship & new graduate job list updated daily"
+  },
+  {
+   "name": "backend-br/vagas",
+   "stars": 8008,
+   "desc": "Espaço para a divulgação de vagas para desenvolvedores backend via issues do Github."
+  },
+  {
+   "name": "speedyapply/JobSpy",
+   "stars": 4506,
+   "desc": "Jobs scraper library for LinkedIn, Indeed, Glassdoor, ZipRecruiter, Bayt, Naukri, BDJobs & HelloWork"
+  },
+  {
+   "name": "italiaremote/awesome-italia-remote",
+   "stars": 2658,
+   "desc": "A list of remote-friendly or full-remote companies that targets Italian talents."
+  },
+  {
+   "name": "rebase-network/who-is-hiring",
+   "stars": 1837,
+   "desc": "这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。这都是免费的！ "
+  },
+  {
+   "name": "strelov1/freehire",
+   "stars": 1285,
+   "desc": "freehire — the open-source search engine for job seekers"
+  },
+  {
+   "name": "emredurukn/awesome-job-boards",
+   "stars": 1085,
+   "desc": "A curated list of awesome job boards"
+  },
+  {
+   "name": "maurobonfietti/remote-jobs",
+   "stars": 390,
+   "desc": "🌎 README collection of remote job opportunities from around the world."
+  },
+  {
+   "name": "rainmanjam/jobspy-api",
+   "stars": 383,
+   "desc": "Dockerized version of JobSpy job search utility with API key auth, rate limiting, and proxy support."
+  },
+  {
+   "name": "abhagsain/WFH-Companies-India",
+   "stars": 273,
+   "desc": "A List of Companies in India offering Work From Home ♥"
+  }
+ ],
+ "indie-hacker": [
+  {
+   "name": "Jakeschincariol/replica-skill",
+   "stars": 3417,
+   "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, the"
+  },
+  {
+   "name": "Fangx-AI/one-person-company-journal",
+   "stars": 475,
+   "desc": "一个普通人用 AI 和互联网做一人公司的真实公开记录"
+  },
+  {
+   "name": "s87343472/backlink-pilot",
+   "stars": 368,
+   "desc": "Automated backlink submission toolkit for indie hackers — submit your product to directory sites, aw"
+  },
+  {
+   "name": "myinvestpilot/ai-architecture",
+   "stars": 332,
+   "desc": "Design notes for MyInvestPilot — an agent-friendly investment workflow system built with strategy pr"
+  },
+  {
+   "name": "Micro-SaaS-Examples/Best-Micro-SaaS-Tools",
+   "stars": 279,
+   "desc": "A curated list of real Micro SaaS tools categorized by niche. Perfect for inspiration, research, and"
+  },
+  {
+   "name": "Gingiris/gingiris-launch",
+   "stars": 212,
+   "desc": "🚀 Product Hunt Launch Playbook — Proven tactics from 30x daily #1 winner. Complete go-to-market gui"
+  },
+  {
+   "name": "PNGTRID/AnvilWiki",
+   "stars": 201,
+   "desc": "⚒️ Open-source game wiki template. Astro + Cloudflare Pages. Free, fast, beginner-friendly. Static-f"
+  },
+  {
+   "name": "no-session/pstack",
+   "stars": 143,
+   "desc": "The solo founder's AI engineering stack. Fork of gstack, rebuilt for bootstrappers, indie hackers, a"
+  },
+  {
+   "name": "vibefast-app/vibefast-docs",
+   "stars": 55,
+   "desc": "Learn Vibe Coding with AI & Cloudflare. A free 25-tutorial course  to build real web apps and SaaS M"
+  },
+  {
+   "name": "NikitaDmitrieff/auto-co-meta",
+   "stars": 51,
+   "desc": "Autonomous AI Company OS — 14 AI agents loop 24/7, ship real software"
+  }
+ ],
+ "passive-income": [
+  {
+   "name": "mezod/awesome-indie",
+   "stars": 11880,
+   "desc": "Resources for independent developers to make money"
+  },
+  {
+   "name": "saasify-sh/saasify",
+   "stars": 1174,
+   "desc": "The easiest way to monetize your API. 🚀"
+  },
+  {
+   "name": "MRColorR/money4band",
+   "stars": 467,
+   "desc": "A multi platform, self updating, lightweight docker stack that use compose to run many passive incom"
+  },
+  {
+   "name": "yourincomehome/awesome-passive-income",
+   "stars": 424,
+   "desc": "A curated list of ways to make money online"
+  },
+  {
+   "name": "Prem-ium/BingRewards",
+   "stars": 266,
+   "desc": "🤖 Automate Bing Searches 🔍, Quizzes 🧪, Polls 📝, & more for Bing Rewards. 💸"
+  },
+  {
+   "name": "XternA/income-generator",
+   "stars": 237,
+   "desc": "A set & forget, super-lightweight passive income manager. Deploy once, scale with multi-proxy suppor"
+  },
+  {
+   "name": "alanvito1/ORSTAC",
+   "stars": 217,
+   "desc": "World's largest open-source collection of 4,000+ trading bots for Deriv and Binary. Powered by AI an"
+  },
+  {
+   "name": "MRColorR/get-grass",
+   "stars": 131,
+   "desc": "Unofficial Grass (GetGrass) and grass-node Docker images for easy deployment and management. With mu"
+  },
+  {
+   "name": "jf-m/earning-machine",
+   "stars": 102,
+   "desc": "Docker stack that runs the most profitable passive-income apps in one single docker-compose file"
+  },
+  {
+   "name": "DeNetPRO/Node",
+   "stars": 82,
+   "desc": "DeNet Storage is a decentralized cloud storage powered by users and Datakeepers who rent out their d"
+  }
+ ],
+ "digital-nomad": [
+  {
+   "name": "cbovis/awesome-digital-nomads",
+   "stars": 1074,
+   "desc": "🏝 A curated list of awesome resources for Digital Nomads."
+  },
+  {
+   "name": "cubxxw/RemoteAI-Nomads",
+   "stars": 82,
+   "desc": "帮中文远程工作者选城市：可调权重排行、联动地图、消费参考 & 数字游民 / 旅居 / 生活"
+  },
+  {
+   "name": "kevinchwong/awesome-money-platforms",
+   "stars": 67,
+   "desc": "Awesome Free Platforms for Money Making daily updated by LLM"
+  },
+  {
+   "name": "zetavg/Vertical-External-Monitor-Mount-for-Laptop",
+   "stars": 22,
+   "desc": "Mount an external monitor on top of your laptop's built-in monitor—benefits your digital nomad exper"
+  },
+  {
+   "name": "ugurfeyzullah/Kindle-to-PC-Wireless-Connection-as-SecondScreen",
+   "stars": 14,
+   "desc": " Transform your Kindle into an eye-friendly secondary screen for document editing and reading! Mirro"
+  },
+  {
+   "name": "RichardLitt/nomad-as-fuck",
+   "stars": 13,
+   "desc": "Showcasing the people behind the most badass nomads on Earth."
+  },
+  {
+   "name": "ersozberk/awesome-turkiye",
+   "stars": 13,
+   "desc": "🇹🇷 The most comprehensive list of Turkish developers, startups, and open-source projects"
+  },
+  {
+   "name": "cubxxw/cubxxw",
+   "stars": 13,
+   "desc": "Building AI products solo while traveling the world · Core contributor @openimsdk · Voice AI & Agent"
+  },
+  {
+   "name": "cloudfloo/awesome-digital-nomads",
+   "stars": 11,
+   "desc": "Curated, actively maintained list of tools and resources for digital nomads — finance & FIRE, visas,"
+  },
+  {
+   "name": "colivingapp/coliving-app",
+   "stars": 10,
+   "desc": "Coliving App - Shared Living Worldwide"
+  }
+ ],
+ "money": [
+  {
+   "name": "FujiwaraChoki/MoneyPrinterV2",
+   "stars": 32154,
+   "desc": "Automate the process of making money online."
+  },
+  {
+   "name": "actualbudget/actual",
+   "stars": 29603,
+   "desc": "A local-first personal finance app"
+  },
+  {
+   "name": "firefly-iii/firefly-iii",
+   "stars": 24936,
+   "desc": "Firefly III: a personal finances manager"
+  },
+  {
+   "name": "akaunting/akaunting",
+   "stars": 10191,
+   "desc": "Online Accounting Software"
+  },
+  {
+   "name": "nayafia/lemonade-stand",
+   "stars": 7695,
+   "desc": "A handy guide to financial support for open source"
+  },
+  {
+   "name": "shopspring/decimal",
+   "stars": 7495,
+   "desc": "Arbitrary-precision fixed-point decimal numbers in Go"
+  },
+  {
+   "name": "dinerojs/dinero.js",
+   "stars": 6806,
+   "desc": "Create, calculate, and format money in JavaScript and TypeScript"
+  },
+  {
+   "name": "mayswind/ezbookkeeping",
+   "stars": 5781,
+   "desc": "ezBookkeeping is an open source, powerful, self-hosted personal finance app that is easy to use."
+  },
+  {
+   "name": "deepanshu1422/List-Of-Open-Source-Internships-Programs",
+   "stars": 5201,
+   "desc": "A curated list of all the open-source internships/Programs"
+  },
+  {
+   "name": "moneyphp/money",
+   "stars": 4869,
+   "desc": "PHP implementation of Fowler's Money pattern."
+  }
+ ],
+ "earn-money": [
+  {
+   "name": "MoscatelliMarco/stripe-mongoose-api",
+   "stars": 19,
+   "desc": "🎉 Accepting payments is a snap with this easy-to-use payment integration tool! 💳🛍️ Sell products "
+  },
+  {
+   "name": "umdia/passiveIncome",
+   "stars": 10,
+   "desc": "Most profitable passive-income apps"
+  },
+  {
+   "name": "TAHCOINBLOCKCHAIN/Javascript-Miner",
+   "stars": 8,
+   "desc": "Free JavaScript miner. Use our browser miner to earn money with your website traffic."
+  },
+  {
+   "name": "digital-marketing-engineer/make-money-online-as-software-engineer",
+   "stars": 7,
+   "desc": "Effective strategies for software engineers to make money online. This repo offers insights into fre"
+  },
+  {
+   "name": "Prem-ium/Referral-Link-Me",
+   "stars": 5,
+   "desc": "Earn extra rewards by using my curated referral links for services like credit cards and brokerages,"
+  },
+  {
+   "name": "saidee-hasan/earn-money-client",
+   "stars": 3,
+   "desc": "Earn-Money is a platform designed to help users earn rewards through various tasks and offers. Visit"
+  },
+  {
+   "name": "webmilmind1/x402-bounty-hunter",
+   "stars": 3,
+   "desc": "An agent that earns USDC answering real support tickets: find a bounty on an open board, buy context"
+  },
+  {
+   "name": "deeprobin/earny",
+   "stars": 2,
+   "desc": "Earn money with hosting a minecraft server."
+  },
+  {
+   "name": "Elfonda22/Penghasil-saldo-dana-2024",
+   "stars": 1,
+   "desc": "🚀 Ubah Internet Anda Menjadi Penghasilan Pasif dengan Honeygain"
+  },
+  {
+   "name": "Conversand/Conversand-Affiliate-Network",
+   "stars": 1,
+   "desc": "Conversand.com - Private affiliate network with dating, e-commerce, financial, vod offers."
+  }
+ ],
+ "side-income": [
+  {
+   "name": "walker86391/bounty-hunter-cli",
+   "stars": 0,
+   "desc": "?? CLI tool to discover and track 4,390+ GitHub bounties in real-time"
+  }
+ ],
+ "freelancing": [
+  {
+   "name": "hql287/Manta",
+   "stars": 5485,
+   "desc": "🎉 Flexible invoicing desktop app with beautiful & customizable templates."
+  },
+  {
+   "name": "tadast/switching-to-contracting-uk",
+   "stars": 2278,
+   "desc": "A step by step guide of how to start contracting in United Kingdom"
+  },
+  {
+   "name": "sam-hosseini/freelancing-in-finland",
+   "stars": 1667,
+   "desc": "The ultimate resource for transitioning to freelancing for software developers 👩‍💻🇫🇮"
+  },
+  {
+   "name": "DhanushNehru/Ultimate-Tech-Jobs",
+   "stars": 136,
+   "desc": "A list of job related sites for people in tech"
+  },
+  {
+   "name": "abullaisi/upwork-skills",
+   "stars": 120,
+   "desc": "AI agent skills for Upwork freelancers, from a real Top Rated Plus playbook. Free, open, community-w"
+  },
+  {
+   "name": "tuttle-dev/tuttle",
+   "stars": 89,
+   "desc": "🪰 Tuttle - time and money management for freelancers"
+  },
+  {
+   "name": "AndresMorelos/Invoncify",
+   "stars": 82,
+   "desc": "🎉 Flexible invoicing desktop app with beautiful & customizable templates."
+  },
+  {
+   "name": "kevinchwong/awesome-money-platforms",
+   "stars": 67,
+   "desc": "Awesome Free Platforms for Money Making daily updated by LLM"
+  },
+  {
+   "name": "devmount/sales",
+   "stars": 39,
+   "desc": "A service sales manager made for freelancers."
+  },
+  {
+   "name": "ReinProject/python-rein",
+   "stars": 37,
+   "desc": "Client for a decentralized freelancing market"
+  }
+ ],
+ "remote-work": [
+  {
+   "name": "coder/code-server",
+   "stars": 79643,
+   "desc": "VS Code in the browser"
+  },
+  {
+   "name": "remoteintech/remote-jobs",
+   "stars": 40890,
+   "desc": "Source for remoteintech.company — a community-maintained directory of remote-friendly tech companies"
+  },
+  {
+   "name": "greatghoul/remote-working",
+   "stars": 11785,
+   "desc": "收集整理远程工作相关的资料"
+  },
+  {
+   "name": "engineerapart/TheRemoteFreelancer",
+   "stars": 7603,
+   "desc": "Listing of community-curated resources to find topical remote freelance & contract work for software"
+  },
+  {
+   "name": "kuaifan/dootask",
+   "stars": 5596,
+   "desc": "DooTask是一款开源在线项目任务管理工具，提供各类文档协作工具、在线思维导图、在线流程图、项目管理、任务分发、即时IM，文件管理等工具；同时消息功能使用非对称加密技术让你的沟通更安全。"
+  },
+  {
+   "name": "lerrua/remote-jobs-brazil",
+   "stars": 5199,
+   "desc": "Lista de empresas com trabalho remoto no Brasil"
+  },
+  {
+   "name": "speedyapply/JobSpy",
+   "stars": 4506,
+   "desc": "Jobs scraper library for LinkedIn, Indeed, Glassdoor, ZipRecruiter, Bayt, Naukri, BDJobs & HelloWork"
+  },
+  {
+   "name": "DyegoCosta/trabalhando-remoto",
+   "stars": 2772,
+   "desc": "Informações para quem trabalha ou quer trabalhar remoto"
+  },
+  {
+   "name": "remote-jp/remote-in-japan",
+   "stars": 1991,
+   "desc": "Tech companies in Japan that hire remote workers."
+  },
+  {
+   "name": "rebase-network/who-is-hiring",
+   "stars": 1837,
+   "desc": "这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。这都是免费的！ "
+  }
+ ],
+ "bootstrapping": [
+  {
+   "name": "merklefruit/SaaS4Devs",
+   "stars": 751,
+   "desc": "Awesome collection of content for developers trying to bootstrap their SaaS"
+  },
+  {
+   "name": "johackim/awesome-indiehackers",
+   "stars": 662,
+   "desc": "Awesome list about indie hackers"
+  },
+  {
+   "name": "AleshaOleg/holy-grail-markup",
+   "stars": 227,
+   "desc": "All CSS methodologies compared examples at one place."
+  },
+  {
+   "name": "attila-lendvai/maru",
+   "stars": 227,
+   "desc": "Maru - a tiny self-hosting lisp dialect"
+  },
+  {
+   "name": "LukaszLapaj/software-testing-resource-pack",
+   "stars": 221,
+   "desc": "Various files useful for manual testing and test automation etc."
+  },
+  {
+   "name": "zephinzer/godev",
+   "stars": 197,
+   "desc": "Golang development tool that supports project bootstrap, live-reload (tests + application), and auto"
+  },
+  {
+   "name": "davidsbatista/Snowball",
+   "stars": 177,
+   "desc": "Implementation with some extensions of the paper \"Snowball: Extracting Relations from Large Plain-Te"
+  },
+  {
+   "name": "dawnop/dawn-lang",
+   "stars": 153,
+   "desc": "Self-hosted functional language with explicit effects. Compiles to JVM bytecode, C, and NVIDIA GPU k"
+  },
+  {
+   "name": "davidsbatista/BREDS",
+   "stars": 143,
+   "desc": "\"Bootstrapping Relationship Extractors with Distributional Semantics\" (Batista et al., 2015) in EMNL"
+  },
+  {
+   "name": "enCRYPTON-labs/HEonGPU",
+   "stars": 142,
+   "desc": "HEonGPU is a high-performance library that optimizes Fully Homomorphic Encryption (FHE) on GPUs. Lev"
+  }
+ ],
+ "solopreneur": [
+  {
+   "name": "alookai/alook",
+   "stars": 1421,
+   "desc": "Rooms for people and agents."
+  },
+  {
+   "name": "johackim/awesome-indiehackers",
+   "stars": 662,
+   "desc": "Awesome list about indie hackers"
+  },
+  {
+   "name": "bam-bam-2/solo-skills",
+   "stars": 366,
+   "desc": "1인 사업가 생산성 키트 — 직원 없이 58개를 자동화했고, 그중 바로 쓸 수 있는 AI 에이전트 스킬 38개(+실행 스크립트 19개)를 공개합니다"
+  },
+  {
+   "name": "chen103226/awesome-one-person-company",
+   "stars": 308,
+   "desc": "A high-signal curated list for indie developers, solopreneurs, and one-person companies, featuring r"
+  },
+  {
+   "name": "guillim/nextjs-boilerplate",
+   "stars": 145,
+   "desc": "⭐ NextJS BoilerPlate is a Starter Kit to build ideas in a one hour ☀️ alternative to ShipFast based "
+  },
+  {
+   "name": "komunite/tezgah",
+   "stars": 92,
+   "desc": "Claude Code ile production-ready SaaS kurun — Solopreneur'ler için skill seti"
+  },
+  {
+   "name": "fatihguner/foreman",
+   "stars": 61,
+   "desc": "AI-powered strategic advisor for entrepreneurs. 158 skills, 24 diagnostics, 21 playbooks, 9   indust"
+  },
+  {
+   "name": "BinaryHB0916/iSparto",
+   "stars": 59,
+   "desc": "Open-source cross-provider AI dev team for solopreneurs, built on Claude Code + Codex CLI. Claude pl"
+  },
+  {
+   "name": "vibefast-app/vibefast-docs",
+   "stars": 55,
+   "desc": "Learn Vibe Coding with AI & Cloudflare. A free 25-tutorial course  to build real web apps and SaaS M"
+  },
+  {
+   "name": "maigentic/stratarts",
+   "stars": 45,
+   "desc": "27 FREE Professional and Comprehensive Business Strategy Skills for Claude Code; with intelligent co"
+  }
+ ],
+ "creator-economy": [
+  {
+   "name": "Minds/minds",
+   "stars": 731,
+   "desc": "mirror of https://gitlab.com/minds/minds"
+  },
+  {
+   "name": "dougdotcon/drive-tube",
+   "stars": 132,
+   "desc": "Plataforma SaaS multi-tenant para distribuição, controle de acesso e monetização de vídeos via Googl"
+  },
+  {
+   "name": "AOSSIE-Org/InPactAI",
+   "stars": 101,
+   "desc": "Inpact is an open-source AI-powered platform designed to connect content creators, brands, and agenc"
+  },
+  {
+   "name": "Heuresis/Growth-Operator-Agency",
+   "stars": 83,
+   "desc": "Your high-ticket creator business, encoded. A team of agents running every department - foundations,"
+  },
+  {
+   "name": "AgriciDaniel/youtuber",
+   "stars": 70,
+   "desc": "A source-cited YouTube brain: creator growth & strategy, the developer API, and paid advertising. Un"
+  },
+  {
+   "name": "OneInterface/stormy-cookbook",
+   "stars": 44,
+   "desc": "Open-source cookbook for the Stormy Social Data API and MCP server (Model Context Protocol) — one RE"
+  },
+  {
+   "name": "CzzzzzzJ/mdldm-knowledge-kit",
+   "stars": 41,
+   "desc": "开源知识站脚手架：图文/视频、会员订阅与单课购买，面向 Coding Agent 一键搭建"
+  },
+  {
+   "name": "shixinzhang/tiktok-viral-hooks",
+   "stars": 35,
+   "desc": "The open library of viral TikTok hooks. Every video gets a transcript, a mind map, and a 2-sentence "
+  },
+  {
+   "name": "Solarrr007/dan-koe-skill",
+   "stars": 27,
+   "desc": "A bilingual Dan Koe skill that helps creators sharpen point of view, design media-to-business loops,"
+  },
+  {
+   "name": "jakeolschewski/awesome-content-creation",
+   "stars": 20,
+   "desc": "🎬 A curated list of tools, resources, templates, and frameworks for content creators. Covers video,"
+  }
+ ]
+}

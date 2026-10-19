@@ -4,15 +4,32 @@ import http from 'node:http';
 const PROXY = { host: '127.0.0.1', port: 7897 };
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36';
 const agent = new http.Agent({ keepAlive: true, maxSockets: 4, maxFreeSockets: 4 });
-export function get(url, accept = '*/*', timeoutMs = 25000) {
+export function get(url, accept = '*/*', timeoutMs = 20000) {
   return new Promise((resolve, reject) => {
-    const pu = new URL(url);
-    const req = http.get({ agent, host: PROXY.host, port: PROXY.port, path: url,
-      headers: { Host: pu.host, 'User-Agent': UA, Accept: accept, Connection: 'keep-alive' } },
-      (res) => { const c = []; res.on('data', d => c.push(d));
-        res.on('end', () => resolve({ status: res.statusCode, headers: res.headers, body: Buffer.concat(c) })); });
-    req.on('error', reject);
-    req.setTimeout(timeoutMs, () => req.destroy(new Error('timeout ' + timeoutMs)));
+    let settled = false;
+    let req = null;
+    const finish = (ok, val) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(hard);
+      try { if (req) req.destroy(); } catch (e) {}
+      if (ok) resolve(val); else reject(val);
+    };
+    const hard = setTimeout(() => finish(false, new Error('hard-timeout')), timeoutMs + 3000);
+    try {
+      const pu = new URL(url);
+      req = http.get({ agent, host: PROXY.host, port: PROXY.port, path: url,
+        headers: { Host: pu.host, 'User-Agent': UA, Accept: accept, Connection: 'keep-alive' } },
+        (res) => {
+          const c = [];
+          res.on('data', d => c.push(d));
+          res.on('end', () => finish(true, { status: res.statusCode, headers: res.headers, body: Buffer.concat(c) }));
+          res.on('error', (e) => finish(false, e));
+          res.on('aborted', () => finish(false, new Error('aborted')));
+        });
+      req.on('error', (e) => finish(false, e));
+      req.setTimeout(timeoutMs, () => finish(false, new Error('socket-timeout')));
+    } catch (e) { finish(false, e); }
   });
 }
 export const sleep = (ms) => new Promise(r => setTimeout(r, ms));

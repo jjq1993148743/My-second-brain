@@ -1,0 +1,2 @@
+[20/32] rakutenadvertising.com -> 200
+SHARD-COMPLETE new=32 total=32 usable=9 out=_probe_untested.json

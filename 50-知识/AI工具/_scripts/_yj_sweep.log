@@ -1,0 +1,21 @@
+[日本-接单] status=200 hosts=1 :: support.yahoo-net.jp
+[日本-クラウドソーシング] status=200 hosts=1 :: support.yahoo-net.jp
+[韩国-재능] status=200 hosts=2 :: support.yahoo-net.jp, source.inblog.dev
+[台湾-接案] status=200 hosts=1 :: support.yahoo-net.jp
+[香港-自由工作] status=200 hosts=1 :: support.yahoo-net.jp
+[德国-Freelance] status=200 hosts=1 :: support.yahoo-net.jp
+[法国-Freelance] status=200 hosts=1 :: support.yahoo-net.jp
+[西班牙-Freelance] status=200 hosts=1 :: support.yahoo-net.jp
+[意大利-Freelance] status=200 hosts=10 :: aranzulla.it, sevedemo.com, crebs.it, websiteplanet.com, wearemarketers.net, freelanceboard.it
+[荷兰-Freelance] status=200 hosts=1 :: support.yahoo-net.jp
+[北欧-Freelance] status=200 hosts=10 :: websiteplanet.com, revenuebase.ai, useme.com, workamo.com, fastlancer.org, findstack.se
+[波兰-Freelance] status=200 hosts=1 :: support.yahoo-net.jp
+[俄罗斯-Фриланс] status=200 hosts=1 :: support.yahoo-net.jp
+[印度-Freelance] status=200 hosts=1 :: support.yahoo-net.jp
+[东南亚-Freelance] status=200 hosts=11 :: flexable.work, jobbers.io, freelancing.my, truelancer.com, upwork.com, freelancer.com
+[中东-Freelance] status=200 hosts=1 :: support.yahoo-net.jp
+[拉美-Freelance] status=200 hosts=1 :: support.yahoo-net.jp
+[全球-接单] status=200 hosts=1 :: support.yahoo-net.jp
+[赏金-Bounty] status=200 hosts=1 :: support.yahoo-net.jp
+[数字商品-Digital] status=200 hosts=1 :: support.yahoo-net.jp
+UNION=28

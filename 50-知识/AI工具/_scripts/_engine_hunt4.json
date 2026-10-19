@@ -1,0 +1,168 @@
+[
+ {
+  "engine": "ddg-lite-POST",
+  "status": 202,
+  "hosts": 1,
+  "list": [
+   "duckduckgo.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "ddg-html-POST",
+  "status": 202,
+  "hosts": 1,
+  "list": [
+   "duckduckgo.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "google-gbv1",
+  "status": 200,
+  "hosts": 1,
+  "list": [
+   "support.google.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "brave-html",
+  "status": 429,
+  "hosts": 3,
+  "list": [
+   "imgs.search.brave.com",
+   "tiles.search.brave.com",
+   "tb-manual.torproject.org"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "ecosia-html",
+  "status": 403,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "qwant-html",
+  "status": 200,
+  "hosts": 30,
+  "list": [
+   "qwant.com",
+   "chrome.google.com",
+   "mn.qwant.com",
+   "api.qwant.com",
+   "about.qwant.com",
+   "k.qwant.com",
+   "betterweb.qwant.com",
+   "welcometothejungle.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "marginalia-new",
+  "status": 200,
+  "hosts": 33,
+  "list": [
+   "marginalia.nu",
+   "about.marginalia-search.com",
+   "old-search.marginalia.nu",
+   "financesonline.com",
+   "users.rust-lang.org",
+   "freelancing.eu",
+   "shopify.com",
+   "uploading.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "searx-bnd-html",
+  "status": 200,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "curl-google",
+  "status": 200,
+  "hosts": 1,
+  "list": [
+   "support.google.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "curl-ddg-lite",
+  "status": 200,
+  "hosts": 1,
+  "list": [
+   "duckduckgo.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "curl-brave",
+  "status": 200,
+  "hosts": 35,
+  "list": [
+   "imgs.search.brave.com",
+   "tiles.search.brave.com",
+   "upwork.com",
+   "reddit.com",
+   "search.brave.com",
+   "g2.com",
+   "youtube.com",
+   "freelancer.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "curl-yandex",
+  "status": 200,
+  "hosts": 2,
+  "list": [
+   "yandex.com",
+   "yandex.cloud"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "curl-mojeek",
+  "status": 200,
+  "hosts": 5,
+  "list": [
+   "mastodon.social",
+   "mojeek.com",
+   "blog.mojeek.com",
+   "community.mojeek.com",
+   "buttondown.email"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "curl-yahoojp",
+  "status": 200,
+  "hosts": 14,
+  "list": [
+   "search.yahoo.co.jp",
+   "s.yimg.jp",
+   "yahoo.co.jp",
+   "login.yahoo.co.jp",
+   "chiebukuro.yahoo.co.jp",
+   "map.yahoo.co.jp",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "curl-startpage",
+  "status": 200,
+  "hosts": 1,
+  "list": [
+   "startpage.com"
+  ],
+  "note": ""
+ }
+]

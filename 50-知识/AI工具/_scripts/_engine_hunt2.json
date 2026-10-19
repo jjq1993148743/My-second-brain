@@ -1,0 +1,374 @@
+[
+ {
+  "engine": "yahoo-jp",
+  "url": "https://search.yahoo.co.jp/search?p=freelance%20platform",
+  "status": 200,
+  "links": 0,
+  "hosts": 15,
+  "list": [
+   "s.yimg.jp",
+   "jobbers.io",
+   "upwork.com",
+   "freelancer.com",
+   "fiverr.com",
+   "linkedin.com",
+   "freelancermap.com",
+   "webflow.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "yahoo-us",
+  "url": "https://search.yahoo.com/search?p=freelance%20platform",
+  "status": 500,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "goo",
+  "url": "https://search.goo.ne.jp/web.jsp?MT=freelance%20platform",
+  "status": 0,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": "fetch failed"
+ },
+ {
+  "engine": "rakuten",
+  "url": "https://search.rakuten.co.jp/search/web/?qt=freelance%20platform",
+  "status": 200,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "biglobe",
+  "url": "https://cgi.biglobe.ne.jp/search?q=freelance%20platform",
+  "status": 0,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": "fetch failed"
+ },
+ {
+  "engine": "nifty",
+  "url": "https://search.nifty.com/websearch/search?q=freelance%20platform",
+  "status": 404,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "so-net",
+  "url": "https://www.so-net.ne.jp/search/web/?query=freelance%20platform",
+  "status": 200,
+  "links": 0,
+  "hosts": 4,
+  "list": [
+   "c.marsflag.com",
+   "ce.mf.marsflag.com",
+   "sonynetwork.co.jp",
+   "privacymark.jp"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "mojeek",
+  "url": "https://www.mojeek.com/search?q=freelance%20platform",
+  "status": 200,
+  "links": 0,
+  "hosts": 2,
+  "list": [
+   "mastodon.social",
+   "buttondown.email"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "startpage",
+  "url": "https://www.startpage.com/sp/search?query=freelance%20platform",
+  "status": 200,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "stract",
+  "url": "https://stract.com/search?q=freelance%20platform",
+  "status": 404,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "yep",
+  "url": "https://api.yep.com/fs/2/search?client=web&gl=US&limit=20&no_correct=false&q=freelance%20platform&safeSearch=off&type=web",
+  "status": 403,
+  "links": 0,
+  "hosts": 1,
+  "list": [
+   "cloudflare.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "rightdao",
+  "url": "https://rightdao.com/search?query=freelance%20platform",
+  "status": 200,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "teclis",
+  "url": "https://teclis.com/search?q=freelance%20platform",
+  "status": 400,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "marginalia",
+  "url": "https://search.marginalia.nu/search?query=freelance%20platform",
+  "status": 200,
+  "links": 0,
+  "hosts": 4,
+  "list": [
+   "about.marginalia-search.com",
+   "github.com",
+   "lite.ip2location.com",
+   "creativecommons.org"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "4get-ca",
+  "url": "https://4get.ca/api/v1/web?s=freelance%20platform",
+  "status": 401,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "4get-py",
+  "url": "https://4get.pylex.xyz/api/v1/web?s=freelance%20platform",
+  "status": 0,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": "fetch failed"
+ },
+ {
+  "engine": "searx-be",
+  "url": "https://searx.be/search?q=freelance%20platform&format=json",
+  "status": 200,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "searx-priv",
+  "url": "https://priv.au/search?q=freelance%20platform&format=json",
+  "status": 403,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "searx-bnd",
+  "url": "https://baresearch.org/search?q=freelance%20platform&format=json",
+  "status": 200,
+  "links": 0,
+  "hosts": 3,
+  "list": [
+   "github.com",
+   "techaro.lol",
+   "bsky.app"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "searx-opnx",
+  "url": "https://opnxng.com/search?q=freelance%20platform&format=json",
+  "status": 403,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "github-api",
+  "url": "https://api.github.com/search/repositories?q=freelance%20platform&per_page=20",
+  "status": 200,
+  "links": 0,
+  "hosts": 10,
+  "list": [
+   "avatars.githubusercontent.com",
+   "vatri.org",
+   "offer-hub.tech",
+   "ethlance.com",
+   "task-chain-zeta.vercel.app",
+   "people-per-task.vercel.app",
+   "codelance-akshat.netlify.app",
+   "clawfreelance.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "wikipedia",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=freelance%20platform&format=json&srlimit=20",
+  "status": 200,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "gdelt",
+  "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=freelance%20platform&mode=artlist&format=json&maxrecords=20",
+  "status": 0,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": "fetch failed"
+ },
+ {
+  "engine": "openalex",
+  "url": "https://api.openalex.org/works?search=freelance%20platform&per-page=20",
+  "status": 200,
+  "links": 0,
+  "hosts": 14,
+  "list": [
+   "doi.org",
+   "metadata.un.org",
+   "wikidata.org",
+   "orcid.org",
+   "ror.org",
+   "eir.zntu.edu.ua",
+   "nrl.northumbria.ac.uk",
+   "dl.acm.org"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "crossref",
+  "url": "https://api.crossref.org/works?query=freelance%20platform&rows=20",
+  "status": 200,
+  "links": 0,
+  "hosts": 1,
+  "list": [
+   "ror.org"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "europepmc",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=freelance%20platform&format=json&pageSize=20",
+  "status": 200,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "archive-org",
+  "url": "https://archive.org/advancedsearch.php?q=freelance%20platform&fl[]=identifier&rows=20&output=json",
+  "status": 200,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "grep-app",
+  "url": "https://grep.app/api/search?q=freelance%20platform",
+  "status": 429,
+  "links": 0,
+  "hosts": 1,
+  "list": [
+   "vercel.link"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "searchcode",
+  "url": "https://searchcode.com/api/codesearch_I/?q=freelance%20platform",
+  "status": 404,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ },
+ {
+  "engine": "stackexchange",
+  "url": "https://api.stackexchange.com/2.3/search/advanced?order=desc&sort=relevance&q=freelance%20platform&site=stackoverflow&pagesize=20",
+  "status": 200,
+  "links": 0,
+  "hosts": 3,
+  "list": [
+   "stackoverflow.com",
+   "gravatar.com",
+   "graph.facebook.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "reddit",
+  "url": "https://www.reddit.com/search.json?q=freelance%20platform&limit=25",
+  "status": 403,
+  "links": 0,
+  "hosts": 1,
+  "list": [
+   "support.reddithelp.com"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "lobsters",
+  "url": "https://lobste.rs/search.json?q=freelance%20platform",
+  "status": 200,
+  "links": 0,
+  "hosts": 3,
+  "list": [
+   "github.com",
+   "techaro.lol",
+   "bsky.app"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "npm",
+  "url": "https://registry.npmjs.org/-/v1/search?text=freelance%20platform&size=20",
+  "status": 200,
+  "links": 0,
+  "hosts": 5,
+  "list": [
+   "github.com",
+   "npmjs.com",
+   "fasttools.me",
+   "floating-ui.com",
+   "prisma.io"
+  ],
+  "note": ""
+ },
+ {
+  "engine": "packagist",
+  "url": "https://packagist.org/search.json?q=freelance%20platform&per_page=20",
+  "status": 200,
+  "links": 0,
+  "hosts": 0,
+  "list": [],
+  "note": ""
+ }
+]

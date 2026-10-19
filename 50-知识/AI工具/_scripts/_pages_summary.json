@@ -1,0 +1,31 @@
+{
+ "https://en.wikipedia.org/wiki/Freelancer": {
+  "status": 200,
+  "len": 362625,
+  "count": 50
+ },
+ "https://en.wikipedia.org/wiki/Online_marketplace": {
+  "status": 200,
+  "len": 203362,
+  "count": 18
+ },
+ "https://en.wikipedia.org/wiki/Crowdsourcing": {
+  "status": 200,
+  "len": 1086991,
+  "count": 183
+ },
+ "https://en.wikipedia.org/wiki/Comparison_of_freelance_marketplaces": {
+  "status": 404,
+  "count": 0
+ },
+ "https://en.wikipedia.org/wiki/Bug_bounty_program": {
+  "status": 200,
+  "len": 274719,
+  "count": 36
+ },
+ "https://en.wikipedia.org/wiki/Gig_worker": {
+  "status": 200,
+  "len": 514646,
+  "count": 83
+ }
+}

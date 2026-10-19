@@ -1,0 +1,67 @@
+[
+ {
+  "name": "julionc/awesome-shopify",
+  "stars": 1297,
+  "desc": "📌✨A curated list of awesome Shopify resources, libraries and open source projects."
+ },
+ {
+  "name": "LeCoupa/awesome-shopify",
+  "stars": 134,
+  "desc": "👩‍🎓👨‍🎓 Must-read articles, videos and books for store owners, app and theme developers"
+ },
+ {
+  "name": "heyalexej/awesome-images",
+  "stars": 2513,
+  "desc": "A curated list of amazingly awesome free (stock) photo resources inspired by all the other"
+ },
+ {
+  "name": "ad-si/awesome-music-production",
+  "stars": 1531,
+  "desc": "A curated list of software, services, and resources to create and distribute music"
+ },
+ {
+  "name": "hehonghui/awesome-english-ebooks",
+  "stars": 38220,
+  "desc": "经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新"
+ },
+ {
+  "name": "ebooklist/awesome-ebooks-list",
+  "stars": 361,
+  "desc": "编程类电子书合集"
+ },
+ {
+  "name": "chieund/golang_learning",
+  "stars": 304,
+  "desc": "Awesome about Learning Golang Blog, Examples, Ebooks, Video, Algorithms, Leetcode,..."
+ },
+ {
+  "name": "gsjqwyl/awesome-ebook",
+  "stars": 276,
+  "desc": "包含计算机基础、数据结构和算法、Java、Linux、大数据、面试、数据库等电子书籍"
+ },
+ {
+  "name": "alnahian2003/learn-laravel",
+  "stars": 185,
+  "desc": "🚀 Ready to level up your Laravel skills? Dive into awesome self-learning resources – tuto"
+ },
+ {
+  "name": "gantrol/AwesomeEBook",
+  "stars": 123,
+  "desc": "这个仓库搜集表现力全面超越纸质书或pdf的书籍或课程。"
+ },
+ {
+  "name": "aleksandrshoshiashvili/AwesomeSpotlightView",
+  "stars": 321,
+  "desc": "Awesome tool for create tutorial walkthrough or coach tour"
+ },
+ {
+  "name": "wenhao728/awesome-diffusion-v2v",
+  "stars": 293,
+  "desc": "Awesome diffusion Video-to-Video (V2V). A collection of paper on diffusion model-based vid"
+ },
+ {
+  "name": "wentianli/awesome-video-editing",
+  "stars": 100,
+  "desc": "A paper list on video editing (in a cinematographic sense) and its related computer vision"
+ }
+]

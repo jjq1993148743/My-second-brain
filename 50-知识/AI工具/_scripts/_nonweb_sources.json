@@ -1,0 +1,119 @@
+{
+ "Telegram频道": [
+  {
+   "频道": "fiverr",
+   "链接": "https://t.me/fiverr",
+   "标题": "Fiverr",
+   "近期帖子": 19,
+   "成员": "未知"
+  },
+  {
+   "频道": "remotejobs",
+   "链接": "https://t.me/remotejobs",
+   "标题": "Remote Jobs👨‍💻",
+   "近期帖子": 20,
+   "成员": "未知"
+  },
+  {
+   "频道": "designjobs",
+   "链接": "https://t.me/designjobs",
+   "标题": "موقعيت هاي شغلي براي طراحان صنعتي",
+   "近期帖子": 20,
+   "成员": "未知"
+  },
+  {
+   "频道": "contentcreator",
+   "链接": "https://t.me/contentcreator",
+   "标题": "Post and Earn",
+   "近期帖子": 27,
+   "成员": "未知"
+  },
+  {
+   "频道": "affiliatemarketing",
+   "链接": "https://t.me/affiliatemarketing",
+   "标题": "Affiliate Marketing",
+   "近期帖子": 7,
+   "成员": "171 "
+  },
+  {
+   "频道": "ecommerce",
+   "链接": "https://t.me/ecommerce",
+   "标题": "Nomad Capitalist: Wealth, Freedom &amp; Tax T",
+   "近期帖子": 20,
+   "成员": "788 "
+  },
+  {
+   "频道": "gumroad",
+   "链接": "https://t.me/gumroad",
+   "标题": "Gumroad",
+   "近期帖子": 7,
+   "成员": "24 "
+  },
+  {
+   "频道": "bugbounty",
+   "链接": "https://t.me/bugbounty",
+   "标题": "Standoff 365",
+   "近期帖子": 13,
+   "成员": "未知"
+  },
+  {
+   "频道": "hackerone",
+   "链接": "https://t.me/hackerone",
+   "标题": "HackerOne",
+   "近期帖子": 21,
+   "成员": "未知"
+  }
+ ],
+ "HackerNews讨论": {
+  "总数": 100,
+  "AskHN入口": [
+   {
+    "主题": "Ask HN: What's the best freelance platform these days?",
+    "评论数": 0
+   },
+   {
+    "主题": "Ask HN: What's Your Side Hustle?",
+    "评论数": 59
+   },
+   {
+    "主题": "Ask HN: Looking for feedback on our website (freelance platform)",
+    "评论数": 34
+   }
+  ]
+ },
+ "Reddit": {
+  "状态": "被限流 429，第一条就拒绝",
+  "已确认存活": [
+   "r/sidehustle",
+   "r/videoediting"
+  ],
+  "待人工访问": [
+   "r/freelance",
+   "r/forhire",
+   "r/beermoney",
+   "r/passiveincome",
+   "r/juststart",
+   "r/upwork",
+   "r/fiverr",
+   "r/etsy",
+   "r/dropship",
+   "r/amazonfba",
+   "r/printondemand",
+   "r/bugbounty",
+   "r/remotework",
+   "r/indiehackers",
+   "r/SaaS",
+   "r/microsaas",
+   "r/buildinpublic"
+  ]
+ },
+ "新增平台": {
+  "HN挖出": [
+   "cryptotask.org",
+   "crypico.com",
+   "golance.com",
+   "dreamlance.io",
+   "codemap.io"
+  ]
+ }
+}

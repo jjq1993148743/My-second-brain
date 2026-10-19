@@ -1,0 +1,281 @@
+{
+ "日本": {
+  "engine": "brave",
+  "hosts": [
+   "edamamejapan.com",
+   "mailmate.jp",
+   "youtube.com",
+   "crowdworks.co.jp",
+   "note.com",
+   "japanhandbook.com",
+   "expatica.com",
+   "forbes.com",
+   "betanews.com",
+   "jpeducareer.com",
+   "linkedin.com",
+   "scalingyourcompany.com",
+   "expatsjapan.com",
+   "businessinjapan.com",
+   "japanlifestart.com",
+   "grokipedia.com",
+   "hackerone.com",
+   "status.brave.app"
+  ]
+ },
+ "韩国": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "superstakedesign.com",
+   "qz.com",
+   "koreatechdesk.com",
+   "soomgo.com",
+   "play.google.com",
+   "youtube.com",
+   "jobbers.io",
+   "freequota33.win",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "台湾": {
+  "engine": "brave",
+  "hosts": [
+   "tasker.com.tw",
+   "tasker.com.tw.siteindices.com",
+   "writeuuu.com",
+   "soler.com.tw",
+   "tobiehuang.com",
+   "518.com.tw",
+   "storyofdream.com",
+   "diginetx.com.tw",
+   "vocus.cc",
+   "facebook.com",
+   "outerlifestudio.com",
+   "deanlife.blog",
+   "hackerone.com",
+   "status.brave.app"
+  ]
+ },
+ "香港": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "德国": {
+  "engine": "brave",
+  "hosts": [
+   "t3n.de",
+   "jobbers.io",
+   "freelancing.eu",
+   "gruenderkueche.de",
+   "qonto.com",
+   "flexable.work",
+   "lingoda.com",
+   "freelancermap.de",
+   "twago.com",
+   "en.devjobs.de",
+   "timestatement.com",
+   "freelancermap.com",
+   "omr.com",
+   "gulp.de",
+   "twagofreelance.com",
+   "hackerone.com",
+   "status.brave.app"
+  ]
+ },
+ "法国": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "西班牙": {
+  "engine": "brave",
+  "hosts": [
+   "workana.com",
+   "kulturo.tech",
+   "jobbers.io",
+   "exitoelectronico.com",
+   "wise.com",
+   "tecla.io",
+   "blog.xolo.io",
+   "launchwaymedia.com",
+   "freelancer.com",
+   "emmanuelgutierrez.com",
+   "upwork.com",
+   "spotahome.com",
+   "joingerald.com",
+   "hackerone.com",
+   "status.brave.app"
+  ]
+ },
+ "意大利": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "jobbers.io",
+   "sevedemo.com",
+   "useme.com",
+   "fastlancer.org",
+   "youtube.com",
+   "n26.com",
+   "solopreneurship.eu",
+   "usefulhub.cloud",
+   "arc.dev",
+   "uniplaces.com",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "荷兰": {
+  "engine": "brave",
+  "hosts": [
+   "tb-manual.torproject.org"
+  ]
+ },
+ "北欧": {
+  "engine": "yahoo",
+  "hosts": []
+ },
+ "波兰": {
+  "engine": "brave",
+  "hosts": [
+   "tb-manual.torproject.org"
+  ]
+ },
+ "俄罗斯": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "kwork.com",
+   "play.google.com",
+   "jobbers.io",
+   "webapps.ilo.org",
+   "apps.apple.com",
+   "statista.com",
+   "trustpilot.com",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "印度": {
+  "engine": "brave",
+  "hosts": [
+   "tb-manual.torproject.org"
+  ]
+ },
+ "东南亚": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "jobbers.io",
+   "flexable.work",
+   "freelancer.com",
+   "upwork.com",
+   "malt.com",
+   "truelancer.com",
+   "freelancing.my",
+   "theaseanmagazine.asean.org",
+   "th.jobsdb.com",
+   "my.jobstreet.com",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "中东": {
+  "engine": "brave",
+  "hosts": [
+   "tb-manual.torproject.org"
+  ]
+ },
+ "拉美": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "赏金": {
+  "engine": "brave",
+  "hosts": [
+   "tb-manual.torproject.org"
+  ]
+ },
+ "数字商品": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "POD": {
+  "engine": "brave",
+  "hosts": [
+   "tb-manual.torproject.org"
+  ]
+ },
+ "联盟": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "微任务": {
+  "engine": "brave",
+  "hosts": [
+   "tb-manual.torproject.org"
+  ]
+ },
+ "AI标注": {
+  "engine": "yahoo",
+  "hosts": [
+   "s.yimg.jp",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp",
+   "lycbiz.com",
+   "support.yahoo-net.jp"
+  ]
+ },
+ "课程": {
+  "engine": "brave",
+  "hosts": [
+   "tb-manual.torproject.org"
+  ]
+ },
+ "素材": {
+  "engine": "yahoo",
+  "hosts": [
+   "support.yahoo-net.jp",
+   "lycorp.co.jp",
+   "privacy.lycorp.co.jp"
+  ]
+ }
+}

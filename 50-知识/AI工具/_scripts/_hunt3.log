@@ -1,0 +1,45 @@
+USABLE yahoo-jp       status=200 hosts=15 s.yimg.jp,jobbers.io,upwork.com,freelancer.com,fiverr.com
+no     yahoo-us       status=500 hosts=0 
+no     goo            status=0 hosts=0  fetch failed
+no     rakuten        status=200 hosts=0 
+no     biglobe        status=0 hosts=0  fetch failed
+no     nifty          status=404 hosts=0 
+USABLE so-net         status=200 hosts=4 c.marsflag.com,ce.mf.marsflag.com,sonynetwork.co.jp,privacymark.jp
+weak   mojeek         status=200 hosts=2 mastodon.social,buttondown.email
+no     startpage      status=200 hosts=0 
+no     stract         status=404 hosts=0 
+weak   yep            status=403 hosts=1 cloudflare.com
+no     rightdao       status=200 hosts=0 
+no     teclis         status=400 hosts=0 
+USABLE marginalia     status=200 hosts=4 about.marginalia-search.com,github.com,lite.ip2location.com,creativecommons.org
+no     4get-ca        status=401 hosts=0 
+no     4get-py        status=0 hosts=0  fetch failed
+no     searx-be       status=200 hosts=0 
+no     searx-priv     status=403 hosts=0 
+USABLE searx-bnd      status=200 hosts=3 github.com,techaro.lol,bsky.app
+no     searx-opnx     status=403 hosts=0 
+USABLE github-api     status=200 hosts=10 avatars.githubusercontent.com,vatri.org,offer-hub.tech,ethlance.com,task-chain-zeta.vercel.app
+no     wikipedia      status=200 hosts=0 
+no     gdelt          status=0 hosts=0  fetch failed
+USABLE openalex       status=200 hosts=14 doi.org,metadata.un.org,wikidata.org,orcid.org,ror.org
+weak   crossref       status=200 hosts=1 ror.org
+no     europepmc      status=200 hosts=0 
+no     archive-org    status=200 hosts=0 
+weak   grep-app       status=429 hosts=1 vercel.link
+no     searchcode     status=404 hosts=0 
+USABLE stackexchange  status=200 hosts=3 stackoverflow.com,gravatar.com,graph.facebook.com
+weak   reddit         status=403 hosts=1 support.reddithelp.com
+USABLE lobsters       status=200 hosts=3 github.com,techaro.lol,bsky.app
+USABLE npm            status=200 hosts=5 github.com,npmjs.com,fasttools.me,floating-ui.com,prisma.io
+no     packagist      status=200 hosts=0 
+
+=== USABLE COUNT: 9 / 34 ===
+yahoo-jp -> ["s.yimg.jp","jobbers.io","upwork.com","freelancer.com","fiverr.com","linkedin.com","freelancermap.com","webflow.com"]
+so-net -> ["c.marsflag.com","ce.mf.marsflag.com","sonynetwork.co.jp","privacymark.jp"]
+marginalia -> ["about.marginalia-search.com","github.com","lite.ip2location.com","creativecommons.org"]
+searx-bnd -> ["github.com","techaro.lol","bsky.app"]
+github-api -> ["avatars.githubusercontent.com","vatri.org","offer-hub.tech","ethlance.com","task-chain-zeta.vercel.app","people-per-task.vercel.app","codelance-akshat.netlify.app","clawfreelance.com"]
+openalex -> ["doi.org","metadata.un.org","wikidata.org","orcid.org","ror.org","eir.zntu.edu.ua","nrl.northumbria.ac.uk","dl.acm.org"]
+stackexchange -> ["stackoverflow.com","gravatar.com","graph.facebook.com"]
+lobsters -> ["github.com","techaro.lol","bsky.app"]
+npm -> ["github.com","npmjs.com","fasttools.me","floating-ui.com","prisma.io"]

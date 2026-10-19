@@ -1,0 +1,60 @@
+{
+ "bing": {
+  "status": 200,
+  "rawLinks": 0,
+  "uniqueHosts": 0,
+  "sample": []
+ },
+ "marginalia": {
+  "status": 200,
+  "rawLinks": 0,
+  "uniqueHosts": 0,
+  "sample": []
+ },
+ "qwant": {
+  "status": 200,
+  "rawLinks": 0,
+  "uniqueHosts": 0,
+  "sample": []
+ },
+ "baidu": {
+  "status": 200,
+  "rawLinks": 47,
+  "uniqueHosts": 1,
+  "sample": [
+   "baidu.com"
+  ]
+ },
+ "sogou": {
+  "status": 200,
+  "rawLinks": 5,
+  "uniqueHosts": 4,
+  "sample": [
+   "fankui.sogou.com",
+   "fuwu.sogou.com",
+   "corp.sogou.com",
+   "miibeian.gov.cn"
+  ]
+ },
+ "so360": {
+  "status": 200,
+  "rawLinks": 187,
+  "uniqueHosts": 20,
+  "sample": [
+   "ss.360tres.com",
+   "ss1.360tres.com",
+   "so.com",
+   "info.so.com",
+   "i.360.cn",
+   "baidu.com",
+   "ai.so.com",
+   "image.so.com"
+  ]
+ },
+ "bingcn": {
+  "status": 200,
+  "rawLinks": 0,
+  "uniqueHosts": 0,
+  "sample": []
+ }
+}

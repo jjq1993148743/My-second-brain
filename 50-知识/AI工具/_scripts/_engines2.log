@@ -1,0 +1,7 @@
+bing status=200 links=0 hosts=0
+marginalia status=200 links=0 hosts=0
+qwant status=200 links=0 hosts=0
+baidu status=200 links=47 hosts=1
+sogou status=200 links=5 hosts=4
+so360 status=200 links=187 hosts=20
+bingcn status=200 links=0 hosts=0

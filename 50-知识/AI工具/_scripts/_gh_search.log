@@ -1,0 +1,422 @@
+{
+ "awesome side hustle": [
+  {
+   "full_name": "dipakkr/awesome-ai-engineering",
+   "stars": 22417,
+   "desc": "🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects coverin"
+  },
+  {
+   "full_name": "charlax/engineering-management",
+   "stars": 8388,
+   "desc": "A collection of inspiring resources related to engineering management and tech leadership"
+  },
+  {
+   "full_name": "hellerve/programming-talks",
+   "stars": 7373,
+   "desc": "Awesome & interesting talks about programming"
+  },
+  {
+   "full_name": "wendy7756/AI-Video-Transcriber",
+   "stars": 3348,
+   "desc": " Transcribe and summarize videos and podcasts using AI. Open-source, multi-platform, and s"
+  },
+  {
+   "full_name": "plenaryapp/awesome-rss-feeds",
+   "stars": 2841,
+   "desc": "Awesome RSS feeds - A curated list of RSS feeds (and OPML files) used in Recommended Feeds"
+  },
+  {
+   "full_name": "kdeldycke/awesome-engineering-team-management",
+   "stars": 2617,
+   "desc": "👔 How to transition from software development to engineering management"
+  },
+  {
+   "full_name": "bleedline/Awesome-gptlike-shellsite",
+   "stars": 2191,
+   "desc": "深入探索精选的套壳站和必备API资源。本文为初学者和经验丰富的运营者提供一站式指南，涵盖常见问题解答和基础攻略，助您迈向套壳站副业成功之路。Dive into a curated "
+  },
+  {
+   "full_name": "ratatui/awesome-ratatui",
+   "stars": 2045,
+   "desc": "A curated list of TUI apps and libraries built with Ratatui"
+  }
+ ],
+ "awesome remote jobs": [
+  {
+   "full_name": "sindresorhus/awesome",
+   "stars": 521024,
+   "desc": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporaril"
+  },
+  {
+   "full_name": "public-apis/public-apis",
+   "stars": 490125,
+   "desc": "A collective list of free APIs"
+  },
+  {
+   "full_name": "vinta/awesome-python",
+   "stars": 328512,
+   "desc": "The definitive list that answers \"I want to do X in Python, which tool should I use?\""
+  },
+  {
+   "full_name": "awesome-selfhosted/awesome-selfhosted",
+   "stars": 328083,
+   "desc": "A list of Free Software network services and web applications which can be hosted on your "
+  },
+  {
+   "full_name": "trimstray/the-book-of-secret-knowledge",
+   "stars": 251232,
+   "desc": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web t"
+  },
+  {
+   "full_name": "avelino/awesome-go",
+   "stars": 189128,
+   "desc": "A curated list of awesome Go frameworks, libraries and software"
+  },
+  {
+   "full_name": "jlevy/the-art-of-command-line",
+   "stars": 162547,
+   "desc": "Master the command line, in one page"
+  },
+  {
+   "full_name": "paperclipai/paperclip",
+   "stars": 104201,
+   "desc": "The open-source app everyone uses to manage agents at work"
+  }
+ ],
+ "awesome freelance": [
+  {
+   "full_name": "public-apis/public-apis",
+   "stars": 490125,
+   "desc": "A collective list of free APIs"
+  },
+  {
+   "full_name": "awesome-selfhosted/awesome-selfhosted",
+   "stars": 328083,
+   "desc": "A list of Free Software network services and web applications which can be hosted on your "
+  },
+  {
+   "full_name": "awesomedata/awesome-public-datasets",
+   "stars": 79607,
+   "desc": "A topic-centric list of HQ open datasets."
+  },
+  {
+   "full_name": "vuejs/awesome-vue",
+   "stars": 73511,
+   "desc": "🎉 A curated list of awesome things related to Vue.js"
+  },
+  {
+   "full_name": "lukasz-madon/awesome-remote-job",
+   "stars": 49644,
+   "desc": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/"
+  },
+  {
+   "full_name": "IanLunn/Hover",
+   "stars": 29407,
+   "desc": "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, fe"
+  },
+  {
+   "full_name": "sindresorhus/awesome-electron",
+   "stars": 27319,
+   "desc": "Useful resources for creating apps with Electron [SUBMISSIONS ARE TEMPORARILY PAUSED BECAU"
+  },
+  {
+   "full_name": "mikeroyal/Self-Hosting-Guide",
+   "stars": 23102,
+   "desc": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) a"
+  }
+ ],
+ "awesome creator economy": [
+  {
+   "full_name": "public-apis/public-apis",
+   "stars": 490125,
+   "desc": "A collective list of free APIs"
+  },
+  {
+   "full_name": "awesome-selfhosted/awesome-selfhosted",
+   "stars": 328083,
+   "desc": "A list of Free Software network services and web applications which can be hosted on your "
+  },
+  {
+   "full_name": "punkpeye/awesome-mcp-servers",
+   "stars": 96578,
+   "desc": "A collection of MCP servers."
+  },
+  {
+   "full_name": "jivoi/awesome-osint",
+   "stars": 30349,
+   "desc": ":scream: A curated list of amazingly awesome OSINT"
+  },
+  {
+   "full_name": "luong-komorebi/Awesome-Linux-Software",
+   "stars": 25638,
+   "desc": "🐧 A list of awesome Linux softwares "
+  },
+  {
+   "full_name": "mikeroyal/Self-Hosting-Guide",
+   "stars": 23102,
+   "desc": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) a"
+  },
+  {
+   "full_name": "awesome-dsh-plugin/awesome-dsh-plugin",
+   "stars": 19365,
+   "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表"
+  },
+  {
+   "full_name": "nestjs/awesome-nestjs",
+   "stars": 13173,
+   "desc": "A curated list of awesome things related to NestJS 😎"
+  }
+ ],
+ "awesome indie hacker": [
+  {
+   "full_name": "sindresorhus/awesome",
+   "stars": 521024,
+   "desc": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporaril"
+  },
+  {
+   "full_name": "awesome-selfhosted/awesome-selfhosted",
+   "stars": 328083,
+   "desc": "A list of Free Software network services and web applications which can be hosted on your "
+  },
+  {
+   "full_name": "1c7/chinese-independent-developer",
+   "stars": 61848,
+   "desc": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么"
+  },
+  {
+   "full_name": "vsouza/awesome-ios",
+   "stars": 53664,
+   "desc": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects "
+  },
+  {
+   "full_name": "serhii-londar/open-source-mac-os-apps",
+   "stars": 50869,
+   "desc": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps"
+  },
+  {
+   "full_name": "GitHubDaily/GitHubDaily",
+   "stars": 48238,
+   "desc": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub."
+  },
+  {
+   "full_name": "leereilly/games",
+   "stars": 24978,
+   "desc": "Archived — A list of games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform."
+  },
+  {
+   "full_name": "vitalysim/Awesome-Hacking-Resources",
+   "stars": 17540,
+   "desc": "A collection of hacking / penetration testing resources to make you better!"
+  }
+ ],
+ "awesome digital products": [
+  {
+   "full_name": "sindresorhus/awesome",
+   "stars": 521024,
+   "desc": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporaril"
+  },
+  {
+   "full_name": "public-apis/public-apis",
+   "stars": 490125,
+   "desc": "A collective list of free APIs"
+  },
+  {
+   "full_name": "awesome-selfhosted/awesome-selfhosted",
+   "stars": 328083,
+   "desc": "A list of Free Software network services and web applications which can be hosted on your "
+  },
+  {
+   "full_name": "trimstray/the-book-of-secret-knowledge",
+   "stars": 251232,
+   "desc": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web t"
+  },
+  {
+   "full_name": "avelino/awesome-go",
+   "stars": 189128,
+   "desc": "A curated list of awesome Go frameworks, libraries and software"
+  },
+  {
+   "full_name": "Shubhamsaboo/awesome-llm-apps",
+   "stars": 142236,
+   "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+  },
+  {
+   "full_name": "VoltAgent/awesome-design-md",
+   "stars": 122118,
+   "desc": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into yo"
+  },
+  {
+   "full_name": "jaywcjlove/awesome-mac",
+   "stars": 116454,
+   "desc": " This project is dedicated to collecting high-quality macOS software and organizing them "
+  }
+ ],
+ "awesome passive income": [
+  {
+   "full_name": "VoltAgent/awesome-openclaw-skills",
+   "stars": 53197,
+   "desc": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the"
+  },
+  {
+   "full_name": "mezod/awesome-indie",
+   "stars": 11880,
+   "desc": "Resources for independent developers to make money"
+  },
+  {
+   "full_name": "akaunting/akaunting",
+   "stars": 10191,
+   "desc": "Online Accounting Software"
+  },
+  {
+   "full_name": "wangzhe3224/awesome-systematic-trading",
+   "stars": 5297,
+   "desc": "A curated list of insanely awesome libraries, packages and resources for systematic tradin"
+  },
+  {
+   "full_name": "adamwulf/app-launch-guide",
+   "stars": 4000,
+   "desc": "This aims to be an indie dev's definitive guide to building and launching your app, includ"
+  },
+  {
+   "full_name": "rawfilejson/awesome-osint-arsenal",
+   "stars": 3415,
+   "desc": "OSINT & recon toolkit // 100+ tools, one-command installer, SOCMINT, GEOINT, network recon"
+  },
+  {
+   "full_name": "plenaryapp/awesome-rss-feeds",
+   "stars": 2841,
+   "desc": "Awesome RSS feeds - A curated list of RSS feeds (and OPML files) used in Recommended Feeds"
+  },
+  {
+   "full_name": "bmpi-dev/awesome-seo",
+   "stars": 2807,
+   "desc": "Google SEO Research and Web Traffic Monetization"
+  }
+ ],
+ "awesome bug bounty": [
+  {
+   "full_name": "public-apis/public-apis",
+   "stars": 490125,
+   "desc": "A collective list of free APIs"
+  },
+  {
+   "full_name": "trimstray/the-book-of-secret-knowledge",
+   "stars": 251232,
+   "desc": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web t"
+  },
+  {
+   "full_name": "Hack-with-Github/Awesome-Hacking",
+   "stars": 122993,
+   "desc": "A collection of various awesome lists for hackers, pentesters and security researchers"
+  },
+  {
+   "full_name": "punkpeye/awesome-mcp-servers",
+   "stars": 96578,
+   "desc": "A collection of MCP servers."
+  },
+  {
+   "full_name": "Solido/awesome-flutter",
+   "stars": 61569,
+   "desc": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and mo"
+  },
+  {
+   "full_name": "sickn33/agentic-awesome-skills",
+   "stars": 47902,
+   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-own"
+  },
+  {
+   "full_name": "jivoi/awesome-osint",
+   "stars": 30349,
+   "desc": ":scream: A curated list of amazingly awesome OSINT"
+  },
+  {
+   "full_name": "enaqx/awesome-pentest",
+   "stars": 27471,
+   "desc": "A collection of awesome penetration testing resources and tools"
+  }
+ ],
+ "awesome affiliate marketing": [
+  {
+   "full_name": "public-apis/public-apis",
+   "stars": 490125,
+   "desc": "A collective list of free APIs"
+  },
+  {
+   "full_name": "vsouza/awesome-ios",
+   "stars": 53664,
+   "desc": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects "
+  },
+  {
+   "full_name": "VoltAgent/awesome-openclaw-skills",
+   "stars": 53197,
+   "desc": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the"
+  },
+  {
+   "full_name": "sickn33/agentic-awesome-skills",
+   "stars": 47902,
+   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-own"
+  },
+  {
+   "full_name": "open-guides/og-aws",
+   "stars": 36462,
+   "desc": "📙 Amazon Web Services — a practical guide"
+  },
+  {
+   "full_name": "VoltAgent/awesome-agent-skills",
+   "stars": 35960,
+   "desc": "A curated collection of 1000+ agent skills from official dev teams and the community, comp"
+  },
+  {
+   "full_name": "quozd/awesome-dotnet",
+   "stars": 21661,
+   "desc": "A collection of awesome .NET libraries, tools, frameworks and software"
+  },
+  {
+   "full_name": "marcelscruz/public-apis",
+   "stars": 9593,
+   "desc": "A collaborative list of public APIs for developers"
+  }
+ ],
+ "awesome print on demand": [
+  {
+   "full_name": "public-apis/public-apis",
+   "stars": 490125,
+   "desc": "A collective list of free APIs"
+  },
+  {
+   "full_name": "awesome-selfhosted/awesome-selfhosted",
+   "stars": 328083,
+   "desc": "A list of Free Software network services and web applications which can be hosted on your "
+  },
+  {
+   "full_name": "avelino/awesome-go",
+   "stars": 189128,
+   "desc": "A curated list of awesome Go frameworks, libraries and software"
+  },
+  {
+   "full_name": "punkpeye/awesome-mcp-servers",
+   "stars": 96578,
+   "desc": "A collection of MCP servers."
+  },
+  {
+   "full_name": "PaddlePaddle/PaddleOCR",
+   "stars": 91337,
+   "desc": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight O"
+  },
+  {
+   "full_name": "awesomedata/awesome-public-datasets",
+   "stars": 79607,
+   "desc": "A topic-centric list of HQ open datasets."
+  },
+  {
+   "full_name": "vuejs/awesome-vue",
+   "stars": 73511,
+   "desc": "🎉 A curated list of awesome things related to Vue.js"
+  },
+  {
+   "full_name": "bradtraversy/design-resources-for-developers",
+   "stars": 67210,
+   "desc": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, "
+  }
+ ]
+}

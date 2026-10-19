@@ -1,0 +1,23 @@
+weak   ddg-lite-POST    status=202 hosts=1 duckduckgo.com
+weak   ddg-html-POST    status=202 hosts=1 duckduckgo.com
+weak   google-gbv1      status=200 hosts=1 support.google.com
+USABLE brave-html       status=429 hosts=3 imgs.search.brave.com,tiles.search.brave.com,tb-manual.torproject.org
+no     ecosia-html      status=403 hosts=0 
+USABLE qwant-html       status=200 hosts=30 qwant.com,chrome.google.com,mn.qwant.com,api.qwant.com,about.qwant.com
+USABLE marginalia-new   status=200 hosts=33 marginalia.nu,about.marginalia-search.com,old-search.marginalia.nu,financesonline.com,users.rust-lang.org
+no     searx-bnd-html   status=200 hosts=0 
+weak   curl-google      status=200 hosts=1 support.google.com
+weak   curl-ddg-lite    status=200 hosts=1 duckduckgo.com
+USABLE curl-brave       status=200 hosts=35 imgs.search.brave.com,tiles.search.brave.com,upwork.com,reddit.com,search.brave.com
+weak   curl-yandex      status=200 hosts=2 yandex.com,yandex.cloud
+USABLE curl-mojeek      status=200 hosts=5 mastodon.social,mojeek.com,blog.mojeek.com,community.mojeek.com,buttondown.email
+USABLE curl-yahoojp     status=200 hosts=14 search.yahoo.co.jp,s.yimg.jp,yahoo.co.jp,login.yahoo.co.jp,chiebukuro.yahoo.co.jp
+weak   curl-startpage   status=200 hosts=1 startpage.com
+
+=== USABLE COUNT: 6 / 15 ===
+brave-html -> ["imgs.search.brave.com","tiles.search.brave.com","tb-manual.torproject.org"]
+qwant-html -> ["qwant.com","chrome.google.com","mn.qwant.com","api.qwant.com","about.qwant.com","k.qwant.com","betterweb.qwant.com","welcometothejungle.com"]
+marginalia-new -> ["marginalia.nu","about.marginalia-search.com","old-search.marginalia.nu","financesonline.com","users.rust-lang.org","freelancing.eu","shopify.com","uploading.com"]
+curl-brave -> ["imgs.search.brave.com","tiles.search.brave.com","upwork.com","reddit.com","search.brave.com","g2.com","youtube.com","freelancer.com"]
+curl-mojeek -> ["mastodon.social","mojeek.com","blog.mojeek.com","community.mojeek.com","buttondown.email"]
+curl-yahoojp -> ["search.yahoo.co.jp","s.yimg.jp","yahoo.co.jp","login.yahoo.co.jp","chiebukuro.yahoo.co.jp","map.yahoo.co.jp","lycorp.co.jp","privacy.lycorp.co.jp"]

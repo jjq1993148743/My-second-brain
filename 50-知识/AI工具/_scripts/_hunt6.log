@@ -1,0 +1,16 @@
+no     qwant-api      hosts=0 
+no     ddg-html-post  hosts=0 
+no     startpage      hosts=0 
+no     ecosia         hosts=0 
+weak   yandex         hosts=1 yastatic.net
+USABLE brave-2        hosts=21 coffeechronicler.com,cnn.com,reddit.com,businessinsider.com,danielnorris.com
+weak   mojeek-2       hosts=2 mastodon.social,buttondown.email
+no     searx.be       hosts=0 
+USABLE searx-bnd2     hosts=3 github.com,techaro.lol,bsky.app
+no     presearch      hosts=0 
+USABLE yahoojp-3      hosts=10 coffeegeek.com,downtown-mag.com,coffeeblog.co.uk,coffeechronicler.com,reddit.com
+
+=== USABLE COUNT: 3 / 11 ===
+brave-2 -> ["coffeechronicler.com","cnn.com","reddit.com","businessinsider.com","danielnorris.com","youtube.com","seriouseats.com","downtown-mag.com","coffeegeek.com","nytimes.com"]
+searx-bnd2 -> ["github.com","techaro.lol","bsky.app"]
+yahoojp-3 -> ["coffeegeek.com","downtown-mag.com","coffeeblog.co.uk","coffeechronicler.com","reddit.com","nytimes.com","danielnorris.com","wholelattelove.com","crateandbarrel.com","lycbiz.com"]
