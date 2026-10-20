@@ -1,0 +1,15 @@
+import { execFile } from 'node:child_process';
+import fs from 'node:fs';
+const run=(c,a)=>new Promise(res=>execFile(c,a,{maxBuffer:64*1024*1024,windowsHide:true,timeout:20000},(e,so)=>res(so||'')));
+const CHROME='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+const chrome=u=>new Promise(res=>{execFile(CHROME,['--headless=new','--disable-gpu','--no-sandbox','--dump-dom','--virtual-time-budget=20000','--user-agent='+UA,u],{maxBuffer:128*1024*1024,windowsHide:true,timeout:55000},(e,so)=>res(so||''));});
+const h=await chrome('https://www.fl.ru/vakansii/');
+fs.writeFileSync('_flru_vak.html',h,'utf8');
+console.log('bytes='+h.length);
+const blocks=(h.match(/class="b-post__grid"/g)||[]).length;
+console.log('blocks='+blocks);
+const money=(h.match(/[0-9][0-9\s]*\u20bd/g)||[]).length;
+console.log('money='+money);
+const times=(h.match(/(назад|Только что)/g)||[]).length;
+console.log('times='+times);
