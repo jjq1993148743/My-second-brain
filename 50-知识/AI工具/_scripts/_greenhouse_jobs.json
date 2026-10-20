@@ -53470,5 +53470,1333 @@
   "title": "Staff Product Manager",
   "loc": "Remote - Canada",
   "updated": "2026-09-29T12:05:48-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "lookout",
+  "id": 8201664,
+  "title": " Account Executive, Canada (Ottawa/Toronto)",
+  "loc": "Toronto, ON",
+  "updated": "2026-09-15T15:17:35-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "lookout",
+  "id": 8201048,
+  "title": "Account Executive, Canada (Ottawa/Toronto)",
+  "loc": "Ottawa, ON ",
+  "updated": "2026-09-15T15:16:55-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "udemy",
+  "id": 6225523004,
+  "title": "Commercial Account Executive - Italian Speaking ",
+  "loc": "Dublin, Ireland",
+  "updated": "2026-10-16T10:55:41-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "udemy",
+  "id": 4739285004,
+  "title": "Join Our Talent Community ",
+  "loc": "Global",
+  "updated": "2026-09-08T11:28:07-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "udemy",
+  "id": 6123483004,
+  "title": "Senior Merchandising Manager",
+  "loc": "Denver, CO",
+  "updated": "2026-10-15T11:36:16-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "udemy",
+  "id": 6142399004,
+  "title": "Senior Pre-Sales Engineer",
+  "loc": "Remote, Japan",
+  "updated": "2026-10-12T03:40:44-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 8020464003,
+  "title": "Executive Assistant, Office of the CEO",
+  "loc": "Palo Alto, California, United States",
+  "updated": "2026-10-09T15:57:35-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 5480839003,
+  "title": "General Upwork Application",
+  "loc": "Remote",
+  "updated": "2026-08-24T12:08:28-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 7986836003,
+  "title": "Lead, Lifecycle Marketing - Growth & Acquisition",
+  "loc": "Toronto, Ontario, Canada",
+  "updated": "2026-10-06T11:56:15-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 8001029003,
+  "title": "Lead Platform Operations Engineer",
+  "loc": "Lisbon, Portugal",
+  "updated": "2026-10-14T13:53:20-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 7992748003,
+  "title": "Senior People Operations Specialist",
+  "loc": "Lisbon, Portugal",
+  "updated": "2026-09-28T05:21:58-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 7992649003,
+  "title": "Senior People Operations Specialist",
+  "loc": "Toronto, Ontario, Canada",
+  "updated": "2026-09-28T05:21:35-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 7888188003,
+  "title": "Senior Product Manager, Match ",
+  "loc": "Toronto, Ontario, Canada",
+  "updated": "2026-09-28T17:53:06-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 8006776003,
+  "title": "Sr Manager, Legal Operations",
+  "loc": "Toronto, Ontario, Canada",
+  "updated": "2026-09-30T23:12:41-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "upwork",
+  "id": 7525532003,
+  "title": "Upwork is hiring in Lisbon, Portugal ",
+  "loc": "Lisbon, Portugal",
+  "updated": "2026-08-24T12:08:28-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6141481004,
+  "title": "Account Manager - Dutch speaking ",
+  "loc": "London, England",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6194391004,
+  "title": "Account Manager - Dutch speaking ",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6206200004,
+  "title": "Account Manager - Dutch speaking ",
+  "loc": "Remote - Netherlands",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6210772004,
+  "title": "Business Development Representative",
+  "loc": "New York, New York",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6190306004,
+  "title": "Business Development Representative",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6141819004,
+  "title": "Business Development Representative - Dutch Speaker ",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6119424004,
+  "title": "Business Development Representative - Dutch Speaker ",
+  "loc": "London, England",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6008981004,
+  "title": "Channel Solutions Engineer",
+  "loc": "London, England",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 5842399004,
+  "title": "Commercial Account Executive, DACH",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 5854606004,
+  "title": "Commercial Account Executive, DACH",
+  "loc": "Remote - Germany",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 5854568004,
+  "title": "Commercial Account Executive, DACH",
+  "loc": "London, England",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6001113004,
+  "title": "Customer Success Engineer ",
+  "loc": "Remote - Australia",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6078955004,
+  "title": "Director, Engineering, AI Search",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6210873004,
+  "title": "Enterprise Account Executive",
+  "loc": "Remote - Netherlands",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6215629004,
+  "title": "Enterprise Account Executive - Dutch Speaking",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6215631004,
+  "title": "Enterprise Account Executive - Dutch Speaking",
+  "loc": "London, England",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6136180004,
+  "title": "Partner Manager",
+  "loc": "Remote - Germany",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6146291004,
+  "title": "Partner Manager - German Speaker",
+  "loc": "London, England",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6149894004,
+  "title": "Partner Manager - German speaking",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6185779004,
+  "title": "Principal Software Engineer, Frontend Experiences",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6009000004,
+  "title": "Sales Engineer - Italian Speaking",
+  "loc": "London, England",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6210792004,
+  "title": "Senior Marketing Operations Manager ",
+  "loc": "Remote - United States",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6200281004,
+  "title": "Senior Site Reliability Engineer, AI Platform",
+  "loc": "Paris, France",
+  "updated": "2026-09-18T07:03:39-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 5422135004,
+  "title": "Senior Site Reliability Engineer, IaaS",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6200275004,
+  "title": "Senior Site Reliability Engineer, PaaS",
+  "loc": "Paris, France",
+  "updated": "2026-09-18T06:43:38-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6187901004,
+  "title": "Senior Site Reliability Engineer - Search",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6187562004,
+  "title": "Senior Software Engineer, Connectors Platform",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 5256159004,
+  "title": "Senior Software Engineer - Search Infrastructure",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 5601402004,
+  "title": "Senior Software Engineer - Search Platform",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6139133004,
+  "title": "Senior Software Engineer, Understanding",
+  "loc": "Paris, France",
+  "updated": "2026-10-08T08:13:55-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6185704004,
+  "title": "Senior Technical Onboarding & Engagement Manager",
+  "loc": "Sydney, Australia",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6200292004,
+  "title": "Site Reliability Engineer, AI Platform",
+  "loc": "Paris, France",
+  "updated": "2026-09-18T07:03:41-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6194397004,
+  "title": "Site Reliability Engineer, IaaS",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6115415004,
+  "title": "Solutions Engineer - Italian Speaking",
+  "loc": "Paris, France",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "algolia",
+  "id": 6008431004,
+  "title": "Solutions Engineer - Portuguese Speaker",
+  "loc": "Remote - United States",
+  "updated": "2026-10-19T10:27:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8246279,
+  "title": "B2C Acquisition Marketing Manager ",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-10-05T10:38:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8195434,
+  "title": "Business Development Representative",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-10-15T14:21:43-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8074484,
+  "title": "Business Systems Architect, GTM Systems",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-08-19T13:52:43-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8025872,
+  "title": "Manager, B2B Marketing",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-24T11:34:34-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8154486,
+  "title": "Payroll & Benefits Coordinator",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-08-26T15:55:40-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8078059,
+  "title": "Program Manager, GTM Systems & Tooling",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-16T15:15:22-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8177550,
+  "title": "Revenue Operations Manager - Revenue Planning & Insights ",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-10-02T09:42:33-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8078001,
+  "title": "Sales Compensation Manager",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-10-07T09:43:30-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8211928,
+  "title": "Security Engineer, Detect & Respond ",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-10-01T15:54:47-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8231561,
+  "title": "Senior Product Manager, Marketing Enablement",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-29T14:24:03-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8233602,
+  "title": "Sr. 401(k) Onboarding Associate",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-10-02T09:45:58-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8094734,
+  "title": "Sr. Accountant",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-07-30T15:22:32-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8289780,
+  "title": "Sr. Engineering Manager, Advisor Solutions",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-10-19T12:48:25-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8212254,
+  "title": "Sr Engineering Manager – API & Auth Platform",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-23T14:45:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8224106,
+  "title": "Sr. Information Security Analyst",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-30T13:48:02-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8189369,
+  "title": "Sr. Manager, Channel Partnerships",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-14T14:42:45-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8014433,
+  "title": "Sr. Manager, Licensed Customer Experience",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-07-01T10:46:46-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8075138,
+  "title": "Sr. Manager, Revenue Operations - Deal Desk & GTM Process Improvement",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-10T10:51:32-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8237836,
+  "title": "Sr. Manager, Website Operations",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-29T10:45:55-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8137838,
+  "title": "Sr. Marketing Associate, B2B",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-08-20T10:55:58-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8137849,
+  "title": "Sr. Social Media & Content Associate",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-08-19T13:58:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8201993,
+  "title": "Sr. Software Engineer",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-23T10:49:38-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 8212276,
+  "title": "Sr. Software Engineer – API & Auth Platform",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-09-23T14:45:07-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 7821707,
+  "title": "Sr. Staff Engineer",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-07-01T10:46:45-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "betterment",
+  "id": 7798083,
+  "title": "Staff Engineer",
+  "loc": "Betterment HQ - New York City",
+  "updated": "2026-10-06T15:19:10-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7817118003,
+  "title": "Account Executive, Legal Services",
+  "loc": "New York City, New York",
+  "updated": "2026-09-03T18:32:53-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7822002003,
+  "title": "Account Executive, Legal Services",
+  "loc": "London",
+  "updated": "2026-10-15T17:16:02-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7824339003,
+  "title": "Account Executive, PE Standard",
+  "loc": "San Francisco, CA, New York City, New York",
+  "updated": "2026-08-21T17:46:09-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7782040003,
+  "title": "Account Executive, SMB",
+  "loc": "New York City, New York",
+  "updated": "2026-09-17T16:44:41-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 6247992003,
+  "title": "Associate, Tax Delivery",
+  "loc": "Seattle, WA",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7990772003,
+  "title": "Business Development Manager",
+  "loc": "London, UK",
+  "updated": "2026-09-29T17:08:25-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7918311003,
+  "title": "Business Development Manager I",
+  "loc": "New York City, New York",
+  "updated": "2026-09-16T12:20:37-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7832101003,
+  "title": "Consultant, Contracts",
+  "loc": "Australia, Singapore, Malaysia, Hong Kong, Korea, Japan",
+  "updated": "2026-08-07T12:49:09-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7805107003,
+  "title": "Contracts Lawyer",
+  "loc": "London, England, United Kingdom",
+  "updated": "2026-09-15T05:21:53-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8003015003,
+  "title": "Contract Solutions Counsel",
+  "loc": "Toronto, Ontario, Canada",
+  "updated": "2026-09-22T20:31:56-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7849783003,
+  "title": "Counsel",
+  "loc": "Seattle, Washington; Denver, CO",
+  "updated": "2026-09-03T15:18:51-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7985821003,
+  "title": "Counsel ",
+  "loc": "Dallas, TX",
+  "updated": "2026-09-17T18:28:58-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8003451003,
+  "title": "Demand Generation Marketing Manager, Private Equity",
+  "loc": "New York, NY",
+  "updated": "2026-09-23T17:06:41-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8034008003,
+  "title": "Director, Fund Accounting",
+  "loc": "London, England, United Kingdom",
+  "updated": "2026-10-16T11:05:40-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8035094003,
+  "title": "Engagement Letter Lawyer",
+  "loc": "London, England, United Kingdom",
+  "updated": "2026-10-16T09:52:25-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 5640725003,
+  "title": "Finance and Equity Analyst - Rotational Program",
+  "loc": "Sandy, UT",
+  "updated": "2026-08-26T18:23:49-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7807641003,
+  "title": "Finance and Equity Analyst - Rotational Program",
+  "loc": "Toronto, Ontario, Canada",
+  "updated": "2026-08-26T18:23:16-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7805125003,
+  "title": "Funds Lawyer",
+  "loc": "London, United Kingdom",
+  "updated": "2026-09-02T17:07:53-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7805345003,
+  "title": "Funds Paralegal",
+  "loc": "Toronto",
+  "updated": "2026-10-15T18:46:07-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 5505536003,
+  "title": "General Interest - PcD",
+  "loc": "Rio de Janeiro",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 5505562003,
+  "title": "General Interest - PcD",
+  "loc": "Rio de Janeiro",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8002105003,
+  "title": "Inbound KYC - Analyst",
+  "loc": "London",
+  "updated": "2026-10-15T18:01:51-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7904721003,
+  "title": "Junior Inbound Compliance Analyst (KYC)",
+  "loc": "Sandy, Utah; Seattle, Washington; New York, NY",
+  "updated": "2026-09-04T08:13:43-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7997383003,
+  "title": "Junior Paralegal, Contracts",
+  "loc": "Seattle,WA; Sandy,UT; Dallas,TX",
+  "updated": "2026-09-16T13:16:08-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8001549003,
+  "title": "Lead Product Marketing Manager",
+  "loc": "San Francisco, CA; New York, NY; Seattle, WA",
+  "updated": "2026-09-29T16:29:16-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8004066003,
+  "title": "Legal Counsel (Private Markets)",
+  "loc": "Toronto, Ontario, Canada",
+  "updated": "2026-09-23T20:06:06-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7805379003,
+  "title": "Legal Director, Contracts ",
+  "loc": "Denver, CO; Sandy, UT; Seattle, WA; Hamilton Township, NJ; Toronto, CA",
+  "updated": "2026-10-19T10:50:10-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7805411003,
+  "title": "Legal Partnerships / BD Manager",
+  "loc": "London, UK;",
+  "updated": "2026-10-13T17:45:41-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7984370003,
+  "title": "Legal Partnerships / BD Manager",
+  "loc": "New York",
+  "updated": "2026-10-13T17:45:41-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7994034003,
+  "title": "Legal Product Builder",
+  "loc": "San Francisco, CA; New York City, NY",
+  "updated": "2026-10-08T09:17:25-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8016744003,
+  "title": "Legal Product Builder",
+  "loc": "Toronto, Ontario, Canada",
+  "updated": "2026-10-08T09:17:27-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7920603003,
+  "title": "Loan Operations Associate",
+  "loc": "New York, NY; Hamilton, NJ",
+  "updated": "2026-10-16T03:02:17-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 6294047003,
+  "title": "Manager, Tax Delivery",
+  "loc": "Sandy, UT",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 6294044003,
+  "title": "Manager, Tax Delivery",
+  "loc": "Seattle, WA",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7998004003,
+  "title": "Onboarding Lead",
+  "loc": "London",
+  "updated": "2026-10-15T18:15:54-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7999314003,
+  "title": "Onboarding Lead",
+  "loc": "New York / New Jersey",
+  "updated": "2026-09-23T08:42:07-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7801331003,
+  "title": "Paralegal, Compliance",
+  "loc": "Hamilton, NJ; Seattle,WA; Sandy,UT",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7798948003,
+  "title": "Paralegal, Compliance",
+  "loc": "London, United Kingdom",
+  "updated": "2026-09-02T17:03:44-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7798935003,
+  "title": "Paralegal, Funds",
+  "loc": "London, United Kingdom",
+  "updated": "2026-09-15T05:21:10-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7801787003,
+  "title": "Paralegal, Funds",
+  "loc": "Toronto",
+  "updated": "2026-09-02T17:13:12-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7997771003,
+  "title": "Post-Close Associate",
+  "loc": "Singapore",
+  "updated": "2026-09-17T09:18:58-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7991684003,
+  "title": "Regional Office Manager, AMEA (Asia, Middle East, North Africa)",
+  "loc": "Singapore, Singpore",
+  "updated": "2026-09-30T01:18:33-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8004094003,
+  "title": "Senior Accountants Receivable Accountant (Billing)",
+  "loc": "London, United Kingdom",
+  "updated": "2026-09-25T19:01:04-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8031297003,
+  "title": "Senior Account Executive, PE Strategic",
+  "loc": "San Francisco, CA, New York City, New York",
+  "updated": "2026-10-13T23:41:17-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 6359143003,
+  "title": "Senior Account Executive, Private Equity, Fund Administration",
+  "loc": "New York, NY",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 6359140003,
+  "title": "Senior Account Executive, Private Equity, Fund Administration",
+  "loc": "San Francisco, CA",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8031301003,
+  "title": "Senior Account Executive, Venture Capital",
+  "loc": "San Francisco, CA, New York City, NY",
+  "updated": "2026-10-13T19:24:59-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7992629003,
+  "title": "Senior AI Engineer, Post-Training ",
+  "loc": "San Francisco, CA; New York City, NY",
+  "updated": "2026-09-21T11:35:33-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7990769003,
+  "title": "Senior Associate Lawyer ",
+  "loc": " Sandy, UT; Denver, CO; Seattle,WA",
+  "updated": "2026-09-09T19:53:54-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 6014075003,
+  "title": "Senior Associate, Tax Delivery",
+  "loc": "Seattle, WA",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 6652041003,
+  "title": "Senior Associate, Tax Delivery",
+  "loc": "Sandy, UT",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7805109003,
+  "title": "Senior Contracts Lawyer",
+  "loc": "London, United Kingdom",
+  "updated": "2026-09-15T05:21:53-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7991968003,
+  "title": "Senior Contract Solutions Lawyer, APAC",
+  "loc": "Hong Kong, Central and Western, Hong Kong S.A.R., Singapore, Sydney, New South Wales, Australia",
+  "updated": "2026-09-11T11:21:18-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7742709003,
+  "title": "Senior Fund Accountant",
+  "loc": "Sydney, Australia",
+  "updated": "2026-08-27T10:30:34-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7805343003,
+  "title": "Senior Funds Lawyer",
+  "loc": "Toronto",
+  "updated": "2026-09-02T17:46:53-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7866565003,
+  "title": "Senior Lawyer - Venture Financings",
+  "loc": "San Francisco, CA",
+  "updated": "2026-08-28T11:20:37-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7918307003,
+  "title": "Senior / Lead Customer Marketing Manager",
+  "loc": "San Francisco, CA, New York, NY; Seattle, WA",
+  "updated": "2026-10-16T14:06:21-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7918309003,
+  "title": "Senior / Lead Product Marketing Manager",
+  "loc": "New York, NY; San Francisco, CA; Seattle, WA",
+  "updated": "2026-10-16T14:03:47-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7997410003,
+  "title": "Senior Paralegal, Contracts",
+  "loc": "Hamilton, NJ; Seattle,WA; Sandy,UT;Dallas,TX",
+  "updated": "2026-09-16T13:17:56-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7994782003,
+  "title": "Senior Paralegal, Contracts",
+  "loc": "Sydney, New South Wales, Australia, Hong Kong, Central and Western, Hong Kong S.A.R., Singapore",
+  "updated": "2026-09-15T05:20:00-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7772791003,
+  "title": "Senior Software Engineer II",
+  "loc": "London, London, United Kingdom",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8035086003,
+  "title": "Senior Software Engineer II, Investors",
+  "loc": "New York, NY",
+  "updated": "2026-10-16T16:17:23-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8035084003,
+  "title": "Senior Software Engineer II, Investors",
+  "loc": "Toronto, Ontario, Canada; Waterloo, Ontario, Canada",
+  "updated": "2026-10-16T16:17:21-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7998678003,
+  "title": "Senior Software Engineer II, KYC",
+  "loc": "New York, NY; Seattle, WA; San Francisco, CA; Santa Clara, CA",
+  "updated": "2026-09-17T15:54:34-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7723597003,
+  "title": "Senior Software Engineer II, KYC",
+  "loc": "Toronto, Ontario, Canada; Waterloo, Ontario, Canada",
+  "updated": "2026-09-17T15:54:31-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7805133003,
+  "title": "Senior Transactional Lawyer",
+  "loc": "London, United Kingdom",
+  "updated": "2026-08-03T15:24:52-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7989778003,
+  "title": "Solutions Engineer",
+  "loc": "London, England",
+  "updated": "2026-09-10T16:16:23-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8035091003,
+  "title": "Staff Software Engineer, Investors",
+  "loc": "New York, NY",
+  "updated": "2026-10-16T16:12:51-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8035089003,
+  "title": "Staff Software Engineer, Investors",
+  "loc": "Toronto, Ontario, Canada; Waterloo, Ontario, Canada",
+  "updated": "2026-10-16T16:12:49-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7989780003,
+  "title": "Strategic Account Executive - Private Markets, Europe",
+  "loc": "London, England",
+  "updated": "2026-09-10T12:45:37-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7775293003,
+  "title": "Technical Senior Manager, Fund Tax",
+  "loc": "Seattle, Washington, United States, Sandy, Utah, United States, New York, New York, United States",
+  "updated": "2026-08-04T12:42:19-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 8004092003,
+  "title": "Treasury Associate",
+  "loc": "San Francisco, CA; New York, NY; Sandy, UT",
+  "updated": "2026-10-19T13:41:48-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7990404003,
+  "title": "Workday Configuration Manager (PATT)",
+  "loc": "San Francisco, CA; New York, NY; Seattle, WA",
+  "updated": "2026-10-19T16:31:49-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "carta",
+  "id": 7990402003,
+  "title": "Workday Integrations Architect",
+  "loc": "San Francisco, CA; Seattle, CA; New York, NY",
+  "updated": "2026-09-25T16:03:44-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8230572,
+  "title": "Account Executive, Northeast",
+  "loc": "New York, NY",
+  "updated": "2026-09-24T12:17:00-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8079608,
+  "title": "Deal Desk Manager, AMER",
+  "loc": "New York, NY",
+  "updated": "2026-10-08T11:12:55-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8209735,
+  "title": "Director, FP&A",
+  "loc": "New York, NY; San Mateo, CA",
+  "updated": "2026-09-17T17:01:55-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8178474,
+  "title": "Executive Administrative Partner to the CEO",
+  "loc": "New York, NY",
+  "updated": "2026-09-15T14:17:22-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 2578081,
+  "title": "Join our Talent Community!",
+  "loc": "Global",
+  "updated": "2026-09-15T13:55:39-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8233337,
+  "title": "Manager, Technical Support (APAC)",
+  "loc": "Bangalore, India",
+  "updated": "2026-10-12T12:50:05-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8055505,
+  "title": "Marketing Operations Manager",
+  "loc": "Austin, TX; New York, NY",
+  "updated": "2026-09-15T14:12:24-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 7422578,
+  "title": "Member of Technical Staff (Senior - Specialized Indexing)",
+  "loc": "Bangalore, India",
+  "updated": "2026-09-15T14:11:12-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8191652,
+  "title": "Principal Partner Solutions Architect",
+  "loc": "New York, NY; San Mateo, CA",
+  "updated": "2026-09-15T13:51:10-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8139700,
+  "title": "Sales Development Representative, Singapore",
+  "loc": "Remote, Singapore",
+  "updated": "2026-09-15T14:01:51-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8106750,
+  "title": "Senior Staff Sales Engineer, Australia",
+  "loc": "Remote, Australia",
+  "updated": "2026-09-15T14:00:05-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8156737,
+  "title": "Sr. Corporate Security Engineer",
+  "loc": "New York, NY",
+  "updated": "2026-10-06T09:04:35-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8088528,
+  "title": "Sr. HR Business Partner, GTM",
+  "loc": "New York, NY",
+  "updated": "2026-09-15T14:18:40-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8157130,
+  "title": "Sr. Partner Marketing Manager",
+  "loc": "New York, NY",
+  "updated": "2026-09-15T14:13:34-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8159674,
+  "title": "Staff Product Marketing Manager, Developer Experience",
+  "loc": "New York, NY",
+  "updated": "2026-09-15T14:24:51-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 8156554,
+  "title": "Strategy and Operations Manager, GTM - EMEA",
+  "loc": "London, UK",
+  "updated": "2026-09-25T12:07:53-04:00"
+ },
+ {
+  "src": "greenhouse",
+  "company": "cockroachlabs",
+  "id": 7982583,
+  "title": "Value Engineer, Solutions Engineering",
+  "loc": "London, UK; New York, NY",
+  "updated": "2026-09-15T14:10:53-04:00"
  }
 ]
