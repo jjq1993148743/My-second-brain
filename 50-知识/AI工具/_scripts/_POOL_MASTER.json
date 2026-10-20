@@ -1,0 +1,2036 @@
+[
+ {
+  "host": "adevait.com",
+  "url": "https://adevait.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "arc.dev",
+  "url": "https://arc.dev",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "clarrow.com",
+  "url": "https://clarrow.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "src": "platforms_full"
+ },
+ {
+  "host": "codementor.io",
+  "url": "https://codementor.io",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "dreamlance.io",
+  "url": "https://dreamlance.io",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "fiverr.com",
+  "url": "https://fiverr.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.com",
+  "url": "https://freelancer.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "gigster.com",
+  "url": "https://gigster.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "gun.io",
+  "url": "https://gun.io",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "guru.com",
+  "url": "https://guru.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "jobdone.net",
+  "url": "https://jobdone.net",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "peopleperhour.com",
+  "url": "https://peopleperhour.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 202)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "soshace.com",
+  "url": "https://soshace.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "storetasker.com",
+  "url": "https://storetasker.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "toptal.com",
+  "url": "https://toptal.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "toptalent.co",
+  "url": "https://toptalent.co",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "upwork.com",
+  "url": "https://upwork.com",
+  "type": "接单市场",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "airtasker.com",
+  "url": "https://airtasker.com",
+  "type": "接单市场",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.co.nz",
+  "url": "https://freelancer.co.nz",
+  "type": "接单市场",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.com.au",
+  "url": "https://freelancer.com.au",
+  "type": "接单市场",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "coconala.co.th",
+  "url": "https://coconala.co.th",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.co.id",
+  "url": "https://freelancer.co.id",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "m.fastwork.id",
+  "url": "https://m.fastwork.id",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "sribu.com",
+  "url": "https://sribu.com",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "upwork.co.th",
+  "url": "https://upwork.co.th",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "workana.com",
+  "url": "https://workana.com",
+  "type": "接单市场",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "fl.ru",
+  "url": "https://fl.ru",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancehunt.com",
+  "url": "https://freelancehunt.com",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "upwork.ru",
+  "url": "https://upwork.ru",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "upwork.ua",
+  "url": "https://upwork.ua",
+  "type": "接单市场",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "andela.com",
+  "url": "https://andela.com",
+  "type": "接单市场",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.co.ke",
+  "url": "https://freelancer.co.ke",
+  "type": "接单市场",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "epwk.com",
+  "url": "https://epwk.com",
+  "type": "接单市场",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "zbj.com",
+  "url": "https://zbj.com",
+  "type": "接单市场",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "soomgo.com",
+  "url": "https://soomgo.com",
+  "type": "接单市场",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "wishket.com",
+  "url": "https://wishket.com",
+  "type": "接单市场",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.mx",
+  "url": "https://freelancer.mx",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "soyfreelancer.com.mx",
+  "url": "https://soyfreelancer.com.mx",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "workana.com.br",
+  "url": "https://workana.com.br",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "workana.mx",
+  "url": "https://workana.mx",
+  "type": "接单市场",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "codeur.com",
+  "url": "https://codeur.com",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.ch",
+  "url": "https://freelancer.ch",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.de",
+  "url": "https://freelancer.de",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.es",
+  "url": "https://freelancer.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.pl",
+  "url": "https://freelancer.pl",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.pt",
+  "url": "https://freelancer.pt",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.se",
+  "url": "https://freelancer.se",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelanceria.es",
+  "url": "https://freelanceria.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancermap.at",
+  "url": "https://freelancermap.at",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancermap.de",
+  "url": "https://freelancermap.de",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "frilansare.se",
+  "url": "https://frilansare.se",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "frilansfinans.se",
+  "url": "https://frilansfinans.se",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "malt.de",
+  "url": "https://malt.de",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "malt.es",
+  "url": "https://malt.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "malt.fr",
+  "url": "https://malt.fr",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "soyfreelancer.es",
+  "url": "https://soyfreelancer.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "twago.de",
+  "url": "https://twago.de",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "useme.com",
+  "url": "https://useme.com",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "useme.eu",
+  "url": "https://useme.eu",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 308，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "useme.pl",
+  "url": "https://useme.pl",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "workana.es",
+  "url": "https://workana.es",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "yeeply.com",
+  "url": "https://yeeply.com",
+  "type": "接单市场",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "lancers.jp",
+  "url": "https://lancers.jp",
+  "type": "接单市场",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "104.com.tw",
+  "url": "https://104.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "518.com.tw",
+  "url": "https://518.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "591.com.tw",
+  "url": "https://591.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "anywhere.com.tw",
+  "url": "https://anywhere.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "hellotoby.com.tw",
+  "url": "https://hellotoby.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "pro360.com.tw",
+  "url": "https://pro360.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "toolbox.com.tw",
+  "url": "https://toolbox.com.tw",
+  "type": "接单市场",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "hellotoby.com",
+  "url": "https://hellotoby.com",
+  "type": "接单市场",
+  "region": "香港",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "fiverr.in",
+  "url": "https://fiverr.in",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancer.in",
+  "url": "https://freelancer.in",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "truelancer.com",
+  "url": "https://truelancer.com",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 429)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "turing.com",
+  "url": "https://turing.com",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "upwork.in",
+  "url": "https://upwork.in",
+  "type": "接单市场",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "52pojie.cn",
+  "url": "https://52pojie.cn",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "butian.net",
+  "url": "https://butian.net",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "ichunqiu.com",
+  "url": "https://ichunqiu.com",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "seebug.org",
+  "url": "https://seebug.org",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 521",
+  "src": "platforms_full"
+ },
+ {
+  "host": "t00ls.net",
+  "url": "https://t00ls.net",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "vulbox.com",
+  "url": "https://vulbox.com",
+  "type": "赏金悬赏",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "bountysource.com",
+  "url": "https://bountysource.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "bugcrowd.com",
+  "url": "https://bugcrowd.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "gitcoin.co",
+  "url": "https://gitcoin.co",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "gitpay.me",
+  "url": "https://gitpay.me",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "hackerone.com",
+  "url": "https://hackerone.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "intigriti.com",
+  "url": "https://intigriti.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "issuehunt.io",
+  "url": "https://issuehunt.io",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "yeswehack.com",
+  "url": "https://yeswehack.com",
+  "type": "赏金悬赏",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "codecanyon.net",
+  "url": "https://codecanyon.net",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "creativemarket.com",
+  "url": "https://creativemarket.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "envato.com",
+  "url": "https://envato.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "etsy.com",
+  "url": "https://etsy.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "lemonsqueezy.com",
+  "url": "https://lemonsqueezy.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "paddle.com",
+  "url": "https://paddle.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "printful.com",
+  "url": "https://printful.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "printify.com",
+  "url": "https://printify.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "redbubble.com",
+  "url": "https://redbubble.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "shopify.com",
+  "url": "https://shopify.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "substack.com",
+  "url": "https://substack.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "teespring.com",
+  "url": "https://teespring.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "themeforest.net",
+  "url": "https://themeforest.net",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚪ 未测",
+  "detail": "仅从列表提取",
+  "src": "platforms_full"
+ },
+ {
+  "host": "zazzle.com",
+  "url": "https://zazzle.com",
+  "type": "数字商品",
+  "region": "全球/未分类",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "cj.com",
+  "url": "https://cj.com",
+  "type": "联盟营销",
+  "region": "全球/未分类",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "angi.com",
+  "url": "https://angi.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "dice.com",
+  "url": "https://dice.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "handy.com",
+  "url": "https://handy.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "homeadvisor.com",
+  "url": "https://homeadvisor.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "indeed.com",
+  "url": "https://indeed.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "solidgigs.com",
+  "url": "https://solidgigs.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "taskrabbit.com",
+  "url": "https://taskrabbit.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "thumbtack.com",
+  "url": "https://thumbtack.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 202)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "ziprecruiter.com",
+  "url": "https://ziprecruiter.com",
+  "type": "其他",
+  "region": "北美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "jobspress.com.au",
+  "url": "https://jobspress.com.au",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "nofluffjobs.com",
+  "url": "https://nofluffjobs.com",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "oneflare.com.au",
+  "url": "https://oneflare.com.au",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "onsite.com.au",
+  "url": "https://onsite.com.au",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "twine.com.au",
+  "url": "https://twine.com.au",
+  "type": "其他",
+  "region": "大洋洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "jobstreet.com",
+  "url": "https://jobstreet.com",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 308，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "jobtopgun.com",
+  "url": "https://jobtopgun.com",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "kalibrr.com",
+  "url": "https://kalibrr.com",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "topcv.vn",
+  "url": "https://topcv.vn",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "vlance.vn",
+  "url": "https://vlance.vn",
+  "type": "其他",
+  "region": "东南亚",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "djinni.co",
+  "url": "https://djinni.co",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "dou.ua",
+  "url": "https://dou.ua",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelansim.ru",
+  "url": "https://freelansim.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "frilance.ru",
+  "url": "https://frilance.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "habr.com",
+  "url": "https://habr.com",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "kwork.ru",
+  "url": "https://kwork.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "profi.ru",
+  "url": "https://profi.ru",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "rabota.ua",
+  "url": "https://rabota.ua",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "web-lancer.net",
+  "url": "https://web-lancer.net",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "youdo.com",
+  "url": "https://youdo.com",
+  "type": "其他",
+  "region": "俄罗斯",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "brightermon.de",
+  "url": "https://brightermon.de",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelance.ng",
+  "url": "https://freelance.ng",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "fuzu.com",
+  "url": "https://fuzu.com",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "jiji.co.ke",
+  "url": "https://jiji.co.ke",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "jobberman.com",
+  "url": "https://jobberman.com",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "kazi254.co.ke",
+  "url": "https://kazi254.co.ke",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "myjobmag.com",
+  "url": "https://myjobmag.com",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "olx.co.ke",
+  "url": "https://olx.co.ke",
+  "type": "其他",
+  "region": "非洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "ainet.cn",
+  "url": "https://ainet.cn",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "aliali.com",
+  "url": "https://aliali.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "dushu.com",
+  "url": "https://dushu.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "javp.com",
+  "url": "https://javp.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "kuaikuaishou.com",
+  "url": "https://kuaikuaishou.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "tianfucan.com",
+  "url": "https://tianfucan.com",
+  "type": "其他",
+  "region": "国内",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "class101.net",
+  "url": "https://class101.net",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 307，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "crowdpic.co.kr",
+  "url": "https://crowdpic.co.kr",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freemoa.net",
+  "url": "https://freemoa.net",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 307，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "openads.co.kr",
+  "url": "https://openads.co.kr",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "taling.me",
+  "url": "https://taling.me",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 308，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "zipadosa.com",
+  "url": "https://zipadosa.com",
+  "type": "其他",
+  "region": "韩国",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "99freelas.com.br",
+  "url": "https://99freelas.com.br",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "catarinense.com.br",
+  "url": "https://catarinense.com.br",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "chilefreelance.cl",
+  "url": "https://chilefreelance.cl",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freela.com.br",
+  "url": "https://freela.com.br",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "getninjas.com.br",
+  "url": "https://getninjas.com.br",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "latinhire.com",
+  "url": "https://latinhire.com",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "nubelo.com",
+  "url": "https://nubelo.com",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "remotolatinos.com",
+  "url": "https://remotolatinos.com",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "src": "platforms_full"
+ },
+ {
+  "host": "trabajando.cl",
+  "url": "https://trabajando.cl",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "yapo.cl",
+  "url": "https://yapo.cl",
+  "type": "其他",
+  "region": "拉美",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 403)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "comet.co",
+  "url": "https://comet.co",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "etengo.de",
+  "url": "https://etengo.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "free-work.com",
+  "url": "https://free-work.com",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelance-info.fr",
+  "url": "https://freelance-info.fr",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelance.de",
+  "url": "https://freelance.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelance.es",
+  "url": "https://freelance.es",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelance.nl",
+  "url": "https://freelance.nl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "freelancemarketing.nl",
+  "url": "https://freelancemarketing.nl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "gulp.de",
+  "url": "https://gulp.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "hays.de",
+  "url": "https://hays.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "hoofdkraan.nl",
+  "url": "https://hoofdkraan.nl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 308，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "itjobs.pt",
+  "url": "https://itjobs.pt",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "itport.co",
+  "url": "https://itport.co",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "justjoin.it",
+  "url": "https://justjoin.it",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "klussen.marktplaats.nl",
+  "url": "https://klussen.marktplaats.nl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "laotop.fr",
+  "url": "https://laotop.fr",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "malasmadres.es",
+  "url": "https://malasmadres.es",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "nosmalltime.com",
+  "url": "https://nosmalltime.com",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "pracuj.pl",
+  "url": "https://pracuj.pl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "rocketjobs.pl",
+  "url": "https://rocketjobs.pl",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "solcom.de",
+  "url": "https://solcom.de",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "swissdevjobs.ch",
+  "url": "https://swissdevjobs.ch",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "talent.com",
+  "url": "https://talent.com",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "worksome.co.uk",
+  "url": "https://worksome.co.uk",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "yuno.co.uk",
+  "url": "https://yuno.co.uk",
+  "type": "其他",
+  "region": "欧洲",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 307，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "artists-studio.jp",
+  "url": "https://artists-studio.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "best-works.jp",
+  "url": "https://best-works.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "c-strategist.jp",
+  "url": "https://c-strategist.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "cowcamo.co.jp",
+  "url": "https://cowcamo.co.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "monokakido.jp",
+  "url": "https://monokakido.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "notes.jp",
+  "url": "https://notes.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "paintbbs.jp",
+  "url": "https://paintbbs.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "pro.members.jp",
+  "url": "https://pro.members.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "shufti.jp",
+  "url": "https://shufti.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "sokudaku.com",
+  "url": "https://sokudaku.com",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "twine.jp",
+  "url": "https://twine.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "workship.jp",
+  "url": "https://workship.jp",
+  "type": "其他",
+  "region": "日本",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "pinkoi.com",
+  "url": "https://pinkoi.com",
+  "type": "其他",
+  "region": "台湾",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "tobyhk.com",
+  "url": "https://tobyhk.com",
+  "type": "其他",
+  "region": "香港",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "codechef.com",
+  "url": "https://codechef.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "cutshort.io",
+  "url": "https://cutshort.io",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "geektrust.in",
+  "url": "https://geektrust.in",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "hackerearth.com",
+  "url": "https://hackerearth.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 403",
+  "src": "platforms_full"
+ },
+ {
+  "host": "hackerrank.com",
+  "url": "https://hackerrank.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "hirect.in",
+  "url": "https://hirect.in",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "instahyre.com",
+  "url": "https://instahyre.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "internshala.com",
+  "url": "https://internshala.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "反爬/验证码 (HTTP 200)",
+  "src": "platforms_full"
+ },
+ {
+  "host": "naukri.com",
+  "url": "https://naukri.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "remotehunt.in",
+  "url": "https://remotehunt.in",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "shine.com",
+  "url": "https://shine.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "todoenuno.in",
+  "url": "https://todoenuno.in",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "uplers.com",
+  "url": "https://uplers.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "worknhire.com",
+  "url": "https://worknhire.com",
+  "type": "其他",
+  "region": "印度",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "anymod.com",
+  "url": "https://anymod.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "src": "platforms_full"
+ },
+ {
+  "host": "bawaba.com",
+  "url": "https://bawaba.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "src": "platforms_full"
+ },
+ {
+  "host": "beyoot.com",
+  "url": "https://beyoot.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚪ 未测",
+  "detail": "HTTP 200",
+  "src": "platforms_full"
+ },
+ {
+  "host": "kayan.com",
+  "url": "https://kayan.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "khamsat.com",
+  "url": "https://khamsat.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "mostaql.com",
+  "url": "https://mostaql.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "HTTP 502",
+  "src": "platforms_full"
+ },
+ {
+  "host": "nabbesh.com",
+  "url": "https://nabbesh.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "talentera.com",
+  "url": "https://talentera.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 302，需跟随",
+  "src": "platforms_full"
+ },
+ {
+  "host": "tasmeemme.com",
+  "url": "https://tasmeemme.com",
+  "type": "其他",
+  "region": "中东",
+  "state": "⚠️ 待人工",
+  "detail": "重定向 301，需跟随",
+  "src": "platforms_full"
+ }
+]
