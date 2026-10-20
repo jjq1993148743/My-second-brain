@@ -1,0 +1,592 @@
+[
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$47.8K – $58.2K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$40K – $55K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$55K – $70K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$50K – $65K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$35K – $60K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$40K – $65K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$0K – $0K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$12K – $35K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$35K – $55K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$55K – $65K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$35K – $65K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$10.8K – $40K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "£43K – £53K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$50K – $80K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$30K – $48K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$70K – $80K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$145K – $160K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Full-Time (Remote, Within the U.S.)",
+  "salary": "$105K – $130K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$100K – $117K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$125K – $160K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$94.4K – $115.5K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "€40K – €55K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$125K – $170K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$21/hr – $26/hr"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$152.2K – $179K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$90K – $130K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$154.5K – $193.1K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$75K – $90K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$101K – $213K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$85K – $105K"
+ },
+ {
+  "cat": "customer-support",
+  "title": "Customer Support",
+  "salary": "$111K – $150K"
+ },
+ {
+  "cat": "data",
+  "title": "Full-time (remote)",
+  "salary": "$95.4K – $190K"
+ },
+ {
+  "cat": "data",
+  "title": "United Kingdom",
+  "salary": "£100K – £130K"
+ },
+ {
+  "cat": "data",
+  "title": "United Kingdom",
+  "salary": "£76.5K – £108.1K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$175K – $240K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$78K – $98K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$217K – $303.9K"
+ },
+ {
+  "cat": "data",
+  "title": "United States of America",
+  "salary": "$105K – $125K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$183K – $225K"
+ },
+ {
+  "cat": "data",
+  "title": "North America",
+  "salary": "$78.4K – $168K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$192.6K – $224.3K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$70K – $90K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$160K – $175K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$106.2K – $167.9K"
+ },
+ {
+  "cat": "data",
+  "title": "Engineering",
+  "salary": "$150K – $170K"
+ },
+ {
+  "cat": "design",
+  "title": "United States",
+  "salary": "$173.4K – $249.3K"
+ },
+ {
+  "cat": "design",
+  "title": "United States",
+  "salary": "$70K – $80K"
+ },
+ {
+  "cat": "design",
+  "title": "United States",
+  "salary": "$159.9K – $251.5K"
+ },
+ {
+  "cat": "design",
+  "title": "United States",
+  "salary": "$128.9K – $157.9K"
+ },
+ {
+  "cat": "devops",
+  "title": "Seattle, WA",
+  "salary": "$166K – $227.9K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$45/hr – $55/hr"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$125K – $160K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$176K – $242K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$126K – $213.6K"
+ },
+ {
+  "cat": "devops",
+  "title": "United States",
+  "salary": "$125K – $200K"
+ },
+ {
+  "cat": "devops",
+  "title": "United States",
+  "salary": "$125K – $150K"
+ },
+ {
+  "cat": "devops",
+  "title": "Customer Support",
+  "salary": "$155K – $200K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$161K – $189K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$70K – $170K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$80K – $105K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$90K – $150K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$135K – $210K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$101K – $198K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$145K – $160K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$126K – $159.6K"
+ },
+ {
+  "cat": "devops",
+  "title": "Engineering",
+  "salary": "$90K – $125K"
+ },
+ {
+  "cat": "engineering",
+  "title": "Engineering",
+  "salary": "$150K – $250K"
+ },
+ {
+  "cat": "engineering",
+  "title": "Engineering",
+  "salary": "€70K – €100K"
+ },
+ {
+  "cat": "engineering",
+  "title": "Engineering",
+  "salary": "€122K – €144K"
+ },
+ {
+  "cat": "engineering",
+  "title": "Engineering",
+  "salary": "$197K – $262.5K"
+ },
+ {
+  "cat": "engineering",
+  "title": "Engineering",
+  "salary": "$202.9K – $304.3K"
+ },
+ {
+  "cat": "engineering",
+  "title": "Engineering",
+  "salary": "$150K – $177K"
+ },
+ {
+  "cat": "engineering",
+  "title": "Engineering",
+  "salary": "$243.8K – $243.8K"
+ },
+ {
+  "cat": "engineering",
+  "title": "Engineering",
+  "salary": "$78.5K – $117.5K"
+ },
+ {
+  "cat": "finance",
+  "title": "United States",
+  "salary": "$175K – $200K"
+ },
+ {
+  "cat": "finance",
+  "title": "United States",
+  "salary": "$164.4K – $246.6K"
+ },
+ {
+  "cat": "finance",
+  "title": "United States",
+  "salary": "$70K – $120K"
+ },
+ {
+  "cat": "finance",
+  "title": "United States",
+  "salary": "$111K – $170K"
+ },
+ {
+  "cat": "finance",
+  "title": "Remote - US",
+  "salary": "$87.8K – $116.2K"
+ },
+ {
+  "cat": "finance",
+  "title": "United States (Remote)",
+  "salary": "$70K – $90K"
+ },
+ {
+  "cat": "finance",
+  "title": "United States",
+  "salary": "$120K – $140K"
+ },
+ {
+  "cat": "finance",
+  "title": "United States",
+  "salary": "$106.4K – $133K"
+ },
+ {
+  "cat": "finance",
+  "title": "United Kingdom",
+  "salary": "£165K – £200K"
+ },
+ {
+  "cat": "finance",
+  "title": "United States",
+  "salary": "$189.4K – $236.7K"
+ },
+ {
+  "cat": "finance",
+  "title": "Customer Support",
+  "salary": "$22/hr – $24/hr"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$130K – $160K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$180K – $213K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United Kingdom",
+  "salary": "£85K – £100K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$95K – $105K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$134.9K – $165K"
+ },
+ {
+  "cat": "marketing",
+  "title": "Remote (United States)",
+  "salary": "$180K – $200K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States, Remote",
+  "salary": "$113.2K – $125K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$148K – $185K"
+ },
+ {
+  "cat": "marketing",
+  "title": "Full-time- Remote",
+  "salary": "$129.9K – $172.1K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$175K – $190K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$130K – $140K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$27/hr – $43/hr"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States (Remote)",
+  "salary": "$140K – $205K"
+ },
+ {
+  "cat": "marketing",
+  "title": "United States",
+  "salary": "$81.4K – $107.9K"
+ },
+ {
+  "cat": "product",
+  "title": "United States",
+  "salary": "$137K – $180K"
+ },
+ {
+  "cat": "product",
+  "title": "US Remote- ET or CT Time Zone",
+  "salary": "$160K – $220K"
+ },
+ {
+  "cat": "product",
+  "title": "United States",
+  "salary": "$148.3K – $185.4K"
+ },
+ {
+  "cat": "product",
+  "title": "United States",
+  "salary": "$170K – $230K"
+ },
+ {
+  "cat": "product",
+  "title": "Los Angeles",
+  "salary": "$124.4K – $195.5K"
+ },
+ {
+  "cat": "sales",
+  "title": "South America",
+  "salary": "$3.1K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States",
+  "salary": "$264K – $264K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States of America",
+  "salary": "$312K – $468K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States",
+  "salary": "$226K – $270K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States",
+  "salary": "$95K – $160K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States (Remote)",
+  "salary": "$150K – $200K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States",
+  "salary": "$140K – $210K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States",
+  "salary": "$66K – $87K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States",
+  "salary": "$85K – $110K"
+ },
+ {
+  "cat": "sales",
+  "title": "United Kingdom",
+  "salary": "£91.4K – £123.6K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States",
+  "salary": "$50K – $60K"
+ },
+ {
+  "cat": "sales",
+  "title": "United States",
+  "salary": "$120K – $130K"
+ },
+ {
+  "cat": "sales",
+  "title": "Remote, USA",
+  "salary": "$389.6K – $472.6K"
+ },
+ {
+  "cat": "sales",
+  "title": "North America",
+  "salary": "$50K – $50K"
+ }
+]
