@@ -1,0 +1,101 @@
+[
+ {
+  "host": "flatironschool",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "无效域名"
+ },
+ {
+  "host": "89.106.83.95.sslip.io",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "无效域名"
+ },
+ {
+  "host": "81.70.209.246",
+  "code": "502",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "72.62.52.171",
+  "code": "502",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "203.194.112.129",
+  "code": "200",
+  "bytes": 679,
+  "title": "Site is created successfully!",
+  "jobHits": 1,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "ze",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "无效域名"
+ },
+ {
+  "host": "blog",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "无效域名"
+ },
+ {
+  "host": "146.56.217.87",
+  "code": "502",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "alili",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "无效域名"
+ },
+ {
+  "host": "localhost",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "无效域名"
+ },
+ {
+  "host": "contop.com",
+  "code": "200",
+  "bytes": 642,
+  "title": "contop.com - Coming Soon",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ }
+]
