@@ -1,0 +1,415 @@
+[
+ {
+  "host": "freelancer.com",
+  "region": "北美",
+  "verdict": "职位+金额",
+  "base": "https://www.freelancer.com",
+  "url": "https://freelancer.com"
+ },
+ {
+  "host": "gigster.com",
+  "region": "北美",
+  "verdict": "职位+金额",
+  "base": "https://gigster.com",
+  "url": "https://gigster.com"
+ },
+ {
+  "host": "soshace.com",
+  "region": "北美",
+  "verdict": "职位+金额",
+  "base": "https://soshace.com",
+  "url": "https://soshace.com"
+ },
+ {
+  "host": "toptal.com",
+  "region": "北美",
+  "verdict": "职位+金额",
+  "base": "https://www.toptal.com",
+  "url": "https://toptal.com"
+ },
+ {
+  "host": "freelancer.co.nz",
+  "region": "大洋洲",
+  "verdict": "职位+金额",
+  "base": "https://www.freelancer.co.nz",
+  "url": "https://freelancer.co.nz"
+ },
+ {
+  "host": "freelancer.com.au",
+  "region": "大洋洲",
+  "verdict": "职位+金额",
+  "base": "https://www.freelancer.com.au",
+  "url": "https://freelancer.com.au"
+ },
+ {
+  "host": "m.fastwork.id",
+  "region": "东南亚",
+  "verdict": "项目特征",
+  "base": "https://fastwork.id",
+  "url": "https://m.fastwork.id"
+ },
+ {
+  "host": "sribu.com",
+  "region": "东南亚",
+  "verdict": "职位列表",
+  "base": "https://www.sribu.com/en",
+  "url": "https://sribu.com"
+ },
+ {
+  "host": "workana.com",
+  "region": "东南亚",
+  "verdict": "职位+金额",
+  "base": "https://www.workana.com",
+  "url": "https://workana.com"
+ },
+ {
+  "host": "fl.ru",
+  "region": "俄罗斯",
+  "verdict": "项目特征",
+  "base": "https://www.fl.ru",
+  "url": "https://fl.ru"
+ },
+ {
+  "host": "workana.com.br",
+  "region": "拉美",
+  "verdict": "职位+金额",
+  "base": "https://www.workana.com",
+  "url": "https://workana.com.br"
+ },
+ {
+  "host": "workana.mx",
+  "region": "拉美",
+  "verdict": "职位+金额",
+  "base": "https://www.workana.com",
+  "url": "https://workana.mx"
+ },
+ {
+  "host": "codeur.com",
+  "region": "欧洲",
+  "verdict": "项目特征",
+  "base": "https://www.codeur.com",
+  "url": "https://codeur.com"
+ },
+ {
+  "host": "twago.de",
+  "region": "欧洲",
+  "verdict": "职位列表",
+  "base": "https://www.talent-pool.com",
+  "url": "https://twago.de"
+ },
+ {
+  "host": "useme.com",
+  "region": "欧洲",
+  "verdict": "职位+金额",
+  "base": "https://useme.com/en",
+  "url": "https://useme.com"
+ },
+ {
+  "host": "useme.eu",
+  "region": "欧洲",
+  "verdict": "职位+金额",
+  "base": "https://useme.com:443/en",
+  "url": "https://useme.eu"
+ },
+ {
+  "host": "useme.pl",
+  "region": "欧洲",
+  "verdict": "职位+金额",
+  "base": "https://useme.com:443/en",
+  "url": "https://useme.pl"
+ },
+ {
+  "host": "workana.es",
+  "region": "欧洲",
+  "verdict": "职位+金额",
+  "base": "https://www.workana.com",
+  "url": "https://workana.es"
+ },
+ {
+  "host": "104.com.tw",
+  "region": "台湾",
+  "verdict": "SPA需JS",
+  "base": "https://www.104.com.tw",
+  "url": "https://104.com.tw"
+ },
+ {
+  "host": "freelancer.in",
+  "region": "印度",
+  "verdict": "职位+金额",
+  "base": "https://www.freelancer.in",
+  "url": "https://freelancer.in"
+ },
+ {
+  "host": "turing.com",
+  "region": "印度",
+  "verdict": "项目特征",
+  "base": "https://www.turing.com/talent",
+  "url": "https://turing.com"
+ },
+ {
+  "host": "bugcrowd.com",
+  "region": "全球/未分类",
+  "verdict": "项目特征",
+  "base": "https://www.bugcrowd.com",
+  "url": "https://bugcrowd.com"
+ },
+ {
+  "host": "hackerone.com",
+  "region": "全球/未分类",
+  "verdict": "职位列表",
+  "base": "https://www.hackerone.com",
+  "url": "https://hackerone.com"
+ },
+ {
+  "host": "intigriti.com",
+  "region": "全球/未分类",
+  "verdict": "项目特征",
+  "base": "https://www.intigriti.com",
+  "url": "https://intigriti.com"
+ },
+ {
+  "host": "issuehunt.io",
+  "region": "全球/未分类",
+  "verdict": "项目特征",
+  "base": "https://issuehunt.io",
+  "url": "https://issuehunt.io"
+ },
+ {
+  "host": "codecanyon.net",
+  "region": "全球/未分类",
+  "verdict": "职位+金额",
+  "base": "https://codecanyon.net",
+  "url": "https://codecanyon.net"
+ },
+ {
+  "host": "paddle.com",
+  "region": "全球/未分类",
+  "verdict": "职位+金额",
+  "base": "https://www.paddle.com",
+  "url": "https://paddle.com"
+ },
+ {
+  "host": "themeforest.net",
+  "region": "全球/未分类",
+  "verdict": "职位+金额",
+  "base": "https://themeforest.net",
+  "url": "https://themeforest.net"
+ },
+ {
+  "host": "dice.com",
+  "region": "北美",
+  "verdict": "职位列表",
+  "base": "https://www.dice.com",
+  "url": "https://dice.com"
+ },
+ {
+  "host": "solidgigs.com",
+  "region": "北美",
+  "verdict": "职位+金额",
+  "base": "https://solidgigs.com",
+  "url": "https://solidgigs.com"
+ },
+ {
+  "host": "taskrabbit.com",
+  "region": "北美",
+  "verdict": "职位+金额",
+  "base": "https://www.taskrabbit.com:443",
+  "url": "https://taskrabbit.com"
+ },
+ {
+  "host": "ziprecruiter.com",
+  "region": "北美",
+  "verdict": "SPA需JS",
+  "base": "https://www.ziprecruiter.ie",
+  "url": "https://ziprecruiter.com"
+ },
+ {
+  "host": "nofluffjobs.com",
+  "region": "大洋洲",
+  "verdict": "职位+金额",
+  "base": "https://nofluffjobs.com",
+  "url": "https://nofluffjobs.com"
+ },
+ {
+  "host": "onsite.com.au",
+  "region": "大洋洲",
+  "verdict": "职位列表",
+  "base": "https://www.onsite.com.au",
+  "url": "https://onsite.com.au"
+ },
+ {
+  "host": "kalibrr.com",
+  "region": "东南亚",
+  "verdict": "职位+金额",
+  "base": "https://www.kalibrr.com/home",
+  "url": "https://kalibrr.com"
+ },
+ {
+  "host": "djinni.co",
+  "region": "俄罗斯",
+  "verdict": "职位+金额",
+  "base": "https://djinni.co/hire",
+  "url": "https://djinni.co"
+ },
+ {
+  "host": "kwork.ru",
+  "region": "俄罗斯",
+  "verdict": "SPA需JS",
+  "base": "https://kwork.ru",
+  "url": "https://kwork.ru"
+ },
+ {
+  "host": "jobberman.com",
+  "region": "非洲",
+  "verdict": "职位+金额",
+  "base": "https://www.jobberman.com",
+  "url": "https://jobberman.com"
+ },
+ {
+  "host": "olx.co.ke",
+  "region": "非洲",
+  "verdict": "SPA需JS",
+  "base": "https://olx.com:443",
+  "url": "https://olx.co.ke"
+ },
+ {
+  "host": "latinhire.com",
+  "region": "拉美",
+  "verdict": "职位列表",
+  "base": "https://www.latinhire.com",
+  "url": "https://latinhire.com"
+ },
+ {
+  "host": "comet.co",
+  "region": "欧洲",
+  "verdict": "项目特征",
+  "base": "https://www.comet.co",
+  "url": "https://comet.co"
+ },
+ {
+  "host": "free-work.com",
+  "region": "欧洲",
+  "verdict": "项目特征",
+  "base": "https://www.free-work.com:443/fr/tech-it",
+  "url": "https://free-work.com"
+ },
+ {
+  "host": "freelance.de",
+  "region": "欧洲",
+  "verdict": "职位列表",
+  "base": "https://www.freelance.de",
+  "url": "https://freelance.de"
+ },
+ {
+  "host": "freelance.es",
+  "region": "欧洲",
+  "verdict": "项目特征",
+  "base": "https://freelance.es",
+  "url": "https://freelance.es"
+ },
+ {
+  "host": "freelance.nl",
+  "region": "欧洲",
+  "verdict": "项目特征",
+  "base": "https://www.freelance.nl",
+  "url": "https://freelance.nl"
+ },
+ {
+  "host": "gulp.de",
+  "region": "欧洲",
+  "verdict": "职位列表",
+  "base": "https://www.gulp.de",
+  "url": "https://gulp.de"
+ },
+ {
+  "host": "hays.de",
+  "region": "欧洲",
+  "verdict": "职位列表",
+  "base": "https://www.hays.de",
+  "url": "https://hays.de"
+ },
+ {
+  "host": "hoofdkraan.nl",
+  "region": "欧洲",
+  "verdict": "项目特征",
+  "base": "https://www.hoofdkraan.nl",
+  "url": "https://hoofdkraan.nl"
+ },
+ {
+  "host": "justjoin.it",
+  "region": "欧洲",
+  "verdict": "职位+金额",
+  "base": "https://justjoin.it",
+  "url": "https://justjoin.it"
+ },
+ {
+  "host": "laotop.fr",
+  "region": "欧洲",
+  "verdict": "项目特征",
+  "base": "https://www.laotop.fr",
+  "url": "https://laotop.fr"
+ },
+ {
+  "host": "worksome.co.uk",
+  "region": "欧洲",
+  "verdict": "职位+金额",
+  "base": "https://www.worksome.com",
+  "url": "https://worksome.co.uk"
+ },
+ {
+  "host": "codechef.com",
+  "region": "印度",
+  "verdict": "职位+金额",
+  "base": "https://www.codechef.com",
+  "url": "https://codechef.com"
+ },
+ {
+  "host": "cutshort.io",
+  "region": "印度",
+  "verdict": "职位+金额",
+  "base": "https://cutshort.io",
+  "url": "https://cutshort.io"
+ },
+ {
+  "host": "hackerrank.com",
+  "region": "印度",
+  "verdict": "职位列表",
+  "base": "https://www.hackerrank.com:443",
+  "url": "https://hackerrank.com"
+ },
+ {
+  "host": "instahyre.com",
+  "region": "印度",
+  "verdict": "职位列表",
+  "base": "https://www.instahyre.com",
+  "url": "https://instahyre.com"
+ },
+ {
+  "host": "internshala.com",
+  "region": "印度",
+  "verdict": "职位+金额",
+  "base": "https://internshala.com",
+  "url": "https://internshala.com"
+ },
+ {
+  "host": "shine.com",
+  "region": "印度",
+  "verdict": "职位+金额",
+  "base": "https://www.shine.com",
+  "url": "https://shine.com"
+ },
+ {
+  "host": "uplers.com",
+  "region": "印度",
+  "verdict": "职位+金额",
+  "base": "https://www.uplers.com",
+  "url": "https://uplers.com"
+ },
+ {
+  "host": "nabbesh.com",
+  "region": "中东",
+  "verdict": "SPA需JS",
+  "base": "https://ww38.nabbesh.com",
+  "url": "https://nabbesh.com"
+ }
+]

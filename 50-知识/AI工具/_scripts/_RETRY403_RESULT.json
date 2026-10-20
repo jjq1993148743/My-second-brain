@@ -1,0 +1,302 @@
+[
+ {
+  "host": "gun.io",
+  "code": "403",
+  "finalUrl": "https://gun.io/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "guru.com",
+  "code": "200",
+  "finalUrl": "https://www.guru.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "airtasker.com",
+  "code": "403",
+  "finalUrl": "https://www.airtasker.com/au/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "freelancehunt.com",
+  "code": "200",
+  "finalUrl": "https://freelancehunt.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "soomgo.com",
+  "code": "403",
+  "finalUrl": "https://soomgo.com/",
+  "bytes": 520,
+  "title": "403 Forbidden",
+  "textLen": 27,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "wishket.com",
+  "code": "403",
+  "finalUrl": "https://wishket.com/",
+  "bytes": 520,
+  "title": "403 Forbidden",
+  "textLen": 27,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "malt.de",
+  "code": "200",
+  "finalUrl": "https://www.malt.de/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "malt.es",
+  "code": "200",
+  "finalUrl": "https://www.malt.es/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "malt.fr",
+  "code": "200",
+  "finalUrl": "https://www.malt.fr/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "truelancer.com",
+  "code": "429",
+  "finalUrl": "https://truelancer.com/",
+  "bytes": 34220,
+  "title": "Vercel Security Checkpoint",
+  "textLen": 3034,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "upwork.in",
+  "code": "200",
+  "finalUrl": "https://www.upwork.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "creativemarket.com",
+  "code": "200",
+  "finalUrl": "https://creativemarket.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "etsy.com",
+  "code": "403",
+  "finalUrl": "https://www.etsy.com/",
+  "bytes": 776,
+  "title": "etsy.com",
+  "textLen": 137,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "angi.com",
+  "code": "403",
+  "finalUrl": "https://www.angi.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "homeadvisor.com",
+  "code": "000",
+  "finalUrl": "https://www.homeadvisor.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "indeed.com",
+  "code": "000",
+  "finalUrl": "https://www.indeed.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "oneflare.com.au",
+  "code": "000",
+  "finalUrl": "https://www.airtasker.com/?of-redirect=true&domain=oneflare.com.au",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "jobstreet.com",
+  "code": "000",
+  "finalUrl": "https://jobstreet.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "topcv.vn",
+  "code": "403",
+  "finalUrl": "https://topcv.vn/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "vlance.vn",
+  "code": "403",
+  "finalUrl": "https://vlance.vn/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "dou.ua",
+  "code": "403",
+  "finalUrl": "https://dou.ua/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "rabota.ua",
+  "code": "000",
+  "finalUrl": "https://robota.ua/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "fuzu.com",
+  "code": "403",
+  "finalUrl": "https://fuzu.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "jiji.co.ke",
+  "code": "403",
+  "finalUrl": "https://jiji.co.ke/",
+  "bytes": 3465,
+  "title": "Just a moment...",
+  "textLen": 511,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "myjobmag.com",
+  "code": "403",
+  "finalUrl": "https://myjobmag.com/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "99freelas.com.br",
+  "code": "403",
+  "finalUrl": "https://99freelas.com.br/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "trabajando.cl",
+  "code": "403",
+  "finalUrl": "https://www.trabajando.cl/",
+  "bytes": 369,
+  "title": "Access Denied",
+  "textLen": 289,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "yapo.cl",
+  "code": "403",
+  "finalUrl": "https://yapo.cl/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "pracuj.pl",
+  "code": "403",
+  "finalUrl": "https://www.pracuj.pl/",
+  "bytes": 0,
+  "title": "",
+  "textLen": 0,
+  "jobHits": 0,
+  "money": 0
+ },
+ {
+  "host": "hackerearth.com",
+  "code": "403",
+  "finalUrl": "https://hackerearth.com/",
+  "bytes": 1301,
+  "title": "HackerEarth Guardian",
+  "textLen": 619,
+  "jobHits": 0,
+  "money": 0
+ }
+]
