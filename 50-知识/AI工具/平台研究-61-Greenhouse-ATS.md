@@ -3,10 +3,10 @@ date: 2026-10-20
 tags: [工作, 平台研究, Greenhouse, ATS, 重大发现]
 ---
 
-# 平台研究 #61 · Greenhouse ATS 公开 API【2,716 条】
+# 平台研究 #61 · Greenhouse ATS 公开 API【5,881 条 · 扩充版】
 
-> **重大发现：Greenhouse 的招聘 API 完全公开，无需登录。**
-> **单次抓取 9 家公司得 2,716 条真实职位（含 Stripe、Databricks、GitLab 等）。**
+> **从 2,716 条扩充到 5,881 条（24 家公司）。**
+> **这是整个研究中数据量最大的单一来源。**
 
 ## 一、API 方式
 
@@ -16,132 +16,134 @@ https://boards-api.greenhouse.io/v1/boards/{company}/jobs
 
 | 项 | 内容 |
 |---|---|
-| 需要登录 | ❌ 不需要 |
-| 需要渲染 | ❌ 不需要（纯 JSON） |
-| 单公司上限 | Databricks 899 条 |
+| 登录 | 不需要 |
+| 渲染 | 不需要（纯 JSON） |
 | 字段 | id/title/location/updated_at |
+| 已采集公司 | **24 家** |
 
-## 二、⭐ 采集结果
+## 二、采集结果：24 家公司 5,881 条
 
-| 公司 | 职位数 |
-|---|---|
-| **databricks** | **899** |
-| **stripe** | **724** |
-| **gitlab** | **228** |
-| **coinbase** | **227** |
-| **airbnb** | **177** |
-| **robinhood** | **151** |
-| **figma** | **141** |
-| **instacart** | **123** |
-| **discord** | **46** |
-| **合计** | **2,716** |
+| 排名 | 公司 | 职位数 |
+|---|---|---|
+| 1 | **databricks** | **899** |
+| 2 | **stripe** | **724** |
+| 3 | **cloudflare** | **436** |
+| 4 | **datadog** | **431** |
+| 5 | **mongodb** | **394** |
+| 6 | **elastic** | **377** |
+| 7 | **samsara** | **265** |
+| 8 | **brex** | **261** |
+| 9 | **gitlab** | **228** |
+| 10 | **coinbase** | **227** |
+| 11 | **affirm** | **215** |
+| 12 | **lyft** | **184** |
+| 13 | **airbnb** | **177** |
+| 14 | **pinterest** | **155** |
+| 15 | **reddit** | **153** |
+| 16 | **robinhood** | **151** |
+| 17 | **figma** | **141** |
+| 18 | **instacart** | **123** |
+| 19 | **gusto** | **101** |
+| 20 | **chime** | **71** |
+| 21 | **twitch** | **54** |
+| 22 | **sofi** | **50** |
+| 23 | **discord** | **46** |
+| 24 | **dropbox** | **18** |
+| | **合计** | **5,881** |
 
-## 三、⭐ 数据质量（最好的之一）
+## 三、数据质量（最好）
 
 | 指标 | 数值 |
 |---|---|
-| **7 天内更新** | **1,005 条（37%）** |
-| 30 天内更新 | **2,569 条（95%）** |
-| **中位已挂** | **12 天** |
-| 远程职位 | 734 条（27%） |
+| **7 天内更新** | **2,727 条（46%）** |
+| **30 天内更新** | **5,523 条（94%）** |
+| **中位已挂** | **10 天** |
+| 远程职位 | **1,446 条（25%）** |
 
-**95% 的职位在 30 天内更新 → 数据极新。**
+**46% 的职位在 7 天内更新，这是所有数据源里最新鲜的。**
 
 ## 四、技术方向分布
 
 | 方向 | 数量 | 占比 |
 |---|---|---|
-| Engineer | 970 | 36% |
-| Sales | 382 | 14% |
-| Infra/DevOps | 224 | 8% |
-| AI/ML | 185 | 7% |
-| Data | 170 | 6% |
-| Design | 142 | 5% |
-| Product | 114 | 4% |
-| Security | 79 | 3% |
+| Engineer | 2240 | 38% |
+| Sales | 964 | 16% |
+| Infra/DevOps | 444 | 8% |
+| AI/ML | 412 | 7% |
+| Data | 347 | 6% |
+| Design | 280 | 5% |
+| Product | 266 | 5% |
+| Security | 227 | 4% |
 
-## 五、⭐⭐ 与其他招聘源对比
+**Engineer 占 38%，Sales 占 16%。**
 
-| 源 | 样本 | 7 天内 | 远程 | API |
-|---|---|---|---|---|
-| **Greenhouse** | **2,716** | **37%** | 27% | ✅ |
-| Ashby | 1,330 | 8% | **67%** | ✅ |
-| Arbeitnow+Jobicy | 2,676 | 未知 | 未知 | ✅ |
-| HN Who is hiring | 742 | 当月 | 未知 | ✅ |
-| Himalayas | 264 | 未知 | 未知 | ✅ |
+## 五、与所有其他数据源对比
 
-**Greenhouse 的数据量和新鲜度都是最好的。**
+| 源 | 样本 | 7 天内 | 数据质量 |
+|---|---|---|---|
+| **Greenhouse** | **5,881** | **46%** | ⭐⭐⭐⭐⭐ |
+| Arbeitnow+Jobicy | 2,676 | 未知 | ⭐⭐⭐ |
+| Ashby | 1,330 | 8% | ⭐⭐⭐⭐ |
+| HN Who is hiring | 742 | 当月 | ⭐⭐⭐ |
+| Himalayas | 264 | 未知 | ⭐⭐⭐⭐⭐ |
+| 所有接单平台合计 | 6,091 | — | — |
 
-## 六、⭐ 为什么这个发现重要
+**Greenhouse 单一来源 5,881 条，接近所有接单平台的总和 6,091 条。**
 
-### 1. 数据量爆炸
+## 六、无限扩展性
 
-| 项 | 数量 |
-|---|---|
-| 已采集 | **2,716** |
-| 可扩展公司数 | 数千家（Greenhouse 客户） |
-| **理论总量** | **数十万条** |
+### 失败的公司
 
-**这是唯一一个「数据量几乎无限」的源。**
+`hashicorp` `confluent` `benchling` `plaid`，可能不用 Greenhouse 或公司名不对。
 
-### 2. 全是真实公司
+### 如何找到更多公司
 
-| 公司 | 类型 |
-|---|---|
-| Stripe | 支付巨头 |
-| Databricks | 数据平台独角兽 |
-| GitLab | 全远程公司 |
-| Coinbase | 加密货币 |
-| Airbnb | 共享住宿 |
-| Figma | 设计工具 |
-
-**都是知名科技公司，不是虚假招聘。**
-
-### 3. 新鲜度极高
-
-**95% 在 30 天内更新，中位 12 天。**
-
-## 七、⭐ 实用价值
-
-### 可以直接做的事
-
-| 动作 | 说明 |
-|---|---|
-| 找远程工作 | 734 条远程职位 |
-| 按技术栈筛选 | Engineer 970 条、AI/ML 185 条 |
-| 按公司筛选 | 9 家已采集，可加更多 |
-
-### 扩展方法
-
-```javascript
-// 只需换公司名
-const companies = ['stripe','airbnb','doordash','instacart',...];
-for (const c of companies) {
-  const res = await fetch(`https://boards-api.greenhouse.io/v1/boards/${c}/jobs`);
-  const { jobs } = await res.json();
-  // 处理 jobs
-}
+```
+方法 1：Google 搜 site:boards.greenhouse.io
+方法 2：看目标公司招聘页 URL 是否含 boards.greenhouse.io
+方法 3：GitHub 上有公开的 Greenhouse 公司列表仓库
 ```
 
-**如何找到公司名：**
-1. 看招聘页面 URL 是否含 `boards.greenhouse.io/{company}`
-2. 或用 Google 搜 `site:boards.greenhouse.io`
+**Greenhouse 官方客户数千家，理论总量数十万条。**
+
+## 七、实用价值
+
+| 动作 | 数据支撑 |
+|---|---|
+| **找远程工作** | 1,446 条远程职位 |
+| 按技术栈筛 | Engineer 2,240 条、AI/ML 412 条 |
+| 按公司筛 | 24 家已采集 |
+| 按新鲜度筛 | 46% 是 7 天内的 |
+
+### 代码模板
+
+```javascript
+const companies = ['stripe','databricks','cloudflare'];
+const all = [];
+for (const c of companies) {
+  const res = await fetch(url(c));
+  const { jobs } = await res.json();
+  all.push(...jobs);
+  await new Promise(r => setTimeout(r, 1100));
+}
+```
 
 ## 八、结论
 
 | 维度 | 评分 |
 |---|---|
-| 数据量 | ⭐⭐⭐⭐⭐（2,716 且可无限扩） |
-| 新鲜度 | ⭐⭐⭐⭐⭐（95% 在 30 天内） |
+| 数据量 | ⭐⭐⭐⭐⭐（5,881 且可无限扩） |
+| 新鲜度 | ⭐⭐⭐⭐⭐（46% 在 7 天内） |
 | 数据质量 | ⭐⭐⭐⭐⭐（100% 完整） |
 | 获取难度 | ⭐⭐⭐⭐⭐（纯 API 无鉴权） |
 | **综合** | **⭐⭐⭐⭐⭐** |
 
-**这是本次研究中最有价值的发现。**
+**这是本次研究最重大的发现：可无限扩展、完全免费、无鉴权、数据极新的真实职位源。**
 
 ## 九、数据
 
 | 文件 | 内容 |
 |---|---|
-| `_greenhouse_jobs.json` | **2,716 条**（company/id/title/loc/updated） |
-| `_gh_scrape.mjs` | 抓取脚本 |
+| `_greenhouse_jobs.json` | **5,881 条**（24 家公司） |
+| `_gh_scrape.mjs` | 首次抓取 |
+| `_gh_expand.mjs` | 扩充脚本 |
