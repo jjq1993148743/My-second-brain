@@ -1,0 +1,102 @@
+[
+ {
+  "t": "mx",
+  "ok": true,
+  "size": 50,
+  "overlap": 0
+ },
+ {
+  "t": "cl",
+  "ok": true,
+  "size": 50,
+  "overlap": 0
+ },
+ {
+  "t": "co",
+  "ok": false
+ },
+ {
+  "t": "pe",
+  "ok": false
+ },
+ {
+  "t": "ar",
+  "ok": false
+ },
+ {
+  "t": "br",
+  "ok": false
+ },
+ {
+  "t": "fr",
+  "ok": false
+ },
+ {
+  "t": "it",
+  "ok": false
+ },
+ {
+  "t": "ru",
+  "ok": false
+ },
+ {
+  "t": "kr",
+  "ok": false
+ },
+ {
+  "t": "tw",
+  "ok": false
+ },
+ {
+  "t": "my",
+  "ok": false
+ },
+ {
+  "t": "id",
+  "ok": false
+ },
+ {
+  "t": "th",
+  "ok": false
+ },
+ {
+  "t": "vn",
+  "ok": false
+ },
+ {
+  "t": "tr",
+  "ok": false
+ },
+ {
+  "t": "ro",
+  "ok": false
+ },
+ {
+  "t": "il",
+  "ok": false
+ },
+ {
+  "t": "ae",
+  "ok": false
+ },
+ {
+  "t": "sa",
+  "ok": false
+ },
+ {
+  "t": "eg",
+  "ok": false
+ },
+ {
+  "t": "za",
+  "ok": false
+ },
+ {
+  "t": "ng",
+  "ok": false
+ },
+ {
+  "t": "ke",
+  "ok": false
+ }
+]
