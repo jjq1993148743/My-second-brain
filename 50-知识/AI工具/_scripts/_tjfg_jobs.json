@@ -1,0 +1,608 @@
+[
+ {
+  "id": "36943",
+  "title": "Director, Business Development",
+  "company": "Intertribal Software",
+  "salary": "$80K - $90K"
+ },
+ {
+  "id": "37033",
+  "title": "Senior Software Engineer",
+  "company": "TrueMark",
+  "salary": "$140K - $190K"
+ },
+ {
+  "id": "36946",
+  "title": "Senior Product Design Team Lead",
+  "company": "Art of Problem Solving",
+  "salary": "$139K - $171K"
+ },
+ {
+  "id": "36947",
+  "title": "Software Engineer (Early Career)",
+  "company": "Constructive Dialogue Institute",
+  "salary": "$72K - $82K"
+ },
+ {
+  "id": "36715",
+  "title": "Data Analyst (Entry-Level)",
+  "company": "Recidiviz",
+  "salary": "$85K"
+ },
+ {
+  "id": "36926",
+  "title": "Senior Software Engineer (Full-stack)",
+  "company": "Swiftly",
+  "salary": "$130K - $210K"
+ },
+ {
+  "id": "36883",
+  "title": "Software Engineer",
+  "company": "Schoolhouse.world",
+  "salary": "$167K - $207K"
+ },
+ {
+  "id": "36910",
+  "title": "Data &amp; Customer Success, Senior Specialist",
+  "company": "Grounded Solutions Network",
+  "salary": "$75K - $85K"
+ },
+ {
+  "id": "36927",
+  "title": "Senior Software Engineer (IoT)",
+  "company": "Swiftly",
+  "salary": "$124K - $205K"
+ },
+ {
+  "id": "36495",
+  "title": "Product Manager",
+  "company": "Local Public",
+  "salary": "$100K - $110K"
+ },
+ {
+  "id": "36786",
+  "title": "Senior Manager, Qualitative Evaluation and Insights",
+  "company": "Constructive Dialogue Institute",
+  "salary": "$101K - $113K"
+ },
+ {
+  "id": "36909",
+  "title": "Lead Software Engineer, AI-Native",
+  "company": "FreeWill",
+  "salary": "$190K - $210K"
+ },
+ {
+  "id": "36491",
+  "title": "Data Operations Analyst",
+  "company": "Holly",
+  "salary": "$80K - $110K"
+ },
+ {
+  "id": "36908",
+  "title": "Product Manager, Academy Products",
+  "company": "NAF",
+  "salary": "$94K"
+ },
+ {
+  "id": "36714",
+  "title": "Product Manager, School Operations",
+  "company": "Art of Problem Solving",
+  "salary": "$120K - $180K"
+ },
+ {
+  "id": "36800",
+  "title": "Senior/Staff Software Engineer",
+  "company": "Pear Suite",
+  "salary": "$120K - $170K"
+ },
+ {
+  "id": "36679",
+  "title": "Platform Integrity Engineer",
+  "company": "Open Review Foundation",
+  "salary": "$145K - $200K"
+ },
+ {
+  "id": "36745",
+  "title": "AI Engineer",
+  "company": "Charity Navigator",
+  "salary": "$105K - $125K"
+ },
+ {
+  "id": "37010",
+  "title": "Senior Software Engineer",
+  "company": "Exygy",
+  "salary": "$112K - $140K"
+ },
+ {
+  "id": "36645",
+  "title": "Senior Software Engineer, Applied AI",
+  "company": "Teachstone",
+  "salary": "$160K - $180K"
+ },
+ {
+  "id": "36370",
+  "title": "Director of Product",
+  "company": "Recidiviz",
+  "salary": "$201K"
+ },
+ {
+  "id": "36611",
+  "title": "Software Engineer",
+  "company": "Cypress Creek Renewables",
+  "salary": "$120K - $150K"
+ },
+ {
+  "id": "36493",
+  "title": "Director, Data &amp; Integration Services",
+  "company": "Environmental Defense Fund",
+  "salary": "$152K - $162K"
+ },
+ {
+  "id": "36907",
+  "title": "Product Manager, Expansion Products",
+  "company": "NAF",
+  "salary": "$94K"
+ },
+ {
+  "id": "36716",
+  "title": "State Partnerships Manager",
+  "company": "Recidiviz",
+  "salary": "$118K - $138K"
+ },
+ {
+  "id": "36369",
+  "title": "Business Systems Engineer",
+  "company": "American College of Lifestyle Medicine",
+  "salary": "$110K - $120K"
+ },
+ {
+  "id": "36472",
+  "title": "Data Analyst II",
+  "company": "Education Analytics",
+  "salary": "$72K - $84K"
+ },
+ {
+  "id": "36534",
+  "title": "Digital Resource Manager",
+  "company": "Faunalytics",
+  "salary": "$69K"
+ },
+ {
+  "id": "36720",
+  "title": "Engineering Manager",
+  "company": "Maisha Meds",
+  "salary": "$90K - $160K"
+ },
+ {
+  "id": "36665",
+  "title": "Associate Director of Marketing Cloud",
+  "company": "University of Tennessee Foundation, Inc (UTFI)",
+  "salary": "$60K - $70K"
+ },
+ {
+  "id": "36696",
+  "title": "Business Systems and AI Engineer",
+  "company": "Alfred P. Sloan Foundation",
+  "salary": "$155K - $175K"
+ },
+ {
+  "id": "36906",
+  "title": "Senior Data Marketing Solution Analyst",
+  "company": "CDP Community",
+  "salary": "$80K - $95K"
+ },
+ {
+  "id": "36289",
+  "title": "Associate Director, Responsible AI Solutions",
+  "company": "Ford Foundation",
+  "salary": "$181K - $202K"
+ },
+ {
+  "id": "36535",
+  "title": "Senior Manager, Insights and Analytics",
+  "company": "StriveTogether",
+  "salary": "$83K - $93K"
+ },
+ {
+  "id": "36614",
+  "title": "Senior Full Stack Engineer",
+  "company": "Housing Connector",
+  "salary": "$140K - $170K"
+ },
+ {
+  "id": "36752",
+  "title": "Staff Product Manager, Fleet Software",
+  "company": "ChargePoint",
+  "salary": "$178K - $242K"
+ },
+ {
+  "id": "36570",
+  "title": "Principal Product Manager (Content Authoring, Delivery &amp; CMS)",
+  "company": "Great Minds",
+  "salary": "$151K - $170K"
+ },
+ {
+  "id": "36615",
+  "title": "Senior Product Designer",
+  "company": "Housing Connector",
+  "salary": "$125K - $150K"
+ },
+ {
+  "id": "36583",
+  "title": "Technical Project Manager",
+  "company": "Simons Foundation",
+  "salary": "$120K - $140K"
+ },
+ {
+  "id": "36288",
+  "title": "Founding Designer",
+  "company": "Concourse",
+  "salary": "$120K - $160K"
+ },
+ {
+  "id": "36473",
+  "title": "Data Analyst II-Business Analyst Focus",
+  "company": "Education Analytics",
+  "salary": "$72K - $84K"
+ },
+ {
+  "id": "36424",
+  "title": "Senior Project Manager",
+  "company": "CDP Community",
+  "salary": "$70K - $80K"
+ },
+ {
+  "id": "37008",
+  "title": "Product Manager (Clinical Workflows)",
+  "company": "Flatiron Health",
+  "salary": "$136K - $187K"
+ },
+ {
+  "id": "36497",
+  "title": "Software Developer I (ITSA)",
+  "company": "City of St. Louis",
+  "salary": "$55K - $82K"
+ },
+ {
+  "id": "36492",
+  "title": "Graphic Design Artist I",
+  "company": "Art of Problem Solving",
+  "salary": "$65K - $75K"
+ },
+ {
+  "id": "36925",
+  "title": "Associate Product Manager, Rosetta Stone",
+  "company": "IXL Learning",
+  "salary": "$105K - $140K"
+ },
+ {
+  "id": "36569",
+  "title": "Senior Web Developer",
+  "company": "Great Minds",
+  "salary": "$104K - $114K"
+ },
+ {
+  "id": "36797",
+  "title": "Senior Director of Information Technology",
+  "company": "Center Theatre Group",
+  "salary": "$180K - $200K"
+ },
+ {
+  "id": "36759",
+  "title": "Senior Software Engineer, Provider Engagement",
+  "company": "Zocdoc",
+  "salary": "$173K - $221K"
+ },
+ {
+  "id": "36290",
+  "title": "Manager, Digital and Social Media",
+  "company": "Arnold Ventures",
+  "salary": "$105K - $140K"
+ },
+ {
+  "id": "36531",
+  "title": "Assistant Director of Information Technology &amp; Operations",
+  "company": "Oakland Housing Authority",
+  "salary": "$172K - $200K"
+ },
+ {
+  "id": "37006",
+  "title": "Director of Product Management, Payments",
+  "company": "Guild",
+  "salary": "$220K - $270K"
+ },
+ {
+  "id": "36609",
+  "title": "Product Lead",
+  "company": "Think of Us",
+  "salary": "$150K - $180K"
+ },
+ {
+  "id": "36754",
+  "title": "Principal Product Designer, Provider Platform",
+  "company": "Zocdoc",
+  "salary": "$170K - $260K"
+ },
+ {
+  "id": "36880",
+  "title": "Software Engineering Manager – Developer Productivity",
+  "company": "Zipline",
+  "salary": "$182K - $230K"
+ },
+ {
+  "id": "36756",
+  "title": "Senior Site Reliability Engineer",
+  "company": "Zocdoc",
+  "salary": "$180K - $220K"
+ },
+ {
+  "id": "36887",
+  "title": "Product Manager, District Integrations",
+  "company": "IXL Learning",
+  "salary": "$130K - $180K"
+ },
+ {
+  "id": "36725",
+  "title": "Advocacy Technology Manager",
+  "company": "AARP",
+  "salary": "$104K - $115K"
+ },
+ {
+  "id": "36266",
+  "title": "Product Manager",
+  "company": "CDP Community",
+  "salary": "$92K - $110K"
+ },
+ {
+  "id": "36366",
+  "title": "Technical Lead, Web Content Management Systems (WCMS)",
+  "company": "NYC Office of Technology and Innovation",
+  "salary": "$68K - $155K"
+ },
+ {
+  "id": "36608",
+  "title": "Director of Data &amp; AI",
+  "company": "Think of Us",
+  "salary": "$150K - $180K"
+ },
+ {
+  "id": "36757",
+  "title": "Staff Software Engineer, Marketplace Insurance",
+  "company": "Zocdoc",
+  "salary": "$180K - $270K"
+ },
+ {
+  "id": "36581",
+  "title": "Senior Data Analyst",
+  "company": "City of Philadelphia",
+  "salary": "$110K"
+ },
+ {
+  "id": "36610",
+  "title": "Lead Product &amp; UX Designer",
+  "company": "Think of Us",
+  "salary": "$150K - $180K"
+ },
+ {
+  "id": "37007",
+  "title": "Senior Director of Engineering, Technical Platform",
+  "company": "Flatiron Health",
+  "salary": "$236K - $324K"
+ },
+ {
+  "id": "36886",
+  "title": "Product Manager, Education.com",
+  "company": "IXL Learning",
+  "salary": "$130K - $180K"
+ },
+ {
+  "id": "36582",
+  "title": "Executive Director / President",
+  "company": "Code for Science &amp; Society",
+  "salary": "$225K - $250K"
+ },
+ {
+  "id": "37009",
+  "title": "Public Sector Growth Lead",
+  "company": "Exygy",
+  "salary": "$120K - $160K"
+ },
+ {
+  "id": "36884",
+  "title": "IXL Associate Product Manager",
+  "company": "IXL Learning",
+  "salary": "$105K - $140K"
+ },
+ {
+  "id": "36532",
+  "title": "2027 Tarbell Fellowship",
+  "company": "The Tarbell Center for AI Journalism",
+  "salary": "$75K - $135K"
+ },
+ {
+  "id": "36885",
+  "title": "Associate Digital Designer",
+  "company": "IXL Learning",
+  "salary": "$71K - $95K"
+ },
+ {
+  "id": "36613",
+  "title": "Senior/Staff Data Engineer",
+  "company": "Charlie Health",
+  "salary": "$175K - $255K"
+ },
+ {
+  "id": "36612",
+  "title": "Staff Software Engineer",
+  "company": "Redwood Materials",
+  "salary": "$218K - $288K"
+ },
+ {
+  "id": "36723",
+  "title": "User Experience Manager",
+  "company": "AARP",
+  "salary": "$137K - $152K"
+ },
+ {
+  "id": "36755",
+  "title": "Principal UX Researcher",
+  "company": "Zocdoc",
+  "salary": "$187K - $240K"
+ },
+ {
+  "id": "36628",
+  "title": "Administrative and IT Assistant",
+  "company": "ACLU of Minnesota",
+  "salary": "$58K - $62K"
+ },
+ {
+  "id": "36580",
+  "title": "Junior Cloud Engineer",
+  "company": "City of Philadelphia",
+  "salary": "$70K - $75K"
+ },
+ {
+  "id": "36727",
+  "title": "ERP Analyst",
+  "company": "CTC Global",
+  "salary": "$123K - $148K"
+ },
+ {
+  "id": "36753",
+  "title": "Staff Product Manager, Payments",
+  "company": "Zocdoc",
+  "salary": "$200K - $260K"
+ },
+ {
+  "id": "36649",
+  "title": "Senior Member of Technical Staff, Failure Analysis - Data Science",
+  "company": "QuantumScape",
+  "salary": "$112K - $163K"
+ },
+ {
+  "id": "36572",
+  "title": "Digital Adoption Specialist",
+  "company": "Children&#39;s Hospital Los Angeles",
+  "salary": "$72K - $92K"
+ },
+ {
+  "id": "36648",
+  "title": "Energy + Software Solutions Engineer Co-Op",
+  "company": "EnergySage",
+  "salary": ""
+ },
+ {
+  "id": "37005",
+  "title": "Lead Forecasting &amp; Financial Analyst",
+  "company": "Guild",
+  "salary": "$140K - $190K"
+ },
+ {
+  "id": "36579",
+  "title": "Business Analyst",
+  "company": "City of Philadelphia",
+  "salary": "$75K - $85K"
+ },
+ {
+  "id": "36627",
+  "title": "Director of Statewide IT",
+  "company": "ACLU SoCal",
+  "salary": "$150K - $180K"
+ },
+ {
+  "id": "36573",
+  "title": "Platform Developer",
+  "company": "Standard Solar",
+  "salary": "$105K - $115K"
+ },
+ {
+  "id": "36682",
+  "title": "Summer Internship 2027 - Software Development",
+  "company": "Election Systems &amp; Software (ES&amp;S)",
+  "salary": ""
+ },
+ {
+  "id": "36571",
+  "title": "Senior Business Systems Analyst",
+  "company": "Second Harvest of Silicon Valley",
+  "salary": "$98K - $116K"
+ },
+ {
+  "id": "36724",
+  "title": "VP, Intelligence",
+  "company": "AARP",
+  "salary": "$194K - $215K"
+ },
+ {
+  "id": "36882",
+  "title": "IXL Product Manager",
+  "company": "IXL Learning",
+  "salary": "$130K - $180K"
+ },
+ {
+  "id": "36367",
+  "title": "Senior Test Automation Engineer",
+  "company": "NYC Office of Technology and Innovation",
+  "salary": "$75K - $125K"
+ },
+ {
+  "id": "36577",
+  "title": "Web &amp; SQL Developer",
+  "company": "City of Philadelphia",
+  "salary": "$80K - $87K"
+ },
+ {
+  "id": "36576",
+  "title": "Evaluation Associate",
+  "company": "City of Philadelphia",
+  "salary": "$63K - $75K"
+ },
+ {
+  "id": "36646",
+  "title": "HubSpot Solutions Architect",
+  "company": "EnergySage",
+  "salary": "$118K - $176K"
+ },
+ {
+  "id": "36263",
+  "title": "Department Analyst – Pharmacy Operations",
+  "company": "Cleveland Clinic",
+  "salary": "$52K - $80K"
+ },
+ {
+  "id": "36647",
+  "title": "Senior Security Engineer",
+  "company": "EnergySage",
+  "salary": "$118K - $176K"
+ },
+ {
+  "id": "36881",
+  "title": "Product Manager, Digital Marketing Enablement",
+  "company": "IXL Learning",
+  "salary": "$130K - $180K"
+ },
+ {
+  "id": "36726",
+  "title": "Graphic Design and Creative Operations Intern",
+  "company": "AARP",
+  "salary": ""
+ },
+ {
+  "id": "36758",
+  "title": "Staff Platform Engineer, AI Enablement",
+  "company": "Zocdoc",
+  "salary": "$210K - $270K"
+ },
+ {
+  "id": "36650",
+  "title": "Lead Security Analyst-GRC",
+  "company": "Collective Health",
+  "salary": "$152K - $216K"
+ },
+ {
+  "id": "36578",
+  "title": "SE Mobile iOS Developer",
+  "company": "City of Philadelphia",
+  "salary": "$75K - $82K"
+ }
+]
