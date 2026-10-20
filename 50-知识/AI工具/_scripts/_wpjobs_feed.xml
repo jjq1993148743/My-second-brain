@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>WordPress Jobs</title>
+	<atom:link href="https://jobs.wordpress.net/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jobs.wordpress.net</link>
+	<description>WordPress related Job Postings</description>
+	<lastBuildDate>Mon, 19 Oct 2026 18:55:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.3</generator>
+
+<image>
+	<url>https://jobs.wordpress.net/wp-content/uploads/2018/01/cropped-wp-icon-1-32x32.png</url>
+	<title>WordPress Jobs</title>
+	<link>https://jobs.wordpress.net</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">254003294</site>	<item>
+		<title>Lead Web Developer</title>
+		<link>https://jobs.wordpress.net/job/lead-web-developer-8/</link>
+		
+		<dc:creator><![CDATA[jobposter]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2026 18:55:23 +0000</pubDate>
+				<guid isPermaLink="false">https://jobs.wordpress.net/?post_type=job&#038;p=64938</guid>
+
+					<description><![CDATA[Lead Web Engineer Urban Land Institute · Data &#38; Digital Products About ULI The Urban Land Institute is a 501(c)(3) nonprofit research and education organization supported by its members. Founded in 1936, the Institute has more than 48,000 members worldwide representing the full spectrum of land use and real estate development disciplines across private enterprise [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><strong>Lead Web Engineer</strong></p>
+<p>Urban Land Institute · Data &amp; Digital Products</p>
+<p><strong>About ULI</strong></p>
+<p>The Urban Land Institute is a 501(c)(3) nonprofit research and education organization supported by its members. Founded in 1936, the Institute has more than 48,000 members worldwide representing the full spectrum of land use and real estate development disciplines across private enterprise and public service. ULI&#8217;s mission is to shape the future of the built environment for transformative impact in communities worldwide.</p>
+<p><strong>About the Team</strong></p>
+<p>ULI&#8217;s Data &amp; Digital Products team builds the data, apps, and web platforms that ULI members and staff use every day. It is a small, engineering-led team organized around three areas: data, applications, and web. This role leads the web side.</p>
+<p><strong>The Role</strong></p>
+<p>ULI&#8217;s web presence has grown to more than 100 sites, mostly on WordPress and hosted in Azure. Over the years it has become a tangle of microsites with inconsistent look and feel, dated navigation, and no shared design system, and the member experience has not kept pace. ULI is now rebuilding its web portfolio in phases, with the goal of bringing uli.org and its many connected sites together into a single, modern platform.</p>
+<p>The Lead Web Engineer is the hands-on engineer at the center of that work. During the rebuild, expect to spend the large majority of your time, around 85 to 90 percent, writing code, building prototypes, and shipping. You won&#8217;t be chasing stakeholders for requirements. ULI&#8217;s in-house project management team handles requirements gathering and stakeholder alignment. They bring you the business objective, for example a dynamic homepage that serves members, non-members, and staff differently, and you decide how to deliver it: the technical approach, the architecture, the scope, and the timeline.</p>
+<p>Alongside the rebuild, you will own ULI&#8217;s Azure web hosting and security layer, oversee the web services ticket queue with the support of one direct report, and become the primary developer on a growing set of digital products for members and staff. Much of the day-to-day site maintenance that ULI currently sends to outside contractors will come in-house through this role.</p>
+<p>This role suits someone who enjoys taking a complicated system apart, working out how it really works, and putting it back together better.</p>
+<p><strong>What You Will Do</strong></p>
+<p>The uli.org rebuild</p>
+<ul>
+<li>Work out how uli.org and its connected sites function today, and lead the technical work to consolidate them into one site for members, non-members, and staff</li>
+<li>Turn business objectives from the project management team into technical solutions: recommend the approach, scope the work, estimate timelines, and design the architecture</li>
+<li>Build prototypes and present them to stakeholders to test ideas early</li>
+<li>Implement the information architecture and content models, and build the templates behind them</li>
+<li>Plan and run content migration, redirects, and search continuity so nothing is lost at launch</li>
+<li>Set up measurement for the new site, including GA4, Google Tag Manager, and Core Web Vitals targets</li>
+<li>Help ULI decide whether to move to a single CMS, including options such as Umbraco, and explain the trade-offs clearly</li>
+</ul>
+<p>Hands-on web development</p>
+<ul>
+<li>Write, review, and maintain production code across ULI&#8217;s web properties, including custom themes, templates, plugins, and integrations</li>
+<li>Build and maintain WordPress implementations, including the block editor, custom post types, taxonomies, and multisite</li>
+<li>Design and build REST APIs and integrations so web properties can read from and write back to ULI&#8217;s databases and other systems, including netFORUM</li>
+<li>Build to WCAG 2.2 AA accessibility standards as a default, not an afterthought</li>
+<li>Put version control, testing, code review, and documentation practices in place across ULI&#8217;s web codebases</li>
+</ul>
+<p>Azure hosting and security</p>
+<ul>
+<li>Own ULI&#8217;s Azure web hosting, including App Services, storage, and networking</li>
+<li>Own the edge and security layer: CDN, WAF rules, bot and DDoS mitigation, DNS, and TLS certificates</li>
+<li>Build and maintain CI/CD pipelines, staging environments, and deployment workflows</li>
+<li>Monitor site health, set uptime and performance targets, and respond to incidents</li>
+</ul>
+<p>Digital products</p>
+<ul>
+<li>Act as primary developer on digital products for members and staff, working from direction and scope set by your manager, with code review support</li>
+<li>Support the launch and hosting of new platforms, such as ULI&#8217;s research and knowledge tools, and make sure they connect cleanly with uli.org, the member app, and other web properties</li>
+<li>Keep the look, feel, and flow consistent across ULI&#8217;s digital products</li>
+</ul>
+<p>Web services and team leadership</p>
+<ul>
+<li>Oversee the web services ticket queue, taking on the more complex requests and larger properties, from Google Analytics to website changes</li>
+<li>Bring ongoing site maintenance and updates in-house, reducing reliance on outside contractors</li>
+<li>Manage and mentor one direct report, the Senior Administrator, Web Services, and agree together how work is shared</li>
+<li>Review work delivered by outside agencies and developers, and hold it to agreed standards</li>
+<li>Work closely with ULI&#8217;s software, data, and project management colleagues on shared standards and delivery</li>
+</ul>
+<p><strong>What We Are Looking For</strong></p>
+<p>We care more about what you can build than how many years you&#8217;ve been doing it. If you have the skills below and can show us your work, we want to hear from you, whatever stage of your career you&#8217;re at.</p>
+<p>Required</p>
+<ul>
+<li>Progressive, hands-on experience in web development and web platform ownership</li>
+<li>A portfolio, GitHub, or other examples of production web work you personally built</li>
+<li>Deep WordPress expertise, including the block editor, custom post types, taxonomies, and multisite</li>
+<li>Experience building and running websites and web applications on Microsoft Azure</li>
+<li>Experience designing and consuming REST APIs and building integrations between systems</li>
+<li>Experience building accessible websites to WCAG 2.2 AA</li>
+<li>The ability to explain technical options, trade-offs, and risks clearly to non-technical colleagues</li>
+<li>Bachelor&#8217;s degree in computer science, software engineering, information systems, or a related field, or equivalent practical experience</li>
+</ul>
+<p>Preferred</p>
+<ul>
+<li>Experience leading or working on a CMS migration from one platform to another, not just an upgrade</li>
+<li>Experience with Umbraco or another .NET CMS (solid experience with any major CMS is a good start)</li>
+<li>Experience consolidating many websites into a single platform</li>
+<li>Experience mentoring or supervising technical staff</li>
+<li>Experience working with external development agencies or contractors</li>
+<li>Familiarity with association management or CRM systems such as netFORUM or iMIS</li>
+<li>Experience with headless or decoupled CMS implementations</li>
+<li>Association, membership organization, or nonprofit experience</li>
+<li>The interview process includes a technical assessment.</li>
+</ul>
+<p><strong>What Success Looks Like</strong></p>
+<p>In your first 90 days, you will have got to grips with how uli.org and its connected sites work today and started to untangle them. You&#8217;ll have a clear view of what&#8217;s technically possible, and you&#8217;ll be scoping the work and sharing early prototypes with stakeholders. You&#8217;ll also be learning how staff use ULI&#8217;s web properties through the ticket queue and helping to resolve their requests.</p>
+<p>By six months, the rebuild is moving at full speed with your technical direction behind it, and you&#8217;re starting to contribute to ULI&#8217;s other digital products.</p>
+<p>Looking further ahead, success is a fully rebuilt web portfolio, delivered in phases: one consolidated uli.org that is faster, more secure, accessible, and easier for members to use, with ongoing maintenance handled in-house rather than by contractors.</p>
+<p><strong>Compensation and Benefits</strong></p>
+<p>The salary range for this position is $120,281 to $140,000.</p>
+<p>Actual compensation will be based on experience, education, skills, and other job-related factors.</p>
+<p>ULI offers a comprehensive benefits package including health, dental, and life insurance; generous vacation leave; and retirement plan with employer match.</p>
+<p><strong>Working Conditions</strong></p>
+<p>The Urban Land Institute (ULI) is committed to shaping the future of the built environment for transformative impact in communities worldwide, and we embrace our core values of integrity, collaboration, inclusion, and excellence in service to our members. In alignment with the Board of Directors&#8217; strong commitment to in-person collaboration, our roles require regular on-site presence to foster teamwork, innovation, and organizational effectiveness. ULI&#8217;s primary workplace remains its offices, where in-person collaboration supports our mission and service to members.</p>
+<p>ULI is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion/creed, sex, national origin, disability, genetic information, pregnancy, veteran or active military status, non-citizenship or citizenship status, arrest or conviction record, credit history, caregiver status, sexual orientation, gender identity, marital or partnership status, familial status, unemployment status, or any other status protected by applicable law.</p>]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">64938</post-id>	</item>
+		<item>
+		<title>Freelance – Full-Time Dedicated</title>
+		<link>https://jobs.wordpress.net/job/freelance-full-time-dedicated/</link>
+		
+		<dc:creator><![CDATA[jobposter]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2026 18:51:31 +0000</pubDate>
+				<guid isPermaLink="false">https://jobs.wordpress.net/?post_type=job&#038;p=64937</guid>
+
+					<description><![CDATA[Job Overview We are looking for an experienced WordPress Backend Developer to work with our team on a dedicated, full-time freelance basis. The ideal candidate should have strong backend development skills, experience building custom WordPress solutions, and the ability to deliver high-quality, scalable, and secure applications. Key Responsibilities Develop and maintain custom WordPress websites, themes, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><strong>Job Overview</strong></p>
+<p>We are looking for an experienced WordPress Backend Developer to work with our team on a dedicated, full-time freelance basis. The ideal candidate should have strong backend development skills, experience building custom WordPress solutions, and the ability to deliver high-quality, scalable, and secure applications.</p>
+<p><strong>Key Responsibilities</strong></p>
+<ul>
+<li>Develop and maintain custom WordPress websites, themes, and plugins.</li>
+<li>Customize WordPress functionality using PHP, MySQL, JavaScript, and REST APIs.</li>
+<li>Integrate third-party APIs, payment gateways, and external services.</li>
+<li>Optimize website performance, security, and database queries.</li>
+<li>Troubleshoot bugs and resolve backend issues.</li>
+<li>Collaborate with our team to deliver projects on time.</li>
+</ul>
+<p><strong>Required Skills</strong></p>
+<ul>
+<li>Strong experience with WordPress backend development.</li>
+<li>Proficiency in PHP, MySQL, HTML, CSS, and JavaScript.</li>
+<li>Experience developing custom plugins, themes, and REST API integrations.</li>
+<li>Knowledge of WordPress security, performance optimization, and debugging.</li>
+<li>Familiarity with Git and version control.</li>
+</ul>
+<p><strong>Preferred Skills</strong></p>
+<ul>
+<li>Experience with Laravel or Node.js.</li>
+<li>Knowledge of WooCommerce and payment gateway integrations.</li>
+<li>Experience with custom API development and third-party integrations.</li>
+</ul>
+<p><strong>What We Offer</strong></p>
+<ul>
+<li>Full-time, dedicated freelance engagement.</li>
+<li>Flexible working timezone for experienced professionals.</li>
+<li>Long-term collaboration opportunities.</li>
+<li>Opportunity to work on diverse web development projects.</li>
+</ul>]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">64937</post-id>	</item>
+		<item>
+		<title>Remote WordPress Freelancers for Client Website Projects</title>
+		<link>https://jobs.wordpress.net/job/remote-wordpress-freelancers-for-client-website-projects/</link>
+		
+		<dc:creator><![CDATA[jobposter]]></dc:creator>
+		<pubDate>Tue, 13 Oct 2026 08:07:58 +0000</pubDate>
+				<guid isPermaLink="false">https://jobs.wordpress.net/?post_type=job&#038;p=64925</guid>
+
+					<description><![CDATA[Mix3Design is a web design agency. We&#8217;re inviting freelancers from anywhere in the world to join us in designing and maintaining client websites built with WordPress. What you&#8217;ll do Design and build WordPress websites Maintain and update existing client sites Collaborate with our team to deliver projects on time What we offer 100% remote work [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Mix3Design is a web design agency. We&#8217;re inviting freelancers from anywhere in the world to join us in designing and maintaining client websites built with WordPress.</p>
+<p><strong>What you&#8217;ll do</strong></p>
+<ul>
+<li>Design and build WordPress websites</li>
+<li>Maintain and update existing client sites</li>
+<li>Collaborate with our team to deliver projects on time</li>
+</ul>
+<p><strong>What we offer</strong></p>
+<ul>
+<li>100% remote work</li>
+<li>Payment per project</li>
+<li>Ongoing work for people who deliver great results</li>
+</ul>]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">64925</post-id>	</item>
+		<item>
+		<title>WordPress Developer &#8211; Plugin Development &#038; Business Integrations</title>
+		<link>https://jobs.wordpress.net/job/wordpress-developer-plugin-development-business-integrations/</link>
+		
+		<dc:creator><![CDATA[jobposter]]></dc:creator>
+		<pubDate>Sun, 11 Oct 2026 05:30:19 +0000</pubDate>
+				<guid isPermaLink="false">https://jobs.wordpress.net/?post_type=job&#038;p=64912</guid>
+
+					<description><![CDATA[WEROCK is a growing company that manufactures industrial computers. Our products include rugged laptops, tablets and industrial computers. We are looking for a WordPress Developer to join our team in Taipei as soon as possible, develop our website and take care of it over the long term. You will develop custom features and plugins, connect [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>WEROCK is a growing company that manufactures industrial computers. Our products include rugged laptops, tablets and industrial computers. We are looking for a WordPress Developer to join our team in Taipei as soon as possible, develop our website and take care of it over the long term. You will develop custom features and plugins, connect WordPress to our business systems and ensure that the website and its extensions work reliably. This role involves more than completing predefined tickets. You will assess technical approaches, identify potential problems and suggest well-founded improvements. You will build on existing solutions where it makes sense rather than rebuilding them without a clear reason. The focus is on WordPress, PHP, JavaScript and the Fluent ecosystem. We are looking for a long-term technical addition to our team.</p>
+<p><strong>Tasks</strong></p>
+<ul>
+<li><strong>Develop the website and custom features:</strong> Implement responsive pages and reusable components, and develop custom WordPress plugins. These include features for product configuration, quotation requests, and customer and partner workflows.</li>
+<li><strong>Connect plugins and systems:</strong> Adapt Fluent Forms, FluentCart and other extensions we use to our workflows, and develop REST API integrations. Account for permissions, secure data processing and clear error handling.</li>
+<li><strong>Improve technical SEO/GEO:</strong> Ensure that our website is easy to find and delivers fast performance.</li>
+<li><strong>Take responsibility for website operations:</strong> Check updates and changes before release, resolve plugin conflicts and errors, and keep our custom code compatible. Establish practical routines for backups, recovery and monitoring key website functions.</li>
+<li><strong>Prepare technical decisions:</strong> Assess requirements in terms of effort, value and maintainability, document key decisions and suggest improvements. You will agree on priorities with marketing and management.</li>
+</ul>
+<p>You will be the main technical point of contact for the website. You will work with the Marketing Manager in Taiwan and the team in Germany. Content, campaigns and visual design are developed in collaboration with the colleagues responsible for these areas; your focus is on technical implementation and long-term quality.AI-assisted development tools can be part of your work. You must understand and review the code you use and be able to correct it independently when problems arise.</p>
+<p><strong>Requirements</strong></p>
+<ul>
+<li>Proven professional experience developing WordPress websites.</li>
+<li>Sufficient knowledge of PHP and JavaScript to develop and maintain custom plugins.</li>
+<li>HTML, CSS, responsive implementation, WordPress hooks and filters are part of your day-to-day work.</li>
+<li>You can work with REST APIs and databases and care about secure, understandable and maintainable solutions.</li>
+<li>Confident communication in English.</li>
+<li>Willingness to learn new technologies.</li>
+</ul>
+<p><strong>Additional skills</strong> Experience with FluentCart, Fluent Support, Polylang, Elementor, Kadence/Gutenberg or Bricks is helpful. Knowledge of ERPNext/Frappe, Mautic, Linux, automated testing and technical B2B processes is an additional plus. You do not need to know every product we use already; what matters is your ability to learn existing systems in a structured way.</p>
+<p><strong>Benefits</strong></p>
+<ul>
+<li><strong>Flexible working hours and hybrid work:</strong> You will regularly work with our team at the office in Taipei. One or two work-from-home days per week are possible by agreement.</li>
+<li><strong>A long-term role rather than changing client projects:</strong> You will have a permanent, full-time position and continuously develop our own website and its integrations.</li>
+<li><strong>Technical freedom and direct decision-making:</strong> Your improvement suggestions are welcome. You will work directly with the Marketing Manager in Taiwan and the team in Germany and actively contribute to technical decisions.</li>
+<li>15 days of paid annual leave from day one, prorated in the first year, increasing with length of service; up to 10 days of sick leave per year at full pay, after which statutory provisions apply.</li>
+<li>Clear working hours, a culture without routine overtime, and pay or time off in lieu for approved overtime.</li>
+<li>A performance-based year-end bonus of up to one month&#8217;s salary, depending on company performance and your individual contribution.</li>
+<li>We succeed together. That is why our employees share in WEROCK&#8217;s profits.</li>
+</ul>
+<p>Please send us your cover letter, CV and two or three relevant WordPress projects you have worked on. For each project, describe your personal contribution: what exactly did you implement yourself? Instead of confidential client code, you may submit a clear technical project description. Please also include your location, your work authorization status in Taiwan, your salary expectations and your earliest possible start date.</p>]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">64912</post-id>	</item>
+		<item>
+		<title>US WooCommerce developer, hourly: new store project</title>
+		<link>https://jobs.wordpress.net/job/us-woocommerce-developer-hourly-new-store-project/</link>
+		
+		<dc:creator><![CDATA[jobposter]]></dc:creator>
+		<pubDate>Sun, 11 Oct 2026 05:24:44 +0000</pubDate>
+				<guid isPermaLink="false">https://jobs.wordpress.net/?post_type=job&#038;p=64911</guid>
+
+					<description><![CDATA[I am the founder of a small children&#8217;s learning brand in Connecticut. The store is already designed and written: one HTML file with every page laid out and every word final, plus a developer view. The storefront artwork is in process with our illustrator and arrives as finished image files (PNG), some during the build. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I am the founder of a small children&#8217;s learning brand in Connecticut. The store is already designed and written: one HTML file with every page laid out and every word final, plus a developer view. The storefront artwork is in process with our illustrator and arrives as finished image files (PNG), some during the build. I am setting up WordPress and WooCommerce myself, on hosting and a domain in my own name. I need a developer for the parts I cannot do, in this order:</p>
+<p>1. LOCK THE DOORS FIRST, before anything is public. Hardening, HTTPS everywhere, two-factor login for admin, daily backups, a firewall and malware scanning, and secure delivery of digital downloads so no paid file can be reached by a guessed link. Then a short written list of everything you set.</p>
+<p>2. BUILD THE FRONT to match my mockup, page for page: the front door, the store entry screen, the subject shelves, the catalog, the product page, and the family library. Mobile first. No analytics, no tracking pixels, and no third-party scripts on any page a child could see. Functional cookies only. Artwork for the front is in process; you place it in the picture slots the mockup already marks.</p>
+<p>3. EASY VIEWING. The product grid in cube form (if possible; please price the cube part on its own), the preview pictures, and the &#8220;buy one level or buy the set of three&#8221; choice, as drawn.</p>
+<p>4. HELP PEOPLE FIND US. A sitemap, page titles and descriptions, product schema and sharing tags, with Google Search Console and Bing Webmaster Tools verified on my accounts. No tracking of any kind.</p>
+<p>5. IF HOURS ALLOW: a CSV import template and the first import of my catalog from my spreadsheet: about 500 digital products at launch, then about 5 new products each week, which I will add myself with the template.</p>
+<p>BUDGET: $3,000 to $4,000 for the developer work, hourly or by milestone, in the order above. When the hours are used, we stop, and you hand me the list of what is left; more hours only when I say so in writing.</p>
+<p>TERMS: I hold the hosting, the domain, and every login in my own name from day one. All work is assigned to my LLC. 20% of each payment is held until 30 days after launch and released when the site runs clean with no open bugs. I share the mockup, design files and full brief after a signed NDA.</p>
+<p>WHO CAN APPLY: a United States-based person or small firm. No part of the work will leave the United States, and the person writing the code will be the person I talk to.</p>
+<p>TO APPLY, send:</p>
+<ul>
+<li>(a) your hourly rate, or a price for each of the five jobs;</li>
+<li>(b) two live WooCommerce stores you built, and one you built more than two years ago that is still running;</li>
+<li>(c) how you would stop a guessed link from reaching a paid download;</li>
+<li>(d) how you would keep every outside script off a page a child could see;</li>
+<li>(e) your first available start date. I am looking forward to launching as early as possible.</li>
+</ul>
+<p>No calls until we are ready to start. I read every reply myself.</p>]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">64911</post-id>	</item>
+		<item>
+		<title>Senior WordPress Technical Lead – Fractional Contract (US Remote, Award-Contingent)</title>
+		<link>https://jobs.wordpress.net/job/senior-wordpress-technical-lead-fractional-contract-us-remote-award-contingent/</link>
+		
+		<dc:creator><![CDATA[jobposter]]></dc:creator>
+		<pubDate>Mon, 05 Oct 2026 05:35:59 +0000</pubDate>
+				<guid isPermaLink="false">https://jobs.wordpress.net/?post_type=job&#038;p=64896</guid>
+
+					<description><![CDATA[Rillbench Studio is seeking an experienced senior WordPress technical lead for a prospective community media website project. This is a fractional, paid contract opportunity for someone delivering the work from the United States. IMPORTANT: AWARD-CONTINGENT OPPORTUNITY The project has not been awarded. Any engagement is conditional on project award and a separate written agreement. There [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Rillbench Studio is seeking an experienced senior WordPress technical lead for a prospective community media website project. This is a fractional, paid contract opportunity for someone delivering the work from the United States.</p>
+<p><strong>IMPORTANT: AWARD-CONTINGENT OPPORTUNITY</strong></p>
+<p>The project has not been awarded. Any engagement is conditional on project award and a separate written agreement. There are no guaranteed hours or start date. We are discussing availability for early 2027. Compensation will be negotiated and agreed before any engagement. No pre-award deliverables or unpaid project work are requested.</p>
+<p><strong>THE ROLE</strong></p>
+<p>You would provide hands-on technical leadership and independent judgment across:</p>
+<ul>
+<li>WordPress architecture, implementation standards, and technical direction</li>
+<li>Integrations and content migration planning and review</li>
+<li>Accessibility, security, and performance decisions within your expertise, including identifying when specialist input is needed</li>
+<li>Technical review of implementation, milestone acceptance, and release readiness</li>
+<li>Selected technical discussions with the client</li>
+</ul>
+<p><strong>HOW WE WORK</strong></p>
+<p>Rillbench&#8217;s operator coordinates agent-led implementation. The human technical lead has real review and approval authority over technical decisions, milestone acceptance, and release readiness. You should be comfortable reviewing AI-assisted work critically, requiring changes when needed, and taking responsibility for the technical judgments you approve.</p>
+<p><strong>WHAT WE ARE LOOKING FOR</strong></p>
+<p>Strong experience leading WordPress projects, with evidence of sound architecture and delivery judgment. Relevant experience with integrations, migrations, accessible websites, and performance and security review is valuable. Please be clear about your own contributions to past projects and the areas where you would bring in specialist expertise.</p>
+<p><strong>TO EXPRESS INTEREST</strong></p>
+<p>Email us with:</p>
+<ul>
+<li>A brief introduction</li>
+<li>Two relevant projects and your personal contribution to each</li>
+<li>Your US delivery location</li>
+<li>Your availability around early 2027 and usual rate</li>
+</ul>
+<p>We may ask for references later, with your permission. Initial contact may be handled by Rillbench Assistant, an AI assistant acting for Rillbench Studio.</p>
+<p>Rillbench Studio: https://rillbench.com</p>]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">64896</post-id>	</item>
+	</channel>
+</rss>
