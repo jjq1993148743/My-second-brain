@@ -1,0 +1,20 @@
+import { execFile } from 'node:child_process';
+import fs from 'node:fs';
+const run=(c,a)=>new Promise(res=>execFile(c,a,{maxBuffer:64*1024*1024,windowsHide:true,timeout:22000},(e,so)=>res(so||'')));
+const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+const curl=u=>run('curl',['-sL','-x','http://127.0.0.1:7897','-H','User-Agent: '+UA,'--max-time','20','--compressed',u]);
+const h=await curl('https://www.freelancer.mx/jobs/1/');
+fs.writeFileSync('_mx.html',h,'utf8');
+// 检查页面语言和内容
+const title=(h.match(/<title[^>]*>([^<]{0,120})/i)||[])[1]||'';
+const lang=(h.match(/<html[^>]*lang="([^"]+)"/i)||[])[1]||'';
+console.log('title='+title);
+console.log('lang='+lang);
+const text=h.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<[^>]+>/g,'\n');
+const ux=[...new Set(text.split('\n').map(s=>s.trim()).filter(s=>s.length>3))];
+const money=ux.filter(l=>/[$\u20ac\u00a3]\s?[0-9]{2,}/.test(l)).slice(0,8);
+console.log('MONEY: '+JSON.stringify(money));
+const proj=ux.filter(l=>l.length>15 && l.length<90 && /[A-Za-z]/.test(l)).slice(0,6);
+console.log('PROJ: '+JSON.stringify(proj));
+const bids=ux.filter(l=>/(bid|puja|oferta)s?\b/i.test(l) && l.length<50).slice(0,5);
+console.log('BIDS: '+JSON.stringify(bids));

@@ -1,0 +1,13 @@
+import { execFile } from 'node:child_process';
+const run=(c,a)=>new Promise(res=>execFile(c,a,{maxBuffer:64*1024*1024,windowsHide:true,timeout:22000},(e,so)=>res(so||'')));
+const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+const curl=u=>run('curl',['-sL','-x','http://127.0.0.1:7897','-H','User-Agent: '+UA,'--max-time','20','--compressed',u]);
+const mx=await curl('https://www.freelancer.mx/jobs/1/');
+const com=await curl('https://www.freelancer.com/jobs/1/');
+const getUrls=h=>new Set([...h.matchAll(/href="(\/projects\/[^"]+)"/g)].map(m=>m[1]));
+const a=getUrls(mx), b=getUrls(com);
+const arrA=[...a];
+const overlap=arrA.filter(u=>b.has(u)).length;
+console.log('mx urls='+a.size+' com urls='+b.size);
+console.log('overlap='+overlap+' ('+Math.round(overlap/Math.max(a.size,1)*100)+'%)');
+console.log('VERDICT: '+(overlap/Math.max(a.size,1)>0.5?'SAME POOL':'DIFFERENT'));
