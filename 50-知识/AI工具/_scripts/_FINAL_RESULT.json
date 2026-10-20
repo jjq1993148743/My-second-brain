@@ -1,0 +1,830 @@
+[
+ {
+  "host": "stan.store",
+  "code": "200",
+  "bytes": 932,
+  "title": "Stan - Your Creator Store",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "store.xiu.ai",
+  "code": "200",
+  "bytes": 16607,
+  "title": "XiuStore · AI Accounts &amp; Subscriptions | xiu.ai",
+  "jobHits": 0,
+  "moneyHits": 7,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "designcode.io",
+  "code": "200",
+  "bytes": 1192,
+  "title": "Prompt Better User Interfaces and Apps | DesignCode",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "contentful.com",
+  "code": "429",
+  "bytes": 34232,
+  "title": "Vercel Security Checkpoint",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "反爬(429)"
+ },
+ {
+  "host": "vuestorefront.io",
+  "code": "200",
+  "bytes": 30329,
+  "title": "Alokai: enterprise frontend platform for composable commerce",
+  "jobHits": 3,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "shopaholic.one",
+  "code": "200",
+  "bytes": 3059,
+  "title": "Shopaholic",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "doingcontentright.com",
+  "code": "200",
+  "bytes": 22367,
+  "title": "Doing Content Right",
+  "jobHits": 55,
+  "moneyHits": 2,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "facebook.design",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "greatcontent.com",
+  "code": "200",
+  "bytes": 47202,
+  "title": "Enterprise Content Solutions: Quality &amp; Scaling | Eurocom",
+  "jobHits": 76,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "designcuts.com",
+  "code": "403",
+  "bytes": 3260,
+  "title": "Just a moment...",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "反爬(403)"
+ },
+ {
+  "host": "contently.com",
+  "code": "200",
+  "bytes": 32333,
+  "title": "Contently: Content for regulated industries",
+  "jobHits": 6,
+  "moneyHits": 6,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "contentgather.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "designbyhumans.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "designcontest.com",
+  "code": "403",
+  "bytes": 3174,
+  "title": "Just a moment...",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "反爬(403)"
+ },
+ {
+  "host": "content.hugen.tokyo",
+  "code": "404",
+  "bytes": 22,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "contentstudio.io",
+  "code": "200",
+  "bytes": 36545,
+  "title": "ContentStudio: Unified Social Media Management Tool",
+  "jobHits": 1,
+  "moneyHits": 3,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "design.com",
+  "code": "200",
+  "bytes": 84790,
+  "title": "Design anything with AI | Design.com",
+  "jobHits": 63,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "ashop.co",
+  "code": "200",
+  "bytes": 114,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "livemart.store",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "unchained.shop",
+  "code": "200",
+  "bytes": 33739,
+  "title": "Unchained Commerce - The Open E‑Commerce Platform You Truly Own",
+  "jobHits": 8,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "shopgate.com",
+  "code": "200",
+  "bytes": 12143,
+  "title": "Shopgate | Shopping App und Omnichannel für den Handel",
+  "jobHits": 1,
+  "moneyHits": 2,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "beautifulstores.com",
+  "code": "200",
+  "bytes": 145539,
+  "title": "Home page - Beautiful Stores",
+  "jobHits": 24,
+  "moneyHits": 7,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "content.dataiku.com",
+  "code": "200",
+  "bytes": 5001,
+  "title": "PathFactory",
+  "jobHits": 13,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "blackmagicdesign.com",
+  "code": "200",
+  "bytes": 16349,
+  "title": "Blackmagic Design",
+  "jobHits": 0,
+  "moneyHits": 14,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "avocadostore.de",
+  "code": "403",
+  "bytes": 2100,
+  "title": "Attention Required! | Cloudflare",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "反爬(403)"
+ },
+ {
+  "host": "designwerk.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "appstoretracker.com",
+  "code": "200",
+  "bytes": 46891,
+  "title": "App Store Rankings Today: iPhone Top Charts &amp; Movers | App Store T",
+  "jobHits": 1,
+  "moneyHits": 12,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "contentstudioai.com",
+  "code": "403",
+  "bytes": 238,
+  "title": "403 Forbidden",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "反爬(403)"
+ },
+ {
+  "host": "ecomm.design",
+  "code": "200",
+  "bytes": 34408,
+  "title": "eCommerce Website Design: Gallery &amp; Tech Inspiration with 3000+ Ec",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "findmecreators.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "gendesigns.ai",
+  "code": "200",
+  "bytes": 28387,
+  "title": "AI Mobile App Designer — Beautiful UI in Minutes | GenDesigns",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "myextension.store",
+  "code": "200",
+  "bytes": 988,
+  "title": "How to: Search ChatGPT history and pin chats",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "shopmeagent.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "swiftsellai.com",
+  "code": "200",
+  "bytes": 9317,
+  "title": "Swiftsell — AI Agents for Customer Operations. Voice &amp; WhatsApp.",
+  "jobHits": 0,
+  "moneyHits": 3,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "tenonedesign.com",
+  "code": "200",
+  "bytes": 485852,
+  "title": "Ten One Design - Remarkable products for remote work",
+  "jobHits": 22,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "savedollars.store",
+  "code": "200",
+  "bytes": 73198,
+  "title": "SAVEDOLLARS.STORE | Micro SaaS & Enterprise Digital Architecture Hub",
+  "jobHits": 36,
+  "moneyHits": 217,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "store.tapmention.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "shop.christies.com",
+  "code": "200",
+  "bytes": 61912,
+  "title": "Watch Auctions | Wristwatches &amp; Timepieces | Christie’s",
+  "jobHits": 3,
+  "moneyHits": 5,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "bundlestore.airballoon.app",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "showmrr.design",
+  "code": "200",
+  "bytes": 9638,
+  "title": "ShowMRR – Free Milestone Card Maker for Founders &amp; Indie Hackers",
+  "jobHits": 0,
+  "moneyHits": 6,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "sleek.design",
+  "code": "200",
+  "bytes": 147435,
+  "title": "Sleek: AI Mobile App Designer | Design Apps in Minutes",
+  "jobHits": 7,
+  "moneyHits": 6,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "dl.dropboxusercontent.com",
+  "code": "404",
+  "bytes": 571,
+  "title": "Dropbox - 404",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "toolbelt.store",
+  "code": "200",
+  "bytes": 5247,
+  "title": "Toolbelt — AI how-tos for the job you actually do",
+  "jobHits": 11,
+  "moneyHits": 6,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "posts.design",
+  "code": "200",
+  "bytes": 84218,
+  "title": "Social post design inspiration — posts.design",
+  "jobHits": 2,
+  "moneyHits": 1,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "contenthurricane.com",
+  "code": "200",
+  "bytes": 14946,
+  "title": "Вавада вход на сегодня ᐈ Vavada casino, актуальное рабочее зеркало",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "cloudcreatorsclub.com",
+  "code": "404",
+  "bytes": 2627,
+  "title": "Site Not Found | Framer",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "vibrant.design",
+  "code": "200",
+  "bytes": 33801,
+  "title": "Vibrant Design - Best of the Internet",
+  "jobHits": 1,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "dynamite.ion.design",
+  "code": "200",
+  "bytes": 20777,
+  "title": "Dynamite: Personalize Your Website for Every Visitor",
+  "jobHits": 0,
+  "moneyHits": 48,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "whosellsdata.com",
+  "code": "200",
+  "bytes": 46483,
+  "title": "Who Sells Data: AI training data and RL environment vendors",
+  "jobHits": 5,
+  "moneyHits": 88,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "askbishop.app",
+  "code": "200",
+  "bytes": 379469,
+  "title": "Ask Bishop — AI Bible Questions, Devotionals &amp; Sermon Journal",
+  "jobHits": 76,
+  "moneyHits": 4,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "on.design",
+  "code": "200",
+  "bytes": 6002,
+  "title": "Design, together — again",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "magicpattern.design",
+  "code": "200",
+  "bytes": 34371,
+  "title": "MagicPattern - Beautiful backgrounds, patterns, gradients with 30+ Too",
+  "jobHits": 37,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "contentradar.ai",
+  "code": "200",
+  "bytes": 45515,
+  "title": "Home - ContentRadar",
+  "jobHits": 151,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "mehndidesign.ai",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "yournextstore.com",
+  "code": "200",
+  "bytes": 55989,
+  "title": "Your Next Store ⋅ Online commerce should be fast and modern.",
+  "jobHits": 0,
+  "moneyHits": 4,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "contentdreamer.ai",
+  "code": "200",
+  "bytes": 5277,
+  "title": "Content Dreamer.ai",
+  "jobHits": 0,
+  "moneyHits": 2,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "appstoreready.dev",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "getshopwave.com",
+  "code": "200",
+  "bytes": 10037,
+  "title": "Shopwave | The Merchant Orchestration Engine",
+  "jobHits": 2,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "bentogrid.design",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "designops.io",
+  "code": "200",
+  "bytes": 114,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "gramshop.co",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "buysellstartups.com",
+  "code": "200",
+  "bytes": 36524,
+  "title": "Buy Sell Startups — Marketplace for Micro-SaaS &amp; Internet Business",
+  "jobHits": 0,
+  "moneyHits": 31,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "adesignhub.com",
+  "code": "200",
+  "bytes": 143037,
+  "title": "MAIN | Adesign",
+  "jobHits": 446,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "contentpie.ai",
+  "code": "200",
+  "bytes": 112314,
+  "title": "Outrank - Grow Organic Traffic on Auto-Pilot",
+  "jobHits": 11,
+  "moneyHits": 14,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "aiwebdesigner.io",
+  "code": "404",
+  "bytes": 14820,
+  "title": "Visual Programming | Bubble",
+  "jobHits": 2,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "gamedesignchecklist.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "contentengineai.co",
+  "code": "500",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "死站(500)"
+ },
+ {
+  "host": "contentrocket.io",
+  "code": "200",
+  "bytes": 38622,
+  "title": "AI video en SEO-content voor groei &#8211; Managed AI video en SEO",
+  "jobHits": 47,
+  "moneyHits": 38,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "creatorscrown.com",
+  "code": "503",
+  "bytes": 20,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "死站(503)"
+ },
+ {
+  "host": "oneclickstore.app",
+  "code": "200",
+  "bytes": 18132,
+  "title": "One Click Store - Shopify website builder",
+  "jobHits": 0,
+  "moneyHits": 13,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "scrapecreators.com",
+  "code": "200",
+  "bytes": 54931,
+  "title": "Social Media Scraping API",
+  "jobHits": 0,
+  "moneyHits": 12,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "framesxdesign.com",
+  "code": "200",
+  "bytes": 119608,
+  "title": "Frames X — Figma UI Kit and Web Design System",
+  "jobHits": 388,
+  "moneyHits": 12,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "contentpulse.app",
+  "code": "200",
+  "bytes": 37554,
+  "title": "ContentPulse – Ready-to-Record Scripts for Social Media | AI Content I",
+  "jobHits": 4,
+  "moneyHits": 10,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "sellerpic.ai",
+  "code": "200",
+  "bytes": 324998,
+  "title": "SellerPic: AI Fashion Models &amp; Product Image Generator",
+  "jobHits": 4,
+  "moneyHits": 5,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "pixelframe.design",
+  "code": "202",
+  "bytes": 168,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "tstr.design",
+  "code": "200",
+  "bytes": 18408,
+  "title": "Toaster – analytics for Figma prototypes",
+  "jobHits": 48,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "contentbase.ai",
+  "code": "200",
+  "bytes": 20543,
+  "title": "SEO & GEO AI agent | Contentbase",
+  "jobHits": 1,
+  "moneyHits": 6,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "colorize.design",
+  "code": "200",
+  "bytes": 30955,
+  "title": "Extract Color Palettes from Any Website - Free Color Palette Generator",
+  "jobHits": 47,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "naildesignhub.com",
+  "code": "200",
+  "bytes": 19329,
+  "title": "AI Nail Art Generator - Create Custom Nail Designs in Seconds | Nail D",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "outbrand.design",
+  "code": "200",
+  "bytes": 24896,
+  "title": "Outbrand - Social Content that converts, on Auto-Pilot",
+  "jobHits": 0,
+  "moneyHits": 5,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "contentsplitter.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "pixelcreator.ai",
+  "code": "200",
+  "bytes": 17566,
+  "title": "Professional AI Headshots for LinkedIn &amp; E-commerce | Pixel Creato",
+  "jobHits": 8,
+  "moneyHits": 7,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "planify.design",
+  "code": "200",
+  "bytes": 44574,
+  "title": "Planify",
+  "jobHits": 0,
+  "moneyHits": 28,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "contentgapreport.com",
+  "code": "200",
+  "bytes": 36553,
+  "title": "Content Gap Report - Find Missing Content Opportunities",
+  "jobHits": 117,
+  "moneyHits": 1,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "thumbnailcreator.com",
+  "code": "200",
+  "bytes": 63289,
+  "title": "AI YouTube Thumbnail Generator - Create Stunning Thumbnails in Seconds",
+  "jobHits": 1,
+  "moneyHits": 6,
+  "verdict": "金额/营销"
+ },
+ {
+  "host": "app.superdesign.dev",
+  "code": "200",
+  "bytes": 2241,
+  "title": "Superdesign",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "SPA需JS"
+ },
+ {
+  "host": "giselles.ai",
+  "code": "200",
+  "bytes": 19855,
+  "title": "Giselle: AI App Builder",
+  "jobHits": 1,
+  "moneyHits": 0,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "moonshop.ai",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "storesynk.com",
+  "code": "200",
+  "bytes": 49895,
+  "title": "#1 Webflow Shopify Integration | Storesynk",
+  "jobHits": 1,
+  "moneyHits": 1,
+  "verdict": "营销/静态"
+ },
+ {
+  "host": "superstakedesign.com",
+  "code": "200",
+  "bytes": 18011,
+  "title": "WORKS - 슈퍼 스테이크 디자인 스튜디오",
+  "jobHits": 11,
+  "moneyHits": 0,
+  "verdict": "职位列表"
+ },
+ {
+  "host": "seller.samsungapps.com",
+  "code": "000",
+  "bytes": 0,
+  "title": "",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ },
+ {
+  "host": "zedge.net/creators",
+  "code": "404",
+  "bytes": 5326,
+  "title": "Free Ringtones and Wallpapers - ZEDGE™",
+  "jobHits": 0,
+  "moneyHits": 0,
+  "verdict": "空/极小"
+ }
+]
