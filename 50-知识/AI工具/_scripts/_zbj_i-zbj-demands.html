@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'/>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'/>
+<meta name='renderer' content='webkit'/>
+<meta http-equiv='Cache-Control' content='no-transform '/>
+<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'/>
+<title>
+用户登录
+</title>
+<link rel='shortcut icon' href='https://s.zbjimg.com/img/favicon.ico' type='image/x-icon'/>
+
+
+
+
+
+<script type='text/javascript'>/*<![CDATA[*/
+window.ZBJInfo = {
+baseURI: "zbj.com", 
+pageDomain : "zbj.com",
+staticLibURI: "//as.zbjimg.com", 
+qiniuUploadTokenUrl: "//rms.zhubajie.com",
+runtime: "product",
+isTianpengSite: 0,
+rakeProject: true,
+newStaticLibURI: "//as.zbjimg.com",
+asStaticLibURI:"//as.zbjimg.com",
+staticURL:"https://t5.zbjimg.com" 
+};
+(function (w) {
+var date = new Date();
+var timestamp = '' + date.getFullYear() + date.getMonth() + 1 + date.getDate() + date.getHours();
+var scriptUrl = 'https://t5.zbjimg.com/t5s/output/common/js/count.js?' + timestamp;
+var countScript = document.createElement('script');
+countScript.type = 'text/javascript';
+countScript.async = 1;
+countScript.src = scriptUrl;
+var sourceScript = document.getElementsByTagName('script')[0];
+sourceScript.parentNode.insertBefore(countScript, sourceScript);
+document.onclick = function (evt) {
+var dataLinkid = evt.target.getAttribute('data-linkid')
+var logList = [];
+function sendLog(data) {
+if (typeof (window.DataInterface) !== 'undefined') {
+window.DataInterface.collectData(data);
+} else {
+logList.push(data);
+}
+}
+function processLogList(list) {
+for (var i = 0; i < list.length; i++) {
+window.DataInterface && window.DataInterface.collectData(list[i]);
+}
+}
+processLogList(logList);
+var sendData = {
+linkid: dataLinkid,
+product: 'nodejs-zbj-account-web',
+utmdt: document.title,
+utmhn: window.location.pathname,
+pagefrom: encodeURIComponent(document.referrer)
+};
+if (dataLinkid) {
+sendLog(sendData);
+}
+}
+})(window);
+//]]></script>
+<link rel="stylesheet" type="text/css" href="//as.zbjimg.com/??/static/nodejs-zbj-account-web/view/common/css/loginLayout_0922d31.css,/static/nodejs-zbj-account-web/widget/accountHeader/accountHeader_26a82be.css,/static/nodejs-zbj-account-web/widget/accountTips/accountTips_6cecec1.css,/static/nodejs-zbj-account-web/widget/aComponentWidget/index_d41d8cd.css,/static/nodejs-zbj-account-web/widget/login/login-by-account-top/login-by-account-top_452728b.css,/static/nodejs-zbj-account-web/widget/login/login-form/login-form_f66a9e1.css,/static/nodejs-zbj-account-web/widget/login/login-form/login-password-form/login-password-form_7ceff3c.css,/static/nodejs-zbj-account-web/widget/login/login-form/login-mobile-form/login-mobile-form_8e50d09.css,/static/nodejs-zbj-account-web/widget/login/login-scan-code/login-scan-code_87e1139.css,/static/nodejs-zbj-account-web/widget/common/scan-code/scan-code_839aef3.css,/static/nodejs-zbj-account-web/widget/login/login-app-code/login-app-code_bc17dac.css,/static/nodejs-zbj-account-web/widget/common/login-register/authorize-login/authorize-login_e9c1e1e.css,/static/nodejs-zbj-account-web/widget/accountFooter/accountFooter_a8ea4ca.css"/>
+<link rel="canonical" href="https://account.zbj.com/login"/>
+<meta name="referrer" content="always"/>
+<script id="seajsnode" src="//as.zbjimg.com/rake-component/fe-common/utopia-core/0.2.26/index.js"></script>
+<script id="seajsnode" src="https://utopiacs.zbj.com/module-version.js"></script>
+<link rel="stylesheet" type="text/css" href="https://as.zbjimg.com/static/nodejs-zbj-commonmodule-web/static/element-ui/index.css">
+<style>
+.club-main .club-banner-wrap .zbj-common-wrap.club-banner .J-banner.advs-banner .advs-banner{margin-left:0;}
+.xrzq-content .xrzq-xuqiu#utopia_widget_4 .xuqiu-box .xuqiu-tab .xuqiu-tab-item.active{display:none !important;}
+.xrzq-content .xrzq-xuqiu#utopia_widget_4 .xuqiu-box .xuqiu-content .xuqiu-content-item.xuqiu-map{display:none !important;}
+.xrzq-content .xrzq-xuqiu#utopia_widget_4 .xuqiu-box .xuqiu-content .xuqiu-content-item.xuqiu-famous{display:block !important;}
+.xrzq-content .xrzq-xuqiu#utopia_widget_3{display:none !important;}
+.zp-search-wrap[data-v-dd92965a] {padding-top:20px !important;}
+.zp-search-wrap.zp-search-wrap-fixed[data-v-dd92965a]{padding-top:10px !important;}
+.el-message--error:has(.el-message__content:is(:empty, :blank)) { display: none !important; }
+</style>
+<script>
+try{
+    var ruleInterval=setInterval(function(){
+        var dom=$('.blacklist-row .column-1')
+        if(dom&&dom.length&&dom.length>1){
+            clearInterval(ruleInterval)
+            dom.filter(function() {
+                var id=$(this).text().trim()
+                return (['21795877','19762370','14341036','31260012','1875020','6934799','22644636','19074776','11453823','34405946','24462462'].includes(id));
+            }).siblings('.column-4').html('限制发布服务和案例')
+        }
+    },100)
+}catch(err){
+    console.log(err)
+}
+</script><script type="text/javascript" src="//as.zbjimg.com/static/nodejs-zbj-account-web/seajs-config_4be837e.js"></script>
+<script type="text/javascript" src="//as.zbjimg.com/rake-component/fe-common/utopia-arale-seajs-config/index.js"></script>
+<script type="text/javascript" src="//ucenter.zbj.com/fe-module.js"></script>
+<script type="text/javascript" src="//utopiacs.zbj.com/module-version.js"></script>
+</head>
+<body class='login-register-content'>
+
+
+
+
+
+
+<div class='zbj-header ibj-header'>
+
+<div class='account-header' id='utopia_widget_1'>
+<div class='zbj-grid'>
+<div class='logo'>
+<a href='https://www.zbj.com' class='logo-img' title='猪八戒网'></a>
+
+<h1 class='logo-title'>欢迎登录</h1>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+window.ZBJInfo.currentPage = "login";
+window.ZBJInfo.needCaptcha = true;
+</script>
+<div class='tips-wrapper' id='utopia_widget_2'>
+<div class='tips-inner'>
+<div class='cont-wrapper'>
+<i class='icon-tips'></i>
+<p> 依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版<a href='https://rule.zbj.com/ruleshow-0?pid=444&amp;categoryId=289' target='_blank'>《个人信息保护政策》</a>已上线，将更有利于保护您的个人隐私</p>
+</div>
+</div>
+</div>
+<input type='hidden' id='yfb'/>
+<div class='j-content content'>
+<div class='xw-zbj-login-img-wrap xw-ads-wrap' data-release='xwCommon' data-xwpositionid='41' id='utopia_widget_3'></div><script>
+utopia.arrived({uid:'utopia_widget_3', js:[], entry:function(){seajs.use(["ads-tomoko/utopia-zzgg-xw-res"],function(o){var i=$(".xw-zbj-login-img-wrap[data-xwpositionid]").data("xwpositionid");new o({conClass:"xwLoginPage",locationId:i,platformId:1,useSingleBackground:!0})})}});
+</script>
+<div class='zbj-grid'>
+<div class='box-warp' id='login-register-common-wrap'>
+<div class='box-form-wrap'>
+<div class='box-form'>
+
+<div class='form-wrap account-hidden-novisibility'>
+<div class='login-tabs'>
+<div class='login-tab-con zbj-tabs-content'>
+<div class='j-login-content-item login-content-item login-form-content zbj-tabs-panel login-con-panel login-content-active'>
+<div class='login-header' id='utopia_widget_4'>
+<ul class='clearfix zbj-tabs login-by-account-ways'>
+<ol class='scan'>
+<span class='scan-tip'>
+<i class='scan-tip-account'>扫码登录更方便</i>
+</span>
+<a class='login-by-item-app hiddenAccount' href='javascript:void(0)'>
+<span class='scan-right' data-linkid='10101305'>
+<img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/login/login-by-account-top/img/scan_ec8538d.png' width='52px'/>
+</span>
+</a>
+</ol>
+<li class='login-by-account-item login-by-accountpassword zbj-tabs-active zbj-tabs-trigger'>
+<a class='login-by-item-a' href='javascript:void(0)'>
+<span class='login-by-item-title login-by-password active' data-linkid='10101295'>密码登录</span>
+<span class='login-ways-separate'></span>
+</a>
+</li>
+<li class=' login-by-account-item login-by-phone zbj-tabs-trigger' data-linkid='10101302'>
+<a class='login-by-item-a' href='javascript:void(0)'>
+<span class='login-by-item-title login-by-msg'>短信登录</span>
+</a>
+</li>
+</ul>
+<div class='line'></div>
+</div><script>/*<![CDATA[*/
+utopia.arrived({uid:'utopia_widget_4', js:["fe-common/utopia-tabs@0.0.1","utils/wxUtil.js"], entry:function(i){var s=i("fe-common/utopia-tabs@0.0.1"),n=i("utils/wxUtil");$(".login-other-ways-login").css("display","block");var o=new s({element:".login-form-content",triggers:".login-form-content .zbj-tabs li",panels:".login-form-content .zbj-tabs-content .zbj-tabs-panel",activeIndex:0}),a=$(".login-header .line");$(".scan").removeClass("zbj-tabs-active"),o.on("switched",function(i){0==i?(a.css("left","13%"),$(".login-by-msg").removeClass("active"),$(".login-by-password").addClass("active"),$(".icon-error-bg.cancel-icon").removeClass("error-bg-top"),$(".login-password-panel").css("display","block"),$(".login-mobile-panel").css("display","none"),$("#username").focus(),$("#accent-pas-tip").hasClass("visibilityWarning")||($("div").removeClass("focus-border"),$(".zbjTips").remove(),$("#accent-pas-tip").addClass("visibilityWarning"))):1==i&&(a.css("left","47%"),$(".login-by-msg").addClass("active"),$(".login-by-password").removeClass("active"),$(".icon-error-bg.cancel-icon").removeClass("error-bg-top"),$(".login-by-accountpassword").removeClass("zbj-tabs-active"),$(".login-password-panel").css("display","none"),$(".login-mobile-panel").css("display","block"),$("#telephone").focus(),$("#mob-inp-tip").hasClass("visibilityWarning")||($("div").removeClass("focus-border"),$(".zbjTips").remove(),$("#mob-inp-tip").addClass("visibilityWarning"))),$("input, textarea").placeholder()}),$(".hiddenAccount").click(function(){$(".account-hidden-novisibility").css("display","none"),$(".login-other-ways-login").css("display","none"),$(".wei-hidden-novisibility").css("display","block"),$(".app-hidden-novisibility").css("display","block"),n.wxScan(),$(".scan-by-app").hasClass("zbj-tabs-active")&&$(".wei-hidden-novisibility").css("display","none"),$(".scan-by-wechat").hasClass("active")?(clearInterval(time),function(){n.appScan()},n.wxScan()):(clearInterval(time),function(){n.wxScan()},n.appScan())}),$(".hiddenAppScan").click(function(){$(".login-other-ways-login").css("display","block"),$(".wei-hidden-novisibility").css("display","none")}),$(document.body).delegate("#mob-login-tip","click",function(){$(".login-by-phone").trigger("click")})}});
+//]]></script>
+<div class='j-login-form zbj-tabs-content needError' id='utopia_widget_5'>
+<div class='zbj-tabs-panel login-password-panel'>
+<form id='login' class='login-form' action='/login/dologin/' method='post' data-type='json'>
+<div class='j-login-by login-by-username login-by-active'>
+<div class='zbj-form-item zbj-form-username'>
+<input id='vid' type='hidden' name='vid'/>
+<div class='visibilityWarning input-new' id='accent-pas-tip'>
+<label><img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/login/login-form/login-password-form/img/username-input_4485dfc.png' width='37px' class='left'/><input id='username' name='username' class='zbj-inp-log username-input left zbj-input j-zbj-form-username' type='text' placeholder='手机号/邮箱/用户名' tabindex='1'/></label></div>
+<div class='visibilityError'></div>
+<input id='kid' type='hidden' name='kid'/>
+<input id='vf_id' type='hidden' name='vf_id'/>
+<input id='key' type='hidden' name='key'/>
+<input id='l' type='hidden' name='l' value='1'/>
+<input id='gt_type' type='hidden' name='gt_type' value='login'/>
+<input id='terminal' type='hidden' name='terminal' value='1'/>
+<input id='web_token' type='hidden' name='web_token' value='1FKeJFOrrTgtwaK7fgC5bsK6bxTccGPm'/>
+</div>
+<div class='zbj-form-item zbj-form-password'>
+<div class='input-new' id='accent-password-tip'>
+<label><img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/login/login-form/login-password-form/img/password-input_d4f84c3.png' width='37px' class='left'/>
+<input id='password' name='password' class='zbj-inp-log username-input left zbj-input' type='password' placeholder='密码' tabindex='2'/></label></div>
+<div class='visibilityError'></div>
+</div>
+<div class='newCaptcha-row' id='password-captcha-box'>
+</div>
+
+<label for='protocal2'>
+<div class='label-checkbox-protocal' id='accent-protocal'>
+<div style='margin-right: 8px;'>
+<i>
+<input type='checkbox' name='protocal2' id='protocal2' class='protocal-hidden'/>
+<span class='check-sql'></span>
+</i>
+</div>
+<p class='protocalBox'>我已阅读同意
+<strong>
+<a href='https://rule.zbj.com/ruleshow-0?pid=2&amp;categoryId=289' target='_blank' class='form-protocal'>服务协议</a>、
+<a href='https://rule.zbj.com/ruleshow-0?pid=444&amp;categoryId=289' target='_blank' class='form-protocal'>个人信息保护政策</a>
+</strong>，未注册的手机号将自动创建猪八戒账号。
+</p>
+</div>
+</label>
+<div class='zbj-form-item login-other-info'>
+<label data-linkid='10101297'><input type='checkbox' name='cache' value='1' tabindex='4'/>
+<span>两周内自动登录</span></label>
+<a class='forget-password' href='/retrieve?fromurl=https://i.zbj.com/demands?tab=0' data-linkid='10101299'>忘记密码</a>
+<a class='forget-password' style='color:#ff6600;margin-right: 10px' href='/appeal/confirm?type=1'>账号申诉</a>
+</div>
+<div class='zbj-form-item login-form-button'>
+<input type='hidden' name='fromurl' value='https://i.zbj.com/demands?tab=0'/>
+<button class='zbj-btn zbj-btn-primary j-login-btn linear-gradient-btn' tabindex='5' type='button' data-linkid='10101304'>登 录</button>
+</div>
+</div>
+</form>
+</div>
+<div class='zbj-tabs-panel login-mobile-panel'>
+<form id='login-mobile' class='login-form' action='/login/quickLogin/' method='post' data-type='json'>
+<div class='j-login-by login-by-mobile'>
+<div class='zbj-form-item'>
+<div class='visibilityWarning input-new' id='mob-inp-tip'>
+<label><img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/login/login-form/login-mobile-form/img/telephone-input_e76bdd6.png' width='37px' class='left'/>
+<input id='telephone' name='mobile' class='zbj-inp-log username-input left zbj-input' type='text' placeholder='手机号' tabindex='6' maxlength='11'/></label>
+<input id='login-statistics' type='hidden' name='statistics' value=''/>
+</div>
+</div>
+<div class='zbj-form-item dynamic-code' id='dynamic-inp-foc'>
+<div class='input-new dyna-input'><label><img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/login/login-form/login-mobile-form/img/dynamic-input_ca88868.png' width='37px' class='input-img-left'/>
+<input id='ipt-token' type='hidden' name='token' value=''/>
+<input id='terminal' type='hidden' name='terminal' value='1'/>
+<input type='hidden' name='wayType'/>
+<input type='hidden' name='waytype'/>
+<input type='hidden' name='intention'/>
+<input id='dynamic-code' name='key' class='dt username-input zbj-input right dynamic-input-bg' type='text' placeholder='动态码' tabindex='8'/></label></div>
+<button type='button' class='get-dynamic-code j-get-dynamic-code' data-linkid='10101303' disabled='disabled'>获取动态码</button>
+<button type='button' class='hidden-get-dynamic-code' data-linkid='hidden-get-dynamic-code'></button>
+</div>
+<div class='visibilityError'></div>
+
+
+<label for='protocal'>
+<div class='label-checkbox-protocal'>
+<div>
+<i>
+<input type='checkbox' name='protocal' id='protocal' class='protocal-hidden'/>
+<span class='check-sql'></span>
+</i>
+</div>
+<p class='protocalBox'>我已阅读同意
+<strong>
+<a href='https://rule.zbj.com/ruleshow-0?pid=2&amp;categoryId=289' target='_blank' class='form-protocal'>服务协议</a>、
+<a href='https://rule.zbj.com/ruleshow-0?pid=444&amp;categoryId=289' target='_blank' class='form-protocal'>个人信息保护政策</a>
+</strong>，未注册的手机号将自动创建猪八戒账号。
+</p>
+</div>
+</label>
+<div class='zbj-form-item login-form-button'>
+<input type='hidden' name='fromurl' value='https://i.zbj.com/demands?tab=0'/>
+<button class='zbj-btn zbj-btn-primary j-login-btn-mobile linear-gradient-btn' tabindex='9' type='button' data-linkid='10101304'>登 录</button>
+</div>
+</div>
+</form>
+</div>
+</div><script>/*<![CDATA[*/
+utopia.arrived({uid:'utopia_widget_5', js:["widget/login/login-form/src/dialog.js","components/poptip/poptip","components/countdown/countdown","widget/login/login-form/src/captcha.js","components/validator/validator","fe-common/utopia-cookie@0.0.1","widget/login/login-form/src/validator.js"], entry:function(o){function i(){var o=$('input:checkbox[name="protocal"]:checked').val();/^1[3456789]\d{9}$/.test($("#telephone").val())&&o?($(".hidden-get-dynamic-code").hide(),$(".j-get-dynamic-code").attr("disabled",!1),$("#mob-inp-tip").addClass("visibilityWarning"),$(".zbjTips").remove()):($(".hidden-get-dynamic-code").show(),$(".j-get-dynamic-code").attr("disabled",!0))}var n=o("widget/login/login-form/src/dialog"),e=o("components/poptip/poptip"),t=o("components/countdown/countdown"),a=o("widget/login/login-form/src/captcha"),c=o("components/validator/validator"),r=o("fe-common/utopia-cookie@0.0.1");r.set("osip",(new Date).getTime(),{domain:window.ZBJInfo.pageDomain,path:"/"});var p=function(){$.ajax({url:"/api/signOut",data:{terminal:1},type:"post",dataType:"json"}).done(function(){location.reload()})};$("#password-captcha-box").show(),o("widget/login/login-form/src/validator")(c,a);var d=new t(".j-gain-ticket",{disabledClassName:"re-getting",defaultTemplate:"重新发送",displayTemplate:"重新获取({count})"});if(d.stop(),un=document.cookie.match(/_un=([^;$]+)/)){var l=$(".j-zbj-form-username").val(un[1]),s=$("<i></i>").addClass("icon-error-bg cancel-icon"),g=l.parent();g.append(s),s.on("click",function(){s.remove(),l.val("").focus()}),l.on("keyup",function(){l.val()!=un[1]&&(s.remove(),l.off("keyup"))})}$("input, textarea").placeholder();var m=$("#verify-btn");$("body").on("click","#verify-btn",function(){var o=$(".icon-error-bg.cancel-icon");0==$(".mobile-ticket").val().length?setTimeout(function(){n.tipLoginMain("验证码不能为空","#checkcode-inp-tip","#mob-inp-tip"),n.tipLoginMain("验证码不能为空","#checkcode-inp-tip","#accent-pas-tip"),o.addClass("error-bg-top")}):(m.addClass("disabled").attr("disabled",!0),$.ajax({url:"/api/login/checkauthcode",data:{kid:$("#kid").val(),code:$("#code").val(),terminal:1},type:"post",dataType:"json"}).done(function(i){m.removeClass("disabled").attr("disabled",!1),i.success?i.url?seajs.use("//utopiacs."+window.ZBJInfo.baseURI+"/module-version.js?"+Date.now(),function(){seajs.use("dept-platform-common/fe-fe-updateagreement-res",function(n){{var e=function(){window.location.href=i.url;var n=$("#username").val(),e=new Date;e.setTime(e.getTime()+5184e6),document.cookie="_un="+n+";expires="+e.toGMTString(),o.removeClass("error-bg-top")};n({origin:17,callback:e,cancelHandle:p})}})}):(n.tipErrorLoginMain("内部接口有误。","#mob-inp-tip","#mob-inp-tip"),n.tipErrorLoginMain("内部接口有误。","#accent-pas-tip","#accent-pas-tip"),o.addClass("error-bg-top")):(n.tipErrorLoginMain(i.description,"#mob-inp-tip","#mob-inp-tip"),n.tipErrorLoginMain(i.description,"#accent-pas-tip","#accent-pas-tip"),o.addClass("error-bg-top"))}).fail(function(){n.tipErrorLoginMain("请刷新页面重试","#verify-btn","#mob-inp-tip"),n.tipErrorLoginMain("请刷新页面重试","#verify-btn","#accent-pas-tip"),o.addClass("error-bg-top")}))}).on("click",".j-gain-ticket",function(){var o=$(".icon-error-bg.cancel-icon"),i=$(this);i.attr("disabled")||$.ajax({url:"/api/login/SendAuthCode",type:"post",data:{secureLoginKey:$("#kid").val()},dataType:"json"}).done(function(i){e.tip(i.msg||i.description,".j-gain-ticket","bellow"),n.tipErrorLoginMain(i.description||i.msg,"#dynamic-inp-foc","#mob-inp-tip"),o.addClass("error-bg-top"),i.success&&(d.start(),o.removeClass("error-bg-top"))}).fail(function(){n.tipErrorLoginMain("请刷新页面重试","#dynamic-inp-foc","#mob-inp-tip"),o.addClass("error-bg-top"),e.tip("请刷新页面重试",".j-gain-ticket","bellow")})}).on("click",".j-get-dynamic-code",function(){var o=$(this);o.attr("disabled")}).on("click",".hidden-get-dynamic-code",function(){var o=$('input:checkbox[name="protocal"]:checked').val();return/^1[3456789]\d{9}$/.test($("#telephone").val())?o?void 0:void n.tipLoginMain("请阅读并勾选相关协议及政策","#dynamic-inp-foc","#mob-inp-tip"):void n.tipLoginMain("请输入正确的手机号码","#dynamic-inp-foc","#mob-inp-tip")}),$("#telephone").on("keyup blur",i),$('input:checkbox[name="protocal"]').on("change",i),$("#code").on("keyup",function(o){13===o.keyCode&&$("#verify-btn").trigger("click")});var u="";$("#password").on("keyup",function(o){var i=$(this),n=o.keyCode||o.which,t=o.shiftKey||16==n||!1,a=i.val().charCodeAt(i.val().length-1);20==o.keyCode&&("off"==u?(e.tip("大写锁定已开启",i,"bellow"),u="on"):"on"==u&&(i.trigger("click"),u="off")),n>=65&&90>=n&&(a>=65&&90>=a&&!t||a>=97&&122>=a&&t?(e.tip("大写锁定已开启",i,"bellow"),u="on"):(u="off",i.trigger("click")))})}});
+//]]></script>
+</div>
+<div class='zbj-tabs-panel login-con-panel'>
+</div>
+<div class='zbj-tabs-panel login-con-panel'>
+</div>
+</div>
+</div>
+</div>
+<div class='login-tabs'>
+<div class='login-tab-con zbj-tabs-content'>
+
+<div class='wei-hidden-novisibility'>
+<div class='scan-wechat' id='utopia_widget_8'>
+<a class='login-by-item-app hiddenWechatScan' href='javascript:void(0)'>
+<span class='scan-right'>
+<img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/login/login-scan-code/img/closeWechat_0e855d9.png' width='20px'/>
+</span>
+</a>
+</div>
+<div class='scan-content-sty'>
+<div class='scan-main-mar'>
+
+
+
+
+
+<div id='wei'>
+<div class='login-app-code'>
+<p class=''></p>
+<div class='qrcode-wrap j-qrcode-wrap'>
+<div class='qrcode-img j-qrcode-img'>
+<input id='wxImage' type='hidden'/>
+<input id='loginKey' type='hidden'/>
+<img id='appWeiImg' class='wei-img' src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/common/scan-code/img/mohu_689f6ff.jpg'/>
+
+
+</div>
+
+<div class='qrcode-help j-qrcode-help'></div>
+
+</div>
+
+
+<div class='upload-link'>
+<span>打开<a href='https://app.zbj.com/bz/pc/' target='_blank'>手机猪八戒</a>扫码登录</span>
+</div>
+
+
+</div>
+<div class='login-scan-fail'>
+<div class='login-fail-main'>
+<h3>
+<i></i>
+<span>
+登录失败
+</span>
+</h3>
+<p class='fail-note'>
+请刷新二维码后重新扫描
+</p>
+<a href='javascript:void(0)' class='btn-refresh-code' id='login-refresh'>
+刷新二维码
+</a>
+</div>
+</div>
+</div><script>/*<![CDATA[*/
+utopia.arrived({uid:'wei', js:["components/log/log","utils/utils.js","widget/common/auth-login-filter/auth-login-filter.js"], entry:function(i,t,e){var n=i("components/log/log"),s=i("utils/utils"),o=i("widget/common/auth-login-filter/auth-login-filter"),a={init:function(i){this.initOpt(i),this.initEvent()},initOpt:function(i){this.wrap=i.wrap,this.token=i.token||$("#token").val(),this.src=i.src||$("#src").val(),this.weiImg=i.weiImg||$(".wei-img"),this.refreshBtn=i.refreshBtn||this.wrap.find(".btn-refresh-code"),this.scanWei=i.scanWei||this.wrap.find(".login-app-code"),this.scanFail=i.scanFail||this.wrap.find(".login-scan-fail"),this.flag=i.flag,console.log(i)},initEvent:function(){var i=this;this.tipToggle(),this.refreshBtn.click(function(){i.loadWeiCode()})},tipToggle:function(){$(".wei-hidden-novisibility .j-qrcode-help"),$(".wei-hidden-novisibility .j-qrcode-img")},scan:function(){var i=this;clearInterval(this.scanTimer),this.scanTimer=setInterval(function(){$.ajax({url:"/login/QrWxConnect?ttt="+(new Date).getTime(),type:"get",data:{token:i.token,flag:i.flag,src:i.src},dataType:"json"}).done(function(t){if(30==t.code)i.scanWei.hide(),i.scanFail.show(),clearInterval(i.scanTimer);else if(t.success){if(i.logSrc(t.state),ZBJInfo.auth_login)return void o.doFilter(t);window.location.href=t.url}})},3e3)},loadWeiCode:function(){var i=this,t=s.getStatisticsUnion();$.ajax({url:"/login/QrcodeFromWx?ttt="+(new Date).getTime(),type:"get",data:{flag:i.flag,src:i.src,statistics:t},dataType:"json"}).done(function(t){if(i.scanWei.show(),i.scanFail.hide(),0==t.code&&2!==i.src)i.weiImg.attr("src",t.qrcode),i.weiImg.siblings(".wei-zbj").show(),i.token=t.token,i.scan();else if(0==t.code&&2==i.src){var e=$("#wxImage").val();""!==e&&(i.weiImg.attr("src",e),i.weiImg.siblings(".wei-zbj").show(),i.scanFail.hide(),i.token=$("#loginKey").val(),i.scan())}else i.weiImg.siblings(".wei-zbj").hide()})},logSrc:function(i){var t="";1==i?t="APP":2==i&&(t="微信"),n.sendLog({loginWayCode:i,loginWayTxt:t})}};e.exports=a}});
+//]]></script>
+<input type='hidden' id='token' value=''/>
+<input type='hidden' id='src' value=''/>
+<input type='hidden' id='currentpage'/>
+</div>
+</div><script>/*<![CDATA[*/
+utopia.arrived({uid:'utopia_widget_8', js:["utils/wxUtil.js"], entry:function(i){var l=i("utils/wxUtil");$(".j-qrcode-help").addClass("help-right"),$(".upload-link").html("<div class='witn'><span class='idntn'>微信扫码 快捷登录</span></div>");var a=$("#wxImage").val();a&&$(".wei-img").attr("src",a),l.wxScan()}});
+//]]></script>
+</div>
+
+<div class='app-hidden-novisibility scan-form-content'>
+<div class='login-scan' id='utopia_widget_10'>
+<ul class='scan-content-sty zbj-tabs'>
+<ol class='scan'>
+<span class='scan-tip'>
+<i class='scan-tip-qrcode'>使用密码登录</i>
+</span>
+<a class='login-by-item-app hiddenAppScan' href='javascript:void(0)'>
+<span class='scan-right' data-linkid='10184974'>
+<img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/login/login-app-code/images/app-scan_f92c7e9.png' width='52px'/>
+</span>
+</a>
+</ol>
+<li class='scan-main-mar scan-by-wechat zbj-tabs-trigger active'>
+<span class='scan-title-sty' data-name='wx'>微信扫码登录</span>
+</li>
+<li class='scan-main-mar scan-by-app zbj-tabs-trigger'>
+<span class='scan-title-sty' data-name='app'>APP扫码登录</span>
+</li>
+<div class='app-line'></div>
+</ul>
+<div class='app-scan-wrapper' style='display: none;'>
+
+
+
+
+
+<div id='app'>
+<div class='login-app-code'>
+<p class=''></p>
+<div class='qrcode-wrap j-qrcode-wrap'>
+<div class='qrcode-img j-qrcode-img'>
+<input id='wxImage' type='hidden'/>
+<input id='loginKey' type='hidden'/>
+<img id='appWeiImg' class='wei-img' src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/common/scan-code/img/mohu_689f6ff.jpg'/>
+
+<div class='wei-zbj'></div>
+
+
+</div>
+
+<div class='qrcode-help j-qrcode-help wei_help_class'></div>
+
+</div>
+
+
+<div class='upload-link'>
+<span>打开<a href='https://app.zbj.com/bz/pc/' target='_blank'>手机猪八戒</a>扫码登录</span>
+</div>
+
+
+</div>
+<div class='login-scan-fail'>
+<div class='login-fail-main'>
+<h3>
+<i></i>
+<span>
+登录失败
+</span>
+</h3>
+<p class='fail-note'>
+请刷新二维码后重新扫描
+</p>
+<a href='javascript:void(0)' class='btn-refresh-code' id='login-refresh'>
+刷新二维码
+</a>
+</div>
+</div>
+</div><script>/*<![CDATA[*/
+utopia.arrived({uid:'app', js:["components/log/log","utils/utils.js","widget/common/auth-login-filter/auth-login-filter.js"], entry:function(i,t,e){var n=i("components/log/log"),s=i("utils/utils"),o=i("widget/common/auth-login-filter/auth-login-filter"),a={init:function(i){this.initOpt(i),this.initEvent()},initOpt:function(i){this.wrap=i.wrap,this.token=i.token||$("#token").val(),this.src=i.src||$("#src").val(),this.weiImg=i.weiImg||$(".wei-img"),this.refreshBtn=i.refreshBtn||this.wrap.find(".btn-refresh-code"),this.scanWei=i.scanWei||this.wrap.find(".login-app-code"),this.scanFail=i.scanFail||this.wrap.find(".login-scan-fail"),this.flag=i.flag,console.log(i)},initEvent:function(){var i=this;this.tipToggle(),this.refreshBtn.click(function(){i.loadWeiCode()})},tipToggle:function(){$(".wei-hidden-novisibility .j-qrcode-help"),$(".wei-hidden-novisibility .j-qrcode-img")},scan:function(){var i=this;clearInterval(this.scanTimer),this.scanTimer=setInterval(function(){$.ajax({url:"/login/QrWxConnect?ttt="+(new Date).getTime(),type:"get",data:{token:i.token,flag:i.flag,src:i.src},dataType:"json"}).done(function(t){if(30==t.code)i.scanWei.hide(),i.scanFail.show(),clearInterval(i.scanTimer);else if(t.success){if(i.logSrc(t.state),ZBJInfo.auth_login)return void o.doFilter(t);window.location.href=t.url}})},3e3)},loadWeiCode:function(){var i=this,t=s.getStatisticsUnion();$.ajax({url:"/login/QrcodeFromWx?ttt="+(new Date).getTime(),type:"get",data:{flag:i.flag,src:i.src,statistics:t},dataType:"json"}).done(function(t){if(i.scanWei.show(),i.scanFail.hide(),0==t.code&&2!==i.src)i.weiImg.attr("src",t.qrcode),i.weiImg.siblings(".wei-zbj").show(),i.token=t.token,i.scan();else if(0==t.code&&2==i.src){var e=$("#wxImage").val();""!==e&&(i.weiImg.attr("src",e),i.weiImg.siblings(".wei-zbj").show(),i.scanFail.hide(),i.token=$("#loginKey").val(),i.scan())}else i.weiImg.siblings(".wei-zbj").hide()})},logSrc:function(i){var t="";1==i?t="APP":2==i&&(t="微信"),n.sendLog({loginWayCode:i,loginWayTxt:t})}};e.exports=a}});
+//]]></script>
+<input type='hidden' id='tokenApp' value='TypeError: Cannot read properties of undefined (reading &#39;token&#39;)'/>
+<input type='hidden' id='srcApp' value='TypeError: Cannot read properties of undefined (reading &#39;src&#39;)'/>
+</div>
+</div><script>/*<![CDATA[*/
+utopia.arrived({uid:'utopia_widget_10', js:["fe-common/utopia-tabs@0.0.1","utils/wxUtil.js","widget/login/login-app-code/app-src.js"], entry:function(i){var n=i("fe-common/utopia-tabs@0.0.1"),s=i("utils/wxUtil"),e=new n({element:".scan-form-content",triggers:".scan-form-content .zbj-tabs li",panels:".scan-form-content .zbj-tabs-content .zbj-tabs-panel",activeIndex:0}),a=$(".app-line"),l=i("widget/login/login-app-code/app-src");$(document).ready(function(){clearInterval(time),function(){s.appScan()},clearInterval(time),function(){s.wxScan()}});var t=$(".wei-hidden-novisibility-lgtype").size(),c=$(".app-hidden-novisibility-lgtype").size();t||c?$(".account-hidden-novisibility").css("display","block"):($(".wei-hidden-novisibility").css("display","block"),$(".login-other-ways-login").css("display","none"),s.wxScan()),e.on("switched",function(i){if(0==i){clearInterval(time),function(){s.appScan()},s.wxScan(),a.css("left","19%");var n=$("#wxImage").val();$(".wei-img").attr("src",n),$(".scan-by-app").removeClass("active"),$(".scan-by-wechat").addClass("active"),$(".j-qrcode-help").addClass("help-right"),$(".app-scan-wrapper").css("display","none"),$(".wei-hidden-novisibility").css("display","block"),$(".wei-hidden-novisibility-lgtype").css("display","block"),$(".upload-link").html("<div class='witn'><span class='idntn'>微信扫码 快捷登录</span></div>")}else 1==i&&($(".wei-img").siblings(".wei-zbj").hide(),$(".wei-img").attr("src",l.src),clearInterval(time),function(){s.wxScan()},$(".app-scan-wrapper").css("display","block"),a.css("left","52%"),$(".scan-by-app").addClass("active"),$(".scan-by-wechat").removeClass("active"),$(".j-qrcode-help").removeClass("help-right"),$(".wei-hidden-novisibility").css("display","none"),$(".wei-hidden-novisibility-lgtype").css("display","none"),$(".upload-link").html("<div class='witn'><span>打开<a href='https://app.zbj.com/bz/pc/' target='_blank'>手机猪八戒</a>扫码登录</span></div>"),s.appCode(),s.appScan());$("input, textarea").placeholder()}),$(".hiddenWechatScan").click(function(){$(".icon-error-bg.cancel-icon").removeClass("error-bg-top"),$(".j-qrcode-help").removeClass("help-right"),$(".wei-hidden-novisibility").css("display","none"),$("#accent-pas-tip").hasClass("visibilityWarning")?$("#mob-inp-tip").hasClass("visibilityWarning")||($("input").removeClass("focus-border"),$(".zbjTips").remove(),$("#mob-inp-tip").addClass("visibilityWarning")):($("input").removeClass("focus-border"),$(".zbjTips").remove(),$("#accent-pas-tip").addClass("visibilityWarning"))}),$(".hiddenAppScan").click(function(){clearInterval(time),function(){s.appScan()},clearInterval(time),function(){s.wxScan()},$(".wei-hidden-novisibility").css("display","none"),$(".app-hidden-novisibility").css("display","none"),$(".wei-hidden-novisibility-lgtype").css("display","none"),$(".app-hidden-novisibility-lgtype").css("display","none"),$(".account-hidden-novisibility").css("display","block"),$(".icon-error-bg.cancel-icon").removeClass("error-bg-top"),$("#accent-pas-tip").hasClass("visibilityWarning")?$("#mob-inp-tip").hasClass("visibilityWarning")||($("div").removeClass("focus-border"),$(".zbjTips").remove(),$("#mob-inp-tip").addClass("visibilityWarning")):($("div").removeClass("focus-border"),$(".zbjTips").remove(),$("#accent-pas-tip").addClass("visibilityWarning"))}),$(".btn-refresh-code").click(function(){window.location.reload()})}});
+//]]></script>
+</div>
+
+
+</div>
+</div>
+
+<div class='login-other-ways-login login-other-ways'>
+<div class='authorize-login ' id='utopia_widget_16'>
+<p class='clearfix authorize-login-title'>
+<span class='authorize-login-title-left'>
+使用第三方账号登录
+</span>
+
+<span class='authorize-login-title-right '>
+
+<a class='authorize-link' href='/register?fromurl=http://i.zbj.com/demands?tab=0' data-linkid='10101298'>注册新账号></a>
+</span>
+
+</p>
+<ul class='clearfix authorize-login-list'>
+
+
+<li class='authorize-login-item' data-linkid='10101300'>
+<a href='javascript:void(0)' class='j-authorize-login-item qq-login oauth-param' data-href='/oauth/redirect/act/QQ' title='QQ登录'></a>
+</li>
+<li class='authorize-login-item' data-linkid='10101301'>
+<a href='javascript:void(0)' class='j-authorize-login-item sina-login oauth-param' data-href='/oauth/redirect/act/sina' title='微博登录'></a>
+</li>
+
+</ul>
+</div><script>
+utopia.arrived({uid:'utopia_widget_16', js:["components/log/log","components/refer-statistics/refer-statistics"], entry:function(t){var o=t("components/log/log"),i=t("components/refer-statistics/refer-statistics");$(".j-authorize-login-item").on("mouseenter",function(){var t=$(this);t.stop().animate({marginTop:-5},200,function(){t.stop().animate({marginTop:0},200)})}),$(".authorize-login-item a").on("click",function(){o.sendLog({loginWayCode:5,loginWayTxt:"三方登录"})}),$(".oauth-param").on("click",function(t){t.stopPropagation();var o=i.getStatisticsData();window.location.href=$(this).attr("data-href")+"?"+o})}});
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>/*<![CDATA[*/
+utopia.arrived({uid:'utopia_widget_17', js: ['utils/utils.js'], entry: function(require, exports, module) {
+var Utils = require('utils/utils');
+seajs.use('fe-common/fe-data-refer-res@0.1.1',function(data){
+referStatistics.init();
+})
+window.onload=function(){
+Utils.getStatisticsUnionV3(statisticsUnion=>{
+$.ajax({
+url: '/login/loadQrImg' + "?ttt=" + new Date().getTime(),
+type: 'get',
+data: {
+statistics: statisticsUnion
+},
+dataType: 'json'
+}).done(function (json) {
+if(json&&json.wxImage){
+$('#wxImage').val(json.wxImage)
+$(".wei-img").attr("src", json.wxImage);
+$('#loginKey').val(json.loginKey)
+}
+})
+})
+}
+}});
+//]]></script>
+
+
+<div class='account-footer' id='utopia_widget_18'>
+<div class='zbj-grid zbj-footer-grid'>
+<div class='footer-sitelink'>
+<a href='https://www.zbj.com/about/' rel='nofollow' target='_blank'>关于我们</a>
+<span class='split'>|</span>
+<a href='https://www.zbj.com/about/contactus.html' rel='nofollow' target='_blank'>联系方式</a>
+<span class='split'>|</span>
+<a href='https://jinshi.zbj.com/' rel='nofollow' target='_blank'>广告服务</a>
+<span class='split'>|</span>
+<a href='https://news.zbj.com/' rel='nofollow' target='_blank'>新闻中心</a>
+<span class='split'>|</span>
+<a href='https://www.zbj.com/main/map/' rel='nofollow' target='_blank'>网站地图</a>
+<span class='split'>|</span>
+<a href='https://www.zbj.com/zizhi/gszz.html' rel='nofollow' target='_blank'>公司资质</a>
+<span class='split'>|</span>
+<a href='https://job.zbj.com/' rel='nofollow' target='_blank'>加入我们</a>
+<span class='split'>|</span>
+<a href='https://www.zbj.com/about/payment.html' rel='nofollow' target='_blank'>支付方式</a>
+<span class='split'>|</span>
+
+<a href='https://search.zbj.com/ser/' rel='nofollow' target='_blank'>热门服务</a>
+<span class='split'>|</span>
+<a href='http://app.zbj.com/bz/pc/?fr=dl20191210' rel='nofollow' target='_blank'>猪八戒网移动版</a>
+</div>
+<p class='footer-copyright'>Copyright 2005-2026zbj.com 版权所有
+<a href='https://www.miitbeian.gov.cn' rel='nofollow' target='_blank'>渝ICP备10202274-1号</a>
+<a href='https://www.cqca.gov.cn/' rel='nofollow' target='_blank'>渝B2-20080005</a>
+</p>
+<div class='footer-gov'>
+<a href='https://www.cqgseb.cn/ztgsgl/WebMonitor/GUILayer/eImgMana/dztbInfo.aspx?sfdm=120090611153726046127' rel='nofollow' target='_blank'><img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/accountFooter/images/gov1_f4a49dc.png'/><span class='footer-gov-text'>工商网监电子标识</span></a>
+<a href='https://www.cqgseb.cn/ztgsgl/WebSiteMonitoring/WebUI/XFWQ/Index.aspx?xh=19' rel='nofollow' target='_blank'><img src='//as.zbjimg.com/static/nodejs-zbj-account-web/widget/accountFooter/images/gov2_ad6bc96.jpg'/><span class='footer-gov-text'>消费者维权服务站</span></a>
+</div>
+</div>
+</div>
+
+
+
+<script type='text/javascript'>
+jQuery.browser = {};
+(function () {
+jQuery.browser.msie = false;
+jQuery.browser.version = 0;
+if (navigator.userAgent.match(/MSIE ([0-9]+)./)) {
+jQuery.browser.msie = true;
+jQuery.browser.version = RegExp.$1;
+}
+})();
+seajs.use("view/js/common.js");
+seajs.use('ads-tomoko/utopia-zzgg-bees-res', function (Bees) {
+var bees = new Bees();
+bees.dataHandler();
+});
+</script>
+
+
+</body>
+</html>
