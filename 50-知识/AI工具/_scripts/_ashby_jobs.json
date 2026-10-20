@@ -14628,5 +14628,1225 @@
   "empType": "FullTime",
   "published": "2026-10-19T18:27:06.294+00:00",
   "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, AI Connections (Developer Platform)",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-08-24T14:44:49.699+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Representative, New York",
+  "loc": "New York, New York",
+  "dept": "Early Career",
+  "empType": "FullTime",
+  "published": "2026-04-02T21:00:55.755+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Representative, San Francisco",
+  "loc": "San Francisco, California",
+  "dept": "Early Career",
+  "empType": "FullTime",
+  "published": "2026-04-01T23:05:05.541+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Product Designer",
+  "loc": "San Francisco, California",
+  "dept": "Product Design",
+  "empType": "FullTime",
+  "published": "2026-07-02T17:18:41.823+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Representative",
+  "loc": "Tokyo, Japan ",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2025-07-25T22:00:31.199+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Forward Deployed Engineer, GTM, AMER",
+  "loc": "San Francisco, California",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2025-08-07T23:35:32.716+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Manager, Sales Development",
+  "loc": "New York, New York",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-10-13T16:06:03.263+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Sales Recruiter",
+  "loc": "New York, New York",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-08-25T23:44:32.773+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Solutions Consultant Manager, Commercial (Sales Leadership)",
+  "loc": "Tokyo, Japan ",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2025-10-28T05:29:39.553+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Engineering Manager, Mobile AI",
+  "loc": "New York, New York",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-05-21T16:12:14.026+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Solutions Consultant Manager, Enterprise (Sales Leadership)",
+  "loc": "Tokyo, Japan ",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-05T08:28:53.412+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "General Manager, DACH",
+  "loc": "Munich, Germany",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-20T20:27:53.155+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Security Engineer, Detection and Response",
+  "loc": "San Francisco, California",
+  "dept": "Security",
+  "empType": "FullTime",
+  "published": "2026-09-28T16:20:26.330+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Forward Deployed Engineer",
+  "loc": "Tokyo, Japan ",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-06-11T12:35:40.623+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Product Operations Manager",
+  "loc": "San Francisco, California",
+  "dept": "User Research and Product Operations",
+  "empType": "FullTime",
+  "published": "2026-02-12T18:31:04.052+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Developer Experience",
+  "loc": "Hyderabad, India",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-06-24T08:26:55.883+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Senior Treasury Manager",
+  "loc": "San Francisco, California",
+  "dept": "Finance",
+  "empType": "FullTime",
+  "published": "2026-08-07T15:40:32.480+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Demand & Campaigns Lead, EMEA",
+  "loc": "Dublin, Ireland",
+  "dept": "Marketing",
+  "empType": "FullTime",
+  "published": "2026-07-09T14:22:53.103+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Technical Education Specialist",
+  "loc": "New York, New York",
+  "dept": "Customer Experience",
+  "empType": "FullTime",
+  "published": "2026-09-11T18:42:53.570+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Manager, Product & Platform",
+  "loc": "New York, New York",
+  "dept": "Product Management",
+  "empType": "FullTime",
+  "published": "2026-07-02T00:13:00.462+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Outcomes Architect Manager, Tokyo",
+  "loc": "Tokyo, Japan ",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-09-02T05:27:13.404+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Collections Experience",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-04-23T15:55:53.888+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Enterprise Technical Support Engineer",
+  "loc": "San Francisco, California",
+  "dept": "Customer Experience",
+  "empType": "FullTime",
+  "published": "2026-04-27T18:42:58.299+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Lifecycle Marketing Manager, Campaign Strategy & Execution",
+  "loc": "San Francisco, California",
+  "dept": "Marketing",
+  "empType": "FullTime",
+  "published": "2026-10-14T15:38:27.470+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Early Career (AI)",
+  "loc": "San Francisco, California",
+  "dept": "Early Career",
+  "empType": "FullTime",
+  "published": "2026-07-06T18:37:42.434+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Regional Partner Manager, DACH",
+  "loc": "Munich, Germany",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-05-28T09:58:07.555+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Security Engineer, Corporate Security",
+  "loc": "San Francisco, California",
+  "dept": "Security",
+  "empType": "FullTime",
+  "published": "2026-06-08T18:00:20.281+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, AI Product Security",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-06-09T21:07:52.334+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "People Analytics Lead - Recruiting",
+  "loc": "San Francisco, California",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-06-11T16:29:05.380+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Customer Experience Strategy & Operations Lead",
+  "loc": "New York, New York",
+  "dept": "Revenue Operations & Strategy ",
+  "empType": "FullTime",
+  "published": "2026-06-15T15:50:07.347+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Head of Early Career Recruiting",
+  "loc": "San Francisco, California",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-06-22T21:24:06.557+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Early Career",
+  "loc": "San Francisco, California",
+  "dept": "Early Career",
+  "empType": "FullTime",
+  "published": "2026-07-06T18:37:35.161+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Manager, Solutions Consultants, UKI",
+  "loc": "London, United Kingdom",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-09-18T09:43:46.092+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Recruiting Program Manager",
+  "loc": "San Francisco, California",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-06-30T17:47:18.849+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Head of Demand Engine",
+  "loc": "San Francisco, California",
+  "dept": "Marketing",
+  "empType": "FullTime",
+  "published": "2026-07-28T17:07:01.142+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Startup Market Lead, AMER",
+  "loc": "San Francisco, California",
+  "dept": "Marketing",
+  "empType": "FullTime",
+  "published": "2026-10-19T18:33:11.014+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Outcomes Architect Manager, France (Customer Success)",
+  "loc": "Paris, France",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-08-24T15:36:26.067+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Partner Marketing Manager",
+  "loc": "San Francisco, California",
+  "dept": "Marketing",
+  "empType": "FullTime",
+  "published": "2026-07-15T19:03:56.694+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Regional Partner Manager, UK",
+  "loc": "London, United Kingdom",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-15T14:33:12.063+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Manager, Enterprise Outcome Architects (Customer Success)",
+  "loc": "San Francisco, California",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-08-31T18:05:09.356+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Solutions Consultant, Commercial, France",
+  "loc": "Paris, France",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-25T08:27:49.023+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Commercial Solutions Consultant, San Francisco",
+  "loc": "San Francisco, California",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T13:10:21.071+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Mid-Market Solutions Consultant, New York",
+  "loc": "New York, New York",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T19:28:51.123+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Enterprise Solutions Consultant, New York",
+  "loc": "New York, New York",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T13:01:22.995+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Mid-Market Solutions Consultant, San Francisco",
+  "loc": "San Francisco, California",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T13:14:11.050+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Enterprise Solutions Consultant, San Francisco",
+  "loc": "San Francisco, California",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T12:56:40.111+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Commercial Solutions Consultant, New York",
+  "loc": "New York, New York",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T13:06:34.843+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Enterprise Solutions Consultant",
+  "loc": "Tokyo, Japan ",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T13:17:56.837+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Mid-Market Solutions Consultant",
+  "loc": "Tokyo, Japan ",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T13:36:09.109+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Forward Deployed Architect",
+  "loc": "Tokyo, Japan ",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T14:08:29.913+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Commercial Solutions Consultant",
+  "loc": "Tokyo, Japan ",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-07-27T13:22:01.097+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Outcomes Architect, UKI (Customer Success)",
+  "loc": "London, United Kingdom",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-07-28T18:33:10.790+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Enterprise Outcomes Architect (Customer Success)",
+  "loc": "New York, New York",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-07-28T18:43:04.607+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Outcomes Architect, CEE (Customer Success)",
+  "loc": "Dublin, Ireland",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-07-28T18:50:20.893+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "[Contract] Language Training Specialist - Japanese ",
+  "loc": "Tokyo, Japan ",
+  "dept": "Customer Experience",
+  "empType": "Contract",
+  "published": "2026-08-14T00:57:14.270+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Commercial Outcomes Architect (Customer Success)",
+  "loc": "San Francisco, California",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-07-29T09:40:00.145+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Enterprise Outcomes Architect",
+  "loc": "Tokyo, Japan ",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-07-29T09:43:41.948+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Commercial Outcomes Architect",
+  "loc": "Tokyo, Japan ",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-07-29T09:45:53.265+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "SMB Marketing Manager",
+  "loc": "Tokyo, Japan ",
+  "dept": "Marketing",
+  "empType": "FullTime",
+  "published": "2026-08-03T01:49:46.921+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Outcomes Growth Strategy and Programs Lead",
+  "loc": "San Francisco, California",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-07-31T19:36:36.542+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Chief of Staff, Sales",
+  "loc": "San Francisco, California",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-09-01T22:32:45.668+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Notino Experience Program Manager - EMEA & APAC, Early Career",
+  "loc": "Dublin, Ireland",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-08-04T15:16:59.087+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "GTM Recruiter, Tokyo",
+  "loc": "Tokyo, Japan ",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-09-24T07:10:21.919+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Representative, UKI",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-05T14:50:17.655+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Representative, Nordics",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-05T15:10:10.669+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Manager, Solutions Consultants, France",
+  "loc": "Paris, France",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-05T16:20:37.792+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Manager, Solutions Consultants, DACH",
+  "loc": "Munich, Germany",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-05T16:38:53.800+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Representative, DACH",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-06T09:41:06.607+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Representative, France",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-06T10:34:25.786+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Solutions Consultant, Commercial, Spain",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-07T13:32:14.008+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Infrastructure Security",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-08-07T20:33:55.367+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Product Infrastructure",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-08-10T19:31:59.593+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Sales Strategy & Operations Manager, APAC",
+  "loc": "Tokyo, Japan ",
+  "dept": "Revenue Operations & Strategy ",
+  "empType": "FullTime",
+  "published": "2026-10-19T02:21:21.108+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Outcomes Architect, Italy (Customer Success)",
+  "loc": "Dublin, Ireland",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-08-12T10:21:27.472+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer Intern (Winter 2027)",
+  "loc": "San Francisco, California",
+  "dept": "Early Career",
+  "empType": "Intern",
+  "published": "2026-08-14T19:05:18.297+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer Intern (Summer 2027)",
+  "loc": "San Francisco, California",
+  "dept": "Early Career",
+  "empType": "Intern",
+  "published": "2026-08-14T19:07:13.459+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, New Grad (Dec 2026)",
+  "loc": "San Francisco, California",
+  "dept": "Early Career",
+  "empType": "FullTime",
+  "published": "2026-08-14T19:12:39.557+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Forward Deployed Architect, France",
+  "loc": "Paris, France",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-14T11:28:12.672+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Development Representative, Benelux",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-20T15:05:25.320+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Mid-Market Outcomes Architect (Customer Success)",
+  "loc": "New York, New York",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-08-19T23:45:15.309+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Tax Lead",
+  "loc": "San Francisco, California",
+  "dept": "Finance",
+  "empType": "FullTime",
+  "published": "2026-08-18T15:26:15.932+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Executive Operations Partner - EPD (Executive Assistant)",
+  "loc": "New York, New York",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-08-19T20:59:11.367+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "General Manager, France",
+  "loc": "Paris, France",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-08-21T10:47:59.837+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Global Head of Land Revenue",
+  "loc": "San Francisco, California",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-09-30T19:19:51.852+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Data Scientist, Growth",
+  "loc": "San Francisco, California",
+  "dept": "Data Science ",
+  "empType": "FullTime",
+  "published": "2026-08-25T14:27:12.904+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Technical Program Manager, Finance Systems & Compliance",
+  "loc": "San Francisco, California",
+  "dept": "Business Technology",
+  "empType": "FullTime",
+  "published": "2026-08-24T22:54:52.599+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Forward Deployed Engineer, India",
+  "loc": "Hyderabad, India",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-09-15T09:05:25.781+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Head of Onboarding & Enablement Programs",
+  "loc": "San Francisco, California",
+  "dept": "Revenue Operations & Strategy ",
+  "empType": "FullTime",
+  "published": "2026-09-01T21:36:20.426+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "GTM Compensation Lead, Commercial Operations",
+  "loc": "San Francisco, California",
+  "dept": "Revenue Operations & Strategy ",
+  "empType": "FullTime",
+  "published": "2026-08-31T19:22:27.714+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Mid-Market Outcomes Architect",
+  "loc": "Tokyo, Japan ",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-09-01T04:48:24.535+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Field Marketer",
+  "loc": "San Francisco, California",
+  "dept": "Marketing",
+  "empType": "FullTime",
+  "published": "2026-09-04T20:24:59.411+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Commercial Counsel",
+  "loc": "San Francisco, California",
+  "dept": "Legal",
+  "empType": "FullTime",
+  "published": "2026-09-01T20:42:55.037+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Strategic Finance, AI & Business Partnership",
+  "loc": "San Francisco, California",
+  "dept": "Finance",
+  "empType": "FullTime",
+  "published": "2026-09-30T21:24:37.822+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Brand Designer, Creative Studio",
+  "loc": "New York, New York",
+  "dept": "Marketing",
+  "empType": "FullTime",
+  "published": "2026-09-03T22:43:17.055+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Forward Deployed Engineer, Manager -London",
+  "loc": "London, United Kingdom",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-09-09T16:23:19.473+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "GTM Recruiter, EMEA",
+  "loc": "Paris, France",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-09-16T14:53:14.648+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Business Operations & Strategy",
+  "loc": "San Francisco, California",
+  "dept": "Finance",
+  "empType": "FullTime",
+  "published": "2026-09-16T16:41:53.317+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, User Database Infrastructure",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-09-16T18:46:07.790+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Engineering Manager, Data Platform Foundations ",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-09-21T15:26:27.112+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Mobile Platform (iOS)",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-10-01T14:00:20.638+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Strategic Finance, Corporate",
+  "loc": "San Francisco, California",
+  "dept": "Finance",
+  "empType": "FullTime",
+  "published": "2026-09-21T20:46:45.179+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "People Partner, EPD",
+  "loc": "San Francisco, California",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-09-24T22:51:05.169+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Senior Tax Accountant",
+  "loc": "San Francisco, California",
+  "dept": "Finance",
+  "empType": "FullTime",
+  "published": "2026-09-22T21:34:58.002+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Model Capabilities",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-09-23T23:30:04.563+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer Intern, Mobile (Winter 2027)",
+  "loc": "San Francisco, California",
+  "dept": "Early Career",
+  "empType": "Intern",
+  "published": "2026-09-24T19:58:11.492+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Talent Management",
+  "loc": "San Francisco, California",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-09-24T23:01:55.919+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Outcomes Architect (Customer Success)",
+  "loc": "Dublin, Ireland",
+  "dept": "Outcomes Architect",
+  "empType": "FullTime",
+  "published": "2026-09-25T13:40:48.475+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Product Manager, Connections",
+  "loc": "San Francisco, California",
+  "dept": "Product Management",
+  "empType": "FullTime",
+  "published": "2026-10-14T21:09:33.835+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Solutions Consultant, Commercial,  Nordics",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-09-28T12:18:43.783+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Global Security Program Manager",
+  "loc": "San Francisco, California",
+  "dept": "Security",
+  "empType": "FullTime",
+  "published": "2026-09-30T22:37:49.770+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Mobile Core (Android)",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-10-01T18:43:46.346+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Head of Sales Recruiting, AMER",
+  "loc": "San Francisco, California",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-10-02T19:36:35.407+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Senior Accountant - Corporate Accounting",
+  "loc": "San Francisco, California",
+  "dept": "Finance",
+  "empType": "FullTime",
+  "published": "2026-10-02T16:52:26.788+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Payroll Analyst ",
+  "loc": "San Francisco, California",
+  "dept": "Finance",
+  "empType": "FullTime",
+  "published": "2026-10-02T19:56:09.176+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Recruiting Coordinator, Tokyo",
+  "loc": "Tokyo, Japan ",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-10-14T02:00:57.461+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Recruiting Coordinator, EMEA",
+  "loc": "Dublin, Ireland",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-10-14T10:00:27.897+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Talent Sourcer",
+  "loc": "Tokyo, Japan ",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-10-08T08:58:49.437+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Recruiting Coordinator - AMER",
+  "loc": "San Francisco, California",
+  "dept": "People",
+  "empType": "FullTime",
+  "published": "2026-10-07T20:54:40.764+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Global Demo Engineer",
+  "loc": "San Francisco, California",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-10-09T17:26:07.510+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Solutions Consultant, Commercial, Benelux",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-10-19T14:12:22.410+00:00",
+  "isRemote": false
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Software Engineer, Developer Platform",
+  "loc": "San Francisco, California",
+  "dept": "Engineering",
+  "empType": "FullTime",
+  "published": "2026-10-19T17:28:06.956+00:00",
+  "isRemote": true
+ },
+ {
+  "src": "ashby",
+  "company": "notion",
+  "title": "Solutions Consultant, Mid-Market, Nordics",
+  "loc": "Dublin, Ireland",
+  "dept": "Sales",
+  "empType": "FullTime",
+  "published": "2026-10-19T14:01:26.423+00:00",
+  "isRemote": false
  }
 ]
