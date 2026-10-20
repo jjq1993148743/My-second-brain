@@ -1,0 +1,2297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="03bec9c62da10d539dce1757-text/javascript">
+    (function() {
+        const appearance = localStorage.getItem('theme') || 'system';
+        const isDark = appearance === 'dark' || (appearance === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.classList.toggle('dark', isDark);
+    })();
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
+<link rel="preconnect" href="https://rsms.me" crossorigin>
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+
+<style>
+    html { background-color: oklch(1 0 0); }
+    html.dark { background-color: oklch(0.145 0 0); }
+</style>
+
+<title>PHP Developer Jobs - Remote, Laravel, Symfony &amp; WordPress</title>
+
+
+<meta name="csrf-token" content="w4HXOHFENBG4qPJtXj4FR39XdPuswYxYAZqcoMAI">
+
+
+<meta name="description" content="Find the best PHP developer jobs. Browse 1000+ remote, freelance, and full-time positions with Laravel, Symfony, WordPress, and more. The leading job board for PHP professionals.">
+    <link rel="canonical" href="https://phpjobs.io">
+<meta name="author" content="PHPJobs.io">
+<meta name="robots" content="index, follow">
+
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PHPJobs.io">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="PHP Developer Jobs - Remote, Laravel, Symfony &amp; WordPress">
+<meta property="og:description" content="Find the best PHP developer jobs. Browse 1000+ remote, freelance, and full-time positions with Laravel, Symfony, WordPress, and more. The leading job board for PHP professionals.">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@phpjobsio">
+
+
+<link rel="icon" href="https://phpjobs.io/favicon/favicon.ico" sizes="any">
+<link rel="icon" href="https://phpjobs.io/favicon/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://phpjobs.io/favicon/apple-touch-icon.png">
+<link rel="manifest" href="https://phpjobs.io/favicon/site.webmanifest">
+
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="03bec9c62da10d539dce1757-|49"></script><link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+<noscript><link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700&display=swap" rel="stylesheet" /></noscript>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="03bec9c62da10d539dce1757-|49"></script><link href="https://fonts.bunny.net/css?family=jetbrains-mono:400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+<noscript><link href="https://fonts.bunny.net/css?family=jetbrains-mono:400,500,600,700&display=swap" rel="stylesheet" /></noscript>
+
+
+<link rel="preload" as="style" href="https://phpjobs.io/build/assets/app-Dl8mbpHy.css" /><link rel="modulepreload" as="script" href="https://phpjobs.io/build/assets/app-CytXkKBZ.js" /><link rel="modulepreload" as="script" href="https://phpjobs.io/build/assets/vendor-BaMlba_H.js" /><link rel="stylesheet" href="https://phpjobs.io/build/assets/app-Dl8mbpHy.css" data-navigate-track="reload" /><script type="03bec9c62da10d539dce1757-module" src="https://phpjobs.io/build/assets/app-CytXkKBZ.js" data-navigate-track="reload"></script>
+
+
+
+    </head>
+    <body class="flex min-h-screen flex-col bg-background font-sans antialiased"
+          x-data="{
+              theme: localStorage.getItem('theme') || 'system',
+              toasts: [],
+
+              cycleTheme() {
+                  const themes = ['system', 'light', 'dark'];
+                  this.theme = themes[(themes.indexOf(this.theme) + 1) % themes.length];
+                  this.applyTheme();
+                  window.dispatchEvent(new CustomEvent('theme-changed', { detail: this.theme }));
+                  localStorage.setItem('theme', this.theme);
+                  document.cookie = `appearance=${this.theme}; path=/; max-age=${60*60*24*365}; SameSite=Lax`;
+              },
+
+              applyTheme() {
+                  const isDark = this.theme === 'dark' || (this.theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                  document.documentElement.classList.toggle('dark', isDark);
+              }
+          }"
+          x-init="
+              applyTheme();
+              window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => theme === 'system' && applyTheme());
+              window.showToast = (msg, type, description = null) => {
+                  const id = Date.now();
+                  toasts.push({ id, message: msg, type, description });
+                  setTimeout(() => toasts = toasts.filter(t => t.id !== id), 5000);
+              };
+          ">
+
+        
+        <style>[x-cloak] { display: none !important; }</style>
+
+        <div aria-live="assertive" class="pointer-events-none fixed inset-0 z-[100] flex items-end px-4 py-6 sm:items-start sm:p-6">
+    <div class="flex w-full flex-col items-center space-y-4 sm:items-end">
+        <template x-for="toast in toasts" :key="toast.id">
+            <div x-show="toast.message"
+                 x-transition:enter="transition ease-out duration-300"
+                 x-transition:enter-start="opacity-0 translate-y-2 sm:translate-y-0 sm:translate-x-2"
+                 x-transition:enter-end="opacity-100 translate-y-0 sm:translate-x-0"
+                 x-transition:leave="transition ease-in duration-200"
+                 x-transition:leave-start="opacity-100 translate-y-0 sm:translate-x-0"
+                 x-transition:leave-end="opacity-0 translate-y-2 sm:translate-y-0 sm:translate-x-2"
+                 class="pointer-events-auto w-full max-w-sm rounded-lg bg-white shadow-lg ring-1 ring-black/5 dark:bg-gray-800 dark:ring-white/10">
+                <div class="p-4">
+                    <div class="flex items-start">
+                        
+                        <div class="shrink-0">
+                            
+                            <template x-if="toast.type === 'success'">
+                                <svg class="size-6 text-green-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                            </template>
+                            
+                            <template x-if="toast.type === 'error'">
+                                <svg class="size-6 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+                                </svg>
+                            </template>
+                            
+                            <template x-if="toast.type === 'info' || !toast.type">
+                                <svg class="size-6 text-blue-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                                </svg>
+                            </template>
+                        </div>
+                        
+                        <div class="ml-3 w-0 flex-1 pt-0.5">
+                            <p class="text-sm font-medium text-gray-900 dark:text-white" x-text="toast.message"></p>
+                            <template x-if="toast.description">
+                                <p class="mt-1 text-sm text-gray-500 dark:text-gray-400" x-text="toast.description"></p>
+                            </template>
+                        </div>
+                        
+                        <div class="ml-4 flex shrink-0">
+                            <button type="button" 
+                                    @click="toasts = toasts.filter(t => t.id !== toast.id)"
+                                    class="inline-flex rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:hover:text-gray-300 dark:focus:ring-offset-gray-800">
+                                <span class="sr-only">Close</span>
+                                <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </div>
+</div>
+                <nav
+    x-data="{ open: false, scrolled: false, hero: true }"
+     x-init="scrolled = scrollY > 10; addEventListener('scroll', () => scrolled = scrollY > 10, { passive: true })"     :class="hero && scrolled && 'bg-gray-950/95 shadow-lg backdrop-blur-md'"
+    class="inset-x-0 top-0 z-50 transition-all duration-300 fixed"
+>
+    <div class="mx-auto flex h-16 max-w-8xl items-center justify-between px-4 sm:px-6 lg:px-8 relative">
+        
+        <a href="https://phpjobs.io" class="font-mono text-3xl font-semibold z-10">
+            <span class="text-white">&lt;?php</span><span class="bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">jobs</span>
+        </a>
+
+        
+        <div class="hidden items-center gap-1 rounded-full border px-1.5 py-1 backdrop-blur-md md:flex absolute left-1/2 -translate-x-1/2"
+             :class="hero && !scrolled ? 'border-white/20 bg-white/10' : 'border-gray-700/50 bg-gray-900/80 shadow-lg'"
+             class="">
+                            <a href="https://phpjobs.io"
+                   :class="true
+                       ? 'bg-white shadow-lg ' + (hero && !scrolled ? 'text-purple-600' : 'text-gray-900')
+                       : (hero && !scrolled ? 'text-white/90 hover:bg-white/10' : 'text-gray-300 hover:bg-gray-700/50 hover:text-white')"
+                   class="rounded-full px-4 py-2 text-sm font-medium">
+                    Home
+                </a>
+                            <a href="https://phpjobs.io/jobs"
+                   :class="false
+                       ? 'bg-white shadow-lg ' + (hero && !scrolled ? 'text-purple-600' : 'text-gray-900')
+                       : (hero && !scrolled ? 'text-white/90 hover:bg-white/10' : 'text-gray-300 hover:bg-gray-700/50 hover:text-white')"
+                   class="rounded-full px-4 py-2 text-sm font-medium">
+                    Jobs
+                </a>
+                                </div>
+
+        
+        <div class="hidden items-center gap-3 md:flex z-10">
+            <button @click="$store.jobAlerts.open()" class="cursor-pointer rounded-full p-2 text-white/70 hover:text-white">
+                <svg class="size-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+            </button>
+            <button @click="cycleTheme" 
+                    x-data="{ currentTheme: localStorage.getItem('theme') || 'system' }" 
+                    x-init="window.addEventListener('theme-changed', e => currentTheme = e.detail)"
+                    class="cursor-pointer rounded-full p-2 text-white/70 transition-all hover:text-white">
+                <svg x-show="currentTheme === 'system'" class="size-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                <svg x-show="currentTheme === 'light'" x-cloak class="size-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                <svg x-show="currentTheme === 'dark'" x-cloak class="size-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+            </button>
+
+                            <a href="https://phpjobs.io/login"
+                   class="rounded-lg border px-4 py-2 text-sm font-medium transition-all"
+                   :class="hero && !scrolled
+                       ? 'border-white/30 bg-white/10 text-white backdrop-blur-md hover:bg-white hover:text-purple-600'
+                       : 'border-gray-600 text-white hover:bg-gray-800'">
+                    Sign in
+                </a>
+            
+                            <a href="https://phpjobs.io/register"
+                   class="rounded-lg bg-gradient-to-r from-amber-400 to-orange-500 px-4 py-2 text-sm font-semibold text-gray-900 shadow-lg transition-all hover:from-amber-300 hover:to-orange-400"
+                   :class="hero && !scrolled && 'shadow-orange-500/25 hover:shadow-orange-500/40'">
+                    Post a Job
+                </a>
+                    </div>
+
+        
+        <div class="flex items-center gap-1 md:hidden">
+            <button @click="cycleTheme" 
+                    x-data="{ currentTheme: localStorage.getItem('theme') || 'system' }" 
+                    x-init="window.addEventListener('theme-changed', e => currentTheme = e.detail)"
+                    class="cursor-pointer rounded-lg p-2 text-gray-400 hover:bg-gray-800 hover:text-white">
+                <svg x-show="currentTheme === 'system'" class="size-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                <svg x-show="currentTheme === 'light'" x-cloak class="size-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                <svg x-show="currentTheme === 'dark'" x-cloak class="size-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+            </button>
+            <button @click="open = !open" class="rounded-lg p-2 text-gray-400 hover:bg-gray-800 hover:text-white">
+                <svg class="size-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path x-show="!open" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                    <path x-show="open" x-cloak stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    
+    <div x-show="open" x-cloak
+         @click.away="open = false"
+         class="absolute inset-x-0 top-16 z-50 border-t border-gray-800 bg-gray-950 px-4 py-4 shadow-xl md:hidden">
+        <a href="https://phpjobs.io/register" class="mb-4 block rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 py-3 text-center font-semibold text-white">Post a Job</a>
+
+                    <a href="https://phpjobs.io" class="block rounded-lg px-4 py-2.5 font-medium bg-gray-800 text-white">Home</a>
+                    <a href="https://phpjobs.io/jobs" class="block rounded-lg px-4 py-2.5 font-medium text-gray-300">Jobs</a>
+        
+        <button @click="$store.jobAlerts.open(); open = false" class="w-full rounded-lg px-4 py-2.5 text-left font-medium text-gray-300">Job Alerts</button>
+        <hr class="my-3 border-gray-800">
+
+                    <a href="https://phpjobs.io/login" class="block rounded-lg px-4 py-2.5 font-medium text-gray-300">Log in</a>
+            </div>
+</nav>
+        
+        
+        <main class="flex-1 pt-0">
+            <div class="relative overflow-hidden">
+        <!-- Background gradient -->
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-700">
+            <!-- Gradient overlay on top -->
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-purple-900/20"></div>
+
+            <!-- Subtle PHP code pattern overlay -->
+            <div class="absolute inset-0 opacity-5">
+                <pre class="absolute top-0 right-0 left-0 overflow-hidden p-4 text-xs text-white/70"
+                    style="line-height: 1.4; font-family: monospace; white-space: pre">&lt;?php
+
+namespace App\Controllers;
+
+use App\Models\Job;
+use App\Services\JobSearchService;
+
+class JobController extends Controller
+{
+    public function index()
+    {
+        return view('jobs.index', [
+            'featured' => Job::featured()->get(),
+            'latest' => Job::latest()->take(10)->get(),
+        ]);
+    }
+}
+                </pre>
+            </div>
+
+            <!-- Decorative elements -->
+            <div class="absolute inset-0 opacity-10">
+                <div class="absolute top-[20%] left-[15%] size-24 rounded-full bg-purple-400/60 blur-2xl">
+                </div>
+                <div class="absolute top-[40%] right-[20%] size-32 rounded-full bg-blue-400/60 blur-2xl">
+                </div>
+                <div class="absolute bottom-[25%] left-[30%] size-28 rounded-full bg-indigo-400/60 blur-2xl">
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="relative z-10 mx-auto mb-14 max-w-6xl px-6 pt-24 pb-8 text-center md:px-10 md:pt-32 md:pb-12">
+            <h1 class="animate-fade-in-up mb-3 text-2xl font-extrabold leading-tight text-white md:mb-4 md:text-4xl lg:text-5xl"
+                style="font-weight: 900;">
+                The Leading Job Board for PHP Developers
+            </h1>
+            <p
+                class="animate-fade-in-up-delayed mx-auto mb-4 hidden max-w-3xl text-center text-base leading-relaxed text-white/90 md:block lg:text-lg">
+                Find remote, freelance, and full-time PHP roles with companies hiring for Laravel, Symfony, WordPress,
+                and more. phpjobs.io is where professional PHP developers connect with serious employers.
+            </p>
+            <p
+                class="animate-fade-in-up-delayed mx-auto mb-3 max-w-3xl text-center text-sm leading-relaxed text-white/90 md:hidden">
+                Find remote, freelance, and full-time PHP roles from top employers hiring Laravel, Symfony and WordPress
+                developers.
+            </p>
+        </div>
+    </div>
+
+    <div class="min-h-screen bg-gray-50 dark:bg-gray-900/30">
+        <div class="mx-auto max-w-8xl px-4 pb-8 lg:px-8 lg:pb-12">
+            
+            <div class="relative z-20 -mt-10 md:-mt-16">
+                <div class="mb-6 rounded-xl border border-border bg-card/95 p-4 shadow-lg backdrop-blur-md sm:p-6"
+     x-data="{
+        search: '',
+        location: '',
+        remote: false,
+        type: 'all',
+        salary_min: 'all',
+        showFilters: false,
+        locationResults: [],
+        showLocationDropdown: false,
+        searchingLocation: false,
+        preventLocationSearch: false,
+        searchSubmitted: false,
+        userLocation: null,
+        nearbyCities: [],
+        
+        get formattedUserLocation() {
+            if (!this.userLocation?.city) return null;
+            const city = this.userLocation.city;
+            const state = this.userLocation.state_code || this.userLocation.state || '';
+            return state ? `${city}, ${state}` : city;
+        },
+        
+        get filteredNearbyCities() {
+            if (!this.formattedUserLocation) return this.nearbyCities;
+            return this.nearbyCities.filter(city => 
+                city.formatted.toLowerCase() !== this.formattedUserLocation?.toLowerCase()
+            );
+        },
+        
+        get hasDropdownContent() {
+            return this.formattedUserLocation || this.filteredNearbyCities.length > 0 || this.locationResults.length > 0;
+        },
+        
+        showDropdownOnFocus() {
+            if ((this.userLocation?.city || this.nearbyCities.length > 0) && !this.remote) {
+                this.showLocationDropdown = true;
+            }
+        },
+        
+        selectUserLocation() {
+            if (this.formattedUserLocation) {
+                this.preventLocationSearch = true;
+                this.location = this.formattedUserLocation;
+                this.showLocationDropdown = false;
+                setTimeout(() => { this.preventLocationSearch = false; }, 500);
+            }
+        },
+        
+        selectNearbyCity(city) {
+            this.preventLocationSearch = true;
+            this.location = city.formatted;
+            this.showLocationDropdown = false;
+            setTimeout(() => { this.preventLocationSearch = false; }, 500);
+        },
+        
+        async searchLocation() {
+            if (this.searchSubmitted) return;
+            if (this.preventLocationSearch) {
+                this.preventLocationSearch = false;
+                return;
+            }
+            if (!this.location || this.location.length < 2 || this.remote) {
+                this.locationResults = [];
+                this.showLocationDropdown = false;
+                return;
+            }
+            
+            this.searchingLocation = true;
+            if (!this.searchSubmitted) {
+                this.showLocationDropdown = true;
+            }
+            
+            try {
+                const response = await fetch(`/api/zip-codes/search?query=${encodeURIComponent(this.location)}`);
+                const data = await response.json();
+                
+                if (this.searchSubmitted) return;
+                
+                this.locationResults = data.results || data || [];
+                this.showLocationDropdown = this.locationResults.length > 0 || this.hasDropdownContent;
+            } catch (e) {
+                console.error('Location search error:', e);
+                this.locationResults = [];
+                this.showLocationDropdown = false;
+            } finally {
+                this.searchingLocation = false;
+            }
+        },
+        
+        selectLocation(result) {
+            this.preventLocationSearch = true;
+            
+            if (result.result_type === 'state') {
+                this.location = result.state_name;
+            } else if (result.result_type === 'city') {
+                this.location = `${result.city}, ${result.state}`;
+            } else {
+                this.location = `${result.city}, ${result.state} ${result.zip_code}`;
+            }
+            
+            this.showLocationDropdown = false;
+            setTimeout(() => { this.preventLocationSearch = false; }, 500);
+        },
+        
+        clearLocation() {
+            this.location = '';
+            this.locationResults = [];
+            this.showLocationDropdown = false;
+        }
+     }"
+     x-init="
+        $watch('location', (value) => {
+            if (value && !remote && !preventLocationSearch) {
+                clearTimeout(window.locationDebounceTimeout);
+                window.locationDebounceTimeout = setTimeout(() => searchLocation(), 300);
+            } else if (!value) {
+                locationResults = [];
+                showLocationDropdown = false;
+            }
+        });
+     ">
+    
+    <form method="GET" action="https://phpjobs.io/jobs" class="space-y-4">
+        
+        <div class="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-4">
+            
+            <div class="relative flex-1">
+                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
+                    <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+                <input type="text"
+                       id="job-search"
+                       name="search"
+                       x-model="search"
+                       placeholder="Job title, keywords, or company"
+                       class="w-full rounded-xl border border-input bg-background py-3 pl-11 pr-4 text-sm placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+            </div>
+
+            
+            <div class="relative flex-1" @click.away="showLocationDropdown = false">
+                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
+                    <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                </div>
+                <input type="text"
+                       id="job-location"
+                       name="location"
+                       x-model="location"
+                       @focus="showDropdownOnFocus()"
+                       :disabled="remote"
+                       :placeholder="userLocation?.city ? `${userLocation.city}, ${userLocation.state_code || ''}` : 'City, state or zip code'"
+                       autocomplete="off"
+                       class="w-full rounded-xl border border-input bg-background py-3 pl-11 pr-10 text-sm placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 disabled:opacity-50 disabled:cursor-not-allowed" />
+                
+                
+                <button type="button"
+                        x-show="location && !remote"
+                        @click="clearLocation()"
+                        class="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 hover:text-gray-600">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </button>
+                
+                
+                <div x-show="searchingLocation" class="absolute inset-y-0 right-0 flex items-center pr-3">
+                    <svg class="h-5 w-5 animate-spin text-gray-400" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                </div>
+                
+                
+                <div x-show="showLocationDropdown && hasDropdownContent"
+                     x-transition
+                     class="absolute top-full left-0 z-50 mt-1 max-h-[300px] w-full overflow-auto rounded-lg border border-border bg-popover shadow-lg">
+                    <ul class="py-1">
+                        
+                        <template x-if="formattedUserLocation">
+                            <li @click="selectUserLocation()"
+                                class="flex cursor-pointer items-center gap-3 border-b border-border px-4 py-3 hover:bg-muted">
+                                <svg class="h-5 w-5 flex-shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <div>
+                                    <div class="font-medium text-foreground">Your location</div>
+                                    <div class="text-sm text-muted-foreground" x-text="formattedUserLocation"></div>
+                                </div>
+                            </li>
+                        </template>
+                        
+                        
+                        <template x-if="locationResults.length === 0 && filteredNearbyCities.length > 0">
+                            <template x-for="city in filteredNearbyCities" :key="city.formatted">
+                                <li @click="selectNearbyCity(city)"
+                                    class="flex cursor-pointer items-center gap-3 px-4 py-2 hover:bg-muted">
+                                    <svg class="h-5 w-5 flex-shrink-0 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                    <span x-text="city.formatted" class="font-medium text-foreground"></span>
+                                </li>
+                            </template>
+                        </template>
+                        
+                        
+                        <template x-for="result in locationResults" :key="result.display_label || `${result.city}-${result.state}-${result.zip_code}`">
+                            <li @click="selectLocation(result)"
+                                class="flex cursor-pointer items-center gap-3 px-4 py-2 hover:bg-muted">
+                                <svg class="h-4 w-4 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                </svg>
+                                <div>
+                                    
+                                    <template x-if="result.result_type === 'state'">
+                                        <span x-text="result.state_name" class="font-medium text-foreground"></span>
+                                    </template>
+                                    
+                                    <template x-if="result.result_type === 'city'">
+                                        <span x-text="`${result.city}, ${result.state}`" class="font-medium text-foreground"></span>
+                                    </template>
+                                    
+                                    <template x-if="!result.result_type || result.result_type === 'zip'">
+                                        <span x-text="`${result.city}, ${result.state} ${result.zip_code || ''}`" class="font-medium text-foreground"></span>
+                                    </template>
+                                </div>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <button type="submit"
+                    aria-label="Search jobs"
+                    class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:from-indigo-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <span class="hidden sm:inline">Search Jobs</span>
+            </button>
+            
+            
+            <button type="button"
+                    @click="showFilters = !showFilters"
+                    class="inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-background px-4 py-3 text-sm font-medium transition-colors hover:bg-muted lg:hidden">
+                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                </svg>
+                Filters
+            </button>
+        </div>
+        
+        
+        <div class="flex flex-wrap items-center gap-3" :class="{ 'hidden lg:flex': !showFilters }">
+            
+            <label class="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-input bg-muted/50 px-4 py-2.5 dark:bg-muted/30">
+                <input type="checkbox"
+                       id="remote-only"
+                       name="remote"
+                       value="1"
+                       
+                       @change="if($event.target.checked) { location = ''; } $event.target.form.submit();"
+                       class="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary" />
+                <span class="text-sm font-medium text-foreground">Remote Only</span>
+            </label>
+            
+            
+            <div class="flex items-center rounded-lg border border-input bg-muted/50 px-3 py-2 dark:bg-muted/30">
+                <select id="salary-filter" name="salary_min" x-model="salary_min" onchange="if (!window.__cfRLUnblockHandlers) return false; this.form.submit()" aria-label="Filter by salary" class="cursor-pointer border-none bg-transparent text-sm font-medium text-foreground focus:ring-0 focus:outline-none" data-cf-modified-03bec9c62da10d539dce1757-="">
+                    <option value="all" selected>All Jobs</option>
+                    <option value="any_salary" >Any Salary</option>
+                    <option value="40000" >$40k+</option>
+                    <option value="60000" >$60k+</option>
+                    <option value="80000" >$80k+</option>
+                    <option value="100000" >$100k+</option>
+                    <option value="120000" >$120k+</option>
+                    <option value="150000" >$150k+</option>
+                    <option value="200000" >$200k+</option>
+                </select>
+            </div>
+            
+            
+            <div class="flex items-center rounded-lg border border-input bg-muted/50 px-3 py-2 dark:bg-muted/30">
+                <svg class="mr-2 h-4 w-4 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <select id="job-type-filter" name="type" onchange="if (!window.__cfRLUnblockHandlers) return false; this.form.submit()" aria-label="Filter by job type" class="cursor-pointer border-none bg-transparent text-sm font-medium text-foreground focus:ring-0 focus:outline-none" data-cf-modified-03bec9c62da10d539dce1757-="">
+                    <option value="all" selected>All Job Types</option>
+                    <option value="Full Time" >Full Time</option>
+                    <option value="Part Time" >Part Time</option>
+                    <option value="Contract" >Contract</option>
+                    <option value="Temporary" >Temporary</option>
+                </select>
+            </div>
+            
+            
+            <div class="flex flex-wrap items-center gap-2">
+                <span class="text-sm font-medium text-muted-foreground">Popular:</span>
+                                                    <a href="https://phpjobs.io/jobs/laravel"
+                       class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1.5 text-sm font-medium text-indigo-600 transition-colors hover:bg-indigo-100 dark:bg-indigo-900/40 dark:text-indigo-300 dark:hover:bg-indigo-800/60">
+                        Laravel
+                    </a>
+                                    <a href="https://phpjobs.io/jobs/wordpress"
+                       class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1.5 text-sm font-medium text-indigo-600 transition-colors hover:bg-indigo-100 dark:bg-indigo-900/40 dark:text-indigo-300 dark:hover:bg-indigo-800/60">
+                        WordPress
+                    </a>
+                                    <a href="https://phpjobs.io/jobs/symfony"
+                       class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1.5 text-sm font-medium text-indigo-600 transition-colors hover:bg-indigo-100 dark:bg-indigo-900/40 dark:text-indigo-300 dark:hover:bg-indigo-800/60">
+                        Symfony
+                    </a>
+                                    <a href="https://phpjobs.io/jobs/vue"
+                       class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1.5 text-sm font-medium text-indigo-600 transition-colors hover:bg-indigo-100 dark:bg-indigo-900/40 dark:text-indigo-300 dark:hover:bg-indigo-800/60">
+                        Vue.js
+                    </a>
+                                    <a href="https://phpjobs.io/jobs/react"
+                       class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1.5 text-sm font-medium text-indigo-600 transition-colors hover:bg-indigo-100 dark:bg-indigo-900/40 dark:text-indigo-300 dark:hover:bg-indigo-800/60">
+                        React
+                    </a>
+                                    <a href="https://phpjobs.io/jobs?search=API"
+                       class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1.5 text-sm font-medium text-indigo-600 transition-colors hover:bg-indigo-100 dark:bg-indigo-900/40 dark:text-indigo-300 dark:hover:bg-indigo-800/60">
+                        API
+                    </a>
+                            </div>
+            
+            
+                    </div>
+    </form>
+</div>
+            </div>
+
+            
+            <div
+                class="my-6 rounded-lg border border-indigo-200 bg-gradient-to-r from-indigo-50 to-purple-50 p-4 dark:border-indigo-800 dark:from-indigo-900/20 dark:to-purple-900/20">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-6">
+                        <svg class="h-6 w-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                        </svg>
+                        <span class="text-sm font-medium text-gray-700 dark:text-gray-300 pr-8">
+                            Get notified when new PHP jobs match your criteria
+                        </span>
+                    </div>
+                    <a href="#" @click.prevent="$store.jobAlerts.open()"
+                        class="inline-flex items-center gap-1 text-sm font-medium text-indigo-600 text-nowrap hover:text-indigo-500 dark:text-indigo-400 cursor-pointer">
+                        Set up alerts
+                        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-12 gap-6">
+                <div class="col-span-12 flex flex-col space-y-6 lg:col-span-8">
+                    
+                    
+                    
+                                            <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <h2
+                                    class="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-2xl font-bold text-transparent">
+                                    Latest Jobs
+                                </h2>
+                                <a href="https://phpjobs.io/jobs"
+                                    class="inline-flex items-center gap-1 text-sm font-medium text-indigo-700 transition-colors hover:text-indigo-900 dark:text-indigo-400 dark:hover:text-indigo-300">
+                                    View all jobs
+                                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="space-y-3">
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-88dd-714d-943b-f39aa0de7dcf' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/customer-success-engineer-remote/01a154c9-88dd-714d-943b-f39aa0de7dcf'" data-job-id="01a154c9-88dd-714d-943b-f39aa0de7dcf" data-seo-url="https://phpjobs.io/jobs/customer-success-engineer-remote/01a154c9-88dd-714d-943b-f39aa0de7dcf" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/customer-success-engineer-remote/01a154c9-88dd-714d-943b-f39aa0de7dcf" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Customer Success Engineer</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Scandit
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Fcustomer-success-engineer-remote%2F01a154c9-88dd-714d-943b-f39aa0de7dcf" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/40 dark:to-cyan-800/40 border-blue-200 dark:border-blue-700 text-blue-700 dark:text-blue-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z"></path>
+        </svg>
+        Remote
+</span>
+
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Ai
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Salesforce
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-8922-70b0-b6cd-eb9a640166e7' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/full-stack-engineer-remote/01a154c9-8922-70b0-b6cd-eb9a640166e7'" data-job-id="01a154c9-8922-70b0-b6cd-eb9a640166e7" data-seo-url="https://phpjobs.io/jobs/full-stack-engineer-remote/01a154c9-8922-70b0-b6cd-eb9a640166e7" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/full-stack-engineer-remote/01a154c9-8922-70b0-b6cd-eb9a640166e7" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Full-Stack Engineer</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Greene Education
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Ffull-stack-engineer-remote%2F01a154c9-8922-70b0-b6cd-eb9a640166e7" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/40 dark:to-cyan-800/40 border-blue-200 dark:border-blue-700 text-blue-700 dark:text-blue-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z"></path>
+        </svg>
+        Remote
+</span>
+
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Api
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Linux
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-8a4a-71ad-a311-88ca6668b5cd' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/intermediate-drupal-web-developer-north-carolina/01a154c9-8a4a-71ad-a311-88ca6668b5cd'" data-job-id="01a154c9-8a4a-71ad-a311-88ca6668b5cd" data-seo-url="https://phpjobs.io/jobs/intermediate-drupal-web-developer-north-carolina/01a154c9-8a4a-71ad-a311-88ca6668b5cd" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/intermediate-drupal-web-developer-north-carolina/01a154c9-8a4a-71ad-a311-88ca6668b5cd" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Intermediate Drupal Web Developer</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Duke
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Fintermediate-drupal-web-developer-north-carolina%2F01a154c9-8a4a-71ad-a311-88ca6668b5cd" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-slate-50 to-gray-100 dark:from-slate-800/40 dark:to-gray-700/40 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75z" clip-rule="evenodd"></path>
+        </svg>
+        North Carolina
+</span>
+
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Php
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Javascript
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-88d9-7235-aaa8-f2d581c10674' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/junior-web-developer-bethesda-md/01a154c9-88d9-7235-aaa8-f2d581c10674'" data-job-id="01a154c9-88d9-7235-aaa8-f2d581c10674" data-seo-url="https://phpjobs.io/jobs/junior-web-developer-bethesda-md/01a154c9-88d9-7235-aaa8-f2d581c10674" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/junior-web-developer-bethesda-md/01a154c9-88d9-7235-aaa8-f2d581c10674" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Junior Web Developer</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Infojini Inc
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Fjunior-web-developer-bethesda-md%2F01a154c9-88d9-7235-aaa8-f2d581c10674" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-slate-50 to-gray-100 dark:from-slate-800/40 dark:to-gray-700/40 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75z" clip-rule="evenodd"></path>
+        </svg>
+        Bethesda, MD
+</span>
+
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Php
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Sql
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-83ca-7111-913b-9fac46fb191b' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/senior-business-analyst-beverly-hills-ca/01a154c9-83ca-7111-913b-9fac46fb191b'" data-job-id="01a154c9-83ca-7111-913b-9fac46fb191b" data-seo-url="https://phpjobs.io/jobs/senior-business-analyst-beverly-hills-ca/01a154c9-83ca-7111-913b-9fac46fb191b" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/senior-business-analyst-beverly-hills-ca/01a154c9-83ca-7111-913b-9fac46fb191b" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Senior Business Analyst</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Perficient Inc
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Fsenior-business-analyst-beverly-hills-ca%2F01a154c9-83ca-7111-913b-9fac46fb191b" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-slate-50 to-gray-100 dark:from-slate-800/40 dark:to-gray-700/40 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75z" clip-rule="evenodd"></path>
+        </svg>
+        Beverly Hills, CA
+</span>
+
+                                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-green-50 to-emerald-100 dark:from-green-900/40 dark:to-emerald-800/40 border border-green-200 dark:border-green-700 text-green-700 dark:text-green-300 text-sm font-bold shadow-sm">
+    <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z"></path>
+        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clip-rule="evenodd"></path>
+    </svg>
+    $111,300 - $144,600/yr
+</span>
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Adobe commerce
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Ai
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-840d-7195-b61f-fd0e22a8cbb8' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/accessibility-trainer-remote/01a154c9-840d-7195-b61f-fd0e22a8cbb8'" data-job-id="01a154c9-840d-7195-b61f-fd0e22a8cbb8" data-seo-url="https://phpjobs.io/jobs/accessibility-trainer-remote/01a154c9-840d-7195-b61f-fd0e22a8cbb8" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/accessibility-trainer-remote/01a154c9-840d-7195-b61f-fd0e22a8cbb8" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Accessibility Trainer</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Promet Source
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Faccessibility-trainer-remote%2F01a154c9-840d-7195-b61f-fd0e22a8cbb8" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/40 dark:to-cyan-800/40 border-blue-200 dark:border-blue-700 text-blue-700 dark:text-blue-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z"></path>
+        </svg>
+        Remote
+</span>
+
+                                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-green-50 to-emerald-100 dark:from-green-900/40 dark:to-emerald-800/40 border border-green-200 dark:border-green-700 text-green-700 dark:text-green-300 text-sm font-bold shadow-sm">
+    <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z"></path>
+        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clip-rule="evenodd"></path>
+    </svg>
+    $60 - $70/hr
+</span>
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Accessibility
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Wcag
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-8401-721d-8c31-e95be7c3689f' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/senior-full-stack-engineer-remote/01a154c9-8401-721d-8c31-e95be7c3689f'" data-job-id="01a154c9-8401-721d-8c31-e95be7c3689f" data-seo-url="https://phpjobs.io/jobs/senior-full-stack-engineer-remote/01a154c9-8401-721d-8c31-e95be7c3689f" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/senior-full-stack-engineer-remote/01a154c9-8401-721d-8c31-e95be7c3689f" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Senior Full-Stack Engineer</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            LaraBench
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Fsenior-full-stack-engineer-remote%2F01a154c9-8401-721d-8c31-e95be7c3689f" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/40 dark:to-cyan-800/40 border-blue-200 dark:border-blue-700 text-blue-700 dark:text-blue-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z"></path>
+        </svg>
+        Remote
+</span>
+
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Laravel
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Php
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-8323-7376-8161-96774ff41698' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/lead-adobe-commerce-architect-sacate-az/01a154c9-8323-7376-8161-96774ff41698'" data-job-id="01a154c9-8323-7376-8161-96774ff41698" data-seo-url="https://phpjobs.io/jobs/lead-adobe-commerce-architect-sacate-az/01a154c9-8323-7376-8161-96774ff41698" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/lead-adobe-commerce-architect-sacate-az/01a154c9-8323-7376-8161-96774ff41698" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Lead Adobe Commerce Architect</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Deloitte LLP
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Flead-adobe-commerce-architect-sacate-az%2F01a154c9-8323-7376-8161-96774ff41698" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-slate-50 to-gray-100 dark:from-slate-800/40 dark:to-gray-700/40 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75z" clip-rule="evenodd"></path>
+        </svg>
+        Sacate, AZ
+</span>
+
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Php
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Adobe commerce
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-8152-70e1-a7c9-4de55e3f0017' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/php-software-engineer-ii-atlanta-ga/01a154c9-8152-70e1-a7c9-4de55e3f0017'" data-job-id="01a154c9-8152-70e1-a7c9-4de55e3f0017" data-seo-url="https://phpjobs.io/jobs/php-software-engineer-ii-atlanta-ga/01a154c9-8152-70e1-a7c9-4de55e3f0017" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/php-software-engineer-ii-atlanta-ga/01a154c9-8152-70e1-a7c9-4de55e3f0017" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">PHP Software Engineer II</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Waystar, Inc
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Fphp-software-engineer-ii-atlanta-ga%2F01a154c9-8152-70e1-a7c9-4de55e3f0017" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-slate-50 to-gray-100 dark:from-slate-800/40 dark:to-gray-700/40 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75z" clip-rule="evenodd"></path>
+        </svg>
+        Atlanta, GA
+</span>
+
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Php
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Cloud
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                                    <div class="job-list-item relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-4 mb-3 cursor-pointer transition-all duration-300 hover:shadow-2xl backdrop-blur-sm border overflow-hidden ring-offset-2 ring-offset-white dark:ring-offset-gray-950" class="border-gray-200 dark:border-gray-700" :class="typeof selectedJobId !== 'undefined' && { 'ring-2 ring-blue-500 dark:ring-blue-400 shadow-2xl': selectedJobId === '01a154c9-7e29-738a-83b0-6a62ec81cc43' }" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://phpjobs.io/jobs/senior-application-software-engineer-jackson-ms/01a154c9-7e29-738a-83b0-6a62ec81cc43'" data-job-id="01a154c9-7e29-738a-83b0-6a62ec81cc43" data-seo-url="https://phpjobs.io/jobs/senior-application-software-engineer-jackson-ms/01a154c9-7e29-738a-83b0-6a62ec81cc43" data-cf-modified-03bec9c62da10d539dce1757-="">
+
+    
+    
+    <div class="relative flex items-start gap-3.5">
+        
+                    
+            <div class="relative flex h-14 w-14 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/30"></div>
+        <svg class="relative h-6 w-6 text-gray-400 dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+    </div>
+        
+        
+        <div class="min-w-0 flex-1">
+            
+            <div class="flex gap-2 items-start mb-1">
+                <div class="flex-1">
+                                            
+                        <h3 class="text-base font-bold text-gray-900 dark:text-gray-100 leading-tight mb-1">
+                            <a href="https://phpjobs.io/jobs/senior-application-software-engineer-jackson-ms/01a154c9-7e29-738a-83b0-6a62ec81cc43" class="focus:outline-none focus-visible:underline" onclick="if (!window.__cfRLUnblockHandlers) return false; if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { event.stopPropagation(); } else { event.preventDefault(); }" data-cf-modified-03bec9c62da10d539dce1757-="">Senior Application Software Engineer</a>
+                        </h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                            Oracle
+                        </p>
+                                    </div>
+
+                
+                                    
+                                            <a href="https://phpjobs.io/login?redirect=https%3A%2F%2Fphpjobs.io%2Fjobs%2Fsenior-application-software-engineer-jackson-ms%2F01a154c9-7e29-738a-83b0-6a62ec81cc43" onclick="if (!window.__cfRLUnblockHandlers) return false; event.stopPropagation();" class="relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer" title="Save job" data-cf-modified-03bec9c62da10d539dce1757-="">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </a>
+                                                </div>
+
+            
+        <div class="mt-3 inline-flex flex-wrap items-center gap-2">
+                            
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-sm font-semibold shadow-sm bg-gradient-to-r from-slate-50 to-gray-100 dark:from-slate-800/40 dark:to-gray-700/40 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75z" clip-rule="evenodd"></path>
+        </svg>
+        Jackson, MS
+</span>
+
+                                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-green-50 to-emerald-100 dark:from-green-900/40 dark:to-emerald-800/40 border border-green-200 dark:border-green-700 text-green-700 dark:text-green-300 text-sm font-bold shadow-sm">
+    <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z"></path>
+        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clip-rule="evenodd"></path>
+    </svg>
+    $87,000 - $187,000/yr
+</span>
+                                    </div>
+
+        
+        
+        <div class="mt-3 flex items-center gap-3 text-sm">
+                            
+                <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-gray-700 dark:text-gray-300 font-medium">
+    <svg class="h-3.5 w-3.5 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path>
+        <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+    </svg>
+    Full Time
+</span>
+
+                                    </div>
+
+        
+                                                <div class="mt-3 flex flex-wrap gap-1.5">
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Api
+                        </span>
+                                            <span
+                            class="px-2.5 py-1 rounded-lg bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm text-gray-700 dark:text-gray-300 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                            Cloud
+                        </span>
+                                    </div>
+                        </div>
+</div>
+</div>
+                                                            </div>
+                        </div>
+                    
+                    
+                    <div class="flex justify-center pt-2">
+                        <a href="https://phpjobs.io/jobs"
+                            class="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-purple-600 to-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-lg transition-all duration-200 hover:from-purple-700 hover:to-indigo-700 hover:shadow-xl">
+                            View All Jobs
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="col-span-12 lg:col-span-4">
+                    <div class="sticky top-20 z-10 space-y-6">
+                        
+                        <div
+                            class="relative overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-xl dark:border-gray-700 dark:bg-gray-800">
+                            
+                            <div class="absolute -top-20 -right-20 h-40 w-40 rounded-full bg-purple-400/20 blur-3xl">
+                            </div>
+                            <div class="absolute -bottom-20 -left-20 h-40 w-40 rounded-full bg-indigo-400/20 blur-3xl">
+                            </div>
+
+                            <div class="relative p-6">
+                                
+                                <div class="mb-4 flex justify-center">
+                                    <div
+                                        class="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 shadow-lg shadow-purple-500/25">
+                                        <svg class="h-8 w-8 text-white" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                
+                                <h3 class="mb-2 text-center text-xl font-bold text-gray-900 dark:text-white">
+                                    Connect with PHP Developers Fast
+                                </h3>
+                                <p class="mb-6 text-center text-sm text-gray-600 dark:text-gray-300">
+                                    Reach thousands of qualified PHP professionals actively looking for their next role.
+                                </p>
+
+                                
+                                <ul class="mb-6 space-y-3">
+                                    <li class="flex items-center gap-3 text-sm text-gray-700 dark:text-gray-300">
+                                        <div
+                                            class="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-green-100 dark:bg-green-900/30">
+                                            <svg class="h-3 w-3 text-green-600 dark:text-green-400" fill="currentColor"
+                                                viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd"
+                                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+                                        Featured placement for 30 days
+                                    </li>
+                                    <li class="flex items-center gap-3 text-sm text-gray-700 dark:text-gray-300">
+                                        <div
+                                            class="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-green-100 dark:bg-green-900/30">
+                                            <svg class="h-3 w-3 text-green-600 dark:text-green-400"
+                                                fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd"
+                                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+                                        Highlighted in job alerts & search
+                                    </li>
+                                    <li class="flex items-center gap-3 text-sm text-gray-700 dark:text-gray-300">
+                                        <div
+                                            class="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-green-100 dark:bg-green-900/30">
+                                            <svg class="h-3 w-3 text-green-600 dark:text-green-400"
+                                                fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd"
+                                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+                                        Company logo & branding included
+                                    </li>
+                                </ul>
+
+                                
+                                <a href="https://phpjobs.io/jobs/create"
+                                    class="group relative block w-full overflow-hidden rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 p-[2px] shadow-lg transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/25">
+                                    <span
+                                        class="block rounded-[10px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 px-6 py-3.5 text-center text-base font-semibold text-white transition-all duration-300 group-hover:from-indigo-700 group-hover:via-purple-700 group-hover:to-pink-700">
+                                        Post Featured Job — $199
+                                    </span>
+                                </a>
+
+                                <a href="https://phpjobs.io/pricing"
+                                    class="mt-4 inline-flex items-center gap-1 text-center text-sm text-gray-500 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">
+                                    View all pricing options
+                                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        
+                        <div
+                            class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+                            <h4 class="mb-4 font-semibold text-gray-900 dark:text-white">Popular Searches</h4>
+                            <div class="flex flex-wrap gap-2">
+                                                                                                    <a href="/jobs/laravel"
+                                        class="inline-flex items-center rounded-full bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 transition hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">
+                                        Laravel
+                                    </a>
+                                                                    <a href="/jobs/remote"
+                                        class="inline-flex items-center rounded-full bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 transition hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">
+                                        Remote
+                                    </a>
+                                                                    <a href="/jobs/symfony"
+                                        class="inline-flex items-center rounded-full bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 transition hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">
+                                        Symfony
+                                    </a>
+                                                                    <a href="/jobs/wordpress"
+                                        class="inline-flex items-center rounded-full bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 transition hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">
+                                        WordPress
+                                    </a>
+                                                                    <a href="/jobs?search=vue"
+                                        class="inline-flex items-center rounded-full bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 transition hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">
+                                        Vue.js
+                                    </a>
+                                                                    <a href="/jobs?search=full-stack"
+                                        class="inline-flex items-center rounded-full bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 transition hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">
+                                        Full Stack
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </main>
+
+        
+                    <footer class="border-t border-gray-200 bg-white pt-12 dark:border-gray-800 dark:bg-gray-950">
+    <div class="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
+        
+        <div class="mb-12">
+            <a href="https://phpjobs.io" class="inline-block">
+                <span class="logo text-2xl">
+                    <span class="text-gray-900 dark:text-white">&lt;?php</span><span class="bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">jobs</span>
+                </span>
+            </a>
+            <p class="mt-4 max-w-2xl text-sm text-gray-600 dark:text-gray-300">
+                The premier job board connecting PHP developers with top companies and startups.
+            </p>
+            <div class="mt-4 flex space-x-4">
+                <a href="#" class="text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300" aria-label="Facebook">
+                    <span class="sr-only">Facebook</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"/></svg>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300" aria-label="Instagram">
+                    <span class="sr-only">Instagram</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"/></svg>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300" aria-label="Twitter">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/></svg>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300" aria-label="GitHub">
+                    <span class="sr-only">GitHub</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/></svg>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300" aria-label="LinkedIn">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        
+        <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
+            
+            <div>
+                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-800 dark:text-gray-100">
+                    PHP Jobs
+                </h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="/jobs/laravel" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Laravel Jobs</a></li>
+                    <li><a href="/jobs/symfony" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Symfony Jobs</a></li>
+                    <li><a href="/jobs/wordpress" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">WordPress Jobs</a></li>
+                    <li><a href="/jobs/vue" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Vue.js Jobs</a></li>
+                    <li><a href="/jobs/react" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">React Jobs</a></li>
+                    <li><a href="/jobs/drupal" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Drupal Jobs</a></li>
+                    <li><a href="/jobs/magento" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Magento Jobs</a></li>
+                    <li><a href="/jobs/typescript" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">TypeScript Jobs</a></li>
+                    <li><a href="/jobs/mysql" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">MySQL Jobs</a></li>
+                    <li><a href="/jobs/postgresql" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">PostgreSQL Jobs</a></li>
+                </ul>
+            </div>
+
+            
+            <div>
+                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-800 dark:text-gray-100">
+                    Remote Jobs
+                </h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="/jobs/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote PHP Jobs</a></li>
+                    <li><a href="/jobs/laravel/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote Laravel Jobs</a></li>
+                    <li><a href="/jobs/symfony/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote Symfony Jobs</a></li>
+                    <li><a href="/jobs/wordpress/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote WordPress Jobs</a></li>
+                    <li><a href="/jobs/vue/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote Vue.js Jobs</a></li>
+                    <li><a href="/jobs/react/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote React Jobs</a></li>
+                    <li><a href="/jobs/full-time/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote Full Time</a></li>
+                    <li><a href="/jobs/contract/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote Contract</a></li>
+                    <li><a href="/jobs/part-time/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote Part Time</a></li>
+                    <li><a href="/jobs/freelance/remote" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Remote Freelance</a></li>
+                </ul>
+            </div>
+
+            
+            <div>
+                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-800 dark:text-gray-100">
+                    Top Cities
+                </h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="/jobs/location/san-francisco" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">San Francisco</a></li>
+                    <li><a href="/jobs/location/new-york" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">New York</a></li>
+                    <li><a href="/jobs/location/austin" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Austin</a></li>
+                    <li><a href="/jobs/location/seattle" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Seattle</a></li>
+                    <li><a href="/jobs/location/denver" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Denver</a></li>
+                    <li><a href="/jobs/location/boston" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Boston</a></li>
+                    <li><a href="/jobs/location/chicago" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Chicago</a></li>
+                    <li><a href="/jobs/location/los-angeles" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Los Angeles</a></li>
+                    <li><a href="/jobs/location/atlanta" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Atlanta</a></li>
+                    <li><a href="/jobs/location/miami" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Miami</a></li>
+                </ul>
+            </div>
+
+            
+            <div>
+                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-800 dark:text-gray-100">
+                    For Developers
+                </h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="https://phpjobs.io/jobs" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Browse Jobs</a></li>
+                    <li><a href="#" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Create Profile</a></li>
+                    <li><a href="#" @click.prevent="$store.jobAlerts.open()" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Job Alerts</a></li>
+                    <li><a href="#" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Salary Guide</a></li>
+                </ul>
+            </div>
+
+            
+            <div>
+                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-800 dark:text-gray-100">
+                    For Employers
+                </h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="https://phpjobs.io/jobs/create" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Post a Job</a></li>
+                    <li><a href="#" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Browse Candidates</a></li>
+                    <li><a href="https://phpjobs.io/pricing" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Pricing</a></li>
+                    <li><a href="#" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Enterprise</a></li>
+                </ul>
+            </div>
+
+            
+            <div>
+                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-800 dark:text-gray-100">
+                    Company
+                </h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="https://phpjobs.io/about" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">About</a></li>
+                    <li><a href="https://phpjobs.io/blog" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Blog</a></li>
+                    <li><a href="https://phpjobs.io/contact" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Contact</a></li>
+                    <li><a href="#" class="text-sm text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <div class="mt-12 border-t border-gray-200 pt-8 dark:border-gray-800">
+            <div class="md:flex md:items-center md:justify-between">
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-800 dark:text-gray-100">
+                        Never miss a PHP job
+                    </h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                        Get personalized job alerts delivered straight to your inbox.
+                    </p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <a href="#" 
+                       @click.prevent="$store.jobAlerts.open()"
+                       class="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-purple-600 to-indigo-600 px-6 py-3 text-base font-medium text-white transition-colors hover:from-purple-700 hover:to-indigo-700">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                        </svg>
+                        Set Up Job Alerts
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="mt-8 border-t border-gray-200 py-6 dark:border-gray-800">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="flex space-x-6 md:order-2">
+                    <a href="https://phpjobs.io/privacy-policy" class="text-xs text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Privacy Policy</a>
+                    <a href="https://phpjobs.io/terms-of-service" class="text-xs text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Terms of Service</a>
+                    <a href="https://phpjobs.io/cookie-policy" class="text-xs text-gray-600 transition-colors hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">Cookie Policy</a>
+                </div>
+                <p class="mt-4 text-xs text-gray-600 md:order-1 md:mt-0 dark:text-gray-400">
+                    &copy; 2026 PHPJobs.io. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+        
+        <div class="fixed inset-0 z-50 flex items-center justify-center"
+     x-cloak
+     x-show="$store.jobAlerts.isOpen"
+     @keydown.escape="$store.jobAlerts.close()"
+     x-transition:enter="transition ease-out duration-200"
+     x-transition:enter-start="opacity-0"
+     x-transition:enter-end="opacity-100"
+     x-transition:leave="transition ease-in duration-150"
+     x-transition:leave-start="opacity-100"
+     x-transition:leave-end="opacity-0">
+
+    <!-- Backdrop -->
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-sm"
+         @click="$store.jobAlerts.close()"></div>
+
+    <!-- Modal Content -->
+    <div class="relative z-10 w-full max-w-xl rounded-lg border border-border bg-card p-6 shadow-2xl mx-4"
+         @click.stop
+         x-show="$store.jobAlerts.isOpen"
+         x-transition:enter="transition ease-out duration-200"
+         x-transition:enter-start="opacity-0 scale-95 translate-y-4"
+         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+         x-transition:leave="transition ease-in duration-150"
+         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+         x-transition:leave-end="opacity-0 scale-95 translate-y-4">
+
+        <!-- Header -->
+        <div class="mb-6">
+            <div class="flex items-center gap-2 mb-2">
+                <svg class="h-5 w-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                </svg>
+                <h2 class="text-xl font-semibold text-foreground">Create Job Alerts</h2>
+            </div>
+            <p class="text-sm text-muted-foreground">
+                Stay updated with new PHP job opportunities that match your preferences.
+            </p>
+        </div>
+
+        <!-- Form -->
+        <form @submit.prevent="$store.jobAlerts.submit()" class="space-y-5">
+            <!-- Email -->
+            <div class="space-y-2">
+                <label for="alert-email" class="text-sm font-medium text-foreground">Email Address *</label>
+                <div class="relative flex items-center">
+                    <svg class="absolute left-3 h-4 w-4 text-muted-foreground pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    <input type="email"
+                           id="alert-email"
+                           x-model="$store.jobAlerts.form.email"
+                           placeholder="your@email.com"
+                           required
+                           class="w-full rounded-md border border-input bg-background px-3 py-2 pl-9 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                </div>
+                <p class="text-xs text-muted-foreground">We'll send job alerts to this email address</p>
+            </div>
+
+            <!-- Keywords -->
+            <div class="space-y-2">
+                <label for="keywords" class="text-sm font-medium text-foreground">Keywords</label>
+                <div class="relative flex items-center">
+                    <svg class="absolute left-3 h-4 w-4 text-muted-foreground pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                    </svg>
+                    <input type="text"
+                           id="keywords"
+                           x-model="$store.jobAlerts.form.keywords"
+                           placeholder="Laravel, Symfony, REST API, etc."
+                           class="w-full rounded-md border border-input bg-background px-3 py-2 pl-9 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                </div>
+                <p class="text-xs text-muted-foreground">Add multiple keywords separated by commas</p>
+            </div>
+
+            <!-- Location with Autocomplete -->
+            <div class="space-y-2">
+                <label for="location" class="text-sm font-medium text-foreground">Location</label>
+                <div class="relative" @click.away="$store.jobAlerts.showLocationDropdown = false">
+                    <div class="relative flex items-center">
+                        <svg class="absolute left-3 h-4 w-4 text-muted-foreground pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                        <input type="text"
+                               id="location"
+                               x-model="$store.jobAlerts.form.location"
+                               @input.debounce.300ms="$store.jobAlerts.searchLocation()"
+                               @focus="$store.jobAlerts.showLocationDropdown = $store.jobAlerts.locationResults.length > 0"
+                               :disabled="$store.jobAlerts.form.remoteOnly"
+                               placeholder="City, state, or zip code"
+                               autocomplete="off"
+                               class="w-full rounded-md border border-input bg-background px-3 py-2 pl-9 pr-9 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed">
+                        
+                        <!-- Clear button -->
+                        <button type="button"
+                                x-show="$store.jobAlerts.form.location && !$store.jobAlerts.form.remoteOnly"
+                                @click="$store.jobAlerts.clearLocation()"
+                                class="absolute right-3 text-muted-foreground hover:text-foreground">
+                            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </button>
+                        
+                        <!-- Loading indicator -->
+                        <div x-show="$store.jobAlerts.searchingLocation" class="absolute right-3">
+                            <svg class="h-4 w-4 animate-spin text-muted-foreground" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <!-- Location dropdown -->
+                    <div x-show="$store.jobAlerts.showLocationDropdown && $store.jobAlerts.locationResults.length > 0"
+                         x-transition
+                         class="absolute top-full left-0 z-50 mt-1 max-h-[200px] w-full overflow-auto rounded-md border border-border bg-popover shadow-lg">
+                        <ul class="py-1">
+                            <template x-for="result in $store.jobAlerts.locationResults" :key="result.display_label || `${result.city}-${result.state}-${result.zip_code}`">
+                                <li @click="$store.jobAlerts.selectLocation(result)"
+                                    class="flex cursor-pointer items-center gap-2 px-3 py-2 hover:bg-muted">
+                                    <svg class="h-4 w-4 text-muted-foreground flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    </svg>
+                                    <div class="text-sm">
+                                        <!-- State results -->
+                                        <template x-if="result.result_type === 'state'">
+                                            <span x-text="result.state_name" class="font-medium text-foreground"></span>
+                                        </template>
+                                        <!-- City results -->
+                                        <template x-if="result.result_type === 'city'">
+                                            <span x-text="`${result.city}, ${result.state}`" class="font-medium text-foreground"></span>
+                                        </template>
+                                        <!-- ZIP results -->
+                                        <template x-if="!result.result_type || result.result_type === 'zip'">
+                                            <span x-text="`${result.city}, ${result.state} ${result.zip_code || ''}`" class="font-medium text-foreground"></span>
+                                        </template>
+                                    </div>
+                                </li>
+                            </template>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-xs text-muted-foreground">We'll include jobs in this location and nearby areas</p>
+            </div>
+
+            <!-- Remote Only Checkbox -->
+            <div class="flex items-center gap-3">
+                <input type="checkbox"
+                       id="alert-remote-only"
+                       x-model="$store.jobAlerts.form.remoteOnly"
+                       @change="if($event.target.checked) { $store.jobAlerts.clearLocation(); }"
+                       class="h-4 w-4 rounded border-input bg-background text-primary focus:ring-primary cursor-pointer">
+                <label for="alert-remote-only" class="cursor-pointer text-sm text-foreground">Only show remote jobs</label>
+            </div>
+
+            <!-- Job Type and Frequency -->
+            <div class="grid grid-cols-2 gap-4">
+                <!-- Job Type -->
+                <div class="space-y-2">
+                    <label for="job-type" class="text-sm font-medium text-foreground">Job Type</label>
+                    <select id="job-type"
+                            x-model="$store.jobAlerts.form.jobType"
+                            class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        <option value="all">All job types</option>
+                        <option value="full-time">Full Time</option>
+                        <option value="part-time">Part Time</option>
+                        <option value="contract">Contract</option>
+                        <option value="freelance">Freelance</option>
+                    </select>
+                </div>
+
+                <!-- Frequency -->
+                <div class="space-y-2">
+                    <label for="frequency" class="text-sm font-medium text-foreground">Alert Frequency</label>
+                    <select id="frequency"
+                            x-model="$store.jobAlerts.form.frequency"
+                            class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="instant">Instant</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Terms Agreement -->
+            <div class="flex items-start gap-3">
+                <input type="checkbox"
+                       id="privacy-policy"
+                       x-model="$store.jobAlerts.form.agreeToTerms"
+                       class="mt-1 h-4 w-4 rounded border-input bg-background text-primary focus:ring-primary cursor-pointer">
+                <label for="privacy-policy" class="cursor-pointer text-sm leading-relaxed text-muted-foreground">
+                    I agree to the
+                    <a href="/privacy-policy" target="blank" class="text-primary underline hover:text-primary/80">privacy policy</a>
+                    and consent to receive job alerts
+                </label>
+            </div>
+
+            <!-- Error Message -->
+            <template x-if="$store.jobAlerts.error">
+                <div class="rounded-md bg-destructive/10 p-4">
+                    <p class="text-sm text-destructive" x-text="$store.jobAlerts.error"></p>
+                </div>
+            </template>
+
+            <!-- Actions -->
+            <div class="flex justify-end gap-2 pt-2">
+                <button type="button"
+                        @click="$store.jobAlerts.close()"
+                        :disabled="$store.jobAlerts.isSubmitting"
+                        class="rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground hover:bg-accent transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                    Cancel
+                </button>
+                <button type="submit"
+                        :disabled="$store.jobAlerts.isSubmitting || !$store.jobAlerts.form.agreeToTerms"
+                        class="rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 px-4 py-2 text-sm font-medium text-white hover:from-purple-700 hover:to-indigo-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2">
+                    <template x-if="$store.jobAlerts.isSubmitting">
+                        <svg class="h-4 w-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        <span>Creating...</span>
+                    </template>
+                    <template x-if="!$store.jobAlerts.isSubmitting">
+                        <span>Create Alert</span>
+                    </template>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+        
+                <script type="03bec9c62da10d539dce1757-text/javascript">
+            // Bookmark toggle function for home page
+            window.toggleBookmark = async function(jobId) {
+                try {
+                    const response = await fetch('/api/bookmarks/job/' + jobId + '/toggle', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+                        }
+                    });
+
+                    if (response.ok) {
+                        const data = await response.json();
+                        window.showToast(data.message, 'success', data.description);
+
+                        // Update all bookmark buttons for this job using data attributes
+                        const allBookmarkBtns = document.querySelectorAll(`button[data-bookmark-btn][data-job-id="${jobId}"]`);
+                        
+                        allBookmarkBtns.forEach(bookmarkBtn => {
+                            // Update data attribute
+                            bookmarkBtn.setAttribute('data-bookmark-state', data.bookmarked ? 'bookmarked' : 'unbookmarked');
+                            
+                            if (data.bookmarked) {
+                                // Update to bookmarked state (filled icon)
+                                bookmarkBtn.setAttribute('title', 'Remove from saved jobs');
+                                
+                                // Update classes based on button type
+                                if (bookmarkBtn.className.includes('flex-shrink-0')) {
+                                    // Job list item button
+                                    bookmarkBtn.className = 'relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm cursor-pointer text-blue-600 dark:text-blue-400';
+                                    bookmarkBtn.innerHTML = '<svg class="h-5 w-5 fill-current" fill="currentColor" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>';
+                                } else {
+                                    // Job details button
+                                    bookmarkBtn.className = 'rounded-lg border border-blue-300 bg-blue-50/50 dark:border-blue-600 dark:bg-blue-900/10 px-3 py-2 transition hover:bg-blue-50 dark:hover:bg-blue-900/20 cursor-pointer';
+                                    bookmarkBtn.innerHTML = '<svg class="h-5 w-5 text-blue-600 dark:text-blue-400 fill-current" fill="currentColor" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>';
+                                }
+                            } else {
+                                // Update to unbookmarked state (outline icon)
+                                bookmarkBtn.setAttribute('title', 'Save job');
+                                
+                                // Update classes based on button type
+                                if (bookmarkBtn.className.includes('flex-shrink-0')) {
+                                    // Job list item button
+                                    bookmarkBtn.className = 'relative flex-shrink-0 p-2 rounded-xl hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all backdrop-blur-sm cursor-pointer text-gray-400 hover:text-blue-600 dark:hover:text-blue-400';
+                                    bookmarkBtn.innerHTML = '<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>';
+                                } else {
+                                    // Job details button
+                                    bookmarkBtn.className = 'rounded-lg border border-gray-300 dark:border-gray-600 px-3 py-2 transition hover:bg-gray-50 dark:hover:bg-gray-800 cursor-pointer';
+                                    bookmarkBtn.innerHTML = '<svg class="h-5 w-5 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>';
+                                }
+                            }
+                        });
+                    } else {
+                        window.showToast('Failed to update bookmark', 'error');
+                    }
+                } catch (error) {
+                    window.showToast('Failed to update bookmark', 'error');
+                }
+            };
+        </script>
+    <script type="03bec9c62da10d539dce1757-text/javascript">
+document.addEventListener('alpine:init', () => {
+    Alpine.store('jobAlerts', {
+        isOpen: false,
+        isSubmitting: false,
+        error: '',
+        locationResults: [],
+        showLocationDropdown: false,
+        searchingLocation: false,
+        form: {
+            email: '',
+            keywords: '',
+            location: '',
+            remoteOnly: false,
+            jobType: 'all',
+            frequency: 'daily',
+            agreeToTerms: false,
+        },
+
+        // Get user's timezone from browser
+        getTimezone() {
+            try {
+                return Intl.DateTimeFormat().resolvedOptions().timeZone || 'America/New_York';
+            } catch (e) {
+                return 'America/New_York';
+            }
+        },
+
+        // Location autocomplete search
+        async searchLocation() {
+            const query = this.form.location;
+            
+            if (!query || query.length < 2 || this.form.remoteOnly) {
+                this.locationResults = [];
+                this.showLocationDropdown = false;
+                return;
+            }
+
+            this.searchingLocation = true;
+
+            try {
+                const response = await fetch(`/api/zip-codes/search?query=${encodeURIComponent(query)}`);
+                const data = await response.json();
+                
+                this.locationResults = data.results || data || [];
+                this.showLocationDropdown = this.locationResults.length > 0;
+            } catch (e) {
+                console.error('Location search error:', e);
+                this.locationResults = [];
+                this.showLocationDropdown = false;
+            } finally {
+                this.searchingLocation = false;
+            }
+        },
+
+        selectLocation(result) {
+            if (result.result_type === 'state') {
+                this.form.location = result.state_name;
+            } else if (result.result_type === 'city') {
+                this.form.location = `${result.city}, ${result.state}`;
+            } else {
+                this.form.location = `${result.city}, ${result.state} ${result.zip_code}`;
+            }
+            
+            this.locationResults = [];
+            this.showLocationDropdown = false;
+        },
+
+        clearLocation() {
+            this.form.location = '';
+            this.locationResults = [];
+            this.showLocationDropdown = false;
+        },
+
+        open() {
+            this.reset();
+            this.isOpen = true;
+        },
+
+        close() {
+            this.isOpen = false;
+            setTimeout(() => this.reset(), 300);
+        },
+
+        reset() {
+            this.form = {
+                email: '',
+                keywords: '',
+                location: '',
+                remoteOnly: false,
+                jobType: 'all',
+                frequency: 'daily',
+                agreeToTerms: false,
+            };
+            this.error = '';
+            this.isSubmitting = false;
+            this.locationResults = [];
+            this.showLocationDropdown = false;
+            this.searchingLocation = false;
+        },
+
+        async submit() {
+            if (this.isSubmitting) return;
+
+            this.isSubmitting = true;
+            this.error = '';
+
+            const startTime = Date.now();
+            const MIN_LOADING_TIME = 600;
+
+            try {
+                // Fetch fresh CSRF token (Cloudflare may cache pages with stale tokens)
+                const tokenRes = await fetch('/api/csrf-token', { credentials: 'same-origin' });
+                if (!tokenRes.ok) throw new Error('Session error');
+                const { csrf_token } = await tokenRes.json();
+
+                const response = await fetch('/api/job-alerts', {
+                    method: 'POST',
+                    credentials: 'same-origin',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-TOKEN': csrf_token,
+                        'Accept': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        ...this.form,
+                        jobType: this.form.jobType === 'all' ? '' : this.form.jobType,
+                        timezone: this.getTimezone(),
+                    }),
+                });
+
+                // Ensure minimum loading time for smooth UX
+                const elapsed = Date.now() - startTime;
+                const remaining = Math.max(0, MIN_LOADING_TIME - elapsed);
+                await new Promise((resolve) => setTimeout(resolve, remaining));
+
+                if (response.ok) {
+                    window.showToast('Job Alert Created!', 'success', 'Check your email to verify your alert and start receiving notifications.');
+                    this.close();
+                } else {
+                    const data = await response.json();
+                    this.error = data.message || 'Failed to create job alert. Please try again.';
+                    this.isSubmitting = false;
+                }
+            } catch (error) {
+                console.error('Job alert error:', error);
+                this.error = 'Failed to create job alert. Please try again.';
+                this.isSubmitting = false;
+            }
+        }
+    });
+});
+</script>
+
+        <script type="03bec9c62da10d539dce1757-text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function loadGTM() {
+        if (window.gtmLoaded) return;
+        window.gtmLoaded = true;
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NZ45X2JL');
+    }
+    // Load GTM after page is idle or after 3 seconds (whichever comes first)
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadGTM, { timeout: 3000 });
+    } else {
+        setTimeout(loadGTM, 2000);
+    }
+    </script>
+    
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ45X2JL"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="03bec9c62da10d539dce1757-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4d49f242c02dfc5',t:'MTc5MjQ2MzY0Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

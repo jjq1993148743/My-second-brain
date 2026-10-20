@@ -1,0 +1,16 @@
+import { execFile } from 'node:child_process';
+import fs from 'node:fs';
+const run=(c,a)=>new Promise(res=>execFile(c,a,{maxBuffer:64*1024*1024,windowsHide:true,timeout:20000},(e,so)=>res(so||'')));
+const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+const curl=u=>run('curl',['-sL','-x','http://127.0.0.1:7897','-H','User-Agent: '+UA,'--max-time','18','--compressed',u]);
+const h=await curl('https://phpjobs.io/');
+fs.writeFileSync('_phpjobs.html',h,'utf8');
+const text=h.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,'\n').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&');
+const ux=[...new Set(text.split('\n').map(s=>s.trim()).filter(s=>s.length>3))];
+console.log('bytes='+h.length+' uniq='+ux.length);
+const sals=[...new Set([...h.matchAll(/[$\u20ac\u00a3]\s?[0-9]{2,3}[,.]?[0-9]{3}(?:\s*[-\u2013]\s*[$\u20ac\u00a3]?\s?[0-9]{2,3}[,.]?[0-9]{3})?/g)].map(m=>m[0]))].slice(0,8);
+console.log('SALARIES: '+JSON.stringify(sals));
+const jobs=ux.filter(l=>l.length>10 && l.length<90 && /(developer|engineer|architect|lead)/i.test(l)).slice(0,10);
+console.log('JOBS: '+JSON.stringify(jobs));
+const pg=[...new Set([...h.matchAll(/href="([^"]{3,60}(?:page|\/p\/)[^"]{0,12})"/g)].map(m=>m[1]))].slice(0,5);
+console.log('PAGER: '+JSON.stringify(pg));
