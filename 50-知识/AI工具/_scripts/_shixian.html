@@ -1,0 +1,847 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="实现，实现网，实现社区">
+    <!-- begin 参考 layouts/head -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Wgf+2P0IxxK8djmAz5I/0JNRdx7DqHDgHVPmPAkcd250lEZ+6aT+ycn2PwXbzZzgtdHfaqwMl0GU4dYZWsgwrQ==" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-d7e1bd3ff5eeeb7edaf14ccaa86e3c8146757bf9e0cf7b4fa729dc581d160096.ico" />
+    <link rel="apple-touch-icon" type="image/png" href="https://cdn.shixian.com/assets/apple-touch-icon-44d68c4ee0535c69c770e51f04f6aab1f377e832fbb4bd8d196f0ca267370386.png" />
+
+    <meta property="wb:webmaster" content="7cb966ae2a9fafdb" />
+    
+    <!-- end 参考 layouts/head -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- layout_css_link_yield -->
+      <link rel="stylesheet" media="screen" href="/assets/design-3150a0a3b2ba29928b102a7e155c84919a7d72a8a13c16f6432c7c99bc9ddb15.css" />
+
+    <!-- content_css_link_yield -->
+    
+    <!-- layout_js_link_yield -->
+      <script src="/assets/design-531f858fed03fc07ffe42af8e9d0a6ecf3523b792c1231e8cbb77611c1bff735.js"></script>
+
+    <!-- content_js_link_yield -->
+    
+
+    <!-- 百度站长工具验证 -->
+<!-- shixian.com -->
+<meta name="baidu-site-verification" content="DxH5nP0ijn" />
+
+<!-- www.shixian.com -->
+<meta name="baidu-site-verification" content="dCeYDC5bLB" />
+
+<!-- Google Search Console -->
+<meta name="google-site-verification" content="rgTHgjX8WxkP-CG1TjFgLg3MRGmdzvMXNbC0gxunHR4" />
+
+<!-- Sogou -->
+<meta name="sogou_site_verification" content="zUbh68jXOp"/>
+
+
+    <!-- layouts/meta_tags -->
+      <title>实现网 - 按需雇佣 BAT 工程师、设计师</title>
+<meta name="description" content="实现网为企业提供BAT等名企背景的、靠谱的开发设计兼职人才和自由职业者，满足企业项目外包、驻场开发、远程兼职、技术咨询等短期人力需求。已服务2000多家企业，包括好未来、方正、人人贷、秒拍等知名企业。" />
+
+<!-- <meta name="apple-itunes-app" content="app-id=949862651"> -->
+    
+    <!-- content_head_sufix -->
+    
+
+  </head>
+    <body>
+
+    <div style="display: none">
+  <!-- 微信分享会取body里第一张大于等于300px的照片 -->  
+  <img alt="实现网" src="https://cdn.shixian.com/assets/logo-300-406cf2a4135690a879d66987aca1ce97c723a4a6103297b858557a4997423ccf.jpg" />
+</div>
+
+
+
+<div class="banner">
+  <div class="top-navbar">
+    <div class="wrapper container">
+      <div class="logo pull-left">
+        <img width="75" alt="实现网" title="实现网" src="https://cdn.shixian.com/assets/design/logo-5c5ab788dd3f358bb910476b58b47e9c9aec7d7dc3cb2c6cff9f031416dc73a3.png" />
+      </div>
+
+      <div class="pull-left no-login-nav">
+        <a title="技术人才" href="/consultants">
+          技术人才
+</a>
+        <a title="远程招聘" href="/jobs">
+          远程招聘
+</a>
+        <!-- 
+          标准服务
+
+          成功案例
+        -->
+      </div>
+
+        <div class="links pull-right visible-md visible-lg">
+          <a title="GitHub登录" href="https://shixian.com/users/auth/github">
+            <i class="fa fa-github"></i>
+            GitHub
+</a>
+          <a title="微博登录" href="https://shixian.com/users/auth/weibo">
+            <i class="fa fa-weibo"></i>
+            微博登录
+</a>
+          <a class="wechat_login" title="微信登录" href="https://shixian.com/users/auth/open_wechat">
+            <i class="fa fa-weixin"></i>
+            微信登录
+</a>        </div>
+
+        <div class="menu-toggle pull-right visible-xs visible-sm hidden">
+          <span>
+            <img width="16" src="https://cdn.shixian.com/assets/design/menu-toggle-4fdb36d4536df2b102dc351af19ffec73752f70ef934fa53da6e5b0629d27e03.png" alt="Menu toggle" />
+          </span>
+        </div>
+    </div>
+  </div>
+
+  <div class="menu">
+    <a class="wechat_login" title="微信登录" href="https://shixian.com/users/auth/open_wechat">
+      <i class="fa fa-weixin"></i>
+      &nbsp;
+      微信登录
+</a>
+    <a title="微博登录" href="https://shixian.com/users/auth/weibo">
+      <i class="fa fa-weibo"></i>
+      &nbsp;
+      微博登录
+</a>
+    <a title="GitHub登录" href="https://shixian.com/users/auth/github">
+      <i class="fa fa-github"></i>
+      &nbsp;
+      GitHub
+</a>  </div>
+
+  <div class="slogan text-center">
+    <h1>为国内外科技公司招聘远程工作的工程师</h1>
+    <div class="features visible-md visible-lg">
+      <span>
+        <img alt="按需雇佣-名企人才" src="https://cdn.shixian.com/assets/design/icon-mqrc-d38c04aea0935e5e58f2410dd10d2dc5a0cf995c8eb1e1fda6d19da03033f23e.png" />
+        名企人才
+      </span>
+
+      <span>
+        <img alt="按需雇佣-社保代缴" src="https://cdn.shixian.com/assets/design/icon-ksdb-e8e37573ac62e7f14c68cbbbdfdd682696cc360e41c7576117dce0d76eaec387.png" />
+        社保代缴
+      </span>
+
+      <span>
+        <img alt="按需雇佣-薪资代发" src="https://cdn.shixian.com/assets/design/icon-fwbz-18039aa7ecd9d609d1472f893fbd7b452f2acfefe0f7784325b76060b93e8b56.png" />
+        薪资代发
+      </span>
+    </div>
+    <div class="actions">
+      <a href="/consultants">浏览人才</a>
+    </div>
+  </div>
+</div>
+
+<div class="recommend-programmers text-center">
+  <div class="container recommend-programmers-owl">
+      <div class="item">
+        <div class="thumbnail">
+          <a href="/consultants/6743">
+            <img class="avatar" alt="Sina游戏 技术经理 任龙" src="https://cdn.shixian.com/upload/recommend_programmer/avatar/1/7941f599b3f24e86e6441ca6635848c4.png" />
+</a>
+          <div class="caption">
+            <h3>
+              任龙
+            </h3>
+            <p class="note">
+              Sina游戏
+              &nbsp;
+              技术经理
+            </p>
+            <p class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="thumbnail">
+          <a href="/consultants/10294">
+            <img class="avatar" alt="京东 高级Java工程师 谷长鹏" src="https://cdn.shixian.com/upload/recommend_programmer/avatar/6/c875d9bc9dfb33288ee95fa56c114ff0.jpg" />
+</a>
+          <div class="caption">
+            <h3>
+              谷长鹏
+            </h3>
+            <p class="note">
+              京东
+              &nbsp;
+              高级Java工程师
+            </p>
+            <p class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="thumbnail">
+          <a href="/consultants/37250">
+            <img class="avatar" alt="上海笙慨 创始人/CTO 张一圣" src="https://cdn.shixian.com/upload/recommend_programmer/avatar/2/f76f121a074acda23a57695ce4a9c36e.jpg" />
+</a>
+          <div class="caption">
+            <h3>
+              张一圣
+            </h3>
+            <p class="note">
+              上海笙慨
+              &nbsp;
+              创始人/CTO
+            </p>
+            <p class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="thumbnail">
+          <a href="/consultants/18393">
+            <img class="avatar" alt="百度RD 资深全栈工程师 方飞" src="https://cdn.shixian.com/upload/recommend_programmer/avatar/5/93495636696448c36c867353430a137a.jpg" />
+</a>
+          <div class="caption">
+            <h3>
+              方飞
+            </h3>
+            <p class="note">
+              百度RD
+              &nbsp;
+              资深全栈工程师
+            </p>
+            <p class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="thumbnail">
+          <a href="/consultants/11899">
+            <img class="avatar" alt="自由职业者 高级前端工程师 刘玉环" src="https://cdn.shixian.com/upload/recommend_programmer/avatar/7/da6699214b56a259846cd563144175c4.jpg" />
+</a>
+          <div class="caption">
+            <h3>
+              刘玉环
+            </h3>
+            <p class="note">
+              自由职业者
+              &nbsp;
+              高级前端工程师
+            </p>
+            <p class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="highlights">
+  <div class="content-wrapper">
+    <div class="item img-right">
+      <div class="img-wrapper">
+        <img alt="名企人才" src="https://cdn.shixian.com/assets/design/mqrc-165418f5be100d4b3b9935f2776d33e6a2d964863be297fd7270a7c66ffc5af3.png" />
+      </div>
+      <div class="desc">
+        <h2 class="title">名企人才</h2>
+        <hr class='visible-md visible-lg'/>
+        <div class='content visible-md visible-lg'>
+        人才来自知名互联网公司：<br/>
+        如淘宝前端工程师、百度后端工程师、美团设计师、京东电商产品经理......<br/>
+        让创业公司人才领先！</div>
+        <div class='content visible-sm visible-xs'>名企背景，资历深厚<br/>精确匹配，人工审核</div>
+        <div class="action">
+            <!-- 浏览技术人才 -->
+        </div>
+      </div>
+    </div>
+
+    <div class="item img-left">
+      <div class="img-wrapper">
+        <img alt="快速到班" src="https://cdn.shixian.com/assets/design/ksdb-3b4d5e48c6da1e239397e64a89211b53e7c620096a978ba07ee39a9d3f5a3ce4.png" />
+      </div>
+
+      <div class="desc">
+        <h2 class="title">快速到班</h2>
+        <hr class='visible-md visible-lg'/>
+        <div class='content visible-md visible-lg'>
+          比全职更快的用人方式：
+          <br/>
+          用人方上午12点前提交需求，当晚7点可到班工作。类似于全职员工，可持续服务创业团队。
+          <br/>
+         让创业公司急速发展！
+        </div>
+        <div class='content visible-sm visible-xs'>
+          最快四小时，进度汇报<br/>专人服务，面对面工作
+        </div>
+        <div class="action">
+            <!-- 发布兼职需求 -->
+        </div>
+      </div>
+    </div>
+
+    <div class="item img-right">
+      <div class="img-wrapper">
+        <img alt="服务保障" src="https://cdn.shixian.com/assets/design/fwbz-c10a7cee1f9783151d2d5af9f246458d60635ff4241a8b44921397e559b226c3.png" />
+      </div>
+      <div class="desc">
+        <h2 class="title">服务保障</h2>
+        <hr class='visible-md visible-lg'/>
+        <div class='content visible-md visible-lg'>
+          全程资金担保：
+          <br/>
+          薪酬预付到平台，待用人方确认完工后进行结算。
+          工作后 1 小时内不满意可无条件退款！
+          <br/>
+          让创业公司安全发展！
+        </div>
+        <div class='content visible-sm visible-xs'>
+          正规发票，标准合同
+          <br/>
+          持续跟踪，支付担保
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="customers visible-md visible-lg">
+    <div class="content-wrapper">
+      <h2>客户这样评价我们</h2>
+
+      <div id="customers-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <div class="custom">
+              <div class="avatar">
+                <img alt="陈峰 盖饭CEO 网易前总编" src="https://cdn.shixian.com/upload/customer_word/avatar/2/8fb812998ebde01c4c92395001acb03b.png" />
+              </div>
+              <div class="content">
+                <div class="comment">
+                  去年年底并不是最好的创业时间，但是我们已等不及要试验自己的想法：结果碰上的最大问题就是招人难、招程序员更难。偶然的机会知道了实现网，帮助我约到几个优秀的程序员，解决了大问题。王龙行同学这个创业项目真的是帮了创业者大忙！
+                </div>
+                <div class="author">
+                  ---- 陈峰 盖饭CEO 网易前总编
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="item">
+              <div class="custom">
+                <div class="avatar">
+                  <img alt="覃超 峰瑞资本技术合伙人  Facebook技术" src="https://cdn.shixian.com/upload/customer_word/avatar/3/b737d297b7c6e92f78d651f1c57d5703.png" />
+                </div>
+                <div class="content">
+                  <div class="comment">
+                    
+我最喜欢的是上面的人才质量非常了得，很多兼职人员都是在大公司工作过的优秀背景。个人工作记录的新功能，可以方便公司端看到兼职人员所花费的时间具体在什么地方。这给予我们很多信心可以放心在实现网上找后续外包工作。
+                  </div>
+                  <div class="author">
+                    ---- 覃超 峰瑞资本技术合伙人  Facebook技术
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="custom">
+                <div class="avatar">
+                  <img alt="徐志勇  北京大学校友创业联合会副会长" src="https://cdn.shixian.com/upload/customer_word/avatar/1005/e6fc157226c79da6989ee13d7a668cb4.jpg" />
+                </div>
+                <div class="content">
+                  <div class="comment">
+                    我是实现网的老用户，前后在上面约过近十个程序员，大多数都很棒。我认为，90%的互联网项目初创团队都应该考虑用实现网，除了骨干人员最好全职以保证进度，其他很多技术岗位都可以考虑从实现网上找兼职，这可以极大降低找人成本和养人成本。
+                  </div>
+                  <div class="author">
+                    ---- 徐志勇  北京大学校友创业联合会副会长
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="custom">
+                <div class="avatar">
+                  <img alt="薛淡 顶上教育 CEO/原拓词联合创始人" src="https://cdn.shixian.com/upload/customer_word/avatar/1006/62382d52e2e549adb679cc9e6c243aad.jpg" />
+                </div>
+                <div class="content">
+                  <div class="comment">
+                    我觉得实现网上找到的前后端工程师都非常靠谱，很能干。目前我们在使用的两位工程师，一位是前端，来自360，另一位后端，以前在新浪微博，都合作得非常愉快。
+
+但是我们尝试过找设计，就感觉很难成功，因为设计出来的成果总是不太令同事们满意。当然这也有我们的问题，我们公司的VI还没有确定下来。所以，如果未来我们的VI很明确的话，说不定还会再尝试一下约见设计师。
+                  </div>
+                  <div class="author">
+                    ---- 薛淡 顶上教育 CEO/原拓词联合创始人
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#customers-carousel" data-slide="prev">
+          <i class="fa fa-angle-left fa-4x" style="display: inline-block;margin-top: 126px;width: 37px;height: 68px;color: #EEEEEE;"></i>
+        </a>
+
+        <a class="right carousel-control" href="#customers-carousel" data-slide="next">
+          <i class="fa fa-angle-right fa-4x" style="display: inline-block;margin-top: 126px;width: 37px;height: 68px;color: #EEEEEE;"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<div class="customers-logo visible-xs visible-sm">
+  <h2>我们服务过的客户</h2>
+  <div class="logos">
+    <div class="item">
+      <div class="img-wrapper">
+        <img alt="拉勾网" src="https://cdn.shixian.com/assets/design/logo-lagou-74d45834b7bfa3f5b4d0267470dd6826418a74c5109450607dccf18e402c3b70.png" />
+      </div>
+      <p>拉勾网</p>
+    </div>
+    <div class="item">
+      <div class="img-wrapper">
+        <img alt="伴米网" src="https://cdn.shixian.com/assets/design/logo-banmi-5ee520e7db7f59e31cfa90e3952a0d49cb046632f45a83a49c54770dd106fba7.png" />
+      </div>
+      <p>伴米网</p>
+    </div>
+    <div class="item">
+      <div class="img-wrapper">
+        <img alt="一起玩耍" src="https://cdn.shixian.com/assets/design/logo-yqws-bb587ede1dc6ad3ec3816278afaf977427aca3f8f8bc8b590cf3b86c7f87ec3d.png" />
+      </div>
+      <p>一起玩耍</p>
+    </div>
+  </div>
+</div>
+
+  <div class="showcases visible-md visible-lg">
+    <div class="content-wrapper">
+      <h2>成功案例</h2>
+      <div class="cases">
+        <div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/guanghuanzhibo" class="cover">
+      <img alt="光环直播APP、网站UI设计" src="https://cdn.shixian.com/upload/showcase/cover/7/___3.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        光环直播APP、网站UI设计
+      </div>
+
+      <div class="summary">
+        周期 45天 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 1 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 45000 元
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/xiaokaxiulite" class="cover">
+      <img alt="小咖秀微信小程序前端开发" src="https://cdn.shixian.com/upload/showcase/cover/9/___10.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        小咖秀微信小程序前端开发
+      </div>
+
+      <div class="summary">
+        周期 7天 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 7000 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 1 元
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/itjuzi" class="cover">
+      <img alt="IT桔子网站及APP创投模块" src="https://cdn.shixian.com/upload/showcase/cover/8/___5.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        IT桔子网站及APP创投模块
+      </div>
+
+      <div class="summary">
+        周期 16天2小时 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 3 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 78975 元
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/caixinsifangke" class="cover">
+      <img alt="财新传媒“财新私房课”H5应用开发" src="https://cdn.shixian.com/upload/showcase/cover/14/___1.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        财新传媒“财新私房课”H5应用开发
+      </div>
+
+      <div class="summary">
+        周期 39天2小时 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 3 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 49300 元
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/dingshang" class="cover">
+      <img alt="【教育类】顶上教育留学英语在线学习" src="https://cdn.shixian.com/upload/showcase/cover/11/__.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        【教育类】顶上教育留学英语在线学习
+      </div>
+
+      <div class="summary">
+        周期 36 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 4 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 64000 元
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/qingke" class="cover">
+      <img alt="轻课直播app从0到1开发及维护迭代" src="https://cdn.shixian.com/upload/showcase/cover/12/___9.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        轻课直播app从0到1开发及维护迭代
+      </div>
+
+      <div class="summary">
+        周期 5个月 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 1 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 300000 元
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/datebao" class="cover">
+      <img alt="【互联网金融】大特e保电子商务系统" src="https://cdn.shixian.com/upload/showcase/cover/10/___11.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        【互联网金融】大特e保电子商务系统
+      </div>
+
+      <div class="summary">
+        周期 36天 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 3 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 33200 元
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/guanjiancanyin" class="cover">
+      <img alt="【平台类】观见餐饮微信服务号" src="https://cdn.shixian.com/upload/showcase/cover/15/___13.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        【平台类】观见餐饮微信服务号
+      </div>
+
+      <div class="summary">
+        周期 20 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 1 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 30000 元
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="item">
+    <a target="blank" href="https://shixian.com/cases/youxin" class="cover">
+      <img alt="【社交网络】有信网络长期人才需求" src="https://cdn.shixian.com/upload/showcase/cover/13/___12.png" />
+    </a>
+    <div class="desc">
+      <div class="title">
+        【社交网络】有信网络长期人才需求
+      </div>
+
+      <div class="summary">
+        周期 30 &nbsp;&nbsp;|&nbsp;&nbsp;
+        工程师 15 位&nbsp;&nbsp;|&nbsp;&nbsp;
+        花费 63912 元
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <div class="all-cases-box text-center">
+        <a href="/cases">更多成功案例...</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="counters">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="value">30479</div>
+          <div class="name">技术顾问</div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="value">8296</div>
+          <div class="name">聘用方</div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="value">20762</div>
+          <div class="name">预约次数</div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="value">
+            90.0%
+          </div>
+          <div class="name">五星好评</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="entrances">
+  <div class="content-wrapper">
+    <div class="item">
+      <div class="box">
+        <img alt="我是创业者，我在寻找技术人才" src="https://cdn.shixian.com/assets/design/cyz-d420c0e2d665c8952453ecd71e1191262e167e6a017feefa4afee65b3b8c6703.png" />
+
+        <div class="title">我是创业者</div>
+        <div class="subtitle">我在寻找技术人才</div>
+
+        <a class="action" href="/consultants">浏览人才</a>
+      </div>
+    </div>
+    <div class="split"><span>or</span></div>
+    <div class="item">
+      <div class="box">
+        <img alt="我是技术人才，我在寻找远程工作" src="https://cdn.shixian.com/assets/design/jsrc-9ef2c07184288892f167088fe2a7c21e9634910a32d928cdbe61940e5a1522d3.png" />
+
+        <div class="title">我是技术人才</div>
+        <div class="subtitle">我在寻找远程工作</div>
+
+        <a class="action" href="/apply">人才入驻</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 浮动工具栏 -->
+<div class="side-nav hidden-xs">
+  <ul class="clean">
+    <li title="扫描二维码，微信联系客服" class="show-qrcode">
+      <a href="javascript:void(0)"><i class="icon-shixian-service" style="color: #03a3fc"></i></a>
+
+      <span>
+        联系客服
+      </span>
+
+      <div class="service-qrcode">
+        <img alt="联系实现网客服" src="https://cdn.shixian.com/assets/helper_guoyan-124a0032018917469d3d86c77e3da78ce97fce066ab71dc42aeee76fb014cf8f.jpg" />
+      </div>
+    </li>
+
+      <!-- <li title="意见反馈">
+          <a href="https://shixian.com/projects/27" target="_blank"><i class="icon-shixian-proposal"></i></a>
+      </li> -->
+
+    <!-- <li title="回到顶部" class="go-top">
+      <a href="javascript:void(0)">
+        <i class="icon-shixian-go-top"></i>
+      </a>
+
+      <span class="hidden">
+        回到顶部
+      </span>
+    </li> -->
+  </ul>
+</div>
+
+<script type="text/javascript">
+  // 返回顶部
+  (function ($win, $by) {
+    var $go = $(".side-nav").find('.go-top');
+
+    function show () {
+      if ($win.scrollTop() > 250) {
+        $go.show();
+      }
+      else {
+        $go.hide();
+      }
+    }
+
+    $go.unbind().click(function () {
+      $by.animate({
+        scrollTop: 0
+      });
+    });
+
+    show();
+    $win.on('resize scroll', show);
+  })($(window), $("html body"));
+</script>
+
+
+<div class="footer visible-md visible-lg">
+  <div class="content-wrapper visible-md visible-lg">
+    <div class="col">
+      <div>
+        <img width="108" alt="实现网微信公众号" src="https://cdn.shixian.com/assets/shixian-qr-code-1172ea9fd974a9901cb4ea6a5c826cb7f16aeaed0cce6f7815b292428b1ae7ca.png" />
+
+        <p>微信公众号</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="col-cap">实现</div>
+      <ul>
+        <li>
+          <a target="_blank" href="/consultants">技术顾问</a>
+        </li>
+        <li>
+          <a target="_blank" href="/jobs">兼职需求</a>
+        </li>
+        <li>
+          <a target="_blank" href="/projects">实现社区</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="col-cap">服务</div>
+      <ul>
+        <li>
+          <a target="_blank" href="/protocol">实现协议</a>
+        </li>
+        <li>
+          <a target="_blank" href="/faq">常见问题</a>
+        </li>
+        <li><a target="_blank" href="/projects/27">意见反馈</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="col-cap">关于</div>
+      <ul>
+        <li><a target="_blank" href="/about">关于我们</a></li>
+        <li><a target="_blank" href="/media_reports">媒体报道</a></li>
+        <li><a target="_blank" rel="nofollow" href="http://mp.weixin.qq.com/s?__biz=MzA3NTczODYxNQ==&amp;mid=422599764&amp;idx=1&amp;sn=32fa44f9c82ea1067e67b5c23390538a&amp;scene=23&amp;srcid=0310Zk8j2FjIIEh3XiWdWJiL#rd">加入我们</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="col-cap">合作</div>
+      <ul>
+        <li><a target="_blank" href="/friends">友情链接</a></li>
+        <li><a target="_blank" href="/partners">合作伙伴</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="copyrights">
+  2014-<script>document.write((new Date()).getFullYear());</script> © 北京实现与爱科技有限公司&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" rel="nofollow" class="footer-link" style="color:white">京ICP备14024552号-2</a>
+</div>
+
+<script type="text/javascript">
+  $(".recommend-programmers-owl").owlCarousel({
+    autoPlay: true
+  });
+
+  function isWeiXin(){
+    var ua = window.navigator.userAgent.toLowerCase();
+    return ua.match(/MicroMessenger/i) == 'micromessenger';
+  }
+
+  $('.carousel').carousel()
+  $('.menu-toggle').click(function() {
+    $('.menu').toggleClass('appear');
+  });
+
+  if (isWeiXin()) {
+    $(".wechat_login").attr("href", "https://shixian.com/users/auth/wechat");
+  } else {
+    $(".wechat_login").attr("href", "https://shixian.com/users/auth/open_wechat")
+  }
+</script>
+
+    
+    
+    <!-- 百度统计等 -->
+      <script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F25e3b17ddf2b132427768bfebf751a76' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+
+  <!-- growingio -->
+  <script type='text/javascript'>
+      var _vds = _vds || [];
+      window._vds = _vds;
+      (function(){
+        _vds.push(['setAccountId', 'acf6ac3446a1dcb0']);
+        (function() {
+          var vds = document.createElement('script');
+          vds.type='text/javascript';
+          vds.async = true;
+          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(vds, s);
+        })();
+      })();
+  </script>
+
+  </body>
+</html>
