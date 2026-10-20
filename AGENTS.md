@@ -118,6 +118,8 @@
 
 **任何改动做完立刻 `commit` + `push` 到 `origin`。不要等我催，不要攒着。**
 
+> 2026-10-20 jjq 再次强调：**在我电脑上做的一切操作都要及时推上去，时刻保持本地与线上一致。** 每次会话结束前跑一遍 `git status` + `git log origin/main..HEAD`，两者都干净才算收工。
+
 ```bash
 git add -A && git commit -m "<改了什么>" && git push
 ```
