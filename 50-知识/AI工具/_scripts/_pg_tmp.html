@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>搜索 - 人大经济论坛</title>
+<meta name="keywords" content="" />
+<meta name="description" content=",人大经济论坛" />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<base href="https://s.pinggu.org" />
+
+<style type="text/css">
+a:hover{text-decoration:none;}
+.h-search {
+float: left;
+width: 600px;
+position: relative;
+margin: 18px 15px 0 0px;
+}
+.h-search-ipt {
+width: 500px;
+height: 40px;
+border: 2px solid #f77400;
+padding-top: 10px\9;
+height: 30px\9;
+font-size:18px;
+}
+.h-search ul li{width:60px;height:27px;line-height:27px;float:left;text-align:center;}
+.h-search ul li a{font-size:14px;}
+
+.h-search ul li.active{background-color:#f77400;}
+.h-search ul li.active a{color:#fff;}
+button{border:none;}
+.h-search button {
+width: 56px;
+height: 42px;
+background: url(static/newsearch/images/search-w.png) no-repeat center center #f77400;
+position: absolute;
+top: 29px;
+right: 98px;
+border-left: 2px solid #f77400;
+background-size: 50%;
+cursor: pointer;
+}
+</style>
+
+<link rel="stylesheet" type="text/css" href="//bbs.pinggu.org/data/cache/style_1_common.css" />
+<link rel="stylesheet" type="text/css" href="//bbs.pinggu.org/data/cache/style_1_search_forum.css" />
+<link rel="stylesheet" id="css_extstyle" type="text/css" href="//bbs.pinggu.org/template/default/style/t6/style.css" />
+<link rel="stylesheet" type="text/css" href="/static/pinggu/style_search.css" />
+<link href="/static/newsearch/pinggu.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+a.BZnav2:link, a.BZnav2:visited{color:#0000cc;}
+a.BZnav2:hover{background: #f77400;color:#fff}
+a.BigG:link, a.BigG:visited{color:#0000cc;}
+.header-logo{height: 85px;padding-top: 7px;}
+</style>
+
+<script type="text/javascript">var STYLEID = '1', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = '875', charset = 'gbk', discuz_uid = '0', cookiepre = 'Z9M6_79fc_', cookiedomain = '.pinggu.org', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'login|newthread', creditnotice = '1|经验|点,2|威望|级,3|论坛币|个,4|学术水平|点,5|热心指数|点,6|信用等级|点,7|当日剩余下载次数|次', defaultstyle = './template/default/style/t6', REPORTURL = 'aHR0cDovL3MucGluZ2d1Lm9yZy8=', SITEURL = 'http://s.pinggu.org/', JSPATH = 'data/cache/';</script>
+<script src="data/cache/common.js?875" type="text/javascript"></script>
+
+<script type="text/javascript">
+function submitform(formname){
+if(formname == 'searchform2'){
+document.getElementById(formname).action = 'http://sou.pinggu.org/cse/search';
+document.getElementById(formname).submit();
+} else {
+document.getElementById(formname).submit();
+}
+}
+function selectTag(showContent,selfObj){
+// 操作标签
+var tag = document.getElementById("tags").getElementsByTagName("li");
+var taglength = tag.length;
+for(i=0; i<taglength; i++){
+tag[i].className = "";
+}
+selfObj.parentNode.className = "active";
+// 操作内容
+for(i=0; j=document.getElementById("tagContent"+i); i++){
+j.style.display = "none";
+}
+document.getElementById(showContent).style.display = "block";
+}
+</script>
+
+</head>
+
+<body>
+<div id="append_parent"></div><div id="ajaxwaitid"></div><!-- search/header E -->
+
+<!--下面是总容器-->
+<div class="container">
+<!--头部开始-->
+<div class="header">
+<!--logo-->
+<div class="header-logo"><a href="https://bbs.pinggu.org/"><img src="https://bbs.pinggu.org/static/2015/images/jg-logo.png" width="" /></a></div>
+<!--头部右边-->
+<div class="h-search">
+<ul id="tags">
+<li class="active"><a onClick="selectTag('tagContent0',this)" href="javascript:void(0)">站内</a></li>
+<li><a onClick="selectTag('tagContent1',this)" href="javascript:void(0)">百度</a></li>
+</ul>
+<div id="tagContent">
+<form name="searchform1" id="searchform1" class="postbox" method="post" action="https://s.pinggu.org/search.php?searchsubmit=yes">
+<input type="hidden" name="formhash" value="4ed8ecb6">
+<input type="hidden" name="mod" value="forum">
+<input type="hidden" name="srchtype" value="title">
+<input name="confirm" type="hidden" value="yes">
+<div class="tagContent selectTag" id="tagContent0"><label for="textfield"></label>
+<input name="srchtxt" type="text" class="h-search-ipt" id="textfield" value="请输入帖子关键词" onfocus="if(this.value=='请输入帖子关键词'){this.value=''};" onblur="if(this.value==''){this.value='请输入帖子关键词'};" />
+<button onclick="submitform('searchform1');"></button>
+<a href="https://s.pinggu.org/search.php?mod=forum&amp;adv=yes" style="display: inline-block;font-size: 16px;margin-left: 10px;font-weight: 700;color: #f77400;">高级</a>
+</div>
+</form>
+<form id="searchform2" class="postbox" action="" method="get" target="_blank">
+<input type="hidden" name="s" value="4433512227215735158">
+<div class="tagContent" id="tagContent1" style="display:none"><label for="textfield"></label>
+<input name="q" type="text" class="h-search-ipt" id="textfield" value="请输入百度关键词" onfocus="if(this.value=='请输入百度关键词'){this.value=''};" onblur="if(this.value==''){this.value='请输入百度关键词'};" />
+<button onclick="submitform('searchform2');"></button>
+<a href="https://s.pinggu.org/search.php?mod=forum&amp;adv=yes" style="display: inline-block;font-size: 16px;margin-left: 10px;font-weight: 700;color: #f77400;">高级</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+<!--头部结束--><!--头部结束-->
+<style type="text/css">
+.container {
+width: 100%;
+background: #FFFFFF;
+margin: 0;
+height: 100%;
+overflow: hidden;
+}
+.header {
+width: 980px;
+background: #FFFFFF;
+margin: 0 auto;
+height: 100%;
+overflow: hidden;
+}
+.pgs {
+    width: 980px;
+    margin: 15px auto 0;
+}
+.footer {
+width: 980px;
+background: #FFFFFF;
+margin: 0 auto;
+height: 100%;
+overflow: hidden;
+margin: 10px auto !important;
+}
+
+.center-box{ width: 100%; background: #f3f5f7; margin-top: 20px; padding-top: 20px;}
+.center-box .BZ{ width: 680px; float: left; }
+.center-box .center-cent{width: 980px; margin: 0 auto; overflow: hidden;}
+.center-box .Bz-right{ width: 278px; float: right;margin-top: 9px; }
+.kec-listbox{ margin-top: 20px; background: #fff; padding: 18px;}
+.kec-listbox h3{ font-size: 24px; margin-bottom: 10px; }
+.bt-xxbox p{ font-size: 15px; overflow: hidden;display:-webkit-box; height: 48px; color: #333;
+-webkit-box-orient:vertical;-webkit-line-clamp:2;}
+.bt-xxbox span{ color: #e8660b; font-size: 14px; }
+.kec-listbox ul li a .bt-xxbox{ float: left; width: 120px; margin-left: 10px;  }
+.kec-listbox ul li a img{ float: left; width: 100px; height: 72px;}
+.kec-listbox ul li a{ overflow: hidden; display: block;}
+.kec-listbox ul li{ margin-bottom: 20px;}
+a.BZnav2023:link, a.BZnav2023:visited {
+color: red;
+}
+a.BZnav2023:hover {
+color: #fff;
+}
+</style>
+<div class="center-box">
+<div class="center-cent clearfix">
+
+<div class="BZ">
+    <div class="BZtop" style="position:relative;"> 
+       <a href="javascript:;" class="BZnav">帖子</a>
+       <a href="https://s.pinggu.org/search_attach.php" class="BZnav2" target="_blank">附件</a>
+       <a href="https://bbs.pinggu.org/data_enter.php" class="BZnav2" target="_blank">文献</a>
+       <a href="http://ask.pinggu.org/" class="BZnav2" target="_blank">问答</a>
+       <a href="https://bbs.pinggu.org/home.php?mod=spacecp&amp;ac=search" class="BZnav2" target="_blank">用户名</a>
+<a href="https://aichat.pinggu.org/aichat.php" class="BZnav2 BZnav2023" target="_blank">AI对话</a>
+       <a href="javascript:;" onclick="showWindow('nav', 'https://s.pinggu.org/forum.php?mod=misc&amp;action=nav', 'get', 0)" style="float:right; height:33px;padding-right:14px;background:url();line-height:33px;font-size: 16px;color: #f77400;font-weight: 700;margin-right: 10px;">我要发帖</a>
+   </div>
+<ul class="p_pop" id="s_capitalvue_menu" style="display:none;line-height:25px;">
+<li><a href="https://bbs.pinggu.org/capitalvue.php?ac=search&amp;type=news&amp;q=" target="_blank">新闻</a></li>
+<li><a href="https://bbs.pinggu.org/capitalvue.php?ac=search&amp;type=researchnotes&amp;q=" target="_blank">研报</a></li>
+<li><a href="https://bbs.pinggu.org/capitalvue.php?ac=search&amp;type=company&amp;q=" target="_blank">金融</a></li>
+<li><a href="https://bbs.pinggu.org/capitalvue.php?ac=search&amp;type=macro&amp;q=" target="_blank">宏观</a></li>
+</ul>
+
+
+    <div class="SSiterm" style="border-bottom: none;padding-bottom: 0;margin-bottom: 0;">
+<span>
+当搜索关键词过长时，为避免搜不到您想要的结果，请尽量优先使用：关键词+空格+关键词的形式进行结果查找（如："关键词A 关键词B"），搜索时请不要带+号。<br /><br />
+结果：找到相关内容0个，搜索更多相关帖子请点击“<a href="https://s.pinggu.org/search.php?mod=forum&amp;adv=yes">高级</a>”
+</span>
+</div>
+<p class="emp xs2 xg2" style="padding:20px;">
+对不起，没有找到匹配结果。<br />
+您可以通过 <a href="https://bbs.pinggu.org/forum.php?mod=post&amp;action=newthread&amp;fid=208&amp;special=3" target="_blank"><font color="red">论坛币悬赏</font></a><font color="red">/</font><a href="https://bbs.pinggu.org/forum.php?mod=post&amp;action=newthread&amp;fid=2177&amp;special=3" target="_blank"><font color="red">现金悬赏</font></a>发帖<br />
+</p>
+<div class="SSiterm">
+<a href="http://bbs.pinggu.org/thread-4761649-1-1.html" target="_blank" class="BigG" >CDA数据分析就业学院——塑造辉煌人生的摇篮！！！</a><br />
+CDA数据分析就业班是为解决当下企业招人难、学员就业难的问题所研发的精品课程。课程以数据分析理论与实践案例结合的方式讲授，内容覆盖了国内企业招聘数据分析师岗位所需的技能，学员经过三个月系统全面的脱产学习（统计学、Excel、SQL、R、Python），达到企业用人标准，快速在大数据时代找准工作定位。</div>
+<div class="SSiterm">
+<a href="https://bbs.pinggu.org/thread-7954366-1-1.html" target="_blank" class="BigG" >SSCI/SCI发表与SEM+PLS应用,指导论文写作及期刊投稿,报名咨询:尹老师,13321178792</a><br />
+SSCI/SCI发表与SEM专题,PLS专题,研究设计专题,范例论文均为已成功发表的SSCI/SCI论文,透过此一课程,能帮助您顺利完成SSCI论文的写作和投稿！</div>
+<div class="SSiterm">
+<a href="https://www.peixun.net/view/1935.html" target="_blank" class="BigG" >VAR专题, 咨询WX: 13321178792</a><br />
+深入探讨VAR模型及其相关扩展模型，帮助学员全面理解和掌握VAR系列模型的理论知识和应用技巧，为从事经济金融领域的研究和实际工作打下坚实的基础; 含6篇范例论文</div>
+<div class="SSiterm">
+<a href="https://bbs.pinggu.org/thread-11786325-1-1.html" target="_blank" class="BigG" >【备考指南】CDA Level Ⅰ 最全备考攻略</a><br />
+很多考生朋友在报名前后，一直不知道需要怎么备考，这里给大家盘点一下最全的备考攻略，希望对你有用：</div>
+<div class="SSiterm">
+<a href="https://bbs.pinggu.org/thread-10541426-1-1.html" target="_blank" class="BigG" > 修炼科研必杀技 | 如何高效阅读和整理文献_文献系列课程1</a><br />
+3小时晋升文献阅读高手,从阅读文献的思维、理念到工具、流程，都有一个全面的熟悉和掌握,咨询微信：JGxueshu</div>
+<div class="SSiterm">
+<a href="https://www.peixun.net/view/2014.html" target="_blank" class="BigG" >Python师资培训-AI智能体助力机器学习学术实战2026暑期特训, 咨询WX: JGxueshu</a><br />
+Python师资培训-机器学习2026年全新升级 AI领域一线专家, 国内顶尖高校博导亲授和答疑 系统讲解从基础算法到高阶推断的建模技术，并引入AI智能体作为学术建模助手，辅助完成代码生成、结果解读、可视化输出与论文规范化表达。</div>
+<div class="SSiterm">
+<a href="https://www.cs100.com.cn/course/detail/161" target="_blank" class="BigG" >Maple初级教程-安装-界面-基本数据结构-maple编程-maple输入输出-实现极限，微分，积分计算</a><br />
+从maple安装开始到界面熟悉，到逐步精通的种种数学实现。</div>
+<div class="SSiterm">
+<a href="https://www.peixun.net/view/1882.html" target="_blank" class="BigG" >6小时掌握社科数据库操作, 咨询报名: 13321178792</a><br />
+数据是进行实证分析的基础，本课程将对科研中常用的家庭调查数据、企业数据库进行介绍。介绍内容主要包括：数据库获取方式、特点、适用注意事项等方面。</div>
+<div class="SSiterm">
+<a href="https://www.peixun.net/view/1912.html" target="_blank" class="BigG" >DSGE论文复刻,DSGE系列课程终极王者_咨询:尹老师,13321178792</a><br />
+DSGE系列课程终极王者,包含四篇DSGE前沿文献全文复刻(第一篇：风险冲击；第二篇：股票市场泡沫和经济周期的贝叶斯DSGE模型；第三篇：经济周期持续性来源：内生化技术吸引和研发；第四篇：后危机时代经济缓慢复苏与货币政策实施)及在模型中如何引入增长趋势新内容.</div>
+<div class="SSiterm">
+<a href="https://bbs.pinggu.org/thread-10429931-1-1.html" target="_blank" class="BigG" >[期刊访谈] [龚刚敏]《财经论丛》（浙江财经大学学报）副主编龚刚敏教授在线答疑</a><br />
+经管之家论坛以“服务于经管教育、服务于经管学术、服务于经管学者”为宗旨，希望成为经管学术期刊与经管学子、经管学者之间沟通的桥梁。 大型学术期刊访谈公益活动——“期刊访谈”在线直播栏目由此诞生。</div>
+<div class="SSiterm">
+<a href="https://www.peixun.net/view/1703.html" target="_blank" class="BigG" >经济学中的因果推断方法课程-赵西亮讲授主讲并答疑</a><br />
+热门教材《基本有用的计量经济学》作者赵西亮教授亲授 经济学因果推断理论、识别策略，数据处理及清洗，Top5期刊论文复制及Stata软件实现</div>
+<div class="SSiterm">
+<a href="https://www.cs100.com.cn/course/detail/264" target="_blank" class="BigG" >excel---向咨询行业学图表-断层图组合图柱状图-多维条形图- 条形图圆环图散点图折线图</a><br />
+一图老师手把手教你做咨询行业专用excel图表</div>
+<div class="SSiterm">
+<a href="https://www.cs100.com.cn/course/detail/181" target="_blank" class="BigG" >MySQL初级视频教程--MySQL数据库基础--mysql数据类型--SQL查询语句--视图索引创建修改表</a><br />
+由浅入深，循序渐进地介绍了MySQL数据库应用与开发的相关知识</div>
+<div class="SSiterm">
+<a href="https://www.peixun.net/view/1998.html" target="_blank" class="BigG" >Stata论文2026寒假特训_实证研究全流程与论文精讲复刻, 咨询: 13321178792</a><br />
+【2026独家论文精讲与复刻班】 百余本期刊审稿专家张川川老师独家分享实证研究经验与论文复刻,从理论到实操,从一般原理到具体案例, 包含11篇范例论文精讲与复刻</div>
+<div class="SSiterm">
+<a href="https://www.peixun.net/view/1896.html" target="_blank" class="BigG" >DSGE模型理论及应用初中级,从零基础到编写代码求解模型,报名咨询:尹老师,13321178792</a><br />
+DSGE理论与实操相结合,模型构建与代码编写同步进行;由浅入深,先从基础知识讲起,然后逐渐拔高,轻松掌握DSGE方法.</div>
+<div class="SSiterm">
+<a href="http://bbs.pinggu.org/thread-2807262-1-1.html" target="_blank" class="BigG" >Peixun.net DEA模型及软件应用教程</a><br />
+DEA视频教程，购买之后可联系老师提供资料并帮助安装软件</div>
+<div class="SSiterm">
+<a href="https://bbs.pinggu.org/thread-11269665-1-1.html" target="_blank" class="BigG" >CDA认证一级教材：精益业务数据分析</a><br />
+第1 章 绪论. 1  1.1 数据分析概述 .1  1.1.1 数据分析的分类 .3  1.1.2 数据分析的基本流程 .4  1.1.3 数据分析的落地方法 .7  1.2 数据分析师概述 .8  1.2.1 数据分析师的不同角色与职责 .8  1.2.2 数据分析师职业道德和行为准则 .10  1.3 数据相关的安全与立法 13  1.3.1 各国的数据隐私相关法律 </div>
+<div class="SSiterm">
+<a href="https://www.peixun.net/view/1755.html" target="_blank" class="BigG" >2026年Stata初高级遇见AI寒假特训, 初级+高级, 原理+代码+论文+答疑, 咨询: 13321178792</a><br />
+Stata初高级特训, 2026年新内容, 全面引入AI 辅助，讲授目前在各应用研究领域使用最为广泛的计量分析方法, 对主要命令实现模型过程与结果解读进行讲授, 配之以示例论文，完整再现论文，达到论文复制与再现的目的。</div>
+<div class="SSiterm">
+<a href="https://bbs.pinggu.org/thread-10255601-1-1.html" target="_blank" class="BigG" >CDA数据分析师认证证书含金量不断提高，成数据分析入门新刚需！</a><br />
+人力资源和社会保障部发布《新职业—大数据工程技术人员就业景气现状分析报告》，显示2020年中国大数据行业人才需求规模预计将达210万，未来5年需求仍将保持30%-40%的增速，需求总量在2000万人左右。</div>
+<div class="SSiterm">
+<a href="http://bbs.pinggu.org/thread-987770-1-1.html" target="_blank" class="BigG" >邀请金融财务领域,硕/博士人才及资深研究人员加入 CCERDATA金融数据库贵宾群（new）！</a><br />
+ CCER数据库是专门针对经济和金融学术研究领域的高标准数据库产品。CCER数据库以树立中国研究型数据库标准为己任，力图在数据库结构、数据广度、精度、深度、特色数据等各方面全面满足学术研究的数据需求，成为您在经济和金融研究中获取数据的最佳平台。</div>
+
+
+      
+<div style="text-align: center; font-size: 14px;">
+<img src="https://bbs.pinggu.org/static/2024/qywx_s.png" style="width: 150px; margin: 15px;" /><br />
+扫码添加企微，加入经管之家坛友俱乐部。<br />
+进行坛友互助：求助资料，解决问题。
+</div>
+
+  </div>
+  
+  <div class="Bz-right" style='display:none;'>
+<a href="https://paper.pinggu.org/AIaccompany" target="_blank" style="display: inline-block; padding: 0"><img src="https://paper666.com/p/files/img/paper.png" /></a>
+<img src="https://bbs.pinggu.org/static/extend/bbsapp/images/xdx_xcx.png" style="margin-top:20px;">
+<div class="kec-listbox">
+<h3>课程推荐</h3>
+<ul id='course_tj'>
+<!-- 			<li><a href="">
+<img src="images/zstu.jpg" />
+<div class="bt-xxbox">
+<p>课程标题课程标dfd题课程标题课程标题</p>
+<span>￥1880.00</span>
+</div>
+</a>
+</li> -->
+</ul>
+</div>
+</div>
+
+</div>  
+</div>  
+
+<script src="https://bbs-cdn.datacourse.cn/static/2015/js/jquery-1.11.1.min.js?4B7" type="text/javascript" type="text/javascript"></script>
+<script>
+var keyword="";
+keyword=encodeURI(keyword);
+var course_info='';
+jQuery.ajax({
+type: 'POST',
+url: '/search_advs.php?keyword='+keyword+'&rand='+Math.random(),
+dataType: 'json',
+success: function(data){
+//console.log(data);
+jQuery.each(data, function (n, value) {
+course_info+="<li><a href='"+value['url']+"' target='_blank'><img src='"+value['picurl']+"' /><div class='bt-xxbox'><p>"+value['title']+"</p></div></a></li>";
+});
+jQuery('#course_tj').html(course_info);
+jQuery('.Bz-right').show();
+},
+error: function(data){
+//console.log(data);
+}
+});
+</script>
+
+<!--页脚开始-->
+<div id="ft" style="margin-top:25px;"></div>
+ <div class="footer" style="margin:10px 0; padding:0; background: url(https://bbs.pinggu.org/static/2015/images/luntan.jpg) -6px -3px no-repeat;">
+<div class="footNavBar">
+<a href="https://bbs.pinggu.org/misc.php?mod=faq&amp;action=faq&amp;id=38&amp;messageid=75" target="_blank" class="footNav" rel="nofollow">关于我们</a>
+<a href="https://bbs.pinggu.org/forum.php?mobile=yes" target="_blank" class="footNav" rel="nofollow">手机版</a>
+<a href="http://product.pinggu.org/contact.html" target="_blank" class="footNav" rel="nofollow">联系我们</a>
+<a href="https://bbs.pinggu.org/thread-287271-1-1.html" target="_blank" class="footNav" rel="nofollow">招聘英才</a>
+<a href="https://bbs.pinggu.org/forum.php?mod=viewthread&amp;tid=2492316&amp;page=1&amp;extra=#pid19647150" target="_blank" class="footNav" rel="nofollow">合作加盟</a>
+<a href="http://product.pinggu.org/service_guanggao.html" target="_blank" class="footNav" rel="nofollow">广告服务</a>
+<span class="t400519191">4000-51-9191</span>
+</div>
+<p class="footp">
+为做大做强论坛，本站接受风险投资商咨询，请联系（010-62719935）<br />
+联系QQ：<a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=75102711&amp;Site=pinggu&amp;Menu=yes" target="_blank" title="点击直接给QQ发消息" rel="nofollow">75102711</a> &nbsp; &nbsp; 邮箱：service@pinggu.org &nbsp; &nbsp; 合作咨询电话：(010)62719935 &nbsp; &nbsp; 广告合作电话：13661292478（刘老师）<br/>
+投诉电话：(010)68466864 &nbsp; 不良信息处理电话：(010)68466864
+</p>
+<p class="footp2" style="line-height: 31px;width: 825px; margin-top:-7px;">
+京ICP备11001960号 &nbsp; 京ICP证090565号 &nbsp; 京公网安备1101084107号 &nbsp; 论坛法律顾问：王进律师 &nbsp; <a href="https://bbs.pinggu.org/z_banquan.php" target="_blank" rel="nofollow">知识产权保护声明</a> &nbsp; <a href="https://bbs.pinggu.org/z_mianze.php" target="_blank" rel="nofollow">免责及隐私声明</a></br>
+</p>
+ </div>
+ <!--页脚结束-->
+</div>
+<!--总容器结束-->
+
+<div style="display:none;">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "  https://" : " http://");document.write(unescape("%3Cdiv id='cnzz_stat_icon_30079716'%3E%3C/div %3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D30079716'  type='text/javascript'%3E%3C/script%3E"));</script>
+<script src='https://w.cnzz.com/c.php?id=30069092&l=3' language='JavaScript'></script>
+<script src='https://w.cnzz.com/c.php?id=30098119&l=3' language='JavaScript'></script>
+<script src='https://w.cnzz.com/c.php?id=1254082573&l=3' language='JavaScript'></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65824918-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?bde98f2f985fb540989877ed0e766dc8";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+
+</body>
+</html>
