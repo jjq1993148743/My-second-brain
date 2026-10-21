@@ -1,0 +1,373 @@
+[
+ {
+  "name": "Stuvia",
+  "host": "stuvia.com",
+  "url": "https://www.stuvia.com/",
+  "type": "卖笔记",
+  "note": "全球，欧元结算"
+ },
+ {
+  "name": "Studydrive",
+  "host": "studydrive.net",
+  "url": "https://www.studydrive.net/",
+  "type": "卖笔记",
+  "note": "欧洲最大"
+ },
+ {
+  "name": "Docmerit",
+  "host": "docmerit.com",
+  "url": "https://docmerit.com/",
+  "type": "卖笔记",
+  "note": "美区"
+ },
+ {
+  "name": "Notesale",
+  "host": "notesale.co.uk",
+  "url": "https://www.notesale.co.uk/",
+  "type": "卖笔记",
+  "note": "英国"
+ },
+ {
+  "name": "Oxbridge Notes",
+  "host": "oxbridgenotes.com",
+  "url": "https://www.oxbridgenotes.com/",
+  "type": "卖笔记",
+  "note": "牛剑"
+ },
+ {
+  "name": "Docsity",
+  "host": "docsity.com",
+  "url": "https://www.docsity.com/",
+  "type": "卖笔记",
+  "note": "意/西语区"
+ },
+ {
+  "name": "Nexus Notes",
+  "host": "nexusnotes.com",
+  "url": "https://www.nexusnotes.com/",
+  "type": "卖笔记",
+  "note": "澳新"
+ },
+ {
+  "name": "StudyLast",
+  "host": "studylast.com",
+  "url": "https://studylast.com/",
+  "type": "卖笔记",
+  "note": "美区"
+ },
+ {
+  "name": "Udemy",
+  "host": "udemy.com",
+  "url": "https://www.udemy.com/",
+  "type": "卖课",
+  "note": "全球最大"
+ },
+ {
+  "name": "Skillshare",
+  "host": "skillshare.com",
+  "url": "https://www.skillshare.com/",
+  "type": "卖课",
+  "note": "订阅分成"
+ },
+ {
+  "name": "Teachable",
+  "host": "teachable.com",
+  "url": "https://teachable.com/",
+  "type": "自建课站",
+  "note": "无门槛"
+ },
+ {
+  "name": "Thinkific",
+  "host": "thinkific.com",
+  "url": "https://www.thinkific.com/",
+  "type": "自建课站",
+  "note": "免费档"
+ },
+ {
+  "name": "Podia",
+  "host": "podia.com",
+  "url": "https://www.podia.com/",
+  "type": "数字商品+课",
+  "note": "一站式"
+ },
+ {
+  "name": "Maven",
+  "host": "maven.com",
+  "url": "https://maven.com/",
+  "type": "cohort课",
+  "note": "高客单"
+ },
+ {
+  "name": "Skool",
+  "host": "skool.com",
+  "url": "https://www.skool.com/",
+  "type": "社区+课",
+  "note": "新贵"
+ },
+ {
+  "name": "Ko-fi",
+  "host": "ko-fi.com",
+  "url": "https://ko-fi.com/",
+  "type": "收款+商店",
+  "note": "零抽成"
+ },
+ {
+  "name": "Buy Me a Coffee",
+  "host": "buymeacoffee.com",
+  "url": "https://www.buymeacoffee.com/",
+  "type": "收款",
+  "note": "学生创作者"
+ },
+ {
+  "name": "Lemon Squeezy",
+  "host": "lemonsqueezy.com",
+  "url": "https://www.lemonsqueezy.com/",
+  "type": "数字商品",
+  "note": "MoR税务"
+ },
+ {
+  "name": "Stan Store",
+  "host": "stan.store",
+  "url": "https://stan.store/",
+  "type": "小店",
+  "note": "社媒导流"
+ },
+ {
+  "name": "Big Cartel",
+  "host": "bigcartel.com",
+  "url": "https://www.bigcartel.com/",
+  "type": "小店",
+  "note": "免费档"
+ },
+ {
+  "name": "Scribbr",
+  "host": "scribbr.com",
+  "url": "https://www.scribbr.com/",
+  "type": "校对润色",
+  "note": "学生论文刚需"
+ },
+ {
+  "name": "GradeSaver",
+  "host": "gradesaver.com",
+  "url": "https://www.gradesaver.com/",
+  "type": "文书编辑",
+  "note": "美本申请"
+ },
+ {
+  "name": "EssayEdge",
+  "host": "essayedge.com",
+  "url": "https://essayedge.com/",
+  "type": "文书编辑",
+  "note": "留学申请"
+ },
+ {
+  "name": "Wordvice",
+  "host": "wordvice.com",
+  "url": "https://wordvice.com/",
+  "type": "润色",
+  "note": "学术"
+ },
+ {
+  "name": "PaperTrue",
+  "host": "papertrue.com",
+  "url": "https://www.papertrue.com/",
+  "type": "润色",
+  "note": "学术"
+ },
+ {
+  "name": "Editage",
+  "host": "editage.com",
+  "url": "https://www.editage.com/",
+  "type": "润色",
+  "note": "科研作者"
+ },
+ {
+  "name": "Prompt",
+  "host": "prompt.com",
+  "url": "https://prompt.com/",
+  "type": "文书辅导",
+  "note": "美高美本"
+ },
+ {
+  "name": "TutorMe",
+  "host": "tutorme.com",
+  "url": "https://tutorme.com/",
+  "type": "在线家教",
+  "note": "美"
+ },
+ {
+  "name": "Skooli",
+  "host": "skooli.com",
+  "url": "https://www.skooli.com/",
+  "type": "K12家教",
+  "note": "美/加"
+ },
+ {
+  "name": "AmazingTalker",
+  "host": "amazingtalker.com",
+  "url": "https://www.amazingtalker.com/",
+  "type": "语言家教",
+  "note": "亚洲学生多"
+ },
+ {
+  "name": "NativeCamp",
+  "host": "nativecamp.net",
+  "url": "https://nativecamp.net/",
+  "type": "口语",
+  "note": "日本学生"
+ },
+ {
+  "name": "GoStudent",
+  "host": "gostudent.org",
+  "url": "https://www.gostudent.org/en",
+  "type": "家教",
+  "note": "欧洲独角兽"
+ },
+ {
+  "name": "MyTutor",
+  "host": "mytutor.co.uk",
+  "url": "https://www.mytutor.co.uk/",
+  "type": "GCSE/A-level",
+  "note": "英国"
+ },
+ {
+  "name": "Tutorful",
+  "host": "tutorful.co.uk",
+  "url": "https://tutorful.co.uk/",
+  "type": "家教",
+  "note": "英国"
+ },
+ {
+  "name": "HeyTutor",
+  "host": "heytutor.com",
+  "url": "https://heytutor.com/",
+  "type": "家教",
+  "note": "美"
+ },
+ {
+  "name": "Preply(已有)",
+  "host": "preply.com",
+  "url": "https://preply.com/en/teach",
+  "type": "教中文",
+  "note": "已有,验证teach入口"
+ },
+ {
+  "name": "Magoosh",
+  "host": "magoosh.com",
+  "url": "https://magoosh.com/",
+  "type": "备考课程",
+  "note": "GRE/GMAT/TOEFL"
+ },
+ {
+  "name": "PrepScholar",
+  "host": "prepscholar.com",
+  "url": "https://www.prepscholar.com/",
+  "type": "备考",
+  "note": "SAT/ACT"
+ },
+ {
+  "name": "UWorld",
+  "host": "uworld.com",
+  "url": "https://www.uworld.com/",
+  "type": "题库",
+  "note": "医/法/CPA"
+ },
+ {
+  "name": "7Sage",
+  "host": "7sage.com",
+  "url": "https://7sage.com/",
+  "type": "LSAT",
+  "note": "法学院"
+ },
+ {
+  "name": "Albert.io",
+  "host": "albert.io",
+  "url": "https://www.albert.io/",
+  "type": "AP题库",
+  "note": "美高"
+ },
+ {
+  "name": "Kaplan导师",
+  "host": "kaptest.com",
+  "url": "https://www.kaptest.com/",
+  "type": "备考巨头",
+  "note": "招tutor"
+ },
+ {
+  "name": "CollegeVine",
+  "host": "collegevine.com",
+  "url": "https://www.collegevine.com/",
+  "type": "升学社区+咨询",
+  "note": "美高美本"
+ },
+ {
+  "name": "InGenius Prep",
+  "host": "ingeniusprep.com",
+  "url": "https://ingeniusprep.com/",
+  "type": "留学咨询",
+  "note": "前招生官"
+ },
+ {
+  "name": "IvyWise",
+  "host": "ivywise.com",
+  "url": "https://www.ivywise.com/",
+  "type": "顶级咨询",
+  "note": "$1000+/hr"
+ },
+ {
+  "name": "TeachersPayTeachers",
+  "host": "teacherspayteachers.com",
+  "url": "https://www.teacherspayteachers.com/",
+  "type": "教学资源市场",
+  "note": "全球最大"
+ },
+ {
+  "name": "TES Resources",
+  "host": "tes.com",
+  "url": "https://www.tes.com/teaching-resources",
+  "type": "教学资源",
+  "note": "英国"
+ },
+ {
+  "name": "Yocket",
+  "host": "yocket.com",
+  "url": "https://yocket.com/",
+  "type": "印度留学生社区",
+  "note": "申研刚需"
+ },
+ {
+  "name": "ApplyBoard",
+  "host": "applyboard.com",
+  "url": "https://www.applyboard.com/",
+  "type": "留学申请平台",
+  "note": "渠道商"
+ },
+ {
+  "name": "Studee",
+  "host": "studee.com",
+  "url": "https://studee.com/",
+  "type": "择校咨询",
+  "note": "免佣金"
+ },
+ {
+  "name": "Quizlet",
+  "host": "quizlet.com",
+  "url": "https://quizlet.com/",
+  "type": "学习工具",
+  "note": "可卖premium内容?"
+ },
+ {
+  "name": "Knowt",
+  "host": "knowt.com",
+  "url": "https://www.knowt.com/",
+  "type": "免费Quizlet替代",
+  "note": "新涨"
+ },
+ {
+  "name": "Student Edge",
+  "host": "studentedge.org",
+  "url": "https://studentedge.org/",
+  "type": "澳洲学生",
+  "note": "折扣+社区"
+ }
+]
