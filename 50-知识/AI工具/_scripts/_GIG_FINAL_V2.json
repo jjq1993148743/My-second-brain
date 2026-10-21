@@ -1,0 +1,769 @@
+{
+ "total": 71,
+ "groups": {
+  "其他": [
+   {
+    "name": "freelancer.com",
+    "host": "undefined",
+    "url": "https://www.freelancer.com/jobs/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 1373,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   }
+  ],
+  "🌍 综合接单大平台": [
+   {
+    "name": "Freelancer Design",
+    "host": "freelancer.com",
+    "url": "https://www.freelancer.com/jobs/design-media-architecture/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 1360,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Toptal Design",
+    "host": "toptal.com",
+    "url": "https://www.toptal.com/designers",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 95,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Fiverr Design",
+    "host": "fiverr.com",
+    "url": "https://www.fiverr.com/categories/graphics-design",
+    "group": "仅见价格",
+    "verdict": "🟡有价格",
+    "cards": 0,
+    "note": "列表页实测可见项目",
+    "tier": "A-"
+   }
+  ],
+  "🧪 UX测试/用户调研": [
+   {
+    "name": "Prolific",
+    "host": "prolific.com",
+    "url": "https://www.prolific.com/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 88,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "TestingTime",
+    "host": "testingtime.com",
+    "url": "https://www.testingtime.com/en/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 118,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Validately",
+    "host": "validately.com",
+    "url": "https://www.validately.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 100,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Userfeel",
+    "host": "userfeel.com",
+    "url": "https://www.userfeel.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 77,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Userlytics",
+    "host": "userlytics.com",
+    "url": "https://www.userlytics.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 66,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "UsabilityHub",
+    "host": "usabilityhub.com",
+    "url": "https://usabilityhub.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 64,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "UserZoom",
+    "host": "userzoom.com",
+    "url": "https://www.userzoom.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 38,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "PlaytestCloud",
+    "host": "playtestcloud.com",
+    "url": "https://www.playtestcloud.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 35,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   }
+  ],
+  "🎓 家教/辅导": [
+   {
+    "name": "Studypool",
+    "host": "studypool.com",
+    "url": "https://www.studypool.com/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 66,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Varsity Tutors",
+    "host": "varsitytutors.com",
+    "url": "https://www.varsitytutors.com/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 66,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Cambly",
+    "host": "cambly.com",
+    "url": "https://www.cambly.com/english?lang=en",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 27,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "TutorHunt",
+    "host": "tutorhunt.com",
+    "url": "https://www.tutorhunt.com/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 9,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Wyzant2",
+    "host": "wyzant.com",
+    "url": "https://www.wyzant.com/tutor/jobs",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 7,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Preply",
+    "host": "preply.com",
+    "url": "https://preply.com/en/teach",
+    "group": "仅见价格",
+    "verdict": "🟡有价格",
+    "cards": 0,
+    "note": "列表页实测可见项目",
+    "tier": "A-"
+   }
+  ],
+  "💰 漏洞赏金": [
+   {
+    "name": "HackenProof",
+    "host": "hackenproof.com",
+    "url": "https://hackenproof.com/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 62,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Synack",
+    "host": "synack.com",
+    "url": "https://www.synack.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 34,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Cobalt",
+    "host": "cobalt.io",
+    "url": "https://www.cobalt.io/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 6,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Bugbase",
+    "host": "bugbase.in",
+    "url": "https://bugbase.in/",
+    "group": "仅见价格",
+    "verdict": "🟡有价格",
+    "cards": 0,
+    "note": "列表页实测可见项目",
+    "tier": "A-"
+   }
+  ],
+  "📝 转录/字幕": [
+   {
+    "name": "Scribie",
+    "host": "scribie.com",
+    "url": "https://scribie.com/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 41,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "CastingWords",
+    "host": "castingwords.com",
+    "url": "https://castingwords.com/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 20,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "GoTranscript",
+    "host": "gotranscript.com",
+    "url": "https://gotranscript.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 153,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Transcription Hub",
+    "host": "transcriptionhub.com",
+    "url": "https://www.transcriptionhub.com/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 17,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Rev",
+    "host": "rev.com",
+    "url": "https://www.rev.com/freelancers",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 16,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "TranscribeMe",
+    "host": "transcribeme.com",
+    "url": "https://www.transcribeme.com/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 5,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   }
+  ],
+  "✍️ 写作/内容": [
+   {
+    "name": "WriterAccess",
+    "host": "writeraccess.com",
+    "url": "https://www.writeraccess.com/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 28,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Crowd Content",
+    "host": "crowdcontent.com",
+    "url": "https://www.crowdcontent.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 37,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Scripted",
+    "host": "scripted.com",
+    "url": "https://www.scripted.com/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 18,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "nDash",
+    "host": "ndash.com",
+    "url": "https://www.ndash.com/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 17,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "iWriter",
+    "host": "iwriter.com",
+    "url": "https://www.iwriter.com/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 5,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Constant Content",
+    "host": "constant-content.com",
+    "url": "https://constant-content.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册",
+    "tier": "B"
+   }
+  ],
+  "🌐 翻译": [
+   {
+    "name": "Smartcat",
+    "host": "smartcat.com",
+    "url": "https://www.smartcat.com/",
+    "group": "能看到活",
+    "verdict": "✅活多且带价",
+    "cards": 25,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Unbabel",
+    "host": "unbabel.com",
+    "url": "https://unbabel.com/editors/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 42,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Text Royal",
+    "host": "textroyal.com",
+    "url": "https://www.textroyal.com/",
+    "group": "能看到活",
+    "verdict": "🟡有价格",
+    "cards": 1,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "OneHourTranslation",
+    "host": "onehourtranslation.com",
+    "url": "https://www.onehourtranslation.com/",
+    "group": "能看到活",
+    "verdict": "🟡有价格",
+    "cards": 1,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   }
+  ],
+  "💼 专业服务": [
+   {
+    "name": "GLG",
+    "host": "glg.com",
+    "url": "https://glg.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 138,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Third Bridge",
+    "host": "thirdbridge.com",
+    "url": "https://www.thirdbridge.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 58,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Tegus",
+    "host": "tegus.com",
+    "url": "https://www.tegus.com/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 14,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Zintro",
+    "host": "zintro.com",
+    "url": "https://www.zintro.com/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 13,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   }
+  ],
+  "🤖 AI训练/标注": [
+   {
+    "name": "OneForma",
+    "host": "oneforma.com",
+    "url": "https://www.oneforma.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 103,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Figure Eight",
+    "host": "figure-eight.com",
+    "url": "https://www.figure-eight.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 55,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Clickworker2",
+    "host": "clickworker.com",
+    "url": "https://www.clickworker.com/clickworker/",
+    "group": "能看到活",
+    "verdict": "🟡有活",
+    "cards": 16,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Toloka",
+    "host": "toloka.ai",
+    "url": "https://toloka.ai",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册",
+    "tier": "B"
+   },
+   {
+    "name": "Microworkers",
+    "host": "microworkers.com",
+    "url": "https://microworkers.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册",
+    "tier": "B"
+   },
+   {
+    "name": "Remotasks",
+    "host": "remotasks.com",
+    "url": "https://remotasks.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册",
+    "tier": "B"
+   },
+   {
+    "name": "Appen",
+    "host": "appen.com",
+    "url": "https://appen.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册审核",
+    "tier": "B"
+   },
+   {
+    "name": "Scale AI",
+    "host": "scale.com",
+    "url": "https://scale.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册审核",
+    "tier": "B"
+   },
+   {
+    "name": "Mercor",
+    "host": "mercor.com",
+    "url": "https://mercor.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需审核",
+    "tier": "B"
+   },
+   {
+    "name": "Alignerr",
+    "host": "alignerr.com",
+    "url": "https://alignerr.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需审核",
+    "tier": "B"
+   },
+   {
+    "name": "Outlier",
+    "host": "outlier.ai",
+    "url": "https://outlier.ai",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册",
+    "tier": "B"
+   },
+   {
+    "name": "DataAnnotation",
+    "host": "dataannotation.tech",
+    "url": "https://dataannotation.tech",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需测试",
+    "tier": "B"
+   },
+   {
+    "name": "Amazon MTurk",
+    "host": "mturk.com",
+    "url": "https://mturk.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册审核",
+    "tier": "B"
+   }
+  ],
+  "📍 实地任务": [
+   {
+    "name": "Streetbees",
+    "host": "streetbees.com",
+    "url": "https://www.streetbees.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 22,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   },
+   {
+    "name": "Premise",
+    "host": "premise.com",
+    "url": "https://www.premise.com/",
+    "group": "能看到活",
+    "verdict": "✅活多",
+    "cards": 21,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   }
+  ],
+  "💰 微任务奖励": [
+   {
+    "name": "PrizeRebel",
+    "host": "prizerebel.com",
+    "url": "https://www.prizerebel.com/",
+    "group": "能看到活",
+    "verdict": "🟡有价格",
+    "cards": 2,
+    "note": "列表页实测可见项目",
+    "tier": "A"
+   }
+  ],
+  "🎨 设计/创意": [
+   {
+    "name": "Working Not Working",
+    "host": "workingnotworking.com",
+    "url": "https://workingnotworking.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需审核",
+    "tier": "B"
+   },
+   {
+    "name": "99designs",
+    "host": "99designs.com",
+    "url": "https://99designs.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册",
+    "tier": "B"
+   },
+   {
+    "name": "DesignCrowd",
+    "host": "designcrowd.com",
+    "url": "https://designcrowd.com",
+    "group": "需注册",
+    "verdict": "",
+    "cards": 0,
+    "note": "需注册",
+    "tier": "B"
+   }
+  ],
+  "🇨🇳 中文接单（实测）": [
+   {
+    "name": "一品威客",
+    "host": "epwk.com",
+    "url": "https://www.epwk.com/",
+    "group": "能看到活",
+    "verdict": "✅有活有价",
+    "cards": 60,
+    "note": "中文平台 proj=60",
+    "tier": "A"
+   },
+   {
+    "name": "猪八戒",
+    "host": "zbj.com",
+    "url": "https://www.zbj.com/",
+    "group": "能看到活",
+    "verdict": "✅有活有价",
+    "cards": 28,
+    "note": "中文平台 proj=28",
+    "tier": "A"
+   },
+   {
+    "name": "程序员客栈",
+    "host": "proginn.com",
+    "url": "https://www.proginn.com/",
+    "group": "能看到活",
+    "verdict": "✅有活",
+    "cards": 117,
+    "note": "中文平台 proj=117",
+    "tier": "A"
+   },
+   {
+    "name": "实现网",
+    "host": "shixian.com",
+    "url": "https://shixian.com/",
+    "group": "能看到活",
+    "verdict": "✅有活有价",
+    "cards": 10,
+    "note": "中文平台 proj=10",
+    "tier": "A"
+   },
+   {
+    "name": "猿急送",
+    "host": "yuanjisong.com",
+    "url": "https://www.yuanjisong.com/",
+    "group": "能看到活",
+    "verdict": "✅有活",
+    "cards": 100,
+    "note": "中文平台 proj=100",
+    "tier": "A"
+   },
+   {
+    "name": "我爱方案网",
+    "host": "52solution.com",
+    "url": "https://www.52solution.com/",
+    "group": "能看到活",
+    "verdict": "✅有活有价",
+    "cards": 25,
+    "note": "中文平台 proj=25",
+    "tier": "A"
+   },
+   {
+    "name": "智城外包",
+    "host": "taskcity.com",
+    "url": "https://www.taskcity.com/",
+    "group": "能看到活",
+    "verdict": "✅有活",
+    "cards": 11,
+    "note": "中文平台 proj=11",
+    "tier": "A"
+   },
+   {
+    "name": "有道人工翻译",
+    "host": "f.youdao.com",
+    "url": "https://f.youdao.com/",
+    "group": "能看到活",
+    "verdict": "✅有活有价",
+    "cards": 10,
+    "note": "中文平台 proj=10",
+    "tier": "A"
+   },
+   {
+    "name": "收奖网",
+    "host": "sojiang.com",
+    "url": "https://www.sojiang.com/",
+    "group": "能看到活",
+    "verdict": "✅有活",
+    "cards": 6,
+    "note": "中文平台 proj=6",
+    "tier": "A"
+   },
+   {
+    "name": "百度众测",
+    "host": "test.baidu.com",
+    "url": "https://test.baidu.com/",
+    "group": "能看到活",
+    "verdict": "✅有活",
+    "cards": 9,
+    "note": "中文平台 proj=9",
+    "tier": "A"
+   }
+  ]
+ },
+ "excluded": [
+  {
+   "name": "Dribbble Jobs",
+   "host": "dribbble.com",
+   "cat": "🌍 综合接单大平台",
+   "why": "招聘性质强于散活"
+  },
+  {
+   "name": "TTEC",
+   "host": "ttec.com",
+   "cat": "💼 专业服务",
+   "why": "招聘性质强于散活"
+  },
+  {
+   "name": "Arise",
+   "host": "arise.com",
+   "cat": "💼 专业服务",
+   "why": "招聘性质强于散活"
+  },
+  {
+   "name": "Concentrix",
+   "host": "concentrix.com",
+   "cat": "💼 专业服务",
+   "why": "招聘性质强于散活"
+  }
+ ]
+}
