@@ -56,30 +56,30 @@ DSH（DeepSeek Harness）的“性格 + 记忆”由两个插件分担，**数�
 | ui-chat | transcriptView=`standard`，performanceUsage=`detailed`，linkOpening=`new-tab` |
 | grill-first | strict 模式，3 问 × 3 轮，standard 强度，memoryEnabled |
 
-## 5 · 记忆与性格数据位置（迁移就是拷这些目录）
+## 5 · 记忆与性格数据位置（已进 git，见 AGENTS.md §11）
 
-| 数据 | 位置 | 当前规模（2026-10-21） |
-|---|---|---|
-| 灵枢认知图（含性格 self 层） | `C:\Users\jjq21\.dsh\.dsh-memory\data\mdcg\` | contextual 15 条，self 层空 |
-| 灵枢睡眠/整理 | `C:\Users\jjq21\.dsh\.dsh-memory\sleep\` | _sleep.jsonl |
-| OpenViking 持久上下文 | `C:\Users\jjq21\.openviking\` | pending 1406 个事件文件 |
-| grill-first 全局记忆 | `C:\Users\jjq21\.dsh\grill-first\global.json` | 用户偏好 |
-| DSH 会话历史 | `C:\Users\jjq21\.dsh\sessions\`、`storages\` | 30+ 会话 |
-| 凭证（**只抄位置不抄内容进 git**） | `C:\Users\jjq21\.dsh\.credentials.yaml` | 需在新机重新登录 |
+数据在仓库 `60-DSH数据/` 下，每次会话结束随库镜像推送：
 
-> 换机时用户名不同的机器，路径里的 `jjq21` 换成新机的用户目录。
+| 数据 | 库内位置 | 恢复到（新机） | 当前规模（2026-10-21） |
+|---|---|---|---|
+| 灵枢认知图（含性格 self 层） | `60-DSH数据/灵枢mdcg/` | `~/.dsh/.dsh-memory/` | 55 文件 |
+| OpenViking 持久上下文 | `60-DSH数据/OpenViking/` | `~/.openviking/` | 1456 文件 |
+| grill-first 偏好 | `60-DSH数据/grill-first偏好/` | `~/.dsh/grill-first/` | 1 文件 |
+| DSH 会话记录 | `60-DSH数据/会话sessions/` | `~/.dsh/sessions/` | 37 文件 |
+| 工作区与会话缓存 | `60-DSH数据/会话storages/` | `~/.dsh/storages/` | 38 文件 |
 
+> 凭证 `~/.dsh/.credentials.yaml` **不在库里**（密钥永不进库），新机需重新登录。
+> 库是公开仓库：对话内容已确认可公开（jjq 2026-10-21 拍板）。
 ## 6 · 家里新电脑复刻步骤（6 步）
 
 1. **装 DSH**：安装 DeepSeek Harness，首次启动生成 `~/.dsh`。
 2. **修 git 凭证**：按 [[Git 凭证弹窗反复出现（helper-selector）]] 在 `~/.gitconfig` 写入 credential 三行（helper 空值 + manager），否则 push 卡弹窗。
-3. **拉第二大脑**：`git clone https://github.com/jjq1993148743/My-second-brain.git`，读 AGENTS.md。
-4. **装 8 个插件**（`dsh plugin --profile desktop add <spec>`）：npm 源的 6 个按上表包名+版本装；grill-first 和 our-free-model 用 `github:InoriMutsumi/dsh-grill-first`、`github:Ebony-Vinyl/dsh-our-free-model`。装完把第 3、4 节的配置贴进 `cordis.patch.yml`。
-5. **拷记忆数据**：从旧机整目录拷贝 `.dsh-memory`（灵枢）、`~/.openviking`（OpenViking）、`.dsh\grill-first`（偏好）到新机对应位置；DSH 处于关闭状态时拷。
-6. **重启 DSH 验证**：开新会话问“你还记得我吗”，灵枢记忆能召回即成功。
+3. **拉第二大脑**：`git clone https://github.com/jjq1993148743/My-second-brain.git`，读 AGENTS.md（重点 §11 记忆同步规则）。
+4. **装 8 个插件**（`dsh plugin --profile desktop add <spec>`）：npm 源的 6 个按第 2 节表装；grill-first 和 our-free-model 用 `github:InoriMutsumi/dsh-grill-first`、`github:Ebony-Vinyl/dsh-our-free-model`。装完把第 3、4 节配置贴进 `cordis.patch.yml`。
+5. **恢复记忆**（DSH 关闭状态）：把 `60-DSH数据/` 下五个子目录按第 5 节对照表拷回本机对应位置。
+6. **重启 DSH 验证**：开新会话问「你还记得我吗」，灵枢记忆能召回即成功；登录各提供商账号补凭证。
 
-> AI 推测：插件大版本更新后 mdcg 数据格式可能有迁移逻辑，拷贝前先把旧机 `.dsh-memory` 打包备份一份，新机插件版本尽量与上表一致。
-
+> 之后这台新机也按 AGENTS.md §11 长期同步记忆——两台机器谁有新记忆，push 后另一台 pull 即合并。注意：两台**同时**离线使用再各自 push 会冲突，尽量单机使用、另一台只 pull。
 ## 7 · 维护
 
 - 每次装/卸插件或改默认模型后，更新第 2、4 节并随库推送。
