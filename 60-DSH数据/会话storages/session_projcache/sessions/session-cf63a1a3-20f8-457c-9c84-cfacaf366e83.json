@@ -1,0 +1,283 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792554265122,
+      "cwd": "D:\\GitHub",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 357,
+        "val": "DSH 进阶玩法介绍"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 357,
+        "val": {
+          "first": {
+            "seq": 8,
+            "text": "DSH  都有哪些进阶玩法"
+          },
+          "count": 1,
+          "lastSeq": 8
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 357,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 357,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 357,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 357,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 60836,
+            "outputTokens": 23255,
+            "cacheReadTokens": 1198592,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 1,
+            "step": 33,
+            "buckets": {
+              "uncachedInputTokens": 1594,
+              "outputTokens": 3679,
+              "cacheReadTokens": 61056,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 357,
+        "val": {
+          "surfaceTokens": 63157,
+          "contextWindow": 1048576,
+          "pressureTokens": 62650,
+          "sampledSurfaceTokens": 60856
+        }
+      },
+      "contextBreakdown": {
+        "ver": 6,
+        "seq": 357,
+        "val": {
+          "systems": [
+            {
+              "seq": 7,
+              "tokens": 18172
+            }
+          ],
+          "surfaceTokens": 63157,
+          "breakdown": {
+            "systemTokens": 18172,
+            "toolsTokens": 628,
+            "messageTokens": 44985
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 357,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 352,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 355
+          },
+          "lastTurn": 1
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 357,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 357,
+        "val": {
+          "turns": 1,
+          "steps": 33,
+          "llmMs": 163227,
+          "toolMs": 129641,
+          "ttftMs": 74598,
+          "ttftSteps": 33,
+          "decodeMs": 88629,
+          "decodeTokens": 23255,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 357,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 4,
+              "prompt": "DSH 都有哪些进阶玩法",
+              "response": "我核对了本机的实际安装情况，而不是只看文档：CLI 为 `dsh 0.1.1-rc.2`，桌面端随附的 bundle 为 `0.2.1-rc.2`；profile 位于 `C:\\Users\\jjq21\\.dsh\\profiles\\desk…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 357,
+        "val": "ptc"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 357,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 357,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "workingDirectory": {
+        "ver": 1,
+        "seq": 357,
+        "val": "D:\\GitHub"
+      },
+      "subagentCatalog": {
+        "ver": 6,
+        "seq": 357,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 357,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 357,
+        "val": {}
+      },
+      "agentTeam": {
+        "ver": 4,
+        "seq": 357,
+        "val": {
+          "id": "session-cf63a1a3-20f8-457c-9c84-cfacaf366e83",
+          "members": [],
+          "tasks": [],
+          "messages": [],
+          "delivered": [],
+          "nextTaskNumber": 1
+        }
+      },
+      "timeContext": {
+        "ver": 2,
+        "seq": 357,
+        "val": {
+          "lastMessageTime": 1792554592858,
+          "lastInjectionTime": 1792554278580,
+          "lastTurnInjectionTime": null
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 357,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 357,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 357,
+        "val": null
+      },
+      "harnessDevLegacyPrompt": {
+        "ver": 1,
+        "seq": 357,
+        "val": {
+          "source": null,
+          "web": null
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 357,
+        "val": {
+          "lastUsed": {
+            "provider": "aggregate",
+            "model": "deepseek-v4-1-flash",
+            "reasoningEffort": "high"
+          },
+          "pending": {
+            "provider": "aggregate",
+            "model": "glm-5-3",
+            "reasoningEffort": "high"
+          }
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 357,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792554273761
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 357,
+        "val": null
+      }
+    }
+  }
+}

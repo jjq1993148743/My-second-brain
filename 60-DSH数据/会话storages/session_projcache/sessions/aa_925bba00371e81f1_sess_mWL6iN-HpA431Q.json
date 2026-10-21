@@ -1,0 +1,201 @@
+{
+  "version": 5,
+  "record": {
+    "identity": {
+      "createdAt": 1789005004573,
+      "cwd": "D:\\DSH",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 29,
+        "val": "你好"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 29,
+        "val": {
+          "first": {
+            "seq": 11,
+            "text": "你好"
+          },
+          "count": 1,
+          "lastSeq": 11
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 29,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 29,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 29,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 29,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 0,
+            "outputTokens": 0,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "last": null
+        }
+      },
+      "contextPressure": {
+        "ver": 4,
+        "seq": 29,
+        "val": {
+          "surfaceTokens": 2488,
+          "contextWindow": 1000000
+        }
+      },
+      "contextBreakdown": {
+        "ver": 2,
+        "seq": 29,
+        "val": {
+          "systemTokens": 1757,
+          "toolsTokens": 6905,
+          "messageTokens": 2488
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 29,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 10,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 19
+          },
+          "lastTurn": 1
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 29,
+        "val": {
+          "turns": 1,
+          "steps": 1,
+          "llmMs": 0,
+          "toolMs": 0,
+          "ttftMs": 0,
+          "ttftSteps": 0,
+          "decodeMs": 0,
+          "decodeTokens": 0,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 29,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 8,
+              "prompt": "你好",
+              "response": ""
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 29,
+        "val": "standard"
+      },
+      "subagentTiming": {
+        "ver": 2,
+        "seq": 29,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 29,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 29,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 29,
+        "val": {
+          "lastUsed": {
+            "provider": "deepseek-official",
+            "model": "deepseek-v4-flash",
+            "reasoningEffort": "off"
+          },
+          "pending": {
+            "provider": "deepseek-official",
+            "model": "deepseek-v4-flash-vision-exp",
+            "reasoningEffort": "max"
+          }
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 29,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1789005004930
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 29,
+        "val": null
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 29,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 29,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 29,
+        "val": null
+      }
+    }
+  }
+}

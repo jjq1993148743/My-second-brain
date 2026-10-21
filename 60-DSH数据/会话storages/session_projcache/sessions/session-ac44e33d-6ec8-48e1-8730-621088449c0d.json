@@ -1,0 +1,128 @@
+{
+  "version": 5,
+  "record": {
+    "identity": {
+      "createdAt": 1788762499869,
+      "cwd": "D:\\DSH"
+    },
+    "rows": {
+      "sessionStats": {
+        "ver": 1,
+        "seq": 201,
+        "val": {
+          "turns": 1,
+          "steps": 1,
+          "llmMs": 2514,
+          "toolMs": 0,
+          "ttftMs": 1021,
+          "ttftSteps": 1,
+          "decodeMs": 1493,
+          "decodeTokens": 186,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "title": {
+        "ver": 1,
+        "seq": 201,
+        "val": "你好"
+      },
+      "goal": {
+        "ver": 4,
+        "seq": 201,
+        "val": null
+      },
+      "tokenUsage": {
+        "ver": 1,
+        "seq": 201,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 14272,
+            "outputTokens": 186,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 1,
+            "step": 1,
+            "buckets": {
+              "uncachedInputTokens": 14272,
+              "outputTokens": 186,
+              "cacheReadTokens": 0,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 4,
+        "seq": 201,
+        "val": {
+          "surfaceTokens": 2650,
+          "contextWindow": 1000000,
+          "pressureTokens": 14272,
+          "sampledSurfaceTokens": 2519
+        }
+      },
+      "contextBreakdown": {
+        "ver": 2,
+        "seq": 201,
+        "val": {
+          "systemTokens": 4512,
+          "toolsTokens": 8640,
+          "messageTokens": 2650
+        }
+      },
+      "subagentTiming": {
+        "ver": 2,
+        "seq": 201,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 201,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 1,
+        "seq": 201,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never"
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 201,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1788762507850
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 201,
+        "val": null
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 201,
+        "val": null
+      },
+      "plan": {
+        "ver": 2,
+        "seq": 201,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null
+        }
+      }
+    }
+  }
+}

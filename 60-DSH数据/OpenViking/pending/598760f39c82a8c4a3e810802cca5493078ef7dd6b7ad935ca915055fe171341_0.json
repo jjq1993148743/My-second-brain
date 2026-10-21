@@ -1,0 +1,1 @@
+{"type":"addMessage","sessionId":"dsh-session-dcabbf80-e272-40e3-8a0e-c4bd5ca0b4c0","payload":{"role":"user","parts":[{"type":"text","text":"你是啥模型"}],"created_at":"2026-10-12T01:48:24.545Z","peer_id":"D--DSH"},"createdAt":1791769704547,"retries":0,"dedupKey":"598760f39c82a8c4a3e810802cca5493078ef7dd6b7ad935ca915055fe171341"}

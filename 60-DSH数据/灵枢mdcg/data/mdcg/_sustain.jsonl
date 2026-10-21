@@ -1,0 +1,24 @@
+{"t":1792551090.004537,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792551090.0267653,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792551390.098226,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792551390.1442297,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792554391.224884,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792554391.2784944,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792560093.095485,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792560093.1424875,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792560393.285707,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792560393.32434,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792560693.299142,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792560693.345429,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792564294.6491148,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792564294.714287,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792564594.795662,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792564594.850268,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792565795.1502573,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792565795.2002099,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792566395.512547,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792566395.5644205,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792566995.651407,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792566995.7171597,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}
+{"t":1792574498.4141238,"op":"heal","action":"flush_index","detail":"合并索引增量分片","pid":28668}
+{"t":1792574498.4531245,"op":"heal","action":"compact_index","detail":"分片折叠进 _index.json（快照落盘）","pid":28668}

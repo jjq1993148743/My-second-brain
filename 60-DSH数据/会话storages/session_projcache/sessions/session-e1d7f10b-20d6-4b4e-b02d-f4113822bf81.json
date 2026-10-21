@@ -1,0 +1,273 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792062152550,
+      "cwd": "C:\\Users\\jjq21\\Desktop\\github",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 208,
+        "val": "这个事实啊"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 208,
+        "val": {
+          "first": {
+            "seq": 8,
+            "text": "这个事实啊"
+          },
+          "count": 2,
+          "lastSeq": 154
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 208,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 208,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 208,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 208,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 23466,
+            "outputTokens": 19847,
+            "cacheReadTokens": 334720,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 2,
+            "step": 7,
+            "buckets": {
+              "uncachedInputTokens": 1196,
+              "outputTokens": 1936,
+              "cacheReadTokens": 29184,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 208,
+        "val": {
+          "surfaceTokens": 38952,
+          "contextWindow": 1000000,
+          "pressureTokens": 30380,
+          "sampledSurfaceTokens": 37515
+        }
+      },
+      "contextBreakdown": {
+        "ver": 6,
+        "seq": 208,
+        "val": {
+          "systems": [
+            {
+              "seq": 7,
+              "tokens": 7757
+            }
+          ],
+          "surfaceTokens": 38952,
+          "breakdown": {
+            "systemTokens": 7757,
+            "toolsTokens": 536,
+            "messageTokens": 31195
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 208,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 204,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 206
+          },
+          "lastTurn": 2
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 208,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 208,
+        "val": {
+          "turns": 2,
+          "steps": 18,
+          "llmMs": 137509,
+          "toolMs": 129232,
+          "ttftMs": 29616,
+          "ttftSteps": 18,
+          "decodeMs": 107893,
+          "decodeTokens": 19847,
+          "lastTurn": 2,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 208,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 4,
+              "prompt": "这个事实啊",
+              "response": "榜是真的，但“事实”只成立一半。我核了一下，先说能对上的部分。 图里那张卡片的**内部数据是自洽的**：360 → 120 → 100 → 98.9 → 96 → 93.4 → 92.0 → 88.8 → 86.4 → 83.8(万)，严…"
+            },
+            {
+              "turn": 2,
+              "seq": 151,
+              "prompt": "grill-me 是干啥的",
+              "response": "**一句话：它是让 AI 反过来审你的 skill —— 你把一个还稀烂的想法丢进去，它一轮一轮追问到你能为每个决定负责为止。** 我这次扒到了源码（走 `ghproxy.net` 代理绕过了抓取限制），证据如下。 ### 它本体只有 4…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 208,
+        "val": "ptc"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 208,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 208,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": true
+        }
+      },
+      "workingDirectory": {
+        "ver": 1,
+        "seq": 208,
+        "val": "C:\\Users\\jjq21\\Desktop\\github"
+      },
+      "subagentCatalog": {
+        "ver": 6,
+        "seq": 208,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 208,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 208,
+        "val": {}
+      },
+      "timeContext": {
+        "ver": 2,
+        "seq": 208,
+        "val": {
+          "lastMessageTime": 1792062749301,
+          "lastInjectionTime": null,
+          "lastTurnInjectionTime": null
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 208,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 208,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 208,
+        "val": null
+      },
+      "harnessDevLegacyPrompt": {
+        "ver": 1,
+        "seq": 208,
+        "val": {
+          "source": "The DeepSeek Harness implementation checkout is at D:\\Users\\jjq21\\AppData\\Local\\Programs\\DeepSeek Harness\\resources\\app.asar\\dsh\\. The checkout location and current working directory are separate values and may differ; never infer the working directory from this path. Use pwd to determine the current working directory. Use this checkout only to inspect or extend DSH itself.",
+          "web": "You are interacting with the user through the DeepSeek Harness Web GUI at http://127.0.0.1:19387. When the user refers to \"this page\", \"this GUI\", or \"this app\" without naming another target, they mean this GUI. The browser provides no implicit DOM, route, or screenshot context. The client-plugin HMR receiver is active, but client-plugin changes reload without a refresh only while `pnpm run dev:web` is also running from this same checkout to rebuild their bundles; verify that watcher before promising automatic updates. Every other change — the apps/web shell and plain packages — requires rebuilding the affected Web artifacts and verifying this existing URL after a page refresh. Starting another server does not update this GUI. The apps/web Vite entry builds the shell but is not a standalone application because only dsh web injects window.__DSH_BOOT__. Do not start a replacement server unless the user asks; if one is needed, use a managed background job and verify its exact URL."
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 208,
+        "val": {
+          "lastUsed": {
+            "provider": "buddy",
+            "model": "deepseek-v4.1-flash",
+            "reasoningEffort": "max"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 208,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792062654908
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 208,
+        "val": null
+      }
+    }
+  }
+}

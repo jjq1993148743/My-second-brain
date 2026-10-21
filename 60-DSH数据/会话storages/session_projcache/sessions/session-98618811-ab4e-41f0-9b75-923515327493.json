@@ -1,0 +1,313 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792543776888,
+      "cwd": "D:\\GitHub",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 1526,
+        "val": "DSH插件市场排行与"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 1526,
+        "val": {
+          "first": {
+            "seq": 8,
+            "text": "DSH有哪些插件市场   我要所有的   大家都用的   最大的  无论是不是有验证的   给我排个名  按照插件数量与热度"
+          },
+          "count": 8,
+          "lastSeq": 1379
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 1526,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 1526,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 1526,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 1526,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 12381366,
+            "outputTokens": 125281,
+            "cacheReadTokens": 4171008,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 6,
+            "step": 15,
+            "buckets": {
+              "uncachedInputTokens": 146,
+              "outputTokens": 878,
+              "cacheReadTokens": 182656,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 1526,
+        "val": {
+          "surfaceTokens": 212022,
+          "pressureTokens": 182802,
+          "sampledSurfaceTokens": 211578,
+          "contextWindow": 1000000
+        }
+      },
+      "contextBreakdown": {
+        "ver": 6,
+        "seq": 1526,
+        "val": {
+          "systems": [
+            {
+              "seq": 1378,
+              "tokens": 13941
+            },
+            {
+              "seq": 1363,
+              "tokens": 0
+            }
+          ],
+          "surfaceTokens": 201607,
+          "breakdown": {
+            "systemTokens": 13941,
+            "toolsTokens": 628,
+            "messageTokens": 187666
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 1526,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 1522,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 1524
+          },
+          "lastTurn": 6
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 1526,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 1526,
+        "val": {
+          "turns": 6,
+          "steps": 146,
+          "llmMs": 1816799,
+          "toolMs": 873248,
+          "ttftMs": 503334,
+          "ttftSteps": 144,
+          "decodeMs": 1312744,
+          "decodeTokens": 125281,
+          "lastTurn": 6,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 1526,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 4,
+              "prompt": "DSH有哪些插件市场 我要所有的 大家都用的 最大的 无论是不是有验证的 给我排个名 按照插件数量…",
+              "response": "## 先说结论：DSH 没有「官方插件市场」 DSH 本体只提供**插件市场外壳**（`dsh-plugin-market` + Web「发现」页），默认 `indexes: []`——也就是**开箱是空的**，市场内容全靠你填索引 UR…"
+            },
+            {
+              "turn": 2,
+              "seq": 508,
+              "prompt": "你觉得好的 都帮我加上呗",
+              "response": "我已经加好了。不过，这件事很难像想象中那样“把好的都加上”，因为绝大多数市场根本不能被 DSH 的「发现」页读取。 ## 我实际做了什么 我在 [cordis.patch.yml](C:\\Users\\jjq21\\.dsh\\profiles…"
+            },
+            {
+              "turn": 3,
+              "seq": 1085,
+              "prompt": "就只有三个？？？",
+              "response": "现在用 DSH 自身再验证一次这 5 个源，确认全部可用、没有重复、不互相冲突。"
+            },
+            {
+              "turn": 4,
+              "seq": 1266,
+              "prompt": "？ourfreemodel不好使了 修复",
+              "response": "`.pnpm` 里也没有这个包，说明它被彻底清除了：package.json 仍在声明它，但文件已经消失。这就是插件加载失败的物理原因。我先备份，再按 lockfile 把它装回来。"
+            },
+            {
+              "turn": 5,
+              "seq": 1360,
+              "prompt": "好了",
+              "response": ""
+            },
+            {
+              "turn": 6,
+              "seq": 1375,
+              "prompt": "继续",
+              "response": "两件事都已做完。 ## 1. our-free-model 已修好 **根因是包文件丢失，并非版本不兼容。** `package.json` 里声明着 `dsh-our-free-model`，lockfile 里也有对应记录，但 `no…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 1526,
+        "val": "ptc"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 1526,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 1526,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": true
+        }
+      },
+      "workingDirectory": {
+        "ver": 1,
+        "seq": 1526,
+        "val": "D:\\GitHub"
+      },
+      "subagentCatalog": {
+        "ver": 6,
+        "seq": 1526,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 1526,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 1526,
+        "val": {}
+      },
+      "agentTeam": {
+        "ver": 4,
+        "seq": 1526,
+        "val": {
+          "id": "session-98618811-ab4e-41f0-9b75-923515327493",
+          "members": [],
+          "tasks": [],
+          "messages": [],
+          "delivered": [],
+          "nextTaskNumber": 1
+        }
+      },
+      "timeContext": {
+        "ver": 2,
+        "seq": 1526,
+        "val": {
+          "lastMessageTime": 1792548593534,
+          "lastInjectionTime": 1792548446244,
+          "lastTurnInjectionTime": null
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 1526,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 1526,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 1526,
+        "val": null
+      },
+      "harnessDevLegacyPrompt": {
+        "ver": 1,
+        "seq": 1526,
+        "val": {
+          "source": null,
+          "web": null
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 1526,
+        "val": {
+          "lastUsed": {
+            "provider": "qodercn",
+            "model": "dfmodel",
+            "reasoningEffort": "max"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 1526,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792548497959
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 1526,
+        "val": null
+      }
+    }
+  }
+}

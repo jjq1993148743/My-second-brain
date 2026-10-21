@@ -1,0 +1,1 @@
+{"type":"addMessage","sessionId":"dsh-session-aa06c611-98e9-4258-af48-9659c646b0a0","payload":{"role":"user","parts":[{"type":"text","text":"这个插件可以自动加载吗？不要我手动启用"}],"created_at":"2026-10-21T05:22:16.983Z"},"createdAt":1792560140199,"retries":0,"dedupKey":"0c35d211eabab2205ca739305bcdea708fbc884961002e34eef1b65412ae7d5b"}

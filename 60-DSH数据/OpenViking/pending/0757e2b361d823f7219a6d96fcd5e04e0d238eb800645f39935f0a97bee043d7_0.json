@@ -1,0 +1,1 @@
+{"type":"addMessage","sessionId":"dsh-session-dcabbf80-e272-40e3-8a0e-c4bd5ca0b4c0","payload":{"role":"assistant","parts":[{"type":"text","text":"我是 DeepSeek 推出的 AI 模型，通过 DeepSeek Harness 运行。有什么我可以帮你的吗？"}],"created_at":"2026-10-12T01:48:28.702Z","peer_id":"D--DSH"},"createdAt":1791769708703,"retries":0,"dedupKey":"0757e2b361d823f7219a6d96fcd5e04e0d238eb800645f39935f0a97bee043d7"}

@@ -1,0 +1,128 @@
+{
+  "version": 5,
+  "record": {
+    "identity": {
+      "createdAt": 1787567628373,
+      "cwd": "D:\\DSH"
+    },
+    "rows": {
+      "sessionStats": {
+        "ver": 1,
+        "seq": 50,
+        "val": {
+          "turns": 4,
+          "steps": 4,
+          "llmMs": 0,
+          "toolMs": 0,
+          "ttftMs": 0,
+          "ttftSteps": 0,
+          "decodeMs": 0,
+          "decodeTokens": 0,
+          "lastTurn": 4,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "title": {
+        "ver": 1,
+        "seq": 50,
+        "val": "？"
+      },
+      "goal": {
+        "ver": 4,
+        "seq": 50,
+        "val": null
+      },
+      "tokenUsage": {
+        "ver": 1,
+        "seq": 50,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 0,
+            "outputTokens": 0,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 4,
+            "step": 1,
+            "buckets": {
+              "uncachedInputTokens": 0,
+              "outputTokens": 0,
+              "cacheReadTokens": 0,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 4,
+        "seq": 50,
+        "val": {
+          "surfaceTokens": 2418,
+          "contextWindow": 1000000,
+          "pressureTokens": 0,
+          "sampledSurfaceTokens": 2418
+        }
+      },
+      "contextBreakdown": {
+        "ver": 2,
+        "seq": 50,
+        "val": {
+          "systemTokens": 4512,
+          "toolsTokens": 8640,
+          "messageTokens": 2418
+        }
+      },
+      "subagentTiming": {
+        "ver": 2,
+        "seq": 50,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 50,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 1,
+        "seq": 50,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never"
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 50,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1787567838113
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 50,
+        "val": null
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 50,
+        "val": null
+      },
+      "plan": {
+        "ver": 2,
+        "seq": 50,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null
+        }
+      }
+    }
+  }
+}

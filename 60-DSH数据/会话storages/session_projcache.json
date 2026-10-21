@@ -1,0 +1,996 @@
+{
+  "unit": {
+    "name": "session_projcache",
+    "version": 3
+  },
+  "global": null,
+  "tables": {
+    "sessions": {
+      "session-c0fce3ce-3cb6-4097-aa76-b10c3512e2ec": {
+        "identity": {
+          "createdAt": 1787127140743,
+          "cwd": "D:\\DSH"
+        },
+        "rows": {
+          "sessionStats": {
+            "ver": 1,
+            "seq": 32,
+            "val": {
+              "turns": 1,
+              "steps": 2,
+              "llmMs": 6799,
+              "toolMs": 11,
+              "ttftMs": 6236,
+              "ttftSteps": 2,
+              "decodeMs": 563,
+              "decodeTokens": 32,
+              "lastTurn": 1,
+              "openStep": null,
+              "pendingCalls": {}
+            }
+          },
+          "title": {
+            "ver": 1,
+            "seq": 32,
+            "val": "简单问候交流"
+          },
+          "goal": {
+            "ver": 4,
+            "seq": 32,
+            "val": null
+          },
+          "tokenUsage": {
+            "ver": 1,
+            "seq": 32,
+            "val": {
+              "totals": {
+                "uncachedInputTokens": 14896,
+                "outputTokens": 32,
+                "cacheReadTokens": 12800,
+                "cacheWriteTokens": 0
+              },
+              "last": {
+                "turn": 1,
+                "step": 2,
+                "buckets": {
+                  "uncachedInputTokens": 1433,
+                  "outputTokens": 13,
+                  "cacheReadTokens": 12800,
+                  "cacheWriteTokens": 0
+                }
+              }
+            }
+          },
+          "contextPressure": {
+            "ver": 4,
+            "seq": 32,
+            "val": {
+              "surfaceTokens": 3038,
+              "contextWindow": 262144,
+              "pressureTokens": 14233,
+              "sampledSurfaceTokens": 3026
+            }
+          },
+          "contextBreakdown": {
+            "ver": 2,
+            "seq": 32,
+            "val": {
+              "systemTokens": 1548,
+              "toolsTokens": 6670,
+              "messageTokens": 3038
+            }
+          },
+          "subagentTiming": {
+            "ver": 2,
+            "seq": 32,
+            "val": {
+              "descriptorSeen": false,
+              "settledMs": 0
+            }
+          },
+          "subagent": {
+            "ver": 2,
+            "seq": 32,
+            "val": {}
+          },
+          "permissions": {
+            "ver": 1,
+            "seq": 32,
+            "val": {
+              "preset": "danger-full-access",
+              "sandbox": "danger-full-access",
+              "approval": "never"
+            }
+          },
+          "sessionListMetadata": {
+            "ver": 1,
+            "seq": 32,
+            "val": {
+              "blank": false,
+              "lastPromptAt": 1787127164553
+            }
+          },
+          "imageLimits": {
+            "ver": 1,
+            "seq": 32,
+            "val": null
+          },
+          "todos": {
+            "ver": 2,
+            "seq": 32,
+            "val": null
+          },
+          "plan": {
+            "ver": 1,
+            "seq": 32,
+            "val": {
+              "active": false,
+              "wanted": null
+            }
+          }
+        }
+      },
+      "session-c17c8d63-4a64-40d9-9bca-1f452bc49720": {
+        "identity": {
+          "createdAt": 1787127203585,
+          "cwd": "D:\\DSH"
+        },
+        "rows": {
+          "sessionStats": {
+            "ver": 1,
+            "seq": 34,
+            "val": {
+              "turns": 1,
+              "steps": 2,
+              "llmMs": 6799,
+              "toolMs": 11,
+              "ttftMs": 6236,
+              "ttftSteps": 2,
+              "decodeMs": 563,
+              "decodeTokens": 32,
+              "lastTurn": 1,
+              "openStep": null,
+              "pendingCalls": {}
+            }
+          },
+          "title": {
+            "ver": 1,
+            "seq": 34,
+            "val": "简单问候交流 (1)"
+          },
+          "goal": {
+            "ver": 4,
+            "seq": 34,
+            "val": null
+          },
+          "tokenUsage": {
+            "ver": 1,
+            "seq": 34,
+            "val": {
+              "totals": {
+                "uncachedInputTokens": 14896,
+                "outputTokens": 32,
+                "cacheReadTokens": 12800,
+                "cacheWriteTokens": 0
+              },
+              "last": {
+                "turn": 1,
+                "step": 2,
+                "buckets": {
+                  "uncachedInputTokens": 1433,
+                  "outputTokens": 13,
+                  "cacheReadTokens": 12800,
+                  "cacheWriteTokens": 0
+                }
+              }
+            }
+          },
+          "contextPressure": {
+            "ver": 4,
+            "seq": 34,
+            "val": {
+              "surfaceTokens": 3038,
+              "contextWindow": 262144,
+              "pressureTokens": 14233,
+              "sampledSurfaceTokens": 3026
+            }
+          },
+          "contextBreakdown": {
+            "ver": 2,
+            "seq": 34,
+            "val": {
+              "systemTokens": 1548,
+              "toolsTokens": 6670,
+              "messageTokens": 3038
+            }
+          },
+          "subagentTiming": {
+            "ver": 2,
+            "seq": 34,
+            "val": {
+              "descriptorSeen": false,
+              "settledMs": 0
+            }
+          },
+          "subagent": {
+            "ver": 2,
+            "seq": 34,
+            "val": {}
+          },
+          "permissions": {
+            "ver": 1,
+            "seq": 34,
+            "val": {
+              "preset": "danger-full-access",
+              "sandbox": "danger-full-access",
+              "approval": "never"
+            }
+          },
+          "sessionListMetadata": {
+            "ver": 1,
+            "seq": 34,
+            "val": {
+              "blank": false,
+              "lastPromptAt": 1787127164553
+            }
+          },
+          "imageLimits": {
+            "ver": 1,
+            "seq": 34,
+            "val": null
+          },
+          "todos": {
+            "ver": 2,
+            "seq": 34,
+            "val": null
+          },
+          "plan": {
+            "ver": 1,
+            "seq": 34,
+            "val": {
+              "active": false,
+              "wanted": null
+            }
+          }
+        }
+      },
+      "session-ccf5e86f-3a8e-4453-9a6c-25e60cd359c8": {
+        "identity": {
+          "createdAt": 1787127217469,
+          "cwd": "D:\\DSH"
+        },
+        "rows": {
+          "sessionStats": {
+            "ver": 1,
+            "seq": 102,
+            "val": {
+              "turns": 6,
+              "steps": 7,
+              "llmMs": 14989,
+              "toolMs": 10,
+              "ttftMs": 14207,
+              "ttftSteps": 2,
+              "decodeMs": 782,
+              "decodeTokens": 420,
+              "lastTurn": 6,
+              "openStep": null,
+              "pendingCalls": {}
+            }
+          },
+          "title": {
+            "ver": 1,
+            "seq": 102,
+            "val": "了解助手能力"
+          },
+          "goal": {
+            "ver": 4,
+            "seq": 102,
+            "val": null
+          },
+          "tokenUsage": {
+            "ver": 1,
+            "seq": 102,
+            "val": {
+              "totals": {
+                "uncachedInputTokens": 20928,
+                "outputTokens": 420,
+                "cacheReadTokens": 18944,
+                "cacheWriteTokens": 0
+              },
+              "last": {
+                "turn": 6,
+                "step": 1,
+                "buckets": {
+                  "uncachedInputTokens": 0,
+                  "outputTokens": 0,
+                  "cacheReadTokens": 0,
+                  "cacheWriteTokens": 0
+                }
+              }
+            }
+          },
+          "contextPressure": {
+            "ver": 4,
+            "seq": 102,
+            "val": {
+              "surfaceTokens": 3421,
+              "contextWindow": 1000000,
+              "pressureTokens": 0,
+              "sampledSurfaceTokens": 3421
+            }
+          },
+          "contextBreakdown": {
+            "ver": 2,
+            "seq": 102,
+            "val": {
+              "systemTokens": 4441,
+              "toolsTokens": 8541,
+              "messageTokens": 3421
+            }
+          },
+          "subagentTiming": {
+            "ver": 2,
+            "seq": 102,
+            "val": {
+              "descriptorSeen": false,
+              "settledMs": 0
+            }
+          },
+          "subagent": {
+            "ver": 2,
+            "seq": 102,
+            "val": {}
+          },
+          "permissions": {
+            "ver": 1,
+            "seq": 102,
+            "val": {
+              "preset": "danger-full-access",
+              "sandbox": "danger-full-access",
+              "approval": "never"
+            }
+          },
+          "sessionListMetadata": {
+            "ver": 1,
+            "seq": 102,
+            "val": {
+              "blank": false,
+              "lastPromptAt": 1787566493414
+            }
+          },
+          "imageLimits": {
+            "ver": 1,
+            "seq": 102,
+            "val": null
+          },
+          "todos": {
+            "ver": 2,
+            "seq": 102,
+            "val": null
+          },
+          "plan": {
+            "ver": 1,
+            "seq": 102,
+            "val": {
+              "active": false,
+              "wanted": null
+            }
+          }
+        }
+      },
+      "session-14f9153d-2420-4e7e-b025-673bdc03de4a": {
+        "identity": {
+          "createdAt": 1787567628373,
+          "cwd": "D:\\DSH"
+        },
+        "rows": {
+          "sessionStats": {
+            "ver": 1,
+            "seq": 50,
+            "val": {
+              "turns": 4,
+              "steps": 4,
+              "llmMs": 0,
+              "toolMs": 0,
+              "ttftMs": 0,
+              "ttftSteps": 0,
+              "decodeMs": 0,
+              "decodeTokens": 0,
+              "lastTurn": 4,
+              "openStep": null,
+              "pendingCalls": {}
+            }
+          },
+          "title": {
+            "ver": 1,
+            "seq": 50,
+            "val": "？"
+          },
+          "goal": {
+            "ver": 4,
+            "seq": 50,
+            "val": null
+          },
+          "tokenUsage": {
+            "ver": 1,
+            "seq": 50,
+            "val": {
+              "totals": {
+                "uncachedInputTokens": 0,
+                "outputTokens": 0,
+                "cacheReadTokens": 0,
+                "cacheWriteTokens": 0
+              },
+              "last": {
+                "turn": 4,
+                "step": 1,
+                "buckets": {
+                  "uncachedInputTokens": 0,
+                  "outputTokens": 0,
+                  "cacheReadTokens": 0,
+                  "cacheWriteTokens": 0
+                }
+              }
+            }
+          },
+          "contextPressure": {
+            "ver": 4,
+            "seq": 50,
+            "val": {
+              "surfaceTokens": 2418,
+              "contextWindow": 1000000,
+              "pressureTokens": 0,
+              "sampledSurfaceTokens": 2418
+            }
+          },
+          "contextBreakdown": {
+            "ver": 2,
+            "seq": 50,
+            "val": {
+              "systemTokens": 4512,
+              "toolsTokens": 8640,
+              "messageTokens": 2418
+            }
+          },
+          "subagentTiming": {
+            "ver": 2,
+            "seq": 50,
+            "val": {
+              "descriptorSeen": false,
+              "settledMs": 0
+            }
+          },
+          "subagent": {
+            "ver": 2,
+            "seq": 50,
+            "val": {}
+          },
+          "permissions": {
+            "ver": 1,
+            "seq": 50,
+            "val": {
+              "preset": "danger-full-access",
+              "sandbox": "danger-full-access",
+              "approval": "never"
+            }
+          },
+          "sessionListMetadata": {
+            "ver": 1,
+            "seq": 50,
+            "val": {
+              "blank": false,
+              "lastPromptAt": 1787567838113
+            }
+          },
+          "imageLimits": {
+            "ver": 1,
+            "seq": 50,
+            "val": null
+          },
+          "todos": {
+            "ver": 2,
+            "seq": 50,
+            "val": null
+          },
+          "plan": {
+            "ver": 2,
+            "seq": 50,
+            "val": {
+              "active": false,
+              "wanted": null,
+              "running": null
+            }
+          }
+        }
+      },
+      "session-c07ae769-0238-4b19-9380-2255f31566d5": {
+        "identity": {
+          "createdAt": 1788314512222,
+          "cwd": "D:\\DSH"
+        },
+        "rows": {
+          "sessionStats": {
+            "ver": 1,
+            "seq": 2048,
+            "val": {
+              "turns": 3,
+              "steps": 4,
+              "llmMs": 19790,
+              "toolMs": 19468,
+              "ttftMs": 3060,
+              "ttftSteps": 4,
+              "decodeMs": 16730,
+              "decodeTokens": 2032,
+              "lastTurn": 3,
+              "openStep": null,
+              "pendingCalls": {}
+            }
+          },
+          "title": {
+            "ver": 1,
+            "seq": 2048,
+            "val": "你好"
+          },
+          "goal": {
+            "ver": 4,
+            "seq": 2048,
+            "val": null
+          },
+          "tokenUsage": {
+            "ver": 1,
+            "seq": 2048,
+            "val": {
+              "totals": {
+                "uncachedInputTokens": 15412,
+                "outputTokens": 2032,
+                "cacheReadTokens": 44416,
+                "cacheWriteTokens": 0
+              },
+              "last": {
+                "turn": 3,
+                "step": 2,
+                "buckets": {
+                  "uncachedInputTokens": 1015,
+                  "outputTokens": 149,
+                  "cacheReadTokens": 15104,
+                  "cacheWriteTokens": 0
+                }
+              }
+            }
+          },
+          "contextPressure": {
+            "ver": 4,
+            "seq": 2048,
+            "val": {
+              "surfaceTokens": 3830,
+              "contextWindow": 1000000,
+              "pressureTokens": 16119,
+              "sampledSurfaceTokens": 3740
+            }
+          },
+          "contextBreakdown": {
+            "ver": 2,
+            "seq": 2048,
+            "val": {
+              "systemTokens": 4512,
+              "toolsTokens": 8640,
+              "messageTokens": 3830
+            }
+          },
+          "subagentTiming": {
+            "ver": 2,
+            "seq": 2048,
+            "val": {
+              "descriptorSeen": false,
+              "settledMs": 0
+            }
+          },
+          "subagent": {
+            "ver": 2,
+            "seq": 2048,
+            "val": {}
+          },
+          "permissions": {
+            "ver": 1,
+            "seq": 2048,
+            "val": {
+              "preset": "danger-full-access",
+              "sandbox": "danger-full-access",
+              "approval": "never"
+            }
+          },
+          "sessionListMetadata": {
+            "ver": 1,
+            "seq": 2048,
+            "val": {
+              "blank": false,
+              "lastPromptAt": 1788337415393
+            }
+          },
+          "imageLimits": {
+            "ver": 1,
+            "seq": 2048,
+            "val": null
+          },
+          "todos": {
+            "ver": 2,
+            "seq": 2048,
+            "val": null
+          },
+          "plan": {
+            "ver": 2,
+            "seq": 2048,
+            "val": {
+              "active": false,
+              "wanted": null,
+              "running": null
+            }
+          }
+        }
+      },
+      "session-ac44e33d-6ec8-48e1-8730-621088449c0d": {
+        "identity": {
+          "createdAt": 1788762499869,
+          "cwd": "D:\\DSH"
+        },
+        "rows": {
+          "sessionStats": {
+            "ver": 1,
+            "seq": 201,
+            "val": {
+              "turns": 1,
+              "steps": 1,
+              "llmMs": 2514,
+              "toolMs": 0,
+              "ttftMs": 1021,
+              "ttftSteps": 1,
+              "decodeMs": 1493,
+              "decodeTokens": 186,
+              "lastTurn": 1,
+              "openStep": null,
+              "pendingCalls": {}
+            }
+          },
+          "title": {
+            "ver": 1,
+            "seq": 201,
+            "val": "你好"
+          },
+          "goal": {
+            "ver": 4,
+            "seq": 201,
+            "val": null
+          },
+          "tokenUsage": {
+            "ver": 1,
+            "seq": 201,
+            "val": {
+              "totals": {
+                "uncachedInputTokens": 14272,
+                "outputTokens": 186,
+                "cacheReadTokens": 0,
+                "cacheWriteTokens": 0
+              },
+              "last": {
+                "turn": 1,
+                "step": 1,
+                "buckets": {
+                  "uncachedInputTokens": 14272,
+                  "outputTokens": 186,
+                  "cacheReadTokens": 0,
+                  "cacheWriteTokens": 0
+                }
+              }
+            }
+          },
+          "contextPressure": {
+            "ver": 4,
+            "seq": 201,
+            "val": {
+              "surfaceTokens": 2650,
+              "contextWindow": 1000000,
+              "pressureTokens": 14272,
+              "sampledSurfaceTokens": 2519
+            }
+          },
+          "contextBreakdown": {
+            "ver": 2,
+            "seq": 201,
+            "val": {
+              "systemTokens": 4512,
+              "toolsTokens": 8640,
+              "messageTokens": 2650
+            }
+          },
+          "subagentTiming": {
+            "ver": 2,
+            "seq": 201,
+            "val": {
+              "descriptorSeen": false,
+              "settledMs": 0
+            }
+          },
+          "subagent": {
+            "ver": 2,
+            "seq": 201,
+            "val": {}
+          },
+          "permissions": {
+            "ver": 1,
+            "seq": 201,
+            "val": {
+              "preset": "danger-full-access",
+              "sandbox": "danger-full-access",
+              "approval": "never"
+            }
+          },
+          "sessionListMetadata": {
+            "ver": 1,
+            "seq": 201,
+            "val": {
+              "blank": false,
+              "lastPromptAt": 1788762507850
+            }
+          },
+          "imageLimits": {
+            "ver": 1,
+            "seq": 201,
+            "val": null
+          },
+          "todos": {
+            "ver": 2,
+            "seq": 201,
+            "val": null
+          },
+          "plan": {
+            "ver": 2,
+            "seq": 201,
+            "val": {
+              "active": false,
+              "wanted": null,
+              "running": null
+            }
+          }
+        }
+      },
+      "session-08f2e513-dc1c-44c2-8b23-847171e3fa2e": {
+        "identity": {
+          "createdAt": 1788853457989,
+          "cwd": "D:\\DSH"
+        },
+        "rows": {
+          "sessionStats": {
+            "ver": 1,
+            "seq": 46698,
+            "val": {
+              "turns": 6,
+              "steps": 19,
+              "llmMs": 445413,
+              "toolMs": 3862879,
+              "ttftMs": 22497,
+              "ttftSteps": 19,
+              "decodeMs": 422916,
+              "decodeTokens": 46973,
+              "lastTurn": 6,
+              "openStep": null,
+              "pendingCalls": {}
+            }
+          },
+          "title": {
+            "ver": 1,
+            "seq": 46698,
+            "val": "测试"
+          },
+          "goal": {
+            "ver": 4,
+            "seq": 46698,
+            "val": null
+          },
+          "tokenUsage": {
+            "ver": 1,
+            "seq": 46698,
+            "val": {
+              "totals": {
+                "uncachedInputTokens": 94588,
+                "outputTokens": 46973,
+                "cacheReadTokens": 681600,
+                "cacheWriteTokens": 0
+              },
+              "last": {
+                "turn": 6,
+                "step": 1,
+                "buckets": {
+                  "uncachedInputTokens": 63967,
+                  "outputTokens": 1357,
+                  "cacheReadTokens": 0,
+                  "cacheWriteTokens": 0
+                }
+              }
+            }
+          },
+          "contextPressure": {
+            "ver": 4,
+            "seq": 46698,
+            "val": {
+              "surfaceTokens": 31115,
+              "contextWindow": 1000000,
+              "pressureTokens": 63967,
+              "sampledSurfaceTokens": 30394
+            }
+          },
+          "contextBreakdown": {
+            "ver": 2,
+            "seq": 46698,
+            "val": {
+              "systemTokens": 4514,
+              "toolsTokens": 8640,
+              "messageTokens": 31115
+            }
+          },
+          "subagentTiming": {
+            "ver": 2,
+            "seq": 46698,
+            "val": {
+              "descriptorSeen": false,
+              "settledMs": 0
+            }
+          },
+          "subagent": {
+            "ver": 2,
+            "seq": 46698,
+            "val": {}
+          },
+          "permissions": {
+            "ver": 1,
+            "seq": 46698,
+            "val": {
+              "preset": "danger-full-access",
+              "sandbox": "danger-full-access",
+              "approval": "never"
+            }
+          },
+          "sessionListMetadata": {
+            "ver": 1,
+            "seq": 46698,
+            "val": {
+              "blank": false,
+              "lastPromptAt": 1789003778337
+            }
+          },
+          "imageLimits": {
+            "ver": 1,
+            "seq": 46698,
+            "val": null
+          },
+          "todos": {
+            "ver": 2,
+            "seq": 46698,
+            "val": null
+          },
+          "plan": {
+            "ver": 2,
+            "seq": 46698,
+            "val": {
+              "active": false,
+              "wanted": null,
+              "running": null
+            }
+          }
+        }
+      },
+      "session-917985c7-9a81-4eff-ab59-4d81d41e7e36": {
+        "identity": {
+          "createdAt": 1788858868884,
+          "cwd": "D:\\DSH"
+        },
+        "rows": {
+          "sessionStats": {
+            "ver": 1,
+            "seq": 2,
+            "val": {
+              "turns": 0,
+              "steps": 0,
+              "llmMs": 0,
+              "toolMs": 0,
+              "ttftMs": 0,
+              "ttftSteps": 0,
+              "decodeMs": 0,
+              "decodeTokens": 0,
+              "lastTurn": null,
+              "openStep": null,
+              "pendingCalls": {}
+            }
+          },
+          "title": {
+            "ver": 1,
+            "seq": 2,
+            "val": null
+          },
+          "goal": {
+            "ver": 4,
+            "seq": 2,
+            "val": null
+          },
+          "tokenUsage": {
+            "ver": 1,
+            "seq": 2,
+            "val": {
+              "totals": {
+                "uncachedInputTokens": 0,
+                "outputTokens": 0,
+                "cacheReadTokens": 0,
+                "cacheWriteTokens": 0
+              },
+              "last": null
+            }
+          },
+          "contextPressure": {
+            "ver": 4,
+            "seq": 2,
+            "val": {
+              "surfaceTokens": 0
+            }
+          },
+          "contextBreakdown": {
+            "ver": 2,
+            "seq": 2,
+            "val": {
+              "systemTokens": 0,
+              "toolsTokens": 0,
+              "messageTokens": 0
+            }
+          },
+          "subagentTiming": {
+            "ver": 2,
+            "seq": 2,
+            "val": {
+              "descriptorSeen": false,
+              "settledMs": 0
+            }
+          },
+          "subagent": {
+            "ver": 2,
+            "seq": 2,
+            "val": {}
+          },
+          "permissions": {
+            "ver": 1,
+            "seq": 2,
+            "val": {
+              "preset": "danger-full-access",
+              "sandbox": "danger-full-access",
+              "approval": "never"
+            }
+          },
+          "sessionListMetadata": {
+            "ver": 1,
+            "seq": 2,
+            "val": {
+              "blank": true,
+              "lastPromptAt": null
+            }
+          },
+          "imageLimits": {
+            "ver": 1,
+            "seq": 2,
+            "val": null
+          },
+          "todos": {
+            "ver": 2,
+            "seq": 2,
+            "val": null
+          },
+          "plan": {
+            "ver": 2,
+            "seq": 2,
+            "val": {
+              "active": false,
+              "wanted": null,
+              "running": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

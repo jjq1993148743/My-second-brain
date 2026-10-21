@@ -1,0 +1,197 @@
+{
+  "version": 5,
+  "record": {
+    "identity": {
+      "createdAt": 1789005130548,
+      "cwd": "D:\\DSH",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 20,
+        "val": "你好"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 20,
+        "val": {
+          "first": {
+            "seq": 11,
+            "text": "你好"
+          },
+          "count": 1,
+          "lastSeq": 11
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 20,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 20,
+        "val": "read-only"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 20,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 0,
+            "outputTokens": 0,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "last": null
+        }
+      },
+      "contextPressure": {
+        "ver": 4,
+        "seq": 20,
+        "val": {
+          "surfaceTokens": 2488,
+          "contextWindow": 1000000
+        }
+      },
+      "contextBreakdown": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "systemTokens": 1757,
+          "toolsTokens": 6905,
+          "messageTokens": 2488
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 10,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 19
+          },
+          "lastTurn": 1
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 20,
+        "val": {
+          "turns": 1,
+          "steps": 1,
+          "llmMs": 0,
+          "toolMs": 0,
+          "ttftMs": 0,
+          "ttftSteps": 0,
+          "decodeMs": 0,
+          "decodeTokens": 0,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 8,
+              "prompt": "你好",
+              "response": ""
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 20,
+        "val": "standard"
+      },
+      "subagentTiming": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 20,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "preset": "read-only",
+          "sandbox": "read-only",
+          "approval": "ask",
+          "seeded": false
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "lastUsed": {
+            "provider": "deepseek-official",
+            "model": "deepseek-v4-flash",
+            "reasoningEffort": "off"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 20,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1789005130888
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 20,
+        "val": null
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 20,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 20,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 20,
+        "val": null
+      }
+    }
+  }
+}

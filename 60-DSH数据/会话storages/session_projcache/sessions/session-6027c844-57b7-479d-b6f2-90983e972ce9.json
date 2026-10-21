@@ -1,0 +1,265 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1791768449363,
+      "cwd": "D:\\DSH",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 20,
+        "val": "无法生成会话标题"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 20,
+        "val": {
+          "first": {
+            "seq": 8,
+            "text": "？"
+          },
+          "count": 1,
+          "lastSeq": 8
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 20,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 20,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 20,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 9702,
+            "outputTokens": 328,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 1,
+            "step": 1,
+            "buckets": {
+              "uncachedInputTokens": 9702,
+              "outputTokens": 328,
+              "cacheReadTokens": 0,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 20,
+        "val": {
+          "surfaceTokens": 4670,
+          "contextWindow": 1000000,
+          "pressureTokens": 9702,
+          "sampledSurfaceTokens": 4363
+        }
+      },
+      "contextBreakdown": {
+        "ver": 5,
+        "seq": 20,
+        "val": {
+          "nodes": [
+            {
+              "seq": 7,
+              "heuristicTokens": 1532,
+              "system": true
+            },
+            {
+              "seq": 8,
+              "heuristicTokens": 9,
+              "system": false
+            },
+            {
+              "seq": 9,
+              "heuristicTokens": 106,
+              "system": false
+            },
+            {
+              "seq": 10,
+              "heuristicTokens": 2716,
+              "system": false
+            },
+            {
+              "seq": 18,
+              "heuristicTokens": 307,
+              "system": false
+            }
+          ],
+          "breakdown": {
+            "systemTokens": 1532,
+            "toolsTokens": 5873,
+            "messageTokens": 3138
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 6,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 19
+          },
+          "lastTurn": 1
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 20,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 20,
+        "val": {
+          "turns": 1,
+          "steps": 1,
+          "llmMs": 2990,
+          "toolMs": 0,
+          "ttftMs": 1049,
+          "ttftSteps": 1,
+          "decodeMs": 1941,
+          "decodeTokens": 328,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 4,
+              "prompt": "？",
+              "response": "我看到你发了一个「？」——信息不太完整，我不确定你想问什么。 方便补充一下吗？比如： - 想让我**做某件事**（写代码、查资料、处理文档、看某个文件）——直接说需求即可 - 想**接着上次的话题**继续 ——我可以去检索历史会话记录 -…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 20,
+        "val": "standard"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "subagentCatalog": {
+        "ver": 3,
+        "seq": 20,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 20,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 20,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 20,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 20,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 20,
+        "val": null
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 20,
+        "val": {
+          "lastUsed": {
+            "provider": "deepseek-official",
+            "model": "deepseek-v4-flash",
+            "reasoningEffort": "max"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 20,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1791768549259
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 20,
+        "val": null
+      }
+    }
+  }
+}

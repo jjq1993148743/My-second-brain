@@ -1,0 +1,250 @@
+{
+  "version": 5,
+  "record": {
+    "identity": {
+      "createdAt": 1788853457989,
+      "cwd": "D:\\DSH",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 46719,
+        "val": "测试"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 46719,
+        "val": {
+          "first": {
+            "seq": 7,
+            "text": "我想要创业。\n你先问问我的基本情况。让我给够你详细信息。\n我的一个方向：卖情趣用品，没有实体店，投入少，可个人送货，"
+          },
+          "count": 8,
+          "lastSeq": 46714
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 46719,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 46719,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 46719,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 46719,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 94588,
+            "outputTokens": 46973,
+            "cacheReadTokens": 681600,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 6,
+            "step": 1,
+            "buckets": {
+              "uncachedInputTokens": 63967,
+              "outputTokens": 1357,
+              "cacheReadTokens": 0,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 4,
+        "seq": 46719,
+        "val": {
+          "contextWindow": 1000000,
+          "pressureTokens": 63967,
+          "surfaceTokens": 31133,
+          "sampledSurfaceTokens": 30394
+        }
+      },
+      "contextBreakdown": {
+        "ver": 2,
+        "seq": 46719,
+        "val": {
+          "systemTokens": 4651,
+          "toolsTokens": 8776,
+          "messageTokens": 31133
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 46719,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 46713,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 46717
+          },
+          "lastTurn": 8
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 46719,
+        "val": {
+          "turns": 8,
+          "steps": 21,
+          "llmMs": 445413,
+          "toolMs": 3862879,
+          "ttftMs": 22497,
+          "ttftSteps": 19,
+          "decodeMs": 422916,
+          "decodeTokens": 46973,
+          "lastTurn": 8,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 46719,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 4,
+              "prompt": "我想要创业。 你先问问我的基本情况。让我给够你详细信息。 我的一个方向：卖情趣用品，没有实体店，投…",
+              "response": "两轮信息都拿到了，事实也核实得差不多了。下面是完整诊断 + 我会给你推荐的打法，你看完确认方向，我们再往下拆。 --- ## 一、你的资源盘点（就你一个人，5000元预算） | 维度 | 状态 | 意味着什么 | |---|---|---…"
+            },
+            {
+              "turn": 2,
+              "seq": 11322,
+              "prompt": "我的理解是，想赚钱必须做信息差或者服务差。 我的情况你基本了解清楚了，也可以卖别的，可以兼职也可以…",
+              "response": "手册已生成：`D:\\DSH\\长春成人用品冷启动手册.md`（全文见上方写入内容，包含曝光系统、30天日历、资金表、话术、数据仪表盘、风险清单）。 ## 直接回答你的核心问题：曝光到底怎么发生 你要的答案藏在手册第1章，最关键的认知是： >…"
+            },
+            {
+              "turn": 3,
+              "seq": 32852,
+              "prompt": "必须要办执照吗？",
+              "response": "核实完了，答案很明确：**必须办，而且没有任何理由不办。** ## 一、法律层面：不办 = 违法经营 - **无照经营**：依据[《无证无照经营查处办法》](https://www.gov.cn/zhengce/content/2017-…"
+            },
+            {
+              "turn": 4,
+              "seq": 35441,
+              "prompt": "我会去办的，但是你帮我研究一下怎么曝光，找出20种方案",
+              "response": "20种方案已全部整理进手册（第8章，含成本、匹配度、风险）。先给你看全景： ## 20种曝光方案（按你的情况标注可用性） **A层 · 即时零售平台矩阵——你的主战场（零表达能力要求）** 1. 美团外卖成人用品店 —— 第一店，正在吃平…"
+            },
+            {
+              "turn": 5,
+              "seq": 43758,
+              "prompt": "GEO 是啥意思",
+              "response": "**GEO = Generative Engine Optimization，中文叫\"生成式引擎优化\"，就是\"针对AI回答的SEO\"。** ## 一句话解释 以前用户找信息用**百度**，你要做 SEO（让搜索结果里排在你前面）。 现在用…"
+            },
+            {
+              "turn": 6,
+              "seq": 45329,
+              "prompt": "以前是搜索引擎能有seo，现在是对应AI了？是这意思？",
+              "response": "对，就是这个意思。**同一个思路，换了战场。** ## SEO vs GEO 对比 | | **SEO（以前）** | **GEO（现在）** | |---|---|---| | 你在争什么 | 搜索结果里的**排名位置** | AI回答…"
+            },
+            {
+              "turn": 7,
+              "seq": 46701,
+              "prompt": "你好",
+              "response": ""
+            },
+            {
+              "turn": 8,
+              "seq": 46711,
+              "prompt": "你好",
+              "response": ""
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 46719,
+        "val": "cordis"
+      },
+      "subagentTiming": {
+        "ver": 2,
+        "seq": 46719,
+        "val": {
+          "settledMs": 0,
+          "descriptorSeen": false
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 46719,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 46719,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": true
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 46719,
+        "val": {
+          "lastUsed": {
+            "provider": "deepseek-official",
+            "model": "deepseek-v4-flash-vision-exp",
+            "reasoningEffort": "max"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 46719,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1789005117886
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 46719,
+        "val": null
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 46719,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 46719,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 46719,
+        "val": null
+      }
+    }
+  }
+}

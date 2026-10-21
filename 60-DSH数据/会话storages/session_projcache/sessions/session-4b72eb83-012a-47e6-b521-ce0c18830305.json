@@ -1,0 +1,535 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792042810121,
+      "cwd": "C:\\Users\\jjq21\\Desktop\\DSH",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 146,
+        "val": "询问上下文窗口大小"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 146,
+        "val": {
+          "first": {
+            "seq": 9,
+            "text": "你这个上下文有多少"
+          },
+          "count": 1,
+          "lastSeq": 9
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 146,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 146,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 146,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 146,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 61745,
+            "outputTokens": 8386,
+            "cacheReadTokens": 682240,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 1,
+            "step": 20,
+            "buckets": {
+              "uncachedInputTokens": 1179,
+              "outputTokens": 725,
+              "cacheReadTokens": 59392,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 146,
+        "val": {
+          "surfaceTokens": 46270,
+          "contextWindow": 1000000,
+          "pressureTokens": 60571,
+          "sampledSurfaceTokens": 45736
+        }
+      },
+      "contextBreakdown": {
+        "ver": 5,
+        "seq": 146,
+        "val": {
+          "nodes": [
+            {
+              "seq": 8,
+              "heuristicTokens": 1538,
+              "system": true
+            },
+            {
+              "seq": 9,
+              "heuristicTokens": 11,
+              "system": false
+            },
+            {
+              "seq": 10,
+              "heuristicTokens": 106,
+              "system": false
+            },
+            {
+              "seq": 11,
+              "heuristicTokens": 2716,
+              "system": false
+            },
+            {
+              "seq": 17,
+              "heuristicTokens": 254,
+              "system": false
+            },
+            {
+              "seq": 19,
+              "heuristicTokens": 80,
+              "system": false
+            },
+            {
+              "seq": 21,
+              "heuristicTokens": 70,
+              "system": false
+            },
+            {
+              "seq": 24,
+              "heuristicTokens": 208,
+              "system": false
+            },
+            {
+              "seq": 26,
+              "heuristicTokens": 97,
+              "system": false
+            },
+            {
+              "seq": 28,
+              "heuristicTokens": 71,
+              "system": false
+            },
+            {
+              "seq": 31,
+              "heuristicTokens": 196,
+              "system": false
+            },
+            {
+              "seq": 33,
+              "heuristicTokens": 6864,
+              "system": false
+            },
+            {
+              "seq": 35,
+              "heuristicTokens": 747,
+              "system": false
+            },
+            {
+              "seq": 38,
+              "heuristicTokens": 247,
+              "system": false
+            },
+            {
+              "seq": 40,
+              "heuristicTokens": 322,
+              "system": false
+            },
+            {
+              "seq": 42,
+              "heuristicTokens": 1915,
+              "system": false
+            },
+            {
+              "seq": 45,
+              "heuristicTokens": 418,
+              "system": false
+            },
+            {
+              "seq": 47,
+              "heuristicTokens": 3548,
+              "system": false
+            },
+            {
+              "seq": 49,
+              "heuristicTokens": 424,
+              "system": false
+            },
+            {
+              "seq": 52,
+              "heuristicTokens": 212,
+              "system": false
+            },
+            {
+              "seq": 54,
+              "heuristicTokens": 62,
+              "system": false
+            },
+            {
+              "seq": 56,
+              "heuristicTokens": 1249,
+              "system": false
+            },
+            {
+              "seq": 59,
+              "heuristicTokens": 268,
+              "system": false
+            },
+            {
+              "seq": 62,
+              "heuristicTokens": 372,
+              "system": false
+            },
+            {
+              "seq": 63,
+              "heuristicTokens": 375,
+              "system": false
+            },
+            {
+              "seq": 66,
+              "heuristicTokens": 595,
+              "system": false
+            },
+            {
+              "seq": 68,
+              "heuristicTokens": 114,
+              "system": false
+            },
+            {
+              "seq": 70,
+              "heuristicTokens": 11,
+              "system": false
+            },
+            {
+              "seq": 73,
+              "heuristicTokens": 502,
+              "system": false
+            },
+            {
+              "seq": 75,
+              "heuristicTokens": 739,
+              "system": false
+            },
+            {
+              "seq": 77,
+              "heuristicTokens": 18,
+              "system": false
+            },
+            {
+              "seq": 80,
+              "heuristicTokens": 450,
+              "system": false
+            },
+            {
+              "seq": 83,
+              "heuristicTokens": 1644,
+              "system": false
+            },
+            {
+              "seq": 84,
+              "heuristicTokens": 643,
+              "system": false
+            },
+            {
+              "seq": 87,
+              "heuristicTokens": 428,
+              "system": false
+            },
+            {
+              "seq": 89,
+              "heuristicTokens": 12,
+              "system": false
+            },
+            {
+              "seq": 91,
+              "heuristicTokens": 1147,
+              "system": false
+            },
+            {
+              "seq": 94,
+              "heuristicTokens": 194,
+              "system": false
+            },
+            {
+              "seq": 96,
+              "heuristicTokens": 1254,
+              "system": false
+            },
+            {
+              "seq": 98,
+              "heuristicTokens": 528,
+              "system": false
+            },
+            {
+              "seq": 101,
+              "heuristicTokens": 95,
+              "system": false
+            },
+            {
+              "seq": 103,
+              "heuristicTokens": 5249,
+              "system": false
+            },
+            {
+              "seq": 106,
+              "heuristicTokens": 259,
+              "system": false
+            },
+            {
+              "seq": 108,
+              "heuristicTokens": 1892,
+              "system": false
+            },
+            {
+              "seq": 111,
+              "heuristicTokens": 391,
+              "system": false
+            },
+            {
+              "seq": 113,
+              "heuristicTokens": 135,
+              "system": false
+            },
+            {
+              "seq": 115,
+              "heuristicTokens": 579,
+              "system": false
+            },
+            {
+              "seq": 118,
+              "heuristicTokens": 42,
+              "system": false
+            },
+            {
+              "seq": 120,
+              "heuristicTokens": 3274,
+              "system": false
+            },
+            {
+              "seq": 123,
+              "heuristicTokens": 633,
+              "system": false
+            },
+            {
+              "seq": 125,
+              "heuristicTokens": 12,
+              "system": false
+            },
+            {
+              "seq": 127,
+              "heuristicTokens": 371,
+              "system": false
+            },
+            {
+              "seq": 130,
+              "heuristicTokens": 155,
+              "system": false
+            },
+            {
+              "seq": 132,
+              "heuristicTokens": 578,
+              "system": false
+            },
+            {
+              "seq": 134,
+              "heuristicTokens": 87,
+              "system": false
+            },
+            {
+              "seq": 137,
+              "heuristicTokens": 561,
+              "system": false
+            },
+            {
+              "seq": 139,
+              "heuristicTokens": 190,
+              "system": false
+            },
+            {
+              "seq": 141,
+              "heuristicTokens": 584,
+              "system": false
+            },
+            {
+              "seq": 144,
+              "heuristicTokens": 534,
+              "system": false
+            }
+          ],
+          "breakdown": {
+            "systemTokens": 1538,
+            "toolsTokens": 5873,
+            "messageTokens": 44732
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 146,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 143,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 145
+          },
+          "lastTurn": 1
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 146,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 146,
+        "val": {
+          "turns": 1,
+          "steps": 20,
+          "llmMs": 77971,
+          "toolMs": 160513,
+          "ttftMs": 40015,
+          "ttftSteps": 20,
+          "decodeMs": 37956,
+          "decodeTokens": 8386,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 146,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 5,
+              "prompt": "你这个上下文有多少",
+              "response": "## 当前上下文窗口：**1,000,000 tokens（1M）** 我直接读了本会话的运行时状态文件 [session-4b72eb83….json](C:\\Users\\jjq21\\.dsh\\storages\\session_proj…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 146,
+        "val": "standard"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 146,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "subagentCatalog": {
+        "ver": 3,
+        "seq": 146,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 146,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 146,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 146,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 146,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 146,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 146,
+        "val": null
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 146,
+        "val": {
+          "lastUsed": {
+            "provider": "workbuddy",
+            "model": "deepseek-v4.1-flash",
+            "reasoningEffort": "high"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 146,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792044979755
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 146,
+        "val": null
+      }
+    }
+  }
+}

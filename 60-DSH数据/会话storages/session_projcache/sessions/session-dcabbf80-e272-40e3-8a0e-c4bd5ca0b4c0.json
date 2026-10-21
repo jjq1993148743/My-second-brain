@@ -1,0 +1,334 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1791769539425,
+      "cwd": "D:\\DSH",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 60,
+        "val": "你好"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 60,
+        "val": {
+          "first": {
+            "seq": 9,
+            "text": "你好"
+          },
+          "count": 5,
+          "lastSeq": 54
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 60,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 60,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 60,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 60,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 37461,
+            "outputTokens": 408,
+            "cacheReadTokens": 832,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 5,
+            "step": 1,
+            "buckets": {
+              "uncachedInputTokens": 10093,
+              "outputTokens": 53,
+              "cacheReadTokens": 0,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 60,
+        "val": {
+          "surfaceTokens": 4894,
+          "contextWindow": 1000000,
+          "pressureTokens": 10093,
+          "sampledSurfaceTokens": 4858
+        }
+      },
+      "contextBreakdown": {
+        "ver": 5,
+        "seq": 60,
+        "val": {
+          "nodes": [
+            {
+              "seq": 53,
+              "heuristicTokens": 1535,
+              "system": true
+            },
+            {
+              "seq": 9,
+              "heuristicTokens": 9,
+              "system": false
+            },
+            {
+              "seq": 10,
+              "heuristicTokens": 106,
+              "system": false
+            },
+            {
+              "seq": 11,
+              "heuristicTokens": 2716,
+              "system": false
+            },
+            {
+              "seq": 16,
+              "heuristicTokens": 62,
+              "system": false
+            },
+            {
+              "seq": 23,
+              "heuristicTokens": 10,
+              "system": false
+            },
+            {
+              "seq": 24,
+              "heuristicTokens": 55,
+              "system": false
+            },
+            {
+              "seq": 33,
+              "heuristicTokens": 9,
+              "system": false
+            },
+            {
+              "seq": 34,
+              "heuristicTokens": 39,
+              "system": false
+            },
+            {
+              "seq": 44,
+              "heuristicTokens": 9,
+              "system": false
+            },
+            {
+              "seq": 45,
+              "heuristicTokens": 260,
+              "system": false
+            },
+            {
+              "seq": 54,
+              "heuristicTokens": 9,
+              "system": false
+            },
+            {
+              "seq": 55,
+              "heuristicTokens": 42,
+              "system": false
+            },
+            {
+              "seq": 58,
+              "heuristicTokens": 36,
+              "system": false
+            }
+          ],
+          "breakdown": {
+            "systemTokens": 1535,
+            "toolsTokens": 5873,
+            "messageTokens": 3362
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 60,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 52,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 59
+          },
+          "lastTurn": 5
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 60,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 60,
+        "val": {
+          "turns": 5,
+          "steps": 5,
+          "llmMs": 22450,
+          "toolMs": 0,
+          "ttftMs": 11254,
+          "ttftSteps": 4,
+          "decodeMs": 11196,
+          "decodeTokens": 408,
+          "lastTurn": 5,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 60,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 5,
+              "prompt": "你好",
+              "response": "你好！有什么我可以帮你的吗？"
+            },
+            {
+              "turn": 2,
+              "seq": 20,
+              "prompt": "你是啥模型",
+              "response": "我是 DeepSeek 推出的 AI 模型，通过 DeepSeek Harness 运行。有什么我可以帮你的吗？"
+            },
+            {
+              "turn": 3,
+              "seq": 29,
+              "prompt": "你好",
+              "response": ""
+            },
+            {
+              "turn": 4,
+              "seq": 41,
+              "prompt": "你好",
+              "response": "你好！我是运行在 DeepSeek Harness 中的 AI 助手，底层模型是 z-ai/glm-5.3（刚才的回复来自之前的模型，已切换）。有什么可以帮你的吗？"
+            },
+            {
+              "turn": 5,
+              "seq": 50,
+              "prompt": "？",
+              "response": "你好！我是运行在 DeepSeek Harness 中的 AI 助手，当前底层模型是 stepfun/step-5-preview-free。 有什么可以帮你的吗？比如写代码、分析文件、制作文档，或者查询资料都可以。"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 60,
+        "val": "standard"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 60,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "subagentCatalog": {
+        "ver": 3,
+        "seq": 60,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 60,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 60,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 60,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 60,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 60,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 60,
+        "val": null
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 60,
+        "val": {
+          "lastUsed": {
+            "provider": "our-free-model",
+            "model": "stepfun/step-5-preview-free",
+            "reasoningEffort": "high"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 60,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1791773042395
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 60,
+        "val": null
+      }
+    }
+  }
+}

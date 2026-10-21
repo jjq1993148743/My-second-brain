@@ -1,0 +1,56 @@
+{
+  "unit": {
+    "name": "workspace",
+    "version": 2
+  },
+  "global": {
+    "initialized": true,
+    "workspaceIds": [
+      "9161e6d5-374b-487d-bda9-6f749dc8a10c"
+    ],
+    "archivedSessionIds": [
+      "session-c17c8d63-4a64-40d9-9bca-1f452bc49720",
+      "session-c0fce3ce-3cb6-4097-aa76-b10c3512e2ec",
+      "session-ac44e33d-6ec8-48e1-8730-621088449c0d",
+      "session-c07ae769-0238-4b19-9380-2255f31566d5",
+      "session-14f9153d-2420-4e7e-b025-673bdc03de4a",
+      "session-ccf5e86f-3a8e-4453-9a6c-25e60cd359c8",
+      "session-dcabbf80-e272-40e3-8a0e-c4bd5ca0b4c0",
+      "session-917985c7-9a81-4eff-ab59-4d81d41e7e36",
+      "session-6027c844-57b7-479d-b6f2-90983e972ce9",
+      "session-a4c8a176-dfc1-4249-a62d-76d2448842ad",
+      "aa_925bba00371e81f1_sess_FfssSeHAPN4xSA",
+      "aa_925bba00371e81f1_sess_mWL6iN-HpA431Q",
+      "session-08f2e513-dc1c-44c2-8b23-847171e3fa2e",
+      "session-2ad2c3f3-d44b-4680-9d60-786f887c3ea8",
+      "session-8dd8662a-bc4a-4a2c-a13e-10268cf59982",
+      "session-4b72eb83-012a-47e6-b521-ce0c18830305",
+      "session-8b993a0c-54be-41b9-b753-217969b6eec0",
+      "session-e1d7f10b-20d6-4b4e-b02d-f4113822bf81",
+      "session-7251fc35-5b80-49cf-afeb-7f62c86f540b",
+      "session-98618811-ab4e-41f0-9b75-923515327493",
+      "session-cf63a1a3-20f8-457c-9c84-cfacaf366e83",
+      "session-aa06c611-98e9-4258-af48-9659c646b0a0"
+    ],
+    "pinnedSessionIds": []
+  },
+  "tables": {
+    "workspaces": {
+      "9161e6d5-374b-487d-bda9-6f749dc8a10c": {
+        "path": "D:\\GitHub",
+        "title": "GitHub",
+        "sessionIds": [
+          "session-f39f7113-c8f2-4f21-a7a1-ee0507e012ed",
+          "session-d19ef56d-c337-4211-af18-b8c4392cf389",
+          "session-cf63a1a3-20f8-457c-9c84-cfacaf366e83",
+          "session-aa06c611-98e9-4258-af48-9659c646b0a0",
+          "session-98618811-ab4e-41f0-9b75-923515327493",
+          "session-7251fc35-5b80-49cf-afeb-7f62c86f540b",
+          "session-efd433d6-2075-4a5a-93f5-08f02e2ad107"
+        ],
+        "createdAt": "2026-10-19T00:46:37.300Z",
+        "updatedAt": "2026-10-21T06:31:35.774Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792551289853,
+      "cwd": "D:\\GitHub",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 530,
+        "val": "你是搞钱调研的队员B，负责【"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 530,
+        "val": {
+          "first": {
+            "seq": 9,
+            "text": "你是搞钱调研的队员B，负责【国内平台学生服务类目】。请先 team_task_list 找到 task-2 并 claim 它，然后按任务描述执行。\n\n## 你的具体任务\n实测闲鱼/小红书/B站/牛客/豆瓣上，学生服务类目的真实价格、销量、竞争度。\n产出：50-知识/AI工具/大学生赚钱全景-02-国内篇.md\n\n## 建议顺序\n1. 先用 curl+代理 抓结构简单的：\n   - 牛客网: https://www.nowcoder.com/discuss\n   - 豆瓣小组: https://www.douban.com/group/\n2. 必须用 chrome-fetch.mjs 的（SPA）：\n   - 闲鱼搜索页（如 https://www.goofish.com/search?q=论文降重）\n   - 小红书搜索页\n   - B站搜索页（https://search.bilibili.com/all?keyword=大学生副业）\n3. 每个平台要找的具体类目：\n   - 论文降重/查重\n   - 简历优化/修改\n   - 实习内推\n   - 课程设计/毕设辅导（不碰代写）\n   - 兼职/副业信息\n\n## 每个商品/服务必须记录\n| 字段 | 说明 |\n|---|---|\n| 标题 | 原文 |\n| 标价 | 具体数字+单位 |\n| 销量/想要人数 | 具体数字 |\n| 评论数 | 具体数字 |\n| 卖家 | 昵称或店铺 |\n\n## 竞争密度算法\n在同一个关键词搜索结果里，数：\n- 有多少个卖家在卖同类服务\n- 销量前 10 的平均价格\n- 销量第 1 的价格\n\n## 红线重点\n- 闲鱼/小红书极其敏感：**间隔 ≥30 秒**，最多抓 5-8 个页面就停\n- 不登录、不点击购买\n- 绝对不碰「代写论文」「代写简历成品」\n\n## 环境（重要，必须遵守）\n- 工作目录：D:\\GitHub\\My-second-brain\n- 脚本目录：D:\\GitHub\\My-second-brain\\50-知识\\AI工具\\_scripts\n- 网络：Node fetch 会返回 400，**必须用 curl 走代理 http://127.0.0.1:7897**\n- curl 范式：curl -sL -x http://127.0.0.1:7897 -H \"User-Agent: Mozilla/5.0 ...\" --max-time 20 --compressed \"<url>\"\n- SPA 站必须用 chrome-fetch.mjs：node chrome-fetch.mjs \"<url>\" <outfile.html> <virtualTimeMs>\n- 已可用脚本：chrome-fetch.mjs、sogou.mjs、reddit-archive.mjs、search-multi.mjs\n- git 推送：git -c http.proxy=http://127.0.0.1:7897 -c https.proxy=http://127.0.0.1:7897 push origin main\n\n## 红线（比产出重要）\n1. 不登录、不注册、不碰验证码\n2. 串行抓取，间隔 3-10 秒（敏感站 ≥30 秒），异常立即停\n3. 绝不编造数据：每个价格/收入必须有原文出处；找不到就明确写「未找到」\n4. 收入数字必须标注来源性质：【实证】【分享者自述】【推测】\n5. 不做「代写论文」「代写简历成品」等灰色业务分析\n\n## 交付要求\n- 报告写到指定的 md 文件\n- 中文，用表格承载数据，每个数字标注信源\n- 结尾必须有「本报告的数据局限」一节，诚实说明样本量、时间、抓不到的站\n- 完成后：git add + commit + push（commit message 用中文，说明做了什么）\n- 最后用 send_message 给 lead 发一句话总结：做了多少站、挖到多少条有效数据、最重要的 3 个发现\n"
+          },
+          "count": 1,
+          "lastSeq": 9
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 530,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 530,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 530,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 530,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 166743,
+            "outputTokens": 48158,
+            "cacheReadTokens": 3178240,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 1,
+            "step": 56,
+            "buckets": {
+              "uncachedInputTokens": 161,
+              "outputTokens": 540,
+              "cacheReadTokens": 101248,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 530,
+        "val": {
+          "surfaceTokens": 76097,
+          "contextWindow": 1048576,
+          "pressureTokens": 101409,
+          "sampledSurfaceTokens": 75873
+        }
+      },
+      "contextBreakdown": {
+        "ver": 6,
+        "seq": 530,
+        "val": {
+          "systems": [
+            {
+              "seq": 8,
+              "tokens": 18172
+            }
+          ],
+          "surfaceTokens": 76097,
+          "breakdown": {
+            "systemTokens": 18172,
+            "toolsTokens": 628,
+            "messageTokens": 57925
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 530,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 527,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 529
+          },
+          "lastTurn": 1
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 530,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 530,
+        "val": {
+          "turns": 1,
+          "steps": 56,
+          "llmMs": 601189,
+          "toolMs": 1039448,
+          "ttftMs": 406948,
+          "ttftSteps": 56,
+          "decodeMs": 194241,
+          "decodeTokens": 48158,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 530,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 5,
+              "prompt": "你是搞钱调研的队员B，负责【国内平台学生服务类目】。请先 team_task_list 找到 ta…",
+              "response": "已交付并推送。 **报告**：[大学生赚钱全景-02-国内篇.md](50-知识/AI工具/大学生赚钱全景-02-国内篇.md) ## 实测结果 | 平台 | 有效数据 | 关键结论 | |---|---|---| | B站 | 37 条…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 530,
+        "val": "ptc"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 530,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 530,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "workingDirectory": {
+        "ver": 1,
+        "seq": 530,
+        "val": "D:\\GitHub\\My-second-brain"
+      },
+      "subagentCatalog": {
+        "ver": 6,
+        "seq": 530,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 530,
+        "val": {
+          "descriptorSeen": true,
+          "settledMs": 1921181,
+          "lastTurnCompleted": true
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 530,
+        "val": {
+          "identity": {
+            "mode": "continuable",
+            "label": "国内平台学生服务类目实测",
+            "seq": 0
+          }
+        }
+      },
+      "agentTeam": {
+        "ver": 4,
+        "seq": 530,
+        "val": {
+          "id": "c28381ef-6a1f-46a0-9e2e-bc9e6bff5d41",
+          "members": [],
+          "tasks": [],
+          "messages": [],
+          "delivered": [],
+          "nextTaskNumber": 1
+        }
+      },
+      "timeContext": {
+        "ver": 2,
+        "seq": 530,
+        "val": {
+          "lastMessageTime": 1792553210274,
+          "lastInjectionTime": 1792553164042,
+          "lastTurnInjectionTime": null
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 530,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 530,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 530,
+        "val": null
+      },
+      "harnessDevLegacyPrompt": {
+        "ver": 1,
+        "seq": 530,
+        "val": {
+          "source": null,
+          "web": null
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 530,
+        "val": {
+          "lastUsed": {
+            "provider": "aggregate",
+            "model": "deepseek-v4-1-flash",
+            "reasoningEffort": "high"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 530,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792551294082
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 530,
+        "val": null
+      }
+    }
+  }
+}

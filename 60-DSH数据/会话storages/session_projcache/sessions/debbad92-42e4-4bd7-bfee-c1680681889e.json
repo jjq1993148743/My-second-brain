@@ -1,0 +1,274 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792390461266,
+      "cwd": "D:\\GitHub",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 181,
+        "val": "## 任务：找到能真正用的通用"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 181,
+        "val": {
+          "first": {
+            "seq": 9,
+            "text": "## 任务：找到能真正用的通用搜索引擎（不惜代价）\n\n环境：Windows，工作目录 D:\\GitHub\\My-second-brain\\50-知识\\AI工具\\_scripts\nVPN 已开，本机代理 127.0.0.1:7897 可用。\n\n## 我已经准备好一个测试器：_engine_hunt.mjs\n它已经写好、已通过 node --check，**不要修改它，不要读它的源码**。\n它测试 **49 个搜索引擎**，每个引擎抓一次 SERP 页面，解析结果链接，输出干净域名数。\n\n判定标准：\n- `cleanHosts >= 3` → 标记 **USABLE**（真的能用）\n- `cleanHosts > 0` → weak\n- `cleanHosts == 0` → no\n\n## 你的任务分三步\n\n### 第 1 步：跑主测试器\n```\nnode _engine_hunt.mjs \"freelance platform\"\n```\n用 pwsh，run_in_background: true，然后 job_output wait 等待（timeout_ms 给 600000）。\n结果会写到 _engine_hunt.json。\n把最后那段 \"=== USABLE COUNT: N / 49 ===\" 和后面每个 USABLE 的行原文贴回来。\n\n### 第 2 步：针对 weak 的引擎做二次攻坚\n如果 USABLE 少于 3 个，就从 _engine_hunt.json 里找 cleanHosts > 0 但 < 3 的 engine，\n**用不同的查询词再跑一次**，确认是偶发还是真的能用：\n```\nnode _engine_hunt.mjs \"site:github.com awesome freelance\"\n```\n同样等待完成，把结果贴回来。\n\n### 第 3 步：如果还是不够，自己补测新的搜索引擎\n允许你自己写**一个新的小脚本**去测**不在列表里**的引擎。\n候选方向（自己判断，可以发散）：\n- 各国本土引擎：Seznam(捷克)、Naver(韩)、Yahoo Japan、Goo.ne.jp、Biglobe、Infoseek\n- 隐私引擎：MetaGer、Swisscows、Lukol、Teclis、Right Dao、Alexandria、Gigablast 的镜像\n- SearXNG 公共实例（去 searx.space 拿实例列表，逐个测 /search?q=xxx&format=json）\n- 学术/垂直：BASE、CORE、Semantic Scholar、OpenAlex、PubMed\n- 代码/数据：grep.app、Sourcegraph、Common Crawl index\n- 新闻：GDELT、NewsAPI 免费层\n- 中文：头条搜索、夸克、神马、秘塔、天工\n- API 类：Wikipedia API、GitHub API、HN Algolia（**已知可用，别重复测**）\n- 元搜索 API：SearXNG 自建、4get、LibreY\n\n**每个新引擎必须实测**：抓一次，看能不能解析出 ≥3 个真实结果域名。\n不要只看 HTTP 200 —— 200 但解析不出结果是没用的（我测过 Bing/Google/Qwant/360 全是这样）。\n\n## 硬约束\n1. **最多 20 次工具调用**。用完立刻汇报。\n2. 一次只跑一条命令，不要并发。\n3. **不要新建 .md 文件**，不要 git commit/push。\n4. **不要修改 _engine_hunt.mjs**。要测新引擎就写新文件（如 _engine_hunt2.mjs）。\n5. 写脚本时注意：**JS 字符串里 \\s 会被吞掉**，正则改用 [^<] [^\"] [0-9] [A-Za-z0-9_] 这类写法，避开反斜杠转义。\n6. 每次写完脚本先 `node --check xxx.mjs`。\n\n## 汇报格式（只要这个）\n1. **可用引擎清单**：名字 + URL 模板 + 实测能解析出几个域名\n2. **失败的**：名字 + 失败原因（一行一个）\n3. **新发现**（如果第 3 步做了）\n总长 400 字内，不要贴大段 JSON。\nYour parent agent id is \"session-efd433d6-2075-4a5a-93f5-08f02e2ad107\". Before you finish, send your result to that agent with send_message({ agent_id: \"session-efd433d6-2075-4a5a-93f5-08f02e2ad107\", message: \"<self-contained result>\" }). The parent shares your workspace but does not automatically receive your transcript, tool output, or reasoning. Send earlier messages as well when a finding changes what the parent should do next; sending a message does not end your turn."
+          },
+          "count": 1,
+          "lastSeq": 9
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 181,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 181,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 181,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 181,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 28630,
+            "outputTokens": 19825,
+            "cacheReadTokens": 307200,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 1,
+            "step": 14,
+            "buckets": {
+              "uncachedInputTokens": 837,
+              "outputTokens": 868,
+              "cacheReadTokens": 37632,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 181,
+        "val": {
+          "surfaceTokens": 36713,
+          "contextWindow": 1000000,
+          "pressureTokens": 38469,
+          "sampledSurfaceTokens": 36252
+        }
+      },
+      "contextBreakdown": {
+        "ver": 6,
+        "seq": 181,
+        "val": {
+          "systems": [
+            {
+              "seq": 8,
+              "tokens": 10411
+            }
+          ],
+          "surfaceTokens": 36713,
+          "breakdown": {
+            "systemTokens": 10411,
+            "toolsTokens": 628,
+            "messageTokens": 26302
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 181,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 178,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 180
+          },
+          "lastTurn": 1
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 181,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 181,
+        "val": {
+          "turns": 1,
+          "steps": 14,
+          "llmMs": 85543,
+          "toolMs": 538607,
+          "ttftMs": 14101,
+          "ttftSteps": 14,
+          "decodeMs": 71442,
+          "decodeTokens": 19825,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 181,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 5,
+              "prompt": "## 任务：找到能真正用的通用搜索引擎（不惜代价） 环境：Windows，工作目录 D:\\GitH…",
+              "response": "**别信 `_engine_hunt.mjs` 的 USABLE 判定，它的判定方式有严重问题。** 49 个里报 10 个 USABLE，但其中 MetaGer、Swisscows、searx 这几个“可用”的引擎，解析出来的域名全是它…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 181,
+        "val": "ptc"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 181,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 181,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "workingDirectory": {
+        "ver": 1,
+        "seq": 181,
+        "val": "D:\\GitHub"
+      },
+      "subagentCatalog": {
+        "ver": 6,
+        "seq": 181,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 181,
+        "val": {
+          "descriptorSeen": true,
+          "settledMs": 625600,
+          "lastTurnCompleted": true
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 181,
+        "val": {
+          "identity": {
+            "mode": "continuable",
+            "label": "猎取可用通用搜索引擎",
+            "seq": 0
+          }
+        }
+      },
+      "timeContext": {
+        "ver": 2,
+        "seq": 181,
+        "val": {
+          "lastMessageTime": 1792391086912,
+          "lastInjectionTime": 1792391075596,
+          "lastTurnInjectionTime": null
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 181,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 181,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 181,
+        "val": null
+      },
+      "harnessDevLegacyPrompt": {
+        "ver": 1,
+        "seq": 181,
+        "val": {
+          "source": null,
+          "web": null
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 181,
+        "val": {
+          "lastUsed": {
+            "provider": "qodercn",
+            "model": "dfmodel",
+            "reasoningEffort": "max"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 181,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792390462031
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 181,
+        "val": null
+      }
+    }
+  }
+}

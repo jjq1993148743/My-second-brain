@@ -1,0 +1,323 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792543321631,
+      "cwd": "D:\\GitHub",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 1629,
+        "val": "安装 dsh 插件与"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 1629,
+        "val": {
+          "first": {
+            "seq": 8,
+            "text": "dsh plugin --profile <name> add \"https://gitee.com/iJetLi/deepseek-harness-codearts.git\""
+          },
+          "count": 10,
+          "lastSeq": 1536
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 1629,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 1629,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 1629,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 1629,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 14683659,
+            "outputTokens": 160229,
+            "cacheReadTokens": 3103232,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 7,
+            "step": 17,
+            "buckets": {
+              "uncachedInputTokens": 200,
+              "outputTokens": 641,
+              "cacheReadTokens": 176768,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 1629,
+        "val": {
+          "surfaceTokens": 238363,
+          "pressureTokens": 176968,
+          "sampledSurfaceTokens": 238037,
+          "contextWindow": 1000000
+        }
+      },
+      "contextBreakdown": {
+        "ver": 6,
+        "seq": 1629,
+        "val": {
+          "systems": [
+            {
+              "seq": 1475,
+              "tokens": 13941
+            },
+            {
+              "seq": 1462,
+              "tokens": 0
+            }
+          ],
+          "surfaceTokens": 227948,
+          "breakdown": {
+            "systemTokens": 13941,
+            "toolsTokens": 628,
+            "messageTokens": 214007
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 1629,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 1622,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 1624
+          },
+          "lastTurn": 7
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 1629,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 1629,
+        "val": {
+          "turns": 7,
+          "steps": 177,
+          "llmMs": 2360616,
+          "toolMs": 1109551,
+          "ttftMs": 631792,
+          "ttftSteps": 174,
+          "decodeMs": 1659819,
+          "decodeTokens": 160229,
+          "lastTurn": 7,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 1629,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 4,
+              "prompt": "dsh plugin --profile <name> add \"https://gitee.co…",
+              "response": "已装好。以下是实际执行的命令与结果。 ## 执行结果 **使用的 CLI**：本次没有用 PATH 上的 `dsh`（那是旧的 `@deepseek-ai/dsh@0.1.1-rc.2`，且 PATH 上的 pnpm 是 8.6.12），…"
+            },
+            {
+              "turn": 2,
+              "seq": 368,
+              "prompt": "https://github.com/iJetLi/dsh-providers-hub 安装这个",
+              "response": "这里出现一个真实风险：`~/.dsh/profiles/node_modules` 里的共享 `@deepseek-ai/*` 仍是 **0.1.1-rc.2**，而插件要求 0.2.x；`ToolCallId` 缺失只是版本不匹配的症状…"
+            },
+            {
+              "turn": 3,
+              "seq": 829,
+              "prompt": "继续",
+              "response": "已安装到 `web` profile，版本 **1.10.261021**，启动验证通过。 ## 第二大脑里的经验 `50-知识/AI工具/DSH插件市场索引与已装插件备份.md:55` 记着： | 插件 | 版本 | 来源 | 安装方式…"
+            },
+            {
+              "turn": 4,
+              "seq": 1259,
+              "prompt": "没有啊 检查一下",
+              "response": "这个 skill 的包缺少 `SKILL.md`，加载失败。先找到它实际的文件位置："
+            },
+            {
+              "turn": 5,
+              "seq": 1413,
+              "prompt": "？ourfreemodel不好使了 修复",
+              "response": ""
+            },
+            {
+              "turn": 6,
+              "seq": 1423,
+              "prompt": "？ourfreemodel不好使了 修复",
+              "response": "目录已恢复，但所有文件的 `Mode` 都是 `la---`（符号链接），而 `.pnpm` 目录是空的——这通常意味着**链接悬空**。检查链接目标的实际指向："
+            },
+            {
+              "turn": 7,
+              "seq": 1472,
+              "prompt": "继续",
+              "response": "磁盘上的状态全部正常。现在只剩下一步：重启应用。 你装了 `dsh-experimental-terminal-bundle`，我可以从内部重启；不过重启会中断当前会话的界面，所以我先问你。 ## 现在的确切状态 | 项 | 状态 | |…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 1629,
+        "val": "ptc"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 1629,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 1629,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": true
+        }
+      },
+      "workingDirectory": {
+        "ver": 1,
+        "seq": 1629,
+        "val": "D:\\GitHub"
+      },
+      "subagentCatalog": {
+        "ver": 6,
+        "seq": 1629,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 1629,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 1629,
+        "val": {}
+      },
+      "agentTeam": {
+        "ver": 4,
+        "seq": 1629,
+        "val": {
+          "id": "session-7251fc35-5b80-49cf-afeb-7f62c86f540b",
+          "members": [],
+          "tasks": [],
+          "messages": [],
+          "delivered": [],
+          "nextTaskNumber": 1
+        }
+      },
+      "timeContext": {
+        "ver": 2,
+        "seq": 1629,
+        "val": {
+          "lastMessageTime": 1792548722064,
+          "lastInjectionTime": 1792548358353,
+          "lastTurnInjectionTime": null
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 1629,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 1629,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 1629,
+        "val": null
+      },
+      "harnessDevLegacyPrompt": {
+        "ver": 1,
+        "seq": 1629,
+        "val": {
+          "source": null,
+          "web": null
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 1629,
+        "val": {
+          "lastUsed": {
+            "provider": "qodercn",
+            "model": "dfmodel",
+            "reasoningEffort": "max"
+          },
+          "pending": {
+            "provider": "aggregate",
+            "model": "deepseek-v4-1-flash-1017",
+            "reasoningEffort": "xhigh"
+          }
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 1629,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792548555039
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 1629,
+        "val": null
+      }
+    }
+  }
+}

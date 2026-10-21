@@ -1,0 +1,291 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792030232064,
+      "cwd": "C:\\Users\\jjq21\\Desktop\\DSH",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 39,
+        "val": "？"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 39,
+        "val": {
+          "first": {
+            "seq": 11,
+            "text": "？"
+          },
+          "count": 2,
+          "lastSeq": 27
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 39,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 39,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 39,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 39,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 8465,
+            "outputTokens": 318,
+            "cacheReadTokens": 7689,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 2,
+            "step": 2,
+            "buckets": {
+              "uncachedInputTokens": 773,
+              "outputTokens": 179,
+              "cacheReadTokens": 7689,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 39,
+        "val": {
+          "surfaceTokens": 5255,
+          "contextWindow": 1000000,
+          "pressureTokens": 8462,
+          "sampledSurfaceTokens": 5240
+        }
+      },
+      "contextBreakdown": {
+        "ver": 5,
+        "seq": 39,
+        "val": {
+          "nodes": [
+            {
+              "seq": 26,
+              "heuristicTokens": 1536,
+              "system": true
+            },
+            {
+              "seq": 11,
+              "heuristicTokens": 9,
+              "system": false
+            },
+            {
+              "seq": 12,
+              "heuristicTokens": 106,
+              "system": false
+            },
+            {
+              "seq": 13,
+              "heuristicTokens": 2716,
+              "system": false
+            },
+            {
+              "seq": 27,
+              "heuristicTokens": 9,
+              "system": false
+            },
+            {
+              "seq": 28,
+              "heuristicTokens": 38,
+              "system": false
+            },
+            {
+              "seq": 31,
+              "heuristicTokens": 17,
+              "system": false
+            },
+            {
+              "seq": 33,
+              "heuristicTokens": 809,
+              "system": false
+            },
+            {
+              "seq": 36,
+              "heuristicTokens": 15,
+              "system": false
+            }
+          ],
+          "breakdown": {
+            "systemTokens": 1536,
+            "toolsTokens": 5873,
+            "messageTokens": 3719
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 39,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 35,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 37
+          },
+          "lastTurn": 2
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 39,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 39,
+        "val": {
+          "turns": 2,
+          "steps": 3,
+          "llmMs": 14611,
+          "toolMs": 67,
+          "ttftMs": 13229,
+          "ttftSteps": 2,
+          "decodeMs": 1382,
+          "decodeTokens": 318,
+          "lastTurn": 2,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 39,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 7,
+              "prompt": "？",
+              "response": ""
+            },
+            {
+              "turn": 2,
+              "seq": 23,
+              "prompt": "？",
+              "response": "我在。你刚才只发了“？”，想问什么，或需要我帮你做什么？"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 39,
+        "val": "standard"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 39,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "subagentCatalog": {
+        "ver": 3,
+        "seq": 39,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 39,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 39,
+        "val": {}
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 39,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": true
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 39,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 39,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 39,
+        "val": null
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 39,
+        "val": {
+          "lastUsed": {
+            "provider": "workbuddy",
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 39,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792040988914
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 39,
+        "val": null
+      }
+    }
+  }
+}

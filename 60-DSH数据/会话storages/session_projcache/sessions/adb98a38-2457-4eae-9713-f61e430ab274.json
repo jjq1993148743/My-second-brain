@@ -1,0 +1,286 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1792551279906,
+      "cwd": "D:\\GitHub",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 579,
+        "val": "你是搞钱调研的队员A，负责【"
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 579,
+        "val": {
+          "first": {
+            "seq": 9,
+            "text": "你是搞钱调研的队员A，负责【国外大学生市场】。请先 team_task_list 找到 task-1 并 claim 它，然后按任务描述执行。\n\n## 你的具体任务\n抓取国外大学论坛和 Reddit 的真实帖子，摸清国外大学生「愿意为什么付钱」及真实价格。\n产出：50-知识/AI工具/大学生赚钱全景-01-国外篇.md\n\n## 建议顺序（先易后难，保证有产出）\n1. 先用 curl+代理 直连可抓的（已验证 200）：\n   - Student Doctor Network: https://forums.studentdoctor.net/\n   - The GradCafe: https://forum.thegradcafe.com/\n   - Bored of Studies: https://boredofstudies.org/\n   - Unicum: https://www.unicum.de/\n   - e-fellows: https://www.e-fellows.net/\n   - Studis Online: https://www.studis-online.de/\n   - L'Etudiant: https://www.letudiant.fr/\n   - Careers360: https://www.careers360.com/\n2. 需 Chrome 的（curl 会挂）：\n   - The Student Room: https://www.thestudentroom.co.uk/\n   - College Confidential: https://talk.collegeconfidential.com/\n3. 最后用 reddit-archive.mjs 抓 Reddit（间隔≥12秒）\n   子版建议：r/college, r/collegestudent, r/sidehustle, r/beermoney, r/forhire\n   关键词：tutor, essay help, resume, internship, side hustle, freelance\n\n## 分析维度（这是报告的核心）\n对每个论坛/帖子提取：\n- 学生在抱怨什么（痛点原文，带链接）\n- 谁在卖服务、卖什么、报价多少（保留原货币）\n- 有没有人晒收入/复盘\n- 竞争密度（同一需求多少人在卖）\n\n## 重点找的问题\n1. 国外大学生最愿意花钱解决什么？（辅导？论文润色？简历？实习？）\n2. 价格是多少？（美元/英镑/欧元）\n3. 有没有中国人可以做、且时差/语言不是问题的服务？\n\n## 环境（重要，必须遵守）\n- 工作目录：D:\\GitHub\\My-second-brain\n- 脚本目录：D:\\GitHub\\My-second-brain\\50-知识\\AI工具\\_scripts\n- 网络：Node fetch 会返回 400，**必须用 curl 走代理 http://127.0.0.1:7897**\n- curl 范式：curl -sL -x http://127.0.0.1:7897 -H \"User-Agent: Mozilla/5.0 ...\" --max-time 20 --compressed \"<url>\"\n- SPA 站必须用 chrome-fetch.mjs：node chrome-fetch.mjs \"<url>\" <outfile.html> <virtualTimeMs>\n- 已可用脚本：chrome-fetch.mjs、sogou.mjs、reddit-archive.mjs、search-multi.mjs\n- git 推送：git -c http.proxy=http://127.0.0.1:7897 -c https.proxy=http://127.0.0.1:7897 push origin main\n\n## 红线（比产出重要）\n1. 不登录、不注册、不碰验证码\n2. 串行抓取，间隔 3-10 秒（敏感站 ≥30 秒），异常立即停\n3. 绝不编造数据：每个价格/收入必须有原文出处；找不到就明确写「未找到」\n4. 收入数字必须标注来源性质：【实证】【分享者自述】【推测】\n5. 不做「代写论文」「代写简历成品」等灰色业务分析\n\n## 交付要求\n- 报告写到指定的 md 文件\n- 中文，用表格承载数据，每个数字标注信源\n- 结尾必须有「本报告的数据局限」一节，诚实说明样本量、时间、抓不到的站\n- 完成后：git add + commit + push（commit message 用中文，说明做了什么）\n- 最后用 send_message 给 lead 发一句话总结：做了多少站、挖到多少条有效数据、最重要的 3 个发现\n"
+          },
+          "count": 1,
+          "lastSeq": 9
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 579,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 579,
+        "val": "danger-full-access"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 579,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 579,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 197946,
+            "outputTokens": 36070,
+            "cacheReadTokens": 4063744,
+            "cacheWriteTokens": 0
+          },
+          "last": {
+            "turn": 1,
+            "step": 59,
+            "buckets": {
+              "uncachedInputTokens": 99717,
+              "outputTokens": 717,
+              "cacheReadTokens": 18304,
+              "cacheWriteTokens": 0
+            }
+          }
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 579,
+        "val": {
+          "surfaceTokens": 102422,
+          "contextWindow": 1048576,
+          "pressureTokens": 118021,
+          "sampledSurfaceTokens": 102087
+        }
+      },
+      "contextBreakdown": {
+        "ver": 6,
+        "seq": 579,
+        "val": {
+          "systems": [
+            {
+              "seq": 8,
+              "tokens": 18172
+            }
+          ],
+          "surfaceTokens": 102422,
+          "breakdown": {
+            "systemTokens": 18172,
+            "toolsTokens": 628,
+            "messageTokens": 84250
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 579,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": 576,
+          "lastStepBoundary": {
+            "kind": "end",
+            "seq": 578
+          },
+          "lastTurn": 1
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 579,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 579,
+        "val": {
+          "turns": 1,
+          "steps": 59,
+          "llmMs": 504842,
+          "toolMs": 949386,
+          "ttftMs": 366543,
+          "ttftSteps": 59,
+          "decodeMs": 138299,
+          "decodeTokens": 36070,
+          "lastTurn": 1,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 579,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 5,
+              "prompt": "你是搞钱调研的队员A，负责【国外大学生市场】。请先 team_task_list 找到 task-…",
+              "response": "已交付。 ## 交付结果 **报告**：`50-知识/AI工具/大学生赚钱全景-01-国外篇.md` **提交**：`c4caf65` 已 push 到 origin/main，本地无未提交改动 **任务**：task-1 已标记为 co…"
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 579,
+        "val": "ptc"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 579,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 579,
+        "val": {
+          "preset": "danger-full-access",
+          "sandbox": "danger-full-access",
+          "approval": "never",
+          "seeded": false
+        }
+      },
+      "workingDirectory": {
+        "ver": 1,
+        "seq": 579,
+        "val": "D:\\GitHub"
+      },
+      "subagentCatalog": {
+        "ver": 6,
+        "seq": 579,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 579,
+        "val": {
+          "descriptorSeen": true,
+          "settledMs": 1786461,
+          "lastTurnCompleted": true
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 579,
+        "val": {
+          "identity": {
+            "mode": "continuable",
+            "label": "国外大学论坛+Reddit大学生搞钱调研",
+            "seq": 0
+          }
+        }
+      },
+      "agentTeam": {
+        "ver": 4,
+        "seq": 579,
+        "val": {
+          "id": "adb98a38-2457-4eae-9713-f61e430ab274",
+          "members": [],
+          "tasks": [],
+          "messages": [],
+          "delivered": [],
+          "nextTaskNumber": 1
+        }
+      },
+      "timeContext": {
+        "ver": 2,
+        "seq": 579,
+        "val": {
+          "lastMessageTime": 1792553065607,
+          "lastInjectionTime": 1792552517890,
+          "lastTurnInjectionTime": null
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 579,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 579,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": false
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 579,
+        "val": null
+      },
+      "harnessDevLegacyPrompt": {
+        "ver": 1,
+        "seq": 579,
+        "val": {
+          "source": null,
+          "web": null
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 579,
+        "val": {
+          "lastUsed": {
+            "provider": "aggregate",
+            "model": "deepseek-v4-1-flash",
+            "reasoningEffort": "high"
+          },
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 579,
+        "val": {
+          "blank": false,
+          "lastPromptAt": 1792551284143
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 579,
+        "val": null
+      }
+    }
+  }
+}
