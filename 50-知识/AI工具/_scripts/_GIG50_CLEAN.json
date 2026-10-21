@@ -1,0 +1,504 @@
+[
+ {
+  "cat": "🌍 全球自由职业",
+  "items": [
+   {
+    "host": "freelancer.com",
+    "name": "Freelancer.com",
+    "status": "✅有活有价",
+    "proj": 23,
+    "money": 9
+   },
+   {
+    "host": "fiverr.com",
+    "name": "Fiverr",
+    "status": "✅有活无价",
+    "proj": 15,
+    "money": 1
+   },
+   {
+    "host": "toptal.com",
+    "name": "toptal",
+    "status": "✅有活有价",
+    "proj": 37,
+    "money": 3
+   },
+   {
+    "host": "contra.com",
+    "name": "Contra",
+    "status": "✅有活有价",
+    "proj": 30,
+    "money": 6
+   },
+   {
+    "host": "braintrust.com",
+    "name": "Braintrust",
+    "status": "✅有活无价",
+    "proj": 5,
+    "money": 1
+   },
+   {
+    "host": "usebraintrust.com",
+    "name": "Braintrust",
+    "status": "✅有活无价",
+    "proj": 5,
+    "money": 1
+   },
+   {
+    "host": "freelancer.co.nz",
+    "name": "Freelancer.com",
+    "status": "✅有活有价",
+    "proj": 23,
+    "money": 9
+   },
+   {
+    "host": "freelancer.com.au",
+    "name": "Freelancer.com",
+    "status": "✅有活有价",
+    "proj": 23,
+    "money": 9
+   },
+   {
+    "host": "freelancer.in",
+    "name": "Freelancer.com",
+    "status": "✅有活有价",
+    "proj": 23,
+    "money": 9
+   }
+  ]
+ },
+ {
+  "cat": "🇪🇺 欧洲接单",
+  "items": [
+   {
+    "host": "fl.ru",
+    "name": "FL.ru",
+    "status": "✅有活无价",
+    "proj": 4,
+    "money": 0
+   },
+   {
+    "host": "codeur.com",
+    "name": "Codeur.com",
+    "status": "✅有活有价",
+    "proj": 183,
+    "money": 14
+   },
+   {
+    "host": "useme.com",
+    "name": "Useme",
+    "status": "✅有活有价",
+    "proj": 11,
+    "money": 2
+   },
+   {
+    "host": "freelance.nl",
+    "name": "freelance.nl",
+    "status": "✅有活有价",
+    "proj": 86,
+    "money": 2
+   },
+   {
+    "host": "free-work.com",
+    "name": "free-work.com",
+    "status": "✅有活有价",
+    "proj": 42,
+    "money": 48
+   },
+   {
+    "host": "freelancermap.de",
+    "name": "Freelancermap",
+    "status": "营销/需登录",
+    "proj": 0,
+    "money": 0
+   },
+   {
+    "host": "twagofreelance.com",
+    "name": "twagofreelance",
+    "status": "✅有活有价",
+    "proj": 29,
+    "money": 7
+   },
+   {
+    "host": "freelance.de",
+    "name": "freelancede",
+    "status": "✅有活无价",
+    "proj": 23,
+    "money": 0
+   },
+   {
+    "host": "comet.co",
+    "name": "comet.co",
+    "status": "✅有活无价",
+    "proj": 108,
+    "money": 0
+   },
+   {
+    "host": "worksome.com",
+    "name": "worksome",
+    "status": "✅有活有价",
+    "proj": 6,
+    "money": 5
+   },
+   {
+    "host": "beingguru.com",
+    "name": "beingguru",
+    "status": "✅有活无价",
+    "proj": 1,
+    "money": 1
+   },
+   {
+    "host": "freelanceboard.it",
+    "name": "freelanceboard",
+    "status": "✅有活无价",
+    "proj": 69,
+    "money": 0
+   }
+  ]
+ },
+ {
+  "cat": "🌏 亚太接单",
+  "items": [
+   {
+    "host": "crowdworks.jp",
+    "name": "crowdworks",
+    "status": "营销/需登录",
+    "proj": 0,
+    "money": 0
+   },
+   {
+    "host": "lancers.jp",
+    "name": "lancers",
+    "status": "营销/需登录",
+    "proj": 0,
+    "money": 0
+   },
+   {
+    "host": "sribu.com",
+    "name": "sribu",
+    "status": "✅有活无价",
+    "proj": 21,
+    "money": 0
+   },
+   {
+    "host": "fastwork.id",
+    "name": "fastwork",
+    "status": "✅有活无价",
+    "proj": 5,
+    "money": 0
+   },
+   {
+    "host": "freelancing.my",
+    "name": "freelancingmy",
+    "status": "✅有活无价",
+    "proj": 33,
+    "money": 1
+   },
+   {
+    "host": "workana.com",
+    "name": "Workana",
+    "status": "✅有活无价",
+    "proj": 5,
+    "money": 1
+   },
+   {
+    "host": "latinhire.com",
+    "name": "latinhire",
+    "status": "✅有活无价",
+    "proj": 4,
+    "money": 1
+   }
+  ]
+ },
+ {
+  "cat": "💰 赏金悬赏",
+  "items": [
+   {
+    "host": "bugcrowd.com",
+    "name": "bugcrowd",
+    "status": "✅有活有价",
+    "proj": 16,
+    "money": 6
+   },
+   {
+    "host": "hackerone.com",
+    "name": "hackerone",
+    "status": "✅有活无价",
+    "proj": 6,
+    "money": 0
+   },
+   {
+    "host": "huntr.co",
+    "name": "huntr",
+    "status": "✅有活无价",
+    "proj": 1,
+    "money": 0
+   },
+   {
+    "host": "huntr.com",
+    "name": "huntr",
+    "status": "✅有活无价",
+    "proj": 1,
+    "money": 0
+   },
+   {
+    "host": "algora.io",
+    "name": "algora",
+    "status": "✅有活有价",
+    "proj": 0,
+    "money": 6
+   },
+   {
+    "host": "internetbugbounty.org",
+    "name": "internetbugbounty",
+    "status": "✅有活有价",
+    "proj": 31,
+    "money": 2
+   },
+   {
+    "host": "gitcoin.co",
+    "name": "Gitcoin",
+    "status": "✅有活无价",
+    "proj": 4,
+    "money": 6
+   },
+   {
+    "host": "immunefi.com",
+    "name": "Immunefi",
+    "status": "✅有活有价",
+    "proj": 24,
+    "money": 3
+   }
+  ]
+ },
+ {
+  "cat": "🤖 AI训练标注",
+  "items": [
+   {
+    "host": "mercor.com",
+    "name": "mercor",
+    "status": "✅有活有价",
+    "proj": 10,
+    "money": 11
+   },
+   {
+    "host": "alignerr.com",
+    "name": "alignerr",
+    "status": "✅有活无价",
+    "proj": 0,
+    "money": 10
+   },
+   {
+    "host": "outlier.ai",
+    "name": "outlier",
+    "status": "✅有活有价",
+    "proj": 31,
+    "money": 4
+   },
+   {
+    "host": "dataannotation.tech",
+    "name": "dataannotation",
+    "status": "✅有活有价",
+    "proj": 7,
+    "money": 117
+   },
+   {
+    "host": "tasklet.ai",
+    "name": "tasklet",
+    "status": "✅有活有价",
+    "proj": 7,
+    "money": 15
+   },
+   {
+    "host": "clickworker.com",
+    "name": "Clickworker",
+    "status": "✅有活有价",
+    "proj": 49,
+    "money": 2
+   },
+   {
+    "host": "microworkers.com",
+    "name": "Microworkers",
+    "status": "✅有活有价",
+    "proj": 26,
+    "money": 6
+   },
+   {
+    "host": "toloka.ai",
+    "name": "Toloka",
+    "status": "✅有活无价",
+    "proj": 12,
+    "money": 0
+   },
+   {
+    "host": "remotasks.com",
+    "name": "Remotasks",
+    "status": "✅有活无价",
+    "proj": 10,
+    "money": 1
+   }
+  ]
+ },
+ {
+  "cat": "🧪 用户测试调研",
+  "items": [
+   {
+    "host": "usertesting.com",
+    "name": "UserTesting",
+    "status": "✅有活有价",
+    "proj": 11,
+    "money": 2
+   },
+   {
+    "host": "userinterviews.com",
+    "name": "UserInterviews",
+    "status": "✅有活无价",
+    "proj": 4,
+    "money": 3
+   },
+   {
+    "host": "respondent.io",
+    "name": "Respondent",
+    "status": "✅有活有价",
+    "proj": 5,
+    "money": 4
+   },
+   {
+    "host": "dscout.com",
+    "name": "dScout",
+    "status": "✅有活无价",
+    "proj": 4,
+    "money": 0
+   }
+  ]
+ },
+ {
+  "cat": "💼 项目制外包",
+  "items": [
+   {
+    "host": "giggrabbers.com",
+    "name": "giggrabbers",
+    "status": "✅有活有价",
+    "proj": 25,
+    "money": 36
+   },
+   {
+    "host": "gigster.com",
+    "name": "gigster",
+    "status": "✅有活有价",
+    "proj": 12,
+    "money": 3
+   },
+   {
+    "host": "solidgigs.com",
+    "name": "solidgigs",
+    "status": "✅有活有价",
+    "proj": 15,
+    "money": 12
+   },
+   {
+    "host": "kolabtree.com",
+    "name": "kolabtree",
+    "status": "✅有活有价",
+    "proj": 32,
+    "money": 3
+   },
+   {
+    "host": "superside.com",
+    "name": "Superside",
+    "status": "✅有活有价",
+    "proj": 59,
+    "money": 2
+   },
+   {
+    "host": "crew.co",
+    "name": "Crew",
+    "status": "✅有活有价",
+    "proj": 115,
+    "money": 15
+   },
+   {
+    "host": "marketerhire.com",
+    "name": "MarketerHire",
+    "status": "✅有活有价",
+    "proj": 6,
+    "money": 17
+   },
+   {
+    "host": "codeable.io",
+    "name": "Codeable",
+    "status": "✅有活有价",
+    "proj": 20,
+    "money": 2
+   },
+   {
+    "host": "arc.dev",
+    "name": "Arc.dev",
+    "status": "✅有活有价",
+    "proj": 24,
+    "money": 4
+   },
+   {
+    "host": "lemon.io",
+    "name": "Lemon.io",
+    "status": "✅有活有价",
+    "proj": 13,
+    "money": 5
+   },
+   {
+    "host": "jugglehire.com",
+    "name": "jugglehire",
+    "status": "✅有活有价",
+    "proj": 10,
+    "money": 33
+   },
+   {
+    "host": "commissioncrowd.com",
+    "name": "commissioncrowd",
+    "status": "✅有活有价",
+    "proj": 18,
+    "money": 40
+   },
+   {
+    "host": "catalant.com",
+    "name": "catalant",
+    "status": "✅有活有价",
+    "proj": 3,
+    "money": 2
+   },
+   {
+    "host": "devopsprojectshq.com",
+    "name": "devopsprojectshq",
+    "status": "✅有活有价",
+    "proj": 5,
+    "money": 39
+   },
+   {
+    "host": "project-awesome.org",
+    "name": "projectawesome",
+    "status": "✅有活有价",
+    "proj": 28,
+    "money": 2
+   },
+   {
+    "host": "cryptotask.org",
+    "name": "cryptotask",
+    "status": "✅有活有价",
+    "proj": 8,
+    "money": 7
+   }
+  ]
+ },
+ {
+  "cat": "🏠 本地散活",
+  "items": [
+   {
+    "host": "taskrabbit.com",
+    "name": "taskrabbit",
+    "status": "✅有活有价",
+    "proj": 14,
+    "money": 9
+   }
+  ]
+ }
+]

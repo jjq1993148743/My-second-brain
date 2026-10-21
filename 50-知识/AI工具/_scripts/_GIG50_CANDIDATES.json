@@ -1,0 +1,457 @@
+[
+ {
+  "name": "PeoplePerHour",
+  "host": "peopleperhour.com",
+  "note": "英国接单"
+ },
+ {
+  "name": "Freelancer.com",
+  "host": "freelancer.com",
+  "note": "全球接单"
+ },
+ {
+  "name": "FL.ru",
+  "host": "fl.ru",
+  "note": "俄语接单"
+ },
+ {
+  "name": "一品威客",
+  "host": "epwk.com",
+  "note": "中文接单"
+ },
+ {
+  "name": "Codeur.com",
+  "host": "codeur.com",
+  "note": "法语接单"
+ },
+ {
+  "name": "Useme",
+  "host": "useme.com",
+  "note": "波兰接单"
+ },
+ {
+  "name": "Freelancermap",
+  "host": "freelancermap.de",
+  "note": "德语项目"
+ },
+ {
+  "name": "Twine",
+  "host": "twine.net",
+  "note": "创意接单"
+ },
+ {
+  "name": "Workana",
+  "host": "workana.com",
+  "note": "拉美接单"
+ },
+ {
+  "name": "Larajobs",
+  "host": "larajobs.com",
+  "note": "Laravel专岗"
+ },
+ {
+  "name": "JustJoinIT",
+  "host": "justjoin.it",
+  "note": "波兰IT"
+ },
+ {
+  "name": "nofluffjobs",
+  "host": "nofluffjobs.com",
+  "note": "波兰IT"
+ },
+ {
+  "name": "freelance.nl",
+  "host": "freelance.nl",
+  "note": "荷兰接单"
+ },
+ {
+  "name": "free-work.com",
+  "host": "free-work.com",
+  "note": "法国IT"
+ },
+ {
+  "name": "hays.de",
+  "host": "hays.de",
+  "note": "德国人力"
+ },
+ {
+  "name": "comet.co",
+  "host": "comet.co",
+  "note": "法国咨询"
+ },
+ {
+  "name": "jobberman",
+  "host": "jobberman.com",
+  "note": "尼日利亚"
+ },
+ {
+  "name": "kalibrr",
+  "host": "kalibrr.com",
+  "note": "东南亚"
+ },
+ {
+  "name": "internshala",
+  "host": "internshala.com",
+  "note": "印度实习"
+ },
+ {
+  "name": "cutshort",
+  "host": "cutshort.io",
+  "note": "印度"
+ },
+ {
+  "name": "uplers",
+  "host": "uplers.com",
+  "note": "印度远程"
+ },
+ {
+  "name": "worksome",
+  "host": "worksome.com",
+  "note": "北欧自由职业"
+ },
+ {
+  "name": "solidgigs",
+  "host": "solidgigs.com",
+  "note": "美国线索"
+ },
+ {
+  "name": "giggrabbers",
+  "host": "giggrabbers.com",
+  "note": "美国众筹"
+ },
+ {
+  "name": "gigster",
+  "host": "gigster.com",
+  "note": "美国高端"
+ },
+ {
+  "name": "toptal",
+  "host": "toptal.com",
+  "note": "全球高端"
+ },
+ {
+  "name": "guru",
+  "host": "guru.com",
+  "note": "全球接单"
+ },
+ {
+  "name": "hirebase",
+  "host": "hirebase.org",
+  "note": "招聘聚合"
+ },
+ {
+  "name": "codechef",
+  "host": "codechef.com",
+  "note": "印度竞赛"
+ },
+ {
+  "name": "hackerrank",
+  "host": "hackerrank.com",
+  "note": "印度竞赛"
+ },
+ {
+  "name": "hnhiring",
+  "host": "hnhiring.com",
+  "note": "HN招聘"
+ },
+ {
+  "name": "builtin",
+  "host": "builtin.com",
+  "note": "美国科技"
+ },
+ {
+  "name": "dice",
+  "host": "dice.com",
+  "note": "美国技术"
+ },
+ {
+  "name": "workinfinland",
+  "host": "workinfinland.com",
+  "note": "芬兰"
+ },
+ {
+  "name": "firstwavejobs",
+  "host": "firstwavejobs.com",
+  "note": "美国"
+ },
+ {
+  "name": "jobboardsearch",
+  "host": "jobboardsearch.com",
+  "note": "招聘聚合"
+ },
+ {
+  "name": "jobicy",
+  "host": "jobicy.com",
+  "note": "远程"
+ },
+ {
+  "name": "jobgether",
+  "host": "jobgether.com",
+  "note": "远程聚合"
+ },
+ {
+  "name": "cv-library",
+  "host": "cv-library.co.uk",
+  "note": "英国"
+ },
+ {
+  "name": "xing",
+  "host": "xing.com",
+  "note": "德语区"
+ },
+ {
+  "name": "cryptotask",
+  "host": "cryptotask.org",
+  "note": "Web3任务"
+ },
+ {
+  "name": "kolabtree",
+  "host": "kolabtree.com",
+  "note": "科研专家"
+ },
+ {
+  "name": "taskrabbit",
+  "host": "taskrabbit.com",
+  "note": "本地任务"
+ },
+ {
+  "name": "bugcrowd",
+  "host": "bugcrowd.com",
+  "note": "漏洞赏金"
+ },
+ {
+  "name": "hackerone",
+  "host": "hackerone.com",
+  "note": "漏洞赏金"
+ },
+ {
+  "name": "intigriti",
+  "host": "intigriti.com",
+  "note": "漏洞赏金"
+ },
+ {
+  "name": "huntr",
+  "host": "huntr.co",
+  "note": "AI赏金"
+ },
+ {
+  "name": "algora",
+  "host": "algora.io",
+  "note": "开源赏金"
+ },
+ {
+  "name": "mediabistro",
+  "host": "mediabistro.com",
+  "note": "媒体"
+ },
+ {
+  "name": "nodesk",
+  "host": "nodesk.co",
+  "note": "远程"
+ },
+ {
+  "name": "remoteok",
+  "host": "remoteok.com",
+  "note": "远程"
+ },
+ {
+  "name": "web3career",
+  "host": "web3.career",
+  "note": "Web3"
+ },
+ {
+  "name": "cryptojobslist",
+  "host": "cryptojobslist.com",
+  "note": "加密"
+ },
+ {
+  "name": "wellfound",
+  "host": "wellfound.com",
+  "note": "初创"
+ },
+ {
+  "name": "techjobsforgood",
+  "host": "techjobsforgood.com",
+  "note": "公益科技"
+ },
+ {
+  "name": "himalayas",
+  "host": "himalayas.app",
+  "note": "远程"
+ },
+ {
+  "name": "remotive",
+  "host": "remotive.com",
+  "note": "远程"
+ },
+ {
+  "name": "weworkremotely",
+  "host": "weworkremotely.com",
+  "note": "远程"
+ },
+ {
+  "name": "eurotechjobs",
+  "host": "eurotechjobs.com",
+  "note": "欧洲"
+ },
+ {
+  "name": "phpjobs",
+  "host": "phpjobs.com",
+  "note": "PHP专岗"
+ },
+ {
+  "name": "javascriptjobs",
+  "host": "javascript.jobs",
+  "note": "JS专岗"
+ },
+ {
+  "name": "datajobs",
+  "host": "data.jobs",
+  "note": "数据专岗"
+ },
+ {
+  "name": "arbeitnow",
+  "host": "arbeitnow.com",
+  "note": "德国"
+ },
+ {
+  "name": "mercor",
+  "host": "mercor.com",
+  "note": "AI训练"
+ },
+ {
+  "name": "alignerr",
+  "host": "alignerr.com",
+  "note": "AI训练"
+ },
+ {
+  "name": "freelancede",
+  "host": "freelance.de",
+  "note": "德国接单"
+ },
+ {
+  "name": "twagofreelance",
+  "host": "twagofreelance.com",
+  "note": "德国"
+ },
+ {
+  "name": "beingguru",
+  "host": "beingguru.com",
+  "note": "接单"
+ },
+ {
+  "name": "projectawesome",
+  "host": "project-awesome.org",
+  "note": "项目"
+ },
+ {
+  "name": "commissioncrowd",
+  "host": "commissioncrowd.com",
+  "note": "销售"
+ },
+ {
+  "name": "catalant",
+  "host": "catalant.com",
+  "note": "营销接单"
+ },
+ {
+  "name": "freelanceboard",
+  "host": "freelanceboard.it",
+  "note": "意大利"
+ },
+ {
+  "name": "internetbugbounty",
+  "host": "internetbugbounty.org",
+  "note": "赏金"
+ },
+ {
+  "name": "devopsprojectshq",
+  "host": "devopsprojectshq.com",
+  "note": "DevOps项目"
+ },
+ {
+  "name": "jugglehire",
+  "host": "jugglehire.com",
+  "note": "招聘"
+ },
+ {
+  "name": "ceehire",
+  "host": "ceehire.com",
+  "note": "中东欧"
+ },
+ {
+  "name": "realhire",
+  "host": "realhire.com",
+  "note": "招聘"
+ },
+ {
+  "name": "freehire",
+  "host": "freehire.me",
+  "note": "招聘"
+ },
+ {
+  "name": "hired",
+  "host": "hired.org",
+  "note": "招聘"
+ },
+ {
+  "name": "coconala",
+  "host": "coconala.com",
+  "note": "日本接单"
+ },
+ {
+  "name": "crowdworks",
+  "host": "crowdworks.jp",
+  "note": "日本接单"
+ },
+ {
+  "name": "lancers",
+  "host": "lancers.jp",
+  "note": "日本接单"
+ },
+ {
+  "name": "sribu",
+  "host": "sribu.com",
+  "note": "印尼接单"
+ },
+ {
+  "name": "fastwork",
+  "host": "fastwork.id",
+  "note": "印尼接单"
+ },
+ {
+  "name": "freelancehunt",
+  "host": "freelancehunt.com",
+  "note": "乌克兰接单"
+ },
+ {
+  "name": "freelancingmy",
+  "host": "freelancing.my",
+  "note": "马来"
+ },
+ {
+  "name": "tasklet",
+  "host": "tasklet.ai",
+  "note": "AI任务"
+ },
+ {
+  "name": "contractbook",
+  "host": "contractbook.co",
+  "note": "合同"
+ },
+ {
+  "name": "latinhire",
+  "host": "latinhire.com",
+  "note": "拉美"
+ },
+ {
+  "name": "outlier",
+  "host": "outlier.ai",
+  "note": "AI训练"
+ },
+ {
+  "name": "dataannotation",
+  "host": "dataannotation.tech",
+  "note": "AI标注"
+ }
+]

@@ -1,0 +1,207 @@
+[
+ {
+  "name": "Upwork",
+  "host": "upwork.com",
+  "note": "全球最大接单"
+ },
+ {
+  "name": "Fiverr",
+  "host": "fiverr.com",
+  "note": "微型服务"
+ },
+ {
+  "name": "Codeable",
+  "host": "codeable.io",
+  "note": "WordPress专单"
+ },
+ {
+  "name": "Contra",
+  "host": "contra.com",
+  "note": "零佣金接单"
+ },
+ {
+  "name": "Braintrust",
+  "host": "usebraintrust.com",
+  "note": "去中心化人才"
+ },
+ {
+  "name": "Upstack",
+  "host": "upstack.com",
+  "note": "技术接单"
+ },
+ {
+  "name": "Arc.dev",
+  "host": "arc.dev",
+  "note": "远程开发者"
+ },
+ {
+  "name": "Lemon.io",
+  "host": "lemon.io",
+  "note": "东欧开发者"
+ },
+ {
+  "name": "Gun.io",
+  "host": "gun.io",
+  "note": "美国技术"
+ },
+ {
+  "name": "MarketerHire",
+  "host": "marketerhire.com",
+  "note": "营销专单"
+ },
+ {
+  "name": "Superside",
+  "host": "superside.com",
+  "note": "设计外包"
+ },
+ {
+  "name": "Crew",
+  "host": "crew.co",
+  "note": "设计开发"
+ },
+ {
+  "name": "Clickworker",
+  "host": "clickworker.com",
+  "note": "微任务"
+ },
+ {
+  "name": "Microworkers",
+  "host": "microworkers.com",
+  "note": "微任务"
+ },
+ {
+  "name": "Prolific",
+  "host": "prolific.com",
+  "note": "学术调研"
+ },
+ {
+  "name": "UserTesting",
+  "host": "usertesting.com",
+  "note": "UX测试"
+ },
+ {
+  "name": "UserInterviews",
+  "host": "userinterviews.com",
+  "note": "用户访谈"
+ },
+ {
+  "name": "Respondent",
+  "host": "respondent.io",
+  "note": "付费调研"
+ },
+ {
+  "name": "dScout",
+  "host": "dscout.com",
+  "note": "移动调研"
+ },
+ {
+  "name": "Toloka",
+  "host": "toloka.ai",
+  "note": "数据标注"
+ },
+ {
+  "name": "Appen",
+  "host": "appen.com",
+  "note": "AI数据"
+ },
+ {
+  "name": "Remotasks",
+  "host": "remotasks.com",
+  "note": "AI标注"
+ },
+ {
+  "name": "Scale AI",
+  "host": "scale.com",
+  "note": "AI数据"
+ },
+ {
+  "name": "Gitcoin",
+  "host": "gitcoin.co",
+  "note": "开源赏金"
+ },
+ {
+  "name": "Immunefi",
+  "host": "immunefi.com",
+  "note": "Web3漏洞"
+ },
+ {
+  "name": "YesWeHack",
+  "host": "yeswehack.com",
+  "note": "漏洞赏金"
+ },
+ {
+  "name": "OpenBugBounty",
+  "host": "openbugbounty.org",
+  "note": "漏洞赏金"
+ },
+ {
+  "name": "Huntr",
+  "host": "huntr.com",
+  "note": "AI/ML赏金"
+ },
+ {
+  "name": "猪八戒",
+  "host": "zbj.com",
+  "note": "中文接单"
+ },
+ {
+  "name": "一品威客",
+  "host": "epwk.com",
+  "note": "中文接单"
+ },
+ {
+  "name": "程序员客栈",
+  "host": "proginn.com",
+  "note": "程序员接单"
+ },
+ {
+  "name": "实现网",
+  "host": "shixian.com",
+  "note": "技术接单"
+ },
+ {
+  "name": "云沃客",
+  "host": "yunwork.com",
+  "note": "云工作"
+ },
+ {
+  "name": "猿急送",
+  "host": "yuanjisong.com",
+  "note": "技术接单"
+ },
+ {
+  "name": "开源众包",
+  "host": "zb.oschina.net",
+  "note": "开源众包"
+ },
+ {
+  "name": "特赞",
+  "host": "tezign.com",
+  "note": "设计接单"
+ },
+ {
+  "name": "时间财富",
+  "host": "680.com",
+  "note": "中文悬赏"
+ },
+ {
+  "name": "Fiverr Pro",
+  "host": "pro.fiverr.com",
+  "note": "高端服务"
+ },
+ {
+  "name": "PeoplePerHour",
+  "host": "peopleperhour.com",
+  "note": "英国接单"
+ },
+ {
+  "name": "Truelancer",
+  "host": "truelancer.com",
+  "note": "印度接单"
+ },
+ {
+  "name": "Freelancer.com",
+  "host": "freelancer.com",
+  "note": "全球接单"
+ }
+]
