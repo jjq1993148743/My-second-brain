@@ -1,0 +1,182 @@
+[
+ {
+  "name": "一品威客",
+  "host": "epwk.com",
+  "url": "https://www.epwk.com/",
+  "type": "中文悬赏"
+ },
+ {
+  "name": "猪八戒",
+  "host": "zbj.com",
+  "url": "https://www.zbj.com/",
+  "type": "中文接单"
+ },
+ {
+  "name": "程序员客栈",
+  "host": "proginn.com",
+  "url": "https://www.proginn.com/",
+  "type": "程序员接单"
+ },
+ {
+  "name": "实现网",
+  "host": "shixian.com",
+  "url": "https://shixian.com/",
+  "type": "技术接单"
+ },
+ {
+  "name": "猿急送",
+  "host": "yuanjisong.com",
+  "url": "https://www.yuanjisong.com/",
+  "type": "技术接单"
+ },
+ {
+  "name": "开源众包",
+  "host": "zb.oschina.net",
+  "url": "https://zb.oschina.net/",
+  "type": "开源众包"
+ },
+ {
+  "name": "特赞",
+  "host": "tezign.com",
+  "url": "https://www.tezign.com/",
+  "type": "设计接单"
+ },
+ {
+  "name": "时间财富",
+  "host": "680.com",
+  "url": "https://www.680.com/",
+  "type": "中文悬赏"
+ },
+ {
+  "name": "我爱方案网",
+  "host": "52solution.com",
+  "url": "https://www.52solution.com/",
+  "type": "方案外包"
+ },
+ {
+  "name": "云沃客",
+  "host": "yunwork.com",
+  "url": "https://www.yunwork.com/",
+  "type": "云工作"
+ },
+ {
+  "name": "解放号",
+  "host": "jfh.com",
+  "url": "https://www.jfh.com/",
+  "type": "IT外包"
+ },
+ {
+  "name": "码市",
+  "host": "mart.coding.net",
+  "url": "https://mart.coding.net/",
+  "type": "程序员接单"
+ },
+ {
+  "name": "快码众包",
+  "host": "kuaima.cn",
+  "url": "https://www.kuaima.cn/",
+  "type": "众包开发"
+ },
+ {
+  "name": "智城外包",
+  "host": "taskcity.com",
+  "url": "https://www.taskcity.com/",
+  "type": "IT外包"
+ },
+ {
+  "name": "英选",
+  "host": "yingxuan.io",
+  "url": "https://www.yingxuan.io/",
+  "type": "技术外包"
+ },
+ {
+  "name": "自由人",
+  "host": "ziyouren.com",
+  "url": "https://www.ziyouren.com/",
+  "type": "自由职业"
+ },
+ {
+  "name": "做到",
+  "host": "zuodao.com",
+  "url": "https://www.zuodao.com/",
+  "type": "翻译众包"
+ },
+ {
+  "name": "译客",
+  "host": "yike.io",
+  "url": "https://www.yike.io/",
+  "type": "翻译"
+ },
+ {
+  "name": "有道人工翻译",
+  "host": "f.youdao.com",
+  "url": "https://f.youdao.com/",
+  "type": "翻译"
+ },
+ {
+  "name": "我译网",
+  "host": "woyiwang.com",
+  "url": "https://www.woyiwang.com/",
+  "type": "翻译"
+ },
+ {
+  "name": "豆瓣稿费银行",
+  "host": "douban.com",
+  "url": "https://www.douban.com/group/402452/",
+  "type": "写手接单"
+ },
+ {
+  "name": "稿稿",
+  "host": "gaogao.com",
+  "url": "https://www.gaogao.com/",
+  "type": "约稿"
+ },
+ {
+  "name": "中国写手之家",
+  "host": "xieshou.com",
+  "url": "https://www.xieshou.com/",
+  "type": "写手"
+ },
+ {
+  "name": "威客网",
+  "host": "vike.cn",
+  "url": "https://www.vike.cn/",
+  "type": "悬赏"
+ },
+ {
+  "name": "任务中国",
+  "host": "taskcn.com",
+  "url": "https://www.taskcn.com/",
+  "type": "悬赏"
+ },
+ {
+  "name": "第一调查网",
+  "host": "1diaocha.com",
+  "url": "https://www.1diaocha.com/",
+  "type": "调研"
+ },
+ {
+  "name": "收奖网",
+  "host": "sojiang.com",
+  "url": "https://www.sojiang.com/",
+  "type": "调研"
+ },
+ {
+  "name": "爱调查",
+  "host": "aidiaocha.com",
+  "url": "https://www.aidiaocha.com/",
+  "type": "调研"
+ },
+ {
+  "name": "百度众测",
+  "host": "test.baidu.com",
+  "url": "https://test.baidu.com/",
+  "type": "百度微任务"
+ },
+ {
+  "name": "京东众智",
+  "host": "jdata.com",
+  "url": "https://jdata.jd.com/",
+  "type": "京东标注"
+ }
+]
