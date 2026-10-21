@@ -1,0 +1,248 @@
+[
+ {
+  "name": "Verbit",
+  "host": "verbit.ai",
+  "url": "https://verbit.ai/careers/transcribers/",
+  "type": "转录"
+ },
+ {
+  "name": "Daily Transcription",
+  "host": "dailytranscription.com",
+  "url": "https://www.dailytranscription.com/apply",
+  "type": "转录"
+ },
+ {
+  "name": "Speechpad",
+  "host": "speechpad.com",
+  "url": "https://www.speechpad.com/careers",
+  "type": "转录"
+ },
+ {
+  "name": "Transcription Hub",
+  "host": "transcriptionhub.com",
+  "url": "https://www.transcriptionhub.com/",
+  "type": "转录"
+ },
+ {
+  "name": "GMR Transcription",
+  "host": "gmrtranscription.com",
+  "url": "https://www.gmrtranscription.com/careers",
+  "type": "转录"
+ },
+ {
+  "name": "Net Transcripts",
+  "host": "nettranscripts.com",
+  "url": "https://www.nettranscripts.com/",
+  "type": "转录"
+ },
+ {
+  "name": "AlphaSights",
+  "host": "alphasights.com",
+  "url": "https://www.alphasights.com/careers/",
+  "type": "专家咨询"
+ },
+ {
+  "name": "Tegus",
+  "host": "tegus.com",
+  "url": "https://www.tegus.com/",
+  "type": "专家咨询"
+ },
+ {
+  "name": "TutorHunt",
+  "host": "tutorhunt.com",
+  "url": "https://www.tutorhunt.com/",
+  "type": "家教"
+ },
+ {
+  "name": "Superprof",
+  "host": "superprof.com",
+  "url": "https://www.superprof.com/",
+  "type": "家教"
+ },
+ {
+  "name": "Varsity Tutors",
+  "host": "varsitytutors.com",
+  "url": "https://www.varsitytutors.com/",
+  "type": "家教"
+ },
+ {
+  "name": "Wyzant2",
+  "host": "wyzant.com",
+  "url": "https://www.wyzant.com/tutor/jobs",
+  "type": "家教"
+ },
+ {
+  "name": "VIPKid",
+  "host": "vipkid.com",
+  "url": "https://www.vipkid.com/",
+  "type": "中文家教"
+ },
+ {
+  "name": "51Talk",
+  "host": "51talk.com",
+  "url": "https://www.51talk.com/",
+  "type": "中文家教"
+ },
+ {
+  "name": "GoGoKid",
+  "host": "gogokid.com",
+  "url": "https://www.gogokid.com/",
+  "type": "中文家教"
+ },
+ {
+  "name": "Magic Ears",
+  "host": "magicears.com",
+  "url": "https://www.magicears.com/",
+  "type": "中文家教"
+ },
+ {
+  "name": "Dribbble Jobs",
+  "host": "dribbble.com",
+  "url": "https://dribbble.com/jobs",
+  "type": "设计"
+ },
+ {
+  "name": "Behance Jobs",
+  "host": "behance.net",
+  "url": "https://www.behance.net/joblist",
+  "type": "设计"
+ },
+ {
+  "name": "Awwwards Jobs",
+  "host": "awwwards.com",
+  "url": "https://www.awwwards.com/jobs/",
+  "type": "设计"
+ },
+ {
+  "name": "Working Not Working",
+  "host": "workingnotworking.com",
+  "url": "https://workingnotworking.com/",
+  "type": "创意"
+ },
+ {
+  "name": "The Dots",
+  "host": "the-dots.com",
+  "url": "https://the-dots.com/",
+  "type": "创意"
+ },
+ {
+  "name": "Contently",
+  "host": "contently.com",
+  "url": "https://contently.com/freelancers/",
+  "type": "写作"
+ },
+ {
+  "name": "Scripted",
+  "host": "scripted.com",
+  "url": "https://www.scripted.com/",
+  "type": "写作"
+ },
+ {
+  "name": "nDash",
+  "host": "ndash.com",
+  "url": "https://www.ndash.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Upwork Writers",
+  "host": "upwork.com",
+  "url": "https://www.upwork.com/freelance-jobs/writing/",
+  "type": "写作"
+ },
+ {
+  "name": "Crowd Content",
+  "host": "crowdcontent.com",
+  "url": "https://www.crowdcontent.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Support.com",
+  "host": "support.com",
+  "url": "https://www.support.com/",
+  "type": "远程客服"
+ },
+ {
+  "name": "LiveWorld",
+  "host": "liveworld.com",
+  "url": "https://www.liveworld.com/careers",
+  "type": "远程客服"
+ },
+ {
+  "name": "Working Solutions",
+  "host": "workingsolutions.com",
+  "url": "https://www.workingsolutions.com/",
+  "type": "远程客服"
+ },
+ {
+  "name": "Arise",
+  "host": "arise.com",
+  "url": "https://www.arise.com/",
+  "type": "远程客服"
+ },
+ {
+  "name": "Sitel",
+  "host": "sitel.com",
+  "url": "https://jobs.sitel.com/",
+  "type": "远程客服"
+ },
+ {
+  "name": "Amazon MTurk",
+  "host": "mturk.com",
+  "url": "https://www.mturk.com/worker",
+  "type": "微任务"
+ },
+ {
+  "name": "Figure Eight",
+  "host": "figure-eight.com",
+  "url": "https://www.figure-eight.com/",
+  "type": "数据标注"
+ },
+ {
+  "name": "CrowdFlower",
+  "host": "crowdflower.com",
+  "url": "https://www.crowdflower.com/",
+  "type": "数据标注"
+ },
+ {
+  "name": "Spare5",
+  "host": "spare5.com",
+  "url": "https://spare5.com/",
+  "type": "微任务"
+ },
+ {
+  "name": "Premise",
+  "host": "premise.com",
+  "url": "https://www.premise.com/",
+  "type": "实地任务"
+ },
+ {
+  "name": "Streetbees",
+  "host": "streetbees.com",
+  "url": "https://www.streetbees.com/",
+  "type": "实地任务"
+ },
+ {
+  "name": "TryMyUI",
+  "host": "trymyui.com",
+  "url": "https://www.trymyui.com/",
+  "type": "UX测试"
+ },
+ {
+  "name": "Userfeel",
+  "host": "userfeel.com",
+  "url": "https://www.userfeel.com/",
+  "type": "UX测试"
+ },
+ {
+  "name": "PlaytestCloud",
+  "host": "playtestcloud.com",
+  "url": "https://www.playtestcloud.com/",
+  "type": "游戏测试"
+ },
+ {
+  "name": "BetaTesting",
+  "host": "betatesting.com",
+  "url": "https://www.betatesting.com/",
+  "type": "产品测试"
+ }
+]

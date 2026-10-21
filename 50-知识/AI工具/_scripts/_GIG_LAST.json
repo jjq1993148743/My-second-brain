@@ -1,0 +1,242 @@
+[
+ {
+  "name": "BlogMutt",
+  "host": "blogmutt.com",
+  "url": "https://www.blogmutt.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Verblio",
+  "host": "verblio.com",
+  "url": "https://www.verblio.com/writers",
+  "type": "写作"
+ },
+ {
+  "name": "Great Content",
+  "host": "greatcontent.com",
+  "url": "https://www.greatcontent.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Copify",
+  "host": "copify.com",
+  "url": "https://www.copify.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Text Royal",
+  "host": "textroyal.com",
+  "url": "https://www.textroyal.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Fiverr Design",
+  "host": "fiverr.com",
+  "url": "https://www.fiverr.com/categories/graphics-design",
+  "type": "设计"
+ },
+ {
+  "name": "Freelancer Design",
+  "host": "freelancer.com",
+  "url": "https://www.freelancer.com/jobs/design-media-architecture/",
+  "type": "设计"
+ },
+ {
+  "name": "Toptal Design",
+  "host": "toptal.com",
+  "url": "https://www.toptal.com/designers",
+  "type": "设计"
+ },
+ {
+  "name": "Canva Creators",
+  "host": "canva.com",
+  "url": "https://www.canva.com/creators/",
+  "type": "设计素材"
+ },
+ {
+  "name": "Creative Market",
+  "host": "creativemarket.com",
+  "url": "https://creativemarket.com/",
+  "type": "数字商品"
+ },
+ {
+  "name": "OneHourTranslation",
+  "host": "onehourtranslation.com",
+  "url": "https://www.onehourtranslation.com/",
+  "type": "翻译"
+ },
+ {
+  "name": "Translated",
+  "host": "translated.com",
+  "url": "https://translated.com/",
+  "type": "翻译"
+ },
+ {
+  "name": "Lionbridge",
+  "host": "lionbridge.com",
+  "url": "https://www.lionbridge.com/careers/",
+  "type": "翻译"
+ },
+ {
+  "name": "Welocalize",
+  "host": "welocalize.com",
+  "url": "https://www.welocalize.com/careers/",
+  "type": "翻译"
+ },
+ {
+  "name": "Keywords Studios",
+  "host": "keywordsstudios.com",
+  "url": "https://www.keywordsstudios.com/careers/",
+  "type": "游戏本地化"
+ },
+ {
+  "name": "Lionbridge AI",
+  "host": "lionbridge.ai",
+  "url": "https://lionbridge.ai/careers/",
+  "type": "AI数据"
+ },
+ {
+  "name": "Telus International",
+  "host": "telusinternational.ai",
+  "url": "https://www.telusinternational.ai/crowdwork",
+  "type": "AI数据"
+ },
+ {
+  "name": "OneForma",
+  "host": "oneforma.com",
+  "url": "https://www.oneforma.com/",
+  "type": "AI数据"
+ },
+ {
+  "name": "Clickworker2",
+  "host": "clickworker.com",
+  "url": "https://www.clickworker.com/clickworker/",
+  "type": "微任务"
+ },
+ {
+  "name": "Isoftstone",
+  "host": "isoftstone.com",
+  "url": "https://www.isoftstone.com/",
+  "type": "数据标注"
+ },
+ {
+  "name": "GLG",
+  "host": "glg.com",
+  "url": "https://glg.com/",
+  "type": "专家咨询"
+ },
+ {
+  "name": "Third Bridge",
+  "host": "thirdbridge.com",
+  "url": "https://www.thirdbridge.com/",
+  "type": "专家咨询"
+ },
+ {
+  "name": "Coleman Research",
+  "host": "colemanresearch.com",
+  "url": "https://www.colemanresearch.com/",
+  "type": "专家咨询"
+ },
+ {
+  "name": "Zintro",
+  "host": "zintro.com",
+  "url": "https://www.zintro.com/",
+  "type": "专家咨询"
+ },
+ {
+  "name": "TTEC",
+  "host": "ttec.com",
+  "url": "https://www.ttecjobs.com/",
+  "type": "远程客服"
+ },
+ {
+  "name": "Concentrix",
+  "host": "concentrix.com",
+  "url": "https://jobs.concentrix.com/",
+  "type": "远程客服"
+ },
+ {
+  "name": "Alorica",
+  "host": "alorica.com",
+  "url": "https://www.alorica.com/careers",
+  "type": "远程客服"
+ },
+ {
+  "name": "Enroll",
+  "host": "enrollapp.com",
+  "url": "https://www.enrollapp.com/",
+  "type": "用户测试"
+ },
+ {
+  "name": "UserZoom",
+  "host": "userzoom.com",
+  "url": "https://www.userzoom.com/",
+  "type": "UX测试"
+ },
+ {
+  "name": "Validately",
+  "host": "validately.com",
+  "url": "https://www.validately.com/",
+  "type": "UX测试"
+ },
+ {
+  "name": "UsabilityHub",
+  "host": "usabilityhub.com",
+  "url": "https://usabilityhub.com/",
+  "type": "UX测试"
+ },
+ {
+  "name": "ySense",
+  "host": "ysense.com",
+  "url": "https://www.ysense.com/",
+  "type": "微任务"
+ },
+ {
+  "name": "TimeBucks",
+  "host": "timebucks.com",
+  "url": "https://timebucks.com/",
+  "type": "微任务"
+ },
+ {
+  "name": "ClixSense",
+  "host": "clixsense.com",
+  "url": "https://www.clixsense.com/",
+  "type": "微任务"
+ },
+ {
+  "name": "InstaGC",
+  "host": "instagc.com",
+  "url": "https://www.instagc.com/",
+  "type": "微任务"
+ },
+ {
+  "name": "GPT Sites",
+  "host": "swagbucks.com",
+  "url": "https://www.swagbucks.com/discover",
+  "type": "微任务"
+ },
+ {
+  "name": "Bugbase",
+  "host": "bugbase.in",
+  "url": "https://bugbase.in/",
+  "type": "漏洞赏金"
+ },
+ {
+  "name": "Firebounty",
+  "host": "firebounty.com",
+  "url": "https://firebounty.com/",
+  "type": "漏洞赏金"
+ },
+ {
+  "name": "HackerOne2",
+  "host": "hackerone.com",
+  "url": "https://hackerone.com/opportunities/all",
+  "type": "赏金"
+ },
+ {
+  "name": "Bugcrowd2",
+  "host": "bugcrowd.com",
+  "url": "https://bugcrowd.com/programs",
+  "type": "赏金"
+ }
+]

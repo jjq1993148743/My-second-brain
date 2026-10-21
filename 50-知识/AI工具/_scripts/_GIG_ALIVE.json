@@ -1,0 +1,190 @@
+[
+ {
+  "name": "freelancer.com",
+  "url": "https://www.freelancer.com/jobs/",
+  "type": "",
+  "verdict": "✅活多且带价",
+  "cards": 1373,
+  "money": 110
+ },
+ {
+  "name": "iWriter",
+  "host": "iwriter.com",
+  "url": "https://www.iwriter.com/",
+  "type": "写作",
+  "verdict": "🟡有活",
+  "cards": 5,
+  "money": 16
+ },
+ {
+  "name": "WriterAccess",
+  "host": "writeraccess.com",
+  "url": "https://www.writeraccess.com/",
+  "type": "写作",
+  "verdict": "✅活多且带价",
+  "cards": 28,
+  "money": 8
+ },
+ {
+  "name": "Unbabel",
+  "host": "unbabel.com",
+  "url": "https://unbabel.com/editors/",
+  "type": "翻译",
+  "verdict": "✅活多",
+  "cards": 42,
+  "money": 2
+ },
+ {
+  "name": "Smartcat",
+  "host": "smartcat.com",
+  "url": "https://www.smartcat.com/",
+  "type": "翻译",
+  "verdict": "✅活多且带价",
+  "cards": 25,
+  "money": 3
+ },
+ {
+  "name": "Rev",
+  "host": "rev.com",
+  "url": "https://www.rev.com/freelancers",
+  "type": "转录",
+  "verdict": "🟡有活",
+  "cards": 16,
+  "money": 9
+ },
+ {
+  "name": "TranscribeMe",
+  "host": "transcribeme.com",
+  "url": "https://www.transcribeme.com/",
+  "type": "转录",
+  "verdict": "🟡有活",
+  "cards": 5,
+  "money": 13
+ },
+ {
+  "name": "GoTranscript",
+  "host": "gotranscript.com",
+  "url": "https://gotranscript.com/",
+  "type": "转录",
+  "verdict": "✅活多",
+  "cards": 153,
+  "money": 2
+ },
+ {
+  "name": "Scribie",
+  "host": "scribie.com",
+  "url": "https://scribie.com/",
+  "type": "转录",
+  "verdict": "✅活多且带价",
+  "cards": 41,
+  "money": 11
+ },
+ {
+  "name": "CastingWords",
+  "host": "castingwords.com",
+  "url": "https://castingwords.com/",
+  "type": "转录",
+  "verdict": "✅活多且带价",
+  "cards": 20,
+  "money": 9
+ },
+ {
+  "name": "Studypool",
+  "host": "studypool.com",
+  "url": "https://www.studypool.com/",
+  "type": "家教",
+  "verdict": "✅活多且带价",
+  "cards": 66,
+  "money": 8
+ },
+ {
+  "name": "Preply",
+  "host": "preply.com",
+  "url": "https://preply.com/en/teach",
+  "type": "语言家教",
+  "verdict": "🟡有价格",
+  "cards": 0,
+  "money": 18
+ },
+ {
+  "name": "Cambly",
+  "host": "cambly.com",
+  "url": "https://www.cambly.com/english?lang=en",
+  "type": "语言家教",
+  "verdict": "✅活多且带价",
+  "cards": 27,
+  "money": 129
+ },
+ {
+  "name": "Prolific",
+  "host": "prolific.com",
+  "url": "https://www.prolific.com/",
+  "type": "调研",
+  "verdict": "✅活多且带价",
+  "cards": 88,
+  "money": 62
+ },
+ {
+  "name": "Userlytics",
+  "host": "userlytics.com",
+  "url": "https://www.userlytics.com/",
+  "type": "UX测试",
+  "verdict": "✅活多",
+  "cards": 66,
+  "money": 2
+ },
+ {
+  "name": "TestingTime",
+  "host": "testingtime.com",
+  "url": "https://www.testingtime.com/en/",
+  "type": "调研",
+  "verdict": "✅活多",
+  "cards": 118,
+  "money": 0
+ },
+ {
+  "name": "PrizeRebel",
+  "host": "prizerebel.com",
+  "url": "https://www.prizerebel.com/",
+  "type": "微任务",
+  "verdict": "🟡有价格",
+  "cards": 2,
+  "money": 10
+ },
+ {
+  "name": "Synack",
+  "host": "synack.com",
+  "url": "https://www.synack.com/",
+  "type": "漏洞赏金",
+  "verdict": "✅活多",
+  "cards": 34,
+  "money": 1
+ },
+ {
+  "name": "Cobalt",
+  "host": "cobalt.io",
+  "url": "https://www.cobalt.io/",
+  "type": "漏洞赏金",
+  "verdict": "🟡有活",
+  "cards": 6,
+  "money": 0
+ },
+ {
+  "name": "HackenProof",
+  "host": "hackenproof.com",
+  "url": "https://hackenproof.com/",
+  "type": "漏洞赏金",
+  "verdict": "✅活多且带价",
+  "cards": 62,
+  "money": 42
+ },
+ {
+  "name": "FreelancerIndia",
+  "host": "freelancer.in",
+  "url": "https://www.freelancer.in/jobs/",
+  "type": "接单",
+  "verdict": "✅活多",
+  "cards": 1366,
+  "money": 2
+ }
+]

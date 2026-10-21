@@ -1,0 +1,332 @@
+[
+ {
+  "host": "freelancer.com",
+  "name": "Freelancer.com",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "fiverr.com",
+  "name": "Fiverr",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "toptal.com",
+  "name": "toptal",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "contra.com",
+  "name": "Contra",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "braintrust.com",
+  "name": "Braintrust",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "usebraintrust.com",
+  "name": "Braintrust",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "freelancer.co.nz",
+  "name": "Freelancer.com",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "freelancer.com.au",
+  "name": "Freelancer.com",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "freelancer.in",
+  "name": "Freelancer.com",
+  "cat": "🌍 全球自由职业"
+ },
+ {
+  "host": "fl.ru",
+  "name": "FL.ru",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "codeur.com",
+  "name": "Codeur.com",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "useme.com",
+  "name": "Useme",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "freelance.nl",
+  "name": "freelance.nl",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "free-work.com",
+  "name": "free-work.com",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "freelancermap.de",
+  "name": "Freelancermap",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "twagofreelance.com",
+  "name": "twagofreelance",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "freelance.de",
+  "name": "freelancede",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "comet.co",
+  "name": "comet.co",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "worksome.com",
+  "name": "worksome",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "beingguru.com",
+  "name": "beingguru",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "freelanceboard.it",
+  "name": "freelanceboard",
+  "cat": "🇪🇺 欧洲接单"
+ },
+ {
+  "host": "crowdworks.jp",
+  "name": "crowdworks",
+  "cat": "🌏 亚太接单"
+ },
+ {
+  "host": "lancers.jp",
+  "name": "lancers",
+  "cat": "🌏 亚太接单"
+ },
+ {
+  "host": "sribu.com",
+  "name": "sribu",
+  "cat": "🌏 亚太接单"
+ },
+ {
+  "host": "fastwork.id",
+  "name": "fastwork",
+  "cat": "🌏 亚太接单"
+ },
+ {
+  "host": "freelancing.my",
+  "name": "freelancingmy",
+  "cat": "🌏 亚太接单"
+ },
+ {
+  "host": "workana.com",
+  "name": "Workana",
+  "cat": "🌏 亚太接单"
+ },
+ {
+  "host": "latinhire.com",
+  "name": "latinhire",
+  "cat": "🌏 亚太接单"
+ },
+ {
+  "host": "bugcrowd.com",
+  "name": "bugcrowd",
+  "cat": "💰 赏金悬赏"
+ },
+ {
+  "host": "hackerone.com",
+  "name": "hackerone",
+  "cat": "💰 赏金悬赏"
+ },
+ {
+  "host": "huntr.co",
+  "name": "huntr",
+  "cat": "💰 赏金悬赏"
+ },
+ {
+  "host": "huntr.com",
+  "name": "huntr",
+  "cat": "💰 赏金悬赏"
+ },
+ {
+  "host": "algora.io",
+  "name": "algora",
+  "cat": "💰 赏金悬赏"
+ },
+ {
+  "host": "internetbugbounty.org",
+  "name": "internetbugbounty",
+  "cat": "💰 赏金悬赏"
+ },
+ {
+  "host": "gitcoin.co",
+  "name": "Gitcoin",
+  "cat": "💰 赏金悬赏"
+ },
+ {
+  "host": "immunefi.com",
+  "name": "Immunefi",
+  "cat": "💰 赏金悬赏"
+ },
+ {
+  "host": "mercor.com",
+  "name": "mercor",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "alignerr.com",
+  "name": "alignerr",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "outlier.ai",
+  "name": "outlier",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "dataannotation.tech",
+  "name": "dataannotation",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "tasklet.ai",
+  "name": "tasklet",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "clickworker.com",
+  "name": "Clickworker",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "microworkers.com",
+  "name": "Microworkers",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "toloka.ai",
+  "name": "Toloka",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "remotasks.com",
+  "name": "Remotasks",
+  "cat": "🤖 AI训练标注"
+ },
+ {
+  "host": "usertesting.com",
+  "name": "UserTesting",
+  "cat": "🧪 用户测试调研"
+ },
+ {
+  "host": "userinterviews.com",
+  "name": "UserInterviews",
+  "cat": "🧪 用户测试调研"
+ },
+ {
+  "host": "respondent.io",
+  "name": "Respondent",
+  "cat": "🧪 用户测试调研"
+ },
+ {
+  "host": "dscout.com",
+  "name": "dScout",
+  "cat": "🧪 用户测试调研"
+ },
+ {
+  "host": "giggrabbers.com",
+  "name": "giggrabbers",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "gigster.com",
+  "name": "gigster",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "solidgigs.com",
+  "name": "solidgigs",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "kolabtree.com",
+  "name": "kolabtree",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "superside.com",
+  "name": "Superside",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "crew.co",
+  "name": "Crew",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "marketerhire.com",
+  "name": "MarketerHire",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "codeable.io",
+  "name": "Codeable",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "arc.dev",
+  "name": "Arc.dev",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "lemon.io",
+  "name": "Lemon.io",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "jugglehire.com",
+  "name": "jugglehire",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "commissioncrowd.com",
+  "name": "commissioncrowd",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "catalant.com",
+  "name": "catalant",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "devopsprojectshq.com",
+  "name": "devopsprojectshq",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "project-awesome.org",
+  "name": "projectawesome",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "cryptotask.org",
+  "name": "cryptotask",
+  "cat": "💼 项目制外包"
+ },
+ {
+  "host": "taskrabbit.com",
+  "name": "taskrabbit",
+  "cat": "🏠 本地散活"
+ }
+]

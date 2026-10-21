@@ -1,0 +1,254 @@
+[
+ {
+  "name": "99designs",
+  "host": "99designs.com",
+  "url": "https://99designs.com/designers/browse",
+  "type": "设计比赛"
+ },
+ {
+  "name": "DesignCrowd",
+  "host": "designcrowd.com",
+  "url": "https://www.designcrowd.com/projects",
+  "type": "设计比赛"
+ },
+ {
+  "name": "Designhill",
+  "host": "designhill.com",
+  "url": "https://www.designhill.com/contest",
+  "type": "设计比赛"
+ },
+ {
+  "name": "crowdSPRING",
+  "host": "crowdspring.com",
+  "url": "https://www.crowdspring.com/projects/",
+  "type": "设计比赛"
+ },
+ {
+  "name": "Hatchwise",
+  "host": "hatchwise.com",
+  "url": "https://www.hatchwise.com/contest",
+  "type": "设计比赛"
+ },
+ {
+  "name": "Textbroker",
+  "host": "textbroker.com",
+  "url": "https://www.textbroker.com/",
+  "type": "写作"
+ },
+ {
+  "name": "iWriter",
+  "host": "iwriter.com",
+  "url": "https://www.iwriter.com/",
+  "type": "写作"
+ },
+ {
+  "name": "WriterAccess",
+  "host": "writeraccess.com",
+  "url": "https://www.writeraccess.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Constant Content",
+  "host": "constant-content.com",
+  "url": "https://www.constant-content.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Content Gather",
+  "host": "contentgather.com",
+  "url": "https://www.contentgather.com/",
+  "type": "写作"
+ },
+ {
+  "name": "Gengo",
+  "host": "gengo.com",
+  "url": "https://gengo.com/translators/",
+  "type": "翻译"
+ },
+ {
+  "name": "Unbabel",
+  "host": "unbabel.com",
+  "url": "https://unbabel.com/editors/",
+  "type": "翻译"
+ },
+ {
+  "name": "ProZ",
+  "host": "proz.com",
+  "url": "https://www.proz.com/",
+  "type": "翻译"
+ },
+ {
+  "name": "Smartcat",
+  "host": "smartcat.com",
+  "url": "https://www.smartcat.com/",
+  "type": "翻译"
+ },
+ {
+  "name": "TranslatorsCafe",
+  "host": "translatorscafe.com",
+  "url": "https://www.translatorscafe.com/",
+  "type": "翻译"
+ },
+ {
+  "name": "Rev",
+  "host": "rev.com",
+  "url": "https://www.rev.com/freelancers",
+  "type": "转录"
+ },
+ {
+  "name": "TranscribeMe",
+  "host": "transcribeme.com",
+  "url": "https://www.transcribeme.com/",
+  "type": "转录"
+ },
+ {
+  "name": "GoTranscript",
+  "host": "gotranscript.com",
+  "url": "https://gotranscript.com/",
+  "type": "转录"
+ },
+ {
+  "name": "Scribie",
+  "host": "scribie.com",
+  "url": "https://scribie.com/",
+  "type": "转录"
+ },
+ {
+  "name": "CastingWords",
+  "host": "castingwords.com",
+  "url": "https://castingwords.com/",
+  "type": "转录"
+ },
+ {
+  "name": "Chegg",
+  "host": "chegg.com",
+  "url": "https://www.chegg.com/tutors/",
+  "type": "家教"
+ },
+ {
+  "name": "Studypool",
+  "host": "studypool.com",
+  "url": "https://www.studypool.com/",
+  "type": "家教"
+ },
+ {
+  "name": "Wyzant",
+  "host": "wyzant.com",
+  "url": "https://www.wyzant.com/tutors/",
+  "type": "家教"
+ },
+ {
+  "name": "Preply",
+  "host": "preply.com",
+  "url": "https://preply.com/en/teach",
+  "type": "语言家教"
+ },
+ {
+  "name": "italki",
+  "host": "italki.com",
+  "url": "https://www.italki.com/teach",
+  "type": "语言家教"
+ },
+ {
+  "name": "Cambly",
+  "host": "cambly.com",
+  "url": "https://www.cambly.com/english?lang=en",
+  "type": "语言家教"
+ },
+ {
+  "name": "Prolific",
+  "host": "prolific.com",
+  "url": "https://www.prolific.com/",
+  "type": "调研"
+ },
+ {
+  "name": "Userlytics",
+  "host": "userlytics.com",
+  "url": "https://www.userlytics.com/",
+  "type": "UX测试"
+ },
+ {
+  "name": "TestingTime",
+  "host": "testingtime.com",
+  "url": "https://www.testingtime.com/en/",
+  "type": "调研"
+ },
+ {
+  "name": "PicoWorkers",
+  "host": "picoworkers.com",
+  "url": "https://picoworkers.com/",
+  "type": "微任务"
+ },
+ {
+  "name": "Swagbucks",
+  "host": "swagbucks.com",
+  "url": "https://www.swagbucks.com/",
+  "type": "微任务"
+ },
+ {
+  "name": "PrizeRebel",
+  "host": "prizerebel.com",
+  "url": "https://www.prizerebel.com/",
+  "type": "微任务"
+ },
+ {
+  "name": "Synack",
+  "host": "synack.com",
+  "url": "https://www.synack.com/",
+  "type": "漏洞赏金"
+ },
+ {
+  "name": "Cobalt",
+  "host": "cobalt.io",
+  "url": "https://www.cobalt.io/",
+  "type": "漏洞赏金"
+ },
+ {
+  "name": "Zerocopter",
+  "host": "zerocopter.com",
+  "url": "https://www.zerocopter.com/",
+  "type": "漏洞赏金"
+ },
+ {
+  "name": "HackenProof",
+  "host": "hackenproof.com",
+  "url": "https://hackenproof.com/",
+  "type": "漏洞赏金"
+ },
+ {
+  "name": "Openbugbounty2",
+  "host": "openbugbounty.org",
+  "url": "https://www.openbugbounty.org/",
+  "type": "漏洞赏金"
+ },
+ {
+  "name": "FreelancerIndia",
+  "host": "freelancer.in",
+  "url": "https://www.freelancer.in/jobs/",
+  "type": "接单"
+ },
+ {
+  "name": "WorkNHire",
+  "host": "worknhire.com",
+  "url": "https://www.worknhire.com/",
+  "type": "接单"
+ },
+ {
+  "name": "Truelancer2",
+  "host": "truelancer.com",
+  "url": "https://www.truelancer.com/freelance-jobs",
+  "type": "接单"
+ },
+ {
+  "name": "Upwork",
+  "host": "upwork.com",
+  "url": "https://www.upwork.com/nx/search/jobs/",
+  "type": "接单"
+ },
+ {
+  "name": "PeoplePerHour",
+  "host": "peopleperhour.com",
+  "url": "https://www.peopleperhour.com/freelance-jobs",
+  "type": "接单"
+ }
+]

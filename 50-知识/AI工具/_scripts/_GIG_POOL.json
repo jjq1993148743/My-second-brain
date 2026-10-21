@@ -1,0 +1,230 @@
+[
+ {
+  "host": "hirebase.org",
+  "cat": "招聘板",
+  "jobs": 104,
+  "money": 46
+ },
+ {
+  "host": "huntr.co",
+  "cat": "赏金悬赏",
+  "jobs": 97,
+  "money": 0
+ },
+ {
+  "host": "freelancer.com",
+  "cat": "",
+  "jobs": 91,
+  "money": 6
+ },
+ {
+  "host": "freelancer.co.nz",
+  "cat": "",
+  "jobs": 91,
+  "money": 6
+ },
+ {
+  "host": "freelancer.com.au",
+  "cat": "",
+  "jobs": 91,
+  "money": 6
+ },
+ {
+  "host": "freelancer.in",
+  "cat": "",
+  "jobs": 91,
+  "money": 6
+ },
+ {
+  "host": "ceehire.com",
+  "cat": "招聘板",
+  "jobs": 41,
+  "money": 3
+ },
+ {
+  "host": "jugglehire.com",
+  "cat": "招聘板",
+  "jobs": 40,
+  "money": 29
+ },
+ {
+  "host": "hiretechladies.com",
+  "cat": "招聘板",
+  "jobs": 37,
+  "money": 0
+ },
+ {
+  "host": "twagofreelance.com",
+  "cat": "接单市场",
+  "jobs": 34,
+  "money": 2
+ },
+ {
+  "host": "about.cryptotask.org",
+  "cat": "未分类",
+  "jobs": 19,
+  "money": 0
+ },
+ {
+  "host": "realhire.com",
+  "cat": "招聘板",
+  "jobs": 16,
+  "money": 0
+ },
+ {
+  "host": "freehire.me",
+  "cat": "招聘板",
+  "jobs": 15,
+  "money": 0
+ },
+ {
+  "host": "hired.org",
+  "cat": "招聘板",
+  "jobs": 15,
+  "money": 1
+ },
+ {
+  "host": "latinhire.com",
+  "cat": "",
+  "jobs": 14,
+  "money": 0
+ },
+ {
+  "host": "giggrabbers.com",
+  "cat": "招聘板",
+  "jobs": 14,
+  "money": 35
+ },
+ {
+  "host": "freelancing.my",
+  "cat": "未分类",
+  "jobs": 14,
+  "money": 1
+ },
+ {
+  "host": "solidgigs.com",
+  "cat": "",
+  "jobs": 12,
+  "money": 11
+ },
+ {
+  "host": "gigster.com",
+  "cat": "",
+  "jobs": 10,
+  "money": 3
+ },
+ {
+  "host": "freelance.de",
+  "cat": "",
+  "jobs": 9,
+  "money": 0
+ },
+ {
+  "host": "tasklet.ai",
+  "cat": "未分类",
+  "jobs": 9,
+  "money": 15
+ },
+ {
+  "host": "beingguru.com",
+  "cat": "接单市场",
+  "jobs": 8,
+  "money": 1
+ },
+ {
+  "host": "transcriptionhub.com",
+  "cat": "未分类",
+  "jobs": 8,
+  "money": 8
+ },
+ {
+  "host": "railstutorial.org",
+  "cat": "未分类",
+  "jobs": 7,
+  "money": 13
+ },
+ {
+  "host": "taskrabbit.co.uk",
+  "cat": "未分类",
+  "jobs": 6,
+  "money": 9
+ },
+ {
+  "host": "gmrtranscription.com",
+  "cat": "未分类",
+  "jobs": 6,
+  "money": 5
+ },
+ {
+  "host": "tutorhunt.com",
+  "cat": "未分类",
+  "jobs": 6,
+  "money": 1
+ },
+ {
+  "host": "taskrabbit.com",
+  "cat": "",
+  "jobs": 5,
+  "money": 8
+ },
+ {
+  "host": "gotranscript.com",
+  "cat": "未分类",
+  "jobs": 5,
+  "money": 4
+ },
+ {
+  "host": "kolabtree.com",
+  "cat": "接单市场",
+  "jobs": 4,
+  "money": 2
+ },
+ {
+  "host": "pythontutor.com",
+  "cat": "未分类",
+  "jobs": 4,
+  "money": 0
+ },
+ {
+  "host": "contractbook.co",
+  "cat": "接单市场",
+  "jobs": 3,
+  "money": 3
+ },
+ {
+  "host": "freelanceos.roerohan.com",
+  "cat": "接单市场",
+  "jobs": 3,
+  "money": 4
+ },
+ {
+  "host": "catalant.com",
+  "cat": "接单市场",
+  "jobs": 3,
+  "money": 2
+ },
+ {
+  "host": "freelanceboard.it",
+  "cat": "接单市场",
+  "jobs": 3,
+  "money": 0
+ },
+ {
+  "host": "internetbugbounty.org",
+  "cat": "未分类",
+  "jobs": 3,
+  "money": 3
+ },
+ {
+  "host": "transcriptionwave.com",
+  "cat": "未分类",
+  "jobs": 3,
+  "money": 12
+ },
+ {
+  "host": "tutorocean.com",
+  "cat": "未分类",
+  "jobs": 3,
+  "money": 6
+ }
+]

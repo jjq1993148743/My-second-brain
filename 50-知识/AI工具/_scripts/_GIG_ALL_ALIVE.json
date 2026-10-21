@@ -1,0 +1,470 @@
+[
+ {
+  "name": "freelancer.com",
+  "host": "undefined",
+  "url": "https://www.freelancer.com/jobs/",
+  "type": "",
+  "verdict": "✅活多且带价",
+  "cards": 1373,
+  "money": 110
+ },
+ {
+  "name": "Freelancer Design",
+  "host": "freelancer.com",
+  "url": "https://www.freelancer.com/jobs/design-media-architecture/",
+  "type": "设计",
+  "verdict": "✅活多且带价",
+  "cards": 1360,
+  "money": 109
+ },
+ {
+  "name": "Toptal Design",
+  "host": "toptal.com",
+  "url": "https://www.toptal.com/designers",
+  "type": "设计",
+  "verdict": "✅活多且带价",
+  "cards": 95,
+  "money": 3
+ },
+ {
+  "name": "Prolific",
+  "host": "prolific.com",
+  "url": "https://www.prolific.com/",
+  "type": "调研",
+  "verdict": "✅活多且带价",
+  "cards": 88,
+  "money": 62
+ },
+ {
+  "name": "Studypool",
+  "host": "studypool.com",
+  "url": "https://www.studypool.com/",
+  "type": "家教",
+  "verdict": "✅活多且带价",
+  "cards": 66,
+  "money": 8
+ },
+ {
+  "name": "Varsity Tutors",
+  "host": "varsitytutors.com",
+  "url": "https://www.varsitytutors.com/",
+  "type": "家教",
+  "verdict": "✅活多且带价",
+  "cards": 66,
+  "money": 8
+ },
+ {
+  "name": "HackenProof",
+  "host": "hackenproof.com",
+  "url": "https://hackenproof.com/",
+  "type": "漏洞赏金",
+  "verdict": "✅活多且带价",
+  "cards": 62,
+  "money": 42
+ },
+ {
+  "name": "Scribie",
+  "host": "scribie.com",
+  "url": "https://scribie.com/",
+  "type": "转录",
+  "verdict": "✅活多且带价",
+  "cards": 41,
+  "money": 11
+ },
+ {
+  "name": "WriterAccess",
+  "host": "writeraccess.com",
+  "url": "https://www.writeraccess.com/",
+  "type": "写作",
+  "verdict": "✅活多且带价",
+  "cards": 28,
+  "money": 8
+ },
+ {
+  "name": "Cambly",
+  "host": "cambly.com",
+  "url": "https://www.cambly.com/english?lang=en",
+  "type": "语言家教",
+  "verdict": "✅活多且带价",
+  "cards": 27,
+  "money": 129
+ },
+ {
+  "name": "Smartcat",
+  "host": "smartcat.com",
+  "url": "https://www.smartcat.com/",
+  "type": "翻译",
+  "verdict": "✅活多且带价",
+  "cards": 25,
+  "money": 3
+ },
+ {
+  "name": "CastingWords",
+  "host": "castingwords.com",
+  "url": "https://castingwords.com/",
+  "type": "转录",
+  "verdict": "✅活多且带价",
+  "cards": 20,
+  "money": 9
+ },
+ {
+  "name": "FreelancerIndia",
+  "host": "freelancer.in",
+  "url": "https://www.freelancer.in/jobs/",
+  "type": "接单",
+  "verdict": "✅活多",
+  "cards": 1366,
+  "money": 2
+ },
+ {
+  "name": "Dribbble Jobs",
+  "host": "dribbble.com",
+  "url": "https://dribbble.com/jobs",
+  "type": "设计",
+  "verdict": "✅活多",
+  "cards": 505,
+  "money": 1
+ },
+ {
+  "name": "GoTranscript",
+  "host": "gotranscript.com",
+  "url": "https://gotranscript.com/",
+  "type": "转录",
+  "verdict": "✅活多",
+  "cards": 153,
+  "money": 2
+ },
+ {
+  "name": "GLG",
+  "host": "glg.com",
+  "url": "https://glg.com/",
+  "type": "专家咨询",
+  "verdict": "✅活多",
+  "cards": 138,
+  "money": 1
+ },
+ {
+  "name": "TestingTime",
+  "host": "testingtime.com",
+  "url": "https://www.testingtime.com/en/",
+  "type": "调研",
+  "verdict": "✅活多",
+  "cards": 118,
+  "money": 0
+ },
+ {
+  "name": "OneForma",
+  "host": "oneforma.com",
+  "url": "https://www.oneforma.com/",
+  "type": "AI数据",
+  "verdict": "✅活多",
+  "cards": 103,
+  "money": 1
+ },
+ {
+  "name": "Validately",
+  "host": "validately.com",
+  "url": "https://www.validately.com/",
+  "type": "UX测试",
+  "verdict": "✅活多",
+  "cards": 100,
+  "money": 0
+ },
+ {
+  "name": "Userfeel",
+  "host": "userfeel.com",
+  "url": "https://www.userfeel.com/",
+  "type": "UX测试",
+  "verdict": "✅活多",
+  "cards": 77,
+  "money": 0
+ },
+ {
+  "name": "Userlytics",
+  "host": "userlytics.com",
+  "url": "https://www.userlytics.com/",
+  "type": "UX测试",
+  "verdict": "✅活多",
+  "cards": 66,
+  "money": 2
+ },
+ {
+  "name": "UsabilityHub",
+  "host": "usabilityhub.com",
+  "url": "https://usabilityhub.com/",
+  "type": "UX测试",
+  "verdict": "✅活多",
+  "cards": 64,
+  "money": 0
+ },
+ {
+  "name": "Third Bridge",
+  "host": "thirdbridge.com",
+  "url": "https://www.thirdbridge.com/",
+  "type": "专家咨询",
+  "verdict": "✅活多",
+  "cards": 58,
+  "money": 0
+ },
+ {
+  "name": "Figure Eight",
+  "host": "figure-eight.com",
+  "url": "https://www.figure-eight.com/",
+  "type": "数据标注",
+  "verdict": "✅活多",
+  "cards": 55,
+  "money": 0
+ },
+ {
+  "name": "Unbabel",
+  "host": "unbabel.com",
+  "url": "https://unbabel.com/editors/",
+  "type": "翻译",
+  "verdict": "✅活多",
+  "cards": 42,
+  "money": 2
+ },
+ {
+  "name": "UserZoom",
+  "host": "userzoom.com",
+  "url": "https://www.userzoom.com/",
+  "type": "UX测试",
+  "verdict": "✅活多",
+  "cards": 38,
+  "money": 0
+ },
+ {
+  "name": "Crowd Content",
+  "host": "crowdcontent.com",
+  "url": "https://www.crowdcontent.com/",
+  "type": "写作",
+  "verdict": "✅活多",
+  "cards": 37,
+  "money": 0
+ },
+ {
+  "name": "PlaytestCloud",
+  "host": "playtestcloud.com",
+  "url": "https://www.playtestcloud.com/",
+  "type": "游戏测试",
+  "verdict": "✅活多",
+  "cards": 35,
+  "money": 1
+ },
+ {
+  "name": "Synack",
+  "host": "synack.com",
+  "url": "https://www.synack.com/",
+  "type": "漏洞赏金",
+  "verdict": "✅活多",
+  "cards": 34,
+  "money": 1
+ },
+ {
+  "name": "Streetbees",
+  "host": "streetbees.com",
+  "url": "https://www.streetbees.com/",
+  "type": "实地任务",
+  "verdict": "✅活多",
+  "cards": 22,
+  "money": 0
+ },
+ {
+  "name": "Premise",
+  "host": "premise.com",
+  "url": "https://www.premise.com/",
+  "type": "实地任务",
+  "verdict": "✅活多",
+  "cards": 21,
+  "money": 0
+ },
+ {
+  "name": "TTEC",
+  "host": "ttec.com",
+  "url": "https://www.ttecjobs.com/",
+  "type": "远程客服",
+  "verdict": "✅活多",
+  "cards": 21,
+  "money": 0
+ },
+ {
+  "name": "Scripted",
+  "host": "scripted.com",
+  "url": "https://www.scripted.com/",
+  "type": "写作",
+  "verdict": "🟡有活",
+  "cards": 18,
+  "money": 0
+ },
+ {
+  "name": "Transcription Hub",
+  "host": "transcriptionhub.com",
+  "url": "https://www.transcriptionhub.com/",
+  "type": "转录",
+  "verdict": "🟡有活",
+  "cards": 17,
+  "money": 5
+ },
+ {
+  "name": "nDash",
+  "host": "ndash.com",
+  "url": "https://www.ndash.com/",
+  "type": "写作",
+  "verdict": "🟡有活",
+  "cards": 17,
+  "money": 0
+ },
+ {
+  "name": "Rev",
+  "host": "rev.com",
+  "url": "https://www.rev.com/freelancers",
+  "type": "转录",
+  "verdict": "🟡有活",
+  "cards": 16,
+  "money": 9
+ },
+ {
+  "name": "Arise",
+  "host": "arise.com",
+  "url": "https://www.arise.com/",
+  "type": "远程客服",
+  "verdict": "🟡有活",
+  "cards": 16,
+  "money": 0
+ },
+ {
+  "name": "Clickworker2",
+  "host": "clickworker.com",
+  "url": "https://www.clickworker.com/clickworker/",
+  "type": "微任务",
+  "verdict": "🟡有活",
+  "cards": 16,
+  "money": 0
+ },
+ {
+  "name": "Tegus",
+  "host": "tegus.com",
+  "url": "https://www.tegus.com/",
+  "type": "专家咨询",
+  "verdict": "🟡有活",
+  "cards": 14,
+  "money": 0
+ },
+ {
+  "name": "Zintro",
+  "host": "zintro.com",
+  "url": "https://www.zintro.com/",
+  "type": "专家咨询",
+  "verdict": "🟡有活",
+  "cards": 13,
+  "money": 0
+ },
+ {
+  "name": "TutorHunt",
+  "host": "tutorhunt.com",
+  "url": "https://www.tutorhunt.com/",
+  "type": "家教",
+  "verdict": "🟡有活",
+  "cards": 9,
+  "money": 0
+ },
+ {
+  "name": "Wyzant2",
+  "host": "wyzant.com",
+  "url": "https://www.wyzant.com/tutor/jobs",
+  "type": "家教",
+  "verdict": "🟡有活",
+  "cards": 7,
+  "money": 0
+ },
+ {
+  "name": "Cobalt",
+  "host": "cobalt.io",
+  "url": "https://www.cobalt.io/",
+  "type": "漏洞赏金",
+  "verdict": "🟡有活",
+  "cards": 6,
+  "money": 0
+ },
+ {
+  "name": "iWriter",
+  "host": "iwriter.com",
+  "url": "https://www.iwriter.com/",
+  "type": "写作",
+  "verdict": "🟡有活",
+  "cards": 5,
+  "money": 16
+ },
+ {
+  "name": "TranscribeMe",
+  "host": "transcribeme.com",
+  "url": "https://www.transcribeme.com/",
+  "type": "转录",
+  "verdict": "🟡有活",
+  "cards": 5,
+  "money": 13
+ },
+ {
+  "name": "PrizeRebel",
+  "host": "prizerebel.com",
+  "url": "https://www.prizerebel.com/",
+  "type": "微任务",
+  "verdict": "🟡有价格",
+  "cards": 2,
+  "money": 10
+ },
+ {
+  "name": "Concentrix",
+  "host": "concentrix.com",
+  "url": "https://jobs.concentrix.com/",
+  "type": "远程客服",
+  "verdict": "🟡有价格",
+  "cards": 2,
+  "money": 24
+ },
+ {
+  "name": "Text Royal",
+  "host": "textroyal.com",
+  "url": "https://www.textroyal.com/",
+  "type": "写作",
+  "verdict": "🟡有价格",
+  "cards": 1,
+  "money": 13
+ },
+ {
+  "name": "OneHourTranslation",
+  "host": "onehourtranslation.com",
+  "url": "https://www.onehourtranslation.com/",
+  "type": "翻译",
+  "verdict": "🟡有价格",
+  "cards": 1,
+  "money": 8
+ },
+ {
+  "name": "Preply",
+  "host": "preply.com",
+  "url": "https://preply.com/en/teach",
+  "type": "语言家教",
+  "verdict": "🟡有价格",
+  "cards": 0,
+  "money": 18
+ },
+ {
+  "name": "Fiverr Design",
+  "host": "fiverr.com",
+  "url": "https://www.fiverr.com/categories/graphics-design",
+  "type": "设计",
+  "verdict": "🟡有价格",
+  "cards": 0,
+  "money": 15
+ },
+ {
+  "name": "Bugbase",
+  "host": "bugbase.in",
+  "url": "https://bugbase.in/",
+  "type": "漏洞赏金",
+  "verdict": "🟡有价格",
+  "cards": 0,
+  "money": 7
+ }
+]
