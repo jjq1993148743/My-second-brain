@@ -1,0 +1,2976 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <!-- <link rel="manifest" href="https://www.careers360.com/manifest.json" /> -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+            <meta name="google-site-verification" content="LGYIP8lGL_sS1s8J67ez2TByaFYHe22sDZW7IiqhXB4" />
+            <meta name="msvalidate.01" content="658BD2BEC58D06790B07B5BC052DEAC6" />
+             <title>404 Error Page - Sorry, Page Not Found | Careers360</title><meta name="name" content="404 Error Page - Sorry, Page Not Found | Careers360"/>
+            <link rel="dns-prefetch" href="//cache.careers360.mobi"/>
+            <link rel="dns-prefetch" href="//cnextassets.careers360.com"/>
+            <link rel="preconnect" href="//cnextassets.careers360.com"/>
+            <link rel="preconnect" href="//cache.careers360.mobi"/>
+            <link rel="icon" href="https://cache.careers360.mobi/images/frontend/desktop/favicon.ico"/>
+            <style>
+.header {
+    height: 77px;
+    position: relative;
+    z-index: 99;
+}
+.header_main.topfix.scroll_page {
+    position: fixed;
+    transition: all .5s ease;
+}
+header.header_main {
+    top: -77px;
+}
+.header_main {
+    background: #fff;
+    height: 77px;
+    padding: 18px 0;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    width: 100%;
+    z-index: 99;
+}
+.flex_col {
+    float: left;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+.searchMainDiv {
+    background-color: #fff;
+    display: none;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.searchPopupCross {
+    float: right;
+    font-size: 30px;
+    padding: 10px 25px;
+    position: relative;
+    text-align: right;
+    z-index: 9;
+}
+.searchPopupCross span.popClose {
+    cursor: pointer;
+}
+.searchPopupCross .popClose {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.search_container {
+    margin: 30px auto;
+    max-width: 720px;
+    position: relative;
+}
+.searchInput {
+    position: relative;
+}
+.searchInput label.form-label {
+  display: block;
+  margin: 0px;
+}
+.searchIcon {
+    bottom: 9px;
+    color: #ee5d6b;
+    font-size: 23px;
+    font-weight: 300;
+    position: absolute;
+}
+.searchMainDiv .searchInput input[type=text] {
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    border-radius: 0;
+    color: #666;
+    font-size: 20px;
+    padding: 10px 20px 10px 40px;
+    width: 100%;
+}
+.searchContentWrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.popularSearch {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.popularSearch {
+    background: #fff;
+    height: 510px;
+    margin: 0 0 140px;
+    position: relative;
+}
+.search-content {
+    width: 100%;
+}
+.searchMainDiv .searchInput input[type="text"] {
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid #f2f2f2;
+  border-radius: 0;
+  color: #666;
+  width: 100%;
+  padding: 10px 20px 10px 40px;
+}
+.searchMainDiv .searchInput input[type="text"]:focus-visible {
+  box-shadow: none;
+}
+.searchMainDiv .searchInput input[type="text"]::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #6d6d6d;
+}
+.searchShow {
+    display: block !important;
+}
+.popularSearch h3 {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.popularSearch ul {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    padding: 0;
+}
+.popularSearch ul li {
+    border-bottom: 1px solid #f2f2f2;
+    list-style: none;
+    padding: 11px 3px;
+}
+.popularSearch ul li div {
+    display: flex;
+    justify-content: space-between;
+}
+.popularSearch ul li a {
+    color: #666 !important;
+    font-size: 1.2em;
+}
+    
+.popularSearch ul li div p {
+  margin: 0px;
+  color: #ccc;
+}
+.popularSearch ul li div.ask_question_div {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  z-index: 99999999;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+}
+.popularSearch ul li a.ask_question {
+  color: #666;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.mobile_display {
+    display: none;
+}
+    
+.articleListingHeader .header-wrapper.loaded{
+  display: none !important;
+}
+
+/*new header css*/
+.header.custom-header .header_main.topfix.scroll_page {
+  height: 77px;
+  margin-top: 0;
+  -webkit-transform: translate(0, 77px);
+  -ms-transform: translate(0, 77px);
+  -moz-transform: translate(0, 77px);
+  -o-transform: translate(0, 77px);
+  transform: translate(0, 77px);
+}
+.header.custom-header {
+  height: 125px;
+}
+.header.custom-header .header_main {
+  height: -77px;
+}
+.header-container.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.header-wrapper {
+  border-top: 1px solid #e5e5f0;
+  border-bottom: 1px solid #e5e5f0;
+  margin-top: 12px;
+  background: #fff;
+  transform: translateY(0px);
+  opacity: 1;
+  transition: transform 0.5s ease-out;
+}
+.header-wrapper .container{
+  padding: 0;
+}
+.header-wrapper.loaded {
+  transform: translateY(0);
+}
+
+/* Top Level Tab List (L1)*/
+.header-tab-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  flex-wrap: nowrap;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
+
+.header-tab-list .tab-item {
+    padding: 0 14px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.tab-item {
+  display: flex;
+  gap: 6px;
+  padding: 15px 0px;
+  position: relative;
+   /* flex-shrink: 0; */
+}
+.l1-full-click {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit;
+  padding:16px 0px;
+}
+.l1-image {
+  width: 20px;
+  height: 20px;
+}
+
+.tab-item:hover {
+  cursor: pointer;
+}
+
+.tab-item svg {
+  font-size: 16px;
+  color: #8E8E8E;
+}
+
+/* Hover underline effect for active tab */
+.tab-item:hover:before {
+    background-color: #fc7d47;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 14px;
+    right: 14px;
+    position: absolute;
+}
+.tab-item:hover > .l1-full-click::before,
+.tab-item.active > .l1-full-click::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #FC7D47;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+/* Label inside top tab */
+.tab-label {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.38;
+  color: #474747;
+}
+
+/* Common Dropdown Panel*/
+.dropdown-panel .container{
+  padding: 0px;
+}
+.dropdown-panel {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  border-bottom: solid 1px #d9d8e9;
+  border-top: 1px solid #e5e5f0;
+  z-index: 9999;
+}
+
+/* Overflow Menu (Others Tab)*/
+.overflow-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.overflow-menu-container {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.overflow-menu-left-panel {
+  border-right: 1px solid rgba(217, 216, 233, 0.6);
+  padding-right: 19px;
+  width: 272px;
+}
+
+.overflow-item-left {
+  padding: 9px 12px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.overflow-item-left:hover,
+.overflow-item-left.active {
+  border-radius: 8px;
+  background-color: #f2f2f8;
+  color: #050505;
+}
+
+/* Label for L1 inside Others */
+.tab-label-left {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.38;
+  color: #474747;
+  white-space: normal;
+  word-wrap: break-word;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  overflow-wrap: anywhere;
+}
+.tab-label-left:hover,
+.tab-label-left.active {
+  color: #050505;
+}
+
+.tab-label-left img {
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Overflow L2 container */
+
+/* Overflow L3 items */
+.overflow-item-right {
+  margin-bottom: 12px;
+}
+
+.tab-label-right {
+  font-size: 13px;
+  color: #474747;
+  line-height: 1.38;
+  font-weight: normal;
+}
+
+.tab-label-right:hover,
+.tab-label-right.active {
+  text-decoration: underline !important;
+  color: #050505;
+  font-weight: normal;
+}
+.others-screen-text a:hover,
+.others-screen-text.active a {
+  text-decoration: underline !important;
+  color: #050505 !important;
+  font-weight: normal;
+  text-underline-offset: 2px;
+}
+
+/* Regular Mega Menu*/
+.regular-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.regular-menu-container {
+  display: flex;
+  padding: 20px 0;
+}
+
+.regular-left-panel {
+  border-right: 1px solid rgba(217, 216, 233, 0.6);
+  padding-right: 19px;
+  width: 272px;
+  padding-left: 0px;
+  cursor: default;
+}
+
+.regular-right-panel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;        
+  height: auto;           
+  max-height: 360px;    
+  padding-left: 0px;
+  min-width: 200px;
+}
+
+/* L2 styling in regular dropdown */
+.regular-item-left {
+  padding: 9px 12px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer; 
+  line-height: 1.25;  
+}
+
+.regular-item-left:hover,
+.regular-item-left.active {
+  border-radius: 8px;
+  background-color: #f2f2f8;
+  color: #050505;
+}
+
+/* L2 anchor styling */
+.regular-item-left a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #474747 !important;
+    white-space: normal;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    gap: 5px;   
+    width: 100%;
+    flex: 1;
+}
+.regular-item-left a:hover,
+.regular-item-left.active a {
+  color: #050505 !important;
+}
+.l2-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.l2-full-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  justify-content: space-between;
+}
+/* L3 styling in regular dropdown */
+.regular-item-right {
+  margin-bottom: 12px;
+  list-style-type: none;
+  width: 214px;
+  margin-right: 40px;
+}
+.regular-item-right::marker {
+  display: none;
+}
+
+.regular-item-right .tab-label-right {
+  font-size: 13px;
+  color: #474747 !important;
+  line-height: 1.38;
+  font-weight: normal;
+  text-wrap: wrap;
+}
+
+.regular-item-right .tab-label-right:hover,
+.regular-item-right .tab-label-right.active {
+  text-decoration: underline !important;
+  color: #050505 !important;
+  text-underline-offset: 2px;
+}
+.overflow-item-left:hover .tab-label-left,
+.regular-item-left:hover a,
+.regular-item-left:hover svg,
+.overflow-item-left:hover a,
+.overflow-item-left:hover svg,
+.overflow-item-left.active .tab-label-left,
+.regular-item-left.active a,
+.regular-item-left.active svg,
+.overflow-item-left.active a,
+.overflow-item-left.active svg {
+  color: #050505;
+}
+.header-menu-right-panel-cover {
+  width: calc(100% - 272px);
+  max-height: 520px;
+  padding: 0px 19.5px;
+}
+.header-menu-right-panel {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 520px;
+  overflow-x: auto;
+  align-content: start;
+}
+.overflow-item-left-text {
+  /* height: 220px; */
+  height: 234px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 25%;
+}
+.others-screen-heading {
+  color: #474747;
+  font-weight: 700;
+}
+.others-screen-heading a{
+  display: flex;
+  align-items: center;
+  color:#474747 !important;
+}
+.others-screen-cover {
+  margin: 12px 0;
+  padding-left: 0px;
+  max-height: 190px !important;
+}
+.others-screen-text {
+ padding-bottom: 10px;
+}
+.others-screen-text a {
+  margin-bottom: 0px;
+  font-size: 13px;
+  color: #474747 !important;
+  text-wrap: wrap;
+}
+.header-menu-right-panel::-webkit-scrollbar {
+  height: 4px;
+}
+
+.header-menu-right-panel::-webkit-scrollbar-track {
+  background: #e5e5e5;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.header-menu-right-panel::-webkit-scrollbar-thumb {
+  background: #9a97c3;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.slickArrowHeader {
+  position: absolute;
+  bottom: -10%;
+  background: #fff;
+  color: #9c99c4;
+  border: none;
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+  font-size: 12px;
+  padding: 2px;
+  z-index: 1;
+  border: solid 1px #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slickArrowHeader.down-arrow {
+  right: 80%;
+}
+.slickArrowHeader.down-arrow svg {
+  color: #9c99c4;
+}
+.slickArrowHeader.up-arrow svg {
+  color: #9c99c4;
+}
+
+.slickArrowHeader.up-arrow {
+  left: 0%;
+}
+.slickArrowHeader.down-arrow.slick-disabled svg {
+  color: #e5e5e5;
+  cursor: not-allowed;
+}
+.slickArrowHeader.up-arrow.slick-disabled svg {
+  color: #e5e5e5;
+  cursor: not-allowed;
+}
+.slickArrowHeader:not(.slick-disabled):hover {
+  background-color: #e5e5f0;
+  border: 1px solid #e5e5f0;
+}
+.slickArrowHeader:not(.slick-disabled):hover svg {
+  color: #5a5695;
+}
+
+.banner-slider-cover {
+  width: 220px;
+}
+.banner-slider-cover.bottom-add {
+  width: 728px;
+  /* margin-bottom: 15px; */
+  margin-top: -30px;
+}
+
+.header-banner {
+  height: 257px;
+  width: 221px;
+  background-color: #fef6f2;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.header-banner img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+.header-banner.clickable {
+  cursor: pointer;
+}
+.header-banner.not-clickable {
+  cursor: default;
+}
+.header-banner h2 {
+  font-size: 16px;
+  color: #2f2d4e;
+  font-weight: 600;
+}
+.header-banner span {
+  display: block;
+}
+.banner-desc {
+  color: #474747;
+  font-size: 14px;
+  width: 90%;
+}
+.banner-signup {
+  padding: 8px 21px;
+  border-radius: 100px;
+  font-size: 14px;
+  background-color: #fc7d47;
+  color: #fff;
+  border: none;
+  margin-top: 24px;
+}
+.banner-img {
+  position: absolute;
+  right: -83px;
+  bottom: -40px;
+  width: 190px;
+  height: 190px;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+}
+.regular-right-panel-cover {
+  display: flex;
+  padding-left: 19.5px;
+  flex-wrap: wrap;
+  gap:40px;
+  width: calc(100% - 272px);          
+  overflow-x: auto;       
+  overflow-y: hidden;  
+  white-space: nowrap; 
+  cursor: default; 
+}
+.header-coover {
+  width: 100%;
+}
+/* .header-banner-slider .slick-dots {
+  position: absolute;
+  bottom: -20px !important;
+} */
+.header-banner-slider .slick-list {
+  position: relative;
+}
+.header-banner-slider .slick-slide {
+  display: flex;
+  justify-content: center;
+  width: 220px;
+}
+.header-banner-slider.bottom-add .slick-slide {
+  display: flex;
+  justify-content: center;
+  width: 728px;
+}
+.header-banner-slider .slick-slide {
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.header-banner-slider .slick-center {
+  opacity: 1;
+  transform: scale(1);
+}
+.header-banner-slider .slick-center div {
+  width: 100%;
+}
+/* Dots */
+.header-banner-slider .slick-dots {
+  bottom: -5px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+}
+.header-banner-slider .slick-dots li button {
+  margin: 0px;
+  padding: 0px;
+}
+.header-banner-slider .slick-dots li button:before {
+  font-size: 0;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 1;
+}
+
+.header-banner-slider .slick-dots li {
+  margin: 0px;
+}
+.header-banner-slider .slick-dots li.slick-active button:before {
+  background-color: #5a5695;
+  width: 32px;
+  height: 16px;
+  position: relative;
+  border-radius: 14px;
+  margin: 0px -15px;
+  top: -14px;
+  left: -3px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* Slide counter */
+.slide-count {
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+  display: inline;
+  position: relative;
+  right: 0px;
+  left: 112px;
+  bottom: 10px;
+  font-weight: 700;
+  padding: 2px 6px 1px;
+  border-radius: 14px;
+  background-color: #5a5695;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 10px;
+}
+.custom-dots-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.header-banner-slider .slick-dots li.slick-active {
+  background-color: #5a5695;
+  width: 12px;
+  height: 0px;
+  position: relative;
+  bottom: 1px;
+  margin: 0px 24px 0px 0px;
+}
+.center-dot .custom-dot-text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 2px 6px 2px;
+  position: relative;
+  top: -3px;
+  background-color: #5a5695;
+  border-radius: 14px;
+}
+/* Default dot */
+.custom-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.custom-dot.active {
+  background-color: #5a5695;
+  width: 32px;
+  height: 12px;
+  border-radius: 12px;
+  position: relative;
+}
+.center-dot {
+  width: 28px;
+  height: 16px;
+  border-radius: 14px;
+  background-color: #5a5695;
+  position: relative;
+  top: -15px;
+}
+
+.hidden-dot {
+  display: none;
+}
+.small-dot {
+  opacity: 0.4;
+  background-color: #9a97c3;
+  height: 3px;
+  width: 3px;
+}
+.large-dot {
+  opacity: 0.7;
+  background-color: #5a5695;
+  height: 5px;
+  width: 5px;
+}
+.header-share-image {
+  width: 24px;
+  height: 24px;
+}
+.header-share-image img {
+  width: 100%;
+  height: 100%;
+}
+.header-ask-now {
+  padding-right: 16px;
+  padding-left: 16px;
+  border-right: 1px solid #d9d8e9;
+  cursor: pointer;
+}
+.header-share-modal {
+  padding-right: 16px;
+  padding-left: 16px;
+  border-right: 1px solid #d9d8e9;
+  cursor: pointer;
+}
+.header-ask-now span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.header-share-modal span {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+.user-login-svg {
+  color: #fc7d47;
+  font-size: 16px;
+}
+.header-ask-now span img,
+.header-share-modal span img {
+  width: 100%;
+  height: 100%;
+}
+.header-ask-now::marker,
+.header-share-modal::marker {
+  display: none;
+}
+.header-tag {
+  margin-left: 4px;
+}
+.header-tag img {
+  display: inline;
+}
+.header_login_user_links {
+  font-size: 14px;
+  position: absolute;
+  top: 52px;
+  background: #fff;
+  color: #050505;
+  z-index: 10;
+  padding: 12px 12px 15px 12px !important;
+  border: 1px solid #eeee;
+  display: none;
+  min-width: 160px;
+  right: -2px;
+  border-radius: 8px;
+  border: solid 1px #d8d8d8;
+}
+.header_login_user_links:before {
+  border-color: transparent transparent #d8d8d8;
+  border-style: solid;
+  border-width: 10px;
+  top: -20px;
+  content: "";
+  right: 10px;
+  margin-left: -5px;
+  position: absolute;
+}
+
+.header_login_user_links:after {
+  border-color: transparent transparent #fff;
+  border-style: solid;
+  border-width: 10px;
+  top: -18px;
+  content: "";
+  right: 10px;
+  margin-left: -5px;
+  position: absolute;
+}
+.header_login_user_links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.header_login_user_links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header_login_user_links ul li:last-child {
+  border-bottom: none;
+  color: #ba4820;
+}
+
+.user-name {
+  padding: 5px 0 5px 8px;
+  border-radius: 4px;
+  background-color: #e5e5f0;
+  margin-bottom: 10px;
+}
+
+.header_login_user_links li {
+  padding-bottom: 10px;
+  border-bottom: solid 1px #e5e5f0;
+  list-style-type: none;
+}
+.header_login_user_links li a {
+  display: inline-block;
+  width: 100%;
+  color:#050505 !important;
+}
+.header_login_user_links li a:hover {
+  color:#050505;
+}
+.header_login_user_links li:last-child {
+  padding-bottom: 0px;
+  border-bottom: none;
+  color:#ba4820;
+}
+.header_login_user_links ul li:last-child a{
+  color:#ba4820 !important;
+}
+.header_login_user_links li a img {
+  margin-right: 6px;
+}
+.blur-overlay {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+}
+
+.blur-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+.share-button {
+  background-color: #f7f7fb;
+}
+
+.share-button ul {
+  margin: 0px 12px 12px;
+  padding: 0;
+  text-align: center;
+}
+
+.share-button li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin-right: 8px;
+  border: 1px solid #f7f7fb;
+  border-radius: 8px;
+  height: 88px;
+  width: 89px;
+}
+.share-button li:hover {
+  background-color: #fff;
+  border: solid 1px #d9d8e9;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.share-button li:last-child {
+  margin-right: 0px;
+}
+.share-button li span {
+  color: #474747;
+  display: block;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.share-button h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #474747;
+}
+
+.header-login {
+  border: 1px solid #fc7d47;
+  color: #fff !important;
+  border-radius: 100px;
+  font-weight: normal;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  min-width: 86px;
+  height: 42px;
+  text-align: center;
+  border-radius: 100px;
+  background: #fc7d47;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-left: 24px;
+}
+.header-login:hover {
+  background-color: #e76731;
+  color: #fff !important;
+}
+.header-login a:hover {
+  color: #fff;
+}
+.header_search_form {
+  padding: 0 45px 0 15px;
+  box-sizing: border-box;
+  display: inline-flex;
+  margin-top: 0;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  line-height: 37px;
+  color: #474747;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #fff;
+  border-radius: 100px;
+  background-color: #f2f2f8;
+  align-items: center;
+  margin:0px 50px;
+}
+.header_search-icon {
+  position: absolute;
+  font-size: 18px;
+  background-color: transparent;
+  width: 52px;
+  height: 41px;
+  top: -1px;
+  left: 0px;
+}
+.input-new-header {
+  padding-left: 29px;
+  color: #474747;
+  font-size: 14px;
+}
+.header_search-icon svg {
+  position: absolute;
+  top: 11px;
+  left: 18px;
+  color: #616163;
+  font-weight: bold;
+  font-size: 20px;
+}
+.share-model .react-responsive-modal-modal {
+  width: 660px !important;
+  border-radius: 16px !important;
+  padding: 16px !important;
+  background-color: #f7f7fb;
+}
+.share-model .react-responsive-modal-closeButton {
+  right: 8px !important;
+  font-size: 22px;
+  top: 8px !important;
+}
+.share-model .react-responsive-modal-closeButton svg {
+  color: #7a7a7a;
+  margin: 0px !important;
+}
+.header_user_icon {
+  width: 28px;
+  height: 28px;
+  margin: 0 8px 0 0;
+  padding: 6px 9px 6px;
+  background-color: #ea6c38;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 50%;
+}
+.header-user-login-icon {
+  padding: 7px;
+  border-radius: 100px;
+  background-color: #fdf1ec;
+  min-width: 72px;
+}
+
+.header_right_menu {
+  z-index: 1;
+  float: right;
+  color: #fff;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+.header_login_block {
+  margin: 0px;
+  font-size: 16px;
+  color: #181a27;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  text-transform: capitalize;
+  margin-left: 24px;
+}
+.header_login_block::before {
+  display: none;
+}
+.others-slider .slick-list {
+  position: relative;
+  height:175px !important;
+}
+.others-slider .slick-track {
+  position: relative;
+  height:200px !important;
+  display: block;
+}
+.others-slider .slick-list .slick-track .slick-slide {
+  height: auto !important;
+}
+.others-slider .slick-disabled {
+  display: flex !important;
+}
+.direct-links-item {
+  width: 270px;
+  padding: 8px 12px;
+  color: #474747;
+  list-style-type: none;
+}
+.direct-links-item:hover,
+.direct-links-item.active {
+  background-color: #fff;
+  border-radius: 8px;
+  color: #050505;
+}
+.direct-links-item:hover .direct-links-flex span a {
+  color: #050505;
+}
+.direct-links-item.active .direct-links-flex span a {
+  color: #050505;
+}
+.direct-links-item a {
+  display: flex;
+  color: #474747 !important;
+  font-weight: bold;
+}
+.direct-links-item a:hover {
+  color: #050505 !important;
+}
+.direct-links-item img {
+  width: auto;
+  height: 100%;
+}
+.direct-links-menu-cover {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(4, min-content);
+  gap: 0 40px;
+  padding: 20px 0;
+}
+.direct-links-container {
+  height: 312px;
+  display: flex;
+  gap:40px;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.direct-links-menu-cover {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: scroll;
+}
+.direct-links-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.direct-links-text-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.direct-links-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right:6px;
+}
+.direct-links-icon img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.direct-links-flex div {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+.direct-link-banner{
+  padding-top: 20px;
+}
+.direct-links-container.no-banner{
+  justify-content: center;
+  height: auto;
+  cursor: default;
+}
+.dropdown-panel.direct-links-menu.others .direct-links-container {
+  justify-content: flex-start;
+}
+
+.dropdown-panel.direct-links-menu.others{
+  position: static;
+  border:none;
+}
+.dropdown-panel.direct-links-menu.others .direct-links-container .direct-links-menu-cover{
+  padding-top:0px;
+}
+.direct_link_text{
+  text-wrap: auto;
+  font-size: 13px;
+}
+.header-banner.bottom-add{
+  width: 728px !important;
+  height: 90px;
+}
+.live-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+
+  border-radius: 8px;
+  border: solid 1px #c94e0b;
+  background-image: linear-gradient(to bottom, #fff 0%, #f9f2eb 100%);
+  padding: 0px 5px;
+  margin-left: 8px;
+}
+.live-tag-text {
+  font-size: 9px;
+  font-weight: bold;
+  animation: fadePulse 1.5s infinite;
+  color: #c94e0b;
+  line-height: 14px;
+}
+
+@keyframes fadePulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3; 
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/****************** mobile css ********************/
+@media screen and (max-width: 991px) and (min-width: 360px) {
+    .header_main {
+        height: 54px;
+        padding: 0;
+        padding: 0;
+        transform: none !important;
+        top: auto !important;
+    }
+    .header.header_main.topfix.scroll_page {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 53px;
+    }
+    .header.custom-header, .header.custom-header .header_main.topfix.scroll_page {
+        height: 54px !important;
+    }
+    .mobile_display {
+        display: block;
+        position: relative;
+    }
+    .mobile_header {
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+        display: inline-flex;
+        min-height: 53px;
+        position: unset;
+        vertical-align: middle;
+        width: 100%;
+        z-index: 4;
+    }
+    .header-container.container {
+        align-items: baseline;
+        margin-bottom: 0 !important;
+        padding: 12px 16px;
+    }
+    .header-container .login_button_hemburger .login_btn {
+        background: #5a5695;
+        color: #fff !important;
+        font-size: 15px;
+        border-radius: 4px;
+        box-shadow: 0 3px 6px 0 rgb(58 77 149 / 16%);
+        z-index: 10;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+        height: 45px;
+        max-height: unset;
+        bottom: 0;
+    }
+    .header-container .login_btn {
+        border: 1px solid #5a5695;
+        color: #fff !important;
+        background: #5a5695;
+    }
+    .header-container .login_btn:hover {
+        background-color: #5a5695;
+        color: #fff !important;
+    }
+    .left_header_menu {
+        float: left;
+        width: 130px;
+    }
+    .user-name {
+        padding: 5px 0 5px 8px;
+        border-radius: 4px;
+        background-color: #e5e5f0;
+        margin-bottom: 10px;
+    }
+    .headerhambuger_icon {
+        overflow: hidden;
+        position: absolute;
+        top: 17px;
+        width: 20px;
+    }
+    .mobile_hamburger_button {
+        background: #0000;
+        border: none;
+        float: left;
+        height: 16px;
+        line-height: 16px;
+        position: relative;
+        top: 0;
+        width: 18px;
+        z-index: 9;
+    }
+    .mobile_hamburger_button.is_closed:before {
+        color: #fff;
+        content: "";
+        font-size: 14px;
+        line-height: 30px;
+        opacity: 0;
+        text-align: center;
+        -webkit-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        width: 100px;
+    }
+    .react-responsive-modal-root.share-model .react-responsive-modal-modal {
+      max-width: 315px;
+      height: 250px;
+    }
+    .mobile_hamburger_button.is_closed .hamb_bottom, .mobile_hamburger_button.is_closed .hamb_middle, .mobile_hamburger_button.is_closed .hamb_top, .mobile_hamburger_button.is_open .hamb_bottom, .mobile_hamburger_button.is_open .hamb_middle, .mobile_hamburger_button.is_open .hamb_top {
+        background-color: #333;
+        height: 2px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+    .mobile_hamburger_button.is_closed .hamb_top {
+        margin-top: 3px;
+        top: 0;
+        -webkit-transition: all .35s ease-in-out;
+        -ms-transition: all .35s ease-in-out;
+        -moz-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out;
+    }
+    .mobile_hamburger_button.is_closed .hamb_middle {
+        margin-top: -.5px;
+        top: 50%;
+    }
+     .mobile_hamburger_button.is_closed .hamb_bottom {
+        margin-bottom: 3px;
+        top: 80%;
+        -webkit-transition: all .35s ease-in-out;
+        -ms-transition: all .35s ease-in-out;
+        -moz-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out;
+        width: 14px;
+    }
+    .hamburger_panel.is_closed {
+        height: 100vh;
+        left: -375px;
+        transform: translateX(-100%);
+    }
+    .hamburger_panel.is_closed, .hamburger_panel.is_open {
+        background: #fff;
+        margin-top: 45px;
+        position: fixed;
+        text-align: left;
+        top: 0;
+        transition: transform .3s ease-in-out 0s;
+        z-index: 1;
+    }
+    .c360_logo_header {
+        margin: 0px 0 0 32px;
+        text-align: left;
+        padding-top:2px ;
+    }
+    .header_right_menu {
+        display: flex;
+        color: #474747;
+        gap: 14px;
+    }
+    .header-ask-now {
+        padding: 0 !important;
+        cursor: pointer;
+        border-right: none !important;
+    }
+    .header-ask-now span {
+        width: 16px !important;
+        height: 16px !important;
+        display: inline-block;
+    }
+    .header-share-modal {
+        padding: 0 !important;
+        cursor: pointer;
+        border-right: none !important;
+    }
+    .header-share-modal span {
+        width: 20px !important;
+        height: 20px !important;
+        display: inline-block;
+    }
+    .searchMainDiv {
+        z-index: 999 !important;
+    }
+    .search_container {
+        padding: 25px 15px 15px;
+    }
+    .flex_col img {
+      width: 180px;
+      height: 13px !important;
+    }
+
+    .share-button ul {
+        margin: 0;
+    }
+
+    .header_login_block {
+      position: relative;
+      margin-left: 0px;
+    }
+    .nav_data_blk {
+      overflow: auto;
+    }
+    .nav_data_blk .ac_icon {
+      color: #333;
+      padding: 10px;
+    }
+    .header_login_block:before {
+      content: "";
+      background: #3a4d95;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      z-index: 8;
+      display: block;
+      border-radius: 50%;
+      right: -8px;
+      top: 3px;
+      display: none;
+    }
+    .header_login_toggle_cross {
+      display: block;
+      position: absolute;
+      font-size: 14px;
+      font-weight: bold;
+      color: #000;
+      position: absolute;
+      right: 16px;
+    }
+  .header_user_icon {
+    position: relative;
+    margin-right: 0;
+  }
+  .user-login-svg {
+    position: relative;
+  }
+  .user-login-svg svg {
+    position: absolute;
+    right: -8px;
+    border-radius: 50%;
+    background: #ba4820;
+    border: 1px solid #fff;
+    color: #fff;
+    bottom: 7px;
+  }
+  .header_login_show.header_login_show li {
+    color: #050505;
+    padding: 0px;
+  }
+
+  .header_login_show.header_login_show li a {
+    color: #050505;
+    padding: 12px 0px;
+    display: inline-block;
+    width: 100%;
+  }
+  .header_login_show.header_login_show li.sub li{
+    border: none;
+    color: #474747 !important;
+    font-size: 14px;
+    padding: 0px;
+  }
+  .header_login_show.header_login_show li.sub li a {
+    border: none;
+    color: #474747 !important;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .header_login_show.header_login_show li.sub {
+    background: #fff;
+    color: #474747;
+    margin: 0;
+    padding: 0 0 0 22px;
+  }
+  .header_login_user_links {
+    font-size: 14px;
+    position: absolute;
+    top: 52px;
+    background: #fff;
+    color: #050505;
+    z-index: 10;
+    padding: 8px 8px 14px 8px;
+    border: 1px solid #eeee;
+    min-width: 160px;
+    right: 4px;
+    border-radius: 8px;
+    border: solid 1px #d8d8d8;
+  }
+  .header_login_user_links:after {
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 10px;
+    top: -19px;
+    content: "";
+    right: 8px;
+    margin-left: -5px;
+    position: absolute;
+    display: none;
+  }
+  .header_login_user_links:before {
+    border-color: transparent transparent #ccc;
+    border-style: solid;
+    border-width: 10px;
+    top: -19px;
+    content: "";
+    right: 8px;
+    margin-left: -5px;
+    position: absolute;
+    display: none;
+  }
+  .header_login_user_links li:last-child a {
+    border-bottom: none;
+    color: #b84820;
+  }
+  .header_login_user_links li {
+    padding: 12px 0px;
+    border: none;
+  }
+  .header_login_user_links ul {
+    gap: 0px;
+  }
+  .header_login_user_links ul li:last-child {
+    padding-bottom: 0px;
+  }
+  .bg_dropdown {
+    background: #000;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+  }
+
+  .bg_dropdown.header_login_show {
+    opacity: 0.5;
+    pointer-events: auto;
+  }
+
+  .header_login_user_links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 16px;
+    z-index: 11;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+    display: block;
+  }
+  .header_login_user_links.header_login_show {
+    transition: all 0.3s ease;
+    will-change: auto;
+    z-index: 11;
+    background: #fff;
+    bottom: 0px;
+    border: none;
+    right: 0;
+    min-width: 200px;
+    color: #333;
+    left: 0;
+    overflow: hidden;
+    padding: 16px;
+    position: fixed;
+    top: auto;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    display: block;
+    transform: translateY(0);
+  }
+  .share-model .react-responsive-modal-modal {
+    height: auto;
+    max-width: 345px;
+  }
+  .header_user_name {
+    border-bottom: 1px solid #e5e5f0;
+    color: #050505;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    height: auto;
+    margin: 0;
+    padding: 0 0 12px;
+    text-transform: capitalize;
+  }
+   .mega-menu-link-text{
+    font-size: 14px;
+  }
+  .mega-menu-wap-list div{
+    display: flex;
+    align-items: center;
+  }
+  .menu-item-l1 div span{
+    font-size: 16px;
+  }
+  .slick-slider{
+    overflow: visible !important;
+  }
+
+  .mobile_hamburger_button.is_open .hamb_top {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: -webkit-transform .2s cubic-bezier(.73, 1, .28, .08);
+  }
+  .mobile_hamburger_button.is_open .hamb_bottom, .mobile_hamburger_button.is_open .hamb_top {
+      margin-top: -1px;
+      top: 50%;
+  }
+      .mobile_hamburger_button.is_open .hamb_middle {
+      display: none;
+  }
+  .mobile_hamburger_button.is_open .hamb_bottom {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: -webkit-transform .2s cubic-bezier(.73, 1, .28, .08);
+  }
+    .hamburgar_popOpen {
+      height: 100vh;
+      overflow: hidden !important;
+   }
+  .hamburger_panel.is_open {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    margin-top: 45px;
+    overflow: hidden;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out 0s;
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+  }
+
+  .downloadBannerContainer{
+    min-height: 100px;
+  }
+
+}
+
+/* react responsive modal css ****** */
+.react-responsive-modal-root {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.react-responsive-modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.react-responsive-modal-container {
+  height: 100%;
+  outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+/* Used to trick the browser to center the modal content properly  */
+.react-responsive-modal-containerCenter:after {
+  width: 0;
+  height: 100%;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+}
+.react-responsive-modal-modal {
+  max-width: 800px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  background: #ffffff;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  margin: 1.2rem;
+  padding: 1.2rem;
+  position: relative;
+  overflow-y: auto;
+}
+.react-responsive-modal-closeButton {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+}
+/* Used to fix a screen glitch issues with the animation see https://github.com/pradel/react-responsive-modal/issues/495 */
+.react-responsive-modal-overlay,
+.react-responsive-modal-container,
+.react-responsive-modal-modal {
+      /*animation-fill-mode: forwards !important;*/
+}
+
+@media screen and (max-width: 1000px) and (min-width: 360px) {
+
+    .react-responsive-modal-closeButton{
+      top: 5px !important;
+      right: 5px !important;
+    }
+}
+.nav_data_blk .accordion_menu_title h5 {
+  color: #333;
+  padding: 0 10px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.nav_data_blk .accordion_menu_content a {
+  color: #333;
+  font-size: 14px;
+  display: block;
+  padding: 10px;
+}
+
+.nav_data_blk .accordion_menu_content {
+  padding: 0 20px 10px;
+  background-color: #f2f2f2;
+  overflow: auto;
+  max-height: 200px;
+}
+.nav_data_blk .acordian_contant div {
+  padding: 0 !important;
+}
+
+.head_acordian_contant {
+  min-height: auto !important;
+}
+
+.selected_domain {
+  margin: 0 15px;
+  position: relative;
+}
+.selected_domain .domain_change {
+  border-bottom: 3px solid #e5e5e5;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #3a4d95;
+  display: inline-block;
+  width: 100%;
+  padding-right: 60px;
+}
+.selected_domain .back_main_nav {
+  color: #333333;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.loader_search {
+  position: absolute;
+  right: 30px;
+  top: 24px;
+}
+
+.dot-pulse {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ee5d6b;
+  color: #ee5d6b;
+  box-shadow: 9999px 0 0 -5px;
+  animation: dot-pulse 1.5s infinite linear;
+  animation-delay: 0.25s;
+}
+.dot-pulse::before,
+.dot-pulse::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #00a669;
+  color: #00a669;
+}
+.dot-pulse::before {
+  background-color: #3a4d95;
+  color: #3a4d95;
+  box-shadow: 9984px 0 0 -5px;
+  animation: dot-pulse-before 1.5s infinite linear;
+  animation-delay: 0s;
+}
+.dot-pulse::after {
+  box-shadow: 10014px 0 0 -5px;
+  animation: dot-pulse-after 1.5s infinite linear;
+  animation-delay: 0.5s;
+}
+
+@keyframes dot-pulse-before {
+  0% {
+    box-shadow: 9984px 0 0 -5px;
+  }
+  30% {
+    box-shadow: 9984px 0 0 2px;
+  }
+  60%,
+  100% {
+    box-shadow: 9984px 0 0 -5px;
+  }
+}
+@keyframes dot-pulse {
+  0% {
+    box-shadow: 9999px 0 0 -5px;
+  }
+  30% {
+    box-shadow: 9999px 0 0 2px;
+  }
+  60%,
+  100% {
+    box-shadow: 9999px 0 0 -5px;
+  }
+}
+@keyframes dot-pulse-after {
+  0% {
+    box-shadow: 10014px 0 0 -5px;
+  }
+  30% {
+    box-shadow: 10014px 0 0 2px;
+  }
+  60%,
+  100% {
+    box-shadow: 10014px 0 0 -5px;
+  }
+}
+
+.ask_question_div.ask_question_button {
+  position: absolute !important;
+  width: 100%;
+  text-align: center;
+}
+.ask_question_div.ask_question_button a {
+  display: inline-block !important;
+  background: #f2f2f2;
+  padding: 8px 10px !important;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+
+.ask_question {
+  min-width: 220px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  padding: 9px 12px;
+  text-align: center;
+  margin: 25px auto 10px;
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+  color: #444;
+  transition: all 0.2s ease-in-out;
+}
+.ask_question:hover {
+  color: #3a4d95;
+}
+.ask_question span {
+  color: #3a4d95;
+}
+/********* common css **********/
+header.custom-header.header_main {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0px);
+  -webkit-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  top: -125px;
+  margin-top: 0;
+  position: sticky;
+}
+
+.header_main.topfix.scroll_page {
+  position: fixed;
+  height: 125px;
+  /* height: 127px; */
+  margin-top: 0;
+  -webkit-transform: translate(0, 125px);
+  -ms-transform: translate(0, 125px);
+  -moz-transform: translate(0, 125px);
+  -o-transform: translate(0, 125px);
+  transform: translate(0, 125px);
+  -webkit-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.scroll-locked {
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 100%;
+}
+
+.hamburgar_popOpen {
+    overflow: hidden !important;
+}
+@media screen and (max-width: 991px) and (min-width: 360px) {
+  .share-button li span {
+    font-size: 11px;
+  }
+  .share-button li {
+    padding: 0;
+    height: auto;
+    width: 77px;
+    margin-right: 16px;
+  }
+  .header-banner {
+    max-height: 94px;
+    margin: 16px 16px 12px 16px;
+    width: 343px;
+  }
+  .header-login-banner {
+    height: 152px;
+    background-color: #fef6f2;
+    position: relative;
+    border-radius: 12px;
+    padding: 16px 0px 0px 15px;
+    overflow: hidden;
+    margin: 16px;
+    display: flex;
+  }
+  .header-login-banner h2 {
+    font-size: 16px;
+    color: #2f2d4e;
+    font-weight: 600;
+  }
+  .header-banner span {
+    display: inline-block;
+  }
+  .mega-menu-wap-list::before {
+    margin: 0 5px 0 0;
+  }
+  .mega-menu-wap {
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    list-style: none;
+    overflow-y: auto;
+    padding-left: 0;
+  }
+  .mega-menu-wap-container {
+    flex: 1;
+    overflow: hidden;
+    min-height: 0;   
+  }
+  .mega-menu-wap li {
+    position: relative;
+  }
+  .mega-menu-wap-list {
+    color: #474747;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    display: block;
+    min-height: 40px;
+    border-bottom: 1px solid #e5e5f0;
+    margin: 0px 16px 0px 16px;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    .mega-menu-wap li:last-child {
+      margin-bottom: 40px;
+  }
+  .mega-menu-wap li:first-child .mega-menu-wap-list {
+    border-top: 1px solid #E5E5F0;
+  }
+  .mega-menu-wap-image {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+  }
+  .mega-menu-wap-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .mega-menu-panel-wap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mega-menu-wap-icon {
+    display: inline;
+  }
+  .header-banner-slider .slick-slide {
+    width: 343px;
+  }
+
+  .header-banner-slider .slick-center div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-banner-slider .slick-slide .header-banner {
+    width: 328px !important;
+    margin: 16px auto 12px;
+  }
+  .header-banner-slider .slick-slide .header-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .menu-header {
+    background-color: #f2f2f8;
+    padding: 13px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    border-top: 1px solid #e5e5f0;
+  }
+
+  .menu-header img {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .header-menu-current-data {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 40px;               
+    line-height: 20px;
+    word-break: break-word;
+    color: #474747;
+  }
+  .menu-item-l1 {
+    font-weight: 600;
+  }
+
+  .menu-item-l2,
+  .menu-item-l3 {
+    font-weight: normal;
+  }
+  .banner-signup {
+    margin-top: 12px;
+  }
+  .banner-slider-cover {
+    width: 100%;
+  }
+  .banner-login-desc {
+    color: #474747;
+    font-size: 14px;
+    width: 70%;
+  }
+  .banner-img {
+    position: absolute;
+    right: -118px;
+    bottom: -6px;
+    width: 140px;
+    height: 90px;
+    left: 130px;
+  }
+  .banner-login-img {
+    position: absolute;
+    right: -40px;
+    bottom: -10px;
+    width: 140px;
+    height: 140px;
+  }
+
+  .banner-login-img img {
+    width: 100%;
+    height: 100%;
+  }
+    .searchMainDiv .searchInput input[type=text] {
+      font-size: 14px;
+      padding-left: 30px;
+    }
+    .searchContentWrapper {
+      flex-direction: column;
+      gap: 0;
+    }
+    .popularSearch {
+      background: #fff;
+      height: calc(100vh - 140px);
+      margin: 0 0 140px;
+      position: relative;
+      width: 100%;
+    }
+    .search-content {
+      max-height: calc(100vh - 277px);
+    }
+    .searchMainDiv .searchInput input[type="text"] {
+      padding-left: 30px;
+      font-size: 14px;
+    }
+    .popularSearch h3 {
+        margin-top: 18px;
+    }
+    .popularSearch ul li a {
+        color: #666 !important;
+        font-size: 14px;
+    }
+
+     .head_acordian_contant {
+      font-size: 14px;
+      color: #181a27;
+      min-height: auto !important;
+      font-weight: 500;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      background-color: transparent;
+      box-shadow: none;
+      margin: 0 !important;
+    }
+    .head_acordian_contant:last-child {
+      border-bottom: none;
+    }
+
+    .head_acordian_contant ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .head_acordian_contant h5 {
+      width: 100%;
+      color: #e5e5e5;
+      font-size: 12px;
+      text-transform: capitalize;
+      margin: 0 18px !important;
+      padding: 15px 0px !important;
+    }
+    .head_acordian_contant div {
+      padding: 0;
+      margin: 0 !important;
+      min-height: auto;
+      color: #111;
+      box-shadow: none;
+      border: none;
+      min-height: auto !important;
+    }
+    .head_acordian_contant:before {
+      content: none;
+    }
+
+
+    /******* common css *****/
+  .nav_data_blk .ac_icon {
+    color: #333;
+    padding: 10px;
+  }
+  .header_btn {
+    display: inline-block;
+  }
+  .mobile_hamburger_button:hover,
+  .mobile_hamburger_button:focus,
+  .mobile_hamburger_button:active {
+    outline: none;
+  }
+    .hamburgar_popOpen {
+    overflow: hidden !important;
+  }
+    .hamburger_panel.is_closed {
+    transform: translateX(-100%);
+    height: 100vh;
+    text-align: left;
+    position: fixed;
+    top: 0px;
+    left: -375px;
+    margin-top: 45px;
+    transition: transform 0.3s ease-in-out 0s;
+    z-index: 1;
+    background: #fff;
+  }
+    .c360_quick_links:before {
+    content: "e921";
+    font-family: "careers-icon";
+    padding-right: 8px;
+  }
+    .menu_subnav {
+    transform: translateX(-100%);
+    height: 100vh;
+    text-align: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-top: 45px;
+    transition: transform 0.3s ease-in-out 0s;
+    z-index: 1;
+    background: #fff;
+  }
+  .menu_subnav.is_open {
+    background: #fff;
+    transform: translateX(0px);
+    height: calc(100vh - 50px);
+    text-align: left;
+    position: fixed;
+    /* top: 0; */
+    top: 144px;
+    left: 0px;
+    transition: transform 0.3s ease-in-out 0s;
+    z-index: 10;
+    width: 100%;
+    margin-top: 45px;
+    overflow: auto;
+  }
+    .nav_data_blk {
+    overflow: auto;
+  }
+  .login_popup_overlay {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 360px) {
+  .slickArrowHeader.down-arrow {
+  right: 70% !important;
+  }
+}
+
+
+
+.accordion-button {
+    transition: none !important;
+}
+    
+
+            @media print {
+                body {
+                    display: none !important;
+                }
+                body::before {
+                    content: "Careers360";
+                    position: fixed;
+                    top: 40%;
+                    left: 20%;
+                    font-size: 100px;
+                    opacity: 0.08;
+                    transform: rotate(-30deg);
+                    z-index: 9999;
+                    pointer-events: none;
+                }
+            }
+            </style>
+            
+            
+             <link
+                 rel="preload"
+                 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+                 crossorigin="anonymous"
+                 href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+                 as="style"
+                 onload="this.onload=null;this.rel='stylesheet'" />
+                 <link data-chunk="main" rel="preload" as="style" href="https://cnextassets.careers360.com/frontend-article/_react_article/main.86077a59f8e5725dc218.css">
+<link data-chunk="main" rel="preload" as="script" href="https://cnextassets.careers360.com/frontend-article/_react_article/vendors-node_modules_pnpm_reduxjs_toolkit_1_9_7_react-redux_8_1_3__types_react_19_2_18_react--4183e4.752aee4cd974c85642a1.js">
+<link data-chunk="main" rel="preload" as="script" href="https://cnextassets.careers360.com/frontend-article/_react_article/main.3ea7ed48332f283e71f8.js">
+                 <link data-chunk="main" rel="stylesheet" href="https://cnextassets.careers360.com/frontend-article/_react_article/main.86077a59f8e5725dc218.css">
+             
+             
+        </head>
+        <body class="lazyLoad ">
+        
+
+        <script>window.INITIAL_STATE={"userData":{"loading":false,"user":null,"userResolved":false,"user_error":null,"userPermission":null,"userActivity":null,"error":"","putUserResponse":null,"putUserResponseError":null,"idpPermissions":null,"userFeedList":[],"userFeedListLoading":null,"userKeywords":[],"userFeedBack":null,"postUserFeedBack":null,"errorPostUserFeedBack":null,"loadMoreloading":null,"commonSignInCheck":null,"postUpdateProfile":null,"getUserCtaLoading":false,"getUserCta":null,"getUserCtaError":null,"getOneClickCheckUserLoading":false,"getOneClickCheckUserData":null,"getOneClickCheckUserError":null,"getUserDetailLoading":false,"getUserDetailData":null,"getUserDetailError":null,"pushUserToLSQLoading":false,"pushUserToLSQData":null,"pushUserToLSQError":null},"sharedDetails":{"headerData":null,"subNavData":null,"articleData":null,"selectedHeaderData":null,"redirectUrlData":null,"loading":null,"error":null,"location":null,"locationError":null},"articleDetailPwa":{"loading":false,"error":null,"articleDetailPwa":null,"articleDetailPwaLoading":null,"articleDetailPwaError":null,"upcomingExams":null,"upcomingExamsLoading":null,"upcomingExamsError":null,"newsNotification":null,"newsNotificationLoading":null,"newsNotificationError":null,"relatedEBooks":null,"relatedEBooksLoading":null,"relatedEBooksError":null,"qnaPwa":null,"qnaPwaLoading":null,"qnaPwaError":null,"footerPwa":null,"footerPwaLoading":null,"footerPwaError":null,"alsoReadPwa":null,"alsoReadPwaLoading":null,"alsoReadPwaError":null,"popularCoursesSpecialization":null,"popularCoursesSpecializationLoading":null,"popularCoursesSpecializationError":null,"certificateArticle":null,"certificateArticleLoading":null,"certificateArticleError":null,"ncertArticle":null,"ncertArticleLoading":null,"ncertArticleError":null,"metaData":null,"metaDataLoading":null,"metaDataError":null,"subMenuData":null,"subMenuDataLoading":null,"subMenuDataError":null,"relatedArticles":{},"relatedArticlesLoading":null,"relatedArticlesError":null,"popularColleges":null,"popularCollegesLoading":null,"popularCollegesError":null,"getUpdates":null,"getUpdatesError":null,"popularCollegesNcert":null,"popularCollegesNcertLoading":null,"popularCollegesNcertError":null,"productMapping":null,"productMappingLoading":null,"productMappingError":null,"breadcrumbsPwa":null,"breadcrumbsPwaLoading":null,"breadcrumbsPwaError":null,"popularCollegesByLocation":null,"popularCollegesByLocationLoading":null,"popularCollegesByLocationError":null,"exploreCareerOptions":null,"exploreCareerOptionsLoading":null,"exploreCareerOptionsError":null,"ncertQuestion":null,"ncertQuestionLoading":null,"ncertQuestionError":null,"courseProviders":null,"courseProvidersLoading":null,"courseProvidersError":null,"headerSearchData":null,"headerSearchDataLoading":null,"headerSearchDataError":null,"trendingSearch":null,"trendingSearchLoading":null,"trendingSearchError":null,"fatFooter":null,"fatFooterLoading":null,"fatFooterError":null,"downloadBrochure":null,"downloadBrochureError":null,"downloadBrochureList":null,"downloadBrochureListLoading":null,"downloadBrochureListError":null,"downloadBrochureFromList":null,"downloadBrochureFromListLoading":null,"downloadBrochureFromListError":null,"pdfDownload":null,"pdfDownloadLoading":null,"pdfDownloadError":null,"askNowQna":null,"askNowQnaError":null,"clientInstituteList":null,"clientInstituteListLoading":null,"clientInstituteListError":null,"postPdfDownload":null,"postPdfDownloadError":null,"searchReport":null,"searchReportFailure":null,"aiArticleFaqsLoading":false,"aiArticleFaqs":null,"aiArticleFaqsError":null,"articleWebstoryLoading":false,"articleWebstory":null,"articleWebstoryError":null,"newsLiveBlogData":null,"newsLiveBlogLoading":null,"newsLiveBlogError":null,"examSyllabusData":null,"examSyllabusLoading":null,"examSyllabusError":null,"articleNewTextMappingList":null,"articleNewTextMappingLoading":null,"articleNewTextMappingError":null,"newsLiveBlockData":null,"newsLiveBlockError":null,"newsLiveBlockLoading":null},"pageDetails":{"0":"courses\u002Farticles\u002Fhow-to-earn-money-as-a-student","domain":"courses","path1":"articles","path":"how-to-earn-money-as-a-student","hostname":"www.careers360.com","pathname":"\u002Fcourses\u002Farticles\u002Fhow-to-earn-money-as-a-student","url":"\u002Fcourses\u002Farticles\u002Fhow-to-earn-money-as-a-student","googelbot":false,"newDomain":"www","slugWithDomain":undefined,"slugWithoutDomain":"\u002Fcourses\u002Farticles\u002Fhow-to-earn-money-as-a-student","deviceType":"Web","domainPathName":"www.careers360.com"},"serverSideData":{"status":404,"envs":{"MAIN_LOGIN_URL":"https:\u002F\u002Fwww.careers360.com","FRONTEND_URL":"https:\u002F\u002Flaw.careers360.com","FRONTEND_SERVICE_URL":"https:\u002F\u002Flaw.careers360.com","SUB_DOMAIN_NAME":".careers360.com","SESSION_DOMAIN_NAME":".careers360.com","SERVER_ENV":"production","HIGHLIGHT_LOGGER_CODE":"5g5z2ngn","baseURL_SECONDARY":undefined,"SUB_DOMAIN_NAME_SECONDARY":undefined,"API_MAXIMUM_TIMEOUT":"20000","CLIENT_SIDE_API_URL":"https:\u002F\u002Fapi.careers360.com","SERVER_SIDE_API_URL":"http:\u002F\u002Fcnext-backend-production-service","SERVER_SIDE_C360_SERVICE_URL":"http:\u002F\u002Fc360-production-service","SERVER_SIDE_SEARCH_API_URL":"http:\u002F\u002Fcnext-search-production-service","SERVER_SIDE_EBOOK_API_URL":"http:\u002F\u002Fcnext-ebooks-production-service","API_AUTH_KEY":"QeQohnkIqobSaDQITN02Ojpe3nC8dXn4hltbRt1t-TIb","clientSideUrls":{"MAIN_SERVICE":"https:\u002F\u002Fbackend-service","VOICE_SERVICE":"https:\u002F\u002Fvoice-service","USER_FEED_SERVICE":"https:\u002F\u002Freco-service","COLLEGE_SERVICE":"https:\u002F\u002Fcollege-service.careers360.com","COLLEGE_LISTING_SERVICE":"https:\u002F\u002Flisting-service.careers360.com","LEARN_SERVICE":"https:\u002F\u002Flearn.careers360.com","SCHOOL_SERVICE":"https:\u002F\u002Fschool-service","GET_ARTICLE_AUDIO_API":"https:\u002F\u002Fvoice-service.careers360.com\u002Fapi\u002F1\u002Farticle-audio\u002F","GET_USER_FEED_GENERATION_API":"https:\u002F\u002Freco-service.careers360.com\u002Fapi\u002F1\u002Fuser-feed-generate","POST_LMS_PRODUCT_STATUS_API":"https:\u002F\u002Flearn.careers360.com\u002Fapi\u002F2\u002Flms-product-status-any\u002F","POST_LMS_REGISTER_API":"https:\u002F\u002Flearn.careers360.com\u002Fapi\u002F2\u002Flms-register\u002F","BASE_SERVICE":"https:\u002F\u002Fwww","CUS_SERVICE":"https:\u002F\u002Fbackend-cus","MAIN_SERVICE_API_URL":"https:\u002F\u002Fapi.careers360.com","SEARCH_SERVICE":"https:\u002F\u002Fapi-search","EBOOK_SERVICE":"https:\u002F\u002Felibrary-service","NEWS_SERVICE":"https:\u002F\u002Fnews-service.careers360.com","ADBUDDY_SERVICE":"https:\u002F\u002Fwww.careers360.com"},"serverSideUrls":{"MAIN_SERVICE":"https:\u002F\u002Fbackend-service","VOICE_SERVICE":"https:\u002F\u002Fvoice-service","USER_FEED_SERVICE":"https:\u002F\u002Freco-service","COLLEGE_SERVICE":"http:\u002F\u002Fcnext-colleges-production-service","COLLEGE_LISTING_SERVICE":"http:\u002F\u002Fcnext-listing-production-service","LEARN_SERVICE":"http:\u002F\u002Flearn360-production-service","SCHOOL_SERVICE":"https:\u002F\u002Fschool-service","GET_ARTICLE_AUDIO_API":"https:\u002F\u002Fvoice-service.careers360.com\u002Fapi\u002F1\u002Farticle-audio\u002F","GET_USER_FEED_GENERATION_API":"https:\u002F\u002Freco-service.careers360.com\u002Fapi\u002F1\u002Fuser-feed-generate","POST_LMS_PRODUCT_STATUS_API":"https:\u002F\u002Flearn.careers360.com\u002Fapi\u002F2\u002Flms-product-status-any\u002F","POST_LMS_REGISTER_API":"https:\u002F\u002Flearn.careers360.com\u002Fapi\u002F2\u002Flms-register\u002F","BASE_SERVICE":"https:\u002F\u002Fwww","MAIN_SERVICE_API_URL":"http:\u002F\u002Fcnext-backend-production-service","CUS_SERVICE":"https:\u002F\u002Fbackend-cus","SEARCH_SERVICE":"http:\u002F\u002Fcnext-search-production-service","EBOOK_SERVICE":"http:\u002F\u002Fcnext-ebooks-production-service","NEWS_SERVICE":"http:\u002F\u002Fcnext-news-production-service","ADBUDDY_SERVICE":"http:\u002F\u002Fc360-production-service"},"CURRENT_HOST":"www.careers360.com"}},"articleDetails":{"loading":false,"error":null,"message":null,"articleDetails":null,"keywordLoading":false,"keywordError":null,"keywordDetails":null,"latestArticleList":null,"latestArticleListLoading":null,"latestArticleListError":null,"categoryArticleList":null,"updateArticleLoading":null,"updateArticleError":null,"updateCategoryLoading":null,"updateCategoryError":null,"category":null,"articleAudio":null,"submenu":null,"submenuLoading":false,"submenuError":null,"downloadPdf":null,"downloadPdfError":null,"latestArticle":null},"schoolreducer":{"postLearnAskNow":null,"postLearnAskNowError":null,"reducers":{"postLearnAskNowSuccess":function(state, action) {
+        return {
+          ...state,
+          postLearnAskNow: action.payload
+        };
+      },"postLearnAskNowFailure":function(state, action) {
+        return {
+          ...state,
+          postLearnAskNowError: action.payload
+        };
+      },"clearLearnAskNowSuccess":function(state, action) {
+        return {
+          ...state,
+          postLearnAskNow: null
+        };
+      }}},"commonData":{"loading":false,"error":null,"urlData":null,"urlDataError":{"message":"Request failed with status code 404","name":"AxiosError","description":undefined,"number":undefined,"fileName":undefined,"lineNumber":undefined,"columnNumber":undefined,"stack":undefined,"config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"adapter":function httpAdapter(config) {
+  return new Promise(function dispatchHttpRequest(resolvePromise, rejectPromise) {
+    var onCanceled;
+    function done() {
+      if (config.cancelToken) {
+        config.cancelToken.unsubscribe(onCanceled);
+      }
+
+      if (config.signal) {
+        config.signal.removeEventListener('abort', onCanceled);
+      }
+    }
+    var resolve = function resolve(value) {
+      done();
+      resolvePromise(value);
+    };
+    var rejected = false;
+    var reject = function reject(value) {
+      done();
+      rejected = true;
+      rejectPromise(value);
+    };
+    var data = config.data;
+    var headers = config.headers;
+    var headerNames = {};
+
+    Object.keys(headers).forEach(function storeLowerName(name) {
+      headerNames[name.toLowerCase()] = name;
+    });
+
+    // Set User-Agent (required by some servers)
+    // See https://github.com/axios/axios/issues/69
+    if ('user-agent' in headerNames) {
+      // User-Agent is specified; handle case where no UA header is desired
+      if (!headers[headerNames['user-agent']]) {
+        delete headers[headerNames['user-agent']];
+      }
+      // Otherwise, use specified value
+    } else {
+      // Only set header if it hasn't been set in config
+      headers['User-Agent'] = 'axios/' + VERSION;
+    }
+
+    // support for https://www.npmjs.com/package/form-data api
+    if (utils.isFormData(data) && utils.isFunction(data.getHeaders)) {
+      Object.assign(headers, data.getHeaders());
+    } else if (data && !utils.isStream(data)) {
+      if (Buffer.isBuffer(data)) {
+        // Nothing to do...
+      } else if (utils.isArrayBuffer(data)) {
+        data = Buffer.from(new Uint8Array(data));
+      } else if (utils.isString(data)) {
+        data = Buffer.from(data, 'utf-8');
+      } else {
+        return reject(new AxiosError(
+          'Data after transformation must be a string, an ArrayBuffer, a Buffer, or a Stream',
+          AxiosError.ERR_BAD_REQUEST,
+          config
+        ));
+      }
+
+      if (config.maxBodyLength > -1 && data.length > config.maxBodyLength) {
+        return reject(new AxiosError(
+          'Request body larger than maxBodyLength limit',
+          AxiosError.ERR_BAD_REQUEST,
+          config
+        ));
+      }
+
+      // Add Content-Length header if data exists
+      if (!headerNames['content-length']) {
+        headers['Content-Length'] = data.length;
+      }
+    }
+
+    // HTTP basic authentication
+    var auth = undefined;
+    if (config.auth) {
+      var username = config.auth.username || '';
+      var password = config.auth.password || '';
+      auth = username + ':' + password;
+    }
+
+    // Parse url
+    var fullPath = buildFullPath(config.baseURL, config.url);
+    var parsed = url.parse(fullPath);
+    var protocol = parsed.protocol || supportedProtocols[0];
+
+    if (supportedProtocols.indexOf(protocol) === -1) {
+      return reject(new AxiosError(
+        'Unsupported protocol ' + protocol,
+        AxiosError.ERR_BAD_REQUEST,
+        config
+      ));
+    }
+
+    if (!auth && parsed.auth) {
+      var urlAuth = parsed.auth.split(':');
+      var urlUsername = urlAuth[0] || '';
+      var urlPassword = urlAuth[1] || '';
+      auth = urlUsername + ':' + urlPassword;
+    }
+
+    if (auth && headerNames.authorization) {
+      delete headers[headerNames.authorization];
+    }
+
+    var isHttpsRequest = isHttps.test(protocol);
+    var agent = isHttpsRequest ? config.httpsAgent : config.httpAgent;
+
+    try {
+      buildURL(parsed.path, config.params, config.paramsSerializer).replace(/^\?/, '');
+    } catch (err) {
+      var customErr = new Error(err.message);
+      customErr.config = config;
+      customErr.url = config.url;
+      customErr.exists = true;
+      reject(customErr);
+    }
+
+    var options = {
+      path: buildURL(parsed.path, config.params, config.paramsSerializer).replace(/^\?/, ''),
+      method: config.method.toUpperCase(),
+      headers: headers,
+      agent: agent,
+      agents: { http: config.httpAgent, https: config.httpsAgent },
+      auth: auth
+    };
+
+    if (config.socketPath) {
+      options.socketPath = config.socketPath;
+    } else {
+      options.hostname = parsed.hostname;
+      options.port = parsed.port;
+    }
+
+    var proxy = config.proxy;
+    if (!proxy && proxy !== false) {
+      var proxyEnv = protocol.slice(0, -1) + '_proxy';
+      var proxyUrl = process.env[proxyEnv] || process.env[proxyEnv.toUpperCase()];
+      if (proxyUrl) {
+        var parsedProxyUrl = url.parse(proxyUrl);
+        var noProxyEnv = process.env.no_proxy || process.env.NO_PROXY;
+        var shouldProxy = true;
+
+        if (noProxyEnv) {
+          var noProxy = noProxyEnv.split(',').map(function trim(s) {
+            return s.trim();
+          });
+
+          shouldProxy = !noProxy.some(function proxyMatch(proxyElement) {
+            if (!proxyElement) {
+              return false;
+            }
+            if (proxyElement === '*') {
+              return true;
+            }
+            if (proxyElement[0] === '.' &&
+                parsed.hostname.substr(parsed.hostname.length - proxyElement.length) === proxyElement) {
+              return true;
+            }
+
+            return parsed.hostname === proxyElement;
+          });
+        }
+
+        if (shouldProxy) {
+          proxy = {
+            host: parsedProxyUrl.hostname,
+            port: parsedProxyUrl.port,
+            protocol: parsedProxyUrl.protocol
+          };
+
+          if (parsedProxyUrl.auth) {
+            var proxyUrlAuth = parsedProxyUrl.auth.split(':');
+            proxy.auth = {
+              username: proxyUrlAuth[0],
+              password: proxyUrlAuth[1]
+            };
+          }
+        }
+      }
+    }
+
+    if (proxy) {
+      options.headers.host = parsed.hostname + (parsed.port ? ':' + parsed.port : '');
+      setProxy(options, proxy, protocol + '//' + parsed.hostname + (parsed.port ? ':' + parsed.port : '') + options.path);
+    }
+
+    var transport;
+    var isHttpsProxy = isHttpsRequest && (proxy ? isHttps.test(proxy.protocol) : true);
+    if (config.transport) {
+      transport = config.transport;
+    } else if (config.maxRedirects === 0) {
+      transport = isHttpsProxy ? https : http;
+    } else {
+      if (config.maxRedirects) {
+        options.maxRedirects = config.maxRedirects;
+      }
+      if (config.beforeRedirect) {
+        options.beforeRedirect = config.beforeRedirect;
+      }
+      transport = isHttpsProxy ? httpsFollow : httpFollow;
+    }
+
+    if (config.maxBodyLength > -1) {
+      options.maxBodyLength = config.maxBodyLength;
+    }
+
+    if (config.insecureHTTPParser) {
+      options.insecureHTTPParser = config.insecureHTTPParser;
+    }
+
+    // Create the request
+    var req = transport.request(options, function handleResponse(res) {
+      if (req.aborted) return;
+
+      // uncompress the response body transparently if required
+      var stream = res;
+
+      // return the last request in case of redirects
+      var lastRequest = res.req || req;
+
+
+      // if no content, is HEAD request or decompress disabled we should not decompress
+      if (res.statusCode !== 204 && lastRequest.method !== 'HEAD' && config.decompress !== false) {
+        switch (res.headers['content-encoding']) {
+        /*eslint default-case:0*/
+        case 'gzip':
+        case 'compress':
+        case 'deflate':
+        // add the unzipper to the body stream processing pipeline
+          stream = stream.pipe(zlib.createUnzip());
+
+          // remove the content-encoding in order to not confuse downstream operations
+          delete res.headers['content-encoding'];
+          break;
+        }
+      }
+
+      var response = {
+        status: res.statusCode,
+        statusText: res.statusMessage,
+        headers: res.headers,
+        config: config,
+        request: lastRequest
+      };
+
+      if (config.responseType === 'stream') {
+        response.data = stream;
+        settle(resolve, reject, response);
+      } else {
+        var responseBuffer = [];
+        var totalResponseBytes = 0;
+        stream.on('data', function handleStreamData(chunk) {
+          responseBuffer.push(chunk);
+          totalResponseBytes += chunk.length;
+
+          // make sure the content length is not over the maxContentLength if specified
+          if (config.maxContentLength > -1 && totalResponseBytes > config.maxContentLength) {
+            // stream.destoy() emit aborted event before calling reject() on Node.js v16
+            rejected = true;
+            stream.destroy();
+            reject(new AxiosError('maxContentLength size of ' + config.maxContentLength + ' exceeded',
+              AxiosError.ERR_BAD_RESPONSE, config, lastRequest));
+          }
+        });
+
+        stream.on('aborted', function handlerStreamAborted() {
+          if (rejected) {
+            return;
+          }
+          stream.destroy();
+          reject(new AxiosError(
+            'maxContentLength size of ' + config.maxContentLength + ' exceeded',
+            AxiosError.ERR_BAD_RESPONSE,
+            config,
+            lastRequest
+          ));
+        });
+
+        stream.on('error', function handleStreamError(err) {
+          if (req.aborted) return;
+          reject(AxiosError.from(err, null, config, lastRequest));
+        });
+
+        stream.on('end', function handleStreamEnd() {
+          try {
+            var responseData = responseBuffer.length === 1 ? responseBuffer[0] : Buffer.concat(responseBuffer);
+            if (config.responseType !== 'arraybuffer') {
+              responseData = responseData.toString(config.responseEncoding);
+              if (!config.responseEncoding || config.responseEncoding === 'utf8') {
+                responseData = utils.stripBOM(responseData);
+              }
+            }
+            response.data = responseData;
+          } catch (err) {
+            reject(AxiosError.from(err, null, config, response.request, response));
+          }
+          settle(resolve, reject, response);
+        });
+      }
+    });
+
+    // Handle errors
+    req.on('error', function handleRequestError(err) {
+      // @todo remove
+      // if (req.aborted && err.code !== AxiosError.ERR_FR_TOO_MANY_REDIRECTS) return;
+      reject(AxiosError.from(err, null, config, req));
+    });
+
+    // set tcp keep alive to prevent drop connection by peer
+    req.on('socket', function handleRequestSocket(socket) {
+      // default interval of sending ack packet is 1 minute
+      socket.setKeepAlive(true, 1000 * 60);
+    });
+
+    // Handle request timeout
+    if (config.timeout) {
+      // This is forcing a int timeout to avoid problems if the `req` interface doesn't handle other types.
+      var timeout = parseInt(config.timeout, 10);
+
+      if (isNaN(timeout)) {
+        reject(new AxiosError(
+          'error trying to parse `config.timeout` to int',
+          AxiosError.ERR_BAD_OPTION_VALUE,
+          config,
+          req
+        ));
+
+        return;
+      }
+
+      // Sometime, the response will be very slow, and does not respond, the connect event will be block by event loop system.
+      // And timer callback will be fired, and abort() will be invoked before connection, then get "socket hang up" and code ECONNRESET.
+      // At this time, if we have a large number of request, nodejs will hang up some socket on background. and the number will up and up.
+      // And then these socket which be hang up will devoring CPU little by little.
+      // ClientRequest.setTimeout will be fired on the specify milliseconds, and can make sure that abort() will be fired after connect.
+      req.setTimeout(timeout, function handleRequestTimeout() {
+        req.abort();
+        var transitional = config.transitional || transitionalDefaults;
+        reject(new AxiosError(
+          'timeout of ' + timeout + 'ms exceeded',
+          transitional.clarifyTimeoutError ? AxiosError.ETIMEDOUT : AxiosError.ECONNABORTED,
+          config,
+          req
+        ));
+      });
+    }
+
+    if (config.cancelToken || config.signal) {
+      // Handle cancellation
+      // eslint-disable-next-line func-names
+      onCanceled = function(cancel) {
+        if (req.aborted) return;
+
+        req.abort();
+        reject(!cancel || (cancel && cancel.type) ? new CanceledError() : cancel);
+      };
+
+      config.cancelToken && config.cancelToken.subscribe(onCanceled);
+      if (config.signal) {
+        config.signal.aborted ? onCanceled() : config.signal.addEventListener('abort', onCanceled);
+      }
+    }
+
+
+    // Send the request
+    if (utils.isStream(data)) {
+      data.on('error', function handleStreamError(err) {
+        reject(AxiosError.from(err, config, null, req));
+      }).pipe(req);
+    } else {
+      req.end(data);
+    }
+  });
+},"transformRequest":[function transformRequest(data, headers) {
+    normalizeHeaderName(headers, 'Accept');
+    normalizeHeaderName(headers, 'Content-Type');
+
+    if (utils.isFormData(data) ||
+      utils.isArrayBuffer(data) ||
+      utils.isBuffer(data) ||
+      utils.isStream(data) ||
+      utils.isFile(data) ||
+      utils.isBlob(data)
+    ) {
+      return data;
+    }
+    if (utils.isArrayBufferView(data)) {
+      return data.buffer;
+    }
+    if (utils.isURLSearchParams(data)) {
+      setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
+      return data.toString();
+    }
+
+    var isObjectPayload = utils.isObject(data);
+    var contentType = headers && headers['Content-Type'];
+
+    var isFileList;
+
+    if ((isFileList = utils.isFileList(data)) || (isObjectPayload && contentType === 'multipart/form-data')) {
+      var _FormData = this.env && this.env.FormData;
+      return toFormData(isFileList ? {'files[]': data} : data, _FormData && new _FormData());
+    } else if (isObjectPayload || contentType === 'application/json') {
+      setContentTypeIfUnset(headers, 'application/json');
+      return stringifySafely(data);
+    }
+
+    return data;
+  }],"transformResponse":[function transformResponse(data) {
+    var transitional = this.transitional || defaults.transitional;
+    var silentJSONParsing = transitional && transitional.silentJSONParsing;
+    var forcedJSONParsing = transitional && transitional.forcedJSONParsing;
+    var strictJSONParsing = !silentJSONParsing && this.responseType === 'json';
+
+    if (strictJSONParsing || (forcedJSONParsing && utils.isString(data) && data.length)) {
+      try {
+        return JSON.parse(data);
+      } catch (e) {
+        if (strictJSONParsing) {
+          if (e.name === 'SyntaxError') {
+            throw AxiosError.from(e, AxiosError.ERR_BAD_RESPONSE, this, null, this.response);
+          }
+          throw e;
+        }
+      }
+    }
+
+    return data;
+  }],"timeout":"20000","xsrfCookieName":"csrftoken","xsrfHeaderName":"X-CSRFToken","maxContentLength":-1,"maxBodyLength":-1,"env":{"FormData":{"MAIN_LOGIN_URL":"https:\u002F\u002Fwww.careers360.com","FRONTEND_URL":"https:\u002F\u002Flaw.careers360.com","FRONTEND_SERVICE_URL":"https:\u002F\u002Flaw.careers360.com","SUB_DOMAIN_NAME":".careers360.com","SESSION_DOMAIN_NAME":".careers360.com","SERVER_ENV":"production","HIGHLIGHT_LOGGER_CODE":"5g5z2ngn","baseURL_SECONDARY":undefined,"SUB_DOMAIN_NAME_SECONDARY":undefined,"API_MAXIMUM_TIMEOUT":"20000","CLIENT_SIDE_API_URL":"https:\u002F\u002Fapi.careers360.com","SERVER_SIDE_API_URL":"http:\u002F\u002Fcnext-backend-production-service","SERVER_SIDE_C360_SERVICE_URL":"http:\u002F\u002Fc360-production-service","SERVER_SIDE_SEARCH_API_URL":"http:\u002F\u002Fcnext-search-production-service","SERVER_SIDE_EBOOK_API_URL":"http:\u002F\u002Fcnext-ebooks-production-service","API_AUTH_KEY":"QeQohnkIqobSaDQITN02Ojpe3nC8dXn4hltbRt1t-TIb","clientSideUrls":{"MAIN_SERVICE":"https:\u002F\u002Fbackend-service","VOICE_SERVICE":"https:\u002F\u002Fvoice-service","USER_FEED_SERVICE":"https:\u002F\u002Freco-service","COLLEGE_SERVICE":"https:\u002F\u002Fcollege-service.careers360.com","COLLEGE_LISTING_SERVICE":"https:\u002F\u002Flisting-service.careers360.com","LEARN_SERVICE":"https:\u002F\u002Flearn.careers360.com","SCHOOL_SERVICE":"https:\u002F\u002Fschool-service","GET_ARTICLE_AUDIO_API":"https:\u002F\u002Fvoice-service.careers360.com\u002Fapi\u002F1\u002Farticle-audio\u002F","GET_USER_FEED_GENERATION_API":"https:\u002F\u002Freco-service.careers360.com\u002Fapi\u002F1\u002Fuser-feed-generate","POST_LMS_PRODUCT_STATUS_API":"https:\u002F\u002Flearn.careers360.com\u002Fapi\u002F2\u002Flms-product-status-any\u002F","POST_LMS_REGISTER_API":"https:\u002F\u002Flearn.careers360.com\u002Fapi\u002F2\u002Flms-register\u002F","BASE_SERVICE":"https:\u002F\u002Fwww","CUS_SERVICE":"https:\u002F\u002Fbackend-cus","MAIN_SERVICE_API_URL":"https:\u002F\u002Fapi.careers360.com","SEARCH_SERVICE":"https:\u002F\u002Fapi-search","EBOOK_SERVICE":"https:\u002F\u002Felibrary-service","NEWS_SERVICE":"https:\u002F\u002Fnews-service.careers360.com","ADBUDDY_SERVICE":"https:\u002F\u002Fwww.careers360.com"},"serverSideUrls":{"MAIN_SERVICE":"https:\u002F\u002Fbackend-service","VOICE_SERVICE":"https:\u002F\u002Fvoice-service","USER_FEED_SERVICE":"https:\u002F\u002Freco-service","COLLEGE_SERVICE":"http:\u002F\u002Fcnext-colleges-production-service","COLLEGE_LISTING_SERVICE":"http:\u002F\u002Fcnext-listing-production-service","LEARN_SERVICE":"http:\u002F\u002Flearn360-production-service","SCHOOL_SERVICE":"https:\u002F\u002Fschool-service","GET_ARTICLE_AUDIO_API":"https:\u002F\u002Fvoice-service.careers360.com\u002Fapi\u002F1\u002Farticle-audio\u002F","GET_USER_FEED_GENERATION_API":"https:\u002F\u002Freco-service.careers360.com\u002Fapi\u002F1\u002Fuser-feed-generate","POST_LMS_PRODUCT_STATUS_API":"https:\u002F\u002Flearn.careers360.com\u002Fapi\u002F2\u002Flms-product-status-any\u002F","POST_LMS_REGISTER_API":"https:\u002F\u002Flearn.careers360.com\u002Fapi\u002F2\u002Flms-register\u002F","BASE_SERVICE":"https:\u002F\u002Fwww","MAIN_SERVICE_API_URL":"http:\u002F\u002Fcnext-backend-production-service","CUS_SERVICE":"https:\u002F\u002Fbackend-cus","SEARCH_SERVICE":"http:\u002F\u002Fcnext-search-production-service","EBOOK_SERVICE":"http:\u002F\u002Fcnext-ebooks-production-service","NEWS_SERVICE":"http:\u002F\u002Fcnext-news-production-service","ADBUDDY_SERVICE":"http:\u002F\u002Fc360-production-service"},"CURRENT_HOST":"www.careers360.com"}},"validateStatus":function validateStatus(status) {
+    return status >= 200 && status < 300;
+  },"headers":{"Accept":"application\u002Fjson, text\u002Fplain, *\u002F*","x-api-key":"xeJJzhaj1mQ-ksTB_nF_iH0z5YdG50yQtwQCzbcHuKA","Authorization":null,"Domain":"www.careers360.com","User-Agent":"axios\u002F0.27.2"},"baseURL":"http:\u002F\u002Fcnext-backend-production-service","withCredentials":true,"crossDomain":true,"method":"get","url":"\u002Fapi\u002F1\u002Furl-check\u002F","params":{"source":"courses\u002Farticles\u002Fhow-to-earn-money-as-a-student","Domain":"www"},"data":undefined},"code":"ERR_BAD_REQUEST","status":404},"certificaitonTopProviders":null,"certificaitonTopProvidersLoading":null,"certificaitonTopProvidersError":null,"topUniversities":null,"topUniversitiesLoading":null,"topUniversitiesError":null,"premiumBlock":null,"premiumBlockLoading":null,"premiumBlockError":null,"brochureMailerLoading":false,"brochureMailerResponse":null,"brochureMailerError":null,"articleVisitData":null,"articleVisitDataError":null,"serverErrorsList":[],"serverSuccessList":[],"openInApp":false,"openChatBot":false,"showChatBot":false,"showChatCounter":false,"appVersionLoading":false,"appVersionSuccess":null,"appVersionFailure":null,"siteNavigationLoading":false,"siteNavigationData":null,"siteNavigationError":null,"counsellingBlockFilterTagsLoading":false,"counsellingBlockFilterTags":null,"counsellingBlockFilterTagsError":null,"counsellingBlockCollegeListLoading":false,"counsellingBlockCollegeList":null,"counsellingBlockCollegeListError":null,"counsellingBlockCtaUrlLoading":false,"counsellingBlockCtaUrl":null,"counsellingBlockCtaUrlError":null,"counsellingBlockExamFilterDropdownLoading":false,"counsellingBlockExamFilterDropdown":null,"counsellingBlockExamFilterDropdownError":null,"counsellingBlockCrawlDataLoading":false,"counsellingBlockCrawlData":null,"counsellingBlockCrawlDataError":null,"CollegeBrochureTypeloading":false,"CollegeBrochureTypeData":null,"CollegeBrochureTypeError":null,"pollsInteractLoading":false,"pollsInteractData":{},"pollsInteractError":null,"pollsQuestionLoading":false,"pollsQuestionData":null,"pollsQuestionError":null,"pollsCommentLoading":false,"pollsCommentData":null,"pollsCommentError":null,"pollsPostCommenData":{},"pollsPostCommenDataError":null,"counsellingBlockPostCtaTrackingLoading":false,"counsellingBlockPostCtaTrackingData":null,"counsellingBlockPostCtaTrackingError":null,"ebookFilterDropdown":null,"ebookFilterDropdownLoading":false,"ebookFilterDropdownError":null,"ebookListDropdown":null,"ebookListDropdownLoading":false,"ebookListDropdownError":null,"ebookCtaUrldata":null,"ebookCtaUrldataLoading":false,"ebookCtaUrldataError":null,"relatedEbookBlockCrawlDataLoading":false,"relatedEbookBlockCrawlData":null,"relatedEbookBlockCrawlDataError":null,"counsellingBookingCalendarDates":null,"counsellingBookingCalendarDatesLoading":false,"counsellingBookingCalendarDatesError":null,"counsellingBookingSlots":null,"counsellingBookingSlotsLoading":false,"counsellingBookingSlotsError":null,"counsellingBooking":null,"counsellingBookingLoading":false,"counsellingBookingError":null,"conusellingBookingRetrieve":null,"conusellingBookingRetrieveLoading":false,"conusellingBookingRetrieveError":null,"url404Data":null,"url404DataError":null,"LsqActivity":null,"LsqActivityError":null,"quickWatchDataLoading":false,"quickWatchDataError":null,"quickWatchData":null},"articleListingData":{"articleListingHeader":null,"articleListingHeaderError":null,"articleListing":null,"articleListingError":null,"articleListingFilterExam":null,"articleListingFilterExamLoading":null,"articleListingFilterExamError":null,"articleListingFilterCollege":null,"articleListingFilterCollegeLoading":null,"articleListingFilterCollegeError":null,"articleListingFilterCountry":null,"articleListingFilterCountryLoading":null,"articleListingFilterCountryError":null,"articleListingFilterCategoryLanguage":null,"articleListingFilterCategoryLanguageLoading":null,"articleListingFilterCategoryLanguageError":null,"articleListingOtherExams":null,"articleListingOtherExamsError":null,"articleSource":null,"articleSourceLoading":null,"articleSourceError":null},"articleLandingData":{"articleLandingFilters":null,"articleLandingFiltersError":null,"articleResources":null,"articleResourcesLoading":null,"articleResourcesError":null,"articlePolicies":null,"articlePoliciesLoading":null,"articlePoliciesError":null,"articleExamInformation":null,"articleExamInformationLoading":null,"articleExamInformationError":null,"articleExamPreparation":null,"articleExamPreparationLoading":null,"articleExamPreparationError":null,"articleStudentTestimonials":null,"articleStudentTestimonialsLoading":null,"articleStudentTestimonialsError":null,"articleAwareness":null,"articleAwarenessLoading":null,"articleAwarenessError":null,"articleCareerAdvisory":null,"articleCareerAdvisoryLoading":null,"articleCareerAdvisoryError":null,"articleJobAndInternship":null,"articleJobAndInternshipLoading":null,"articleJobAndInternshipError":null,"articleUpskilAndCertification":null,"articleUpskilAndCertificationLoading":null,"articleUpskilAndCertificationError":null,"articleStudyAbroad":null,"articleStudyAbroadLoading":null,"articleStudyAbroadError":null,"articleScholarshipsAndFinanceLoading":null,"articleScholarshipsAndFinance":null,"articleScholarshipsAndFinanceError":null,"articleKnowledgeVault":null,"articleKnowledgeVaultLoading":null,"articleKnowledgeVaultError":null,"articleComparativeAnalysis":null,"articleComparativeAnalysisLoading":null,"articleComparativeAnalysisError":null,"articleOpinionAndInterviews":null,"articleOpinionAndInterviewsLoading":null,"articleOpinionAndInterviewsError":null,"articleCoaching":null,"articleCoachingLoading":null,"articleCoachingError":null,"articleLandingPremium":null,"articleLandingPremiumLoading":null,"articleLandingPremiumError":null,"articleLandingContentError":null,"articleLandingContentLoading":null,"articleLandingContentData":[],"articleLandingSubContentError":null,"articleLandingSubContentData":[],"articleLandingSubContentLoading":null},"adbuddyData":{"adbuddySingleApply":null,"adbuddySingleApplyLoading":null,"adbuddySingleApplyError":null,"adbuddySingleApplyFooter":null,"adbuddySingleApplyFooterLoading":null,"adbuddySingleApplyFooterError":null,"adbuddyTextAdSlotOne":null,"adbuddyTextAdSlotOneLoading":null,"adbuddyTextAdSlotOneError":null,"adbuddyTextAdSlotTwo":null,"adbuddyTextAdSlotTwoLoading":null,"adbuddyTextAdSlotTwoError":null,"adbuddyRightBlock":null,"adbuddyRightBlockLoading":null,"adbuddyRightBlockError":null,"adbuddyArtileEmbedForm":null,"adbuddyArtileEmbedFormLoading":null,"adbuddyArtileEmbedFormError":null,"adbuddyApplicationOpen":null,"adbuddyApplicationOpenLoading":null,"adbuddyApplicationOpenError":null,"postAdbLeadPushSuccess":null,"postAdbLeadPushpError":null},"examStudyMaterial":{"loading":false,"error":null,"examStudyMaterial":null,"examStudyMaterialLoading":null,"examStudyMaterialError":null,"examStudyMaterialData":null,"examStudyMaterialDataLoading":null,"examStudyMaterialDataError":null,"examSubmenu":null,"examSubmenuLoading":null,"examSubmenuError":null},"examStudyMaterialDetail":{"loading":false,"error":null,"examStudyMaterialDetail":null,"examStudyMaterialDetailLoading":null,"examStudyMaterialDetailError":null,"examSubmenu":null,"examSubmenuLoading":null,"examSubmenuError":null,"learnQnaGet":null,"learnQnaGetLoading":null,"learnQnaGetError":null,"learnQnaPost":null,"learnQnaPostLoading":null,"learnQnaPostError":null},"examListingDetails":{"examsFilterList":null,"examsFilterError":null,"schoolsSource":null,"schoolsSourceError":null,"examList":null,"examListError":null,"examListLoading":false,"examHeader":null,"examHeaderError":null,"schoolStateCityLoading":false,"schoolStateCity":null,"schoolStateCityError":null,"shortlistExam":null,"shortlistExamError":null,"shortlistGetExam":null,"shortlistGetExamError":null},"examDetail":{"examHeaderDetailist":null,"examHeaderDetailistError":null,"examTweetsDetailist":null,"examTweetsDetailistError":null,"examDetailNewsNotification":null,"examDetailNewsNotificationError":null,"examDetailTextMapping":null,"examDetailTextMappingError":null,"examDetailHighilights":null,"examDetailHighilightsError":null,"examDetailExamCenter":null,"examDetailExamCenterError":null,"examDetailQNAs":null,"examDetailQNAsError":null,"examDetailFAQs":null,"examDetailFAQsError":null,"examDocumentsRequired":null,"examDocumentsRequiredError":null,"examDetailMultiApis":null,"examDetailMultiApisError":null,"examDetailSyllabus":null,"examDetailSyllabusError":null,"examDetailEbookList":null,"examDetailEbookListError":null,"examDetailEbookFilter":null,"examDetailEbookFilterError":null,"examDetailTopCollegeList":null,"examDetailTopCollegeError":null,"examDetailTopCollegeFilter":null,"examDetailTopCollegeFilterError":null,"examDetailGeneralInfo":null,"examDetailGeneralInfoError":null,"documentRequired":null,"documentRequiredError":null,"examDetailUpcomingExamFilter":null,"examDetailUpcomingExamFilterError":null,"examDetailInformativeReadFilter":null,"examDetailInformativeReadFilterError":null,"examDetailInformativeReadList":null,"examDetailInformativeReadListError":null,"examDetailCoursesOfferedFilter":null,"examDetailCoursesOfferedFilterError":null,"examDetailCoursesOfferedList":null,"examDetailCoursesOfferedListError":null,"examDetailPredictorBanner":null,"examDetailPredictorBannerError":null,"examDetailUpcomingEvents":null,"examDetailUpcomingEventsError":null,"examDetailFatFooter":null,"examDetailFatFooterError":null,"examDetailImportantDates":null,"examDetailImportantDatesError":null,"examDetailDownloadBrochure":null,"examDetailDownloadBrochureError":null,"getUpdatesExamDetail":null,"getUpdatesExamDetailError":null,"examDetailFaq":null,"examDetailFaqError":null,"indexFeatureImage":0,"examSectionalCtaDataLoading":null,"examSectionalCtaData":null,"examSectionalCtaDataError":null},"popup":{"registrationOpen":false,"headerLoginClicked":false,"iframeUrl":null,"destination":null,"clickLocation":null,"headerClickLocation":null,"headerFlag":false,"showSignIn":false,"commonSignupOpen":false,"showCommonSignup":false,"welcomeBackOpen":false,"idpOpen":false}};
+            window.nonCriticalCssString="";
+        </script>
+
+        <script defer>
+        if(false){
+            if(window?.ReactNativeWebView) {
+            window?.ReactNativeWebView?.postMessage(JSON.stringify(
+              {
+                event: "page_viewed",
+                properties: {"pageName":"exam page","pageUrl":"https://www.careers360.com/courses/articles/how-to-earn-money-as-a-student","domainName":"careers360"}
+              }
+            ));
+            }
+          } else {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({"pageName":"exam page","pageUrl":"https://www.careers360.com/courses/articles/how-to-earn-money-as-a-student","domainName":"careers360"});
+          }
+
+            function loadNonCriticalCss(cssString) {
+              if (!cssString || window.__nonCriticalCssLoaded) return;
+              window.__nonCriticalCssLoaded = true;
+              var frag = document.createDocumentFragment();
+              var div = document.createElement('div');
+              div.innerHTML = cssString;
+              div.querySelectorAll('link').forEach(function(link) { frag.appendChild(link); });
+              document.head.appendChild(frag);
+            }
+
+            function hasSpecialCookie() {
+              var cookieKeys = ["DOWNLOAD_PDF","SUBSCRIBE_TO_PREMIUM","ASK_NOW","DOWNLOAD_BROCHURE",
+                "DOWNLOAD_BROCHURE_EXAM","DOWNLOAD_PDF_EXAM","GET_UPDATES","EBOOK_DOWNLOAD_CTA",
+                "DOWNLOAD_BROCHURE_COUNSELLING"];
+              var cookies = document.cookie.split(";").map(function(c){ return c.trim(); });
+              return cookieKeys.some(function(key){
+                return cookies.some(function(cookie){ return cookie.startsWith(key + "="); });
+              });
+            }
+
+            function scheduleNonCriticalCss() {
+                var cssString = window.nonCriticalCssString;
+                if (!cssString) return;
+
+                if (hasSpecialCookie()) {
+                    loadNonCriticalCss(cssString);
+                    return;
+                }
+
+                function doLoad() { loadNonCriticalCss(cssString); }
+
+               function scheduleIdle() {
+                    'requestIdleCallback' in window
+                    ? requestIdleCallback(doLoad, { timeout: 1500 })
+                    : setTimeout(doLoad, 200);
+                }
+
+            if ('PerformanceObserver' in window) {
+                var lcpFired = false;
+                try {
+                    var po = new PerformanceObserver(function(list) {
+                        if (list.getEntries().length && !lcpFired) {
+                            lcpFired = true;
+                            po.disconnect();
+                            scheduleIdle();
+                        }
+                    });
+                    po.observe({ type: 'largest-contentful-paint', buffered: true });
+                } catch (e) {
+                    // LCP entry type not supported (e.g. Safari/Firefox)
+                    lcpFired = true;
+                    scheduleIdle();
+                }
+                    // safety net in case LCP observer never fires (e.g. no qualifying element)
+                    setTimeout(function() { if (!lcpFired) { lcpFired = true; scheduleIdle(); } }, 4000);
+                } else {
+                    scheduleIdle();
+                }
+            }
+
+            scheduleNonCriticalCss();
+        </script>
+        
+            <div id="root"><div class="header_border"><a href="https://www.careers360.com"><img src="https://cnextassets.careers360.com/frontend-article/_react_article/assets/logo-blue.svg" alt="Careers360 Logo" width="166" height="20"/></a></div><div class="not_found"><div class="container"><img src="https://cnextassets.careers360.com/frontend-article/_react_article/assets/error_404.png" alt="Error Image" width="299" height="113" class="not_found_img"/><h1>Page Not Found</h1><h4>Check that you typed the address correctly, go back to your previous page or try using out site search to find something specific</h4><div class="button_card"><a href="https://www.careers360.com" class="btn_active">Go to Homepage</a></div><h5>Here are a few links that might be helpful:</h5><div class="domains_card_cover"><div class="domains_card"><a href="https://engineering.careers360.com"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6.36 18.78L6.61 21l1.62-1.54 2.77-7.6c-.68-.17-1.28-.51-1.77-.98l-2.87 7.9zM14.77 10.88c-.49.47-1.1.81-1.77.98l2.77 7.6L17.39 21l.26-2.22-2.88-7.9zM15 8c0-1.3-.84-2.4-2-2.82V3h-2v2.18C9.84 5.6 9 6.7 9 8c0 1.66 1.34 3 3 3s3-1.34 3-3zm-3 1c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"></path></svg></span><p>Engineering and Architecture</p></a></div><div class="domains_card"><a href="https://www.careers360.com/mba"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M928 140H96c-17.7 0-32 14.3-32 32v496c0 17.7 14.3 32 32 32h380v112H304c-8.8 0-16 7.2-16 16v48c0 4.4 3.6 8 8 8h432c4.4 0 8-3.6 8-8v-48c0-8.8-7.2-16-16-16H548V700h380c17.7 0 32-14.3 32-32V172c0-17.7-14.3-32-32-32zm-40 488H136V212h752v416z"></path></svg></span><p>Management and Business Administration</p></a></div><div class="domains_card"><a href="https://law.careers360.com"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12.75 2.75V4.5h1.975c.351 0 .694.106.984.303l1.697 1.154c.041.028.09.043.14.043h4.102a.75.75 0 0 1 0 1.5H20.07l3.366 7.68a.749.749 0 0 1-.23.896c-.1.074-.203.143-.31.206a6.296 6.296 0 0 1-.79.399 7.349 7.349 0 0 1-2.856.569 7.343 7.343 0 0 1-2.855-.568 6.205 6.205 0 0 1-.79-.4 3.205 3.205 0 0 1-.307-.202l-.005-.004a.749.749 0 0 1-.23-.896l3.368-7.68h-.886c-.351 0-.694-.106-.984-.303l-1.697-1.154a.246.246 0 0 0-.14-.043H12.75v14.5h4.487a.75.75 0 0 1 0 1.5H6.763a.75.75 0 0 1 0-1.5h4.487V6H9.275a.249.249 0 0 0-.14.043L7.439 7.197c-.29.197-.633.303-.984.303h-.886l3.368 7.68a.75.75 0 0 1-.209.878c-.08.065-.16.126-.31.223a6.077 6.077 0 0 1-.792.433 6.924 6.924 0 0 1-2.876.62 6.913 6.913 0 0 1-2.876-.62 6.077 6.077 0 0 1-.792-.433 3.483 3.483 0 0 1-.309-.221.762.762 0 0 1-.21-.88L3.93 7.5H2.353a.75.75 0 0 1 0-1.5h4.102c.05 0 .099-.015.141-.043l1.695-1.154c.29-.198.634-.303.985-.303h1.974V2.75a.75.75 0 0 1 1.5 0ZM2.193 15.198a5.414 5.414 0 0 0 2.557.635 5.414 5.414 0 0 0 2.557-.635L4.75 9.368Zm14.51-.024c.082.04.174.083.275.126.53.223 1.305.45 2.272.45a5.847 5.847 0 0 0 2.547-.576L19.25 9.367Z"></path></svg></span><p>Law</p></a></div><div class="domains_card"><a href="https://design.careers360.com"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M245.003 21.882c-166.998.752-303.014 211.052-130.59 381.17 8.035 25.41 42.784 41.465 94.91 57.862 37.832 11.993 50.783-4.965 42.102-27.322-37.478-96.526-122.616-93.237-128.593-102.07C19.647 179.044 185.37 34.12 321.578 99.659c154.92 74.51 93.159 218.387 5.099 279.26-33.979 23.392-54.793 53.902-43.615 84.13 5.99 16.174 34.958 29.057 45.928 26.818 8.658-1.764-36.293-26.3-8.303-55.948 22.237-23.66 89.603-37.464 125.124-103.51 67.453-125.152 28.701-238.4-130.697-296.26-12.156-4.374-24.254-7.519-36.38-9.55a199.684 199.684 0 0 0-33.73-2.716zm11.434 80.2s-28.375 30.73-27.871 62.145c.03 6.434 1.304 12.957 3.231 19.139 10.2 12.01 18.472 25.93 25.648 41.036 7.086-18.501 16.129-34.364 27.367-47.29.711-3.9 1.096-7.74 1.096-11.625-.415-31.398-29.471-63.405-29.471-63.405zm114.657 53.941c-53.459 3.158-88.03 51.295-108.637 93.234-.89 1.912-7.449 2.436-8.6.46-15.21-27.53-24.758-48.212-43.555-63.807-17.79-14.795-40.236-23.601-70.45-23.764 1.305 11.993 7 44.86 30.808 63.08 8.125 6.24 19.924 9.474 31.904 12.245 11.92 2.684 24.163 4.803 33.503 10.348 7.531 4.477 12.334 11.475 14.618 19.614 2.283 8.108 2.224 17.314.475 27.07-2.937 16.945-10.912 35.58-21.557 52.747 0 0 31.488 13.12 37.093 62.636 10.436-25.351 32.407-39.849 32.407-39.849-11.563-16.442-27.99-58.99-31.903-75.712-2.165-9.62-2.847-18.769-1.068-26.997 1.75-8.212 6.079-15.505 13.343-20.383 9.014-6.035 21.022-8.822 32.852-12.2 11.86-3.397 23.394-7.37 31.34-14.1 14.054-12.008 21.05-29.25 24.46-43.718 1.661-7.25 2.521-13.715 2.847-18.31.12-1.127.09-1.72.12-2.594zM157.973 387.005c9.72.266 35.546 20.438 28.251 21.939-31.767 6.533-35.988-13.624-31.287-20.722.588-.887 1.647-1.254 3.036-1.217z"></path></svg></span><p>Animation and Design</p></a></div><div class="domains_card"><a href="https://www.careers360.com/media-journalism"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M18 9c0-1.103-.897-2-2-2h-1.434l-2.418-4.029A2.008 2.008 0 0 0 10.434 2H5v2h5.434l1.8 3H4c-1.103 0-2 .897-2 2v9c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-3l4 2v-7l-4 2V9zm-1.998 9H4V9h12l.001 4H16v1l.001.001.001 3.999z"></path><path d="M6 14h6v2H6z"></path></svg></span><p>Media Journalism</p></a></div><div class="domains_card"><a href="https://medicine.careers360.com"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M21 5h-2.64l1.14-3.14L17.15 1l-1.46 4H3v2l2 6-2 6v2h18v-2l-2-6 2-6V5zm-3.9 8.63L18.89 19H5.11l1.79-5.37.21-.63-.21-.63L5.11 7h13.78l-1.79 5.37-.21.63.21.63zM13 9h-2v3H8v2h3v3h2v-3h3v-2h-3z"></path></svg></span><p>Medicine and Allied Sciences</p></a></div><div class="domains_card"><a href="https://university.careers360.com"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"></path><path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"></path></svg></span><p>Arts, Humanities and Social Sciences</p></a></div><div class="domains_card"><a href="https://www.careers360.com/commerce"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2ZM5 4V20H19V4H5ZM7 6H17V10H7V6ZM7 12H9V14H7V12ZM7 16H9V18H7V16ZM11 12H13V14H11V12ZM11 16H13V18H11V16ZM15 12H17V18H15V12Z"></path></svg></span><p>Commerce</p></a></div><div class="domains_card"><a href="https://www.careers360.com/it"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M928 140H96c-17.7 0-32 14.3-32 32v496c0 17.7 14.3 32 32 32h380v112H304c-8.8 0-16 7.2-16 16v48c0 4.4 3.6 8 8 8h432c4.4 0 8-3.6 8-8v-48c0-8.8-7.2-16-16-16H548V700h380c17.7 0 32-14.3 32-32V172c0-17.7-14.3-32-32-32zm-40 488H136V212h752v416z"></path></svg></span><p>Computer Application and IT</p></a></div><div class="domains_card"><a href="https://www.careers360.com/pharmacy"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M21 5h-2.64l1.14-3.14L17.15 1l-1.46 4H3v2l2 6-2 6v2h18v-2l-2-6 2-6V5zm-3.9 8.63L18.89 19H5.11l1.79-5.37.21-.63-.21-.63L5.11 7h13.78l-1.79 5.37-.21.63.21.63zM13 9h-2v3H8v2h3v3h2v-3h3v-2h-3z"></path></svg></span><p>Pharmacy</p></a></div><div class="domains_card"><a href="https://www.careers360.com/hospitality"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M468 26.25c-.8-.02-1.7-.02-2.6.02v-.01c-7.2.28-16.2 2.74-25.5 6.7-18.4 7.91-37.7 21.75-48 31.99L137.4 340.8l10.5 10.5 38.9-38.8 12.8 12.8-38.8 38.9 10.5 10.5 275.8-254.6c10.2-10.3 24.1-29.61 32-48.05 3.9-9.23 6.4-18.25 6.7-25.44.2-7.19-1.3-12.01-4.9-15.55-3.1-3.09-7.1-4.66-12.9-4.81zM167.7 53.16l-14.9 16.47 43 14.36 1.4-1.23c0-.61-.3-1.79-1.1-3.55-1.9-3.97-6-9.47-10.7-14.21-4.7-4.73-10.2-8.81-14.2-10.7-1.7-.83-2.9-1.04-3.5-1.14zm240.4 5.48l34 11.31 11.3 33.95-11.3 11.3-45.3-45.25 11.3-11.31zM90.3 67.77c-8.08.35-17.37 4.63-27.48 12.21C55.09 85.78 47 93.45 38.8 101.5l201.8 100.8 59.6-64.6L90.3 67.77zm143.4 9.85l-13.2 14.6 42.6 14.18c-.1-.6-.4-1.5-1-2.7-1.8-3.99-5.9-9.49-10.7-14.23-4.7-4.73-10.2-8.81-14.2-10.7-1.7-.83-2.9-1.05-3.5-1.15zM374.3 211.8l-64.7 59.7 100.9 201.8c8.1-8.2 15.8-16.4 21.6-24.1 7.5-10.1 11.8-19.4 12.2-27.4l-70-210zm31.3 37.1l14.2 42.6 14.6-13.2c0-.6-.3-1.7-1.1-3.5-1.9-4-6-9.5-10.7-14.2-4.8-4.7-10.3-8.8-14.3-10.7-1.1-.5-2-.8-2.7-1zm23.7 65.9l-1.3 1.4 14.4 43 16.4-14.8c0-.6-.3-1.8-1.1-3.5-1.9-4-6-9.5-10.7-14.3-4.7-4.7-10.2-8.8-14.2-10.7-1.7-.8-2.9-1.1-3.5-1.1zM71.69 340l-22.77 22.7 60.28 40.2 40.1 60.2 22.8-22.8-9.8-49.2-14.3-14.2-27.6 27.6-12.8-12.8 27.6-27.6-14.3-14.3-49.21-9.8z"></path></svg></span><p>Hospitality and Tourism</p></a></div><div class="domains_card"><a href="https://competition.careers360.com"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16.5962 1.03665L22.9428 7.38325C23.1381 7.57852 23.1381 7.8951 22.9428 8.09036C22.8679 8.16526 22.7712 8.21444 22.6665 8.23081L21.1924 8.46127L15.5356 2.80441L15.7477 1.31949C15.7868 1.04612 16.04 0.856173 16.3134 0.895226C16.4205 0.910525 16.5197 0.960149 16.5962 1.03665ZM4.59487 20.148C8.31725 16.8165 12.5899 15.8201 17.2379 14.6275L17.6843 10.61L13.3869 6.31255L9.36936 6.75894C8.17674 11.407 7.18038 15.6796 3.84886 19.402L2.4541 18.0072C5.28253 14.7074 6.34319 11.054 7.7574 4.92573L14.1214 4.21863L19.7783 9.87552L19.0711 16.2394C12.9429 17.6537 9.28947 18.7143 5.98964 21.5427L4.59487 20.148ZM9.87872 14.1181C9.09767 13.3371 9.09767 12.0707 9.87872 11.2897C10.6598 10.5086 11.9261 10.5086 12.7071 11.2897C13.4882 12.0707 13.4882 13.3371 12.7071 14.1181C11.9261 14.8992 10.6598 14.8992 9.87872 14.1181Z"></path></svg></span><p>Competition</p></a></div><div class="domains_card"><a href="https://school.careers360.com"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"></path><path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"></path></svg></span><p>Schools</p></a></div><div class="domains_card"><a href="https://www.careers360.com/courses-certifications/all-courses"><span><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path><path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5"></path><path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73"></path><path d="M6 9l12 0"></path><path d="M6 12l3 0"></path><path d="M6 15l2 0"></path></svg></span><p>Certifications</p></a></div></div><ul><li><a href="https://www.careers360.com/college-predictor">College Predictor</a></li><li><a href="https://www.careers360.com/rank-predictor">Rank Predictor</a></li><li><a href="https://www.careers360.com/colleges/india-colleges-fctp">Colleges</a></li><li><a href="https://www.careers360.com/application-forms/colleges">Applications Open</a></li><li><a href="https://www.careers360.com/qna">QnA</a></li><li><a href="https://www.careers360.com/articles">Articles</a></li><li><a href="https://news.careers360.com">News</a></li><li><a href="https://www.careers360.com/courses-certifications/online-degree-diploma-courses">Online Degree</a></li><li><a href="https://www.careers360.com/download/ebooks-and-sample-papers">E-Books</a></li></ul></div></div> </div>
+            <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[]</script><script id="__LOADABLE_REQUIRED_CHUNKS___ext" type="application/json">{"namedChunks":[]}</script>
+<script defer data-chunk="main" src="https://cnextassets.careers360.com/frontend-article/_react_article/vendors-node_modules_pnpm_reduxjs_toolkit_1_9_7_react-redux_8_1_3__types_react_19_2_18_react--4183e4.752aee4cd974c85642a1.js"></script>
+<script defer data-chunk="main" src="https://cnextassets.careers360.com/frontend-article/_react_article/main.3ea7ed48332f283e71f8.js"></script>
+           
+
+
+            
+
+            
+        
+        <noscript>
+        false
+            </noscript>
+        </body></html>
+    
