@@ -1,0 +1,380 @@
+[
+ {
+  "name": "闲鱼",
+  "host": "goofish.com",
+  "url": "https://www.goofish.com/",
+  "type": "二手/服务交易",
+  "note": "学生买二手+找人帮忙"
+ },
+ {
+  "name": "转转",
+  "host": "zhuanzhuan.com",
+  "url": "https://www.zhuanzhuan.com/",
+  "type": "二手交易",
+  "note": "学生卖教材/数码"
+ },
+ {
+  "name": "淘宝",
+  "host": "taobao.com",
+  "url": "https://www.taobao.com/",
+  "type": "电商",
+  "note": "卖虚拟服务/模板"
+ },
+ {
+  "name": "拼多多",
+  "host": "pinduoduo.com",
+  "url": "https://www.pinduoduo.com/",
+  "type": "电商",
+  "note": "低价走量"
+ },
+ {
+  "name": "微店",
+  "host": "weidian.com",
+  "url": "https://www.weidian.com/",
+  "type": "微商",
+  "note": "卖资料/服务"
+ },
+ {
+  "name": "有赞",
+  "host": "youzan.com",
+  "url": "https://www.youzan.com/",
+  "type": "开店工具",
+  "note": "卖课/服务"
+ },
+ {
+  "name": "快团团",
+  "host": "kuaituantuan.com",
+  "url": "https://www.kuaituantuan.com/",
+  "type": "团购",
+  "note": "校园团购"
+ },
+ {
+  "name": "Etsy",
+  "host": "etsy.com",
+  "url": "https://www.etsy.com/",
+  "type": "手作/数字商品",
+  "note": "卖模板/笔记"
+ },
+ {
+  "name": "Gumroad",
+  "host": "gumroad.com",
+  "url": "https://gumroad.com/",
+  "type": "数字商品",
+  "note": "卖笔记/模板"
+ },
+ {
+  "name": "Payhip",
+  "host": "payhip.com",
+  "url": "https://payhip.com/",
+  "type": "数字商品",
+  "note": "卖资料"
+ },
+ {
+  "name": "小红书",
+  "host": "xiaohongshu.com",
+  "url": "https://www.xiaohongshu.com/",
+  "type": "内容引流",
+  "note": "学生聚集地"
+ },
+ {
+  "name": "抖音",
+  "host": "douyin.com",
+  "url": "https://www.douyin.com/",
+  "type": "短视频",
+  "note": "流量最大"
+ },
+ {
+  "name": "B站",
+  "host": "bilibili.com",
+  "url": "https://www.bilibili.com/",
+  "type": "视频",
+  "note": "学生密集"
+ },
+ {
+  "name": "知乎",
+  "host": "zhihu.com",
+  "url": "https://www.zhihu.com/",
+  "type": "问答",
+  "note": "回答引流"
+ },
+ {
+  "name": "快手",
+  "host": "kuaishou.com",
+  "url": "https://www.kuaishou.com/",
+  "type": "短视频",
+  "note": "下沉学生"
+ },
+ {
+  "name": "微博",
+  "host": "weibo.com",
+  "url": "https://weibo.com/",
+  "type": "社交",
+  "note": "超话引流"
+ },
+ {
+  "name": "视频号",
+  "host": "channels.weixin.qq.com",
+  "url": "https://channels.weixin.qq.com/",
+  "type": "微信生态",
+  "note": "私域"
+ },
+ {
+  "name": "TikTok",
+  "host": "tiktok.com",
+  "url": "https://www.tiktok.com/",
+  "type": "海外短视频",
+  "note": "国外学生"
+ },
+ {
+  "name": "Instagram",
+  "host": "instagram.com",
+  "url": "https://www.instagram.com/",
+  "type": "海外社交",
+  "note": "视觉引流"
+ },
+ {
+  "name": "YouTube",
+  "host": "youtube.com",
+  "url": "https://www.youtube.com/",
+  "type": "视频",
+  "note": "教程引流"
+ },
+ {
+  "name": "牛客网",
+  "host": "nowcoder.com",
+  "url": "https://www.nowcoder.com/",
+  "type": "学生求职社区",
+  "note": "学生密集"
+ },
+ {
+  "name": "豆瓣小组",
+  "host": "douban.com",
+  "url": "https://www.douban.com/group/",
+  "type": "兴趣小组",
+  "note": "副业小组"
+ },
+ {
+  "name": "百度贴吧",
+  "host": "tieba.baidu.com",
+  "url": "https://tieba.baidu.com/",
+  "type": "论坛",
+  "note": "校园吧"
+ },
+ {
+  "name": "QQ群",
+  "host": "qun.qq.com",
+  "url": "https://qun.qq.com/",
+  "type": "社群",
+  "note": "校园群"
+ },
+ {
+  "name": "Reddit",
+  "host": "reddit.com",
+  "url": "https://www.reddit.com/",
+  "type": "论坛",
+  "note": "r/college 等"
+ },
+ {
+  "name": "Discord",
+  "host": "discord.com",
+  "url": "https://discord.com/",
+  "type": "社群",
+  "note": "学校 server"
+ },
+ {
+  "name": "The Student Room",
+  "host": "thestudentroom.co.uk",
+  "url": "https://www.thestudentroom.co.uk/",
+  "type": "英国学生论坛",
+  "note": "英联邦学生"
+ },
+ {
+  "name": "College Confidential",
+  "host": "talk.collegeconfidential.com",
+  "url": "https://talk.collegeconfidential.com/",
+  "type": "美国升学论坛",
+  "note": "美国学生家长"
+ },
+ {
+  "name": "Chegg",
+  "host": "chegg.com",
+  "url": "https://www.chegg.com/",
+  "type": "作业帮助",
+  "note": "学生付费大头"
+ },
+ {
+  "name": "Course Hero",
+  "host": "coursehero.com",
+  "url": "https://www.coursehero.com/",
+  "type": "课程资料",
+  "note": "卖笔记"
+ },
+ {
+  "name": "Studocu",
+  "host": "studocu.com",
+  "url": "https://www.studocu.com/",
+  "type": "学习资料",
+  "note": "上传笔记赚钱"
+ },
+ {
+  "name": "Bartleby",
+  "host": "bartleby.com",
+  "url": "https://www.bartleby.com/",
+  "type": "作业问答",
+  "note": "答疑"
+ },
+ {
+  "name": "Numerade",
+  "host": "numerade.com",
+  "url": "https://www.numerade.com/",
+  "type": "STEM答疑",
+  "note": "解题"
+ },
+ {
+  "name": "Brainly",
+  "host": "brainly.com",
+  "url": "https://brainly.com/",
+  "type": "作业问答",
+  "note": "答题"
+ },
+ {
+  "name": "OneClass",
+  "host": "oneclass.com",
+  "url": "https://oneclass.com/",
+  "type": "笔记",
+  "note": "卖笔记"
+ },
+ {
+  "name": "Studypool",
+  "host": "studypool.com",
+  "url": "https://www.studypool.com/",
+  "type": "答疑市场",
+  "note": "接单答题"
+ },
+ {
+  "name": "Superprof",
+  "host": "superprof.com",
+  "url": "https://www.superprof.com/",
+  "type": "家教",
+  "note": "全球"
+ },
+ {
+  "name": "Wyzant",
+  "host": "wyzant.com",
+  "url": "https://www.wyzant.com/",
+  "type": "美国家教",
+  "note": "按小时"
+ },
+ {
+  "name": "Varsity Tutors",
+  "host": "varsitytutors.com",
+  "url": "https://www.varsitytutors.com/",
+  "type": "美国家教",
+  "note": "大平台"
+ },
+ {
+  "name": "Preply",
+  "host": "preply.com",
+  "url": "https://preply.com/",
+  "type": "语言家教",
+  "note": "全球"
+ },
+ {
+  "name": "Cambly",
+  "host": "cambly.com",
+  "url": "https://www.cambly.com/",
+  "type": "口语",
+  "note": "按分钟"
+ },
+ {
+  "name": "italki",
+  "host": "italki.com",
+  "url": "https://www.italki.com/",
+  "type": "语言家教",
+  "note": "母语者"
+ },
+ {
+  "name": "Tutor.com",
+  "host": "tutor.com",
+  "url": "https://www.tutor.com/",
+  "type": "在线辅导",
+  "note": "美国"
+ },
+ {
+  "name": "学而思",
+  "host": "xueersi.com",
+  "url": "https://www.xueersi.com/",
+  "type": "K12",
+  "note": "国内"
+ },
+ {
+  "name": "孔夫子旧书网",
+  "host": "kongfz.com",
+  "url": "https://www.kongfz.com/",
+  "type": "二手教材",
+  "note": "国内教材"
+ },
+ {
+  "name": "多抓鱼",
+  "host": "duozhuayu.com",
+  "url": "https://www.duozhuayu.com/",
+  "type": "二手书",
+  "note": "回收转卖"
+ },
+ {
+  "name": "BookScouter",
+  "host": "bookscouter.com",
+  "url": "https://bookscouter.com/",
+  "type": "教材比价",
+  "note": "美国教材"
+ },
+ {
+  "name": "AbeBooks",
+  "host": "abebooks.com",
+  "url": "https://www.abebooks.com/",
+  "type": "二手书",
+  "note": "全球"
+ },
+ {
+  "name": "ValoreBooks",
+  "host": "valorebooks.com",
+  "url": "https://www.valorebooks.com/",
+  "type": "教材",
+  "note": "美国"
+ },
+ {
+  "name": "Fiverr",
+  "host": "fiverr.com",
+  "url": "https://www.fiverr.com/",
+  "type": "服务市场",
+  "note": "学生来买服务"
+ },
+ {
+  "name": "Upwork",
+  "host": "upwork.com",
+  "url": "https://www.upwork.com/",
+  "type": "服务市场",
+  "note": "同上"
+ },
+ {
+  "name": "PeoplePerHour",
+  "host": "peopleperhour.com",
+  "url": "https://www.peopleperhour.com/",
+  "type": "服务市场",
+  "note": "英国"
+ },
+ {
+  "name": "EduBirdie",
+  "host": "edubirdie.com",
+  "url": "https://edubirdie.com/",
+  "type": "论文服务",
+  "note": "灰色，注意红线"
+ },
+ {
+  "name": "俄语学生市场",
+  "host": "studwork.ru",
+  "url": "https://studwork.ru/",
+  "type": "俄罗斯论文",
+  "note": "注意红线"
+ }
+]
