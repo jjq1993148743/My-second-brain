@@ -1,0 +1,182 @@
+[
+ {
+  "name": "Upwork",
+  "host": "upwork.com",
+  "type": "全球最大接单平台",
+  "note": "注册后可见活"
+ },
+ {
+  "name": "PeoplePerHour",
+  "host": "peopleperhour.com",
+  "type": "英国接单",
+  "note": "需注册"
+ },
+ {
+  "name": "Guru",
+  "host": "guru.com",
+  "type": "全球接单",
+  "note": "需注册"
+ },
+ {
+  "name": "Truelancer",
+  "host": "truelancer.com",
+  "type": "印度接单",
+  "note": "需注册"
+ },
+ {
+  "name": "FreelanceHunt",
+  "host": "freelancehunt.com",
+  "type": "乌克兰接单",
+  "note": "需注册"
+ },
+ {
+  "name": "猪八戒",
+  "host": "zbj.com",
+  "type": "中文最大接单",
+  "note": "需注册"
+ },
+ {
+  "name": "一品威客",
+  "host": "epwk.com",
+  "type": "中文接单",
+  "note": "需注册"
+ },
+ {
+  "name": "程序员客栈",
+  "host": "proginn.com",
+  "type": "中文程序员接单",
+  "note": "需注册"
+ },
+ {
+  "name": "实现网",
+  "host": "shixian.com",
+  "type": "中文技术接单",
+  "note": "需注册"
+ },
+ {
+  "name": "猿急送",
+  "host": "yuanjisong.com",
+  "type": "中文技术接单",
+  "note": "需注册"
+ },
+ {
+  "name": "开源众包",
+  "host": "zb.oschina.net",
+  "type": "中文开源众包",
+  "note": "需注册"
+ },
+ {
+  "name": "特赞",
+  "host": "tezign.com",
+  "type": "中文设计接单",
+  "note": "需注册"
+ },
+ {
+  "name": "Toloka",
+  "host": "toloka.ai",
+  "type": "数据标注",
+  "note": "需注册"
+ },
+ {
+  "name": "Microworkers",
+  "host": "microworkers.com",
+  "type": "微任务",
+  "note": "需注册"
+ },
+ {
+  "name": "Remotasks",
+  "host": "remotasks.com",
+  "type": "AI标注",
+  "note": "需注册"
+ },
+ {
+  "name": "Appen",
+  "host": "appen.com",
+  "type": "AI数据",
+  "note": "需注册审核"
+ },
+ {
+  "name": "Scale AI",
+  "host": "scale.com",
+  "type": "AI数据",
+  "note": "需注册审核"
+ },
+ {
+  "name": "Mercor",
+  "host": "mercor.com",
+  "type": "AI训练专家",
+  "note": "需审核"
+ },
+ {
+  "name": "Alignerr",
+  "host": "alignerr.com",
+  "type": "AI训练",
+  "note": "需审核"
+ },
+ {
+  "name": "Outlier",
+  "host": "outlier.ai",
+  "type": "AI训练",
+  "note": "需注册"
+ },
+ {
+  "name": "DataAnnotation",
+  "host": "dataannotation.tech",
+  "type": "AI标注",
+  "note": "需测试"
+ },
+ {
+  "name": "Amazon MTurk",
+  "host": "mturk.com",
+  "type": "微任务鼻祖",
+  "note": "需注册审核"
+ },
+ {
+  "name": "ProZ",
+  "host": "proz.com",
+  "type": "翻译接单",
+  "note": "需注册"
+ },
+ {
+  "name": "Behance Jobs",
+  "host": "behance.net",
+  "type": "设计接单",
+  "note": "需注册"
+ },
+ {
+  "name": "Awwwards Jobs",
+  "host": "awwwards.com",
+  "type": "设计接单",
+  "note": "需注册"
+ },
+ {
+  "name": "Working Not Working",
+  "host": "workingnotworking.com",
+  "type": "创意接单",
+  "note": "需审核"
+ },
+ {
+  "name": "99designs",
+  "host": "99designs.com",
+  "type": "设计比赛",
+  "note": "需注册"
+ },
+ {
+  "name": "DesignCrowd",
+  "host": "designcrowd.com",
+  "type": "设计比赛",
+  "note": "需注册"
+ },
+ {
+  "name": "Textbroker",
+  "host": "textbroker.com",
+  "type": "写作",
+  "note": "需审核"
+ },
+ {
+  "name": "Constant Content",
+  "host": "constant-content.com",
+  "type": "写作",
+  "note": "需注册"
+ }
+]
