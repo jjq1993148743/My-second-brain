@@ -1,25 +1,25 @@
-DSH插件一页纸执行清单：14轮研究汇总成总纲（三个关键事实+五个选题+13个曝光渠道+截流变现+今天可做5件事）
+迁移方向结论修正：dsh-chat-import实际已覆盖25+平台含Trae/Qoder/Kimi，上轮说国产工具全空白是错的；真空白转向配置迁移
 
-14轮研究的汇总总纲，所有数字实测。
+查npm实际数据后修正上轮错误判断。
 
-三个关键事实：生态只有65天2026-08-13至今极早期你在窗口内、每天新增98个插件会被淹没必须做对、12%的新插件下载过千最近7天204/1741过千是可达目标。最重要一条：star不等于使用量，dsh-pet 17星但13.7万下载、billion-context 2130星但177万下载，追下载不追star。
+证据：dsh-chat-import npm最新0.26.2（2026-10-20发布）、首次2026-08-13、版本数59个高频迭代、15933下载242星、仓库Nwflower/dsh-chat-import、依赖fzstd一个、体积2.88MB。keywords列了20个平台：claude-code codex chatgpt cursor gemini antigravity reasonix pi-coding-agent opencode zcode grokbuild openclaw hermes kimi kimi-cli qoder qoder-cli workbuddy trae trae-work。npm描述已从13家升级到25+。
 
-五个已验证选题按推荐度：第1国产AI工具迁移器（迁移0个相关17-20个难度中预期参考1.6万）、第2垂直职业预设销售（销售0个插件难度低预期参考451）、第3中文场景加有梗（dsh-bili-scroll 5269下载加203星难度低预期参考5千）、第4安全防护类（cc-safety-net 5.7万第一名难度中有竞争）、第5 Windows适配（dsh-ops 2.3万难度中预期参考2万）。推荐第一个做国产AI工具迁移器：竞争0（Trae CodeBuddy Qoder通义灵码迁移插件都是0）、需求已验证dsh-chat-import 15933下载、用户明确从国产工具转DSH的人、中文优势DSH是中文产品、曝光词明确Trae迁移DSH是精准搜索词。
+我上轮的判断对错：Trae我说空白实际已被覆盖我错了、Qoder我说空白实际已被覆盖我错了、Kimi我没提实际已覆盖、CodeBuddy通义灵码Comate MarsCode Windsurf Cline Aider JetBrains确实未覆盖我对了。结论我错了2个对了7个。
 
-开发门槛实测参考dsh-network-engineer：dependencies为空零依赖、main=index.js、dsh字段只有bundle.patch指向cordis.patch.yml、内容是32篇知识库文档。最小插件结构package.json加cordis.patch.yml加index.js加README加kb目录。核心认知90%工作是整理知识10%是写代码。
+我为什么会错：①只看了插件索引的描述（索引说13家就以为只覆盖13家）②没查npm的keywords（keywords才是完整平台清单）③没查最新版本（索引描述是旧的npm最新是25+）④只看名字和描述搜平台名（平台名在keywords里不在描述里）。教训：判断某个方向是否空白必须查npm包的keywords和最新描述不能只看插件索引，索引可能滞后npm才是最新真相。
 
-曝光13个渠道按性价比：第一梯队免费且自动——1发npm市场站按npm下载排序、2打dsh-plugin标签进topics 21513仓库、3提交dshopen PR到polang233/dsh-plugin-index自动进Newest、4提交dsh-plugin.org的/submit、5提交dshmarketplace.dev的/submit、6提交dshplugin.store站长LinXiaoTao、7提交awesome-dsh-plugin进RSS被日报自动抓。第二梯队内容渠道——8投稿插件日报黒鲸鱼插件小雷达或Rubbish Science或数据码农、9写开发实录学孟斯特创见AI实验室、10知乎V2EX有专门问题34个回答、11去目标社群发帖销售群Trae用户群律师群。第三梯队要钱——12 dshplugin.store广告位价格未公开、13蹭母项目官方合作要谈判。
+修正后仍空白的8个平台：CodeBuddy腾讯（可做）、通义灵码阿里（最值得中文用户最多）、Comate百度（可做）、MarsCode字节（可做）、Windsurf海外（可做）、Cline开源（可做）、Aider开源（一般）、JetBrains IDE生态（可做）。
 
-截流把用户变你的流量最容易漏的一步：package.json homepage填你自己的站或公众号页（44个插件这么做）、README顶部放二维码、插件设置页放公众号二维码、首次运行提示遇到问题加群、插件输出末尾由XXX提供。关键认知：不做截流你只有使用量没有流量。
+但要注意dsh-chat-import还在扩展：59个版本高频迭代可能随时补上你选的平台、它的策略是全平台通吃你做一个单平台很容易被它吸收、它有15933下载的先发优势用户会选覆盖面最广的。所以做单平台迁移可能被它吃掉，要做就做它做不了的。
 
-变现已验证只有两条：导流到公众号（brewreel.com，44个插件做外链）、打赏请喝咖啡（brewreel页底）。付费插件0个（849个里24个提付费真正付费0）、广告位部分验证（dshplugin.store在卖Sponsor）。brewreel完整结构：插件→brewreel.com→公众号私信合作赞助需求→打赏请喝咖啡→另一个产品Jev助手。
+什么是它做不了的：配置规则迁移（它只做对话历史不做.cursorrules/AGENTS.md等）真空白、技能提示词迁移（它只做对话）、MCP配置迁移（它不做MCP）、工作区项目结构迁移（它只导对话）、反向导出到更多平台（它只支持反向导出到Claude Code）。
 
-今天就能做的5件事：1选定一个选题（推荐国产工具迁移器）10分钟；2去npm注册账号加GitHub建仓库30分钟；3抄dsh-network-engineer的package.json结构1小时；4写第一版知识库或功能哪怕很粗1-3天；5发npm加提交7个站半天。
+最有价值的空白配置迁移：现在dsh-config-manager 15221下载只做DSH自己的配置备份导入、dsh-chat-import 15933下载只做对话历史，空白是把其他工具的规则配置技能迁到DSH。具体迁什么：.cursorrules从Cursor到DSH的AGENTS.md、CLAUDE.md从Claude Code到DSH的AGENTS.md、.windsurfrules从Windsurf、自定义Skills从Claude Code Cursor到DSH的skills目录、MCP配置各家到DSH的mcpServers、提示词模板各家到DSH的prompt。
 
-时间线与预期：开发1-2周上线、提交渠道1天进Newest加RSS、曝光发酵1-4周被日报抓或用户发现、看下载1个月过千算成功（12%的新插件能做到）、变现3-6个月有几百到几千用户后再谈。
+修正后推荐：第1规则配置迁移器（chat-import只做对话配置是真空难度中）、第2 Skills迁移器（把各家skills收编skills-management 10164下载验证难度中）、第3通义灵码对话迁移（chat-import没覆盖中文用户最多难度中）、第4 CodeBuddy Comate MarsCode迁移（都没覆盖但受众小）、不做Trae Qoder Kimi迁移（已被覆盖）。
 
-诚实预期必须看：59%的新插件没有下载发出来不等于有人用、真正付费插件0个变现路径未验证、billion-context一家独大177万下载占session类73%、每天98个新插件曝光窗口在收窄、成本0元npm GitHub都免费、最坏结果一个作品加一次完整实践、最好结果几千下载加一批粉丝。
+额外发现技术门槛：依赖fzstd一个用于解压很多agent的日志是压缩的、体积2.88MB不大说明核心逻辑不复杂、版本数59迭代很勤、首次发布2026-08-13生态第一天就在。技术门槛中等主要是摸清各家数据格式加解压加转换。难的不是代码是研究每家工具的文件格式。
 
-含所有19份报告索引和数据文件索引（_aw_pluginsjson.json 6378插件全量含stars/downloads/category/added/capabilities）。
+诚实说明：上轮错误我用插件索引的描述判断没查npm keywords、已修正Trae Qoder Kimi已被覆盖不是空白、仍不确定chat-import的25+到底包含哪些（keywords列了20个描述说25+）、没验证它对Trae的导入是否真的好用、风险是它高频迭代59版本随时可能补上新平台。
 
-交付：DSH插件-一页纸执行清单.md。
+交付：DSH插件-迁移方向结论修正.md。
