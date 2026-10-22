@@ -1,0 +1,25 @@
+DSH插件cc-safety-net拆解：2026-01-03就发布早于DSH生态7个月，支持13个coding agent，加一个dsh字段就成下载第一名
+
+深挖cc-safety-net为什么0星却5.7万下载第一名。
+
+真相：它不是DSH插件是早就存在的多平台工具。npm首次发布2026-01-03比DSH生态8-13早7个多月、GitHub创建2025-12-25、GitHub实际1736星不是0（索引抓取问题）、npm版本数78个持续迭代。
+
+keywords暴露真实定位：amp、claude-code、cursor、deepseek-harness、devin、devin-cli、droid、factory-droid、grok、grok-build、opencode、pi-package、plugin、safety、security。支持13个平台。它是一个工具适配13个coding agent，DSH只是其中之一。
+
+这解释三件事：为什么0星却有5.7万下载（索引star字段没抓到GitHub实际1736星）、为什么下载量这么高（从1月就积累用户8月才适配DSH）、为什么能进Top1（所有用Claude Code Cursor的用户转到DSH时会带着它）。
+
+它的打法：2025-12创建仓库做Claude Code安全钩子→2026-01发布npm积累用户→迭代78个版本支持13平台→2026-08 DSH生态出现→加一个dsh字段加cordis.patch.yml→2026-10成为DSH生态下载第一名。
+
+关键洞察：它没为DSH重新做只是加了个dsh字段；dsh字段就是全部适配；零依赖deps为空；主页独立ccsafetynet.com不依赖GitHub。
+
+三种可复制的跨平台复用策略：策略1把已有工具适配成DSH插件成本1-2天不是从零开发；策略2反过来做适配13个平台的工具一次开发多平台发布每个平台都是流量入口；策略3做迁移工具最巧把Claude Code Cursor ChatGPT用户迁到DSH这是借别人的用户且已验证有需求。
+
+其他跨平台复用成功案例：cc-safety-net 57332、dsh-ops 22879 Windows工具集、dsh-browser-cdp 16787 CDP协议、dsh-chat-import 15933导入13家coding agent、Veyra 9334、dsh-mcp-registry 7038 MCP标准、Codingns4DSH 3394接入十几种CLI。规律Top25里至少7个是跨平台复用占28%。
+
+建议三个选择：A从零做垂直职业插件难度低参考dsh-expert 451下载；B做跨平台工具难度高参考cc-safety-net 5.7万；C做迁移工具难度中参考dsh-chat-import 1.6万。推荐C：已验证需求、用户明确、技术可行、曝光强。具体选题Cursor配置迁移（还没人做）、ChatGPT对话导出、Claude项目迁移、VSCode设置迁移（没人做）。
+
+曝光路径：1原工具加dsh字段；2写cordis.patch.yml；3发npm同一包加dsh字段；4提交9个市场站；5在原工具用户群宣传现在支持DSH了；6投稿插件日报。
+
+数据说明：npm数据实测registry.npmjs.org 78个版本首次2026-01-03、GitHub实测1736星索引里的0是抓取问题、keywords实测含13个平台名、我的推断因为早发布所以下载高是推理未直接验证。
+
+交付：DSH插件-cc-safety-net案例拆解.md。
