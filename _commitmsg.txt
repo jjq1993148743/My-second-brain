@@ -1,25 +1,25 @@
-实操文已写好并修正数据：怎么做DSH插件才不沉，实测107个成功插件类别分布发现browser成功率3.6%最高而ui虽然成功数最多但成功率仅1.2%
+三类成功率最高插件深挖：browser 3.6%但零下载率41%、model 3.2%但零下载率47%、vision 3.0%但零下载率48%，三类都两极分化，唯一明确空白是browser类的PDF处理（只出现3次）
 
-写一篇面向插件作者的实操文，用数据教方法，吸引插件作者关注。
+上轮发现browser model vision三类成功率最高，这轮拆开看它们也都很拥挤。
 
-文章标题：我做DSH插件前先扒了6378个插件的数据。开篇说51%的插件一个下载都没有，但同时有些插件上线3天就冲到日均6000下载，差别在哪。
+三类真实情况：browser总数139零下载57（41%）成功5个成功率3.6%、model总数349零下载164（47%）成功11个成功率3.2%、vision总数134零下载65（48%）成功4个成功率3.0%。一个矛盾：表面成功率最高3-3.6%但实际零下载率也高41-48%，说明这三类是两极分化要么爆要么死。
 
-残酷现状：总插件6378、零下载3227（51%）、下载过千1867（29%）、有下载但不到千1284（20%）。
+browser类谁在赢：dsh-free-search 51336下载529星7个搜索引擎、modsearch 43252下载780星搜索网页与X返回结构化JSON、BrowserSkill 28419下载9295星浏览器自动化桥接Chrome/Edge、dsh-browser 20270下载131星共享真实浏览器CDP、dsh-browser-cdp 16787下载10星看得见的Agent浏览器、dsh-web-search-pro 7075、dsh-browser 6816 Playwright运行时、dsh-web-search-zhipu 6111 GLM搜索provider。
 
-关键词统计（下载过万的插件描述里）：UI 39个第一、模型24个第二、git 14、搜索11、上下文11、API 11、token 10、图片9。重要修正：我原以为「省」是第一但实测是UI第一，已改正文章。说明UI类需求最大用户想改造界面、模型相关次之换模型接订阅，但注意UI虽然出现最多但ui分类有1189个插件最拥挤，所以出现频率高不等于机会大要看平均下载。
+browser类关键词分布：screenshot 30加截图28最热需求、click 28加点击20第二热、登录16第三、form 12加填表6、login 9、下载6加download 6、爬6加scrape 4、cookie 6加登录态4、pdf 3、video 3加视频2。
 
-107个成功插件（下载过万，占1.7%）的类别分布和成功率：ui 14个/1189总数成功率1.2%、model 11个/349成功率3.2%、session 8个/445成功率1.8%、memory 8个/272成功率2.9%、tools 8个/835成功率1.0%、theme 6个/243成功率2.5%、browser 5个/139成功率3.6%、skill 5个/242成功率2.1%、remote 5个/196成功率2.6%、vision 4个/134成功率3.0%。
+一个明显空白：PDF处理只出现3次最少、视频处理5次第二少，所以browser类里几乎没人做PDF和视频的浏览器自动化。
 
-这个表才是关键——成功率排名：browser 3.6%最容易成功、model 3.2%第二、vision 3.0%第三、memory 2.9%、remote 2.6%、theme 2.5%，倒数tools 1.0%最难成功、倒数ui 1.2%第二难（虽然成功数最多）。所以ui类成功数最多14个但成功率只有1.2%因为总共有1189个，browser类只有5个成功但成功率3.6%因为总共才139个。
+model类谁在赢：dsh-codex-subscription 24793下载222星ChatGPT OAuth接入Codex、dsh-connect-workbuddy 22271接入WorkBuddy模型、dsh-thinking-levels 19790逐轮思考级别控制、dsh-commandcode-provider 15801、dsh-deepseek-web-login 14512网页端模型接入、dsh-codex-connect 13122、dsh-subscriptions 12431四家订阅接入、dsh-connect-trae 11840 Trae中国区模型。规律：8个里6个是接入其他订阅（ChatGPT/WorkBuddy/Trae/Claude），2个是模型控制。但这条路已经挤满——ChatGPT Codex接入已有3个（codex-subscription/codex-connect/subscriptions）、Claude接入2+个、Trae接入1+个、WorkBuddy接入1个，新进入者很难挤进去。
 
-四个真实案例：cc-safety-net上线4天日均14333解决拦截破坏性命令防AI删你文件（恐惧驱动，安全类都有机会）；dsh-m上线3天日均6093名字太短描述不清（可复制性不明）；dsh-ops上线5天日均4576解决Windows能用bash（环境痛点，环境适配类都有机会）；dsh-browser-cdp日均2798让AI真的能上网（能力扩展，能力扩展类都有机会）。
+vision类谁在赢：modlens 95397下载4365星为纯文本模型架视觉桥梁OCR版面语义、dsh-vision-router 32889免Key视觉链加像素级工具、dsh-vision-toolkit 11791图片问答多图比较OCR、dsh-imagegen 11479 AI生图、dsh-image-viewer 8491增强图片查看、dsh-vision-bridge 4947、dsh-comfyui 4639驱动ComfyUI、dsh-image-pathify 4520批量看图。规律：8个里5个是让纯文本模型看见（modlens/vision-router/vision-toolkit/bridge/pathify），2个生图，1个看图。核心需求是让文本模型能看图但已经有5个在做很挤。
 
-三个可复制的公式：公式1省钱省时间（省token billion-context 177万下载、显示花了多少钱whale-widget 19.9万、自动压缩上下文各类compact插件）；公式2防损失恐惧驱动（防误删cc-safety-net 4天14333每天、防泄密权限类、防跑偏输出校验类）；公式3填环境坑（Windows适配dsh-ops 5天4576每天、中文优化中文分词输入法、特定IDE适配VSCode/JetBrains）。
+三类对比该做哪个：browser成功率3.6%拥挤度中139个空白是PDF/视频处理可做、model成功率3.2%拥挤度高349个无空白不建议、vision成功率3.0%拥挤度中134个无空白看图已被占满难做。唯一明确的空白是browser加PDF——browser类里PDF只出现3次、视频只出现5次，但PDF是刚需每个人都要处理PDF，所以浏览器自动下载解析PDF是个真空。
 
-沉了的插件踩的坑：描述模糊（提升效率增强体验这种用户看不懂）、解决伪需求、没被收录（只在GitHub没提交目录站）、名字看不懂（dsh-m这种虽然它火了但是运气）、没有一句话说清价值（README第一段讲技术不讲用途）。
+具体可做的三个选题：选题1 PDF抓取器dsh-pdf-grabber自动从网页抓取下载PDF提取文本表格（依据browser类里PDF只出现3次真空，难度中需PDF解析库）；选题2视频信息提取器dsh-video-digest给一个视频链接提取字幕摘要（依据视频只出现5次，难度高需处理视频音频）；选题3登录态管理dsh-login-manager管理多个网站登录态自动填充（依据登录出现16次有需求但分散，难度中）。
 
-发布清单8步：1一句话说清价值（如30秒判断简历值不值得面试）2写英文description（awesome抓英文只写中文会显示空）3 README第一段讲用途不讲技术4打GitHub topic（dsh-plugin必打）5发npm（不发的抓不到下载量）6提交目录站（dshplugin.store awesome）7分类选对（影响title和分类页收录）8投稿插件日报（他们有素材需求）。
+我的判断排名：第1 PDF抓取器（真空最明显只3次加刚需）、第2登录态管理（需求明确16次但分散）、第3视频信息提取（真空5次但难度高）、不做model类（订阅接入已挤满3个ChatGPT接入）、不做vision类（看图已被占满5个）。
 
-这篇的用途：建立权威（我扒了6378个插件等于数据说话）、吸引作者（想做插件的人会关注）、潜在合作（作者可能找你做数据服务推广）、导流（结尾放榜单站）。注意风险：别把成功说得太简单（51%零下载是现实）、数据要标日期会过期、不要承诺结果只说共同点不说照做必成。
+诚实说明：三类数据全部实测从6378插件索引统计、关键词统计是实测搜browser类139个插件的描述、PDF是真空是推断基于关键词只出现3次、可能有人做了但没用PDF这个词未逐一检查、成功率不代表你能成功只是统计概率。
 
-交付：实操文-怎么做插件才不沉.md（可直接发，数据全部实测已修正）。
+交付：三类成功率最高插件深挖.md。
