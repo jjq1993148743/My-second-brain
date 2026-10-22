@@ -1,23 +1,23 @@
-省钱建议器插件已完成：dsh-cost-advisor按数据做的第7个插件，五项建议（峰谷价倒计时/模型选择/缓存优化/上下文精简/量化节省）3个测试全部通过，包名可用
+七个插件总清单：统一验证7/7全部通过（8项检查全绿），7个包名全部可用，含发布顺序建议和投稿话术
 
-按数据做出省钱建议器，这是目前发现的最清晰的空白。
+对全部7个插件做统一完整验证，确认无回归，并做总清单。
 
-为什么做这个的数据依据：省钱是最强需求（billion-context 177万下载）、但头部都在做诊断（whale-widget显示余额19.9万、dsh-context显示上下文15.6万、cost-meter显示费率10.6万）、没人做处方（没人告诉你具体怎么省）。定位：插件名dsh-cost-advisor、一句话不只告诉你花了多少告诉你这样能省多少、差异化诊断到处方。
+七个插件一览：dsh-sales-script销售话术库工具名sales_script 4096字符、dsh-hr-toolkit HR工具箱hr_toolkit 3605字符、dsh-legal-toolkit法律工具箱legal_toolkit 3793字符、dsh-teacher-toolkit教师工具箱teacher_toolkit 3782字符、dsh-finance-toolkit财务工具箱finance_toolkit 3681字符、dsh-ops-toolkit运营工具箱ops_toolkit 3739字符、dsh-cost-advisor省钱建议器cost_advisor 575字符。前6个是职业垂直天花板参考451，第7个是通用省钱天花板参考177万。
 
-五项建议实测输出：①峰谷价提醒实测输出现在是高峰时段北京时间08:30-17:30价格较贵、再过4小时37分钟就进入闲时价格约降一半、建议不急的任务可以等闲时再跑（它会算出还有多久进入闲时这是最具体的建议）；②模型选择建议（simple简单问答用轻量模型成本降5-10倍、code代码规划用便宜模型编码用主力、longform长文先列大纲再分段写避免每轮带全部历史）；③缓存优化（缓存命中能省90%的输入token费用，检查点系统提示词是否每轮都在变、是否在会话开头就塞了大量文件、是否频繁改AGENTS.md）；④上下文精简智能判断（大于80k建议开新会话加用压缩插件、40-80k留意增长、小于40k很健康，实测输入95k时正确提示已偏高建议开新会话）；⑤能省多少量化（全部任务错峰到闲时约50%、简单问答换轻量模型该部分80-90%、提高缓存命中率输入token最高90%、及时开新会话长会话30-50%，如果四项都做整体成本通常能降40-60%）。
+统一验证结果7/7通过：全部插件name=✓ inject=✓ config=✓ apply=✓ toolName=✓ exec=✓ render=✓ call=✓。8项检查含义：name是export name等于包名、inject是数组且含tools、config是export Config存在、apply是函数、toolName注册的工具名正确、exec是execute是函数、render是output.render是函数、call是实际调用返回有效内容。
 
-技术实现：峰谷价判断硬编码DeepSeek规则08:30-17:30高峰、倒计时计算算当前时间到17:30的差值、上下文判断用户传入token数按阈值给建议、任务类型枚举参数simple/code/longform。为什么这样设计：不读会话内容保护隐私只读时间、参数可选不填也能给通用建议、零依赖装即用、纯文本输出不需要前端降低门槛。
+每个插件的完整文件：index.js按官方API（ctx.tools.register(defineTool)）、package.json含dsh.bundle加exports含patch加peerDeps加engines、cordis.patch.yml官方- insert: 格式、README.md含分类变化权限兼容性导流、kb下5个场景（前6个）、kb/industries下5个行业（前6个）、setup.mjs自动改YOUR_NAME。
 
-实测结果：导出检查name是dsh-cost-advisor、inject是tools、Config有、apply是function；工具注册工具名cost_advisor、execute是function、render是function、参数contextTokens model taskType；三个测试全部通过（无参数输出575字符完整建议、95k上下文加代码任务654字符含开新会话建议、直接调函数ok等于true peak等于true倒计时4小时37分）。
+包名检查结果7个全部可用：dsh-sales-script、dsh-hr-toolkit、dsh-legal-toolkit、dsh-teacher-toolkit、dsh-finance-toolkit、dsh-ops-toolkit、dsh-cost-advisor全部404未被占用可以直接发。
 
-和6个职业插件对比：目标用户特定职业vs所有用户、天花板参考451下载vs177万（省钱类）、需求强度中vs极强（每个用户都在花钱）、差异化职业知识库vs诊断到处方（没人做）、技术难度低vs低（已做完）。
+七轮验证历程回顾：第1轮工具名camelCase vs snake_case已修、第2轮patch格式plugins应为- insert: 已修、第3轮API完全错ctx.tool应为ctx.tools.register(defineTool)已修、第4轮缺Config已补、第5轮加required: true优化、第6轮官方文档确认最小形态一致确认、第7轮exports缺./cordis.patch.yml已补。七轮里发现5个会让插件不可用的问题。
 
-发布建议6步：cd D:\GitHub\dsh-cost-advisor然后node setup.mjs你的用户名、建GitHub仓库并推送、打标签dsh-plugin加dsh加deepseek-harness加cost加budget加省钱、npm publish --access public、提交dsh-plugin.org加dshmarketplace.dev、投稿日报（省钱类更容易被写）。
+发布顺序建议：第1个dsh-cost-advisor（服务所有用户天花板最高177万）、第2个dsh-sales-script（20+异议场景最有料）、第3个dsh-hr-toolkit、第4个dsh-legal-toolkit、第5个dsh-teacher-toolkit、第6个dsh-finance-toolkit（对口金融专项日报）、第7个dsh-ops-toolkit。发布节奏：第1天cost-advisor主打、第3天sales-script、第5天hr-toolkit、第7天legal-toolkit、第10天teacher-toolkit、第12天finance-toolkit、第14天ops-toolkit。
 
-包名检查：dsh-cost-advisor可用（404未被占用）、dsh-save-money已被占用（作者happy.cat）。所以用dsh-cost-advisor。
+一键发布命令每个插件6步：cd D:\GitHub\插件名然后node setup.mjs你的GitHub用户名、git init add commit branch remote push、打标签gh repo edit --add-topic dsh-plugin --add-topic dsh --add-topic deepseek-harness --add-topic 行业词、npm login、npm publish --access public。
 
-最终验证全部通过：语法OK、index.js在、package.json在、cordis.patch.yml在、README.md在、setup.mjs在、dsh.bundle指向./cordis.patch.yml、exports.patch是./cordis.patch.yml、peerDeps是星号。
+投稿话术7个一起提已准备好可直接复制，分【通用】和【职业工具箱】两组，覆盖30个职业场景加30个行业定制加1个通用省钱工具。
 
-诚实说明：代码已实测3个测试全部通过、峰谷价规则是公开信息但具体折扣以官方为准、诊断到处方是观察（从4个头部插件描述反推）、未验证有没有人装省钱建议有没有人要、包名已查dsh-cost-advisor可用。
+诚实说明：7个插件全部实测8项检查全绿、API有官方文档背书对照adding-a-tool.zh.md、包名全部可用7个都查过、未验证真实加载会破坏desktop profile、下载量未知参考职业类451省钱类177万、变现未验证全生态0个付费插件。
 
-交付：省钱建议器成品.md + D:\GitHub\dsh-cost-advisor 完整插件代码（第7个插件，已测试）。
+交付：七个插件总清单.md + 7个完整插件代码目录（全部实测通过）。
