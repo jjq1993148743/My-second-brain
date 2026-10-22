@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+body{width:1242px;height:1656px;background:#1E2430;padding:70px 56px;position:relative}
+.hd{text-align:center;margin-bottom:50px}
+.hd .tag{display:inline-block;border:2px solid #6FA8FF;color:#6FA8FF;font-size:26px;padding:8px 28px;border-radius:30px;margin-bottom:24px;letter-spacing:3px}
+.hd h1{font-size:72px;color:#fff;font-weight:800;letter-spacing:2px}
+.hd .s{font-size:28px;color:#8A93A6;margin-top:14px}
+.tree{position:relative}
+.node{background:#2A3242;border-radius:20px;padding:28px 32px;margin:0 auto 0;width:88%;border-left:8px solid #6FA8FF}
+.node.q{font-size:34px;color:#EAF0FA;font-weight:700;line-height:1.5}
+.node.a{font-size:28px;color:#9DB0CC;margin-top:10px}
+.arrow{text-align:center;color:#5A6B8C;font-size:34px;line-height:1;margin:10px 0}
+.split{display:flex;gap:24px;margin-top:8px}
+.branch{flex:1;border-radius:20px;padding:30px 28px}
+.b1{background:#3D2F3A;border-top:6px solid #FF7B9C}
+.b2{background:#2E3A2F;border-top:6px solid #6FD8A0}
+.branch h4{font-size:30px;margin-bottom:14px}
+.b1 h4{color:#FF9DB6}.b2 h4{color:#8FE8B8}
+.branch p{font-size:26px;color:#C9CDD6;line-height:1.6}
+.em{display:inline-block;background:#FF5C5C;color:#fff;font-size:24px;font-weight:700;padding:6px 20px;border-radius:20px;margin-top:16px}
+.ok{display:inline-block;background:#2FBF71;color:#fff;font-size:24px;font-weight:700;padding:6px 20px;border-radius:20px;margin-top:16px}
+.foot{position:absolute;bottom:46px;left:56px;right:56px;display:flex;justify-content:space-between;font-size:24px;color:#5A6B8C}
+</style></head><body>
+<div class="hd"><div class="tag">决策树</div><h1>猫吐了 · 现在怎么办</h1><div class="s">按顺序对号入座 · 30 秒出结论</div></div>
+<div class="tree">
+<div class="node"><div class="q">① 吐出物里有没有血丝 / 咖啡渣样深褐色？</div><div class="a">看吐出来的东西，拍照留证</div></div>
+<div class="arrow">↓ 是</div>
+<div class="node" style="border-left-color:#FF5C5C"><div class="q">🚨 立刻就医，别在家观察</div><div class="a">这属于消化道出血信号</div></div>
+<div class="arrow">↓ 否，继续</div>
+<div class="node"><div class="q">② 一周吐几次？</div></div>
+<div class="split">
+<div class="branch b1"><h4>≥ 2 次 / 周</h4><p>已经不是"偶尔"。整理两周记录：次数、时间、离吃饭多久、照片 → 带去医院</p><span class="em">别再自己换粮试</span></div>
+<div class="branch b2"><h4>&lt; 1 次 / 周，精神好</h4><p>先改喂法：一天 4-6 小顿、粮薄摊平盘、慢食碗，连做两周</p><span class="ok">多数餐后吐就此消失</span></div>
+</div>
+<div class="arrow">↓ 如果清晨固定吐黄水</div>
+<div class="node" style="border-left-color:#FFC46B"><div class="q">③ 睡前加一小份粮，连试 3 天</div><div class="a">黄水没了 = 空腹太久；还在吐 → 进入 ② 的流程</div></div>
+</div>
+<div class="foot"><span>数据来源：猫病学第5版 · iCatCare 2026</span><span>2 / 6</span></div>
+</body></html>

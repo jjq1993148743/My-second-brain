@@ -1,0 +1,74 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+body{width:1242px;height:1656px;background:#FFF4E3;display:flex;flex-direction:column;align-items:center;padding:70px 60px}
+.hd{text-align:center;margin-bottom:30px}
+.hd .tag{display:inline-block;background:#FF8A5C;color:#fff;font-size:28px;font-weight:700;padding:8px 30px;border-radius:30px;letter-spacing:2px}
+.hd h1{font-size:64px;color:#3D2B1F;font-weight:800;margin-top:22px}
+.scene{width:100%;height:900px;background:linear-gradient(180deg,#FFEFD6 0%,#FFE0BE 70%,#F5C896 100%);border-radius:36px;position:relative;overflow:hidden;box-shadow:0 8px 30px rgba(200,150,90,.2)}
+/* 窗户 */
+.win{position:absolute;top:60px;right:80px;width:240px;height:300px;background:#BEE3F5;border-radius:20px;border:14px solid #FFF;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.win::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:12px;background:#FFF;margin-left:-6px}
+.sun{position:absolute;top:36px;right:52px;width:56px;height:56px;border-radius:50%;background:#FFD66B}
+.cloud{position:absolute;background:#fff;border-radius:50px;opacity:.9}
+.c1{top:44px;left:36px;width:90px;height:30px}
+.c2{top:80px;left:70px;width:60px;height:24px}
+/* 地板 */
+.floor{position:absolute;bottom:0;left:0;right:0;height:230px;background:#E8C89A}
+.floor::before{content:"";position:absolute;top:0;left:0;right:0;height:8px;background:#D9B583}
+/* 猫粮碗 */
+.bowl{position:absolute;bottom:120px;left:120px;width:180px;height:70px;background:#7FB5E8;border-radius:0 0 90px 90px;border-top:16px solid #5E97C9}
+.bowl::before{content:"";position:absolute;top:-24px;left:24px;right:24px;height:20px;background:#C98B4B;border-radius:50%}
+/* 猫（拱背吐姿态）*/
+.cat{position:absolute;bottom:150px;left:46%;margin-left:-260px}
+.tail{position:absolute;right:118px;bottom:34px;width:150px;height:120px;border:34px solid #F5A34C;border-radius:50%;border-color:#F5A34C transparent transparent transparent;transform:rotate(-18deg)}
+.body{position:absolute;left:150px;bottom:40px;width:340px;height:200px;background:#F9B45C;border-radius:170px 190px 60px 60px}
+.head{position:absolute;left:60px;bottom:150px;width:210px;height:180px;background:#F9B45C;border-radius:90px 90px 70px 70px}
+.ear1,.ear2{position:absolute;width:0;height:0;border-left:38px solid transparent;border-right:38px solid transparent;border-bottom:70px solid #F9B45C}
+.ear1{top:-52px;left:14px;transform:rotate(-14deg)}
+.ear2{top:-52px;right:14px;transform:rotate(14deg)}
+.ear1::after,.ear2::after{content:"";position:absolute;left:-16px;top:14px;width:0;height:0;border-left:16px solid transparent;border-right:16px solid transparent;border-bottom:44px solid #FFD9EC}
+.eye{position:absolute;top:74px;width:22px;height:34px;background:#3D2B1F;border-radius:50%}
+.e1{left:56px}.e2{right:56px}
+.mouth{position:absolute;top:120px;left:50%;margin-left:-26px;width:52px;height:30px;border-bottom:8px solid #3D2B1F;border-radius:0 0 52px 52px}
+.blush1,.blush2{position:absolute;top:106px;width:30px;height:16px;background:#FFB8A0;border-radius:50%;opacity:.8}
+.blush1{left:28px}.blush2{right:28px}
+/* 前腿撑地 */
+.leg{position:absolute;width:44px;height:150px;background:#F9B45C;border-radius:22px}
+.l1{left:56px;bottom:8px}
+/* 呕吐物 */
+.puddle{position:absolute;bottom:14px;left:26px;width:190px;height:56px;background:#C9DF8B;border-radius:60% 70% 55% 65%}
+.p2{left:60px;bottom:34px;width:120px;height:34px;background:#DBECA5}
+.kib{position:absolute;width:16px;height:12px;background:#B98A55;border-radius:6px}
+.k1{bottom:64px;left:70px}.k2{bottom:74px;left:130px;transform:rotate(30deg)}.k3{bottom:56px;left:180px;transform:rotate(-20deg)}
+/* 汗滴焦虑符号 */
+.sweat{position:absolute;top:30px;left:212px;font-size:52px;color:#7FC4F5}
+.illus{position:absolute;top:8px;left:96px;font-size:44px}
+/* 说明条 */
+.cap{margin-top:34px;background:#fff;border-radius:24px;padding:28px 40px;box-shadow:0 6px 20px rgba(200,150,90,.15);text-align:center;max-width:100%}
+.cap p{font-size:31px;color:#5A4636;line-height:1.6}
+.cap b{color:#E56B3C}
+.foot{margin-top:22px;font-size:24px;color:#B09A82}
+</style></head><body>
+<div class="hd"><div class="tag">自查图解</div><h1>这个姿势 = 正在吐</h1></div>
+<div class="scene">
+  <div class="win"><div class="sun"></div><div class="cloud c1"></div><div class="cloud c2"></div></div>
+  <div class="floor"></div>
+  <div class="bowl"></div>
+  <div class="cat">
+    <div class="tail"></div>
+    <div class="body"></div>
+    <div class="head">
+      <div class="ear1"></div><div class="ear2"></div>
+      <div class="eye e1"></div><div class="eye e2"></div>
+      <div class="blush1"></div><div class="blush2"></div>
+      <div class="mouth"></div>
+    </div>
+    <div class="leg l1"></div>
+    <div class="puddle"></div><div class="p2"></div>
+    <div class="kib k1"></div><div class="kib k2"></div><div class="kib k3"></div>
+    <div class="sweat">💧</div><div class="illus">💫</div>
+  </div>
+</div>
+<div class="cap"><p>肚子<b>一抽一抽</b>、低头缩脖、吐出有东西 —— 这才是<b>呕吐</b><br>如果是<b>伸直脖子"咔"一声、什么都没吐出来</b>，那是咳嗽，方向完全不同</p></div>
+<div class="foot">数据来源：猫病学第5版 · 1 / 6</div>
+</body></html>
