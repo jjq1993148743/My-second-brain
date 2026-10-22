@@ -1,21 +1,25 @@
-DSH插件迁移工具空白验证：国产AI编程工具迁移全空白（Trae/CodeBuddy/Qoder/通义灵码/Comate/MarsCode），Claude Code和Codex已红海
+DSH插件一页纸执行清单：14轮研究汇总成总纲（三个关键事实+五个选题+13个曝光渠道+截流变现+今天可做5件事）
 
-验证迁移工具方向的空白。结论：Claude Code 16个和Codex 23个迁移插件已红海，但国产AI编程工具全部0个。
+14轮研究的汇总总纲，所有数字实测。
 
-各平台迁移覆盖：Codex 23个红海、Claude Code 16个红海、VSCode 5个有竞争、Cursor 4个有但不多、Gemini 4个、ChatGPT 2个少、Copilot 1个、Zed 1个、Kiro 1个；完全空白——Windsurf 0个（相关2）、Cline 0个（相关7）、Aider 0个（相关1）、JetBrains 0个（相关1）、Trae 0个（相关20）、Qoder 0个（相关17）、通义灵码 0个（相关4）、CodeBuddy 0个（相关17）、Comate 0个（相关0）、MarsCode 0个（相关0）。
+三个关键事实：生态只有65天2026-08-13至今极早期你在窗口内、每天新增98个插件会被淹没必须做对、12%的新插件下载过千最近7天204/1741过千是可达目标。最重要一条：star不等于使用量，dsh-pet 17星但13.7万下载、billion-context 2130星但177万下载，追下载不追star。
 
-四个最值得做的空白：Trae字节跳动AI IDE（迁移0个相关20个说明有人用国内用户多）、CodeBuddy腾讯（迁移0个相关17个）、Qoder阿里（迁移0个相关17个）、通义灵码阿里（迁移0个中文用户最多）。共同规律：所有国产AI编程工具的迁移都是0——Trae字节、CodeBuddy腾讯、Qoder阿里、通义灵码阿里、Comate百度、MarsCode字节全部空白。而DSH是中文产品用户大量是中国人，这是最自然的切入点。
+五个已验证选题按推荐度：第1国产AI工具迁移器（迁移0个相关17-20个难度中预期参考1.6万）、第2垂直职业预设销售（销售0个插件难度低预期参考451）、第3中文场景加有梗（dsh-bili-scroll 5269下载加203星难度低预期参考5千）、第4安全防护类（cc-safety-net 5.7万第一名难度中有竞争）、第5 Windows适配（dsh-ops 2.3万难度中预期参考2万）。推荐第一个做国产AI工具迁移器：竞争0（Trae CodeBuddy Qoder通义灵码迁移插件都是0）、需求已验证dsh-chat-import 15933下载、用户明确从国产工具转DSH的人、中文优势DSH是中文产品、曝光词明确Trae迁移DSH是精准搜索词。
 
-已被做透不要碰：Codex 23个、Claude Code 16个。注意dsh-chat-import已覆盖13家（15933下载242星，Claude Code Codex ChatGPT Cursor Gemini opencode等），所以通用导入这条已经被占了，你要做就做它没覆盖的国产工具。
+开发门槛实测参考dsh-network-engineer：dependencies为空零依赖、main=index.js、dsh字段只有bundle.patch指向cordis.patch.yml、内容是32篇知识库文档。最小插件结构package.json加cordis.patch.yml加index.js加README加kb目录。核心认知90%工作是整理知识10%是写代码。
 
-迁移类插件Top12：DeepSeek-Balance-Whale-Widget 199295下载（余额挂件导入导出配置）、dsh-ssh 104783（SFTP传输）、dsh-dream-skin 32273（主题包导入导出）、GraphFlow 31857（导入导出）、dsh-mcp-connector 23177（百个MCP目录）、dsh-prime-memory 19429（memory_import）、dsh-chat-import 15933（导入13家agent对话）、dsh-config-manager 15221（备份导出导入整套配置）、dsh-session-manager 13180、skills-management 10164（6600技能市场一键收编）、dsh-mcp-registry 7038、thoughtdag 6770。观察：真正的迁移只有2个（dsh-chat-import和dsh-config-manager），其他都是导入导出功能不是迁移工具，说明迁移工具这个赛道还很不成熟有大量空间。
+曝光13个渠道按性价比：第一梯队免费且自动——1发npm市场站按npm下载排序、2打dsh-plugin标签进topics 21513仓库、3提交dshopen PR到polang233/dsh-plugin-index自动进Newest、4提交dsh-plugin.org的/submit、5提交dshmarketplace.dev的/submit、6提交dshplugin.store站长LinXiaoTao、7提交awesome-dsh-plugin进RSS被日报自动抓。第二梯队内容渠道——8投稿插件日报黒鲸鱼插件小雷达或Rubbish Science或数据码农、9写开发实录学孟斯特创见AI实验室、10知乎V2EX有专门问题34个回答、11去目标社群发帖销售群Trae用户群律师群。第三梯队要钱——12 dshplugin.store广告位价格未公开、13蹭母项目官方合作要谈判。
 
-我的选题建议：第1 Trae迁移（迁移0个相关20个）、第2通义灵码迁移（迁移0个中文用户最多）、第3 CodeBuddy迁移（腾讯平台迁移0个相关17个）、第4 Qoder迁移（阿里平台迁移0个相关17个）、第5国产工具全家桶（一个插件支持多个国产工具差异化最大）。
+截流把用户变你的流量最容易漏的一步：package.json homepage填你自己的站或公众号页（44个插件这么做）、README顶部放二维码、插件设置页放公众号二维码、首次运行提示遇到问题加群、插件输出末尾由XXX提供。关键认知：不做截流你只有使用量没有流量。
 
-最优方案做国产AI编程工具迁移器：插件名dsh-cn-migrate或dsh-trae-move、支持Trae加CodeBuddy加Qoder加通义灵码加Comate、做什么把它们的会话历史规则配置提示词迁到DSH、差异化对标dsh-chat-import 15933下载但只做国产、优势中文用户刚需竞争0可蹭dsh-chat-import的验证。
+变现已验证只有两条：导流到公众号（brewreel.com，44个插件做外链）、打赏请喝咖啡（brewreel页底）。付费插件0个（849个里24个提付费真正付费0）、广告位部分验证（dshplugin.store在卖Sponsor）。brewreel完整结构：插件→brewreel.com→公众号私信合作赞助需求→打赏请喝咖啡→另一个产品Jev助手。
 
-曝光优势：搜索词明确（Trae迁移到DSH、通义灵码迁移）、对标已有爆款dsh-chat-import 15933下载证明需求、中文社区可发Trae通义灵码用户群V2EX掘金、插件日报会写国产工具迁移是有新闻性的选题、可以蹭官方如果Trae通义灵码官方转发曝光翻倍。
+今天就能做的5件事：1选定一个选题（推荐国产工具迁移器）10分钟；2去npm注册账号加GitHub建仓库30分钟；3抄dsh-network-engineer的package.json结构1小时；4写第一版知识库或功能哪怕很粗1-3天；5发npm加提交7个站半天。
 
-风险与诚实说明：数据可能不全用关键词搜可能有漏、相关插件20个不等于20个用户需求可能只是提到、国产工具的数据格式未知要逆向或找公开文档、dsh-chat-import可能已覆盖部分它说13家但没列全、迁移工具有法律风险如果涉及逆向别人软件。
+时间线与预期：开发1-2周上线、提交渠道1天进Newest加RSS、曝光发酵1-4周被日报抓或用户发现、看下载1个月过千算成功（12%的新插件能做到）、变现3-6个月有几百到几千用户后再谈。
 
-交付：DSH插件-迁移工具空白验证.md。
+诚实预期必须看：59%的新插件没有下载发出来不等于有人用、真正付费插件0个变现路径未验证、billion-context一家独大177万下载占session类73%、每天98个新插件曝光窗口在收窄、成本0元npm GitHub都免费、最坏结果一个作品加一次完整实践、最好结果几千下载加一批粉丝。
+
+含所有19份报告索引和数据文件索引（_aw_pluginsjson.json 6378插件全量含stars/downloads/category/added/capabilities）。
+
+交付：DSH插件-一页纸执行清单.md。
