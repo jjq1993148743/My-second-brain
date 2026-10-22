@@ -1,23 +1,25 @@
-七个插件总清单：统一验证7/7全部通过（8项检查全绿），7个包名全部可用，含发布顺序建议和投稿话术
+DSH市场站流量真相：实测7站sitemap发现dshplugin.store 32449条和awesome 12806条是SEO怪兽，差dshopen 16224倍，修正提交优先级
 
-对全部7个插件做统一完整验证，确认无回归，并做总清单。
+查7个站的sitemap发现两个SEO怪兽，这直接决定该往哪个站提交。
 
-七个插件一览：dsh-sales-script销售话术库工具名sales_script 4096字符、dsh-hr-toolkit HR工具箱hr_toolkit 3605字符、dsh-legal-toolkit法律工具箱legal_toolkit 3793字符、dsh-teacher-toolkit教师工具箱teacher_toolkit 3782字符、dsh-finance-toolkit财务工具箱finance_toolkit 3681字符、dsh-ops-toolkit运营工具箱ops_toolkit 3739字符、dsh-cost-advisor省钱建议器cost_advisor 575字符。前6个是职业垂直天花板参考451，第7个是通用省钱天花板参考177万。
+七个站sitemap实测：dshplugin.store 32449条最大SEO怪兽、awesome-dsh-plugin.com 12806条第二大、deepseek.stream 584条中等、dshmarketplace.dev 248条小、dshmarket.com 8条极小、dsh-plugin.org 3条极小、dshopen.org 2条极小。差距：dshplugin.store vs dshopen差16224倍、vs dsh-plugin.org差10816倍、awesome vs dshmarket差1600倍。站点之间差了几个数量级。
 
-统一验证结果7/7通过：全部插件name=✓ inject=✓ config=✓ apply=✓ toolName=✓ exec=✓ render=✓ call=✓。8项检查含义：name是export name等于包名、inject是数组且含tools、config是export Config存在、apply是函数、toolName注册的工具名正确、exec是execute是函数、render是output.render是函数、call是实际调用返回有效内容。
+两个SEO怪兽在做什么：dshplugin.store sitemap大小5.7MB总条目32449其中插件详情页32428个其他21个（首页/new/tutorials/category等），URL结构是每个插件一个独立页面全部进sitemap。awesome-dsh-plugin.com sitemap大小6.9MB总条目12806其中插件详情页12756个其他50个（含分类页中文页），URL结构有中文版/zh/加按分类做页面/agi/ /ui/ /usage/加每个插件一页。
 
-每个插件的完整文件：index.js按官方API（ctx.tools.register(defineTool)）、package.json含dsh.bundle加exports含patch加peerDeps加engines、cordis.patch.yml官方- insert: 格式、README.md含分类变化权限兼容性导流、kb下5个场景（前6个）、kb/industries下5个行业（前6个）、setup.mjs自动改YOUR_NAME。
+这暴露的商业逻辑：①靠SEO吃搜索流量（把每个插件做成独立页面、全部放进sitemap让搜索引擎收录、用户搜dsh插件xxx时命中、页面有流量后卖广告位）；②3万个页面意味着什么（32428个插件页如果每个页面每月10次访问等于32万次月访问、如果每个页面每月100次等于324万次月访问，这是推算不是实测但量级说明SEO是这个生态的主要流量来源）；③为什么dsh-plugin.org只有3条却还在运营（它不靠SEO可能靠社区GitHub导流、它的定位是社区枢纽不是目录站、它可能不指望自然搜索）。
 
-包名检查结果7个全部可用：dsh-sales-script、dsh-hr-toolkit、dsh-legal-toolkit、dsh-teacher-toolkit、dsh-finance-toolkit、dsh-ops-toolkit、dsh-cost-advisor全部404未被占用可以直接发。
+对提交策略的影响按sitemap规模重排：第1 dshplugin.store（32428个插件页SEO最大）、第2 awesome-dsh-plugin.com（12756个插件页加有中文版）、第3 deepseek.stream（584条中等）、4 dshmarketplace.dev（248条小）、5 dshmarket.com（8条但它有内置市场用户直接在DSH里用）、6 dsh-plugin.org（3条社区枢纽不是SEO）、7 dshopen.org（2条开放索引靠JSON API）。
 
-七轮验证历程回顾：第1轮工具名camelCase vs snake_case已修、第2轮patch格式plugins应为- insert: 已修、第3轮API完全错ctx.tool应为ctx.tools.register(defineTool)已修、第4轮缺Config已补、第5轮加required: true优化、第6轮官方文档确认最小形态一致确认、第7轮exports缺./cordis.patch.yml已补。七轮里发现5个会让插件不可用的问题。
+一个重要修正：之前我说打标签就自动收录这是对的，但更重要的是被哪个站收录。dshplugin.store需要提交/被抓收录后是SEO页面可能带来搜索流量、awesome从GitHub抓收录后是SEO页面加RSS被日报抓、dshopen是JSON索引被其他站当数据源是数据层的曝光。所以dshopen虽然只有2条sitemap但它的JSON索引被其他站消费这是数据层的曝光。
 
-发布顺序建议：第1个dsh-cost-advisor（服务所有用户天花板最高177万）、第2个dsh-sales-script（20+异议场景最有料）、第3个dsh-hr-toolkit、第4个dsh-legal-toolkit、第5个dsh-teacher-toolkit、第6个dsh-finance-toolkit（对口金融专项日报）、第7个dsh-ops-toolkit。发布节奏：第1天cost-advisor主打、第3天sales-script、第5天hr-toolkit、第7天legal-toolkit、第10天teacher-toolkit、第12天finance-toolkit、第14天ops-toolkit。
+一个新发现awesome有中文版：awesome-dsh-plugin.com/zh/有独立中文页面，意义是它认真做中文市场，对你的价值是你的中文插件更容易被它收录展示。
 
-一键发布命令每个插件6步：cd D:\GitHub\插件名然后node setup.mjs你的GitHub用户名、git init add commit branch remote push、打标签gh repo edit --add-topic dsh-plugin --add-topic dsh --add-topic deepseek-harness --add-topic 行业词、npm login、npm publish --access public。
+更重要的推论SEO是插件曝光的核心：插件名要有搜索价值（用户会搜dsh省钱插件而不是dsh-cost-advisor）、description要含关键词（搜索引擎读description）、README要写好（被这些站抓取时README是内容来源）。我们的7个插件description含关键词吗：cost-advisor含省钱峰谷价缓存、sales-script含话术异议、hr-toolkit含简历面试——7个插件的description都已经优化过（前面轮次做的）。
 
-投稿话术7个一起提已准备好可直接复制，分【通用】和【职业工具箱】两组，覆盖30个职业场景加30个行业定制加1个通用省钱工具。
+还有一个可能被忽略的流量源npm本身也是搜索引擎：npmjs.com被Google索引搜dsh省钱可能命中npm页面、npm页面的description就是package.json的所以description很重要、npm有downloads数据下载量高会提升排名。所以发npm不只是让市场站能装也是让Google能搜到。
 
-诚实说明：7个插件全部实测8项检查全绿、API有官方文档背书对照adding-a-tool.zh.md、包名全部可用7个都查过、未验证真实加载会破坏desktop profile、下载量未知参考职业类451省钱类177万、变现未验证全生态0个付费插件。
+修正后的曝光优先级：第1发npm加优化description（npm被Google索引）、第2提交dshplugin.store（32428个插件页SEO最大）、第3提交awesome（12756页加中文版加RSS）、4打GitHub topic（让awesome和dshmarketplace自动抓）、5提交deepseek.stream（584条）、6投稿日报（内容渠道）。
 
-交付：七个插件总清单.md + 7个完整插件代码目录（全部实测通过）。
+诚实说明：sitemap数据是实测7个站都查了、SEO是主要流量是推断（基于sitemap规模没有实际流量数据）、访问量推算是假设（每页10次每月是假设值）、dsh-plugin.org只有3条可能它不靠SEO但没证据、未验证提交后实际能带来多少流量。
+
+交付：DSH市场站流量真相.md。
