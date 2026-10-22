@@ -1,23 +1,17 @@
-职业插件矩阵三件套成品：销售+HR+律师三个插件全部实测通过，共享同一架构边际成本递减到40分钟一个
+发布工具已做好：setup.mjs自动改名实测通过+publish-all.mjs一键处理三个插件+6步发布清单约2小时
 
-在销售插件基础上做出HR和律师两个职业版本，形成插件矩阵。
+给三个插件配了发布工具，让用户改个名字就能发。
 
-三个插件对比：销售dsh-sales-script在D:\GitHub\dsh-sales-script 5场景5行业约4000字符；HR dsh-hr-toolkit在D:\GitHub\dsh-hr-toolkit 5场景5行业约3500字符；律师dsh-legal-toolkit在D:\GitHub\dsh-legal-toolkit 5场景5行业约3700字符。
+setup.mjs实测结果：测试命令node setup.mjs testuser，实际输出已更新package.json，显示包名dsh-hr-toolkit、仓库https://github.com/testuser/dsh-hr-toolkit.git，并输出完整git和npm命令。验证package.json确实被改了homepage和repository.url都变成testuser。测试通过改名功能正常。
 
-销售内容：opening电话微信拜访转介绍、discovery SPIN四步提问法、objection 20+异议场景、closing 6种成交法加信号识别、followup跟进节奏表。
+你要做的全部6步约2小时：第1步改名字2分钟在D:\GitHub下执行node publish-all.mjs 你的GitHub用户名会依次处理三个插件；第2步建3个GitHub仓库20分钟先在网页上建三个空仓库不要勾选初始化README然后对每个目录执行git init add commit branch remote push；第3步发npm 15分钟npm login后三个目录分别npm publish --access public；第4步提交7个市场站1小时21次提交（dshopen.org提PR到polang233/dsh-plugin-index、dsh-plugin.org/submit、dshmarketplace.dev/submit、dshplugin.store站长github.com/LinXiaoTao、awesome-dsh-plugin.com最重要进RSS被日报自动发现、deepseek.stream站内发布、dshmarket.com内置市场）；第5步投稿3家插件日报20分钟（黒鲸鱼插件小雷达/Rubbish Science/数据码农，投稿话术已准备好可直接复制）；第6步截流发布前必做（package.json homepage改成你的站或公众号链接页、README.md顶部加二维码）。
 
-HR内容：screening 30秒三步扫描加红旗绿旗加评分表、interview STAR法加追问技巧识破包装、jd标准结构加职责要求吸引点写法、offer定薪原则加谈判话术、communication离职绩效SBI反馈加薪冲突。
+1个月后怎么验证效果：npm下载量看npmjs.com/package/插件名、是否进awesome索引在awesome-dsh-plugin.com搜插件名、是否被日报写微信搜DSH插件日报加插件名、是否进RSS在awesome-dsh-plugin.com/feed搜插件名。参考基准：dsh-expert 636专家451下载、dsh-network-engineer 355下载、最近7天新插件下载过千的比例12%（204/1741）。单个插件破百算及格破千算成功。
 
-律师内容：contract七大类审查清单加5个高频风险条款、research中国法检索顺序加常见领域速查、drafting起诉状律师函法律意见书模板、risk风险等级加常见风险加尽调清单、client首次咨询预期管理费用情绪。
+如果效果好下一步：有100+下载做第4-6个职业教师财务运营、有500+下载建自己的文档站统一导流、有1000+下载开始谈广告赞助、有稳定粉丝做付费内容或服务。
 
-实测7个测试全部通过：销售objection加太贵了174字符、销售all加insurance 4455字符、HR screening 693字符、HR interview加STAR 110字符、律师contract 955字符、律师risk加竞业85字符、律师all 3744字符。
+诚实说明：setup.mjs已实测改名功能验证通过、publish-all.mjs未实测逻辑同setup.mjs但整体流程没跑过、npm发布没跑过需要你的npm账号、提交渠道没跑过需要人工操作、下载量是未知的参考同类355-451。
 
-为什么做三个的矩阵策略：共享同一套架构index.js逻辑完全一样只换知识库、边际成本极低第一个做完后面每个只需写知识库、互相导流README里可以互相推荐、覆盖不同人群销售HR律师三个职业群、提高曝光概率三个插件三次被日报抓的机会。成本对比：第一个销售约2小时含架构设计、第二个HR约40分钟、第三个律师约40分钟，边际成本递减这就是矩阵的价值。
+文件清单：D:\GitHub\publish-all.mjs一键处理三个插件、D:\GitHub\publish-checklist.md完整发布清单、三个插件目录内各有setup.mjs单插件改名。
 
-发布策略三个一起发：三个仓库都建好GitHub、三个都发npm包名不同、三个都提交7个市场站共21次提交、三个都进RSS有3次被日报抓的机会、投稿时一起提我做了三个职业工具更有故事性。提交话术建议：我做了三个DSH职业插件销售话术库HR工具箱法律工具箱，都是零依赖覆盖15个场景加15个行业定制，因为发现DSH生态里职业类插件几乎空白。
-
-还能继续扩展的职业：教师（19个少，教案出题批改家长沟通班级管理）、财务（38个中，报表分析税务预算审计内控）、运营（11个少，数据周报竞品活动用户内容）、电商（9个少，选品详情页客服物流售后）、医生（124个红海不建议）、设计师（8个少，需求沟通方案改稿交付）。每个都是40分钟的活做6个就是6次曝光机会。
-
-诚实说明：代码已验证7个测试全部通过、知识库是我写的基于通用方法论不是独家、没验证的是有没有人装这些职业人群是否用DSH、法律插件有免责已在README声明不构成法律意见、需要你做的是改YOUR_NAME发布提交渠道、下载预期参考dsh-expert 636专家451下载单个可能不到100。
-
-交付：职业插件矩阵-三件套成品.md + 三个完整插件代码目录。
+交付：发布工具使用说明.md + publish-all.mjs + publish-checklist.md + 三个setup.mjs。
