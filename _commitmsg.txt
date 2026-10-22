@@ -1,21 +1,21 @@
-awesome分类体系分析：实测24个分类（中英文各24），privacy是0个插件的空分类，ui最拥挤1189个，已把7个插件分类对齐到usage/workflow/docs
+海外插件生态变现对照：Chrome曾永久禁用付费插件、Obsidian本体免费服务收费、VSCode作者收费遭抵制，四个生态没一个靠直接卖插件成功，钱在广告服务引流
 
-实测awesome的24个分类并据此调整7个插件的分类。
+DSH生态0个付费插件，这轮看海外同类生态怎么做的。
 
-24个分类完整分布实测：ui 1189个平均1510最高232002最拥挤、tools 835个平均982、session 445个平均5439最高1772945均量最高、dev 423个1455、workflow 367个1370、model 349个1338、usage 334个1548、memory 272个1749、theme 243个1451、skill 242个1981、notify 241个1587、remote 196个2410、security 194个1277、fun 194个2052、git 143个2303、browser 139个2038、vision 134个1898、docs 100个1735、market 95个7707最高598350均量最高但被垄断、wsl 80个108均量极低、voice 80个1066、identity 48个958、agi 35个4132金矿、privacy 0个空分类。
+三个生态的真实做法：VSCode几十万插件，Volar作者的经历是做开源4年被钱拖垮无奈发起收费计划竟遭恶意抨击，说明开源插件作者想收费会遭遇社区抵制，关键引文如果不付费要么是因为有人花了时间要么因为这是营销策略。Obsidian商业模式是本体免费官方同步服务收费，插件生态社区插件免费，说明钱不在插件上在服务上。Chrome扩展最残酷，谷歌Chrome应用商店突然宣布永久禁用这类插件，原因是为了支持Chrome插件的每月订阅费和一次性付费，结果付费插件被禁用，这条最关键——平台方主动禁用了付费插件。
 
-三个关键发现：发现1 privacy是空分类（0个插件但中文分类页存在，可能原因新开的分类还没人提交、隐私类插件很少大家都做功能不做隐私、需求弱用户不太关心隐私但他们关心安全）；发现2 ui是最拥挤的（1189个占6378的19%每5个插件就有1个是ui类）；发现3 session的平均下载最高（5439但被billion-context一家占了73%）。
+那他们怎么赚钱（Chrome浏览器扩展插件的8种获利方式实测搜到）：1广告（Adblock Plus 1亿用户靠广告获利）2联盟营销（Yieldkit汇总会员计划）3CPU挖矿（CoinHive体验很糟糕已死）4卖用户数据不推荐5捐赠常见6 Freemium基础免费加高级付费7订阅但Chrome禁了8引流到自己的产品最常见。
 
-分类的机会指数（平均下载除以插件数）：agi 118最高、market 81但被垄断、session 12、git 16、remote 12、fun 11、docs 17、skill 8、usage 4.6、ui 1.3最差、wsl 1.4。
+一个成功的个人案例：一个人一个插件年收54万美元（约390万人民币），来源是实测搜到的公众号文章标题。但要注意这是案例不是典型，而且没看到它具体怎么收费。另一个关键案例：开发一个浏览器插件在第三天卖出1000元，关键引文是国内的付费渠道接入门槛是相当高的——国内付费有门槛（支付合规）。
 
-分类对SEO的影响：分类名会出现在title里（title格式是owner/repo — dsh plugin · 分类名），分类页也是SEO入口（24个分类页乘以2中英文等于48个分类页面，每个分类页列出该类所有插件，你的插件会出现在分类页，分类页也有SEO权重从分类页能导流到你的插件页）。所以分类选对了能多一个SEO入口。
+四个生态对比：Chrome扩展插件不能直接卖钱（平台禁了付费）实际靠广告联盟引流；VSCode可以但会挨骂实际靠捐赠公司支持引流；Obsidian插件免费实际靠本体免费加服务收费；DSH 0个付费插件未验证。一条共同规律：所有生态的插件本身都很难直接卖钱，钱在广告服务引流平台方（不是插件作者）。
 
-已做的调整：把7个插件的category从原来的Productivity/Usage等改成awesome的分类体系——dsh-cost-advisor从Productivity/Usage改成usage（省钱成本用量类正对口）、dsh-sales-script从Productivity/Business改成workflow、dsh-hr-toolkit改成workflow、dsh-legal-toolkit从Productivity/Legal改成docs、dsh-teacher-toolkit改成workflow、dsh-finance-toolkit改成docs、dsh-ops-toolkit改成workflow。README里的分类行也同步更新。验证7个全部通过：package.json的category和README里的分类都一致。
+对DSH的推论：①直接卖插件大概率不行（Chrome禁了Obsidian免费DSH 0个付费）②广告是最成熟的路（Adblock Plus 1亿用户靠广告）③引流到自己的服务最稳（Obsidian本体免费加服务收费）④平台方赚钱不是插件作者（Chrome Obsidian VSCode都是平台赚）。一个残酷的结论：插件作者的定位是给平台贡献内容不是自己赚钱，想赚钱得把插件当流量入口不是产品。
 
-这样覆盖usage/workflow/docs三个分类页，比全塞一个分类覆盖更多SEO入口。
+DSH的平台方是谁：平台本体是DeepSeek官方、目录站（赚广告）是dshplugin.store awesome dshmarket等10+个、插件作者（你）贡献内容换流量。你已经看到目录站靠SEO加广告赚钱（dshplugin.store 32428页），而插件作者在给它们提供内容。
 
-一个策略建议：如果想最大化曝光——①分散到不同分类（7个插件分到usage/workflow/docs三类覆盖更多分类页）②抢占空分类（privacy有0个插件如果你做隐私类插件就能独占）③避开ui（1189个最拥挤）。
+三条可参考的路按可行性：第1做目录站/内容站（当平台方）依据dshplugin.store 32428页加广告难度高但已验证、第2做插件引流到自己的服务（Obsidian模式）难度中、第3做插件放广告（Adblock Plus模式）难度中、不做直接卖插件（四个生态都没成功）。一个更聪明的角度：既然目录站赚钱而目录站需要内容——插件作者给目录站贡献内容免费、目录站赚SEO流量加广告费、你如果做目录站就是让别人的插件给你贡献内容。这是从被平台抽成变成自己当平台的路径。
 
-诚实说明：24个分类是实测从sitemap提取中英文各24个、各分类数量是实测从6378插件索引统计、privacy 0个是实测分类页存在但没插件、分类是我们自己填的package.json的category字段、站点是否按我们的category分类未验证可能它自己判断。
+诚实说明：Chrome禁付费插件是实测搜到明确报道、Obsidian模式是实测本体免费官方同步收费、Volar作者遭遇是实测搜到明确标题、年收54万美元是案例不是典型且没看到怎么收费、DSH的推论是推测从其他生态类推、未验证DSH用户是否愿为插件付费。
 
-交付：awesome分类体系分析.md + 7个插件分类已对齐awesome体系（usage/workflow/docs，全部验证通过）。
+交付：海外插件生态变现对照.md。
