@@ -1,0 +1,551 @@
+<!doctype html>
+<!-- Plugin detail page template (design B). Tokens shared with template.html — keep the :root blocks in sync. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MichengAI/dsh-code-review — dsh plugin · Git &amp; Code Review</title>
+<meta name="description" content="Adds /review, /review-status, and /review-cancel to spawn an independent native subagent that inspects a chosen Git scope (base branch, uncommitted…">
+<link rel="canonical" href="https://awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/">
+<link rel="alternate" hreflang="en" href="https://awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/">
+<link rel="alternate" hreflang="zh" href="https://awesome-dsh-plugin.com/zh/p/MichengAI/dsh-code-review/">
+<link rel="alternate" hreflang="x-default" href="https://awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/">
+<link rel="icon" href="/logo.svg" type="image/svg+xml">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f2ea">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#211d18">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MichengAI/dsh-code-review — dsh plugin · Git &amp; Code Review">
+<meta property="og:description" content="Adds /review, /review-status, and /review-cancel to spawn an independent native subagent that inspects a chosen Git scope (base branch, uncommitted…">
+<meta property="og:url" content="https://awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/">
+<meta property="og:image" content="https://awesome-dsh-plugin.com/og-en.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MichengAI/dsh-code-review","url":"https://awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/","description":"Adds /review, /review-status, and /review-cancel to spawn an independent native subagent that inspects a chosen Git scope (base branch, uncommitted changes, a commit, or custom instructions) and returns a findings report in the current conversation, with English or Chinese output from the host locale.","applicationCategory":"DeveloperApplication","operatingSystem":"DeepSeek Harness","sameAs":["https://github.com/MichengAI/dsh-code-review","https://www.npmjs.com/package/@michengai/dsh-code-review"]},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All plugins","item":"https://awesome-dsh-plugin.com/"},{"@type":"ListItem","position":2,"name":"Git & Code Review","item":"https://awesome-dsh-plugin.com/git/"},{"@type":"ListItem","position":3,"name":"MichengAI/dsh-code-review","item":"https://awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/"}]}]</script>
+<style>
+/* Self-hosted — see the note in site/template.html. Keep both files in sync. */
+@font-face{
+  font-family:'Archivo';
+  font-style:normal;
+  font-weight:500 900;
+  font-display:swap;
+  src:url(/archivo-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face{
+  font-family:'Archivo';
+  font-style:normal;
+  font-weight:500 900;
+  font-display:swap;
+  src:url(/archivo-latin-ext.woff2) format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+/* Metric-matched fallback. While Archivo is still in flight, headings render
+   in this Arial (size-adjusted to Archivo's weight-800 advances - the h1 is
+   what drives layout) instead of whatever system-ui resolves to, so the swap
+   changes glyphs, not geometry. On Windows the Segoe UI fallback re-wrapped
+   the hero and shifted the whole card grid below it - the top remaining CLS
+   source in field data once the counters were fixed.
+
+   The ratio is against Arial REGULAR: local('Arial') grabs only the regular
+   face, and the synthetic bold the browser applies at weight 800 does not
+   widen advances. Measured in-browser on heading-length samples: Archivo@800
+   / synthetic-bold-Arial = 111.1%; Archivo ascent 88 and descent 21 per
+   100px em, divided by size-adjust. Verified: identical wrap heights across
+   15 width x text combinations, residual width delta 0.7%. */
+@font-face{
+  font-family:'Archivo Fallback';
+  src:local('Arial');
+  size-adjust:111.1%;
+  ascent-override:79.2%;
+  descent-override:18.9%;
+  line-gap-override:0%;
+}
+:root{
+  --paper:#f6f2ea; --paper-2:#efe9dd; --card:#fffdf8; --line:#e0d8c8; --line-2:#cfc5b0;
+  --ink:#2b2620; --ink-2:#5f574a; --ink-3:#8b8172;
+  --cinnabar:#c0392b; --cinnabar-deep:#a12f22; --cinnabar-soft:#f7e5e2; --cinnabar-border:#e5c4be;
+  --on-cinnabar:#ffffff;
+  --sans:"Inter","SF Pro Text","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;
+  --display:"Archivo","Archivo Fallback","Inter","PingFang SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono","Cascadia Code",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#211d18; --paper-2:#282218; --card:#2a2620; --line:#3b352c; --line-2:#4c4436;
+    --ink:#ece7de; --ink-2:#b5ac9e; --ink-3:#8f8678;
+    --cinnabar:#e06a52; --cinnabar-deep:#ea8069; --cinnabar-soft:rgba(224,106,82,.13); --cinnabar-border:rgba(224,106,82,.35);
+    --on-cinnabar:#211d18;
+  }
+}
+*{box-sizing:border-box;margin:0}
+::selection{background:var(--cinnabar-soft);color:var(--ink)}
+:focus-visible{outline:2px solid var(--cinnabar);outline-offset:2px}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);min-height:100vh;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none;touch-action:manipulation}
+button{touch-action:manipulation;-webkit-tap-highlight-color:transparent;font-family:inherit;cursor:pointer}
+.wrap{max-width:62rem;margin-inline:auto;padding-inline:clamp(1.25rem,4vw,2.5rem)}
+
+nav.top{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;gap:1.4rem;height:3.6rem}
+.logo{display:flex;align-items:center;gap:.55rem;font-family:var(--display);font-weight:700;font-size:.95rem}
+.logo svg g{fill:var(--ink)}
+.logo svg .plug-block{fill:var(--cinnabar)}
+.nav-links{display:flex;gap:1.2rem;margin-left:auto;font-size:.86rem;color:var(--ink-2);align-items:center}
+.nav-links a:hover{color:var(--cinnabar)}
+.lang-btn{font-size:.82rem;color:var(--ink-3);border:1px solid var(--line);border-radius:8px;padding:.25rem .6rem}
+.lang-btn:hover{color:var(--ink);border-color:var(--line-2)}
+
+header.plate-wrap{
+  background-image:linear-gradient(var(--paper-2) 1px,transparent 1px),linear-gradient(90deg,var(--paper-2) 1px,transparent 1px);
+  background-size:28px 28px;border-bottom:1px solid var(--line);
+}
+.crumbs{display:flex;flex-wrap:wrap;gap:.4rem .7rem;align-items:center;
+  font-family:var(--mono);font-size:.74rem;color:var(--ink-3);padding-block:.9rem 0}
+.crumbs a{color:var(--cinnabar)}
+.crumbs a:hover{color:var(--cinnabar-deep)}
+.crumbs .sep{color:var(--line-2)}
+.plate{padding-block:1.4rem clamp(1.8rem,5vh,2.6rem)}
+.plate .kicker{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.plate h1{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,4vw,2.4rem);line-height:1.12;letter-spacing:-.02em;margin-top:.35rem;text-wrap:balance;overflow-wrap:anywhere}
+.plate h1 .owner{color:var(--ink-3);font-weight:600}
+.plate h1 .name{color:var(--cinnabar)}
+.specrow{display:flex;flex-wrap:wrap;gap:.5rem 2rem;font-family:var(--mono);font-size:.76rem;color:var(--ink-3);margin-top:1rem}
+.specrow b{color:var(--ink-2);font-weight:500}
+.specrow a{color:var(--cinnabar)}
+.specrow a:hover{color:var(--cinnabar-deep);text-decoration:underline;text-underline-offset:3px}
+
+main{padding-block:clamp(1.6rem,4vh,2.4rem)}
+.desc{font-size:clamp(.98rem,1.7vw,1.08rem);color:var(--ink-2);max-width:46rem;text-wrap:pretty}
+
+.panel{margin-block:clamp(1.6rem,4vh,2.4rem) 0;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.3rem 1.4rem}
+.panel h2{font-family:var(--display);font-size:1rem;font-weight:700;letter-spacing:-.01em;margin-bottom:.8rem}
+.cmd{display:flex;align-items:stretch;border:1px solid var(--line-2);border-radius:8px;overflow:hidden;background:var(--paper)}
+.cmd pre{font-family:var(--mono);font-size:.82rem;line-height:1.9;color:var(--ink);padding:.55rem 1rem;overflow-x:auto;flex:1;margin:0}
+.cmd button{font-family:var(--mono);font-size:.7rem;color:var(--ink-3);background:var(--card);border:none;border-left:1px solid var(--line-2);padding:0 1rem;cursor:pointer;white-space:nowrap;transition:all .15s ease}
+.cmd button:hover,.cmd button.done{color:var(--on-cinnabar);background:var(--cinnabar)}
+.panel .note{font-size:.78rem;color:var(--ink-3);max-width:46rem;text-wrap:pretty}
+.panel .note+.cmd{margin-top:.2rem}
+.links{display:flex;flex-wrap:wrap;gap:.6rem}
+.links a{font-size:.82rem;font-weight:550;border:1px solid var(--line-2);border-radius:8px;padding:.45rem .95rem;color:var(--ink-2);transition:all .15s ease;background:var(--paper)}
+.links a:hover{color:var(--on-cinnabar);border-color:var(--cinnabar);background:var(--cinnabar)}
+
+ul.rel{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.8rem}
+ul.rel li{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:.85rem 1rem;transition:border-color .15s ease}
+ul.rel li:hover{border-color:var(--line-2)}
+ul.rel h3{font-weight:650;font-size:.9rem;display:flex;align-items:baseline;gap:.5rem}
+ul.rel h3 a{overflow-wrap:anywhere}
+ul.rel h3 a:hover{color:var(--cinnabar-deep)}
+ul.rel h3 .stars{margin-left:auto;flex:none;font-family:var(--mono);font-weight:400;font-size:.7rem;color:var(--ink-3)}
+ul.rel .desc-link{display:block}
+ul.rel p{color:var(--ink-2);font-size:.8rem;margin-top:.2rem;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;transition:color .15s ease}
+ul.rel .desc-link:hover p{color:var(--ink)}
+.morelink{display:inline-block;margin-top:1rem;font-size:.84rem;font-weight:550;color:var(--cinnabar)}
+.morelink:hover{color:var(--cinnabar-deep);text-decoration:underline;text-underline-offset:3px}
+
+/* Comment provider is never loaded until the visitor chooses to load it. */
+.comments-load{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:.9rem;border:1px solid var(--cinnabar);border-radius:8px;padding:.55rem .95rem;background:var(--cinnabar);color:var(--on-cinnabar);font-size:.82rem;font-weight:650;transition:background .15s ease,border-color .15s ease}
+.comments-load:hover{background:var(--cinnabar-deep);border-color:var(--cinnabar-deep)}
+.comments-status{min-height:1.55em;margin-top:.65rem;color:var(--ink-3);font-size:.78rem}
+.comments-mount{margin-top:.7rem;min-height:0;overflow:hidden}
+.comments-mount:empty,.comments-mount:has(iframe){min-height:12rem}
+.comments-status:empty{display:none}
+.comments-mount iframe{width:100%;border:0}
+
+/* rendered README content */
+.md{font-size:.9rem;color:var(--ink-2);overflow-wrap:break-word}
+.md h2,.md h3,.md h4,.md h5,.md h6{color:var(--ink);font-weight:700;margin:1.4em 0 .5em;letter-spacing:-.01em;line-height:1.3}
+.md h2{font-size:1.1rem;border-bottom:1px solid var(--line);padding-bottom:.35rem}
+.md h3{font-size:1rem}
+.md h4,.md h5,.md h6{font-size:.92rem}
+.md p,.md ul,.md ol,.md blockquote,.md table,.md pre{margin-block:.7em}
+.md ul,.md ol{padding-left:1.4em}
+.md li+li{margin-top:.25em}
+.md a{color:var(--cinnabar)}
+.md a:hover{color:var(--cinnabar-deep);text-decoration:underline;text-underline-offset:3px}
+.md code{font-family:var(--mono);font-size:.85em;background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:.1em .35em}
+.md pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:.8rem 1rem;overflow-x:auto}
+.md pre code{background:none;border:none;padding:0;font-size:.8rem;line-height:1.7}
+.md img{max-width:100%;height:auto;border-radius:8px;border:1px solid var(--line)}
+.md blockquote{border-left:3px solid var(--line-2);padding-left:1em;color:var(--ink-3)}
+.md table{border-collapse:collapse;display:block;overflow-x:auto;font-size:.84rem}
+.md th,.md td{border:1px solid var(--line);padding:.35rem .7rem;text-align:left}
+.md th{background:var(--paper);color:var(--ink)}
+.md hr{border:none;border-top:1px solid var(--line);margin-block:1.2em}
+.panel.readme .note{margin-top:1rem;border-top:1px solid var(--line);padding-top:.8rem}
+.panel.readme .note a{color:var(--ink-3)}
+.panel.readme .note a:hover{color:var(--cinnabar)}
+
+footer{padding-block:1.8rem 2.8rem;border-top:1px solid var(--line);margin-top:clamp(2rem,6vh,3rem);color:var(--ink-3);font-size:.78rem}
+footer a{color:var(--ink-2)}
+footer a:hover{color:var(--cinnabar)}
+footer p+p{margin-top:.5rem}
+@media (max-width:640px){
+  .cmd{flex-direction:column}
+  .cmd button{border-left:none;border-top:1px solid var(--line-2);padding:.5rem}
+}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8176276536851769" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="top"><div class="wrap nav-in">
+  <a class="logo" href="/" translate="no">
+    <svg width="20" height="20" viewBox="76 42 400 400" aria-hidden="true"><g><rect x="112" y="112" width="88" height="88" rx="14"/><rect x="212" y="112" width="88" height="88" rx="14"/><rect x="112" y="212" width="88" height="88" rx="14"/><rect x="212" y="212" width="88" height="88" rx="14"/><rect x="112" y="312" width="88" height="88" rx="14"/><rect x="212" y="312" width="88" height="88" rx="14"/><rect x="312" y="212" width="88" height="88" rx="14"/><rect x="312" y="312" width="88" height="88" rx="14"/></g><rect class="plug-block" x="346" y="78" width="88" height="88" rx="14" transform="rotate(9 390 122)"/></svg>
+    awesome-dsh-plugin
+  </a>
+  <div class="nav-links">
+    <a class="lang-btn" href="/zh/p/MichengAI/dsh-code-review/" hreflang="zh" rel="alternate">中文</a>
+    <a href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin" rel="noopener">GitHub ↗</a>
+  </div>
+</div></nav>
+
+<header class="plate-wrap">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="breadcrumb">
+      <a href="/">All plugins</a>
+      <span class="sep">/</span>
+      <a href="/git/">Git & Code Review</a>
+      <span class="sep">/</span>
+      <span translate="no">dsh-code-review</span>
+    </nav>
+    <div class="plate">
+      <p class="kicker">DeepSeek Harness Plugin</p>
+      <h1 translate="no"><span class="owner">MichengAI/</span><wbr><span class="name">dsh-code-review</span></h1>
+      <div class="specrow">
+        <span>Stars <b>★ 11</b></span>
+        <span>Downloads (30d) <b translate="no">58,982</b></span>
+        <span>Category <a href="/git/">Git & Code Review</a></span>
+        <span>Added <b>2026-09-18</b></span>
+        <span>npm <a href="https://www.npmjs.com/package/@michengai/dsh-code-review" rel="noopener" translate="no">@michengai/dsh-code-review</a></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="desc">Adds /review, /review-status, and /review-cancel to spawn an independent native subagent that inspects a chosen Git scope (base branch, uncommitted changes, a commit, or custom instructions) and returns a findings report in the current conversation, with English or Chinese output from the host locale.</p>
+
+  <section class="panel">
+    <h2>Install</h2>
+    <p class="note" style="margin:.2rem 0 .45rem"># from npm (prebuilt)</p>
+    <div class="cmd"><pre translate="no">dsh plugin --profile web add @michengai/dsh-code-review</pre><button type="button" data-cmd="dsh plugin --profile web add @michengai/dsh-code-review" aria-label="Copy install command">copy install</button></div>
+    <p class="note" style="margin:.2rem 0 .45rem"># from GitHub (first run asks for allowBuilds approval — follow the hint, retry)</p>
+    <div class="cmd"><pre translate="no">dsh plugin --profile web add github:MichengAI/dsh-code-review</pre><button type="button" data-cmd="dsh plugin --profile web add github:MichengAI/dsh-code-review" aria-label="Copy install command">copy install</button></div>
+    <p class="note" style="margin-top:.7rem">Any plugin you install runs third-party code with your own permissions — it can read your files, use your credentials, and reach the network, and tool approvals don’t sandbox it. GitHub-sourced plugins also run build scripts at install time — pnpm blocks those until you allow them, so an install can stop with <code translate="no">ERR_PNPM_GIT_DEP_PREPARE_NOT_ALLOWED</code> or <code translate="no">ERR_PNPM_IGNORED_BUILDS</code>; dsh prints the exact key to add under <code translate="no">allowBuilds</code> in your profile’s <code translate="no">pnpm-workspace.yaml</code>, and the install works on the next run. Allowing a build is a trust decision: only install sources you trust, and pin a commit (<code translate="no">github:owner/repo#sha</code>).</p>
+  </section>
+
+  <section class="panel readme">
+    <h2>README</h2>
+    <div class="md" lang="en" translate="no">
+<h2>DSH Code Review</h2>
+<p><strong>Start a review in your conversation. Let an independent agent inspect the code and bring back findings.</strong></p>
+<p><a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/README.zh-CN.md">简体中文</a> · <a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/docs/00-%E4%BA%A4%E6%8E%A5%E5%85%A5%E5%8F%A3/00-%E9%98%85%E8%AF%BB%E5%AF%BC%E8%88%AA.md">Developer docs</a> · <a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/CHANGELOG.md">Changelog</a> · <a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/LICENSE">Apache-2.0</a></p>
+<p>DSH Code Review is a community code review plugin for DeepSeek Harness, packaged as <code>@michengai/dsh-code-review</code>. Enter <code>/review</code>, choose a scope or describe your request, and a native independent subagent inspects Git, source files, callers, and tests before returning a report to the main conversation. No Codex installation is required.</p>
+<h3>Host compatibility</h3>
+<p>The current version supports these exact DSH release candidates: <code>0.2.0-rc.1</code>, <code>0.2.0-rc.2</code>, <code>0.2.1-rc.1</code>, and <code>0.2.1-rc.2</code>. Legacy alpha builds, <code>0.1.x</code> releases, <code>0.0.1</code> release candidates, and any version not in that list are not supported. Peers name those exact versions with <code>||</code>; they are not a semver range. It loads through <code>dsh.bundle.patch</code> and requires the native <code>spawn</code> provider, the <code>userQuestions</code> service, a question answerer for your platform, and a model that supports tool calls.</p>
+<p>Install the package from npm or build from source. Offline host and package integration checks have passed; review quality, language adherence, and interaction across platforms still need live validation.</p>
+<h3>What you can do</h3>
+<ul>
+<li><strong>Choose a scope</strong>: compare against a base branch, review uncommitted changes, select a commit, or provide custom instructions.</li>
+<li><strong>Let the reviewer gather evidence</strong>: an independent context reads Git, relevant code, and tests without receiving a preloaded repository snapshot.</li>
+<li><strong>Read results in the main conversation</strong>: receive prioritized findings with file paths and line numbers. Plain-text model responses are preserved.</li>
+<li><strong>Use English or Chinese reports</strong>: a separate language context follows the host preference while preserving the original English Codex rubric.</li>
+<li><strong>Check status or cancel</strong>: recover the latest report or cancel scope selection and an active review.</li>
+</ul>
+<h3>Prerequisites</h3>
+<ul>
+<li>A working DeepSeek Harness installation with <code>dsh</code> available in PowerShell.</li>
+<li>Node.js ≥ <code>22.19.0</code>, npm, and Git. Node.js must also meet your installed DSH version&#39;s requirements.</li>
+<li>Examples use the <code>web</code> profile; replace it with the profile running DSH.</li>
+</ul>
+<h3>DSH product ecosystem</h3>
+<p>For a desktop workbench, download <a href="https://github.com/MichengAI/dsh-codex-desktop/releases">DSH Codex Desktop</a>. Existing <a href="https://github.com/deepseek-ai/deepseek-harness">DeepSeek Harness</a> installations can add plugins as needed by following each project&#39;s README. Below are 11 first-party plugins; consult the corresponding desktop release notes and bundled catalog for what that version includes.</p>
+<table>
+<thead>
+<tr>
+<th>Plugin</th>
+<th>What you can do</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/MichengAI/dsh-codex-ui">Codex UI</a></td>
+<td>Organize projects and conversations, search tasks, and navigate chat turns</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-agency-agents">Agency Agents</a></td>
+<td>Choose and summon specialists for your task</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-skills-manager">Skills Manager</a></td>
+<td>Find, enable, create, and import local skills</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-archive-manager">Archive Manager</a></td>
+<td>Search, restore, or clean up archived conversations</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-im-connect">IM Connect</a></td>
+<td>Send tasks and receive replies through messaging platforms</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-automation">Automation</a></td>
+<td>Schedule tasks and review each run</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-btw">BTW</a></td>
+<td>Ask side questions without interrupting the main task</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-simplify">Simplify</a></td>
+<td>Use <code>/simplify</code> to improve code within your Git changes</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-pua">PUA</a></td>
+<td>Guide the Agent to try new approaches after failures, investigate causes, and verify results before completion</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-code-review">Code Review</a></td>
+<td>Use <code>/review</code> to request an independent Agent code review and receive the report in the current conversation</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-codex-pet">Codex Pet</a></td>
+<td>View conversation notifications and respond to tool approvals and questions through a desktop pet</td>
+</tr>
+</tbody></table>
+<h3>Installation</h3>
+<h4>Ask an agent to install it (recommended)</h4>
+<p>Send this prompt to an agent with local terminal access:</p>
+<pre><code class="language-text">Install the DSH plugin @michengai/dsh-code-review into my local web profile: run dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/, then dsh --profile web --dump-config. Confirm the plugin is loaded and explain how to restart DSH and use /review. Stop and report the cause if any step fails.
+</code></pre>
+<h4>Install manually</h4>
+<p>Run these commands:</p>
+<pre><code class="language-powershell">[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/
+dsh --profile web --dump-config
+</code></pre>
+<p>Continue only after each step succeeds. Restart the DSH backend you actually use, then enter <code>/review</code>. This is a native plugin, not a <code>SKILL.md</code> bundle; do not copy <code>lib</code> manually.</p>
+<h3>Usage</h3>
+<table>
+<thead>
+<tr>
+<th>Goal</th>
+<th>Input</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Open scope selection</td>
+<td><code>/review</code></td>
+</tr>
+<tr>
+<td>Set a custom focus</td>
+<td><code>/review Check the previous commit for authorization regressions</code></td>
+</tr>
+<tr>
+<td>View progress or the latest report</td>
+<td><code>/review-status</code></td>
+</tr>
+<tr>
+<td>Cancel selection or an active review</td>
+<td><code>/review-cancel</code></td>
+</tr>
+</tbody></table>
+<p>Empty input offers four options: base branch, uncommitted changes, a commit, and custom instructions. Uncommitted scope includes staged, unstaged, and untracked files. The base menu lists local branches; the commit menu lists the latest 100 commits. Other refs can be entered as free text.</p>
+<p>All text after the command is treated as custom instructions, not CLI flags. <code>--base main</code>, <code>.</code>, and <code>status</code> are passed as ordinary text. The subagent determines and retrieves the context it needs. “Review the entire project” is passed verbatim, but does not mean the program has verified complete file-by-file coverage.</p>
+<h3>Configuration and reports</h3>
+<table>
+<thead>
+<tr>
+<th>Optional setting</th>
+<th>Behavior</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>reviewModel</code></td>
+<td>Review model within the same provider; otherwise inherits the current model configuration</td>
+</tr>
+<tr>
+<td><code>reportDirectory</code></td>
+<td>Absolute report directory; defaults to <code>$DSH_HOME/code-review</code>, or <code>~/.dsh/code-review</code> when DSH_HOME is unset</td>
+</tr>
+</tbody></table>
+<p>Language follows the host&#39;s <code>locale.preference</code>: <code>en</code> / <code>en-*</code> selects English; other values default to Chinese within the current two-language support. It reads the <code>locale</code> profile entry returned by <code>settings.describe()</code>. Each review captures the locale at its start; the next review reads updated settings. Command catalog descriptions and input hints are resolved when the plugin loads and require a reload to update. Without a saved preference, or when the settings read fails, Chinese is used; the backend cannot read a language detected only in the browser.</p>
+<p>The latest report is saved atomically per conversation. The session report uses GitHub Flavored Markdown that DSH renders: a status heading, finding headings, local file links with line fragments, and paragraphs. Historical report bodies are not translated. JSON keys, enum values, code, and paths remain unchanged. Unfinished reviews do not resume automatically after shutdown. Status, cancellation, and report storage are DSH plugin features.</p>
+<h3>FAQ</h3>
+<h4>Is this identical to Codex?</h4>
+<p>The rubric and short task templates follow the fixed source commit <code>a592c38c16cdd7623dacc9168926ebccedfb67d3</code>. Questions, tools, permissions, and event presentation use native DSH capabilities. This is not a pixel-perfect Codex Desktop clone, and different models may produce different findings.</p>
+<h4>Can a review change code?</h4>
+<p>The review instructions request no fixes, but the tool layer is not universally read-only. Execution follows Agency experts: native <code>spawn</code> installs the reviewer persona while preserving the host&#39;s other system sections and tools. Only recursive code review and expert invocation tools are denied. The host fixes permissions at delegation time; the plugin neither overrides approval policy nor forwards child approval requests. The host rejects operations outside that scope, and the reviewer returns a report explaining evidence and test limitations.</p>
+<p>If Git fails during Windows sandbox preparation, or tests fail with <code>spawn EPERM</code>, the parent session must handle the host environment or permissions before starting another review. “Completed” means the Agent returned a report; it does not guarantee that every diff was inspected or tests passed. Read the report for those limitations.</p>
+<h4>What if nothing appears after installation?</h4>
+<p>Check that installation and runtime use the same profile, restart the DSH backend, and confirm <code>dsh --profile web --dump-config</code> includes the plugin. Empty <code>/review</code> requires a host question answerer, and the main model must support the <code>dsh_code_review</code> tool. Use <code>/review-status</code> to inspect the record; a request acknowledgement is not review completion.</p>
+<h4>Why might I still see another language?</h4>
+<p>Explicitly select Chinese or English in host settings. Model language is controlled by instructions and cannot be guaranteed. Raw external-tool errors, code, and historical reports are not automatically translated.</p>
+<h3>Development and contributing</h3>
+<pre><code class="language-powershell">[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+npm ci --ignore-scripts
+npm run check
+npm run verify:package
+dsh plugin --profile web add .\michengai-dsh-code-review-0.1.3.tgz --ignore-scripts
+</code></pre>
+<p><code>check</code> covers TypeScript, prompt hashes, short tasks, real AgentLoop regression tests with offline models, and documentation links. <code>verify:package</code> checks bundle loading, peers, and installed-package host integration in an isolated profile. These checks do not replace live model validation. GitHub and npm both include a ready-to-run <code>lib</code>; after changing source, run <code>npm run build</code> before committing.</p>
+<table>
+<thead>
+<tr>
+<th>Entry</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/src/index.ts">src/index.ts</a></td>
+<td>Commands, main-session tool, and report delivery</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/src/selection.ts">src/selection.ts</a></td>
+<td>Native scope selection</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/src/runtime.ts">src/runtime.ts</a></td>
+<td>Independent reviewer and tool restrictions</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/src/request.ts">src/request.ts</a></td>
+<td>Codex short tasks and base-ref resolution</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/src/i18n.ts">src/i18n.ts</a></td>
+<td>Host locale and output language context</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/src/report.ts">src/report.ts</a></td>
+<td>Full JSON, extracted JSON, then plain-text fallback</td>
+</tr>
+</tbody></table>
+<p>See the <a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/docs/00-%E4%BA%A4%E6%8E%A5%E5%85%A5%E5%8F%A3/00-%E9%98%85%E8%AF%BB%E5%AF%BC%E8%88%AA.md">developer navigation</a> for implementation history. To roll back, reinstall a previously retained local package and restart DSH. Conversations and reports are not deleted.</p>
+<h3>Sources and license</h3>
+<p>Licensed under <a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/LICENSE">Apache License 2.0</a>. See the original Codex <a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/assets/codex/review/rubric.md">rubric</a>, <a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/assets/codex/review/source.json">source.json</a>, and <a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/NOTICE">NOTICE</a>.</p>
+<p>Upstream source: <a href="https://github.com/openai/codex/blob/a592c38c16cdd7623dacc9168926ebccedfb67d3/codex-rs/prompts/src/review_request.rs">task templates</a> · <a href="https://github.com/openai/codex/blob/a592c38c16cdd7623dacc9168926ebccedfb67d3/codex-rs/core/src/tasks/review.rs">review execution</a> · <a href="https://github.com/openai/codex/blob/a592c38c16cdd7623dacc9168926ebccedfb67d3/codex-rs/tui/src/chatwidget/review_popups.rs">scope selection</a> · <a href="https://github.com/openai/codex/blob/a592c38c16cdd7623dacc9168926ebccedfb67d3/codex-rs/git-utils/src/branch.rs">base branch resolution</a>.</p>
+
+    </div>
+    <p class="note"><a href="https://github.com/MichengAI/dsh-code-review/blob/HEAD/README.md" rel="noopener">Content from the project README on GitHub ↗</a></p>
+  </section>
+
+  <section class="panel">
+    <h2>Links</h2>
+    <div class="links">
+      <a href="https://github.com/MichengAI/dsh-code-review" rel="noopener">GitHub repository ↗</a>
+      <a href="https://www.npmjs.com/package/@michengai/dsh-code-review" rel="noopener">npm package ↗</a>
+      <a href="https://github.com/dsh-market/dsh-market" rel="noopener">Install via dsh-market ↗</a>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>More in this category</h2>
+    <ul class="rel">
+      <li><h3><a href="/p/zhu1090093659/dsh-web--packages-dsh-git-graph/" translate="no">zhu1090093659/dsh-web#packages/dsh-git-graph</a><span class="stars" translate="no">★ 9048</span></h3><a class="desc-link" href="/p/zhu1090093659/dsh-web--packages-dsh-git-graph/" tabindex="-1"><p>Git branch selector and Git graph for the dsh web GUI: switch branches and explore branch-lane and commit history from the conversation header.</p></a></li>
+      <li><h3><a href="/p/Akimiya-z/codex-guard--dsh/" translate="no">Akimiya-z/codex-guard#dsh</a><span class="stars" translate="no">★ 133</span></h3><a class="desc-link" href="/p/Akimiya-z/codex-guard--dsh/" tabindex="-1"><p>Pre-submit pull-request hygiene checks inside DeepSeek Harness: scans the current diff for TODO leftovers, hardcoded secrets, and non-conventional commit subjects.</p></a></li>
+      <li><h3><a href="/p/Cerbur/clutch-dsh--packages-clutch-dsh-worktree/" translate="no">Cerbur/clutch-dsh#clutch-dsh-worktree</a><span class="stars" translate="no">★ 34</span></h3><a class="desc-link" href="/p/Cerbur/clutch-dsh--packages-clutch-dsh-worktree/" tabindex="-1"><p>Adds a Worktree view to DSH Web UI that groups Sessions by Git worktree while keeping DSH as the source of truth.</p></a></li>
+      <li><h3><a href="/p/lehhair/dsh-diff-viewer/" translate="no">lehhair/dsh-diff-viewer</a><span class="stars" translate="no">★ 26</span></h3><a class="desc-link" href="/p/lehhair/dsh-diff-viewer/" tabindex="-1"><p>PiUI-style diff viewer replacing the stock DiffBlock for write/edit tool calls.</p></a></li>
+      <li><h3><a href="/p/DamonKoy/dsh-web-ui--packages-dsh-git-graph/" translate="no">DamonKoy/dsh-web-ui#dsh-git-graph</a><span class="stars" translate="no">★ 25</span></h3><a class="desc-link" href="/p/DamonKoy/dsh-web-ui--packages-dsh-git-graph/" tabindex="-1"><p>Git branch selector and Git graph in the conversation header of the dsh web GUI.</p></a></li>
+      <li><h3><a href="/p/PerryLink/dsh-github/" translate="no">PerryLink/dsh-github</a><span class="stars" translate="no">★ 24</span></h3><a class="desc-link" href="/p/PerryLink/dsh-github/" tabindex="-1"><p>Official-grade GitHub CI integration: a composite action.yml, a polling PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval.</p></a></li>
+    </ul>
+    <a class="morelink" href="/git/">View the whole category →</a>
+  </section>
+
+  <section class="panel comments" aria-labelledby="comments-MichengAI-dsh-code-review-title">
+    <h2 id="comments-MichengAI-dsh-code-review-title">Community comments</h2>
+    <p class="note">Comments are public GitHub Discussions. Loading them connects to GitHub and Giscus; a GitHub account is required to post.</p>
+    <p class="comments-status" role="status" aria-live="polite"></p>
+    <div class="comments-mount giscus" id="comments-MichengAI-dsh-code-review-mount" data-comments="{&quot;repo&quot;:&quot;awesome-dsh-plugin/awesome-dsh-plugin&quot;,&quot;repoId&quot;:&quot;R_kgDOT3ajCQ&quot;,&quot;category&quot;:&quot;Plugins&quot;,&quot;categoryId&quot;:&quot;DIC_kwDOT3ajCc4DES8_&quot;,&quot;term&quot;:&quot;plugin:MichengAI/dsh-code-review&quot;,&quot;lang&quot;:&quot;en&quot;}" data-loading="Loading comments…" data-ready="Comments loaded." data-error="Comments could not be loaded. Check your connection, or read the discussion on GitHub." data-retry="Try again"></div>
+    <noscript><p class="note"><a href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/discussions" rel="noopener">Open community comments on GitHub ↗</a></p></noscript>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Plugins are developed by their respective authors; listing is not an endorsement. Installing runs third-party code — review the source and proceed at your own risk.</p>
+  <p>© 2026 awesome-dsh-plugin · <a href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin" rel="noopener">GitHub</a> · <a href="/privacy/">Privacy</a> · Not affiliated with DeepSeek</p>
+</footer>
+
+<script>
+document.addEventListener('click', async (e) => {
+  const btn = e.target.closest('.cmd button');
+  if (!btn) return;
+  try { await navigator.clipboard.writeText(btn.dataset.cmd); } catch {}
+  btn.classList.add('done');
+  const old = btn.textContent;
+  btn.textContent = '✓';
+  setTimeout(() => { btn.classList.remove('done'); btn.textContent = old; }, 1200);
+});
+
+// Comments load on their own — arriving on the page is the request. They are
+// still deferred until the section is close to the viewport, because giscus is
+// a third-party iframe and most visitors never scroll past the README: paying
+// for that connection on every page view would slow down the common case to
+// serve the rare one. The button below only ever appears after a failure.
+;(() => {
+  const mount = document.querySelector('.comments-mount');
+  if (!mount) return;
+  const status = document.querySelector('.comments-status');
+  const d = mount.dataset;
+  let config;
+  try { config = JSON.parse(d.comments); } catch { status.textContent = d.error; return; }
+
+  const load = () => {
+    status.textContent = d.loading;
+    mount.setAttribute('aria-busy', 'true');
+    const script = document.createElement('script');
+    script.src = 'https://giscus.app/client.js';
+    script.async = true;
+    script.crossOrigin = 'anonymous';
+    Object.assign(script.dataset, {
+      repo: config.repo,
+      repoId: config.repoId,
+      category: config.category,
+      categoryId: config.categoryId,
+      mapping: 'specific',
+      term: config.term,
+      strict: '1',
+      reactionsEnabled: '1',
+      emitMetadata: '0',
+      inputPosition: 'bottom',
+      theme: 'preferred_color_scheme',
+      lang: config.lang,
+      loading: 'lazy',
+    });
+    script.onload = () => {
+      mount.removeAttribute('aria-busy');
+      // Sighted readers can see the thread arrive, so the confirmation is only
+      // here to be announced; leaving it on screen is a line of noise stapled
+      // under every plugin page forever.
+      status.textContent = d.ready;
+      setTimeout(() => { if (status.textContent === d.ready) status.textContent = ''; }, 2500);
+    };
+    script.onerror = () => {
+      mount.removeAttribute('aria-busy');
+      script.remove();
+      status.textContent = d.error;
+      const retry = document.createElement('button');
+      retry.type = 'button';
+      retry.className = 'comments-load';
+      retry.textContent = d.retry;
+      retry.addEventListener('click', () => { retry.remove(); load(); }, { once: true });
+      status.after(retry);
+    };
+    mount.append(script);
+  };
+
+  if (!('IntersectionObserver' in window)) { load(); return; }
+  const io = new IntersectionObserver((entries) => {
+    if (!entries.some((e) => e.isIntersecting)) return;
+    io.disconnect();
+    load();
+  }, { rootMargin: '400px' });
+  io.observe(mount);
+})();
+</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7723c30caf6949b6b95780fb3ed9f6ac"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

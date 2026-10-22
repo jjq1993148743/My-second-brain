@@ -1,25 +1,23 @@
-DSH市场站流量真相：实测7站sitemap发现dshplugin.store 32449条和awesome 12806条是SEO怪兽，差dshopen 16224倍，修正提交优先级
+SEO站点标题写法拆解：实测awesome插件页title是owner/repo加dsh plugin加分类名、description直接用英文描述且截断160字符，已给7个插件加英文description
 
-查7个站的sitemap发现两个SEO怪兽，这直接决定该往哪个站提交。
+抓了awesome-dsh-plugin.com的插件详情页看它的SEO结构，并据此优化7个插件。
 
-七个站sitemap实测：dshplugin.store 32449条最大SEO怪兽、awesome-dsh-plugin.com 12806条第二大、deepseek.stream 584条中等、dshmarketplace.dev 248条小、dshmarket.com 8条极小、dsh-plugin.org 3条极小、dshopen.org 2条极小。差距：dshplugin.store vs dshopen差16224倍、vs dsh-plugin.org差10816倍、awesome vs dshmarket差1600倍。站点之间差了几个数量级。
+实测样本awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/：title是MichengAI/dsh-code-review — dsh plugin · Git and Code Review、meta description是插件的英文描述（Adds /review /review-status and /review-cancel to spawn an independent native subagent...）、canonical是https://awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/、og:title与title相同、h1未找到（可能用div渲染）、没有JSON-LD。
 
-两个SEO怪兽在做什么：dshplugin.store sitemap大小5.7MB总条目32449其中插件详情页32428个其他21个（首页/new/tutorials/category等），URL结构是每个插件一个独立页面全部进sitemap。awesome-dsh-plugin.com sitemap大小6.9MB总条目12806其中插件详情页12756个其他50个（含分类页中文页），URL结构有中文版/zh/加按分类做页面/agi/ /ui/ /usage/加每个插件一页。
+拆解标题公式：格式是{owner}/{repo} — dsh plugin · {分类名}。逐部分解析：owner/repo是唯一标识也含关键词、— dsh plugin是固定后缀SEO关键词每页都有、· 分类名是分类也是关键词（Git & Code Review）。关键洞察：「dsh plugin」是固定后缀它靠这个吃「dsh plugin」这个搜索词、分类名放在最后Git & Code Review也是搜索词、repo名里带关键词dsh-code-review本身就含code review。
 
-这暴露的商业逻辑：①靠SEO吃搜索流量（把每个插件做成独立页面、全部放进sitemap让搜索引擎收录、用户搜dsh插件xxx时命中、页面有流量后卖广告位）；②3万个页面意味着什么（32428个插件页如果每个页面每月10次访问等于32万次月访问、如果每个页面每月100次等于324万次月访问，这是推算不是实测但量级说明SEO是这个生态的主要流量来源）；③为什么dsh-plugin.org只有3条却还在运营（它不靠SEO可能靠社区GitHub导流、它的定位是社区枢纽不是目录站、它可能不指望自然搜索）。
+description的来源实测：它用的是插件的英文描述（description.en），截断长度约160字符后面用省略号。这意味着你在package.json里写的description直接变成它的meta description而且会截断到160字符左右。
 
-对提交策略的影响按sitemap规模重排：第1 dshplugin.store（32428个插件页SEO最大）、第2 awesome-dsh-plugin.com（12756个插件页加有中文版）、第3 deepseek.stream（584条中等）、4 dshmarketplace.dev（248条小）、5 dshmarket.com（8条但它有内置市场用户直接在DSH里用）、6 dsh-plugin.org（3条社区枢纽不是SEO）、7 dshopen.org（2条开放索引靠JSON API）。
+对我们7个插件的直接影响：cost-advisor的中文description前160字符只到「峰谷价提醒+模型建议」（⚠️后面的缓存优化上下文精简被截掉了）、sales-script和hr-toolkit的description较短完整保留。优化建议把最重要的关键词放前面。
 
-一个重要修正：之前我说打标签就自动收录这是对的，但更重要的是被哪个站收录。dshplugin.store需要提交/被抓收录后是SEO页面可能带来搜索流量、awesome从GitHub抓收录后是SEO页面加RSS被日报抓、dshopen是JSON索引被其他站当数据源是数据层的曝光。所以dshopen虽然只有2条sitemap但它的JSON索引被其他站消费这是数据层的曝光。
+从标题公式学到的3个动作：动作1 repo名要含关键词（dsh-code-review好dsh-cr差，我们的7个repo名都含关键词省钱销售HR法律教师财务运营）；动作2分类名很重要（title里会带分类名如Git & Code Review，但注意awesome的分类是它自己定的agi/ui/usage/memory/skill等我们只能尽量对齐）；动作3英文描述也要写（awesome用的是description.en如果只有中文它可能抓不到或抓成空，现状我们的package.json只有中文description风险是awesome可能抓不到）。
 
-一个新发现awesome有中文版：awesome-dsh-plugin.com/zh/有独立中文页面，意义是它认真做中文市场，对你的价值是你的中文插件更容易被它收录展示。
+dshplugin.store的插件页是404：用包名找不到（dshplugin.store/plugin/dsh-cost-meter返回404），因为它的URL用的是插件名（如/plugin/0-v-0）不是包名，要找到我们插件的页面得等它抓取后才知道URL。
 
-更重要的推论SEO是插件曝光的核心：插件名要有搜索价值（用户会搜dsh省钱插件而不是dsh-cost-advisor）、description要含关键词（搜索引擎读description）、README要写好（被这些站抓取时README是内容来源）。我们的7个插件description含关键词吗：cost-advisor含省钱峰谷价缓存、sales-script含话术异议、hr-toolkit含简历面试——7个插件的description都已经优化过（前面轮次做的）。
+已做的优化：给7个插件的package.json加了英文description（中文原描述保留在descriptionZh字段）。英文描述示例：cost-advisor是DSH cost advisor: off-peak pricing reminders, cache optimization, context trimming, model selection advice — tells you how to spend less, not just how much you spent；sales-script是Sales script library: 5-step objection handling for too expensive, 20+ objection scenarios, 6 closing methods, 5 industry presets；hr-toolkit是HR toolkit: screen resumes in 30 seconds, STAR interview question bank, JD generator, offer negotiation scripts, 5 industry presets；legal-toolkit是Legal toolkit: 42-item contract review checklist across 7 categories, 5 high-risk clauses, Chinese law research guide, document templates；teacher-toolkit是Teacher toolkit: cut lesson prep from 2 hours to 20 minutes, quiz generator, grading rubrics, parent communication scripts, 5 grade levels；finance-toolkit是Finance toolkit: 10-minute financial statement analysis, tax handling, budget planning, audit checkpoints, internal controls, 5 industries；ops-toolkit是Ops toolkit: write weekly reports in 10 minutes, competitor analysis, campaign planning, user operations, content ideation, 5 platforms。
 
-还有一个可能被忽略的流量源npm本身也是搜索引擎：npmjs.com被Google索引搜dsh省钱可能命中npm页面、npm页面的description就是package.json的所以description很重要、npm有downloads数据下载量高会提升排名。所以发npm不只是让市场站能装也是让Google能搜到。
+完整优化清单5项：1加英文description（高优先级awesome抓英文）已做、2把关键词放description前160字符（中）、3 repo名含关键词（已做）、4分类尽量对齐站点分类（中）、5加JSON-LD如果自己做站（低）。
 
-修正后的曝光优先级：第1发npm加优化description（npm被Google索引）、第2提交dshplugin.store（32428个插件页SEO最大）、第3提交awesome（12756页加中文版加RSS）、4打GitHub topic（让awesome和dshmarketplace自动抓）、5提交deepseek.stream（584条）、6投稿日报（内容渠道）。
+诚实说明：awesome的SEO结构是实测抓了真实页面、description截断约160字符从实测样本推断、awesome抓description.en是推断从它显示英文推断、dshplugin.store插件页404用包名找不到需用它的内部ID、未验证加了英文description后是否真被收录。
 
-诚实说明：sitemap数据是实测7个站都查了、SEO是主要流量是推断（基于sitemap规模没有实际流量数据）、访问量推算是假设（每页10次每月是假设值）、dsh-plugin.org只有3条可能它不靠SEO但没证据、未验证提交后实际能带来多少流量。
-
-交付：DSH市场站流量真相.md。
+交付：SEO站点标题写法拆解.md + 7个插件已加英文description（中文保留在descriptionZh）。
