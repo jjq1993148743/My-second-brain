@@ -1,25 +1,25 @@
-三类成功率最高插件深挖：browser 3.6%但零下载率41%、model 3.2%但零下载率47%、vision 3.0%但零下载率48%，三类都两极分化，唯一明确空白是browser类的PDF处理（只出现3次）
+勘误：上一轮PDF真空的判断是错的，实测全生态151个PDF/OCR相关插件不是3个，错误原因是只搜了browser类139个没搜全生态就下结论，已修正原报告
 
-上轮发现browser model vision三类成功率最高，这轮拆开看它们也都很拥挤。
+上一轮我说browser类里PDF只出现3次是真空，这轮验证发现全生态有151个PDF相关插件根本不是真空。
 
-三类真实情况：browser总数139零下载57（41%）成功5个成功率3.6%、model总数349零下载164（47%）成功11个成功率3.2%、vision总数134零下载65（48%）成功4个成功率3.0%。一个矛盾：表面成功率最高3-3.6%但实际零下载率也高41-48%，说明这三类是两极分化要么爆要么死。
+错在哪：我上一轮的判断「browser类里PDF只出现3次」是对的但只看了browser类139个，但「PDF是真空」是错的因为全生态有151个PDF相关插件。错误原因：只看了browser类但PDF插件大多在tools/docs/vision类、没搜全生态应该先做全局搜索再下结论。
 
-browser类谁在赢：dsh-free-search 51336下载529星7个搜索引擎、modsearch 43252下载780星搜索网页与X返回结构化JSON、BrowserSkill 28419下载9295星浏览器自动化桥接Chrome/Edge、dsh-browser 20270下载131星共享真实浏览器CDP、dsh-browser-cdp 16787下载10星看得见的Agent浏览器、dsh-web-search-pro 7075、dsh-browser 6816 Playwright运行时、dsh-web-search-zhipu 6111 GLM搜索provider。
+PDF相关的真实数据全生态：PDF/OCR相关插件151个、纯PDF插件（名字含pdf）10个、零下载82个（54%）、下载过千若干、下载过万3个。分类分布：vision类最多因为OCR属于视觉、tools类、docs类。
 
-browser类关键词分布：screenshot 30加截图28最热需求、click 28加点击20第二热、登录16第三、form 12加填表6、login 9、下载6加download 6、爬6加scrape 4、cookie 6加登录态4、pdf 3、video 3加视频2。
+PDF下载榜前12：modlens 92083（vision）、dsh-vision-router 31868（vision）、dsh-vision-toolkit 11303（vision）、dsh-computer-use-win 7985（tools）、dsh-zotero 6641（tools）、dsh-office 6278（docs）、dsh-paper-reader 4969（docs）、dsh-550c-boot 4886（ui）、dsh-wx-bridge 4433（remote）、dsh-ai4scholar 3916（tools）、dsh-pdf-mineru 3743（tools）、dsh-screenshot-capture 3379（tools）。
 
-一个明显空白：PDF处理只出现3次最少、视频处理5次第二少，所以browser类里几乎没人做PDF和视频的浏览器自动化。
+关键观察：前3名都是vision类（modlens 92083/vision-router 31868/vision-toolkit 11303），它们做的是视觉理解不是PDF处理OCR是视觉的一部分，专门的PDF插件下载不高dsh-pdf-mineru只有3743。
 
-model类谁在赢：dsh-codex-subscription 24793下载222星ChatGPT OAuth接入Codex、dsh-connect-workbuddy 22271接入WorkBuddy模型、dsh-thinking-levels 19790逐轮思考级别控制、dsh-commandcode-provider 15801、dsh-deepseek-web-login 14512网页端模型接入、dsh-codex-connect 13122、dsh-subscriptions 12431四家订阅接入、dsh-connect-trae 11840 Trae中国区模型。规律：8个里6个是接入其他订阅（ChatGPT/WorkBuddy/Trae/Claude），2个是模型控制。但这条路已经挤满——ChatGPT Codex接入已有3个（codex-subscription/codex-connect/subscriptions）、Claude接入2+个、Trae接入1+个、WorkBuddy接入1个，新进入者很难挤进去。
+一个真正的洞察：「PDF」这个词不稀缺但「专门处理PDF表格/表单」稀缺。需求现状：PDF转文本已解决（modlens/vision-router/office）、PDF转图片理解已解决（vision类）、PDF表格提取有dsh-pdf-mineru 3743下载在做但不高、PDF表单填写未找到、PDF批量处理未找到。
 
-vision类谁在赢：modlens 95397下载4365星为纯文本模型架视觉桥梁OCR版面语义、dsh-vision-router 32889免Key视觉链加像素级工具、dsh-vision-toolkit 11791图片问答多图比较OCR、dsh-imagegen 11479 AI生图、dsh-image-viewer 8491增强图片查看、dsh-vision-bridge 4947、dsh-comfyui 4639驱动ComfyUI、dsh-image-pathify 4520批量看图。规律：8个里5个是让纯文本模型看见（modlens/vision-router/vision-toolkit/bridge/pathify），2个生图，1个看图。核心需求是让文本模型能看图但已经有5个在做很挤。
+修正后的判断：上一轮说PDF是真空应该做，修正后是PDF已被151个插件覆盖只有细分才有机会。那真正该做什么：PDF表单自动填写未找到专门插件可能有机会、PDF批量处理（合并拆分加水印）未找到可能有机会、PDF转文本已被覆盖别做、PDF转图片理解已被vision类覆盖别做、PDF表格提取dsh-pdf-mineru在做有竞争。
 
-三类对比该做哪个：browser成功率3.6%拥挤度中139个空白是PDF/视频处理可做、model成功率3.2%拥挤度高349个无空白不建议、vision成功率3.0%拥挤度中134个无空白看图已被占满难做。唯一明确的空白是browser加PDF——browser类里PDF只出现3次、视频只出现5次，但PDF是刚需每个人都要处理PDF，所以浏览器自动下载解析PDF是个真空。
+这轮的教训：局部搜索不能下全局结论（我只看了browser类的139个就断言PDF真空）、必须做全局验证（这轮搜全生态才发现151个）、关键词不等于需求（PDF出现少不代表没人做PDF插件）、验证成本很低（一次搜索就能避免错误判断）。
 
-具体可做的三个选题：选题1 PDF抓取器dsh-pdf-grabber自动从网页抓取下载PDF提取文本表格（依据browser类里PDF只出现3次真空，难度中需PDF解析库）；选题2视频信息提取器dsh-video-digest给一个视频链接提取字幕摘要（依据视频只出现5次，难度高需处理视频音频）；选题3登录态管理dsh-login-manager管理多个网站登录态自动填充（依据登录出现16次有需求但分散，难度中）。
+修正后的机会排序：第1登录态管理（browser类，登录出现16次无垄断者，风险中）、第2 PDF表单填写（未找到专门插件，风险高可能没人需要）、第3 PDF批量处理（未找到，风险高）、不做PDF抓取解析（151个插件已覆盖）。
 
-我的判断排名：第1 PDF抓取器（真空最明显只3次加刚需）、第2登录态管理（需求明确16次但分散）、第3视频信息提取（真空5次但难度高）、不做model类（订阅接入已挤满3个ChatGPT接入）、不做vision类（看图已被占满5个）。
+已修正原报告：在三类成功率最高插件深挖.md开头加了勘误警示，第五节标题加了删除线标注【此节结论错误，见开头勘误】，选题1加了删除线标注【已推翻：全生态151个PDF插件】。
 
-诚实说明：三类数据全部实测从6378插件索引统计、关键词统计是实测搜browser类139个插件的描述、PDF是真空是推断基于关键词只出现3次、可能有人做了但没用PDF这个词未逐一检查、成功率不代表你能成功只是统计概率。
+诚实说明：上一轮判断错误「PDF是真空」是错的、错误原因是局部搜索只看了browser类139个、这轮数据是实测全生态151个PDF相关插件、PDF表单未找到是搜索结果可能有人做了但描述里没提、修正后的判断仍有不确定性需要更多验证。
 
-交付：三类成功率最高插件深挖.md。
+交付：勘误-PDF不是真空.md + 三类成功率最高插件深挖.md已加勘误标注。
