@@ -1,23 +1,19 @@
-最终行动清单（一页纸）：58轮全部产出串成可执行步骤，7个插件8项检查全通过、整合站3页渲染通过、脚本实跑通过、4篇文章可发、43份报告，含发布+曝光+持续三阶段
+7个插件已推到发布就绪：改名成jjq1993148743、git初始化7/7完成（每个2commit）、发现并修复npm源是公司内网源的关键问题、生成一键发布脚本release-plugins.ps1语法验证通过
 
-验证全部资产并出一页纸行动清单。
+用户指令「推上去」，我做了所有能自动完成的部分。
 
-验证结果：7个插件全部完整（hasPkg/hasIndex/hasPatch/hasReadme/hasSetup/hasEnDesc/hasGhExports/hasPeerDeps 全true，dsh-cost-advisor没有kb目录是对的它不需要）、3个站都有HTML（dsh-data-hub 3页7KB+48KB+9KB、dsh-plugin-rankings 47KB、dsh-toolkits-site 10KB）、3篇文章都在。
+已完成：①改名为真实用户名jjq1993148743（从git remote确认）②git初始化7/7完成每个2个commit③修复npm源问题——关键发现：全局registry是公司内网源http://42.97.130.19:30006/repository/ccsc-cctds-npm-group，npm publish会发到内网别人装不到，已给每个插件加.npmrc指定https://registry.npmjs.org/且验证项目级是官方源全局保持不变④生成一键发布脚本D:\GitHub\release-plugins.ps1（87行，语法验证OK）。
 
-你手上有什么：插件7个、整合站1个3页64KB、自动更新脚本1个、文章4篇、研究报告43份、数据6378插件全量。7个插件明细：dsh-sales-script workflow领域竞品0个（客户说太贵了的5步应对）、dsh-hr-toolkit workflow 2个（30秒判断简历值不值得面试）、dsh-legal-toolkit docs 2个（合同审查7大类42项清单）、dsh-teacher-toolkit workflow 5个（备课从2小时到20分钟）、dsh-finance-toolkit docs 3-5个（报表10分钟出关键指标）、dsh-ops-toolkit workflow 2-3个（周报从1小时到10分钟）、dsh-cost-advisor usage（省钱建议峰谷价倒计时）。7个包名全部npm 404可用。
+关键发现说明：如果没发现npm源问题，7个插件发出去也没人能装。这是这轮最有价值的发现。
 
-第一阶段发布1-2天：步骤1改名字5分钟（给PowerShell脚本循环跑7个插件的node setup.mjs你的GitHub用户名）、步骤2发第一个插件推荐销售0竞品（建GitHub仓库、git init add commit branch remote push、打标签gh repo edit --add-topic dsh-plugin --add-topic dsh --add-topic deepseek-harness --add-topic sales --add-topic crm、npm login、npm publish --access public）、步骤3其余6个重复（附各自的标签）、步骤4部署整合站（git init push + Settings Pages Source 选main Save，访问https://你的用户名.github.io/dsh-data-hub/）。
+7个插件当前状态：全部commits=2、README无YOUR_NAME残留、有.npmrc、registry是官方源。
 
-第二阶段曝光第1-2周：优先级1提交两个SEO最大的站（dshplugin.store 32428页访问站点找submit等它抓取、awesome-dsh-plugin.com 12756页打GitHub topic后自动抓已做）、优先级2发文章4篇已写好（star是骗人的、3万star零下载、51%零下载、怎么做插件才不沉，平台公众号加知乎加V2EX）、优先级3投稿插件日报（黒鲸鱼插件小雷达收0星插件、Rubbish Science、数据码农、一个程序员的宇宙观有金融专项适合finance-toolkit）。投稿话术已准备好：突出「全生态6378个插件里唯一的销售话术工具」+其他6个一句话+榜单站链接。
+还需要用户做的两步：①gh auth login（选GitHub.com HTTPS 浏览器登录）②npm login --registry https://registry.npmjs.org（注意因为全局源是内网登录时必须加--registry）。然后跑powershell -ExecutionPolicy Bypass -File D:\GitHub\release-plugins.ps1，脚本会自动创建7个GitHub公开仓库、推送代码、打topic标签（dsh-plugin等自动收录的关键）、发npm（强制官方源）。也可以只推GitHub不发npm加-SkipNpm参数。
 
-第三阶段持续每天10分钟：每天cd D:\GitHub\dsh-data-hub然后node update.mjs --push、每周一写一篇本周榜单变化、每月1日写月度报告。自动化可选配GitHub Actions每天自动更新（cron 0 2 * * *，注意DSH_PROXY设成空字符串因为GitHub Actions在海外不需要代理）。
+发布后手动做3件事：①提交dsh-plugin.org/submit②提交dshmarketplace.dev/submit（粘贴仓库URL）③私信4家日报（黑鲸鱼插件小雷达日更0星也写、Rubbish Science偏好零依赖、数据码农日更、一个程序员的宇宙观有金融专项对口finance-toolkit）。投稿话术已准备好突出「全生态6378个插件里唯一的销售话术工具」。
 
-预期结果基于实测数据：插件下载每个700-1500（职业工具中位数701最高1320）、7个合计约5000-10000、公众号粉丝约100-200（按10%打开README乘20%扫码）、榜单站访问未知需要SEO时间、变现未验证全生态0个付费插件。必须清醒的两件事：职业插件天花板约1320下载不可能到10万、全生态0个付费插件直接卖插件这条路没验证过。
+为什么不能由我直接推：gh未登录（创建远程仓库需要GitHub授权）、npm未登录（publish需要账号）、我不能代替你授权账号凭据是你的。我能做的都做完了。
 
-不要做的事5条：不改desktop profile测试插件（会触发pnpm全量重装破坏你现有的8插件）、不在插件里塞弹窗广告（会被卸载）、不再做第8第9个职业插件（线性增长每个加20粉丝性价比低）、不追技术方向PDF/登录/视觉（全部红海PDF 151个视觉134个）、不指望插件直接变现（0个成功案例）。
+预期结果估算：每个插件下载700-1500（职业工具中位数701最高1320）、7个合计约5000-10000、公众号粉丝约100-200（10%打开README乘20%扫码）。这是估算不是实测。
 
-今天就做的三件事：1确认你的GitHub用户名和公众号名1分钟、2跑改名脚本7个插件5分钟、3发第一个插件dsh-sales-script 0竞品30分钟。
-
-58轮研究的核心结论3句话：1技术方向全部红海（PDF 151个、登录态77个、视觉134个、模型349个）；2职业方向全部空白（销售0个、HR 2个、律师2个、运营2-3个、教师5个）；3职业工具中位数701大于技术工具218（少而精但天花板只有1320）。所以你做的6个职业插件方向是对的但有天花板，真正放大靠分发（榜单站加文章）。
-
-交付：最终行动清单-一页纸.md（含全部资产验证结果+三阶段可执行步骤+预期结果+不要做的事+今天就做的三件事）。
+交付：7个插件已推送到发布就绪.md + D:\GitHub\release-plugins.ps1 + 7个插件目录（已改名、已git初始化、已加.npmrc）。
