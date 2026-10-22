@@ -1,23 +1,21 @@
-SEO站点标题写法拆解：实测awesome插件页title是owner/repo加dsh plugin加分类名、description直接用英文描述且截断160字符，已给7个插件加英文description
+awesome插件页完整结构拆解：实测39KB页面261行发现它完整抓README加识别简体中文链接加显示30天下载非总下载，已给7个插件README加英文首段和GitHub安装命令
 
-抓了awesome-dsh-plugin.com的插件详情页看它的SEO结构，并据此优化7个插件。
+抓了awesome的插件详情页看清它到底展示什么，并据此优化7个插件。
 
-实测样本awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/：title是MichengAI/dsh-code-review — dsh plugin · Git and Code Review、meta description是插件的英文描述（Adds /review /review-status and /review-cancel to spawn an independent native subagent...）、canonical是https://awesome-dsh-plugin.com/p/MichengAI/dsh-code-review/、og:title与title相同、h1未找到（可能用div渲染）、没有JSON-LD。
+页面完整结构实测261行：title是owner/repo加dsh plugin加分类名、面包屑、插件名、标签DeepSeek Harness Plugin、作者MichengAI、Stars 11、Downloads 30d 58982、Category、Added 2026-09-18、npm包名、英文描述、Install区块两条命令、安全警告长段、README区块完整内容。
 
-拆解标题公式：格式是{owner}/{repo} — dsh plugin · {分类名}。逐部分解析：owner/repo是唯一标识也含关键词、— dsh plugin是固定后缀SEO关键词每页都有、· 分类名是分类也是关键词（Git & Code Review）。关键洞察：「dsh plugin」是固定后缀它靠这个吃「dsh plugin」这个搜索词、分类名放在最后Git & Code Review也是搜索词、repo名里带关键词dsh-code-review本身就含code review。
+三个最有价值的发现：发现1它完整抓取README（README区块从第33行开始内容包含DSH Code Review标题、一句话说明Start a review in your conversation、简体中文语言切换链接、Developer docs、Changelog、Apache-2.0、正文前几段、Host compatibility兼容版本列表，README的前几段全部被展示在页面上）；发现2它自动识别简体中文链接（README里有简体中文被单独提取出来展示，说明它支持多语言README，如果你的README有中文版链接它可能会展示）；发现3它显示Downloads 30d（58,982）不是总下载，这比star更有说服力。
 
-description的来源实测：它用的是插件的英文描述（description.en），截断长度约160字符后面用省略号。这意味着你在package.json里写的description直接变成它的meta description而且会截断到160字符左右。
+Install区块的写法：展示两条命令——from npm prebuilt是dsh plugin --profile web add @michengai/dsh-code-review、from GitHub first run asks for allowBuilds approval是dsh plugin --profile web add github:MichengAI/dsh-code-review。关键细节：两条命令（npm版预构建加GitHub版）、注释说明差异、有copy install按钮方便复制。我们的README原来只有npm命令，建议加GitHub安装命令。
 
-对我们7个插件的直接影响：cost-advisor的中文description前160字符只到「峰谷价提醒+模型建议」（⚠️后面的缓存优化上下文精简被截掉了）、sales-script和hr-toolkit的description较短完整保留。优化建议把最重要的关键词放前面。
+它还放了长段安全警告原文：Any plugin you install runs third-party code with your own permissions — it can read your files use your credentials and reach the network and tool approvals dont sandbox it；GitHub-sourced plugins also run build scripts at install time — pnpm blocks those until you allow them。这说明站点很重视安全、你的插件如果声明了权限会更容易被信任（我们已经在README里写了权限声明）、GitHub安装会触发构建脚本npm安装更安全（预构建）。我们的README有权限声明区块（不联网不执行命令不访问凭据）正好对上。
 
-从标题公式学到的3个动作：动作1 repo名要含关键词（dsh-code-review好dsh-cr差，我们的7个repo名都含关键词省钱销售HR法律教师财务运营）；动作2分类名很重要（title里会带分类名如Git & Code Review，但注意awesome的分类是它自己定的agi/ui/usage/memory/skill等我们只能尽量对齐）；动作3英文描述也要写（awesome用的是description.en如果只有中文它可能抓不到或抓成空，现状我们的package.json只有中文description风险是awesome可能抓不到）。
+一个反直觉的发现它展示的是30天下载不是总下载：Downloads 30d 58982加Stars 11，说明这个站用近30天下载作为核心指标而不是star，所以新插件只要下载涨得快就能排在前面这对新插件友好，我们的插件如果能快速起量在awesome上的排名会很好看。
 
-dshplugin.store的插件页是404：用包名找不到（dshplugin.store/plugin/dsh-cost-meter返回404），因为它的URL用的是插件名（如/plugin/0-v-0）不是包名，要找到我们插件的页面得等它抓取后才知道URL。
+已做的优化：给7个插件的README加了英文首段（> English: 一段英文说明）和GitHub安装命令（两条命令from npm prebuilt加from GitHub）。验证结果7个全部通过：都有标题、都有英文首段、都有npm命令、都有GitHub命令、都保留权限声明区块。示例cost-advisor的README开头是# dsh-cost-advisor加> English: DSH cost advisor — off-peak pricing reminders cache optimization context trimming model selection advice. Tells you how to spend less not just how much you spent. Zero dependencies.加中文一句话。
 
-已做的优化：给7个插件的package.json加了英文description（中文原描述保留在descriptionZh字段）。英文描述示例：cost-advisor是DSH cost advisor: off-peak pricing reminders, cache optimization, context trimming, model selection advice — tells you how to spend less, not just how much you spent；sales-script是Sales script library: 5-step objection handling for too expensive, 20+ objection scenarios, 6 closing methods, 5 industry presets；hr-toolkit是HR toolkit: screen resumes in 30 seconds, STAR interview question bank, JD generator, offer negotiation scripts, 5 industry presets；legal-toolkit是Legal toolkit: 42-item contract review checklist across 7 categories, 5 high-risk clauses, Chinese law research guide, document templates；teacher-toolkit是Teacher toolkit: cut lesson prep from 2 hours to 20 minutes, quiz generator, grading rubrics, parent communication scripts, 5 grade levels；finance-toolkit是Finance toolkit: 10-minute financial statement analysis, tax handling, budget planning, audit checkpoints, internal controls, 5 industries；ops-toolkit是Ops toolkit: write weekly reports in 10 minutes, competitor analysis, campaign planning, user operations, content ideation, 5 platforms。
+完整页面结构图：title SEO关键→面包屑插件名标签→作者Stars Downloads30d Category Added npm包名数据展示→英文描述你写的description→Install两条命令→安全警告长段→README你的README开头（标题一句话简体中文链接Developer docs Changelog License正文前几段Host compatibility）。
 
-完整优化清单5项：1加英文description（高优先级awesome抓英文）已做、2把关键词放description前160字符（中）、3 repo名含关键词（已做）、4分类尽量对齐站点分类（中）、5加JSON-LD如果自己做站（低）。
+诚实说明：页面结构是实测抓了39KB HTML 261行文本、README被抓取是实测页面第33行开始有README区块、识别简体中文是观察README里的简体中文被单独展示、未验证我们的插件被抓取后长什么样、Downloads 30d是实测页面上明确写Downloads 30d。
 
-诚实说明：awesome的SEO结构是实测抓了真实页面、description截断约160字符从实测样本推断、awesome抓description.en是推断从它显示英文推断、dshplugin.store插件页404用包名找不到需用它的内部ID、未验证加了英文description后是否真被收录。
-
-交付：SEO站点标题写法拆解.md + 7个插件已加英文description（中文保留在descriptionZh）。
+交付：awesome插件页完整结构拆解.md + 7个插件README已加英文首段和GitHub安装命令（全部验证通过）。
