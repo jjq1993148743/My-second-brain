@@ -1,0 +1,90 @@
+[
+ {
+  "n": "dsh.market",
+  "u": "https://dsh.market/",
+  "bytes": 1488,
+  "title": "DSH Market · DeepSeek Harness 插件市场",
+  "pm": 1,
+  "head": "DSH Market · DeepSeek Harness 插件市场"
+ },
+ {
+  "n": "deepseek1024",
+  "u": "https://deepseek1024.com",
+  "bytes": 27011,
+  "title": "DeepSeek Harness Plugin Store &amp; Rankings | DSH 1024Store",
+  "pm": 29,
+  "head": "DeepSeek Harness Plugin Store &amp; Rankings | DSH 1024Store DeepSeek Harness Plugin 1024Store Every listing passes DSH plugin spec checks and screening first. Then compare community plugins by wrapper-CLI install reports, GitHub stars, releases, and repository activity to find established and emerg"
+ },
+ {
+  "n": "dsh-hub",
+  "u": "https://dsh-hub.cc",
+  "bytes": 0,
+  "title": "",
+  "pm": 0,
+  "head": ""
+ },
+ {
+  "n": "dsh-plugin.org",
+  "u": "https://dsh-plugin.org",
+  "bytes": 173296,
+  "title": "DeepSeek Harness Plugins - DSH Plugin Market Install",
+  "pm": 104,
+  "head": "DeepSeek Harness Plugins - DSH Plugin Market Install DSH Plugin Hub Home Plugin Market Download Tutorials Submit About 中文 中文 Community-maintained · Unofficial plugin hub DSH Plugin Hub for DeepSeek Harness A DSH plugin extends DeepSeek Harness (DSH) — download and install it to add models, tools, in"
+ },
+ {
+  "n": "dshopen",
+  "u": "https://dshopen.org/",
+  "bytes": 3391430,
+  "title": "Open Plugin Market — DeepSeek Harness (DSH) plugin index",
+  "pm": 417,
+  "head": "Open Plugin Market — DeepSeek Harness (DSH) plugin index Skip to content Open Plugin Market Plugins Docs GitHub EN 中文 Everything can be a plugin. Find them here. DeepSeek Harness is built around plugins, yet it ships no list or recommendations for community ones. The October 15 update added an offic"
+ },
+ {
+  "n": "dshopen-index",
+  "u": "https://dshopen.org/index.json",
+  "bytes": 1191943,
+  "title": "",
+  "pm": 576,
+  "head": "{ \"format\": 1, \"title\": { \"en\": \"Open Plugin Market\", \"zh\": \"开放插件市场\" }, \"description\": { \"en\": \"Community plugins for DeepSeek Harness.\", \"zh\": \"DeepSeek Harness 社区插件索引。\" }, \"metadata\": { \"categories\": { \"interface\": { \"title\": { \"en\": \"Interface\", \"zh\": \"界面\" } }, \"tools\": { \"title\": { \"en\": \"Tools\""
+ },
+ {
+  "n": "dsh-plugin-market",
+  "u": "https://dsh-plugin-market.vercel.app",
+  "bytes": 36131,
+  "title": "DSH 插件市场",
+  "pm": 24,
+  "head": "DSH 插件市场 D DSH 插件市场 搜索插件… ⌘ K 索引 · 10/21 23:17 中文 Harness GitHub 本仓库 DeepSeek Harness · 社区插件 发现、复制，然后在 DSH 里安装 公开索引约 1131 个插件。本站只负责浏览与复制命令；装上本市场插件后，在「设置 → 插件 → 插件市场」确认安装。 Harness 官网 开发者文档 安装本市场 启动 DSH 复制 $ dsh plugin --profile web add github:chnjames/dsh-plugin-market 安装发生在设置里 复制命令并装好本市场后，打开 DSH Web"
+ },
+ {
+  "n": "dshplugin.store",
+  "u": "https://www.dshplugin.store",
+  "bytes": 92666,
+  "title": "DSH Plugin Store · Harness Plugins Directory",
+  "pm": 7,
+  "head": "DSH Plugin Store · Harness Plugins Directory DSH Plugin Store New Tutorials Harness EN / 中文 Sponsors Want to be listed here? Fingerprints flagging you as a China user? RoxyBrowser fakes a clean overseas environment in one click and slips past Claude risk control Use for free Sign up for 5,000 credit"
+ },
+ {
+  "n": "deepseek.stream",
+  "u": "https://deepseek.stream",
+  "bytes": 309998,
+  "title": "DeepSeek Harness 插件生态市场 - 热门插件与skill市场",
+  "pm": 26,
+  "head": "DeepSeek Harness 插件生态市场 - 热门插件与skill市场 跳转到主要内容 DeepSeek HUB 插件市场 Skill 市场 社区讨论 需求广场 软件安装包 开发指南 发布插件/skill EN 登录 注册 DeepSeek 社区开源生态排行榜 DeepSeek Harness 插件生态市场 支持桌面端与 Web 客户端安装，按分类、场景和榜单发现 DSH 扩展。 搜索插件 570 已上架插件 6 用途分类 桌面 · Web · Linux 推荐客户端 Deepseek harness（支持一键安装 无壁纸插件版） DeepSeek Harness 无壁纸社区版，内置深流"
+ },
+ {
+  "n": "dshmarket.com",
+  "u": "https://dshmarket.com",
+  "bytes": 57248,
+  "title": "dsh-market — the plugin market inside DeepSeek Harness",
+  "pm": 53,
+  "head": "dsh-market — the plugin market inside DeepSeek Harness Browse 6254 plugins Install a plugin GitHub npm 中文 The plugin market inside DeepSeek Harness Browse and search 6254 community plugins , install with one click — most go live without even a restart. Updates, uninstall, live install progress. No t"
+ },
+ {
+  "n": "dshmarketplace.dev",
+  "u": "https://dshmarketplace.dev",
+  "bytes": 310574,
+  "title": "DeepSeek Harness Plugins — Browse &amp; Install DSH Plugins",
+  "pm": 124,
+  "head": "DeepSeek Harness Plugins — Browse &amp; Install DSH Plugins DSH Marketplace Plugins Top Presets Install API Submit a plugin 中文 Toggle theme Menu Plugins Top Presets Install API Submit a plugin Independent directory · Free, no sign-up DeepSeek Harness plugins, one command away. Browse 12,917 DeepSeek"
+ }
+]
