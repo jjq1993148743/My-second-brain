@@ -1,29 +1,21 @@
-配置迁移空白验证：cursorrules和windsurfrules确实0个但可能因为手动就能做，Skills已被skills-management占MCP 64个红海
+DSH插件增速榜：billion-context日均55405断层第一，cc-safety-net 4天日均14333第二，dsh-code-review 9天2万下载是新星
 
-用7种配置格式逐个验证配置迁移是否真空白。
+用日均下载（下载量除以上线天数）分析谁在快速上涨，只看上线大于等于3天的避免虚高。
 
-七种格式覆盖：.cursorrules 0个完全空白、.windsurfrules 0个完全空白、CLAUDE.md 5个少、prompts提示词模板6个少、AGENTS.md 23个有竞争、SKILL.md 24个已被占、mcpServers 64个红海。
+增速榜Top15：billion-context 177万下载32天日均55405、cc-safety-net 57332下载4天日均14333、dsh-market 59.8万下载69天日均8672、dsh-m 18279下载3天日均6093、dsh-ops 22879下载5天日均4576、dsh-codex-ui 23.2万下载64天日均3625、whale-widget 19.9万下载60天日均3322、DSH-better-sidebar 20.8万下载69天日均3024、dsh-skills-manager 19.5万下载65天日均3002、dsh-browser-cdp 16787下载6天日均2798、skill-explorer 14万下载55天日均2551、dsh-archive-manager 16.2万下载65天日均2495、dsh-btw 8.4万下载37天日均2285、dsh-code-review 20321下载9天日均2258、dsh-pet 13.7万下载62天日均2208。
 
-已被占别做：Skills迁移已被skills-management做了（10164下载，一个页面管理本机所有coding agent的技能一键收编进DSH用户库，内置6600+技能市场，全平台收编打不过）；MCP配置迁移红海64个（dsh-mcp-connector 23177、dsh-mcp-registry 7038、dsh-mcp-manager-plus）；AGENTS.md 23个有竞争但有空间（dsh-dream、dsh-agent-instructions-editor、dsh-custom-instructions）。
+三个最值得注意：①billion-context日均55405是第二名3.9倍不是运气是刚需；②cc-safety-net上线仅4天日均14333最快起量速度（前面已验证它是2026-01就发布的多平台工具DSH只是加了个字段）；③dsh-code-review上线9天日均2258是纯新插件里表现最好的9天2万下载star只有8。
 
-真正空白cursorrules和windsurfrules：Cursor用户很多全球最流行AI IDE之一、Windsurf用户不少、规则文件是核心资产用户花时间写的项目规则、迁移是刚需从Cursor转DSH要带走规则、0个插件做完全空白。
+最近7天新星日均排名：cc-safety-net 14333、dsh-m 6093、dsh-ops 4576、dsh-browser-cdp 2798、dsh-notify-say 1743（3天5230下载）、dsh-qoder-connect 1434（2天2868下载）、dsh-mcp-registry 1408、dsh-quota-watch 1359、Veyra 1333、dsh-memory 1310。
 
-但要注意风险：dsh-agent-instructions-editor可能已部分覆盖它能编辑agent指令可能支持导入、规则文件格式很简单就是markdown用户手动复制也行、可能不是强需求手动复制5秒就能完成。最大疑问：如果手动就能做为什么要装插件。
+四个规律：规律1真正的爆款靠刚需不靠宣传（billion-context省token省钱、cc-safety-net防AI搞坏电脑、dsh-ops Windows能用bash、dsh-browser-cdp让AI真的能上网，全部是用户不得不解决的问题）；规律2老插件能长期保持增速不是一次性爆发（dsh-market 69天日均8672还在高速增长、dsh-codex-ui 64天3625、better-sidebar 69天3024，说明是长期刚需不是风口）；规律3新插件也能起量但要够刚需（dsh-code-review 9天日均2258、dsh-btw 37天2285、dsh-pua 34天1967，9天2万下载是可达的）；规律4 star和增速完全无关（cc-safety-net 0星日均14333、dsh-m 0星日均6093、dsh-code-review 8星2258、dsh-ops 3502星4576、skill-explorer 9158星2551）。
 
-重新想什么才是手动做不到的：手动能做——复制.cursorrules到AGENTS.md、复制CLAUDE.md、复制提示词、复制SKILL.md、填MCP配置；手动做不到——批量迁移多个项目、自动检测项目里有哪些规则文件、合并冲突的规则、转换格式差异、验证迁移后的配置能用。
+推荐关注的三个方向基于增速：①安全防护（cc-safety-net日均14333第二最热）；②代码审查质量（dsh-code-review 9天日均2258新星）；③Windows适配（dsh-ops日均4576持续需求）。
 
-真正价值点：批量一次性迁移10个项目、自动发现扫描磁盘找出所有.cursorrules、格式转换Cursor规则到DSH AGENTS.md的格式差异、冲突合并多来源规则合并、验证迁移后检查是否生效。
+特别关注dsh-code-review 9天2万：类别git、下载20321（9天）、star只有8。说明代码审查是刚需且做的人不多。为什么值得关注：git类只有143个插件不算拥挤、开发者是DSH主力用户需求稳定、9天2万下载验证了需求、star只有8说明还没被广泛知道窗口还在。
 
-修正后推荐：第1批量项目规则迁移（0个但需求待验证）、第2 CLAUDE.md迁移（5个少有空间）、第3提示词模板迁移（6个少有空间）、4 AGENTS.md增强（23个需差异化）、不做Skills迁移（被占）、不做MCP迁移（64个）。
+完整数据：有下载数据的插件3140个占6378的49%（一半插件没被装过）、日均大于1000的约25个、日均大于500的约50个估算。
 
-诚实结论：配置迁移是空白但不一定是需求，0个插件可能因为手动就能做。可能原因1没人想到是机会、可能原因2手动就行不值得做插件是陷阱。我倾向原因2可能性更大因为规则文件就是markdown。
+数据说明：增速算法下载量除以上线天数粗略估算、局限1假设下载是均匀分布的实际可能前期快后期慢、局限2老插件的日均会被早期积累拉高、局限3上线3天内的不算避免虚高、下载量口径该站统计的npm下载。
 
-重新梳理真机会：对话历史迁移（需要解析各家二进制SQLite格式，chat-import 15933下载）、批量操作（一次处理很多项目没明确证据）、需要调用API（规则文件不需要但数据需要）、需要理解语义（用LLM转换合并规则未验证）。
-
-重新看真正验证过的高下载插件在做什么：billion-context 177万上下文压缩手动做不到、cc-safety-net 5.7万实时拦截命令手动做不到、dsh-ops 2.3万Windows跑bash手动做不到、dsh-browser-cdp 1.7万让AI操作浏览器手动做不到、dsh-chat-import 1.6万解析各家对话格式手动做不到、dsh-config-manager 1.5万加密备份配置手动做不到。规律：高下载的插件都在做手动绝对做不到的事。配置迁移复制markdown手动就能做所以是0个也可能就是不该做。
-
-修正后建议：第1重新考虑垂直职业预设（销售0个且知识库有真实价值）、第2中文场景加有梗（dsh-bili-scroll 5269加203星已验证）、第3批量规则迁移如果要做迁移（0个但需求待验证）、不做单平台对话迁移（chat-import已覆盖25+）、不做Skills MCP迁移（已被占）。
-
-数据说明：数据源awesome-dsh-plugin的plugins.json 6378个、格式覆盖用7种文件格式名在插件名描述里搜、0个的解释可能是没人做也可能是值得做、我的倾向是推测手动能做所以不需要是推理未验证。
-
-交付：DSH插件-配置迁移空白验证.md。
+交付：DSH插件-增速榜分析.md。
