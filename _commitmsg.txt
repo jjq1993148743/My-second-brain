@@ -1,25 +1,25 @@
-整合站已做好DSH Data Hub：把榜单站和插件落地页合并成一个站3个页面（首页7KB/榜单48KB/插件9KB），统一导航加交叉引流，3个页面Chrome渲染全部验证通过
+自动更新脚本已做好并实测跑通：一条命令抓6378插件加重算5个榜单加重新生成HTML，40秒完成，发现一天内零下载从3238降到3227说明数据是活的
 
-把榜单站加插件落地页合并成一个站，流量集中。
+写自动更新脚本让整合站数据保持最新，这是内容站能持续运营的前提。
 
-为什么整合：之前是2个独立站（落地页加榜单站）流量分散各站独立导航没有交叉引流，现在是1个站3个页面流量集中统一导航互相导流。
+为什么需要这个：数据会过期（榜单写着2026-10-22一周后就是旧闻）、搜索引擎不喜欢死站不更新会降权、手动更新太累每次要跑5个脚本。
 
-三个页面：index.html 7KB首页（导航加关键数字加两个入口）、rankings.html 48KB五个榜单、toolkits.html 9KB七个自研插件。总计64KB纯HTML加CSS零依赖。
+实测运行结果：日期2026-10-22、[1/4]抓取插件数据成功6378个插件、[2/4]重算5个榜单（下载榜50增速榜50机会榜20虚高榜30隐藏冠军30）零下载3227（51%）已保存data.json、[3/4]重新生成HTML index.html加rankings.html、[4/4]跳过推送。
 
-统一导航三个页面都有：DSH Data Hub [首页][榜单][插件]，特点sticky固定滚动时一直在顶部、毛玻璃背景backdrop-filter blur 12px、当前页高亮class active。
+一个关键变化：零下载从之前的3238降到3227，一天之内少了11个零下载插件（有插件开始被装了），这说明数据是活的必须每天更新。
 
-首页设计4个关键数字：6378插件总数、5榜单数、7自研插件、51%零下载占比。两个入口卡片：📊插件真实榜单导向rankings.html、🧰自研插件7个导向toolkits.html。三个关键发现卡片：💰最高下载1772945（billion-context）、🚀最高日均55405每天、🔍最被低估15953倍（dsh-codex-pet）。
+脚本做什么5步：从awesome-dsh-plugin.com抓plugins.json、重算5个榜单（下载增速机会虚高隐藏冠军）、保存data.json 29KB、重新生成index.html加rankings.html、可选--push参数执行git commit加push。
 
-榜单页5个榜：真实下载榜50条、增速榜50条、类别机会榜20条、星数虚高榜30条、隐藏冠军榜30条。
+两种用法：node update.mjs只更新本地先看看效果、node update.mjs --push更新加直接推送上线。
 
-插件页7个插件分两类：通用是省钱建议器、职业是销售HR律师教师财务运营。每个卡片都有emoji图标、一句话价值（如30秒判断简历值不值得面试）、安装命令dsh plugin add xxx、点击跳GitHub直接看源码。
+技术细节：代理默认http://127.0.0.1:7897可用DSH_PROXY环境变量改、CSS分离从HTML提取到assets/style.css 4469字节、数据文件data.json 29KB含全部榜单、错误处理抓取失败会提示检查代理是否在xxx、零依赖只用Node内置模块。
 
-渲染验证3/3通过：index.html OK 7012、rankings.html OK 48624、toolkits.html OK 8911。
+重新生成的页面验证：index.html OK 6993、rankings.html OK 48582。
 
-部署3步：建GitHub仓库dsh-data-hub、推3个html、Settings Pages Source选main Save，访问https://你的用户名.github.io/dsh-data-hub/。部署前必改：toolkits.html里所有YOUR_NAME改成你的GitHub用户名、公众号私信的href=#改成你的二维码链接。
+怎么自动化三种：①GitHub Actions每天定时跑自动commit免费（推荐）②Windows计划任务本机每天跑免费③手动想起来就跑一次免费但会忘。GitHub Actions配置示例已给出（cron 0 2 * * *每天UTC2点北京10点），注意GitHub Actions在海外不需要代理要把DSH_PROXY设成空字符串。
 
-这个站的商业逻辑：榜单页是内容吸引流量→用户来看哪些插件值得装→看到插件页→装我的7个插件→插件README里有公众号导流→公众号私域→变现。关键设计：榜单在前（首页主推，榜单是内容更容易传播）、插件在后（第二入口，插件是产品用户需要时再点）、每页都有交叉链接流量不流失。
+每周运营节奏：每天10:00自动更新数据、每周一写一篇本周榜单变化、每月1日写月度报告。
 
-诚实说明：3个页面全部渲染验证Chrome实测、数据全部实测来自6378插件索引、YOUR_NAME未替换部署前必须改、公众号链接是占位符href=#、未部署需要你建仓库、未验证流量不知道有没有人来。
+诚实说明：脚本已实测跑通抓6378插件加重算加生成、重新生成的页面已验证Chrome渲染正常、数据源依赖第三方awesome挂了就抓不到、GitHub Actions配置未实测只是给了示例、代理默认值只适用于本机GitHub Actions要改。
 
-交付：整合站DSH-Data-Hub成品.md + D:\GitHub\dsh-data-hub（3个页面全部渲染验证通过）。
+交付：自动更新脚本成品.md + D:\GitHub\dsh-data-hub\update.mjs（14KB已实测跑通）+ assets/style.css + data.json。
