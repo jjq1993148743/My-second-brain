@@ -1,0 +1,1366 @@
+{
+  "generatedAt": "2026-10-22",
+  "totalPlugins": 6378,
+  "boards": {
+    "topDownloads": [
+      {
+        "name": "billion-context",
+        "owner": "ranxianglei",
+        "dl": 1772945,
+        "stars": 2130,
+        "cat": "session",
+        "added": "2026-09-20"
+      },
+      {
+        "name": "dsh-market",
+        "owner": "dsh-market",
+        "dl": 598350,
+        "stars": 6775,
+        "cat": "market",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-codex-ui",
+        "owner": "MichengAI",
+        "dl": 232002,
+        "stars": 180,
+        "cat": "ui",
+        "added": "2026-08-19"
+      },
+      {
+        "name": "DSH-better-sidebar",
+        "owner": "omdsh-dev",
+        "dl": 208637,
+        "stars": 4364,
+        "cat": "ui",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "DeepSeek-Balance-Whale-Widget",
+        "owner": "MeteorNOX",
+        "dl": 199295,
+        "stars": 5570,
+        "cat": "ui",
+        "added": "2026-08-23"
+      },
+      {
+        "name": "dsh-skills-manager",
+        "owner": "MichengAI",
+        "dl": 195099,
+        "stars": 194,
+        "cat": "dev",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-archive-manager",
+        "owner": "MichengAI",
+        "dl": 162151,
+        "stars": 187,
+        "cat": "session",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-context",
+        "owner": "bowenliang123",
+        "dl": 156808,
+        "stars": 2671,
+        "cat": "usage",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-web#packages/dsh-skill-explorer",
+        "owner": "zhu1090093659",
+        "dl": 140311,
+        "stars": 9158,
+        "cat": "skill",
+        "added": "2026-08-28"
+      },
+      {
+        "name": "dsh-pet",
+        "owner": "zhu1090093659",
+        "dl": 136903,
+        "stars": 17,
+        "cat": "fun",
+        "added": "2026-08-21"
+      },
+      {
+        "name": "dsh-agency-agents",
+        "owner": "MichengAI",
+        "dl": 128865,
+        "stars": 157,
+        "cat": "skill",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-web#packages/dsh-remote-web-ui",
+        "owner": "zhu1090093659",
+        "dl": 126240,
+        "stars": 8835,
+        "cat": "remote",
+        "added": "2026-08-28"
+      },
+      {
+        "name": "dsh-web#packages/dsh-task-board",
+        "owner": "zhu1090093659",
+        "dl": 125306,
+        "stars": 9158,
+        "cat": "ui",
+        "added": "2026-08-28"
+      },
+      {
+        "name": "dsh-im-connect",
+        "owner": "MichengAI",
+        "dl": 122537,
+        "stars": 75,
+        "cat": "notify",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-web#packages/dsh-git-graph",
+        "owner": "zhu1090093659",
+        "dl": 117091,
+        "stars": 9048,
+        "cat": "git",
+        "added": "2026-08-28"
+      },
+      {
+        "name": "dsh-cost-meter",
+        "owner": "Han-1413141",
+        "dl": 106366,
+        "stars": 477,
+        "cat": "usage",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-web#packages/dsh-ssh",
+        "owner": "zhu1090093659",
+        "dl": 104783,
+        "stars": 8835,
+        "cat": "remote",
+        "added": "2026-08-21"
+      },
+      {
+        "name": "dsh-automation",
+        "owner": "MichengAI",
+        "dl": 103428,
+        "stars": 33,
+        "cat": "workflow",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-web#packages/dsh-web-all",
+        "owner": "zhu1090093659",
+        "dl": 103261,
+        "stars": 9158,
+        "cat": "ui",
+        "added": "2026-08-27"
+      },
+      {
+        "name": "modlens",
+        "owner": "liustack",
+        "dl": 95397,
+        "stars": 4365,
+        "cat": "vision",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-btw",
+        "owner": "MichengAI",
+        "dl": 84547,
+        "stars": 23,
+        "cat": "session",
+        "added": "2026-09-15"
+      },
+      {
+        "name": "dsh-simplify",
+        "owner": "MichengAI",
+        "dl": 72557,
+        "stars": 8,
+        "cat": "dev",
+        "added": "2026-09-15"
+      },
+      {
+        "name": "dsh-pua",
+        "owner": "MichengAI",
+        "dl": 66876,
+        "stars": 29,
+        "cat": "agi",
+        "added": "2026-09-18"
+      },
+      {
+        "name": "dsh-pet#dsh-pet",
+        "owner": "PC2005-cloud",
+        "dl": 65811,
+        "stars": 1530,
+        "cat": "fun",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-codex-pet",
+        "owner": "MichengAI",
+        "dl": 63813,
+        "stars": 4,
+        "cat": "fun",
+        "added": "2026-09-15"
+      },
+      {
+        "name": "dsh-im",
+        "owner": "xmanrui",
+        "dl": 61918,
+        "stars": 2147,
+        "cat": "notify",
+        "added": "2026-08-15"
+      },
+      {
+        "name": "dsh-code-review",
+        "owner": "MichengAI",
+        "dl": 59112,
+        "stars": 11,
+        "cat": "git",
+        "added": "2026-09-18"
+      },
+      {
+        "name": "dsh-wallpaper-engine",
+        "owner": "elysia395",
+        "dl": 57643,
+        "stars": 1721,
+        "cat": "theme",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "cc-safety-net",
+        "owner": "kenryu42",
+        "dl": 57332,
+        "stars": 0,
+        "cat": "security",
+        "added": "2026-10-18"
+      },
+      {
+        "name": "hindsight#coding-agents",
+        "owner": "vectorize-io",
+        "dl": 56718,
+        "stars": 52062,
+        "cat": "memory",
+        "added": "2026-08-15"
+      },
+      {
+        "name": "dsh-free-search",
+        "owner": "DDDMUC",
+        "dl": 51336,
+        "stars": 529,
+        "cat": "browser",
+        "added": "2026-08-16"
+      },
+      {
+        "name": "dsh-mnemon",
+        "owner": "omdsh-dev",
+        "dl": 49174,
+        "stars": 606,
+        "cat": "memory",
+        "added": "2026-08-13"
+      },
+      {
+        "name": "dsh-TUI",
+        "owner": "ccch1mneyyy",
+        "dl": 46594,
+        "stars": 5050,
+        "cat": "ui",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-univer-office",
+        "owner": "dream-num",
+        "dl": 45127,
+        "stars": 575,
+        "cat": "docs",
+        "added": "2026-08-19"
+      },
+      {
+        "name": "dsh-agent-teams",
+        "owner": "NanmiCoder",
+        "dl": 44894,
+        "stars": 2308,
+        "cat": "workflow",
+        "added": "2026-08-13"
+      },
+      {
+        "name": "modsearch",
+        "owner": "liustack",
+        "dl": 43252,
+        "stars": 780,
+        "cat": "browser",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-deep-whale#maid-atelier",
+        "owner": "Small-tailqwq",
+        "dl": 42382,
+        "stars": 2740,
+        "cat": "theme",
+        "added": "2026-08-16"
+      },
+      {
+        "name": "lunheng-article-pipeline-dsh",
+        "owner": "zuoyunlai",
+        "dl": 39388,
+        "stars": 19,
+        "cat": "skill",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "OpenViking#examples/dsh-memory-plugin",
+        "owner": "volcengine",
+        "dl": 38024,
+        "stars": 40461,
+        "cat": "memory",
+        "added": "2026-08-16"
+      },
+      {
+        "name": "dsh-genui",
+        "owner": "omdsh-dev",
+        "dl": 36598,
+        "stars": 707,
+        "cat": "ui",
+        "added": "2026-08-13"
+      },
+      {
+        "name": "dsh-vision-router",
+        "owner": "ysr666",
+        "dl": 32889,
+        "stars": 1158,
+        "cat": "vision",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-dream-skin",
+        "owner": "RevolutionLA",
+        "dl": 32273,
+        "stars": 258,
+        "cat": "theme",
+        "added": "2026-08-15"
+      },
+      {
+        "name": "GraphFlow",
+        "owner": "Roarpeng",
+        "dl": 31857,
+        "stars": 25,
+        "cat": "tools",
+        "added": "2026-08-19"
+      },
+      {
+        "name": "archify#integrations/deepseek-harness",
+        "owner": "tt-a1i",
+        "dl": 31725,
+        "stars": 86536,
+        "cat": "docs",
+        "added": "2026-08-17"
+      },
+      {
+        "name": "BrowserSkill#dsh-plugin-browserskill",
+        "owner": "Tencent",
+        "dl": 28419,
+        "stars": 9295,
+        "cat": "browser",
+        "added": "2026-08-21"
+      },
+      {
+        "name": "dsh-rewind",
+        "owner": "SiriLee",
+        "dl": 26228,
+        "stars": 166,
+        "cat": "session",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-memory",
+        "owner": "FuRongJun-1999",
+        "dl": 26089,
+        "stars": 435,
+        "cat": "agi",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-image-gen",
+        "owner": "shanliuling",
+        "dl": 25681,
+        "stars": 655,
+        "cat": "workflow",
+        "added": "2026-08-19"
+      },
+      {
+        "name": "dsh-codex-subscription",
+        "owner": "WSL043",
+        "dl": 24793,
+        "stars": 222,
+        "cat": "model",
+        "added": "2026-08-16"
+      },
+      {
+        "name": "dsh-mcp-connector",
+        "owner": "duhu2000",
+        "dl": 23177,
+        "stars": 62,
+        "cat": "tools",
+        "added": "2026-08-23"
+      }
+    ],
+    "topSpeed": [
+      {
+        "name": "billion-context",
+        "owner": "ranxianglei",
+        "dl": 1772945,
+        "days": 32,
+        "speed": 55405,
+        "cat": "session",
+        "added": "2026-09-20"
+      },
+      {
+        "name": "cc-safety-net",
+        "owner": "kenryu42",
+        "dl": 57332,
+        "days": 4,
+        "speed": 14333,
+        "cat": "security",
+        "added": "2026-10-18"
+      },
+      {
+        "name": "dsh-market",
+        "owner": "dsh-market",
+        "dl": 598350,
+        "days": 69,
+        "speed": 8672,
+        "cat": "market",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-m",
+        "owner": "iasiv5",
+        "dl": 18279,
+        "days": 3,
+        "speed": 6093,
+        "cat": "market",
+        "added": "2026-10-19"
+      },
+      {
+        "name": "dsh-ops",
+        "owner": "T-Auto",
+        "dl": 22879,
+        "days": 5,
+        "speed": 4576,
+        "cat": "tools",
+        "added": "2026-10-17"
+      },
+      {
+        "name": "dsh-codex-ui",
+        "owner": "MichengAI",
+        "dl": 232002,
+        "days": 64,
+        "speed": 3625,
+        "cat": "ui",
+        "added": "2026-08-19"
+      },
+      {
+        "name": "DeepSeek-Balance-Whale-Widget",
+        "owner": "MeteorNOX",
+        "dl": 199295,
+        "days": 60,
+        "speed": 3322,
+        "cat": "ui",
+        "added": "2026-08-23"
+      },
+      {
+        "name": "DSH-better-sidebar",
+        "owner": "omdsh-dev",
+        "dl": 208637,
+        "days": 69,
+        "speed": 3024,
+        "cat": "ui",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-skills-manager",
+        "owner": "MichengAI",
+        "dl": 195099,
+        "days": 65,
+        "speed": 3002,
+        "cat": "dev",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-browser-cdp",
+        "owner": "drscrewdriver",
+        "dl": 16787,
+        "days": 6,
+        "speed": 2798,
+        "cat": "browser",
+        "added": "2026-10-16"
+      },
+      {
+        "name": "dsh-web#packages/dsh-skill-explorer",
+        "owner": "zhu1090093659",
+        "dl": 140311,
+        "days": 55,
+        "speed": 2551,
+        "cat": "skill",
+        "added": "2026-08-28"
+      },
+      {
+        "name": "dsh-archive-manager",
+        "owner": "MichengAI",
+        "dl": 162151,
+        "days": 65,
+        "speed": 2495,
+        "cat": "session",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-web#packages/dsh-remote-web-ui",
+        "owner": "zhu1090093659",
+        "dl": 126240,
+        "days": 55,
+        "speed": 2295,
+        "cat": "remote",
+        "added": "2026-08-28"
+      },
+      {
+        "name": "dsh-btw",
+        "owner": "MichengAI",
+        "dl": 84547,
+        "days": 37,
+        "speed": 2285,
+        "cat": "session",
+        "added": "2026-09-15"
+      },
+      {
+        "name": "dsh-web#packages/dsh-task-board",
+        "owner": "zhu1090093659",
+        "dl": 125306,
+        "days": 55,
+        "speed": 2278,
+        "cat": "ui",
+        "added": "2026-08-28"
+      },
+      {
+        "name": "dsh-context",
+        "owner": "bowenliang123",
+        "dl": 156808,
+        "days": 69,
+        "speed": 2273,
+        "cat": "usage",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-code-review",
+        "owner": "f-e-n-g-0531",
+        "dl": 20321,
+        "days": 9,
+        "speed": 2258,
+        "cat": "git",
+        "added": "2026-10-13"
+      },
+      {
+        "name": "dsh-pet",
+        "owner": "zhu1090093659",
+        "dl": 136903,
+        "days": 62,
+        "speed": 2208,
+        "cat": "fun",
+        "added": "2026-08-21"
+      },
+      {
+        "name": "dsh-web#packages/dsh-git-graph",
+        "owner": "zhu1090093659",
+        "dl": 117091,
+        "days": 55,
+        "speed": 2129,
+        "cat": "git",
+        "added": "2026-08-28"
+      },
+      {
+        "name": "dsh-agency-agents",
+        "owner": "MichengAI",
+        "dl": 128865,
+        "days": 65,
+        "speed": 1983,
+        "cat": "skill",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-pua",
+        "owner": "MichengAI",
+        "dl": 66876,
+        "days": 34,
+        "speed": 1967,
+        "cat": "agi",
+        "added": "2026-09-18"
+      },
+      {
+        "name": "dsh-simplify",
+        "owner": "MichengAI",
+        "dl": 72557,
+        "days": 37,
+        "speed": 1961,
+        "cat": "dev",
+        "added": "2026-09-15"
+      },
+      {
+        "name": "dsh-im-connect",
+        "owner": "MichengAI",
+        "dl": 122537,
+        "days": 65,
+        "speed": 1885,
+        "cat": "notify",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-web#packages/dsh-web-all",
+        "owner": "zhu1090093659",
+        "dl": 103261,
+        "days": 56,
+        "speed": 1844,
+        "cat": "ui",
+        "added": "2026-08-27"
+      },
+      {
+        "name": "dsh-notify-say",
+        "owner": "unifilitence",
+        "dl": 5230,
+        "days": 3,
+        "speed": 1743,
+        "cat": "notify",
+        "added": "2026-10-19"
+      },
+      {
+        "name": "dsh-code-review",
+        "owner": "MichengAI",
+        "dl": 59112,
+        "days": 34,
+        "speed": 1739,
+        "cat": "git",
+        "added": "2026-09-18"
+      },
+      {
+        "name": "dsh-codex-pet",
+        "owner": "MichengAI",
+        "dl": 63813,
+        "days": 37,
+        "speed": 1725,
+        "cat": "fun",
+        "added": "2026-09-15"
+      },
+      {
+        "name": "dsh-web#packages/dsh-ssh",
+        "owner": "zhu1090093659",
+        "dl": 104783,
+        "days": 62,
+        "speed": 1690,
+        "cat": "remote",
+        "added": "2026-08-21"
+      },
+      {
+        "name": "dsh-automation",
+        "owner": "MichengAI",
+        "dl": 103428,
+        "days": 65,
+        "speed": 1591,
+        "cat": "workflow",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-cost-meter",
+        "owner": "Han-1413141",
+        "dl": 106366,
+        "days": 69,
+        "speed": 1542,
+        "cat": "usage",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-mcp-registry",
+        "owner": "drscrewdriver",
+        "dl": 7038,
+        "days": 5,
+        "speed": 1408,
+        "cat": "dev",
+        "added": "2026-10-17"
+      },
+      {
+        "name": "modlens",
+        "owner": "liustack",
+        "dl": 95397,
+        "days": 69,
+        "speed": 1383,
+        "cat": "vision",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-windows2macos",
+        "owner": "TwinsEarth",
+        "dl": 10884,
+        "days": 8,
+        "speed": 1361,
+        "cat": "remote",
+        "added": "2026-10-14"
+      },
+      {
+        "name": "dsh-quota-watch",
+        "owner": "iasiv5",
+        "dl": 6794,
+        "days": 5,
+        "speed": 1359,
+        "cat": "usage",
+        "added": "2026-10-17"
+      },
+      {
+        "name": "Veyra",
+        "owner": "LoveDoLove",
+        "dl": 9334,
+        "days": 7,
+        "speed": 1333,
+        "cat": "memory",
+        "added": "2026-10-15"
+      },
+      {
+        "name": "dsh-memory",
+        "owner": "annkun",
+        "dl": 7859,
+        "days": 6,
+        "speed": 1310,
+        "cat": "memory",
+        "added": "2026-10-16"
+      },
+      {
+        "name": "dsh-vcs",
+        "owner": "f-e-n-g-0531",
+        "dl": 10568,
+        "days": 9,
+        "speed": 1174,
+        "cat": "git",
+        "added": "2026-10-13"
+      },
+      {
+        "name": "dsh-copilot-auth",
+        "owner": "iasiv5",
+        "dl": 3513,
+        "days": 3,
+        "speed": 1171,
+        "cat": "model",
+        "added": "2026-10-19"
+      },
+      {
+        "name": "dsh-tidy-display",
+        "owner": "drscrewdriver",
+        "dl": 5326,
+        "days": 5,
+        "speed": 1065,
+        "cat": "ui",
+        "added": "2026-10-17"
+      },
+      {
+        "name": "dsh-bili-scroll",
+        "owner": "c1overzz",
+        "dl": 5269,
+        "days": 5,
+        "speed": 1054,
+        "cat": "notify",
+        "added": "2026-10-17"
+      },
+      {
+        "name": "dsh-office",
+        "owner": "copylee711",
+        "dl": 6278,
+        "days": 6,
+        "speed": 1046,
+        "cat": "docs",
+        "added": "2026-10-16"
+      },
+      {
+        "name": "dsh-pet#dsh-pet",
+        "owner": "PC2005-cloud",
+        "dl": 65811,
+        "days": 69,
+        "speed": 954,
+        "cat": "fun",
+        "added": "2026-08-14"
+      },
+      {
+        "name": "dsh-computer-use",
+        "owner": "copylee711",
+        "dl": 5686,
+        "days": 6,
+        "speed": 948,
+        "cat": "tools",
+        "added": "2026-10-16"
+      },
+      {
+        "name": "dsh-skip-browser-auth",
+        "owner": "iasiv5",
+        "dl": 2772,
+        "days": 3,
+        "speed": 924,
+        "cat": "security",
+        "added": "2026-10-19"
+      },
+      {
+        "name": "dsh-im",
+        "owner": "xmanrui",
+        "dl": 61918,
+        "days": 68,
+        "speed": 911,
+        "cat": "notify",
+        "added": "2026-08-15"
+      },
+      {
+        "name": "dsh-wallpaper-engine",
+        "owner": "elysia395",
+        "dl": 57643,
+        "days": 65,
+        "speed": 887,
+        "cat": "theme",
+        "added": "2026-08-18"
+      },
+      {
+        "name": "dsh-mobile-plugin",
+        "owner": "WNLUO",
+        "dl": 4422,
+        "days": 5,
+        "speed": 884,
+        "cat": "remote",
+        "added": "2026-10-17"
+      },
+      {
+        "name": "dsh-theone",
+        "owner": "YunongDai2005",
+        "dl": 4311,
+        "days": 5,
+        "speed": 862,
+        "cat": "session",
+        "added": "2026-10-17"
+      },
+      {
+        "name": "dsh-root-planner-preset",
+        "owner": "XiaoOu2024",
+        "dl": 4280,
+        "days": 5,
+        "speed": 856,
+        "cat": "workflow",
+        "added": "2026-10-17"
+      },
+      {
+        "name": "dsh-context-toolkit",
+        "owner": "chimneyQ",
+        "dl": 3386,
+        "days": 4,
+        "speed": 847,
+        "cat": "tools",
+        "added": "2026-10-18"
+      }
+    ],
+    "categoryOpportunity": [
+      {
+        "cat": "agi",
+        "count": 35,
+        "avgDl": 4132,
+        "maxDl": 66876,
+        "opportunity": 118.06
+      },
+      {
+        "cat": "market",
+        "count": 95,
+        "avgDl": 7707,
+        "maxDl": 598350,
+        "opportunity": 81.13
+      },
+      {
+        "cat": "identity",
+        "count": 48,
+        "avgDl": 958,
+        "maxDl": 8945,
+        "opportunity": 19.96
+      },
+      {
+        "cat": "docs",
+        "count": 100,
+        "avgDl": 1735,
+        "maxDl": 45127,
+        "opportunity": 17.35
+      },
+      {
+        "cat": "git",
+        "count": 143,
+        "avgDl": 2303,
+        "maxDl": 117091,
+        "opportunity": 16.11
+      },
+      {
+        "cat": "browser",
+        "count": 139,
+        "avgDl": 2038,
+        "maxDl": 51336,
+        "opportunity": 14.66
+      },
+      {
+        "cat": "vision",
+        "count": 134,
+        "avgDl": 1898,
+        "maxDl": 95397,
+        "opportunity": 14.17
+      },
+      {
+        "cat": "voice",
+        "count": 80,
+        "avgDl": 1066,
+        "maxDl": 10434,
+        "opportunity": 13.32
+      },
+      {
+        "cat": "remote",
+        "count": 196,
+        "avgDl": 2410,
+        "maxDl": 126240,
+        "opportunity": 12.3
+      },
+      {
+        "cat": "session",
+        "count": 445,
+        "avgDl": 5439,
+        "maxDl": 1772945,
+        "opportunity": 12.22
+      },
+      {
+        "cat": "fun",
+        "count": 194,
+        "avgDl": 2052,
+        "maxDl": 136903,
+        "opportunity": 10.58
+      },
+      {
+        "cat": "skill",
+        "count": 242,
+        "avgDl": 1981,
+        "maxDl": 140311,
+        "opportunity": 8.19
+      },
+      {
+        "cat": "notify",
+        "count": 241,
+        "avgDl": 1587,
+        "maxDl": 122537,
+        "opportunity": 6.59
+      },
+      {
+        "cat": "security",
+        "count": 194,
+        "avgDl": 1277,
+        "maxDl": 57332,
+        "opportunity": 6.58
+      },
+      {
+        "cat": "memory",
+        "count": 272,
+        "avgDl": 1749,
+        "maxDl": 56718,
+        "opportunity": 6.43
+      },
+      {
+        "cat": "theme",
+        "count": 243,
+        "avgDl": 1451,
+        "maxDl": 57643,
+        "opportunity": 5.97
+      },
+      {
+        "cat": "usage",
+        "count": 334,
+        "avgDl": 1548,
+        "maxDl": 156808,
+        "opportunity": 4.63
+      },
+      {
+        "cat": "model",
+        "count": 349,
+        "avgDl": 1338,
+        "maxDl": 24793,
+        "opportunity": 3.83
+      },
+      {
+        "cat": "workflow",
+        "count": 367,
+        "avgDl": 1370,
+        "maxDl": 103428,
+        "opportunity": 3.73
+      },
+      {
+        "cat": "dev",
+        "count": 423,
+        "avgDl": 1455,
+        "maxDl": 195099,
+        "opportunity": 3.44
+      }
+    ],
+    "starInflated": [
+      {
+        "name": "WeKnora#dsh-weknora",
+        "stars": 34883,
+        "dl": 4958,
+        "ratio": 7.04
+      },
+      {
+        "name": "mirage#dsh",
+        "stars": 3696,
+        "dl": 1102,
+        "ratio": 3.35
+      },
+      {
+        "name": "archify#integrations/deepseek-harness",
+        "stars": 86536,
+        "dl": 31725,
+        "ratio": 2.73
+      },
+      {
+        "name": "openpets#dsh",
+        "stars": 1309,
+        "dl": 568,
+        "ratio": 2.3
+      },
+      {
+        "name": "ReMe#dsh",
+        "stars": 3658,
+        "dl": 1960,
+        "ratio": 1.87
+      },
+      {
+        "name": "AI-Novel-Writer#dsh-ai-novel-writer",
+        "stars": 1692,
+        "dl": 1511,
+        "ratio": 1.12
+      },
+      {
+        "name": "memsearch#MemSearch",
+        "stars": 2767,
+        "dl": 2497,
+        "ratio": 1.11
+      },
+      {
+        "name": "OpenViking#examples/dsh-memory-plugin",
+        "stars": 40461,
+        "dl": 38024,
+        "ratio": 1.06
+      },
+      {
+        "name": "hindsight#coding-agents",
+        "stars": 52062,
+        "dl": 56718,
+        "ratio": 0.92
+      },
+      {
+        "name": "Avernet#deepseek-harness-channel-bcn",
+        "stars": 641,
+        "dl": 802,
+        "ratio": 0.8
+      },
+      {
+        "name": "postiz-agent#dsh-postiz",
+        "stars": 530,
+        "dl": 833,
+        "ratio": 0.64
+      },
+      {
+        "name": "tongflow#dsh-tongflow",
+        "stars": 1054,
+        "dl": 1790,
+        "ratio": 0.59
+      },
+      {
+        "name": "CloudBase-AI-Toolkit#dsh-plugin",
+        "stars": 1141,
+        "dl": 2115,
+        "ratio": 0.54
+      },
+      {
+        "name": "Invoice-Downloader#dsh-invoice-downloader",
+        "stars": 511,
+        "dl": 1147,
+        "ratio": 0.45
+      },
+      {
+        "name": "notes#dsh-plugin",
+        "stars": 310,
+        "dl": 776,
+        "ratio": 0.4
+      },
+      {
+        "name": "dsh-prompt-market",
+        "stars": 106,
+        "dl": 281,
+        "ratio": 0.38
+      },
+      {
+        "name": "dsh-pentest",
+        "stars": 609,
+        "dl": 1612,
+        "ratio": 0.38
+      },
+      {
+        "name": "dsh-ads",
+        "stars": 674,
+        "dl": 1938,
+        "ratio": 0.35
+      },
+      {
+        "name": "sieve#dsh-sieve",
+        "stars": 110,
+        "dl": 337,
+        "ratio": 0.33
+      },
+      {
+        "name": "BrowserSkill#dsh-plugin-browserskill",
+        "stars": 9295,
+        "dl": 28419,
+        "ratio": 0.33
+      },
+      {
+        "name": "EduWork#dsh-memory",
+        "stars": 206,
+        "dl": 737,
+        "ratio": 0.28
+      },
+      {
+        "name": "EduWork#dsh-mail",
+        "stars": 206,
+        "dl": 767,
+        "ratio": 0.27
+      },
+      {
+        "name": "EduWork#dsh-knowledge-studio",
+        "stars": 206,
+        "dl": 778,
+        "ratio": 0.26
+      },
+      {
+        "name": "clearai-dsh",
+        "stars": 1280,
+        "dl": 5156,
+        "ratio": 0.25
+      },
+      {
+        "name": "deja-vu#extensions/dsh",
+        "stars": 1262,
+        "dl": 5001,
+        "ratio": 0.25
+      },
+      {
+        "name": "dsh-plugin-kit#loglens",
+        "stars": 54,
+        "dl": 218,
+        "ratio": 0.25
+      },
+      {
+        "name": "dsh-ios",
+        "stars": 326,
+        "dl": 1505,
+        "ratio": 0.22
+      },
+      {
+        "name": "seektty",
+        "stars": 196,
+        "dl": 961,
+        "ratio": 0.2
+      },
+      {
+        "name": "EduWork#dsh-oidc",
+        "stars": 206,
+        "dl": 1005,
+        "ratio": 0.2
+      },
+      {
+        "name": "dsh-memory",
+        "stars": 179,
+        "dl": 901,
+        "ratio": 0.2
+      }
+    ],
+    "hiddenChampions": [
+      {
+        "name": "dsh-codex-pet",
+        "dl": 63813,
+        "stars": 4,
+        "ratio": 15953
+      },
+      {
+        "name": "dsh-task-progress",
+        "dl": 13830,
+        "stars": 0,
+        "ratio": 13830
+      },
+      {
+        "name": "dsh-windows2macos",
+        "dl": 10884,
+        "stars": 1,
+        "ratio": 10884
+      },
+      {
+        "name": "dsh-vcs",
+        "dl": 10568,
+        "stars": 0,
+        "ratio": 10568
+      },
+      {
+        "name": "dsh-simplify",
+        "dl": 72557,
+        "stars": 8,
+        "ratio": 9070
+      },
+      {
+        "name": "dsh-pet",
+        "dl": 136903,
+        "stars": 17,
+        "ratio": 8053
+      },
+      {
+        "name": "dsh-plugin-marketplace",
+        "dl": 12119,
+        "stars": 2,
+        "ratio": 6060
+      },
+      {
+        "name": "dsh-code-review",
+        "dl": 59112,
+        "stars": 11,
+        "ratio": 5374
+      },
+      {
+        "name": "dsh-btw",
+        "dl": 84547,
+        "stars": 23,
+        "ratio": 3676
+      },
+      {
+        "name": "dsh-automation",
+        "dl": 103428,
+        "stars": 33,
+        "ratio": 3134
+      },
+      {
+        "name": "dsh-perm-gate",
+        "dl": 11940,
+        "stars": 4,
+        "ratio": 2985
+      },
+      {
+        "name": "dsh-code-review",
+        "dl": 20321,
+        "stars": 8,
+        "ratio": 2540
+      },
+      {
+        "name": "dsh-context-compression-improved",
+        "dl": 12254,
+        "stars": 5,
+        "ratio": 2451
+      },
+      {
+        "name": "dsh-pua",
+        "dl": 66876,
+        "stars": 29,
+        "ratio": 2306
+      },
+      {
+        "name": "lunheng-article-pipeline-dsh",
+        "dl": 39388,
+        "stars": 19,
+        "ratio": 2073
+      },
+      {
+        "name": "dsh-prime-memory",
+        "dl": 19429,
+        "stars": 10,
+        "ratio": 1943
+      },
+      {
+        "name": "dsh-browser-cdp",
+        "dl": 16787,
+        "stars": 10,
+        "ratio": 1679
+      },
+      {
+        "name": "dsh-tiddlywiki",
+        "dl": 11676,
+        "stars": 7,
+        "ratio": 1668
+      },
+      {
+        "name": "dsh-thinking-levels",
+        "dl": 19790,
+        "stars": 12,
+        "ratio": 1649
+      },
+      {
+        "name": "dsh-im-connect",
+        "dl": 122537,
+        "stars": 75,
+        "ratio": 1634
+      },
+      {
+        "name": "dsh-codex-ui",
+        "dl": 232002,
+        "stars": 180,
+        "ratio": 1289
+      },
+      {
+        "name": "GraphFlow",
+        "dl": 31857,
+        "stars": 25,
+        "ratio": 1274
+      },
+      {
+        "name": "dsh-key-rotation",
+        "dl": 10313,
+        "stars": 9,
+        "ratio": 1146
+      },
+      {
+        "name": "dsh-image-gen",
+        "dl": 11329,
+        "stars": 10,
+        "ratio": 1133
+      },
+      {
+        "name": "dsh-voice",
+        "dl": 10434,
+        "stars": 10,
+        "ratio": 1043
+      },
+      {
+        "name": "dsh-skills-manager",
+        "dl": 195099,
+        "stars": 194,
+        "ratio": 1006
+      },
+      {
+        "name": "dsh-subscriptions",
+        "dl": 12431,
+        "stars": 13,
+        "ratio": 956
+      },
+      {
+        "name": "dsh-archive-manager",
+        "dl": 162151,
+        "stars": 187,
+        "ratio": 867
+      },
+      {
+        "name": "billion-context",
+        "dl": 1772945,
+        "stars": 2130,
+        "ratio": 832
+      },
+      {
+        "name": "ilife#dsh-life-pack",
+        "dl": 11577,
+        "stars": 14,
+        "ratio": 827
+      }
+    ]
+  }
+}

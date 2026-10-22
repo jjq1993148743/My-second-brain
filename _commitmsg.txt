@@ -1,25 +1,21 @@
-做DSH目录站可行性分析：实测所有目录站都用免费托管（Vercel/GitHub Pages/Cloudflare）成本0元，数据源是GitHub仓库公开可抓，但已有10+家竞争，建议做垂直精选/数据服务而非第11个全量目录
+真实榜单站已做出来：用6378插件数据做5个榜单（下载榜/增速榜/类别机会榜/星数虚高榜/隐藏冠军榜），发现dsh-codex-pet 63813下载仅4星被低估15953倍、WeKnora 34883星仅4958下载虚高7倍
 
-研究做目录站这条数据指向的最赚钱路径，拆技术门槛成本数据源竞争收入。
+用已有6378插件数据做真实榜单站，这是没人做的差异化方向。
 
-现有目录站技术栈实测：dshplugin.store用Vercel、awesome-dsh-plugin.com用GitHub Pages完全免费、dshopen.org用Cloudflare、dshmarketplace.dev用Cloudflare、deepseek.stream用Cloudflare。关键发现：所有目录站都用免费/低价托管，GitHub Pages完全免费Vercel和Cloudflare免费额度够用，做目录站的服务器成本等于0元。
+为什么做这个：现有10+个目录站都在做收录把插件全列出来，我们做筛选告诉你哪些值得装，32428个插件看不完5个榜单直接给答案。
 
-数据从哪来实测：awesome的plugins.json显示name是awesome-dsh-plugin、source是github.com/awesome-dsh-plugin/awesome-dsh-plugin、updated是2026-10-22，说明数据源是GitHub仓库它自己维护一个仓库存插件数据、每天更新、格式是JSON 7.2MB。数据从哪抓：GitHub topic:dsh-plugin有21513个仓库用API抓、npm registry搜dsh-plugin关键词、各站已有的JSON（awesome的plugins.json和dshopen的index.json）。数据源完全公开谁都能抓。
+五个榜单实测数据：①真实下载榜Top50按npm实际下载不是star——billion-context 1772945、dsh-market 598350、dsh-codex-ui 232002、DSH-better-sidebar 208637、whale-widget 199295；②增速榜Top50日均下载——billion-context 55405（32天）、cc-safety-net 14333（4天）、dsh-market 8672（69天）、dsh-m 6093（3天）、dsh-ops 4576（5天）；③类别机会榜平均下载除以插件数——agi 118.06最高（35个插件平均4132）、market 81.13、docs 17.35、git 16.10、session 12.22；④星数虚高榜star除以下载——WeKnora#dsh-weknora 34883星但仅4958下载虚高7.04倍；⑤隐藏冠军榜下载除以star——dsh-codex-pet 63813下载仅4星被低估15953倍。
 
-完整成本核算：域名50-100元每年可选（用vercel.app免费）、托管0元（Vercel/GitHub Pages/Cloudflare免费）、数据库0元（用JSON文件加Git）、抓数据0元（GitHub API免费有速率限制但够用）、开发你的时间1-2周、维护每天跑一次抓取脚本自动化。总成本最省0元（vercel.app子域名加免费托管）或有域名50-100元。这是极低成本的生意。
+两个最有价值的发现：发现1 dsh-codex-pet（隐藏冠军）63813下载但只有4个star被低估15953倍，说明用户真的在用它但没人给star可能是装上就不管的工具型插件这类插件才是真正的刚需；发现2 WeKnora（虚高）34883星但仅4958下载虚高7.04倍，说明3.4万star可能来自母项目（WeKnora是腾讯的项目）实际用这个DSH插件的人很少这是蹭母项目星数的典型。
 
-竞争格局10+家：dshplugin.store 32428插件32449sitemap SEO最大加卖广告位、awesome 12756插件12806sitemap有RSS加中文版、deepseek.stream 570插件584sitemap有客户端加需求广场、dshmarketplace.dev约3966插件248sitemap有Sponsor加API、dshmarket.com 6254插件8sitemap DSH内置市场、dsh-plugin.org 16211插件3sitemap社区枢纽、dshopen.org 849插件2sitemap开放JSON索引、dsh-plugin-market.vercel.app 1131、deepseek1024.com Rankings、dsh-hub.cc挂了。竞争分析：头部已形成（dshplugin.store和awesome各3万/1.2万页）、但插件数说法混乱（570/849/1131/3966/6254/16211/32428）说明没人有权威数据这是新进入者的机会、dsh-hub.cc已挂说明这生意不是躺赚。
+技术实现：文件D:\GitHub\dsh-plugin-rankings\index.html大小47KB纯HTML加CSS零依赖、5个榜单、每榜条数50/50/20/30/30、数据源_rankings.json从6378插件生成、渲染验证Chrome 47583字符通过。
 
-收入模型已验证：卖广告位（dshplugin.store首页挂API服务加翻墙工具广告）、Sponsor位（dshmarketplace.dev页面有Sponsor）、Install API（dshmarketplace.dev提供安装API）、榜单排行（deepseek.stream和deepseek1024流量到广告）。但要注意：广告位价格没公开需要谈、有多少广告主未知只看到2-3个、流量数据未知sitemap大不等于流量大。
+部署3步免费：建GitHub仓库dsh-plugin-rankings、推index.html、Settings Pages Source选main Save，访问https://你的用户名.github.io/dsh-plugin-rankings/。
 
-新进入者的四个机会：机会1做垂直目录不是全量（所有站都在做全量收录没人做精选评测，32428个插件用户看不完帮用户筛选有价值）；机会2做真实数据打假（各站插件数差28倍做真实插件数核查、有的站数据明显虚高做下载量真实性对比）；机会3做垂直场景目录（省钱类插件目录、职业插件目录、中文插件目录）；机会4做数据服务而不是目录（插件数据API给其他目录站用、趋势报告给插件作者看哪些类别在涨、竞品监控给插件作者看同类插件动态）。
+这个站怎么赚钱三种：①卖广告位（榜单页顶部侧边放广告，dshplugin.store已验证）②卖上榜（插件作者付费求上榜，慎用会毁信誉，未验证）③卖数据服务（提供完整榜单数据API，未验证）。最稳的是①因为榜单站有公信力价值、广告主是想触达DSH用户的工具厂商、已验证有人买单。
 
-我的判断基于数据：做全量目录站不建议（头部已3万页你从0开始打不过）、做垂直精选目录可做（没人做筛选用户需要）、做数据服务可做（已有JSON索引加工即可）、做中文插件目录可做、做插件评测打假推荐（零成本内容型）。
+后续更新：每天重跑抓取脚本重新生成HTML推送、每周发一篇本周榜单变化到公众号、每月发月度报告，内容是持续流量来源。
 
-最优路径：不做第11个全量目录站→做DSH插件真实数据加精选→用我们已有的6378插件全量数据（含stars/downloads/added）→做别人没做的真实下载榜增速榜类别机会榜→内容型SEO每周发一篇榜单→流量到卖广告位或卖数据服务。
+诚实说明：数据全部实测从6378插件索引计算、HTML已验证渲染Chrome 47583字符、隐藏冠军的定义是我定的（下载除以star不是行业标准）、虚高的定义是我定的（star除以下载可能有误判如母项目星数）、未验证有没有人看能不能卖广告、数据会过期需要持续更新。
 
-落地步骤6步：建GitHub仓库加Vercel部署0元、写抓取脚本（GitHub API加npm）时间、生成静态页面每个插件一页时间、提交sitemap到Google/Bing 0元、每周发一篇榜单内容SEO时间、联系广告主时间。总成本0元加1-2周开发加持续内容运营。
-
-诚实说明：技术栈是实测从响应头看server字段、数据源是实测看了awesome的plugins.json、成本核算是推算基于免费额度实际可能超、收入模型是实测但价格未公开、流量数据未知sitemap大不等于流量大、竞争会加剧已有10+家还会有更多。
-
-交付：做DSH目录站可行性分析.md。
+交付：真实榜单站成品.md + D:\GitHub\dsh-plugin-rankings\index.html（47KB 5个榜单 已渲染验证）+ _rankings.json（榜单数据）。
