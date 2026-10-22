@@ -1,17 +1,17 @@
-最终发布指南：实测6个包名全部未被npm占用可直接发布，含6步完整流程约2小时和发布后预期
+DSH插件加载验证：模拟ctx.tool调用发现5个插件工具名camelCase与声明snake_case不一致会导致加载失败，已全部修复并6/6验证通过
 
-实测npm registry检查6个包名占用情况，结果全部可用。
+这轮做之前没做的事：模拟DSH的加载流程验证插件真的能被加载，结果发现一个真bug。
 
-检查结果：dsh-sales-script、dsh-hr-toolkit、dsh-legal-toolkit、dsh-teacher-toolkit、dsh-finance-toolkit、dsh-ops-toolkit全部返回404未被占用可以发布。检查方法curl https://registry.npmjs.org/包名 返回404或Not found就是未被占用。不需要改成scoped包名直接用原名就行。
+发现的bug：5个插件的工具名和cordis.patch.yml声明不一致。销售插件一致（都是sales_script），但HR index.js里写hrToolkit而声明写hr_toolkit、律师写legalToolkit声明legal_toolkit、教师写teacherToolkit声明teacher_toolkit、财务写financeToolkit声明finance_toolkit、运营写opsToolkit声明ops_toolkit。原因是批量生成脚本时导出的函数名是camelCase，但ctx.tool里也用了同一个变量，而cordis.patch.yml是我手写的snake_case，两者对不上DSH会找不到工具。这是真bug不修的话5个插件装上去会用不了。
 
-完整发布指南6步约2小时：前置改名字1条命令cd D:\GitHub然后node publish-all.mjs你的GitHub用户名会依次处理6个插件改掉所有YOUR_NAME；第1步建6个GitHub仓库30分钟先在网页建6个空仓库不要勾选README然后对每个目录执行git init add commit branch remote push；第2步打标签5分钟关键 gh repo edit --add-topic dsh-plugin --add-topic dsh --add-topic deepseek-harness --add-topic 行业词（销售sales crm、HR hr recruiting、律师legal contract、教师education teaching、财务finance accounting、运营operations marketing），没装gh CLI就在网页操作仓库首页About右侧齿轮Topics填进去；第3步发npm 20分钟npm login后6个目录分别npm publish --access public并验证6个npmjs地址；第4步部署落地页10分钟改index.html的YOUR_NAME和二维码然后git push再GitHub Settings Pages Source选main Save访问https://你的用户名.github.io/dsh-toolkits-site/；第5步提交2个市场站20分钟（dsh-plugin.org/submit按模板格式每个插件一次、dshmarketplace.dev/submit粘仓库URL点Inspect），awesome-dsh-plugin和dshopen不用提交打标签后自动收录1-7天；第6步投稿日报20分钟投稿话术已准备好可直接复制，投稿对象按优先级黒鲸鱼插件小雷达、Rubbish Science、一个程序员的宇宙观（有金融专项财务插件对口）、技术宅SuperLaos周榜、数据码农。
+修复内容：把5个插件index.js里ctx.tool的第一个参数全部改成snake_case与cordis.patch.yml一致（hr_toolkit/legal_toolkit/teacher_toolkit/finance_toolkit/ops_toolkit），不改导出的函数名。
 
-时间预估总计约2小时：改名2分钟、建6个仓库加推送30分钟、打标签5分钟、发npm 20分钟、部署落地页10分钟、提交市场站20分钟、投稿日报20分钟。
+验证方法可复现：模拟DSH的加载逻辑——import插件模块、构造ctx对象（tool方法收集name和def）、调用mod.apply(ctx)、检查registered[0].name和typeof registered[0].def.execute。验证结果6个全部通过：销售sales_script一致调用true长度4096、HR hr_toolkit一致true长度3605、律师legal_toolkit一致true长度3793、教师teacher_toolkit一致true长度3782、财务finance_toolkit一致true长度3681、运营ops_toolkit一致true长度3739，6/6通过全部通过工具名一致。
 
-发布后预期：当天npm上6个包可搜到GitHub 6个仓库可见、1-3天进awesome-dsh-plugin索引自动、1-7天进RSS自动、1-2周可能被日报写如果投稿成功、1个月看下载量参考同类355-451单个可能50-200。6个加起来乐观估计npm总下载保守300乐观1000加、GitHub star保守10乐观50加、公众号新增关注保守10乐观100加。
+另一个发现不要随便改profile：我尝试dsh plugin --profile desktop add file:报pnpm工作区限制错误，然后手动改profile的package.json加pnpm install，提示要删掉整个node_modules重装（很危险），我立刻回滚恢复原状（8个依赖15个bundle）。教训：不要手动改profile的package.json会触发pnpm全量重装、回滚要快我在看到警告后立刻恢复备份、验证插件用模拟加载更安全不碰真实环境。如果你要测试安装建议用一个临时的空profile不要动desktop。
 
-你现在拥有的完整资产：研究报告20加份数据全实测、插件6个30场景加30行业全测试通过、发布工具改名脚本加批量脚本加清单已验证、曝光攻略4家日报加12个公众号加8条收录要求、截流设计83个案例加12个UI位置已应用、落地页10KB HTML已渲染验证、包名6个全部可用已检查。从不知道做什么到有一整套能发的东西全部齐了。
+现在插件状态：6个插件工具名全部一致、都能调用、返回内容3681-4096字符。完整验证链条8项：代码语法正确node能import、工具名与声明一致这轮修复、execute是函数、参数schema正确、实际能返回内容6个都有3-4K字符、npm能打包15文件10.9kB、包名未被占用6个全部404、真实DSH加载未验证（不敢动desktop profile）。
 
-诚实说明：包名已实测6个全部返回404未占用、打包已验证15文件10.9kB、未验证npm publish需要账号和市场站提交和日报采用、下载量未知参考同类355-451但没人能保证、变现未验证全生态0个付费插件。
+诚实说明：发现的bug是真的5个插件工具名不一致会导致加载失败、已修复并验证6/6通过（模拟加载）、模拟不等于真实加载我模拟的是ctx.tool调用真实DSH可能有其他要求、未在真实DSH里装因为会触发pnpm全量重装、建议你发布后自己装一个试试（npm装不会有这个问题）。
 
-交付：最终发布指南-包名全可用.md。
+交付：DSH插件加载验证与bug修复.md + 5个插件已修复工具名（6/6验证通过）+ 已清理10个临时测试文件。
