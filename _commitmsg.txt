@@ -1,21 +1,25 @@
-海外插件生态变现对照：Chrome曾永久禁用付费插件、Obsidian本体免费服务收费、VSCode作者收费遭抵制，四个生态没一个靠直接卖插件成功，钱在广告服务引流
+做DSH目录站可行性分析：实测所有目录站都用免费托管（Vercel/GitHub Pages/Cloudflare）成本0元，数据源是GitHub仓库公开可抓，但已有10+家竞争，建议做垂直精选/数据服务而非第11个全量目录
 
-DSH生态0个付费插件，这轮看海外同类生态怎么做的。
+研究做目录站这条数据指向的最赚钱路径，拆技术门槛成本数据源竞争收入。
 
-三个生态的真实做法：VSCode几十万插件，Volar作者的经历是做开源4年被钱拖垮无奈发起收费计划竟遭恶意抨击，说明开源插件作者想收费会遭遇社区抵制，关键引文如果不付费要么是因为有人花了时间要么因为这是营销策略。Obsidian商业模式是本体免费官方同步服务收费，插件生态社区插件免费，说明钱不在插件上在服务上。Chrome扩展最残酷，谷歌Chrome应用商店突然宣布永久禁用这类插件，原因是为了支持Chrome插件的每月订阅费和一次性付费，结果付费插件被禁用，这条最关键——平台方主动禁用了付费插件。
+现有目录站技术栈实测：dshplugin.store用Vercel、awesome-dsh-plugin.com用GitHub Pages完全免费、dshopen.org用Cloudflare、dshmarketplace.dev用Cloudflare、deepseek.stream用Cloudflare。关键发现：所有目录站都用免费/低价托管，GitHub Pages完全免费Vercel和Cloudflare免费额度够用，做目录站的服务器成本等于0元。
 
-那他们怎么赚钱（Chrome浏览器扩展插件的8种获利方式实测搜到）：1广告（Adblock Plus 1亿用户靠广告获利）2联盟营销（Yieldkit汇总会员计划）3CPU挖矿（CoinHive体验很糟糕已死）4卖用户数据不推荐5捐赠常见6 Freemium基础免费加高级付费7订阅但Chrome禁了8引流到自己的产品最常见。
+数据从哪来实测：awesome的plugins.json显示name是awesome-dsh-plugin、source是github.com/awesome-dsh-plugin/awesome-dsh-plugin、updated是2026-10-22，说明数据源是GitHub仓库它自己维护一个仓库存插件数据、每天更新、格式是JSON 7.2MB。数据从哪抓：GitHub topic:dsh-plugin有21513个仓库用API抓、npm registry搜dsh-plugin关键词、各站已有的JSON（awesome的plugins.json和dshopen的index.json）。数据源完全公开谁都能抓。
 
-一个成功的个人案例：一个人一个插件年收54万美元（约390万人民币），来源是实测搜到的公众号文章标题。但要注意这是案例不是典型，而且没看到它具体怎么收费。另一个关键案例：开发一个浏览器插件在第三天卖出1000元，关键引文是国内的付费渠道接入门槛是相当高的——国内付费有门槛（支付合规）。
+完整成本核算：域名50-100元每年可选（用vercel.app免费）、托管0元（Vercel/GitHub Pages/Cloudflare免费）、数据库0元（用JSON文件加Git）、抓数据0元（GitHub API免费有速率限制但够用）、开发你的时间1-2周、维护每天跑一次抓取脚本自动化。总成本最省0元（vercel.app子域名加免费托管）或有域名50-100元。这是极低成本的生意。
 
-四个生态对比：Chrome扩展插件不能直接卖钱（平台禁了付费）实际靠广告联盟引流；VSCode可以但会挨骂实际靠捐赠公司支持引流；Obsidian插件免费实际靠本体免费加服务收费；DSH 0个付费插件未验证。一条共同规律：所有生态的插件本身都很难直接卖钱，钱在广告服务引流平台方（不是插件作者）。
+竞争格局10+家：dshplugin.store 32428插件32449sitemap SEO最大加卖广告位、awesome 12756插件12806sitemap有RSS加中文版、deepseek.stream 570插件584sitemap有客户端加需求广场、dshmarketplace.dev约3966插件248sitemap有Sponsor加API、dshmarket.com 6254插件8sitemap DSH内置市场、dsh-plugin.org 16211插件3sitemap社区枢纽、dshopen.org 849插件2sitemap开放JSON索引、dsh-plugin-market.vercel.app 1131、deepseek1024.com Rankings、dsh-hub.cc挂了。竞争分析：头部已形成（dshplugin.store和awesome各3万/1.2万页）、但插件数说法混乱（570/849/1131/3966/6254/16211/32428）说明没人有权威数据这是新进入者的机会、dsh-hub.cc已挂说明这生意不是躺赚。
 
-对DSH的推论：①直接卖插件大概率不行（Chrome禁了Obsidian免费DSH 0个付费）②广告是最成熟的路（Adblock Plus 1亿用户靠广告）③引流到自己的服务最稳（Obsidian本体免费加服务收费）④平台方赚钱不是插件作者（Chrome Obsidian VSCode都是平台赚）。一个残酷的结论：插件作者的定位是给平台贡献内容不是自己赚钱，想赚钱得把插件当流量入口不是产品。
+收入模型已验证：卖广告位（dshplugin.store首页挂API服务加翻墙工具广告）、Sponsor位（dshmarketplace.dev页面有Sponsor）、Install API（dshmarketplace.dev提供安装API）、榜单排行（deepseek.stream和deepseek1024流量到广告）。但要注意：广告位价格没公开需要谈、有多少广告主未知只看到2-3个、流量数据未知sitemap大不等于流量大。
 
-DSH的平台方是谁：平台本体是DeepSeek官方、目录站（赚广告）是dshplugin.store awesome dshmarket等10+个、插件作者（你）贡献内容换流量。你已经看到目录站靠SEO加广告赚钱（dshplugin.store 32428页），而插件作者在给它们提供内容。
+新进入者的四个机会：机会1做垂直目录不是全量（所有站都在做全量收录没人做精选评测，32428个插件用户看不完帮用户筛选有价值）；机会2做真实数据打假（各站插件数差28倍做真实插件数核查、有的站数据明显虚高做下载量真实性对比）；机会3做垂直场景目录（省钱类插件目录、职业插件目录、中文插件目录）；机会4做数据服务而不是目录（插件数据API给其他目录站用、趋势报告给插件作者看哪些类别在涨、竞品监控给插件作者看同类插件动态）。
 
-三条可参考的路按可行性：第1做目录站/内容站（当平台方）依据dshplugin.store 32428页加广告难度高但已验证、第2做插件引流到自己的服务（Obsidian模式）难度中、第3做插件放广告（Adblock Plus模式）难度中、不做直接卖插件（四个生态都没成功）。一个更聪明的角度：既然目录站赚钱而目录站需要内容——插件作者给目录站贡献内容免费、目录站赚SEO流量加广告费、你如果做目录站就是让别人的插件给你贡献内容。这是从被平台抽成变成自己当平台的路径。
+我的判断基于数据：做全量目录站不建议（头部已3万页你从0开始打不过）、做垂直精选目录可做（没人做筛选用户需要）、做数据服务可做（已有JSON索引加工即可）、做中文插件目录可做、做插件评测打假推荐（零成本内容型）。
 
-诚实说明：Chrome禁付费插件是实测搜到明确报道、Obsidian模式是实测本体免费官方同步收费、Volar作者遭遇是实测搜到明确标题、年收54万美元是案例不是典型且没看到怎么收费、DSH的推论是推测从其他生态类推、未验证DSH用户是否愿为插件付费。
+最优路径：不做第11个全量目录站→做DSH插件真实数据加精选→用我们已有的6378插件全量数据（含stars/downloads/added）→做别人没做的真实下载榜增速榜类别机会榜→内容型SEO每周发一篇榜单→流量到卖广告位或卖数据服务。
 
-交付：海外插件生态变现对照.md。
+落地步骤6步：建GitHub仓库加Vercel部署0元、写抓取脚本（GitHub API加npm）时间、生成静态页面每个插件一页时间、提交sitemap到Google/Bing 0元、每周发一篇榜单内容SEO时间、联系广告主时间。总成本0元加1-2周开发加持续内容运营。
+
+诚实说明：技术栈是实测从响应头看server字段、数据源是实测看了awesome的plugins.json、成本核算是推算基于免费额度实际可能超、收入模型是实测但价格未公开、流量数据未知sitemap大不等于流量大、竞争会加剧已有10+家还会有更多。
+
+交付：做DSH目录站可行性分析.md。
