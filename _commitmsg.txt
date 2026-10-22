@@ -1,23 +1,23 @@
-代码审查赛道分析：发现3个同名dsh-code-review插件，MichengAI版59112下载领跑，至少9个同类，修正上轮窗口还在的判断
+销售插件成品交付：实际写出可发布的DSH插件（零依赖+20+异议场景+5行业定制），4个场景实测通过
 
-深挖上轮发现的dsh-code-review 9天2万下载，结果发现同名插件有3个。
+不是方案是真实做出来的插件，代码在D:\GitHub\dsh-sales-script。
 
-同名插件必须分清：@michengai/dsh-code-review 59112下载11星09-18上线（/review用独立子Agent审查Git范围）、@feng0531/dsh-code-review 20321下载8星10-13上线（只读审查Git与SVN变更）、@yangzhe1991/dsh-code-review 1228下载2星08-29上线（双列代码评审页UI型）。我上轮说的9天2万是feng0531版本，而MichengAI版本有59112下载比它多2.9倍且早上线一个月，说明这个赛道已经有领跑者不是空白。
+成品清单：package.json零依赖加dsh字段、cordis.patch.yml插件声明注册sales_script工具、index.js主逻辑读知识库加关键词过滤、kb/opening.md开场话术电话微信拜访转介绍、kb/discovery.md SPIN需求挖掘、kb/objection.md 20+异议处理场景、kb/closing.md成交话术6种方法、kb/followup.md跟进话术含节奏建议、kb/industries下saas制造业保险教育房产5个行业、README.md完整说明。
 
-代码审查赛道完整格局9个插件：dsh-code-review MichengAI 59112、dsh-code-review feng0531 20321、dsh-vcs 10568、dsh-diff-approval 5714、pr-genius 2496、dsh-code-review yangzhe 1228、dsh-command-code-review 1079、dsh-code-review-graph 982、dsh-open-code-review 412。至少9个插件在做代码审查不是空白赛道，头部5.9万第二名2万有梯度但都有量，star都很低8-14说明用户看下载不看star。
+实测4个场景全部通过：测试1 objection+太贵了命中1段完整话术174字符（含公式认同→澄清对比→算账→反问）、测试2 objection+不存在词返回全部内容1405字符、测试3 all+insurance返回4455字符全部加保险、测试4无效场景返回错误提示加可用列表。
 
-git类143个整体格局：dsh-git-graph 117091分支泳道图、dsh-code-review MichengAI 59112、dsh-code-review feng0531 20321、dsh-vcs 10568、dsh-ide-git 9142、DSH_VsCodeMode 7131、dsh-github 5727、dsh-diff-approval 5714、dsh-git-panel 5400、dsh-gitea 4231。git类四个方向：可视化（git-graph 11.7万很挤）、代码审查（9个很挤）、worktree管理（3千中等）、平台集成（5千中等）。
+内容清单：开场4种场景（电话30秒法则避免3个错误、微信首条消息4行以内、拜访破冰三要素、转介绍借信用）；需求挖掘SPIN完整（Situation背景建立事实基础、Problem难点引导说出不满、Implication暗示放大后果最关键、Need-payoff回报让客户自己说值）；异议处理20+场景分6类（价格类太贵了预算不够能不能便宜点、时机类再考虑现在不急内部讨论、信任类没听过你们能保证效果吗已有供应商、竞争类XX更便宜XX功能更多、决策类要问领导先试用、其他发资料看看行业特殊太忙了）；成交6种方法（假设成交二选一限时优惠分阶段痛点回顾沉默成交）另附成交信号识别5种信号；跟进含节奏表（首次24小时内发纪要补充材料、二次3-5天发案例数据、三次1-2周问决策进展、长期每月发行业信息不提成交）。
 
-我上轮的判断需要修正：说dsh-code-review 9天2万是新星窗口还在是半对（确实涨得快但同类有9个头部已5.9万）；说git类只有143个不算拥挤是错（143个里头部集中度很高）；说star只有8说明还没被广泛知道是错（star低是因为这类工具用户不点星不是没人知道）。
+5个行业定制：SaaS专属痛点是数据迁移员工不愿用合规定制话术迁移方案试点策略安全白皮书；制造业停产风险工人年龄大老设备定制试点不影响产线扫码即用采集模块；保险合规代理人流动客户跟进定制话术审核标准化培训自动提醒；教育家长不信任试听转化退费定制免费试听学习诊断报告合同退费；房产观望带看不成交政策变化定制成交数据需求聚焦政策解读。
 
-代码审查赛道还剩什么机会：已有人做Git变更审查、SVN支持、PR审查、图谱上下文、双列UI、五视角并行；还没人做审查规则自定义团队规范、审查历史趋势代码质量变化、多人协作审查、审查报告导出分享、中文团队规范内置、按行业定制规则金融医疗。我的判断：代码审查本身不建议（9个同类头部5.9万）；审查规则库中文团队规范可做（现有都是通用没做中国团队规范）；审查报告导出分享可做（没人做）；代码质量趋势追踪可做（没人做）。
+现在就能做的5步发布：1把YOUR_NAME改成你的GitHub用户名2分钟编辑package.json的homepage和repository；2建GitHub仓库并推送10分钟；3注册npm账号并发布10分钟npm login和npm publish；4提交到7个市场站30分钟；5投稿插件日报10分钟。7个市场站入口：dshopen PR到polang233/dsh-plugin-index、dsh-plugin.org的/submit、dshmarketplace.dev的/submit、dshplugin.store站长LinXiaoTao、awesome-dsh-plugin提交后自动进RSS被日报抓、deepseek.stream站内发布插件、dshmarket.com内置市场。
 
-更重要的发现教我一个陷阱：3个插件都叫dsh-code-review但npm包名不同，索引里看不出来只能看到名字和下载量，我差点误判以为只有1个实际3个。所以判断赛道拥挤度必须看npm包名不能只看插件名。
+截流设置发布前必做：package.json homepage改成你的站或公众号链接页、README.md顶部加你的公众号二维码、index.js输出已含由dsh-sales-script提供。不改homepage用户装了也不知道你是谁。
 
-教训汇总这几轮我犯的错：用849索引代替6378全量（用最大数据源）、只看描述不看npm keywords（查npm）、只看插件名不看npm包名（同名插件可能是不同产品）、0个就以为是空白（反问为什么是0）。
+后续版本扩展：v0.2更多行业电商医疗金融物流、v0.3话术评分用LLM评估你的话术好不好、v0.4客户跟进记录本地SQLite、v0.5话术AB测试哪句话术转化高、v1.0团队共享话术库多人协作。
 
-修正后最终推荐：第1垂直职业预设销售（销售0个插件知识库有真实价值最稳）、第2中文场景加有梗（bili-scroll 5269加203星已验证可复制）、第3审查规则库中文团队规范（代码审查有需求但都是通用版差异化）、4安全防护（cc-safety-net 5.7万但已占难）、不做代码审查本身（9个同类头部5.9万）、不做Git可视化（git-graph 11.7万垄断）。
+诚实说明：代码已验证4个场景实测通过、知识库是我写的基于通用销售方法论不是独家、没验证的是有没有人装销售人群是否用DSH、需要你做的是改YOUR_NAME发布提交渠道、下载预期参考dsh-expert 636专家451下载。
 
-数据说明：数据源awesome-dsh-plugin的plugins.json、同名插件通过npm字段区分@michengai @feng0531 @yangzhe1991、git类总数143个、代码审查相关至少9个（用code review关键词搜出722个含误报）、我的修正是上轮说窗口还在是错的实际赛道已拥挤。
+为什么这个插件有价值：销售0个插件6378个插件里唯一空白职业、内容有真实价值20+异议场景是销售每天用的、技术门槛低零依赖我已做完、可复制换成HR律师医生只需换知识库、截流容易销售人群聚集在企微群钉钉群。
 
-交付：DSH插件-代码审查赛道分析.md。
+交付：销售插件-成品交付.md + D:\GitHub\dsh-sales-script 完整插件代码。
