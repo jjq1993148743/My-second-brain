@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Awesome DSH Plugin — Curated DeepSeek Harness (dsh) Plugin List</title>
+  <id>https://awesome-dsh-plugin.com/</id>
+  <link href="https://awesome-dsh-plugin.com/"/>
+  <link rel="self" href="https://awesome-dsh-plugin.com/feed.xml"/>
+  <updated>2026-10-22T00:00:00Z</updated>
+  <entry>
+    <title>AsterionZephyr/dsh-desktop-hand</title>
+    <id>https://github.com/AsterionZephyr/dsh-desktop-hand</id>
+    <link href="https://github.com/AsterionZephyr/dsh-desktop-hand"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <summary>Windows-only desktop control for DSH with six tools that list windows, capture occluded windows, focus windows, click by coordinate, inject Unicode keyboard input, and diagnose the desktop bridge.</summary>
+  </entry>
+  <entry>
+    <title>Linusteller/dsh-session-delete</title>
+    <id>https://github.com/Linusteller/dsh-session-delete</id>
+    <link href="https://github.com/Linusteller/dsh-session-delete"/>
+    <updated>2026-10-21T23:33:00.000Z</updated>
+    <summary>Adds a &quot;Delete session&quot; item beneath &quot;Archive&quot; in the sidebar session menu that permanently removes a session — stops its running work, detaches its workspace/archive/pin accounting, deletes its projection cache and log directory, then broadcasts removal so the row disappears immediately, instead of only archiving it.</summary>
+  </entry>
+  <entry>
+    <title>dreamfarer-space/deepseek-harness-intelligent-ui</title>
+    <id>https://github.com/dreamfarer-space/deepseek-harness-intelligent-ui</id>
+    <link href="https://github.com/dreamfarer-space/deepseek-harness-intelligent-ui"/>
+    <updated>2026-10-21T23:20:16.000Z</updated>
+    <summary>Generative, interactive UI for DeepSeek Harness: the agent picks per reply between 26 validated native components and sandboxed streaming HTML widgets, patches a rendered UI in place by component ID, restores tabs, sorts, filters and form values after a reload, and computes slider and filter changes in the browser without another model call.</summary>
+  </entry>
+  <entry>
+    <title>Alice-Marx/dsh-model-router</title>
+    <id>https://github.com/Alice-Marx/dsh-model-router</id>
+    <link href="https://github.com/Alice-Marx/dsh-model-router"/>
+    <updated>2026-10-21T20:24:05.000Z</updated>
+    <summary>Routes DeepSeek Harness work across configured model APIs and supported vendor CLIs with dependency-aware packages and cost previews.</summary>
+  </entry>
+  <entry>
+    <title>AK-blank/dsh-codex-bridge</title>
+    <id>https://github.com/AK-blank/dsh-codex-bridge</id>
+    <link href="https://github.com/AK-blank/dsh-codex-bridge"/>
+    <updated>2026-10-21T20:23:54.000Z</updated>
+    <summary>Reads the local Codex CLI ChatGPT-plan quota (5-hour and weekly windows), defaults to gpt-6.1-sol at high reasoning, falls back to gpt-5.6-sol when a window has 10% or less left, and delegates tasks through codex exec with an explicit opt-in for the expensive gpt-6-astra model. Requires a signed-in Codex CLI (`codex login`).</summary>
+  </entry>
+  <entry>
+    <title>GoldenLoaf24h/dsh-prompt-suggestion</title>
+    <id>https://github.com/GoldenLoaf24h/dsh-prompt-suggestion</id>
+    <link href="https://github.com/GoldenLoaf24h/dsh-prompt-suggestion"/>
+    <updated>2026-10-21T20:23:42.000Z</updated>
+    <summary>Predicts your next message after each turn and shows it as gray ghost text in the composer: Tab takes the whole line, Alt+Right takes one word at a time, Enter takes it and sends, Esc dismisses, and Alt+R asks the model again without repeating the old one. Typing a few characters completes from prompts already sent in the session, Up in an empty composer recalls the last one, and a plugin-page form sets the provider, model, reasoning effort, per-key toggles and generation limits.</summary>
+  </entry>
+  <entry>
+    <title>zuojinxin/dsh-sidebar-manager</title>
+    <id>https://github.com/zuojinxin/dsh-sidebar-manager</id>
+    <link href="https://github.com/zuojinxin/dsh-sidebar-manager"/>
+    <updated>2026-10-21T20:23:42.000Z</updated>
+    <summary>Collapses the DSH sidebar panel list into a single group row, and its gear opens an edit mode to show, hide and drag-reorder two groups: sidebar extension entries and conversation view tabs.</summary>
+  </entry>
+  <entry>
+    <title>Chlyz621/dsh-unstuck</title>
+    <id>https://github.com/Chlyz621/dsh-unstuck</id>
+    <link href="https://github.com/Chlyz621/dsh-unstuck"/>
+    <updated>2026-10-21T20:23:42.000Z</updated>
+    <summary>Keeps a DeepSeek Harness run going on its own: continues a turn that ended abnormally, and continues a turn logged as completed while the model tool call was emitted as plain text instead, which leaves the agent silently idle. Revives a model request that stops streaming. A wait on an approval or on a question is logged and notified, never answered.</summary>
+  </entry>
+  <entry>
+    <title>Leawind/dsh-rice-on-a-stick</title>
+    <id>https://github.com/Leawind/dsh-rice-on-a-stick</id>
+    <link href="https://github.com/Leawind/dsh-rice-on-a-stick"/>
+    <updated>2026-10-21T20:23:42.000Z</updated>
+    <summary>Expose control of dsh as MCP server and built-in dsh tools.</summary>
+  </entry>
+  <entry>
+    <title>ddy-007/dsh-client-resume-button</title>
+    <id>https://github.com/ddy-007/dsh-client-resume-button</id>
+    <link href="https://github.com/ddy-007/dsh-client-resume-button"/>
+    <updated>2026-10-21T18:17:37.000Z</updated>
+    <summary>Adds a Continue button left of the model selector: after a turn ends aborted by the user, interrupted by a crash or errored, one click sends notices asking the model to pick that turn back up, and the button collapses while you type or attach a file.</summary>
+  </entry>
+  <entry>
+    <title>mozhi66/dsh-plugin-categories</title>
+    <id>https://github.com/mozhi66/dsh-plugin-categories</id>
+    <link href="https://github.com/mozhi66/dsh-plugin-categories"/>
+    <updated>2026-10-21T18:17:25.000Z</updated>
+    <summary>Categorize the plugins installed in a DSH profile into groups (skins, MCP, tools, ...), with per-category batch enable/disable, drag reordering, and automatic skin detection.</summary>
+  </entry>
+  <entry>
+    <title>1186258278/dsh-zh-ui</title>
+    <id>https://github.com/1186258278/dsh-zh-ui</id>
+    <link href="https://github.com/1186258278/dsh-zh-ui"/>
+    <updated>2026-10-21T18:17:12.000Z</updated>
+    <summary>Chinese frontend UI design spec for dsh: injects the zh-ui-design skill and prompt rules (section-name headings, no filler copy, one signature element), plus a 10-rule UI copy/style linter.</summary>
+  </entry>
+  <entry>
+    <title>piaomiaozhilei/dsh-sacc-translator#cpu</title>
+    <id>https://github.com/piaomiaozhilei/dsh-sacc-translator/tree/main/packages/cpu</id>
+    <link href="https://github.com/piaomiaozhilei/dsh-sacc-translator/tree/main/packages/cpu"/>
+    <updated>2026-10-21T18:17:12.000Z</updated>
+    <summary>Windows x64 CPU translation panel for text and original-format documents, using host model selection, voice input and document preview. CPU OCR without NVIDIA dependencies. The download is about 364 MB.</summary>
+  </entry>
+  <entry>
+    <title>piaomiaozhilei/dsh-sacc-translator#cuda</title>
+    <id>https://github.com/piaomiaozhilei/dsh-sacc-translator/tree/main/packages/cuda</id>
+    <link href="https://github.com/piaomiaozhilei/dsh-sacc-translator/tree/main/packages/cuda"/>
+    <updated>2026-10-21T18:17:12.000Z</updated>
+    <summary>Windows x64 CUDA translation panel for text and original-format documents, using host model selection, voice input and document preview. Automatically installs its pinned CUDA/cuDNN component; falls back to CPU when no compatible GPU is available. The download is about 2.04 GB.</summary>
+  </entry>
+  <entry>
+    <title>hifengzy/dsh-sound-notify</title>
+    <id>https://github.com/hifengzy/dsh-sound-notify</id>
+    <link href="https://github.com/hifengzy/dsh-sound-notify"/>
+    <updated>2026-10-21T18:17:12.000Z</updated>
+    <summary>Plays a sound when a DSH task completes, fails, or waits for approval, with per-category switches.</summary>
+  </entry>
+  <entry>
+    <title>REALOIYO/dsh-settings-button</title>
+    <id>https://github.com/REALOIYO/dsh-settings-button</id>
+    <link href="https://github.com/REALOIYO/dsh-settings-button"/>
+    <updated>2026-10-21T18:02:42.000Z</updated>
+    <summary>Adds a gear button beside the sidebar account row that opens the Settings panel in one click. It runs the host's own settings.open command, so it reaches the shell store directly instead of going through the account menu, and the behaviour is identical on desktop and on a phone over the LAN where no keyboard shortcut is available.</summary>
+  </entry>
+  <entry>
+    <title>diexianxiang/dsh-custom-splash</title>
+    <id>https://github.com/diexianxiang/dsh-custom-splash</id>
+    <link href="https://github.com/diexianxiang/dsh-custom-splash"/>
+    <updated>2026-10-21T18:02:30.000Z</updated>
+    <summary>A customizable video splash screen plugin for DSH. Replace the default startup with your own local video.</summary>
+  </entry>
+  <entry>
+    <title>wjf1/dsh-plugin-usage-analytics</title>
+    <id>https://github.com/wjf1/dsh-plugin-usage-analytics</id>
+    <link href="https://github.com/wjf1/dsh-plugin-usage-analytics"/>
+    <updated>2026-10-21T18:02:30.000Z</updated>
+    <summary>Local-first usage analytics for DSH: subscribes to session events and aggregates tool calls, turns, errors, latency and capability usage into daily tables, shown in a sidebar panel (6 KPIs, 14-day trend, top tools, capability breakdown) and served over a fenced local HTTP API with 18 JSON-RPC methods. Zero runtime dependencies, local mode makes no outbound requests, and no message bodies are collected.</summary>
+  </entry>
+  <entry>
+    <title>WaldInsel/dsh-desktop-agent-bridge</title>
+    <id>https://github.com/WaldInsel/dsh-desktop-agent-bridge</id>
+    <link href="https://github.com/WaldInsel/dsh-desktop-agent-bridge"/>
+    <updated>2026-10-21T18:02:30.000Z</updated>
+    <summary>Let external MCP agents delegate tasks to the existing DSH desktop, with visible sessions, user takeover, and optional approval handoff.</summary>
+  </entry>
+  <entry>
+    <title>yixing233/dsh-crabtodo</title>
+    <id>https://github.com/yixing233/dsh-crabtodo</id>
+    <link href="https://github.com/yixing233/dsh-crabtodo"/>
+    <updated>2026-10-21T18:02:30.000Z</updated>
+    <summary>A shared todo list for DeepSeek Harness: you and your agent manage the same tasks from a sidebar page or todo tools, with per-project and global todos, and one-click task references into the composer.</summary>
+  </entry>
+  <entry>
+    <title>klT45/dsh-config-vault</title>
+    <id>https://github.com/klT45/dsh-config-vault</id>
+    <link href="https://github.com/klT45/dsh-config-vault"/>
+    <updated>2026-10-21T18:02:30.000Z</updated>
+    <summary>Configuration vault for DeepSeek Harness: snapshot, diff and safely roll back profile patches, plugin manifests, skills and workspace lists, with credentials excluded by default.</summary>
+  </entry>
+  <entry>
+    <title>Asza-other/dsh-narrator</title>
+    <id>https://github.com/Asza-other/dsh-narrator</id>
+    <link href="https://github.com/Asza-other/dsh-narrator"/>
+    <updated>2026-10-21T17:55:49.000Z</updated>
+    <summary>Watches a turn for long silences and, once the threshold passes, injects a user message asking the model to state in prose what it is doing before carrying on, so the turn keeps going. The same text is mirrored in a lower-left overlay above the composer. The silence threshold and the minimum gap between reports are set in minutes, the prompt can be replaced wholesale, and it runs with no runtime dependencies. Requires DSH 0.2.1+ and Node.js 18+.</summary>
+  </entry>
+  <entry>
+    <title>xt765/dsh-doubao-image</title>
+    <id>https://github.com/xt765/dsh-doubao-image</id>
+    <link href="https://github.com/xt765/dsh-doubao-image"/>
+    <updated>2026-10-21T17:55:49.000Z</updated>
+    <summary>Registers native doubao_generate_image and doubao_image_status Agent tools to automate Doubao Web (doubao.com) via Tabbit Browser, automatically extracting watermark-free 2.7K wm0 original images into local files and multimodal chat attachments.</summary>
+  </entry>
+  <entry>
+    <title>zirscard/dsh-taskboard-epic</title>
+    <id>https://github.com/zirscard/dsh-taskboard-epic</id>
+    <link href="https://github.com/zirscard/dsh-taskboard-epic"/>
+    <updated>2026-10-21T17:35:08.000Z</updated>
+    <summary>A client-side panel for DeepSeek Harness: it stacks the epic cards of a dsh-taskboard project in their epic:children order, shows the position, code, name and version of every module along the arc, and marks the start, middle and end modules. The order can be changed by drag or by buttons, and the new order is written back through the the taskboard own public update API, so it persists and is shared by everyone viewing the project. Requires the cloader/dsh-taskboard plugin.</summary>
+  </entry>
+  <entry>
+    <title>cheeseRatRat/dsh-buwang</title>
+    <id>https://github.com/cheeseRatRat/dsh-buwang</id>
+    <link href="https://github.com/cheeseRatRat/dsh-buwang"/>
+    <updated>2026-10-21T17:35:08.000Z</updated>
+    <summary>A private memory library for DSH with customizable personas that only records when you ask, storing everything locally in Markdown.</summary>
+  </entry>
+  <entry>
+    <title>zirscard/dsh-principles-audit</title>
+    <id>https://github.com/zirscard/dsh-principles-audit</id>
+    <link href="https://github.com/zirscard/dsh-principles-audit"/>
+    <updated>2026-10-21T17:35:08.000Z</updated>
+    <summary>Registers one `principles_audit` tool for DeepSeek Harness: it reviews a principle library for principle_id collisions and legacy ids, missing causal statements, boundaries, counter-examples or evidence, duplicate and near-duplicate principles, status-versus-confidence inconsistencies, long-stale entries and dimension-coverage gaps. Findings are severity-ranked and a hard gate turns them into pass, warn or fail, where every critical finding must be covered by a valid, unexpired exemption. The library is only read.</summary>
+  </entry>
+  <entry>
+    <title>zirscard/dsh-workpaper-gate</title>
+    <id>https://github.com/zirscard/dsh-workpaper-gate</id>
+    <link href="https://github.com/zirscard/dsh-workpaper-gate"/>
+    <updated>2026-10-21T17:35:08.000Z</updated>
+    <summary>Registers one `workpaper_gate` tool for DeepSeek Harness: it audits a workpaper set for completeness, covering both the target design or template itself and the instance-versus-template structure, with the rule list, template list and core-table list all configurable in one spec file. Findings come back as blocker, warning and info, and the workpapers are only read, never modified. Requires Python with openpyxl.</summary>
+  </entry>
+  <entry>
+    <title>zirscard/dsh-wind-finance</title>
+    <id>https://github.com/zirscard/dsh-wind-finance</id>
+    <link href="https://github.com/zirscard/dsh-wind-finance"/>
+    <updated>2026-10-21T17:35:08.000Z</updated>
+    <summary>Registers one `wind_finance` tool for DeepSeek Harness: it routes a financial question to the right Wind data domain, executes it over the Wind meta-router MCP endpoint (or the per-domain CLI in batch mode), and keeps a per-day receipt so the same dataset is not pulled twice against one shared daily quota. Authentication, quota and network failures are reported with their error codes instead of falling back to another data source. Credentials are read from the environment and are never bundled with the plugin.</summary>
+  </entry>
+  <entry>
+    <title>eloimovo/better-dsh-codex-effort-slider</title>
+    <id>https://github.com/eloimovo/better-dsh-codex-effort-slider</id>
+    <link href="https://github.com/eloimovo/better-dsh-codex-effort-slider"/>
+    <updated>2026-10-21T17:34:49.000Z</updated>
+    <summary>Takes over the model button in the DSH composer and opens its own two-level panel (provider list, then model list with search) built around a continuous draggable reasoning-effort slider: the fill runs blue to violet, higher levels add nebula and dust particles, and every level has its own color. Drag moves one level at a time, and picking a model keeps the panel open and repositions the slider to that model's middle level.</summary>
+  </entry>
+  <entry>
+    <title>EmptyVessel-000/dsh-file-history</title>
+    <id>https://github.com/EmptyVessel-000/dsh-file-history</id>
+    <link href="https://github.com/EmptyVessel-000/dsh-file-history"/>
+    <updated>2026-10-21T17:34:49.000Z</updated>
+    <summary>Per-turn checkpoints of the whole workspace: every turn ends with a snapshot, the files it changed are listed under that turn in the chat, and any turn can be restored — files, the conversation, or both. Capture is a whole-tree scan rather than a hook on write/edit tools, so edits made by shell commands, external editors or git leave a record too. Restoring the conversation forks it from that turn instead of cutting the original, and a restore can itself be undone. History sits in a shadow git repository under DSH_HOME and never touches your project .git. Requires Git &gt;= 2.20 and Node.js &gt;= 20.</summary>
+  </entry>
+</feed>
