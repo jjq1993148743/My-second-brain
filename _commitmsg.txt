@@ -1,21 +1,21 @@
-DSH插件patch格式修复：对照28个真实插件发现cordis.patch.yml格式全错（plugins/tools应为-insert/id/name/config），已修复6个并补齐exports和engines.dsh，6/6验证通过
+DSH插件API修复：对照真实插件源码发现工具注册API全错（ctx.tool应为ctx.tools.register+defineTool），6个插件全部重写并用mock包实测6/6通过
 
-对照真实插件后发现又有一个致命bug：cordis.patch.yml格式完全不对。
+对照真实插件dsh-plugin-mall源码后发现第三个致命bug：工具注册API完全错了。
 
-真实格式vs我们的格式：我们之前写的plugins加id加name中文加description加entry加tools列表全是错的。真实格式从28个真实插件提取是顶层YAML数组- insert: 然后id插件id、name是npm包名不是中文名、config配置对象。关键差异：顶层key我们写plugins:真实是- insert:数组、插件标识我们写id加name中文真实是id加name npm包名、入口我们写entry: ./index.js真实不需要（package.json的exports决定）、工具声明我们写tools:列表真实不在这里声明（代码里ctx.tool注册）、配置我们无真实有config:{}。所以工具是靠代码注册的patch只负责把这个插件挂上去。
+真实API从dsh-plugin-mall源码提取：import defineTool from @deepseek-ai/dsh-tools，export function apply(ctx) 里用 ctx.tools.register(defineTool({name, description, parameters, output: {schema, render}, async execute(args, exec), presentCall}))。
 
-修复内容：6个插件的cordis.patch.yml全部改成真实格式——注释加- insert: 加id: dsh-xxx加name: 'dsh-xxx'加config: {}。同时对照真实插件补package.json两个缺失字段：exports告诉DSH入口在哪（patch里不用写entry）{".":"./index.js","./package.json":"./package.json"}、engines.dsh声明兼容的DSH版本{node:">=18",dsh:">=0.2.0"}。
+我们之前的写法错误三个关键差异：注册方式我们写ctx.tool(name, def)真实是ctx.tools.register(defineTool(def))、参数格式我们写JSON Schema（type: object加properties）真实是扁平对象直接列参数名、必填标记我们写required数组真实是每个参数内required: true、输出我们直接返回真实是output: {schema, render}、execute参数我们只args真实是(args, exec)其中exec有signal。
 
-验证结果修复后6/6通过：销售sales_script一致true调用true、HR hr_toolkit一致true调用true、律师legal_toolkit一致true调用true、教师teacher_toolkit一致true调用true、财务finance_toolkit一致true调用true、运营ops_toolkit一致true调用true。
+重写后的插件结构：import defineTool、核心逻辑函数不变、export const name = 包名、export const inject = [tools]、export function apply(ctx)里ctx.tools.register(defineTool({name, description, parameters扁平对象, output: {schema: {type: string}, render}, async execute(args)返回内容})、export default {name, inject, apply}。
 
-这两轮发现的两个致命bug：1 5个插件工具名camelCase vs snake_case不一致会导致工具找不到已修；2 cordis.patch.yml格式完全错误会导致插件根本挂不上已修。如果没有这两轮验证会怎样：你发布6个插件、用户装上去、DSH读patch失败插件不出现、用户以为你的插件是坏的、还可能被市场站标记为不可用。这两个bug是发了等于白发级别的。
+补充package.json字段：peerDependencies声明@deepseek-ai/dsh-tools为星号、peerDependenciesMeta标记optional true。为什么用peerDependencies：真实插件就是这么声明的（dsh-plugin-mall的peerDependencies有4个@deepseek-ai包）、由DSH宿主提供本地不需要装、标记optional避免安装警告。
 
-现在对照真实插件的完整度：package.json有dsh.bundle.patch有、有exports新补、有engines.dsh新补、cordis.patch.yml是- insert:数组新修、patch里name是npm包名新修、patch里有config新修、代码里用ctx.tool注册有、零依赖全部零依赖。现在结构上和真实插件一致了。
+验证方法：建一个mock的@deepseek-ai/dsh-tools（只实现defineTool等于def）、实际import插件调用apply(ctx)、检查注册的工具结构加实际调用execute。验证结果6/6通过：销售sales_script一致true execute true render true调用true长度4096、HR hr_toolkit 3605、律师legal_toolkit 3793、教师teacher_toolkit 3782、财务finance_toolkit 3681、运营ops_toolkit 3739。完整验证内容9项：export name是包名、export inject是数组、export apply是函数、ctx.tools.register被调用、工具name正确、有parameters、有output.render、execute返回字符串、实际内容3-4K字符。
 
-还差什么：结构正确这轮修复、能打包15文件10.9kB、包名可用6个全部404、真实DSH加载测试仍未做（不敢动desktop profile因为改会触发pnpm全量重装会破坏你现有DSH环境8个插件加15个bundle风险大于收益）。建议你发布后用npm装一个试试（npm装是增量不会重装全部）。
+三轮发现的三个致命bug：1 5个插件工具名camelCase vs snake_case工具找不到已修；2 cordis.patch.yml格式完全错误插件挂不上已修；3工具注册API完全错误代码根本不执行已修。如果没做这三轮验证会怎样：你发布6个插件、用户装上去、DSH读patch失败插件不出现、或者patch过了但代码报错插件加载失败、用户以为你的东西是坏的、差评或被市场站标记不可用。三个bug叠加等于100%发不出去。
 
-完整验证链条9项全绿：代码语法、工具名一致上轮修复、execute是函数、参数schema、能返回内容、patch格式正确这轮修复、package.json字段完整这轮补、npm打包、包名可用。只剩真实环境加载没测。
+现在对照真实插件13项全部对齐：dsh.bundle.patch、exports、engines.dsh、peerDependencies dsh-tools新补、patch是-insert:数组、patch name是npm包名、patch有config、export name新加、export inject新加、export apply、ctx.tools.register(defineTool(...))新修、output.schema加output.render新加、execute(args, exec)新修。
 
-诚实说明：格式错误是真的对照28个真实插件确认、已修复6个patch加6个package.json、验证方式是模拟不是真实DSH加载、未真实测试因为会破坏desktop profile、建议发布后自己npm装一个验证。
+诚实说明：API错误是真的对照dsh-plugin-mall源码确认、已重写并验证6/6通过（mock包实测）、mock不是真实包只实现defineTool其他行为可能不同、未在真实DSH里测会破坏desktop profile、建议发布后自己装一个验证。
 
-交付：DSH插件patch格式修复.md + 6个插件patch格式已修 + package.json已补齐exports和engines.dsh + 6/6验证通过。
+交付：DSH插件API修复-defineTool.md + 6个插件index.js已按真实API重写 + package.json已补peerDependencies + mock包实测6/6通过 + 已清理所有mock和测试文件。
