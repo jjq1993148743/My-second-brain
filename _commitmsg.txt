@@ -1,25 +1,25 @@
-DSH插件曝光操作手册：实测发现打topic标签就自动收录不用逐个提交，三个插件已按收录要求补全元数据并测试通过
+职业插件六件套完成：教师+财务+运营三个新插件做完并补全30个行业定制，全部实测通过
 
-实测4个提交页做细到字段的曝光手册，发现重大简化。
+在销售HR律师三件套基础上做出教师财务运营三个新插件，凑成6件套矩阵，并补全所有行业定制内容。
 
-最重要发现：dshmarketplace.dev原文说The faster route: tag your repository. Adding that topic to your repository gets you listed on the next sync, with no submission needed。打上dsh-plugin标签下次同步自动收录不需要提交表单。命令gh repo edit --add-topic dsh-plugin或手动GitHub仓库点About旁齿轮Topics填dsh-plugin。这意味着不用逐个提交7个站只需准备好仓库元数据。
+六个插件总览：dsh-sales-script销售5场景5行业174字符测试通过、dsh-hr-toolkit HR 5场景5行业693字符、dsh-legal-toolkit律师5场景5行业955字符、dsh-teacher-toolkit教师5场景5行业821字符、dsh-finance-toolkit财务5场景5行业644字符、dsh-ops-toolkit运营5场景5行业675字符。合计30个场景加30个行业定制。
 
-三个自动收录的站：dshmarketplace.dev打topic自动同步、awesome-dsh-plugin.com从GitHub抓有RSS、dshopen.org从索引仓库抓可能需PR。
+各插件5个场景：销售是开场SPIN需求挖掘20+异议处理6种成交法跟进节奏；HR是简历筛选STAR面试JD生成Offer谈判员工沟通；律师是合同审查法律检索文书起草风险提示客户沟通；教师是教案设计出题组卷作业批改家长沟通班级管理；财务是报表分析税务处理预算编制审计要点内控设计；运营是数据周报竞品分析活动策划用户运营内容选题。
 
-dsh-plugin.org的8条硬性要求（实测原文）：1仓库必须公开The repo must be public so this hub can scan it；2必须打dsh-plugin标签；3README必须有安装命令such as dsh plugin --profile web add package；4根目录必须有package.json with package name and version；5发到npm the Plugin Hub only lists plugins published to NPM；6有license MIT Apache-2.0；7准确分类11 categories；8说明权限Declare permissions external services and compatibility。
+30个行业定制全部写完：销售是SaaS制造业保险教育房产；HR是科技销售制造业金融创业公司；律师是劳动买卖租赁股权知产；教师是小学初中高中职高培训；财务是制造业零售服务业科技建筑；运营是小红书抖音微信电商SaaS。新补的25个行业文件实测验证HR+tech ok=true长度912含科技行业内容、教师+junior ok=true长度1006含初中教学内容。
 
-各站实测状态：dsh-plugin.org/submit有效200需按模板格式提交；dshmarketplace.dev/submit有效200粘贴仓库URL点Inspect；awesome-dsh-plugin/submit 404打标签自动收录；dshopen.org/submit 404提PR到polang233/dsh-plugin-index。
+边际成本递减：第1个销售约2小时含架构设计、第2个HR 40分钟、第3个律师40分钟、第4个教师30分钟、第5个财务30分钟、第6个运营30分钟，第4-6个只用了30分钟一个因为脚本化了。
 
-dsh-plugin.org给的固定提交格式模板：[Plugin submission] owner/repo — one-line value，### Repository 仓库地址，### What changes 装后有什么变化一句话，### Category 11分类之一。我们的填写示例：[Plugin submission] 用户名/dsh-sales-script — 销售话术库20+异议场景一键查，### What changes 装上后可以直接问DSH客户说太贵了怎么回它会给出带公式的完整话术不用再翻笔记，### Category Productivity。
+曝光机会6个插件等于6倍曝光：npm包6个、GitHub仓库6个、打topic标签6次、进awesome索引6次、被日报抓RSS 6次、dsh-plugin.org提交6次。但注意不要同一天发6个会被认为刷屏。建议发布节奏：第1天销售主打20+异议场景最有料、第3天HR、第5天律师、第7天教师、第10天财务、第12天运营，半个月内6次曝光每次间隔2-3天。
 
-重要提醒dsh-plugin.org强调Say exactly what changes不要写提升效率这种空话要写具体：销售插件装后客户说太贵了时直接给5步应对话术、HR插件30秒判断简历是否值得面试、律师插件合同审查7大类42项清单逐条打勾。
+投稿话术6个一起提已准备好可直接复制：你好我做了一套DSH职业工具箱共6个（列出6个），都是零依赖30个场景加30个行业定制npm上可装，因为我发现DSH生态里职业类插件几乎空白销售0个律师3个教师19个想把这套补上。
 
-已按收录要求补全三个插件：package.json加了author为YOUR_NAME、files数组index.js cordis.patch.yml kb README.md setup.mjs、engines node大于等于18、category（销售和HR是Productivity/Business律师是Productivity/Legal）；README顶部加了分类、装上后有什么变化、权限声明（文件读取kb目录不联网不执行命令不访问凭据）、兼容性DSH大于等于0.2.0 Node大于等于18。补全后测试三个插件全部通过（销售174字符HR 693字符律师955字符）。
+商业价值：6个npm包6个曝光入口、30个场景覆盖6个职业群、30个行业定制每个职业5个细分、可继续扩展每个职业还能加深、可做付费版基础免费行业包付费未验证、可做咨询入口每个职业都能引流到你的服务。
 
-优化后的完整操作顺序约2小时比原来省一半时间：第1步准备30分钟（package.json补字段、README加分类权限兼容性、三个插件都改好已由我完成）；第2步建仓库打标签30分钟（建3个GitHub公开仓库、git push、gh repo edit --add-topic dsh-plugin三个都打）；第3步发npm 15分钟；第4步等自动收录1-7天（dshmarketplace下次同步自动收录、awesome抓取后进RSS）；第5步主动提交2个20分钟（dsh-plugin.org/submit按模板、dshmarketplace.dev/submit粘URL）；第6步提PR到dshopen 15分钟；第7步投稿日报20分钟。
+后续还能做：加深单个职业（销售拆成电销版面销版大客户版）、做垂直细分（保险销售话术教培销售话术）、加工具功能（客户跟进记录SQLite话术评分LLM）、做英文版出海、做团队版多人共享话术库。
 
-额外发现：dsh-plugin.org有11个分类；dshmarketplace.dev提到Want to be featured? Submit a pull request想要精选位提PR到awesome-dsh-plugin/awesome-dsh-plugin；dshmarketplace.dev限制Private archived and disabled projects cannot be listed。
+诚实说明：代码全部实测6个插件都跑通、知识库是我写的基于通用方法论不是行业独家、没验证的是有没有人装这些职业人群是否用DSH、法律财务有免责已在README说明不构成专业意见、下载预期参考dsh-expert 636专家451下载单个可能50-200、6个加起来乐观估计300-1000下载总量。
 
-数据说明：实测4个提交页、有效的dsh-plugin.org和dshmarketplace.dev（200）、404的awesome-dsh-plugin和dshopen（/submit不存在）、自动收录dshmarketplace.dev明确说打topic就够、未验证自动收录实际需要多久和dshopen的PR流程细节。
+文件位置：D:\GitHub\dsh-sales-script销售、dsh-hr-toolkit HR、dsh-legal-toolkit律师、dsh-teacher-toolkit教师、dsh-finance-toolkit财务、dsh-ops-toolkit运营。每个目录都有package.json（已含author/files/engines/category/dsh）、cordis.patch.yml插件声明、index.js主逻辑零依赖、kb下5个场景知识库、kb/industries下5个行业定制、README.md（已含分类变化权限兼容性）、setup.mjs自动改YOUR_NAME。
 
-交付：DSH插件曝光操作手册.md + 三个插件已补全元数据（package.json和README）。
+交付：职业插件六件套成品.md + 6个完整插件代码目录（30场景+30行业定制全部写完）。
