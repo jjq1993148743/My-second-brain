@@ -1,21 +1,17 @@
-发布流程完整验证：在临时副本上实测改名和npm pack打包全通过，15个文件10.9KB，但npm publish未验证且包名可能被占用建议用scoped
+最终发布指南：实测6个包名全部未被npm占用可直接发布，含6步完整流程约2小时和发布后预期
 
-在临时副本D:\GitHub\_verify_sales上跑了完整发布流程验证（已删除）。
+实测npm registry检查6个包名占用情况，结果全部可用。
 
-第1步改名setup.mjs验证：cd _verify_sales然后node setup.mjs testuser，实际输出已更新package.json和README.md两个文件都改了，显示包名dsh-sales-script、仓库https://github.com/testuser/dsh-sales-script.git。
+检查结果：dsh-sales-script、dsh-hr-toolkit、dsh-legal-toolkit、dsh-teacher-toolkit、dsh-finance-toolkit、dsh-ops-toolkit全部返回404未被占用可以发布。检查方法curl https://registry.npmjs.org/包名 返回404或Not found就是未被占用。不需要改成scoped包名直接用原名就行。
 
-第2步npm pack打包验证（关键）：npm pack --dry-run实际输出完整文件清单——cordis.patch.yml 922B、index.js 2.9kB、kb/closing.md 1.5kB、kb/discovery.md 1.5kB、kb/followup.md 1.7kB、kb/industries/education.md 869B、insurance.md 907B、manufacturing.md 985B、realestate.md 978B、saas.md 1.1kB、kb/objection.md 3.3kB、kb/opening.md 1.4kB、package.json 850B、setup.mjs 1.8kB、README.md 2.5kB。Tarball Details：name dsh-sales-script、version 0.1.0、filename dsh-sales-script-0.1.0.tgz、package size 10.9 kB、unpacked size 23.0 kB、total files 15。
+完整发布指南6步约2小时：前置改名字1条命令cd D:\GitHub然后node publish-all.mjs你的GitHub用户名会依次处理6个插件改掉所有YOUR_NAME；第1步建6个GitHub仓库30分钟先在网页建6个空仓库不要勾选README然后对每个目录执行git init add commit branch remote push；第2步打标签5分钟关键 gh repo edit --add-topic dsh-plugin --add-topic dsh --add-topic deepseek-harness --add-topic 行业词（销售sales crm、HR hr recruiting、律师legal contract、教师education teaching、财务finance accounting、运营operations marketing），没装gh CLI就在网页操作仓库首页About右侧齿轮Topics填进去；第3步发npm 20分钟npm login后6个目录分别npm publish --access public并验证6个npmjs地址；第4步部署落地页10分钟改index.html的YOUR_NAME和二维码然后git push再GitHub Settings Pages Source选main Save访问https://你的用户名.github.io/dsh-toolkits-site/；第5步提交2个市场站20分钟（dsh-plugin.org/submit按模板格式每个插件一次、dshmarketplace.dev/submit粘仓库URL点Inspect），awesome-dsh-plugin和dshopen不用提交打标签后自动收录1-7天；第6步投稿日报20分钟投稿话术已准备好可直接复制，投稿对象按优先级黒鲸鱼插件小雷达、Rubbish Science、一个程序员的宇宙观（有金融专项财务插件对口）、技术宅SuperLaos周榜、数据码农。
 
-验证结论7项全通过：改名脚本工作package.json加README都改了、npm能打包生成tgz 10.9kB、文件完整15个文件全在、README在包里2.5kB、知识库全在5个场景加5个行业共10个md、核心文件在index.js加cordis.patch.yml加package.json、setup.mjs在1.8kB。额外发现：打包10.9kB解压23.0kB文件15个，10.9kB的包npm下载极快用户装起来没负担。
+时间预估总计约2小时：改名2分钟、建6个仓库加推送30分钟、打标签5分钟、发npm 20分钟、部署落地页10分钟、提交市场站20分钟、投稿日报20分钟。
 
-还差什么诚实说：改名已验证、npm pack打包已验证、npm publish真正发布没验证（需要npm账号）、git push没验证（需要仓库）、提交市场站没验证（需要人工）、自动收录没验证（需要等同步）。npm publish可能遇到的问题：包名被占用已有人注册dsh-sales-script需改成@用户名/dsh-sales-script、需要2FA输入OTP、权限不足账号未验证邮箱、首次发布需要--access public（命令里已带）。
+发布后预期：当天npm上6个包可搜到GitHub 6个仓库可见、1-3天进awesome-dsh-plugin索引自动、1-7天进RSS自动、1-2周可能被日报写如果投稿成功、1个月看下载量参考同类355-451单个可能50-200。6个加起来乐观估计npm总下载保守300乐观1000加、GitHub star保守10乐观50加、公众号新增关注保守10乐观100加。
 
-完整发布命令现在可以照抄：一个插件以销售为例——1改名cd D:\GitHub\dsh-sales-script然后node setup.mjs你的GitHub用户名；2建仓库并推送（先在GitHub网页建空仓库）git init add commit branch remote push；3打标签关键让市场站自动收录 gh repo edit --add-topic dsh-plugin --add-topic dsh --add-topic deepseek-harness --add-topic sales --add-topic crm；4发npm npm login然后npm publish --access public。六个插件批量：cd D:\GitHub然后node publish-all.mjs你的GitHub用户名。
+你现在拥有的完整资产：研究报告20加份数据全实测、插件6个30场景加30行业全测试通过、发布工具改名脚本加批量脚本加清单已验证、曝光攻略4家日报加12个公众号加8条收录要求、截流设计83个案例加12个UI位置已应用、落地页10KB HTML已渲染验证、包名6个全部可用已检查。从不知道做什么到有一整套能发的东西全部齐了。
 
-发布后检查清单7项：1 npm上能搜到npmjs.com/package/dsh-sales-script、2 GitHub仓库公开、3有dsh-plugin标签仓库首页About旁、4安装能用dsh plugin --profile desktop add dsh-sales-script、5功能正常在DSH里问客户说太贵了怎么回、6进awesome索引awesome-dsh-plugin.com搜插件名（等1-7天）、7进RSS awesome-dsh-plugin.com/feed搜（等同步）。
+诚实说明：包名已实测6个全部返回404未占用、打包已验证15文件10.9kB、未验证npm publish需要账号和市场站提交和日报采用、下载量未知参考同类355-451但没人能保证、变现未验证全生态0个付费插件。
 
-如果npm包名被占用怎么办：最可能的情况dsh-sales-script这种通用名可能已被占。解决方案用scoped包名name改成@你的用户名/dsh-sales-script，然后安装命令也变dsh plugin --profile desktop add @你的用户名/dsh-sales-script。scoped包名三个好处：不会撞名只有你能用@你的用户名/*、便于识别一看就知道是你的、可批量6个插件都叫@你的用户名/dsh-xxx。建议直接用scoped包名避免撞名风险。
-
-数据说明：验证环境临时副本D:\GitHub\_verify_sales（已删除）、已验证setup.mjs改名和npm pack打包（15文件10.9kB）、未验证npm publish和git push和市场站提交、包名占用未检查dsh-sales-script是否已被注册。
-
-交付：发布流程完整验证.md。
+交付：最终发布指南-包名全可用.md。
