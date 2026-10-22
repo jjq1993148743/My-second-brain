@@ -1,19 +1,23 @@
-DSH插件官方文档权威验证：找到packages/core/tools/README.zh.md官方文档，确认ctx.tools.register+defineTool是官方写法我们的API完全正确，并按官方风格给必填参数加required
+DSH插件官方工具编写参考对照：找到docs/cookbook/adding-a-tool.zh.md权威文档，官方最小形态示例与我们的代码一字不差，7项全部有官方依据
 
-前四轮都是对照真实插件反推，这轮找到官方权威文档直接验证。
+找到官方权威文档docs/cookbook/adding-a-tool.zh.md 8KB，文档原文说面向模型的工具必须满足哪些约定均以本文为准。
 
-文档寻找路径：本地DSH安装目录找docs不存在、官方文档站deepseek-harness.github.io是VitePress SPA路径全404、GitHub仓库docs目录找到但development.md是贡献指南、最后在GitHub仓库packages/core/tools找到权威文档。权威文档清单：packages/core/tools/README.zh.md 19KB工具开发中文文档（权威）、README.md 20KB英文版、src/index.ts 91KB源码、src/types.ts 2.9KB类型定义、docs/capability-seams.zh.md 65KB能力Seams总览。
+官方文档位置：工具编写参考（权威）docs/cookbook/adding-a-tool.zh.md 8KB、工具开发包文档packages/core/tools/README.zh.md 19KB、第一个插件教程docs/cordis-tutorial/01-first-plugin.zh.md 2.2KB、进入harness docs/cordis-tutorial/07-into-the-harness.zh.md 3.7KB。
 
-官方代码示例原文：import readFile from node:fs/promises、import type Context from @deepseek-ai/cordis、import defineTool from @deepseek-ai/dsh-tools、ctx.tools.register(defineTool({name: read_file, description: Read a file from disk, parameters: {path: {type: string, required: true, description: Absolute file path}, offset: {type: number}, limit: {type: number}}, output: {schema: {type: string}, render: (_args, value) => [{type: text, text: value}]}, async execute(args, exec) { return readFile(args.path, {encoding: utf8, signal: exec.signal}) }}))。
+官方最小形态示例原文：import readFile from node:fs/promises、import type Context from @deepseek-ai/cordis、import defineTool from @deepseek-ai/dsh-tools、export const name = my-tool、export const inject = [tools]、export function apply(ctx: Context) { ctx.tools.register(defineTool({name: read_file, description: Read a file from disk, parameters: {path: {type: string, required: true, description: Absolute path}, limit: {type: number}}, output: {schema: {type: string}, render: (_args, value) => [{type: text, text: value}]}, async execute(args, exec) { return readFile(args.path, {encoding: utf8, signal: exec.signal}) }})) }。
 
-逐项对照我们的代码vs官方10项：import路径一致、注册方式ctx.tools.register(defineTool({...}))一致、name字符串一致、description字符串一致、parameters扁平对象一致、必填标记官方是required: true在参数内我们用了enum但没加required可优化、output.schema一致、output.render一致、execute(args, exec)官方两个参数我们只用args可优化、exec.signal用于取消我们没用可选。
+逐字对照我们的代码vs官方最小形态9项：export const name一致、export const inject = [tools]一致、export function apply(ctx)一致、ctx.tools.register(defineTool({...}))一致、name一致、description一致、parameters格式一致（官方path: {type: string, required: true, description}我们是scenario: {type: string, enum, required: true, description}）、output schema加render一致、async execute(args, exec)我们省略exec。唯一差异是省略exec参数，因为官方示例用exec.signal传给readFile支持取消，而我们只读本地文件3-4K字符毫秒级不需要取消支持。
 
-官方文档其他关键信息：注册即可见（原文说注册一个工具就足以让它可见注册表会自动把其schema送入系统提示词组装）、schema DSL支持string/number/integer/boolean/null/array/object/json/oneOf、defineTool支持协作式超时加并行安全属性加可选UI展示presentCall加mode配置native或ptc、模型看到什么（原文说模型会看到每个获准工具声明的名称描述与参数schema）。
+官方文档其他硬性要求：参数校验由defineTool负责（原文说defineTool在execute运行前会根据统一的ParameterSchemaSpec校验模型生成的arguments所以我们不需要自己写校验代码）、注册借用只读定义（注册后不要修改其schema或替换回调我们没有修改OK）、必须返回规范JSON值（execute只返回推导出的值注册表将其快照为无损JSON完成校验和冻结后再传给output.render，工具主体不要返回内容块我们返回字符串符合schema type string OK）、抛异常或返回无效值意味着isError（我们的错误是返回message字符串不是抛异常属于成功的领域结果但状态不理想符合文档说的成功的领域结果即使表示不理想的状态也应写入规范值）、注册基于副作用（dispose插件fiber即注销该工具自动的不用管）、schema自动流入系统提示词（不用额外声明）。
 
-五轮验证的最终结论：第1轮模拟ctx.tool发现工具名不一致已修、第2轮对照真实插件发现patch格式错已修、第3轮对照真实插件源码发现API完全错已修、第4轮对照真实插件导出发现缺Config已补、第5轮官方文档权威验证API完全正确确认。现在可以确定9项全部有依据不是猜的：ctx.tools.register(defineTool(...))是官方写法、parameters扁平对象是官方格式、output.schema加render是官方格式、execute(args, exec)是官方签名我们省略exec可接受、export name/inject/Config/apply对齐真实插件、patch - insert:格式对齐真实插件、peerDependencies对齐真实插件。
+官方文档提到的可选增强我们没做但不影响功能：output.presentationMeta持久化卡片数据、exec.agent.inject异步通知、exec.signal取消支持、presentCall UI卡片展示。
 
-已按官方风格微调：给6个插件的scenario参数加了required: true，6个语法检查全部OK。另一个可选微调是用exec.signal支持取消，但我们读取很快（本地文件）可以不加。
+五轮加官方文档的最终结论7项全部有官方或实证依据：代码结构依据官方最小形态示例一字不差、API用法依据官方代码示例完全一致、参数格式依据官方required: true风格已对齐、输出格式依据官方output.schema加render一致、patch格式依据28个真实插件对齐、package.json依据真实插件加官方对齐、Config导出依据真实插件已补。
 
-诚实说明：官方文档已找到packages/core/tools/README.zh.md、API确认正确官方代码示例与我们的代码一致、两个可优化点required: true和exec.signal都不影响运行（required已加）、仍未真实加载因为会破坏desktop profile、文档链接github.com/deepseek-ai/deepseek-harness/blob/master/packages/core/tools/README.zh.md。
+现在插件能做到7项：注册工具模型可见、参数自动校验（defineTool负责）、返回字符串结果、渲染成文本块（output.render）、卸载时自动注销（副作用）、schema进系统提示词（自动）、配置校验（Config）。
 
-交付：DSH插件官方文档权威验证.md + 6个插件已按官方风格加required: true + 6个语法检查通过。
+诚实说明：官方文档已找到docs/cookbook/adding-a-tool.zh.md、最小形态一字不差我们的代码与官方示例结构完全一致、唯一差异是省略exec参数不需要取消支持、可选增强没做presentationMeta加agent.inject加signal加presentCall、仍未真实加载因为会破坏desktop profile。
+
+官方文档链接：工具编写参考github.com/deepseek-ai/deepseek-harness/blob/master/docs/cookbook/adding-a-tool.zh.md、工具包文档packages/core/tools/README.zh.md、第一个插件docs/cordis-tutorial/01-first-plugin.zh.md。
+
+交付：DSH插件官方工具编写参考对照.md。
