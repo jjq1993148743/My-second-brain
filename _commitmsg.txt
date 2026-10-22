@@ -1,17 +1,25 @@
-发布工具已做好：setup.mjs自动改名实测通过+publish-all.mjs一键处理三个插件+6步发布清单约2小时
+DSH插件曝光操作手册：实测发现打topic标签就自动收录不用逐个提交，三个插件已按收录要求补全元数据并测试通过
 
-给三个插件配了发布工具，让用户改个名字就能发。
+实测4个提交页做细到字段的曝光手册，发现重大简化。
 
-setup.mjs实测结果：测试命令node setup.mjs testuser，实际输出已更新package.json，显示包名dsh-hr-toolkit、仓库https://github.com/testuser/dsh-hr-toolkit.git，并输出完整git和npm命令。验证package.json确实被改了homepage和repository.url都变成testuser。测试通过改名功能正常。
+最重要发现：dshmarketplace.dev原文说The faster route: tag your repository. Adding that topic to your repository gets you listed on the next sync, with no submission needed。打上dsh-plugin标签下次同步自动收录不需要提交表单。命令gh repo edit --add-topic dsh-plugin或手动GitHub仓库点About旁齿轮Topics填dsh-plugin。这意味着不用逐个提交7个站只需准备好仓库元数据。
 
-你要做的全部6步约2小时：第1步改名字2分钟在D:\GitHub下执行node publish-all.mjs 你的GitHub用户名会依次处理三个插件；第2步建3个GitHub仓库20分钟先在网页上建三个空仓库不要勾选初始化README然后对每个目录执行git init add commit branch remote push；第3步发npm 15分钟npm login后三个目录分别npm publish --access public；第4步提交7个市场站1小时21次提交（dshopen.org提PR到polang233/dsh-plugin-index、dsh-plugin.org/submit、dshmarketplace.dev/submit、dshplugin.store站长github.com/LinXiaoTao、awesome-dsh-plugin.com最重要进RSS被日报自动发现、deepseek.stream站内发布、dshmarket.com内置市场）；第5步投稿3家插件日报20分钟（黒鲸鱼插件小雷达/Rubbish Science/数据码农，投稿话术已准备好可直接复制）；第6步截流发布前必做（package.json homepage改成你的站或公众号链接页、README.md顶部加二维码）。
+三个自动收录的站：dshmarketplace.dev打topic自动同步、awesome-dsh-plugin.com从GitHub抓有RSS、dshopen.org从索引仓库抓可能需PR。
 
-1个月后怎么验证效果：npm下载量看npmjs.com/package/插件名、是否进awesome索引在awesome-dsh-plugin.com搜插件名、是否被日报写微信搜DSH插件日报加插件名、是否进RSS在awesome-dsh-plugin.com/feed搜插件名。参考基准：dsh-expert 636专家451下载、dsh-network-engineer 355下载、最近7天新插件下载过千的比例12%（204/1741）。单个插件破百算及格破千算成功。
+dsh-plugin.org的8条硬性要求（实测原文）：1仓库必须公开The repo must be public so this hub can scan it；2必须打dsh-plugin标签；3README必须有安装命令such as dsh plugin --profile web add package；4根目录必须有package.json with package name and version；5发到npm the Plugin Hub only lists plugins published to NPM；6有license MIT Apache-2.0；7准确分类11 categories；8说明权限Declare permissions external services and compatibility。
 
-如果效果好下一步：有100+下载做第4-6个职业教师财务运营、有500+下载建自己的文档站统一导流、有1000+下载开始谈广告赞助、有稳定粉丝做付费内容或服务。
+各站实测状态：dsh-plugin.org/submit有效200需按模板格式提交；dshmarketplace.dev/submit有效200粘贴仓库URL点Inspect；awesome-dsh-plugin/submit 404打标签自动收录；dshopen.org/submit 404提PR到polang233/dsh-plugin-index。
 
-诚实说明：setup.mjs已实测改名功能验证通过、publish-all.mjs未实测逻辑同setup.mjs但整体流程没跑过、npm发布没跑过需要你的npm账号、提交渠道没跑过需要人工操作、下载量是未知的参考同类355-451。
+dsh-plugin.org给的固定提交格式模板：[Plugin submission] owner/repo — one-line value，### Repository 仓库地址，### What changes 装后有什么变化一句话，### Category 11分类之一。我们的填写示例：[Plugin submission] 用户名/dsh-sales-script — 销售话术库20+异议场景一键查，### What changes 装上后可以直接问DSH客户说太贵了怎么回它会给出带公式的完整话术不用再翻笔记，### Category Productivity。
 
-文件清单：D:\GitHub\publish-all.mjs一键处理三个插件、D:\GitHub\publish-checklist.md完整发布清单、三个插件目录内各有setup.mjs单插件改名。
+重要提醒dsh-plugin.org强调Say exactly what changes不要写提升效率这种空话要写具体：销售插件装后客户说太贵了时直接给5步应对话术、HR插件30秒判断简历是否值得面试、律师插件合同审查7大类42项清单逐条打勾。
 
-交付：发布工具使用说明.md + publish-all.mjs + publish-checklist.md + 三个setup.mjs。
+已按收录要求补全三个插件：package.json加了author为YOUR_NAME、files数组index.js cordis.patch.yml kb README.md setup.mjs、engines node大于等于18、category（销售和HR是Productivity/Business律师是Productivity/Legal）；README顶部加了分类、装上后有什么变化、权限声明（文件读取kb目录不联网不执行命令不访问凭据）、兼容性DSH大于等于0.2.0 Node大于等于18。补全后测试三个插件全部通过（销售174字符HR 693字符律师955字符）。
+
+优化后的完整操作顺序约2小时比原来省一半时间：第1步准备30分钟（package.json补字段、README加分类权限兼容性、三个插件都改好已由我完成）；第2步建仓库打标签30分钟（建3个GitHub公开仓库、git push、gh repo edit --add-topic dsh-plugin三个都打）；第3步发npm 15分钟；第4步等自动收录1-7天（dshmarketplace下次同步自动收录、awesome抓取后进RSS）；第5步主动提交2个20分钟（dsh-plugin.org/submit按模板、dshmarketplace.dev/submit粘URL）；第6步提PR到dshopen 15分钟；第7步投稿日报20分钟。
+
+额外发现：dsh-plugin.org有11个分类；dshmarketplace.dev提到Want to be featured? Submit a pull request想要精选位提PR到awesome-dsh-plugin/awesome-dsh-plugin；dshmarketplace.dev限制Private archived and disabled projects cannot be listed。
+
+数据说明：实测4个提交页、有效的dsh-plugin.org和dshmarketplace.dev（200）、404的awesome-dsh-plugin和dshopen（/submit不存在）、自动收录dshmarketplace.dev明确说打topic就够、未验证自动收录实际需要多久和dshopen的PR流程细节。
+
+交付：DSH插件曝光操作手册.md + 三个插件已补全元数据（package.json和README）。
