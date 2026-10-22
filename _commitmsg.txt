@@ -1,21 +1,21 @@
-awesome插件页完整结构拆解：实测39KB页面261行发现它完整抓README加识别简体中文链接加显示30天下载非总下载，已给7个插件README加英文首段和GitHub安装命令
+awesome分类体系分析：实测24个分类（中英文各24），privacy是0个插件的空分类，ui最拥挤1189个，已把7个插件分类对齐到usage/workflow/docs
 
-抓了awesome的插件详情页看清它到底展示什么，并据此优化7个插件。
+实测awesome的24个分类并据此调整7个插件的分类。
 
-页面完整结构实测261行：title是owner/repo加dsh plugin加分类名、面包屑、插件名、标签DeepSeek Harness Plugin、作者MichengAI、Stars 11、Downloads 30d 58982、Category、Added 2026-09-18、npm包名、英文描述、Install区块两条命令、安全警告长段、README区块完整内容。
+24个分类完整分布实测：ui 1189个平均1510最高232002最拥挤、tools 835个平均982、session 445个平均5439最高1772945均量最高、dev 423个1455、workflow 367个1370、model 349个1338、usage 334个1548、memory 272个1749、theme 243个1451、skill 242个1981、notify 241个1587、remote 196个2410、security 194个1277、fun 194个2052、git 143个2303、browser 139个2038、vision 134个1898、docs 100个1735、market 95个7707最高598350均量最高但被垄断、wsl 80个108均量极低、voice 80个1066、identity 48个958、agi 35个4132金矿、privacy 0个空分类。
 
-三个最有价值的发现：发现1它完整抓取README（README区块从第33行开始内容包含DSH Code Review标题、一句话说明Start a review in your conversation、简体中文语言切换链接、Developer docs、Changelog、Apache-2.0、正文前几段、Host compatibility兼容版本列表，README的前几段全部被展示在页面上）；发现2它自动识别简体中文链接（README里有简体中文被单独提取出来展示，说明它支持多语言README，如果你的README有中文版链接它可能会展示）；发现3它显示Downloads 30d（58,982）不是总下载，这比star更有说服力。
+三个关键发现：发现1 privacy是空分类（0个插件但中文分类页存在，可能原因新开的分类还没人提交、隐私类插件很少大家都做功能不做隐私、需求弱用户不太关心隐私但他们关心安全）；发现2 ui是最拥挤的（1189个占6378的19%每5个插件就有1个是ui类）；发现3 session的平均下载最高（5439但被billion-context一家占了73%）。
 
-Install区块的写法：展示两条命令——from npm prebuilt是dsh plugin --profile web add @michengai/dsh-code-review、from GitHub first run asks for allowBuilds approval是dsh plugin --profile web add github:MichengAI/dsh-code-review。关键细节：两条命令（npm版预构建加GitHub版）、注释说明差异、有copy install按钮方便复制。我们的README原来只有npm命令，建议加GitHub安装命令。
+分类的机会指数（平均下载除以插件数）：agi 118最高、market 81但被垄断、session 12、git 16、remote 12、fun 11、docs 17、skill 8、usage 4.6、ui 1.3最差、wsl 1.4。
 
-它还放了长段安全警告原文：Any plugin you install runs third-party code with your own permissions — it can read your files use your credentials and reach the network and tool approvals dont sandbox it；GitHub-sourced plugins also run build scripts at install time — pnpm blocks those until you allow them。这说明站点很重视安全、你的插件如果声明了权限会更容易被信任（我们已经在README里写了权限声明）、GitHub安装会触发构建脚本npm安装更安全（预构建）。我们的README有权限声明区块（不联网不执行命令不访问凭据）正好对上。
+分类对SEO的影响：分类名会出现在title里（title格式是owner/repo — dsh plugin · 分类名），分类页也是SEO入口（24个分类页乘以2中英文等于48个分类页面，每个分类页列出该类所有插件，你的插件会出现在分类页，分类页也有SEO权重从分类页能导流到你的插件页）。所以分类选对了能多一个SEO入口。
 
-一个反直觉的发现它展示的是30天下载不是总下载：Downloads 30d 58982加Stars 11，说明这个站用近30天下载作为核心指标而不是star，所以新插件只要下载涨得快就能排在前面这对新插件友好，我们的插件如果能快速起量在awesome上的排名会很好看。
+已做的调整：把7个插件的category从原来的Productivity/Usage等改成awesome的分类体系——dsh-cost-advisor从Productivity/Usage改成usage（省钱成本用量类正对口）、dsh-sales-script从Productivity/Business改成workflow、dsh-hr-toolkit改成workflow、dsh-legal-toolkit从Productivity/Legal改成docs、dsh-teacher-toolkit改成workflow、dsh-finance-toolkit改成docs、dsh-ops-toolkit改成workflow。README里的分类行也同步更新。验证7个全部通过：package.json的category和README里的分类都一致。
 
-已做的优化：给7个插件的README加了英文首段（> English: 一段英文说明）和GitHub安装命令（两条命令from npm prebuilt加from GitHub）。验证结果7个全部通过：都有标题、都有英文首段、都有npm命令、都有GitHub命令、都保留权限声明区块。示例cost-advisor的README开头是# dsh-cost-advisor加> English: DSH cost advisor — off-peak pricing reminders cache optimization context trimming model selection advice. Tells you how to spend less not just how much you spent. Zero dependencies.加中文一句话。
+这样覆盖usage/workflow/docs三个分类页，比全塞一个分类覆盖更多SEO入口。
 
-完整页面结构图：title SEO关键→面包屑插件名标签→作者Stars Downloads30d Category Added npm包名数据展示→英文描述你写的description→Install两条命令→安全警告长段→README你的README开头（标题一句话简体中文链接Developer docs Changelog License正文前几段Host compatibility）。
+一个策略建议：如果想最大化曝光——①分散到不同分类（7个插件分到usage/workflow/docs三类覆盖更多分类页）②抢占空分类（privacy有0个插件如果你做隐私类插件就能独占）③避开ui（1189个最拥挤）。
 
-诚实说明：页面结构是实测抓了39KB HTML 261行文本、README被抓取是实测页面第33行开始有README区块、识别简体中文是观察README里的简体中文被单独展示、未验证我们的插件被抓取后长什么样、Downloads 30d是实测页面上明确写Downloads 30d。
+诚实说明：24个分类是实测从sitemap提取中英文各24个、各分类数量是实测从6378插件索引统计、privacy 0个是实测分类页存在但没插件、分类是我们自己填的package.json的category字段、站点是否按我们的category分类未验证可能它自己判断。
 
-交付：awesome插件页完整结构拆解.md + 7个插件README已加英文首段和GitHub安装命令（全部验证通过）。
+交付：awesome分类体系分析.md + 7个插件分类已对齐awesome体系（usage/workflow/docs，全部验证通过）。
