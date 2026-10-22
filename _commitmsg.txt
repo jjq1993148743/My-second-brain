@@ -1,19 +1,19 @@
-DSH插件Config补充：对照真实插件发现缺Config导出，已用schemastery补上并8项检查6/6全绿，四轮共修复4个问题
+DSH插件官方文档权威验证：找到packages/core/tools/README.zh.md官方文档，确认ctx.tools.register+defineTool是官方写法我们的API完全正确，并按官方风格给必填参数加required
 
-对照两个真实插件（dsh-plugin-mall和git-graph）发现它们都导出Config，我们之前没有，已补上。
+前四轮都是对照真实插件反推，这轮找到官方权威文档直接验证。
 
-真实插件的完整导出：dsh-plugin-mall导出name、inject包含tools jobs systemPrompt loader、Config用z.object定义（defaultProfile、apiBase、perPageMax、allowRestart）、apply(ctx, config)。git-graph导出Config apply inject。关键点：name插件名真实插件都有、inject声明依赖的服务如tools必需、Config配置schema用schemastery真实插件都有、apply(ctx, config)插件入口必需。我们之前缺了Config。
+文档寻找路径：本地DSH安装目录找docs不存在、官方文档站deepseek-harness.github.io是VitePress SPA路径全404、GitHub仓库docs目录找到但development.md是贡献指南、最后在GitHub仓库packages/core/tools找到权威文档。权威文档清单：packages/core/tools/README.zh.md 19KB工具开发中文文档（权威）、README.md 20KB英文版、src/index.ts 91KB源码、src/types.ts 2.9KB类型定义、docs/capability-seams.zh.md 65KB能力Seams总览。
 
-补充内容：1加import z from @deepseek-ai/schemastery；2加export const Config = z.object({})；3更新default export为{name, inject, Config, apply}；4 package.json补peerDependencies声明@deepseek-ai/schemastery为星号加peerDependenciesMeta标记optional true。
+官方代码示例原文：import readFile from node:fs/promises、import type Context from @deepseek-ai/cordis、import defineTool from @deepseek-ai/dsh-tools、ctx.tools.register(defineTool({name: read_file, description: Read a file from disk, parameters: {path: {type: string, required: true, description: Absolute file path}, offset: {type: number}, limit: {type: number}}, output: {schema: {type: string}, render: (_args, value) => [{type: text, text: value}]}, async execute(args, exec) { return readFile(args.path, {encoding: utf8, signal: exec.signal}) }}))。
 
-完整验证8项检查6/6全绿：销售HR律师教师财务运营全部 name=✓ inject=✓ config=✓ apply=✓ toolName=✓ exec=✓ render=✓ call=✓。8项检查含义：name是export name等于包名、inject是数组且含tools、config是export Config存在、apply是函数、toolName注册的工具名正确、exec是execute是函数、render是output.render是函数、call是实际调用返回3-4K字符。
+逐项对照我们的代码vs官方10项：import路径一致、注册方式ctx.tools.register(defineTool({...}))一致、name字符串一致、description字符串一致、parameters扁平对象一致、必填标记官方是required: true在参数内我们用了enum但没加required可优化、output.schema一致、output.render一致、execute(args, exec)官方两个参数我们只用args可优化、exec.signal用于取消我们没用可选。
 
-四轮发现的问题汇总：1 5个插件工具名camelCase vs snake_case工具找不到已修；2 cordis.patch.yml格式完全错误插件挂不上已修；3工具注册API错误ctx.tool代码不执行已修；4缺Config导出可能加载警告或失败已补。四个问题叠加等于100%不可用。
+官方文档其他关键信息：注册即可见（原文说注册一个工具就足以让它可见注册表会自动把其schema送入系统提示词组装）、schema DSL支持string/number/integer/boolean/null/array/object/json/oneOf、defineTool支持协作式超时加并行安全属性加可选UI展示presentCall加mode配置native或ptc、模型看到什么（原文说模型会看到每个获准工具声明的名称描述与参数schema）。
 
-现在对照真实插件14项全部对齐：dsh.bundle.patch、exports、engines.dsh、peerDependencies dsh-tools、peerDependencies schemastery新补、patch是-insert:数组、patch name npm包名、patch config、export name、export inject、export Config新补、export apply(ctx)、ctx.tools.register(defineTool(...))、output.schema加render。
+五轮验证的最终结论：第1轮模拟ctx.tool发现工具名不一致已修、第2轮对照真实插件发现patch格式错已修、第3轮对照真实插件源码发现API完全错已修、第4轮对照真实插件导出发现缺Config已补、第5轮官方文档权威验证API完全正确确认。现在可以确定9项全部有依据不是猜的：ctx.tools.register(defineTool(...))是官方写法、parameters扁平对象是官方格式、output.schema加render是官方格式、execute(args, exec)是官方签名我们省略exec可接受、export name/inject/Config/apply对齐真实插件、patch - insert:格式对齐真实插件、peerDependencies对齐真实插件。
 
-还差什么：结构完整14项对齐、语法正确6个node --check通过、mock验证6/6通过8项检查、真实DSH加载仍未做、presentCall可选没做（用于UI卡片展示）。为什么还是不做真实加载：改desktop profile会触发pnpm全量重装会破坏你现有的8个插件加15个bundle风险大于收益。建议发布后用npm装一个试试。
+已按官方风格微调：给6个插件的scenario参数加了required: true，6个语法检查全部OK。另一个可选微调是用exec.signal支持取消，但我们读取很快（本地文件）可以不加。
 
-诚实说明：Config缺失是真的对照两个真实插件确认、已补并验证6/6通过含config检查、mock不是真实包schemastery的mock只实现基本方法、presentCall没做真实插件有但可能是可选的、未真实测试建议你发布后验证。
+诚实说明：官方文档已找到packages/core/tools/README.zh.md、API确认正确官方代码示例与我们的代码一致、两个可优化点required: true和exec.signal都不影响运行（required已加）、仍未真实加载因为会破坏desktop profile、文档链接github.com/deepseek-ai/deepseek-harness/blob/master/packages/core/tools/README.zh.md。
 
-交付：DSH插件Config补充.md + 6个插件已补Config导出和schemastery peerDependency + 8项检查6/6全绿 + 已清理mock和测试文件。
+交付：DSH插件官方文档权威验证.md + 6个插件已按官方风格加required: true + 6个语法检查通过。
