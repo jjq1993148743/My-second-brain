@@ -1,23 +1,21 @@
-落地页已做好：单文件10KB深色主题HTML含6个插件卡片和截流入口，Chrome渲染验证通过，GitHub Pages免费部署3步
+发布流程完整验证：在临时副本上实测改名和npm pack打包全通过，15个文件10.9KB，但npm publish未验证且包名可能被占用建议用scoped
 
-生成一个完整的落地页，把6个插件和截流入口全放进去，作为截流闭环的最后一环。
+在临时副本D:\GitHub\_verify_sales上跑了完整发布流程验证（已删除）。
 
-文件位置D:\GitHub\dsh-toolkits-site\index.html单文件10KB加README.md部署说明687字节。渲染验证：Chrome加载成功输出9373字符，页面能正常渲染没有报错。
+第1步改名setup.mjs验证：cd _verify_sales然后node setup.mjs testuser，实际输出已更新package.json和README.md两个文件都改了，显示包名dsh-sales-script、仓库https://github.com/testuser/dsh-sales-script.git。
 
-页面包含6个区块：Hero大标题「6个职业工具箱让AI干你每天的活」加4个数据（6插件30场景30行业0依赖）；六个卡片每个插件有图标名称一句话价值安装命令标签；安装区完整命令（单个全部示例提问）；CTA 1「有问题想定制」公众号私信加GitHub；CTA 2「觉得有用」请我喝杯咖啡打赏；Footer版权加MIT。
+第2步npm pack打包验证（关键）：npm pack --dry-run实际输出完整文件清单——cordis.patch.yml 922B、index.js 2.9kB、kb/closing.md 1.5kB、kb/discovery.md 1.5kB、kb/followup.md 1.7kB、kb/industries/education.md 869B、insurance.md 907B、manufacturing.md 985B、realestate.md 978B、saas.md 1.1kB、kb/objection.md 3.3kB、kb/opening.md 1.4kB、package.json 850B、setup.mjs 1.8kB、README.md 2.5kB。Tarball Details：name dsh-sales-script、version 0.1.0、filename dsh-sales-script-0.1.0.tgz、package size 10.9 kB、unpacked size 23.0 kB、total files 15。
 
-设计特点：深色主题#0a0a0f背景符合开发者审美、渐变强调蓝到紫#4f8cff到#7c5cff、卡片悬停有抬升加边框高亮、响应式grid-template-columns repeat auto-fill minmax 320px 1fr自动适配、安装命令绿色等宽字体#3ddc84一眼能复制、零外部依赖纯HTML加CSS不加载任何CDN字体JS。单文件10KB加载极快不依赖任何外部资源。
+验证结论7项全通过：改名脚本工作package.json加README都改了、npm能打包生成tgz 10.9kB、文件完整15个文件全在、README在包里2.5kB、知识库全在5个场景加5个行业共10个md、核心文件在index.js加cordis.patch.yml加package.json、setup.mjs在1.8kB。额外发现：打包10.9kB解压23.0kB文件15个，10.9kB的包npm下载极快用户装起来没负担。
 
-部署3步免费：1在GitHub建仓库dsh-toolkits-site、2把index.html推上去、3仓库Settings Pages Source选main分支Save，等1分钟访问https://你的用户名.github.io/dsh-toolkits-site/。
+还差什么诚实说：改名已验证、npm pack打包已验证、npm publish真正发布没验证（需要npm账号）、git push没验证（需要仓库）、提交市场站没验证（需要人工）、自动收录没验证（需要等同步）。npm publish可能遇到的问题：包名被占用已有人注册dsh-sales-script需改成@用户名/dsh-sales-script、需要2FA输入OTP、权限不足账号未验证邮箱、首次发布需要--access public（命令里已带）。
 
-部署前必须改3处：1所有YOUR_NAME改成你的GitHub用户名、2「公众号私信」按钮的href改成你的公众号二维码图片或链接、3「请我喝杯咖啡」按钮的href改成你的打赏链接。
+完整发布命令现在可以照抄：一个插件以销售为例——1改名cd D:\GitHub\dsh-sales-script然后node setup.mjs你的GitHub用户名；2建仓库并推送（先在GitHub网页建空仓库）git init add commit branch remote push；3打标签关键让市场站自动收录 gh repo edit --add-topic dsh-plugin --add-topic dsh --add-topic deepseek-harness --add-topic sales --add-topic crm；4发npm npm login然后npm publish --access public。六个插件批量：cd D:\GitHub然后node publish-all.mjs你的GitHub用户名。
 
-部署后3个联动动作：1把6个插件的package.json homepage都改成这个落地页地址（市场站会显示这个链接用户点进来）、2 6个README顶部加落地页链接（从GitHub导流到落地页）、3插件输出水印里加落地页地址（用户用插件时看到）。这样形成插件→README→落地页→公众号→你的流量。
+发布后检查清单7项：1 npm上能搜到npmjs.com/package/dsh-sales-script、2 GitHub仓库公开、3有dsh-plugin标签仓库首页About旁、4安装能用dsh plugin --profile desktop add dsh-sales-script、5功能正常在DSH里问客户说太贵了怎么回、6进awesome索引awesome-dsh-plugin.com搜插件名（等1-7天）、7进RSS awesome-dsh-plugin.com/feed搜（等同步）。
 
-完整截流闭环现在有的：用户从市场站日报看到插件→装插件→用插件输出末尾有水印由dsh-xxx提供→看README看到作者其他插件加联系作者公众号→点homepage到落地页→落地页6个插件介绍加公众号二维码加打赏→关注公众号或打赏或装更多插件。每一层都有截流点用户跑不掉。
+如果npm包名被占用怎么办：最可能的情况dsh-sales-script这种通用名可能已被占。解决方案用scoped包名name改成@你的用户名/dsh-sales-script，然后安装命令也变dsh plugin --profile desktop add @你的用户名/dsh-sales-script。scoped包名三个好处：不会撞名只有你能用@你的用户名/*、便于识别一看就知道是你的、可批量6个插件都叫@你的用户名/dsh-xxx。建议直接用scoped包名避免撞名风险。
 
-后续如果想更专业：买域名dsh-toolkits.com约50元每年更专业可做SEO、加统计Umami或Plausible免费知道多少人访问、加邮件订阅Buttondown免费沉淀用户、加案例用户评价提高转化。
+数据说明：验证环境临时副本D:\GitHub\_verify_sales（已删除）、已验证setup.mjs改名和npm pack打包（15文件10.9kB）、未验证npm publish和git push和市场站提交、包名占用未检查dsh-sales-script是否已被注册。
 
-诚实说明：HTML已验证渲染Chrome加载成功9373字符、设计是我做的深色主题加渐变参考常见开发者工具站、未验证实际转化率（多少人从落地页关注公众号）、需要你改YOUR_NAME二维码打赏链接、部署需要你操作GitHub Pages设置。
-
-交付：落地页已做好.md + D:\GitHub\dsh-toolkits-site\index.html（10KB单文件可部署）。
+交付：发布流程完整验证.md。
