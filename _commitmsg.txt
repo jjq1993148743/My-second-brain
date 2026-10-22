@@ -1,0 +1,17 @@
+designer-perspective优化分析：定位到灵枢dsh-memory的7个skill里唯一的元技能，平台同类竞品实测（weiwen-law/KISS_Law/skill-bartender都是0下载而你的dsh-memory 26089），列出8个可优化点，结论是不要单独发skill要保持插件打包
+
+用户问第二大脑里「把后台逻辑梳理出来」的skill能不能优化、平台有没有同类的。
+
+定位结果：@furongjun1999/dsh-memory（灵枢=第二大脑）里有7个skill，只有designer-perspective是元技能（在动手前判断该不该做），其他6个lingshu-*是域入口（浏览器104单元/编译器116/图算法117/网络117/操作系统112/Python120）。designer-perspective结构很完整：SKILL.md 10028B + references 5份共29KB + scripts/designer.py 27131B + tests(cases.jsonl + selftest.py)，是7个里唯一工程化的。
+
+平台同类对比实测：全生态「元技能/认知」类只有5个。dsh-memory（你的）26089下载435星是白箱AGI架构元认知；weiwen-law-dsh（Shaky77）0下载15星是唯稳律白箱因果闸门；KISS_Law-DSH（Shaky77）0下载2星是唯稳律英文版；skill-bartender（MJorgin）0下载1星是任务到技能配对元技能；dsh-geolibre 826是误匹配。
+
+极重要的对比：同类元技能竞品下载全是0，而你的dsh-memory是26089。差异在于你是「插件+skill打包」有MCP有记忆库有工具能装能用能存数据，他们是「纯skill」只有一个SKILL.md只是一份说明书。结论：在这个生态里单独发skill几乎没人装（0下载），但把skill装进插件里就有26089下载，所以designer-perspective现在放在dsh-memory里是对的，单独拆出去发等于0下载。
+
+8个可优化点按优先级：🔴优先级1没有examples目录（只有references理论没有实例，建议加5个案例01-accept/02-reject/03-defer/04-blindspot/05-attribution，这是最大缺失有examples被采用率高很多）；🔴优先级2触发词缺口语表达（现在偏学术：设计者视角/全局观测/条件空间声明/资格裁决/四态判定/条件层归因/方向判断/白箱三问/该不该做/条件够不够，但用户实际会说「我有个想法」「这样做行不行」「要不要做」「值不值得」「先想清楚再做」「帮我理一下逻辑」「这事靠谱吗」「我该不该投入」这些都匹配不到）；🔴优先级3没有英文触发（trigger_words全中文，awesome抓英文，而且你已经有英文版竞品KISS_Law-DSH说明有人在做英文市场）；🟡优先级4 description太长（3段加负路由约400字，最佳实践是简洁加触发词密集）；🟡优先级5依赖降级路径没写清（compatibility写了「可选依赖md_cg不可用时降级为纯本地规则运算」但没写怎么降级降级后哪些功能没有）；🟡优先级6没说明和其他6个skill的关系（用户不知道什么时候用哪个，建议加路由表）；🟢优先级7没有30秒快速开始（现在How to execute是5个步骤加理论）；🟢优先级8版本元数据过时（version 1.0，last-reviewed 2026-09-10一个多月前）。
+
+战略建议不要单独发这个skill：数据证明同类纯skill竞品下载0，你的插件带skill下载26089，保持现状放在dsh-memory里，但可以①把examples补上提升实际使用率②在dsh-memory的README里突出它「不只存记忆还教你判断该不该做」③单独写一篇文章讲这个方法论内容引流比发skill有效，不做单独发一个skill包（0下载已实测）。
+
+诚实说明：7个skill是实测读了SKILL.md和目录、平台同类对比是实测从6378插件索引搜的、同类竞品0下载是实测、纯skill没人装是推断基于3个样本可能有其他因素、8个优化点是我的判断不是实测数据。
+
+交付：designer-perspective优化分析.md。
