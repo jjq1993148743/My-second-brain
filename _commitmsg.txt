@@ -1,25 +1,29 @@
-迁移方向结论修正：dsh-chat-import实际已覆盖25+平台含Trae/Qoder/Kimi，上轮说国产工具全空白是错的；真空白转向配置迁移
+配置迁移空白验证：cursorrules和windsurfrules确实0个但可能因为手动就能做，Skills已被skills-management占MCP 64个红海
 
-查npm实际数据后修正上轮错误判断。
+用7种配置格式逐个验证配置迁移是否真空白。
 
-证据：dsh-chat-import npm最新0.26.2（2026-10-20发布）、首次2026-08-13、版本数59个高频迭代、15933下载242星、仓库Nwflower/dsh-chat-import、依赖fzstd一个、体积2.88MB。keywords列了20个平台：claude-code codex chatgpt cursor gemini antigravity reasonix pi-coding-agent opencode zcode grokbuild openclaw hermes kimi kimi-cli qoder qoder-cli workbuddy trae trae-work。npm描述已从13家升级到25+。
+七种格式覆盖：.cursorrules 0个完全空白、.windsurfrules 0个完全空白、CLAUDE.md 5个少、prompts提示词模板6个少、AGENTS.md 23个有竞争、SKILL.md 24个已被占、mcpServers 64个红海。
 
-我上轮的判断对错：Trae我说空白实际已被覆盖我错了、Qoder我说空白实际已被覆盖我错了、Kimi我没提实际已覆盖、CodeBuddy通义灵码Comate MarsCode Windsurf Cline Aider JetBrains确实未覆盖我对了。结论我错了2个对了7个。
+已被占别做：Skills迁移已被skills-management做了（10164下载，一个页面管理本机所有coding agent的技能一键收编进DSH用户库，内置6600+技能市场，全平台收编打不过）；MCP配置迁移红海64个（dsh-mcp-connector 23177、dsh-mcp-registry 7038、dsh-mcp-manager-plus）；AGENTS.md 23个有竞争但有空间（dsh-dream、dsh-agent-instructions-editor、dsh-custom-instructions）。
 
-我为什么会错：①只看了插件索引的描述（索引说13家就以为只覆盖13家）②没查npm的keywords（keywords才是完整平台清单）③没查最新版本（索引描述是旧的npm最新是25+）④只看名字和描述搜平台名（平台名在keywords里不在描述里）。教训：判断某个方向是否空白必须查npm包的keywords和最新描述不能只看插件索引，索引可能滞后npm才是最新真相。
+真正空白cursorrules和windsurfrules：Cursor用户很多全球最流行AI IDE之一、Windsurf用户不少、规则文件是核心资产用户花时间写的项目规则、迁移是刚需从Cursor转DSH要带走规则、0个插件做完全空白。
 
-修正后仍空白的8个平台：CodeBuddy腾讯（可做）、通义灵码阿里（最值得中文用户最多）、Comate百度（可做）、MarsCode字节（可做）、Windsurf海外（可做）、Cline开源（可做）、Aider开源（一般）、JetBrains IDE生态（可做）。
+但要注意风险：dsh-agent-instructions-editor可能已部分覆盖它能编辑agent指令可能支持导入、规则文件格式很简单就是markdown用户手动复制也行、可能不是强需求手动复制5秒就能完成。最大疑问：如果手动就能做为什么要装插件。
 
-但要注意dsh-chat-import还在扩展：59个版本高频迭代可能随时补上你选的平台、它的策略是全平台通吃你做一个单平台很容易被它吸收、它有15933下载的先发优势用户会选覆盖面最广的。所以做单平台迁移可能被它吃掉，要做就做它做不了的。
+重新想什么才是手动做不到的：手动能做——复制.cursorrules到AGENTS.md、复制CLAUDE.md、复制提示词、复制SKILL.md、填MCP配置；手动做不到——批量迁移多个项目、自动检测项目里有哪些规则文件、合并冲突的规则、转换格式差异、验证迁移后的配置能用。
 
-什么是它做不了的：配置规则迁移（它只做对话历史不做.cursorrules/AGENTS.md等）真空白、技能提示词迁移（它只做对话）、MCP配置迁移（它不做MCP）、工作区项目结构迁移（它只导对话）、反向导出到更多平台（它只支持反向导出到Claude Code）。
+真正价值点：批量一次性迁移10个项目、自动发现扫描磁盘找出所有.cursorrules、格式转换Cursor规则到DSH AGENTS.md的格式差异、冲突合并多来源规则合并、验证迁移后检查是否生效。
 
-最有价值的空白配置迁移：现在dsh-config-manager 15221下载只做DSH自己的配置备份导入、dsh-chat-import 15933下载只做对话历史，空白是把其他工具的规则配置技能迁到DSH。具体迁什么：.cursorrules从Cursor到DSH的AGENTS.md、CLAUDE.md从Claude Code到DSH的AGENTS.md、.windsurfrules从Windsurf、自定义Skills从Claude Code Cursor到DSH的skills目录、MCP配置各家到DSH的mcpServers、提示词模板各家到DSH的prompt。
+修正后推荐：第1批量项目规则迁移（0个但需求待验证）、第2 CLAUDE.md迁移（5个少有空间）、第3提示词模板迁移（6个少有空间）、4 AGENTS.md增强（23个需差异化）、不做Skills迁移（被占）、不做MCP迁移（64个）。
 
-修正后推荐：第1规则配置迁移器（chat-import只做对话配置是真空难度中）、第2 Skills迁移器（把各家skills收编skills-management 10164下载验证难度中）、第3通义灵码对话迁移（chat-import没覆盖中文用户最多难度中）、第4 CodeBuddy Comate MarsCode迁移（都没覆盖但受众小）、不做Trae Qoder Kimi迁移（已被覆盖）。
+诚实结论：配置迁移是空白但不一定是需求，0个插件可能因为手动就能做。可能原因1没人想到是机会、可能原因2手动就行不值得做插件是陷阱。我倾向原因2可能性更大因为规则文件就是markdown。
 
-额外发现技术门槛：依赖fzstd一个用于解压很多agent的日志是压缩的、体积2.88MB不大说明核心逻辑不复杂、版本数59迭代很勤、首次发布2026-08-13生态第一天就在。技术门槛中等主要是摸清各家数据格式加解压加转换。难的不是代码是研究每家工具的文件格式。
+重新梳理真机会：对话历史迁移（需要解析各家二进制SQLite格式，chat-import 15933下载）、批量操作（一次处理很多项目没明确证据）、需要调用API（规则文件不需要但数据需要）、需要理解语义（用LLM转换合并规则未验证）。
 
-诚实说明：上轮错误我用插件索引的描述判断没查npm keywords、已修正Trae Qoder Kimi已被覆盖不是空白、仍不确定chat-import的25+到底包含哪些（keywords列了20个描述说25+）、没验证它对Trae的导入是否真的好用、风险是它高频迭代59版本随时可能补上新平台。
+重新看真正验证过的高下载插件在做什么：billion-context 177万上下文压缩手动做不到、cc-safety-net 5.7万实时拦截命令手动做不到、dsh-ops 2.3万Windows跑bash手动做不到、dsh-browser-cdp 1.7万让AI操作浏览器手动做不到、dsh-chat-import 1.6万解析各家对话格式手动做不到、dsh-config-manager 1.5万加密备份配置手动做不到。规律：高下载的插件都在做手动绝对做不到的事。配置迁移复制markdown手动就能做所以是0个也可能就是不该做。
 
-交付：DSH插件-迁移方向结论修正.md。
+修正后建议：第1重新考虑垂直职业预设（销售0个且知识库有真实价值）、第2中文场景加有梗（dsh-bili-scroll 5269加203星已验证）、第3批量规则迁移如果要做迁移（0个但需求待验证）、不做单平台对话迁移（chat-import已覆盖25+）、不做Skills MCP迁移（已被占）。
+
+数据说明：数据源awesome-dsh-plugin的plugins.json 6378个、格式覆盖用7种文件格式名在插件名描述里搜、0个的解释可能是没人做也可能是值得做、我的倾向是推测手动能做所以不需要是推理未验证。
+
+交付：DSH插件-配置迁移空白验证.md。
