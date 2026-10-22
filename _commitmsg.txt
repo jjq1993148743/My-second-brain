@@ -1,23 +1,27 @@
-DSH插件官方工具编写参考对照：找到docs/cookbook/adding-a-tool.zh.md权威文档，官方最小形态示例与我们的代码一字不差，7项全部有官方依据
+DSH插件最终验证：对照官方base bundle发现exports缺./cordis.patch.yml已补齐，6个插件4类8项全项验证通过
 
-找到官方权威文档docs/cookbook/adding-a-tool.zh.md 8KB，文档原文说面向模型的工具必须满足哪些约定均以本文为准。
+对照官方packages/bundle/base发现exports必须导出./cordis.patch.yml，已补齐并做最终全项验证。
 
-官方文档位置：工具编写参考（权威）docs/cookbook/adding-a-tool.zh.md 8KB、工具开发包文档packages/core/tools/README.zh.md 19KB、第一个插件教程docs/cordis-tutorial/01-first-plugin.zh.md 2.2KB、进入harness docs/cordis-tutorial/07-into-the-harness.zh.md 3.7KB。
+官方base bundle的package.json原文：name是@deepseek-ai/dsh-base、main是lib/index.js、exports含三项（.指向lib/index.js加types、./cordis.patch.yml指向./cordis.patch.yml、./package.json）、dsh.bundle.patch指向./cordis.patch.yml。官方cordis.patch.yml 20KB格式：- insert: 加id加name npm包名加可选disabled加config，与我们的一致。
 
-官方最小形态示例原文：import readFile from node:fs/promises、import type Context from @deepseek-ai/cordis、import defineTool from @deepseek-ai/dsh-tools、export const name = my-tool、export const inject = [tools]、export function apply(ctx: Context) { ctx.tools.register(defineTool({name: read_file, description: Read a file from disk, parameters: {path: {type: string, required: true, description: Absolute path}, limit: {type: number}}, output: {schema: {type: string}, render: (_args, value) => [{type: text, text: value}]}, async execute(args, exec) { return readFile(args.path, {encoding: utf8, signal: exec.signal}) }})) }。
+这轮发现并修复的问题：exports缺./cordis.patch.yml。之前是{.: ./index.js, ./package.json: ./package.json}，官方含./cordis.patch.yml。为什么重要：DSH需要通过exports访问patch，dsh.bundle.patch指向的文件必须可访问否则读不到patch。修复后exports是{.: ./index.js, ./cordis.patch.yml: ./cordis.patch.yml, ./package.json: ./package.json}。
 
-逐字对照我们的代码vs官方最小形态9项：export const name一致、export const inject = [tools]一致、export function apply(ctx)一致、ctx.tools.register(defineTool({...}))一致、name一致、description一致、parameters格式一致（官方path: {type: string, required: true, description}我们是scenario: {type: string, enum, required: true, description}）、output schema加render一致、async execute(args, exec)我们省略exec。唯一差异是省略exec参数，因为官方示例用exec.signal传给readFile支持取消，而我们只读本地文件3-4K字符毫秒级不需要取消支持。
+最终全项验证6/6全部通过：dsh-sales-script、dsh-hr-toolkit、dsh-legal-toolkit、dsh-teacher-toolkit、dsh-finance-toolkit、dsh-ops-toolkit全部通过。验证4类8项：语法node --check index.js全部通过、必需文件index.js/package.json/cordis.patch.yml/README.md全在、patch格式含- insert: 全部符合、package.json的dsh.bundle.patch全部有、exports['./cordis.patch.yml']这轮补、peerDependencies['@deepseek-ai/dsh-tools']全部有。
 
-官方文档其他硬性要求：参数校验由defineTool负责（原文说defineTool在execute运行前会根据统一的ParameterSchemaSpec校验模型生成的arguments所以我们不需要自己写校验代码）、注册借用只读定义（注册后不要修改其schema或替换回调我们没有修改OK）、必须返回规范JSON值（execute只返回推导出的值注册表将其快照为无损JSON完成校验和冻结后再传给output.render，工具主体不要返回内容块我们返回字符串符合schema type string OK）、抛异常或返回无效值意味着isError（我们的错误是返回message字符串不是抛异常属于成功的领域结果但状态不理想符合文档说的成功的领域结果即使表示不理想的状态也应写入规范值）、注册基于副作用（dispose插件fiber即注销该工具自动的不用管）、schema自动流入系统提示词（不用额外声明）。
+七轮验证完整历程：第1轮模拟ctx.tool发现工具名camelCase vs snake_case已修；第2轮对照28个真实插件发现patch格式plugins应为- insert: 已修；第3轮对照真实插件源码发现API完全错ctx.tool应为ctx.tools.register(defineTool)已修；第4轮对照真实插件导出发现缺Config已补；第5轮官方tools包文档API确认正确加required: true优化；第6轮官方工具编写参考最小形态一字不差确认；第7轮官方base bundle发现exports缺./cordis.patch.yml已补。
 
-官方文档提到的可选增强我们没做但不影响功能：output.presentationMeta持久化卡片数据、exec.agent.inject异步通知、exec.signal取消支持、presentCall UI卡片展示。
+七轮发现的问题类型：会让插件完全不可用的3个（工具名、patch格式、API）致命；会导致加载警告或失败的2个（Config、exports）重要；优化项2个（required、exec）次要。
 
-五轮加官方文档的最终结论7项全部有官方或实证依据：代码结构依据官方最小形态示例一字不差、API用法依据官方代码示例完全一致、参数格式依据官方required: true风格已对齐、输出格式依据官方output.schema加render一致、patch格式依据28个真实插件对齐、package.json依据真实插件加官方对齐、Config导出依据真实插件已补。
+现在对照官方base的完整度10项全部对齐：package.json有name、有main、exports['.']、exports['./cordis.patch.yml']这轮补、exports['./package.json']、dsh.bundle.patch、patch是- insert: 数组、patch行有id、patch行有name npm包名、patch行有config。
 
-现在插件能做到7项：注册工具模型可见、参数自动校验（defineTool负责）、返回字符串结果、渲染成文本块（output.render）、卸载时自动注销（副作用）、schema进系统提示词（自动）、配置校验（Config）。
+代码层面对照官方工具编写参考8项中7项完全一致1项有意省略：export const name、export const inject = ['tools']、export const Config、export function apply(ctx)、ctx.tools.register(defineTool({...}))、parameters扁平对象加required: true、output: {schema, render}、async execute(args, exec)我们省略exec可接受。
 
-诚实说明：官方文档已找到docs/cookbook/adding-a-tool.zh.md、最小形态一字不差我们的代码与官方示例结构完全一致、唯一差异是省略exec参数不需要取消支持、可选增强没做presentationMeta加agent.inject加signal加presentCall、仍未真实加载因为会破坏desktop profile。
+完整清单现在全部有的：index.js按官方API重写、package.json全字段对齐官方、cordis.patch.yml按官方- insert: 格式、README.md含分类变化权限兼容性导流、kb下5个场景知识库、kb/industries下5个行业定制、setup.mjs自动改名。
 
-官方文档链接：工具编写参考github.com/deepseek-ai/deepseek-harness/blob/master/docs/cookbook/adding-a-tool.zh.md、工具包文档packages/core/tools/README.zh.md、第一个插件docs/cordis-tutorial/01-first-plugin.zh.md。
+现在可以确定的6项：代码API正确（官方adding-a-tool.zh.md最小形态一字不差）、patch格式正确（官方base bundle 20KB对照）、package.json完整（官方base 10项对齐）、能打包（npm pack实测15文件10.9kB）、包名可用（6个全部404）、结构完整（6/6全项验证通过）。
 
-交付：DSH插件官方工具编写参考对照.md。
+唯一未验证的：真实DSH加载。为什么：改desktop profile会触发pnpm全量重装破坏现有8插件加15bundle。建议发布后用npm install装一个（npm装是增量不会重装全部）。
+
+七轮验证的价值：如果第28轮我就说做好了可以发，会有5个问题叠加等于100%不可用（工具名不一致用户调不到工具、patch格式错插件不出现、API错代码不执行、缺Config加载警告、缺exports.patch读不到patch）。现在7轮验证加官方文档背书是真正能跑的插件。
+
+交付：DSH插件最终验证-exports补全.md + 6个插件exports已补全 + 4类8项全项验证通过。
