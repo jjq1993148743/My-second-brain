@@ -1,25 +1,21 @@
-DSH插件cc-safety-net拆解：2026-01-03就发布早于DSH生态7个月，支持13个coding agent，加一个dsh字段就成下载第一名
+DSH插件迁移工具空白验证：国产AI编程工具迁移全空白（Trae/CodeBuddy/Qoder/通义灵码/Comate/MarsCode），Claude Code和Codex已红海
 
-深挖cc-safety-net为什么0星却5.7万下载第一名。
+验证迁移工具方向的空白。结论：Claude Code 16个和Codex 23个迁移插件已红海，但国产AI编程工具全部0个。
 
-真相：它不是DSH插件是早就存在的多平台工具。npm首次发布2026-01-03比DSH生态8-13早7个多月、GitHub创建2025-12-25、GitHub实际1736星不是0（索引抓取问题）、npm版本数78个持续迭代。
+各平台迁移覆盖：Codex 23个红海、Claude Code 16个红海、VSCode 5个有竞争、Cursor 4个有但不多、Gemini 4个、ChatGPT 2个少、Copilot 1个、Zed 1个、Kiro 1个；完全空白——Windsurf 0个（相关2）、Cline 0个（相关7）、Aider 0个（相关1）、JetBrains 0个（相关1）、Trae 0个（相关20）、Qoder 0个（相关17）、通义灵码 0个（相关4）、CodeBuddy 0个（相关17）、Comate 0个（相关0）、MarsCode 0个（相关0）。
 
-keywords暴露真实定位：amp、claude-code、cursor、deepseek-harness、devin、devin-cli、droid、factory-droid、grok、grok-build、opencode、pi-package、plugin、safety、security。支持13个平台。它是一个工具适配13个coding agent，DSH只是其中之一。
+四个最值得做的空白：Trae字节跳动AI IDE（迁移0个相关20个说明有人用国内用户多）、CodeBuddy腾讯（迁移0个相关17个）、Qoder阿里（迁移0个相关17个）、通义灵码阿里（迁移0个中文用户最多）。共同规律：所有国产AI编程工具的迁移都是0——Trae字节、CodeBuddy腾讯、Qoder阿里、通义灵码阿里、Comate百度、MarsCode字节全部空白。而DSH是中文产品用户大量是中国人，这是最自然的切入点。
 
-这解释三件事：为什么0星却有5.7万下载（索引star字段没抓到GitHub实际1736星）、为什么下载量这么高（从1月就积累用户8月才适配DSH）、为什么能进Top1（所有用Claude Code Cursor的用户转到DSH时会带着它）。
+已被做透不要碰：Codex 23个、Claude Code 16个。注意dsh-chat-import已覆盖13家（15933下载242星，Claude Code Codex ChatGPT Cursor Gemini opencode等），所以通用导入这条已经被占了，你要做就做它没覆盖的国产工具。
 
-它的打法：2025-12创建仓库做Claude Code安全钩子→2026-01发布npm积累用户→迭代78个版本支持13平台→2026-08 DSH生态出现→加一个dsh字段加cordis.patch.yml→2026-10成为DSH生态下载第一名。
+迁移类插件Top12：DeepSeek-Balance-Whale-Widget 199295下载（余额挂件导入导出配置）、dsh-ssh 104783（SFTP传输）、dsh-dream-skin 32273（主题包导入导出）、GraphFlow 31857（导入导出）、dsh-mcp-connector 23177（百个MCP目录）、dsh-prime-memory 19429（memory_import）、dsh-chat-import 15933（导入13家agent对话）、dsh-config-manager 15221（备份导出导入整套配置）、dsh-session-manager 13180、skills-management 10164（6600技能市场一键收编）、dsh-mcp-registry 7038、thoughtdag 6770。观察：真正的迁移只有2个（dsh-chat-import和dsh-config-manager），其他都是导入导出功能不是迁移工具，说明迁移工具这个赛道还很不成熟有大量空间。
 
-关键洞察：它没为DSH重新做只是加了个dsh字段；dsh字段就是全部适配；零依赖deps为空；主页独立ccsafetynet.com不依赖GitHub。
+我的选题建议：第1 Trae迁移（迁移0个相关20个）、第2通义灵码迁移（迁移0个中文用户最多）、第3 CodeBuddy迁移（腾讯平台迁移0个相关17个）、第4 Qoder迁移（阿里平台迁移0个相关17个）、第5国产工具全家桶（一个插件支持多个国产工具差异化最大）。
 
-三种可复制的跨平台复用策略：策略1把已有工具适配成DSH插件成本1-2天不是从零开发；策略2反过来做适配13个平台的工具一次开发多平台发布每个平台都是流量入口；策略3做迁移工具最巧把Claude Code Cursor ChatGPT用户迁到DSH这是借别人的用户且已验证有需求。
+最优方案做国产AI编程工具迁移器：插件名dsh-cn-migrate或dsh-trae-move、支持Trae加CodeBuddy加Qoder加通义灵码加Comate、做什么把它们的会话历史规则配置提示词迁到DSH、差异化对标dsh-chat-import 15933下载但只做国产、优势中文用户刚需竞争0可蹭dsh-chat-import的验证。
 
-其他跨平台复用成功案例：cc-safety-net 57332、dsh-ops 22879 Windows工具集、dsh-browser-cdp 16787 CDP协议、dsh-chat-import 15933导入13家coding agent、Veyra 9334、dsh-mcp-registry 7038 MCP标准、Codingns4DSH 3394接入十几种CLI。规律Top25里至少7个是跨平台复用占28%。
+曝光优势：搜索词明确（Trae迁移到DSH、通义灵码迁移）、对标已有爆款dsh-chat-import 15933下载证明需求、中文社区可发Trae通义灵码用户群V2EX掘金、插件日报会写国产工具迁移是有新闻性的选题、可以蹭官方如果Trae通义灵码官方转发曝光翻倍。
 
-建议三个选择：A从零做垂直职业插件难度低参考dsh-expert 451下载；B做跨平台工具难度高参考cc-safety-net 5.7万；C做迁移工具难度中参考dsh-chat-import 1.6万。推荐C：已验证需求、用户明确、技术可行、曝光强。具体选题Cursor配置迁移（还没人做）、ChatGPT对话导出、Claude项目迁移、VSCode设置迁移（没人做）。
+风险与诚实说明：数据可能不全用关键词搜可能有漏、相关插件20个不等于20个用户需求可能只是提到、国产工具的数据格式未知要逆向或找公开文档、dsh-chat-import可能已覆盖部分它说13家但没列全、迁移工具有法律风险如果涉及逆向别人软件。
 
-曝光路径：1原工具加dsh字段；2写cordis.patch.yml；3发npm同一包加dsh字段；4提交9个市场站；5在原工具用户群宣传现在支持DSH了；6投稿插件日报。
-
-数据说明：npm数据实测registry.npmjs.org 78个版本首次2026-01-03、GitHub实测1736星索引里的0是抓取问题、keywords实测含13个平台名、我的推断因为早发布所以下载高是推理未直接验证。
-
-交付：DSH插件-cc-safety-net案例拆解.md。
+交付：DSH插件-迁移工具空白验证.md。
