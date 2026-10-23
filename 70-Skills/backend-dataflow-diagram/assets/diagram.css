@@ -1,0 +1,110 @@
+/* backend-dataflow-diagram v4 · 行对齐矩阵：每行=请求经过的一个段，六列一一对应 */
+*{box-sizing:border-box}
+body{margin:0;background:#f6f8fb;color:#0f172a;overflow-x:auto;
+  font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC","Segoe UI",system-ui,sans-serif}
+.wrap{max-width:2560px;min-width:1900px;margin:0 auto;padding:26px 26px 40px}
+
+header.page h1{margin:0;font-size:23px}
+header.page .sub{color:#64748b;font-size:13px;margin-top:6px;line-height:1.6}
+header.page .read{margin-top:10px;font-size:12.5px;color:#475569;background:#fff;
+  border:1px solid #e2e8f0;border-radius:9px;padding:8px 13px;display:inline-block;line-height:1.7}
+header.page .read b{color:#0f172a}
+header.page .read code{background:#f1f5f9;border-radius:4px;padding:1px 5px;
+  font-family:"Cascadia Mono",Consolas,monospace;font-size:11.5px}
+
+.legend{display:flex;gap:18px;flex-wrap:wrap;margin:14px 0 16px}
+.lg{display:flex;align-items:center;gap:7px;font-size:12.5px;color:#334155;font-weight:600}
+.lg i{width:13px;height:13px;border-radius:4px;display:block;background:var(--c,#64748b)}
+.lg.real i{background:#fff;border:1.5px solid var(--c,#2563eb)}
+.lg.proto i{background:#fffdf8;border:1.5px dashed var(--c,#b45309)}
+.lg.gap i{background:#fff7f7;border:1.5px dashed #dc2626}
+.lg.ext i{background:#faf7ff;border:1.5px solid #7c3aed}
+
+/* ---- 链路 ---- */
+.chain{background:#fff;border:1px solid #e2e8f0;border-radius:14px;margin-bottom:16px;
+  box-shadow:0 1px 3px rgba(15,23,42,.05);break-inside:avoid}
+.chead{padding:12px 16px 11px;border-bottom:1px solid #eef2f7}
+.cno-t{font-size:14.5px;font-weight:800;color:#2563eb;margin-right:9px}
+.cname{font-size:15.5px;font-weight:700}
+.centry{font-size:11px;color:#475569;background:#f1f5f9;border:1px solid #e2e8f0;
+  border-radius:999px;padding:2px 10px;margin-left:10px;font-family:"Cascadia Mono",Consolas,monospace}
+.cbiz{font-size:12px;color:#475569;line-height:1.65;margin-top:5px}
+.scroll{overflow:visible;padding:10px 16px 14px}
+.canvas{position:relative;min-width:1860px}
+.bands{position:absolute;left:0;top:0;bottom:0;width:100%;display:grid;grid-template-columns:repeat(8,minmax(168px,1fr));gap:0 64px;
+  pointer-events:none;z-index:0}
+.band{border-radius:14px;opacity:.75}
+svg.wires{position:absolute;left:0;top:0;pointer-events:none;z-index:0;overflow:visible}
+path.wire{fill:none;stroke:#475569;stroke-width:2.5;stroke-linejoin:round;marker-end:url(#arrowhead)}
+path.wire.hot{stroke:#2563eb;stroke-width:3.6;filter:drop-shadow(0 0 3px rgba(37,99,235,.5))}
+.tgrid{min-width:1860px;width:100%;position:relative;z-index:1}
+
+.trow{display:grid;grid-template-columns:repeat(8,minmax(168px,1fr));gap:0 64px;padding:44px 0}
+.trow.head{border-top:none;padding:0 0 8px;position:sticky;top:0;z-index:30;background:#fff}
+.trow.head .th{box-shadow:0 1px 4px rgba(15,23,42,.07)}
+.th{display:flex;flex-direction:column;align-items:center;gap:1px;text-align:center;
+  background:var(--cb,#f1f5f9);border-radius:10px;padding:8px 8px 7px;border:1px solid rgba(15,23,42,.06)}
+.th b{font-size:12.5px;color:#334155}
+.th span{font-size:9.5px;color:#94a3b8}
+
+.cell{display:flex;flex-direction:column;gap:32px;justify-content:flex-start}
+.none{color:#cbd5e1;font-size:15px;text-align:center;padding-top:26px}
+
+/* ---- 卡片：等宽（随列）等高，超出省略号，悬停出完整 ---- */
+.chip{position:relative;width:100%;height:100px;border-radius:9px;border:1.5px solid var(--c,#2563eb);
+  background:#fff;padding:8px 10px;display:grid;grid-template-rows:14px 20px 18px 18px;row-gap:4px;
+  align-content:start;overflow:hidden;cursor:default}
+.chip .crow{display:flex;align-items:center;justify-content:space-between;gap:6px;min-width:0;height:14px}
+.chip .cx{font-size:8.5px;font-weight:800;color:#fff;background:var(--c,#2563eb);
+  border-radius:5px;padding:0 6px;line-height:13px;height:13px;white-space:nowrap;letter-spacing:.2px}
+.chip .cx.hide{display:none}
+.chip .cno{font-size:9px;font-weight:800;color:#fff;background:var(--c,#2563eb);
+  border-radius:999px;padding:0 6px;line-height:13px;height:13px;min-width:14px;text-align:center;flex:none}
+
+
+.chip .cn{font-size:12.5px;font-weight:700;line-height:20px;width:100%;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip .cc{font-family:"Cascadia Mono",Consolas,monospace;font-size:10.5px;color:var(--c,#2563eb);
+  font-weight:700;line-height:18px;width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip .cd{font-size:10px;color:#64748b;line-height:18px;width:100%;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip[data-status="proto"]{border-style:dashed;border-color:#b45309;background:#fffdf8}
+.chip[data-status="proto"] .cc{color:#b45309}
+.chip[data-status="proto"] .cx{background:#b45309}
+.chip[data-status="gap"]{border-style:dashed;border-color:#dc2626;background:#fff7f7}
+.chip[data-status="gap"] .cc{color:#dc2626}
+.chip[data-status="gap"] .cx{background:#dc2626}
+.chip[data-status="ext"]{border-color:#7c3aed;background:#faf7ff}
+.chip[data-status="ext"] .cc{color:#7c3aed}
+.chip[data-status="ext"] .cx{background:#7c3aed}
+.chip{position:relative;z-index:2}
+.chip[data-status="real"]:hover{box-shadow:0 2px 8px rgba(15,23,42,.12)}
+
+/* 悬停气泡（原生 title 兜底，气泡增强可读性） */
+.chip:hover::after{content:attr(data-tip);position:absolute;left:4px;right:4px;bottom:calc(100% + 6px);
+  background:#0f172a;color:#fff;font-size:11px;font-weight:400;line-height:1.55;padding:7px 10px;
+  border-radius:8px;z-index:60;box-shadow:0 6px 16px rgba(15,23,42,.3);white-space:normal;pointer-events:none}
+.chip:hover{z-index:55}
+.trow:hover .chip:not(:hover){opacity:.92}
+
+/* ---- 面板 ---- */
+.panel{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:14px 16px 16px;
+  margin-bottom:16px;box-shadow:0 1px 3px rgba(15,23,42,.05);break-inside:avoid}
+.panel h2{margin:0 0 10px;font-size:15px}
+.tbl{width:100%;border-collapse:collapse;font-size:12px}
+.tbl th,.tbl td{border:1px solid #e2e8f0;padding:6px 9px;text-align:left;vertical-align:top;line-height:1.6}
+.tbl thead th{background:#f1f5f9;font-weight:700;font-size:11.5px;color:#334155}
+.tbl tbody tr:nth-child(even){background:#fbfdff}
+.tbl code{font-family:"Cascadia Mono",Consolas,monospace;font-size:11px;background:#f1f5f9;border-radius:3px;padding:0 4px}
+.tbl .term{font-weight:700}
+.tbl .en{font-family:"Cascadia Mono",Consolas,monospace;font-size:10.5px;color:#64748b}
+.gitem{display:flex;gap:9px;padding:7px 0;border-top:1px dashed #eef2f7;font-size:12px;line-height:1.65}
+.gitem:first-of-type{border-top:none}
+.gtag{flex:none;font-size:10px;font-weight:800;color:#fff;border-radius:5px;padding:1px 7px;height:18px;line-height:16px;background:#2563eb}
+.gtag.blocker{background:#dc2626}
+.gtag.warn{background:#b45309}
+.gitem b{color:#0f172a}
+
+footer.page{text-align:center;color:#94a3b8;font-size:11.5px;margin-top:10px;line-height:1.8}
+@media print{body{background:#fff}.wrap{max-width:none;padding:0 8mm}
+  .chain,.panel{box-shadow:none;break-inside:avoid}.scroll{overflow:visible}}

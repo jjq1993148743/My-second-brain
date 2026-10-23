@@ -1,0 +1,17 @@
+新增技能 backend-dataflow-diagram：把任意项目业务流程画成单文件HTML后端数据流向俯视图（八列分层+正交连线+五步工作流），12个文件101.5KB逐字节校验一致
+
+用户提供了现成技能，要求推送到第二大脑。
+
+技能来源三个位置：C:\Users\jjq21\.agents\skills\backend-dataflow-diagram（技能实际生效位置）、F:\FundCenter\backend-dataflow-diagram（工作区副本）、F:\FundCenter\backend-dataflow-diagram.zip（39KB压缩包）。
+
+复制到 70-Skills/backend-dataflow-diagram/，12个文件全部逐字节MD5校验一致。
+
+目录内容：SKILL.md 9753B（第0步判栈+八列版式+连线规则+五步工作流）、README.md 2688B用法速查、assets/（diagram.css 7056B色带卡片四行栅格sticky表头连线层、wires.js 5489B正交路由走缝中线圆角arrowhead、spec-template.json 4124B八列通用骨架）、scripts/（render.mjs 7662B规格JSON转HTML、verify.mjs 7471B事实校验多语言20+扩展名、check_layout.py 2903B布局闸门溢出穿卡贴边错位）、examples/（member-bindcard.json 13374B会员绑卡范例、member-v1-legacy.json 35100B旧格式存档）、references/（stack-recipes.md 2458B七种技术栈检索配方、project-profile.example.md 5812B项目画像写法范例）。
+
+技能核心设计：第0步先判断技术栈（pom.xml是Java/Spring、package.json是Node/TS、pyproject.toml是Python、go.mod是Go、csproj是.NET、composer.json是PHP、Gemfile是Ruby）；八列版式从左到右（请求侧→接入层→服务→模块→文件→方法→存储→数据表），每行等于一次请求经过的一个服务段，行内横向一一对应，行从上到下是时间顺序；视觉规则7条（不画泳道线用淡色背景色带、色带在卡片之下z-index 0到3层、色带宽度基准必须与内容表格一致否则越往右越错位、表头sticky冻结Excel式、卡片等宽等高100px四行栅格、每行单行省略号悬停出全文、状态角标只标例外外部紫缺口红虚线原型黄虚线）；连线规则7条（只走正交、同列直上直下同行直左直右、只有跨行且跨列才4点折弯走行间空隙中线、走列缝行缝中线留6px净空、出线用卡片底右缘中心入线用顶左缘中心、箭头marker id必须一字不差、进出请求侧的线用虚线）；五步工作流（锁定范围、逐条取证、渲染、校验、交付）。
+
+冒烟测试结果：verify 40条引用命中40条100%、render 链路1条行7、layout problems为空。
+
+同时更新 70-Skills/README.md 索引，现在有两个技能：backend-dataflow-diagram（Node.js+Python依赖）和 photo-poster（Python+Pillow依赖）。，并补充「装到别的机器」的目录对照表和写作纪律第5条「视觉规则写明原因，否则后人会改回去」。
+
+交付：70-Skills/backend-dataflow-diagram/（12文件完整）+ 70-Skills/README.md（索引已更新）。

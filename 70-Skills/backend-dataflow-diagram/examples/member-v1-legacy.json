@@ -1,0 +1,1042 @@
+{
+  "title": "SLHY 支付中台 · 会员域数据链路俯视图",
+  "subtitle": "按「微服务 → 文件 → 方法 → 数据库」四层，把会员这条业务线在上百个类里的落脚点摊平。同一个步骤号 = 同一次请求的同一个瞬间；实线框 = 真实后端，虚线框 = 前端原型尚未接后端。",
+  "readHint": "读法：<b>从上往下</b>是逐层落到代码，<b>从左往右</b>是时间先后。红边小标 <code>真实 7</code> = 第 7 步的真实实现；<code>原型</code> = 页面在跑但走的是本地 mock；<code>缺口</code> = 这层代码仓库里确实没有（见文末缺口区）。",
+  "legend": [
+    {
+      "kind": "real",
+      "color": "#2563eb",
+      "text": "真实后端实现"
+    },
+    {
+      "kind": "proto",
+      "color": "#b45309",
+      "text": "前端原型 / 本地 mock"
+    },
+    {
+      "kind": "gap",
+      "color": "#dc2626",
+      "text": "代码缺口（仓库里没有）"
+    }
+  ],
+  "chains": [
+    {
+      "no": "链路 A",
+      "name": "工行会员档案 · 录入 / 查询 / 确认",
+      "entry": "POST /icbc/member/{apply,query,confirm}",
+      "biz": "这条是唯一「前后端都通」的会员链路：商户侧把会员档案（姓名、证件、银行卡、企业信息）报给平台，平台原样打给路由服务由渠道侧落库。三个动作共用一个转发方法。",
+      "accent": "#2563eb",
+      "layers": [
+        "svc",
+        "file",
+        "method",
+        "db"
+      ],
+      "steps": [
+        {
+          "layer": "svc",
+          "cn": "商户 / 工行侧（外部调用方）",
+          "sub": "发起会员档案请求",
+          "status": "ext",
+          "svc": "外部"
+        },
+        {
+          "layer": "svc",
+          "cn": "portal-service",
+          "sub": "对外统一入口（网关后第一站）",
+          "status": "real",
+          "svc": "portal-service",
+          "arrow": "会员档案报文 JSON",
+          "arrowNote": "HTTP POST"
+        },
+        {
+          "layer": "svc",
+          "cn": "routing-service",
+          "sub": "按 msgType 分发到渠道处理链",
+          "status": "real",
+          "svc": "routing-service",
+          "arrow": "整包 JSON 原样转发",
+          "arrowNote": "Feign /smartRoute/invoke"
+        },
+        {
+          "layer": "file",
+          "cn": "IcbcMemberController",
+          "sub": "工商银行会员入口",
+          "status": "real",
+          "svc": "portal-service",
+          "file": "IcbcMemberController.java"
+        },
+        {
+          "layer": "file",
+          "cn": "IRouteService",
+          "sub": "路由服务 Feign 接口",
+          "status": "real",
+          "svc": "api-routing",
+          "file": "IRouteService.java"
+        },
+        {
+          "layer": "file",
+          "cn": "SmartRouterController",
+          "sub": "统一路由入口",
+          "status": "real",
+          "svc": "routing-service",
+          "file": "SmartRouterController.java"
+        },
+        {
+          "layer": "file",
+          "cn": "ServiceRegistry",
+          "sub": "msgType → 服务 注册表",
+          "status": "real",
+          "svc": "starter-biz",
+          "file": "ServiceRegistry.java"
+        },
+        {
+          "layer": "file",
+          "cn": "BusinessService",
+          "sub": "服务包装：过滤器链 + 业务处理器",
+          "status": "real",
+          "svc": "starter-biz",
+          "file": "BusinessService.java"
+        },
+        {
+          "layer": "method",
+          "cn": "会员档案录入",
+          "sub": "apply",
+          "status": "real",
+          "svc": "portal-service",
+          "file": "IcbcMemberController.java",
+          "method": "apply",
+          "line": 33,
+          "arrow": "按路径分流"
+        },
+        {
+          "layer": "method",
+          "cn": "会员档案查询",
+          "sub": "query",
+          "status": "real",
+          "svc": "portal-service",
+          "file": "IcbcMemberController.java",
+          "method": "query",
+          "line": 52,
+          "arrow": "同一份报文，换路径"
+        },
+        {
+          "layer": "method",
+          "cn": "会员档案确认",
+          "sub": "confirm",
+          "status": "real",
+          "svc": "portal-service",
+          "file": "IcbcMemberController.java",
+          "method": "confirm",
+          "line": 71,
+          "arrow": "同一份报文，换路径"
+        },
+        {
+          "layer": "method",
+          "cn": "统一转发入口",
+          "sub": "invoke（三个动作共用）",
+          "status": "real",
+          "svc": "portal-service",
+          "file": "IcbcMemberController.java",
+          "method": "invoke",
+          "line": 86,
+          "arrow": "request.toJSONString()"
+        },
+        {
+          "layer": "method",
+          "cn": "路由分发",
+          "sub": "invoke：按 msgType 取服务",
+          "status": "real",
+          "svc": "routing-service",
+          "file": "SmartRouterController.java",
+          "method": "invoke",
+          "line": 40,
+          "arrow": "String 响应体"
+        },
+        {
+          "layer": "method",
+          "cn": "取注册服务",
+          "sub": "getService(msgType)",
+          "status": "real",
+          "svc": "service",
+          "file": "SmartRouterController.java",
+          "method": "getService",
+          "line": 98,
+          "arrow": "msgType"
+        },
+        {
+          "layer": "db",
+          "cn": "渠道侧落库（会员档案）",
+          "sub": "由 routing-service 内渠道处理器完成；表名未在本仓库出现",
+          "status": "gap",
+          "svc": "routing-service",
+          "table": "（本仓库未发现会员档案表）",
+          "op": "无 mapper / 无实体类",
+          "arrow": "落库",
+          "dashArrow": true,
+          "arrowNote": "渠道处理链未在本仓库"
+        },
+        {
+          "layer": "db",
+          "cn": "会员银行总行信息",
+          "sub": "仅实体类，未见 Dao 使用",
+          "status": "real",
+          "svc": "api-db",
+          "table": "MEMBER_BANK_INFO",
+          "op": "Entity only（无 Dao / Mapper 引用）",
+          "arrow": "参照表"
+        }
+      ]
+    },
+    {
+      "no": "链路 B",
+      "name": "会员注册 → 审核 → 建档 → 自动发起认证",
+      "entry": "api/memberManage/register.js · auditRegister()",
+      "biz": "会员主管审批注册申请，通过后自动建会员档案，并按会员类型（个人/企业）生成一张认证申请单；建档案时顺带开钱包。这条是「一个动作改三张单」的典型。",
+      "accent": "#b45309",
+      "status": "proto",
+      "layers": [
+        "svc",
+        "file",
+        "method",
+        "db"
+      ],
+      "steps": [
+        {
+          "layer": "svc",
+          "cn": "mgr-ui 管理端页面",
+          "sub": "注册审核页",
+          "status": "proto",
+          "svc": "mgr-ui"
+        },
+        {
+          "layer": "svc",
+          "cn": "本地数据层（前端版数据库）",
+          "sub": "落盘 demo-data/member.json",
+          "status": "proto",
+          "svc": "mgr-ui + Vite 插件",
+          "arrow": "表单 / 审核意见",
+          "arrowNote": "useLocal = true"
+        },
+        {
+          "layer": "svc",
+          "cn": "后端 memberManage 接口",
+          "sub": "代码未实现，预留路径",
+          "status": "gap",
+          "svc": "（后端缺口）",
+          "arrow": "POST /memberManage/register/audit",
+          "arrowNote": "未实现",
+          "dashArrow": true
+        },
+        {
+          "layer": "file",
+          "cn": "register.js",
+          "sub": "注册配置 + 申请 + 审核",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "register.js"
+        },
+        {
+          "layer": "file",
+          "cn": "archive.js",
+          "sub": "会员档案建/改/注销",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "archive.js"
+        },
+        {
+          "layer": "file",
+          "cn": "certify.js",
+          "sub": "实名 / 企业认证单",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "certify.js"
+        },
+        {
+          "layer": "file",
+          "cn": "wallet/member.js",
+          "sub": "会员钱包开通",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "member.js"
+        },
+        {
+          "layer": "method",
+          "cn": "审核注册申请",
+          "sub": "通过 / 驳回",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "register.js",
+          "method": "auditRegister",
+          "line": 136
+        },
+        {
+          "layer": "method",
+          "cn": "建会员档案",
+          "sub": "由申请单生成会员主档",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "archive.js",
+          "method": "createMemberFromApply",
+          "line": 114,
+          "arrow": "申请单实体"
+        },
+        {
+          "layer": "method",
+          "cn": "生成认证申请单",
+          "sub": "个人→实名单；企业→企业认证单",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "certify.js",
+          "method": "createCertFromApply",
+          "line": 48,
+          "arrow": "会员档案"
+        },
+        {
+          "layer": "method",
+          "cn": "开通会员钱包",
+          "sub": "建档即开钱包",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "member.js",
+          "method": "openWalletForMember",
+          "line": 64,
+          "arrow": "memberNo"
+        },
+        {
+          "layer": "db",
+          "cn": "会员档案",
+          "sub": "member:archives",
+          "status": "proto",
+          "svc": "local",
+          "table": "member.json · member:archives",
+          "op": "insert（覆盖写）"
+        },
+        {
+          "layer": "db",
+          "cn": "认证申请单",
+          "sub": "member:certApplies",
+          "status": "proto",
+          "svc": "local",
+          "table": "member.json · member:certApplies",
+          "op": "insert",
+          "arrow": "落盘"
+        },
+        {
+          "layer": "db",
+          "cn": "会员钱包",
+          "sub": "wallet.json",
+          "status": "proto",
+          "svc": "local",
+          "table": "wallet.json · wallet:members",
+          "op": "insert",
+          "arrow": "跨文件落盘"
+        },
+        {
+          "layer": "db",
+          "cn": "支付订单（会员维度）",
+          "sub": "OrderMapper 里确有 member_id 列",
+          "status": "real",
+          "svc": "system-service",
+          "table": "tbl_order",
+          "op": "select · 会员维度的订单视图 · 关键列 member_id / integration / growth / member_username"
+        }
+      ]
+    },
+    {
+      "no": "链路 C",
+      "name": "会员实名 / 企业认证审核 · 回写档案",
+      "entry": "api/memberManage/certify.js · auditCert()",
+      "biz": "认证单审核通过或驳回后，必须把结论回写到会员档案的两个状态位：个人看「实名认证状态」，企业看「企业认证状态」。驳回必须带原因。",
+      "accent": "#0d9488",
+      "status": "proto",
+      "layers": [
+        "svc",
+        "file",
+        "method",
+        "db"
+      ],
+      "steps": [
+        {
+          "layer": "svc",
+          "cn": "mgr-ui 认证管理页",
+          "sub": "认证单列表 + 审核弹窗",
+          "status": "proto",
+          "svc": "mgr-ui"
+        },
+        {
+          "layer": "svc",
+          "cn": "本地数据层",
+          "sub": "同一份 member.json",
+          "status": "proto",
+          "svc": "mgr-ui",
+          "arrow": "审核结论",
+          "arrowNote": "1 通过 / 3 驳回"
+        },
+        {
+          "layer": "svc",
+          "cn": "后端认证接口",
+          "sub": "代码未实现",
+          "status": "gap",
+          "svc": "（后端缺口）",
+          "arrow": "POST /memberManage/certify/audit",
+          "dashArrow": true,
+          "arrowNote": "未实现"
+        },
+        {
+          "layer": "file",
+          "cn": "certify.js",
+          "sub": "认证单 CRUD + 审核",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "certify.js"
+        },
+        {
+          "layer": "file",
+          "cn": "archive.js",
+          "sub": "回写认证状态",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "archive.js"
+        },
+        {
+          "layer": "method",
+          "cn": "认证审核",
+          "sub": "驳回必须填原因",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "certify.js",
+          "method": "auditCert",
+          "line": 80
+        },
+        {
+          "layer": "method",
+          "cn": "回写认证状态",
+          "sub": "certType 区分实名 / 企业",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "archive.js",
+          "method": "updateCertStatus",
+          "line": 192,
+          "arrow": "certType + status"
+        },
+        {
+          "layer": "db",
+          "cn": "认证申请单",
+          "sub": "member:certApplies",
+          "status": "proto",
+          "svc": "local",
+          "table": "member.json · member:certApplies",
+          "op": "update auditStatus"
+        },
+        {
+          "layer": "db",
+          "cn": "会员档案",
+          "sub": "realNameStatus / corpStatus",
+          "status": "proto",
+          "svc": "local",
+          "table": "member.json · member:archives",
+          "op": "update 状态位",
+          "arrow": "状态回写"
+        }
+      ]
+    },
+    {
+      "no": "链路 D",
+      "name": "会员绑卡 · 银联签约（真实后端主干）",
+      "entry": "POST /virtualAccount/bindCard/bindCardForPersonal → msgType=binding / umsSign",
+      "biz": "绑卡是会员资金能力的前提。全平台只有一张绑卡信息表 tbl_binding_card_info，绑卡、签约、解绑、签约支付都读写它；签约状态位决定这张卡能不能直接扣款。",
+      "accent": "#7c3aed",
+      "layers": [
+        "svc",
+        "file",
+        "method",
+        "db",
+        "ext"
+      ],
+      "steps": [
+        {
+          "layer": "svc",
+          "cn": "会员（买方）/ 商户前端",
+          "sub": "发起绑卡",
+          "status": "ext",
+          "svc": "外部"
+        },
+        {
+          "layer": "svc",
+          "cn": "portal-service",
+          "sub": "虚拟账户绑卡入口",
+          "status": "real",
+          "svc": "portal-service",
+          "arrow": "绑卡报文",
+          "arrowNote": "HTTP POST"
+        },
+        {
+          "layer": "svc",
+          "cn": "routing-service",
+          "sub": "按渠道分发到 unionpay / signpay",
+          "status": "real",
+          "svc": "routing-service",
+          "arrow": "补齐流水号后转发",
+          "arrowNote": "transSsn / transTime"
+        },
+        {
+          "layer": "svc",
+          "cn": "db-service",
+          "sub": "绑卡信息读写",
+          "status": "real",
+          "svc": "db-service",
+          "arrow": "BindingCardInfoEntity",
+          "arrowNote": "Feign ICardService"
+        },
+        {
+          "layer": "svc",
+          "cn": "银联 / 银商开放平台",
+          "sub": "签约上送",
+          "status": "ext",
+          "svc": "外部渠道",
+          "arrow": "签约报文（RSA 加密）",
+          "arrowNote": "HTTPS 出网",
+          "dashArrow": true
+        },
+        {
+          "layer": "file",
+          "cn": "BindCardController",
+          "sub": "虚拟账户绑定实体账户",
+          "status": "real",
+          "svc": "portal-service",
+          "file": "BindCardController.java"
+        },
+        {
+          "layer": "file",
+          "cn": "ICardService",
+          "sub": "绑卡服务 Feign 接口",
+          "status": "real",
+          "svc": "api-db",
+          "file": "ICardService.java"
+        },
+        {
+          "layer": "file",
+          "cn": "BindingCardServiceHandler",
+          "sub": "银联绑卡处理器",
+          "status": "real",
+          "svc": "routing-unionpay",
+          "file": "BindingCardServiceHandler.java"
+        },
+        {
+          "layer": "file",
+          "cn": "UnionPayServiceHandler",
+          "sub": "银联渠道业务基类",
+          "status": "real",
+          "svc": "routing-unionpay",
+          "file": "UnionPayServiceHandler.java"
+        },
+        {
+          "layer": "file",
+          "cn": "UmsSignServiceHandler",
+          "sub": "银商签约处理器",
+          "status": "real",
+          "svc": "routing-signpay",
+          "file": "UmsSignServiceHandler.java"
+        },
+        {
+          "layer": "file",
+          "cn": "BindingCardInfoEntity",
+          "sub": "绑卡信息实体",
+          "status": "real",
+          "svc": "api-db",
+          "file": "BindingCardInfoEntity.java"
+        },
+        {
+          "layer": "file",
+          "cn": "BindingCardMapper.xml",
+          "sub": "绑卡表查询语句",
+          "status": "real",
+          "svc": "db-service",
+          "file": "BindingCardMapper.xml"
+        },
+        {
+          "layer": "file",
+          "cn": "BindingCardDao",
+          "sub": "Mapper 声明的接口（本仓库缺失）",
+          "status": "gap",
+          "svc": "db-service",
+          "file": "BindingCardDao（未找到实现）"
+        },
+        {
+          "layer": "method",
+          "cn": "绑卡入口",
+          "sub": "个人绑卡",
+          "status": "real",
+          "svc": "portal-service",
+          "file": "BindCardController.java",
+          "method": "bindCardForPersonal",
+          "line": 41
+        },
+        {
+          "layer": "method",
+          "cn": "报文校验与补全",
+          "sub": "补 transSsn / transTime",
+          "status": "real",
+          "svc": "portal-service",
+          "file": "BindCardController.java",
+          "method": "accountBindCardValidatorAndPadding",
+          "line": 54,
+          "arrow": "排序后的参数"
+        },
+        {
+          "layer": "method",
+          "cn": "银联绑卡处理",
+          "sub": "handle",
+          "status": "real",
+          "svc": "routing-unionpay",
+          "file": "BindingCardServiceHandler.java",
+          "method": "handle",
+          "line": 48,
+          "arrow": "整包 JSON"
+        },
+        {
+          "layer": "method",
+          "cn": "落绑卡信息",
+          "sub": "请求 → 实体",
+          "status": "real",
+          "svc": "routing-unionpay",
+          "file": "UnionPayServiceHandler.java",
+          "method": "saveBindingCardInfo",
+          "line": 98,
+          "arrow": "BindingCardRequest"
+        },
+        {
+          "layer": "method",
+          "cn": "保存绑卡",
+          "sub": "Feign 调用 db-service",
+          "status": "real",
+          "svc": "api-db",
+          "file": "ICardService.java",
+          "method": "saveBindingCardInfo",
+          "line": 22,
+          "arrow": "BindingCardInfoEntity"
+        },
+        {
+          "layer": "method",
+          "cn": "签约前校验收卡",
+          "sub": "没有绑卡信息不得签约",
+          "status": "real",
+          "svc": "routing-signpay",
+          "file": "UmsSignServiceHandler.java",
+          "method": "umsSign",
+          "line": 52,
+          "arrow": "cardNo + appUserId",
+          "dashArrow": true
+        },
+        {
+          "layer": "method",
+          "cn": "更新签约状态",
+          "sub": "签约状态回写（基类统一实现）",
+          "status": "real",
+          "svc": "routing-signpay",
+          "file": "SignBaseServiceHandler.java",
+          "method": "saveBindingCard",
+          "line": 90,
+          "arrow": "签约应答",
+          "dashArrow": true
+        },
+        {
+          "layer": "db",
+          "cn": "绑卡签约信息表",
+          "sub": "一卡一商户一行",
+          "status": "real",
+          "svc": "db-service",
+          "table": "tbl_binding_card_info",
+          "op": "insert / update（contract_status 决定能否代扣）",
+          "arrow": "落库"
+        }
+      ]
+    },
+    {
+      "no": "链路 E",
+      "name": "会员注销 · 缓冲期申请与撤回",
+      "entry": "api/memberManage/cancel.js · createCancelApply() / withdrawCancel()",
+      "biz": "注销不是直接删号：先建注销申请单，进缓冲期（bufferDeadline），期内可撤回；到期由运营确认或系统到期执行。会员中心自查也用同一套单子。",
+      "accent": "#be123c",
+      "status": "proto",
+      "layers": [
+        "svc",
+        "file",
+        "method",
+        "db"
+      ],
+      "steps": [
+        {
+          "layer": "svc",
+          "cn": "会员中心（买方端）",
+          "sub": "注销前置校验 + 申请",
+          "status": "proto",
+          "svc": "mgr-ui/member"
+        },
+        {
+          "layer": "svc",
+          "cn": "mgr-ui 注销管理页",
+          "sub": "运营手工注销 / 撤回",
+          "status": "proto",
+          "svc": "mgr-ui"
+        },
+        {
+          "layer": "svc",
+          "cn": "本地数据层",
+          "sub": "member.json",
+          "status": "proto",
+          "svc": "mgr-ui",
+          "arrow": "注销申请",
+          "arrowNote": "dashArrow 前后端未通"
+        },
+        {
+          "layer": "file",
+          "cn": "member/center.js",
+          "sub": "会员中心注销入口",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "center.js"
+        },
+        {
+          "layer": "file",
+          "cn": "memberManage/cancel.js",
+          "sub": "注销单管理",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "cancel.js"
+        },
+        {
+          "layer": "file",
+          "cn": "archive.js",
+          "sub": "账户状态置注销",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "archive.js"
+        },
+        {
+          "layer": "method",
+          "cn": "注销前置校验",
+          "sub": "余额清零 / 有无在期申请",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "center.js",
+          "method": "checkCancelable",
+          "line": 72
+        },
+        {
+          "layer": "method",
+          "cn": "提交注销申请",
+          "sub": "生成注销单 + 缓冲期",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "cancel.js",
+          "method": "createCancelApply",
+          "line": 91,
+          "arrow": "校验通过"
+        },
+        {
+          "layer": "method",
+          "cn": "撤回注销",
+          "sub": "缓冲期内可撤",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "cancel.js",
+          "method": "withdrawCancel",
+          "line": 123,
+          "arrow": "注销单号"
+        },
+        {
+          "layer": "method",
+          "cn": "关闭会员",
+          "sub": "accountStatus → 已注销",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "archive.js",
+          "method": "closeMember",
+          "line": 182,
+          "arrow": "运营确认",
+          "dashArrow": true
+        },
+        {
+          "layer": "db",
+          "cn": "注销申请单",
+          "sub": "member:cancelApplies",
+          "status": "proto",
+          "svc": "local",
+          "table": "member.json · member:cancelApplies",
+          "op": "insert / update（cancelStatus）"
+        },
+        {
+          "layer": "db",
+          "cn": "会员档案",
+          "sub": "accountStatus 1 正常 / 2 冻结 / 3 注销",
+          "status": "proto",
+          "svc": "local",
+          "table": "member.json · member:archives",
+          "op": "update",
+          "arrow": "状态联动"
+        }
+      ]
+    },
+    {
+      "no": "链路 F",
+      "name": "会员钱包 + 积分账户 · 与会员档案联动",
+      "entry": "api/wallet/member.js · openWalletForMember()",
+      "biz": "钱包和积分是会员的两个「资产视图」：钱包看余额流水，积分看积分账户与积分商品订单。两者都靠 memberNo 挂到会员档案上。",
+      "accent": "#0891b2",
+      "status": "proto",
+      "layers": [
+        "svc",
+        "file",
+        "method",
+        "db"
+      ],
+      "steps": [
+        {
+          "layer": "svc",
+          "cn": "钱包中心 / 积分管理页",
+          "sub": "运营或会员本人查看",
+          "status": "proto",
+          "svc": "mgr-ui"
+        },
+        {
+          "layer": "svc",
+          "cn": "本地数据层",
+          "sub": "wallet.json + member.json",
+          "status": "proto",
+          "svc": "mgr-ui",
+          "arrow": "memberNo"
+        },
+        {
+          "layer": "file",
+          "cn": "wallet/member.js",
+          "sub": "会员钱包 + 流水",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "member.js"
+        },
+        {
+          "layer": "file",
+          "cn": "points/account.js",
+          "sub": "会员积分账户",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "account.js"
+        },
+        {
+          "layer": "method",
+          "cn": "开通会员钱包",
+          "sub": "建档即开钱包",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "member.js",
+          "method": "openWalletForMember",
+          "line": 64
+        },
+        {
+          "layer": "method",
+          "cn": "按会员号查钱包",
+          "sub": "会员中心的余额来源",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "member.js",
+          "method": "getWalletByMember",
+          "line": 91,
+          "arrow": "memberNo"
+        },
+        {
+          "layer": "method",
+          "cn": "积分账户汇总",
+          "sub": "可用 / 累计 / 冻结",
+          "status": "proto",
+          "svc": "mgr-ui/api",
+          "file": "account.js",
+          "method": "getMemberSummary",
+          "line": 15,
+          "arrow": "memberNo"
+        },
+        {
+          "layer": "db",
+          "cn": "会员钱包",
+          "sub": "wallet:members",
+          "status": "proto",
+          "svc": "local",
+          "table": "wallet.json · wallet:members",
+          "op": "insert / update"
+        },
+        {
+          "layer": "db",
+          "cn": "钱包流水",
+          "sub": "wallet:flows",
+          "status": "proto",
+          "svc": "local",
+          "table": "wallet.json · wallet:flows",
+          "op": "insert"
+        },
+        {
+          "layer": "db",
+          "cn": "积分账户",
+          "sub": "seed 内联（无独立域文件）",
+          "status": "proto",
+          "svc": "local",
+          "table": "points/_local · 种子数据",
+          "op": "内存",
+          "arrow": "挂 memberNo"
+        },
+        {
+          "layer": "db",
+          "cn": "积分商品订单",
+          "sub": "OrderMapper 含 integration / growth",
+          "status": "real",
+          "svc": "system-service",
+          "table": "tbl_order",
+          "op": "select · 积分抵扣留痕 · 关键列 member_id / integration / growth / member_username"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "会员档案",
+      "en": "Member Archive / member",
+      "where": "api/memberManage/_local/archive.js",
+      "note": "一个会员一份主档：会员编号、姓名、类型（个人/企业）、手机号、证件、开户信息、三个状态位。所有会员动作最终都要回到这份主档上改状态。"
+    },
+    {
+      "term": "会员编号",
+      "en": "memberNo（M+6 位）",
+      "where": "memberNo",
+      "note": "业务主键，不是数据库主键。钱包、积分、认证单、注销单、绑卡记录都靠它挂到会员身上。"
+    },
+    {
+      "term": "注册申请单",
+      "en": "Register Apply / applyNo",
+      "where": "register.js",
+      "note": "会员先提交申请，主管审核通过才生成档案。是「申请单驱动建档」而不是「注册即建档」。"
+    },
+    {
+      "term": "注册配置",
+      "en": "Register Rule",
+      "where": "register.js:27",
+      "note": "控制三件事：是否开放注册、注册是否需审批、开放范围（个人/企业）。保存即生效，不走审批。"
+    },
+    {
+      "term": "认证申请单",
+      "en": "Cert Apply / certNo",
+      "where": "certify.js",
+      "note": "certType 1=实名认证（个人），2=企业认证。注册审核通过后自动生成，避免会员再单独发起一次。"
+    },
+    {
+      "term": "实名认证状态 / 企业认证状态",
+      "en": "realNameStatus / corpStatus",
+      "where": "archive.js 种子",
+      "note": "0 未认证 / 1 通过 / 2 审核中 / 3 驳回。认证单审核结论必须回写到这两个字段，否则页面显示和单据会打架。"
+    },
+    {
+      "term": "账户状态",
+      "en": "accountStatus",
+      "where": "archive.js",
+      "note": "1 正常 / 2 已冻结 / 3 已注销。注销完成后落在这里，不是物理删除。"
+    },
+    {
+      "term": "注销缓冲期",
+      "en": "bufferDeadline",
+      "where": "cancel.js",
+      "note": "提交注销后先不生效，给一个截止时间；期内会员可撤回，到期才真正关户。"
+    },
+    {
+      "term": "绑卡信息",
+      "en": "BindingCardInfo / tbl_binding_card_info",
+      "where": "BindingCardInfoEntity.java",
+      "note": "全平台一张表存所有绑卡：卡号、商户号 mid、平台商户号 innerMchtNo、签约协议号 contractId、签约通道 contractChnl、签约状态 contract_status。"
+    },
+    {
+      "term": "签约状态",
+      "en": "contract_state / ContractStatus",
+      "where": "UmsSignServiceHandler.java:83",
+      "note": "决定这张卡能不能直接代扣。签约应答里有 contractSignedTime 才算成功，否则记为未知，后续要查询补状态。"
+    },
+    {
+      "term": "签约通道",
+      "en": "contractChnl（SIGN_BINDING 等）",
+      "where": "Constant.ContractChnl",
+      "note": "同一张卡可以在不同通道各签一次约，所以查卡时通道是必带条件，不能只按卡号查。"
+    },
+    {
+      "term": "会员统一卡白名单",
+      "en": "MBR_STATUS / mbrStatus",
+      "where": "MerchantBaseEntity.java:379",
+      "note": "商户维度开关：值为网服商户 Id 表示已开通，可以向「统一会员卡」查卡；0 表示未开通。这是会员卡能力对商户的授权粒度。"
+    },
+    {
+      "term": "会员状态",
+      "en": "MEMBER_STATUS_N / MEMBER_STATUS_D",
+      "where": "CommonConstants.java:260",
+      "note": "N 正常 / D 失效。餐饮（catering）域沿用这套状态码，与 mgr-ui 那边的 1/2/3 不是同一套编码，跨域对齐时要小心。"
+    },
+    {
+      "term": "会员钱包",
+      "en": "Member Wallet",
+      "where": "wallet/member.js",
+      "note": "余额 + 充值/提现 + 流水。建档时开通，注销前必须清零（checkCancelable 校验项之一）。"
+    },
+    {
+      "term": "积分账户",
+      "en": "Points Account",
+      "where": "points/account.js",
+      "note": "可用积分、累计积分、冻结积分。订单侧的 integration / growth 字段记录每次积分抵扣与成长值留痕。"
+    },
+    {
+      "term": "会员中心",
+      "en": "Member Center（买方端）",
+      "where": "views/member/center",
+      "note": "会员自助入口：个人信息、积分记录、等级、徽章、注销。和运营侧「会员管理」是两套页面、一套数据。"
+    },
+    {
+      "term": "本地数据层",
+      "en": "USE_LOCAL_DATA / demo-data/*.json",
+      "where": "api/_local/db.js",
+      "note": "前端版数据库：种子数据落盘到 demo-data，接后端时把这个开关置 false 即切回真实接口，页面零改动。"
+    },
+    {
+      "term": "msgType 分发",
+      "en": "msgType → BusinessService",
+      "where": "ServiceRegistry.java:47",
+      "note": "路由服务不按 URL 分发，按报文里的 msgType 到注册表取服务；注册表里没有就落到默认服务。所以同一入口能扛绑卡、签约、支付等几十种动作。"
+    },
+    {
+      "term": "业务名词 → 表名对照",
+      "en": "tbl_ 前缀",
+      "where": "BindingCardMapper.xml",
+      "note": "本项目业务表统一 tbl_ 前缀（tbl_binding_card_info / tbl_order），码表与系统表用 sys_ / bb_ 前缀；MEMBER_BANK_INFO 是少数没有前缀的实体。"
+    }
+  ],
+  "gaps": [
+    {
+      "level": "blocker",
+      "text": "<b>会员管理后端接口整体缺失</b>：mgr-ui 的 api/memberManage/{register,archive,certify,cancel}.js、api/member/{center}.js、api/wallet/member.js、api/points/account.js 全部 USE_LOCAL_DATA=true，请求的 /memberManage/** 、/member/** 路径在后端仓库里没有任何 Controller。图上这些节点标为「原型」。<b>接口契约已经写在 request({url}) 里，可以直接按它补后端。</b>"
+    },
+    {
+      "level": "blocker",
+      "text": "<b>会员档案表不存在</b>：全仓库无会员主档实体、无 mapper、无建表语句。链路 A 的渠道侧落库在 routing-service 内由具体渠道处理器完成，但<b>会员档案表名在本仓库查不到</b>，画成红色缺口而不是猜一个表名。"
+    },
+    {
+      "level": "warn",
+      "text": "<b>BindingCardDao 缺失</b>：db-service 的 BindingCardMapper.xml 声明 namespace com.chinaums.erp.slhy.db.card.repository.BindingCardDao，但仓库里没有这个接口的 .java；XML 也只有 4 个 select，没有 saveBindingCardInfo 对应的 insert/update 语句。ICardService 的写接口目前<b>缺少可验证的落库实现</b>。"
+    },
+    {
+      "level": "warn",
+      "text": "<b>MEMBER_BANK_INFO 只有实体</b>：api-db 里有 MemberBankInfo 实体（注释：小微商户入网时使用的银行信息的总行信息），但全仓库没有任何 Dao / Service / Mapper 引用它，属「建了壳没用上」。"
+    },
+    {
+      "level": "info",
+      "text": "<b>两套会员状态码并存</b>：mgr-ui 用 accountStatus 1/2/3（正常/冻结/注销），common-core catering 用 MEMBER_STATUS_N/D；接后端时需要明确哪套是权威口径，否则注销、冻结会各说各话。"
+    },
+    {
+      "level": "info",
+      "text": "<b>会员等级 / 徽章只有前端种子</b>：listBadges / getLevelInfo 走本地数据，后端没有 /member/level、/member/badge 实现。"
+    }
+  ],
+  "footer": "由 backend-dataflow-diagram 技能生成 · 文件 / 方法 / 行号均取自仓库真实代码，缺口已在文末列明"
+}

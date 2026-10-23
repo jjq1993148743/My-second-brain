@@ -1,0 +1,134 @@
+{
+  "title": "XX 业务 · 数据流向",
+  "subtitle": "一行 = 请求经过的一个服务段；A 服务这一行，右侧就是 A 里的模块、类、方法。行从上到下 = 时间顺序。",
+  "readHint": "读法：<b>八列从左到右</b> = 请求侧 → 接入层 → 服务 → 模块 → 文件 → 方法 → 存储 → 数据表；<b>行对齐</b>：同一行互相属于。卡片右上角数字 = 全局步骤号，照 1→N 读。卡片显示不全的<b>鼠标悬停看全文</b>；图太宽时整页可横向滚动。",
+  "legend": [
+    {
+      "kind": "real",
+      "color": "#2563eb",
+      "text": "不打标 = 真实实现（代码里存在，线上真跑）"
+    },
+    {
+      "kind": "ext",
+      "color": "#7c3aed",
+      "text": "外部 = 系统外的依赖（第三方 API / 银行 / 消息中间件），只画到边界"
+    },
+    {
+      "kind": "gap",
+      "color": "#dc2626",
+      "text": "缺口 = 代码里查无此物（有声明没实现），别当它存在"
+    },
+    {
+      "kind": "proto",
+      "color": "#b45309",
+      "text": "原型 = 只有前端 mock，后端没接口"
+    }
+  ],
+  "chains": [
+    {
+      "no": "①",
+      "name": "业务动作（中文）",
+      "entry": "POST /path/action 或 页面 api 名",
+      "biz": "这条链路业务上讲什么：谁发起、经过什么、最后落到哪张表。",
+      "rows": [
+        {
+          "req": {
+            "cn": "Web / 移动端 / 第三方",
+            "sub": "谁发起的这次请求",
+            "status": "ext",
+            "code": "POST /path/action"
+          }
+        },
+        {
+          "gw": {
+            "cn": "接入层",
+            "sub": "网关 / Nginx / 反向代理（单体可省略此行）",
+            "status": "real",
+            "code": "gateway"
+          }
+        },
+        {
+          "svc": {
+            "cn": "xx-service",
+            "sub": "哪个进程 / 应用",
+            "status": "real",
+            "code": "xx-service"
+          },
+          "mod": {
+            "cn": "xx 模块",
+            "sub": "子模块 / 包",
+            "status": "real",
+            "code": "xx-module"
+          },
+          "file": {
+            "cn": "业务入口类",
+            "sub": "Controller / 路由",
+            "status": "real",
+            "code": "XxController.java",
+            "file": "XxController.java"
+          },
+          "method": {
+            "cn": "业务动作",
+            "sub": "这一步干嘛",
+            "status": "real",
+            "code": "doIt",
+            "file": "XxController.java",
+            "method": "doIt",
+            "line": 42
+          }
+        },
+        {
+          "svc": {
+            "cn": "数据访问层",
+            "sub": "DB / DAO",
+            "status": "real",
+            "code": "db-service"
+          },
+          "file": {
+            "cn": "表语句",
+            "sub": "mapper / SQL / ORM",
+            "status": "real",
+            "code": "XxMapper.xml",
+            "file": "XxMapper.xml"
+          },
+          "method": {
+            "cn": "查询/写入",
+            "sub": "SQL 动作",
+            "status": "real",
+            "code": "findByX",
+            "file": "XxMapper.xml",
+            "method": "findByX"
+          },
+          "ds": {
+            "cn": "数据库",
+            "sub": "库名 / 数据源",
+            "status": "real",
+            "code": "mydb"
+          },
+          "table": {
+            "cn": "业务表",
+            "sub": "一行代表什么",
+            "status": "real",
+            "code": "tbl_xxx",
+            "table": "tbl_xxx"
+          }
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "业务名词",
+      "en": "代码里的英文",
+      "where": "文件:行",
+      "note": "为什么有这个词、口径是什么"
+    }
+  ],
+  "gaps": [
+    {
+      "level": "warn",
+      "text": "<b>缺什么</b>：证据（查过哪些 glob/grep、返回什么）。"
+    }
+  ],
+  "footer": "由 backend-dataflow-diagram 技能生成 · 文件 / 方法 / 行号均取自仓库真实代码 · 卡片悬停看完整内容"
+}

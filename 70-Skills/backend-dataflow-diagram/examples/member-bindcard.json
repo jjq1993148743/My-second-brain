@@ -1,0 +1,373 @@
+{
+  "title": "会员 · 绑定银行卡（银标码）· 数据流向",
+  "subtitle": "一行 = 请求经过的一个服务段；A 服务这一行，右侧就是 A 里的模块、类、方法。行从上到下 = 时间顺序。",
+  "readHint": "读法：<b>八列从左到右</b> = 请求侧 → 网关 → 微服务 → 项目/模块 → 文件 → 方法 → 数据库 → 数据库表；<b>行对齐</b>：同一行互相属于。卡片右上角数字 = 全局步骤号，照 1→N 读。卡片显示不全的<b>鼠标悬停看全文</b>；图太宽时整页可横向滚动。",
+  "legend": [
+    {
+      "kind": "real",
+      "color": "#2563eb",
+      "text": "不打标 = 真实实现（代码里存在，线上真跑）"
+    },
+    {
+      "kind": "ext",
+      "color": "#7c3aed",
+      "text": "外部 = 平台外的系统（银联/工行…），只画到边界为止"
+    },
+    {
+      "kind": "gap",
+      "color": "#dc2626",
+      "text": "缺口 = 代码里查无此物（有声明没实现），别当它存在"
+    },
+    {
+      "kind": "proto",
+      "color": "#b45309",
+      "text": "原型 = 只有前端 mock，后端没接口"
+    }
+  ],
+  "chains": [
+    {
+      "no": "①",
+      "name": "会员绑卡（银标码）",
+      "entry": "POST /virtualAccount/bindCard/bindCardForPersonal",
+      "biz": "会员把银行卡绑到平台：入口补流水 → 路由按 msgType=binding 分发 → 银联渠道先落库再 RSA 上送银标码 → 应答回写签约状态。",
+      "rows": [
+        {
+          "req": {
+            "cn": "商户系统 / 收银端",
+            "sub": "会员点击「绑定银行卡」发起 HTTP 请求",
+            "status": "ext",
+            "code": "POST /virtualAccount/bindCard/bindCardForPersonal"
+          }
+        },
+        {
+          "gw": {
+            "cn": "网关",
+            "sub": "统一入口，先过全局过滤器",
+            "status": "real",
+            "code": "gateway-service（8081）"
+          },
+          "file": {
+            "cn": "网关鉴权过滤器",
+            "sub": "校验 JWT；开放接口走验签",
+            "status": "real",
+            "code": "AuthFilter.java",
+            "file": "AuthFilter.java"
+          },
+          "method": [
+            {
+              "cn": "JWT 鉴权",
+              "sub": "无 token 直接拦下；放行下沉 header",
+              "status": "real",
+              "code": "filter",
+              "file": "AuthFilter.java",
+              "method": "filter",
+              "line": 45
+            },
+            {
+              "cn": "开放接口验签",
+              "sub": "sign 不符拒单（开放 API 专用）",
+              "status": "real",
+              "code": "apply",
+              "file": "OpenSignFilter.java",
+              "method": "apply",
+              "line": 46
+            }
+          ]
+        },
+        {
+          "svc": {
+            "cn": "portal-service",
+            "sub": "对外 HTTP 入口（网关后第一站）",
+            "status": "real",
+            "code": "portal-service"
+          },
+          "mod": {
+            "cn": "portal-service 模块",
+            "sub": "入口 Controller 所在 Maven 模块",
+            "status": "real",
+            "code": "portal-service"
+          },
+          "file": {
+            "cn": "虚拟账户绑定实体账户",
+            "sub": "绑卡 Controller",
+            "status": "real",
+            "code": "BindCardController.java",
+            "file": "BindCardController.java"
+          },
+          "method": [
+            {
+              "cn": "会员绑卡入口",
+              "sub": "接收报文 → 校验 → 转路由",
+              "status": "real",
+              "code": "bindCardForPersonal",
+              "file": "BindCardController.java",
+              "method": "bindCardForPersonal",
+              "line": 41
+            },
+            {
+              "cn": "补交易流水号",
+              "sub": "transSsn / transTime 防重",
+              "status": "real",
+              "code": "accountBindCardValidatorAndPadding",
+              "file": "BindCardController.java",
+              "method": "accountBindCardValidatorAndPadding",
+              "line": 54
+            },
+            {
+              "cn": "转发路由服务",
+              "sub": "整包 JSON 交给路由（Feign）",
+              "status": "real",
+              "code": "processUnifiedOrder",
+              "file": "BindCardController.java",
+              "method": "processUnifiedOrder",
+              "line": 80
+            }
+          ]
+        },
+        {
+          "svc": {
+            "cn": "routing-service",
+            "sub": "交易路由 · 分发角色",
+            "status": "real",
+            "code": "routing-service"
+          },
+          "mod": {
+            "cn": "routing-portal",
+            "sub": "路由入口子模块",
+            "status": "real",
+            "code": "routing-service/routing-portal"
+          },
+          "file": {
+            "cn": "智能路由入口",
+            "sub": "收报文 / 查注册表",
+            "status": "real",
+            "code": "SmartRouterController.java",
+            "file": "SmartRouterController.java"
+          },
+          "method": [
+            {
+              "cn": "路由分发",
+              "sub": "解析 msgType，异步 DeferredResult",
+              "status": "real",
+              "code": "invoke",
+              "file": "SmartRouterController.java",
+              "method": "invoke",
+              "line": 40
+            },
+            {
+              "cn": "查服务注册表",
+              "sub": "msgType=binding → 绑卡 BusinessService",
+              "status": "real",
+              "code": "getService",
+              "file": "SmartRouterController.java",
+              "method": "getService",
+              "line": 98
+            }
+          ]
+        },
+        {
+          "svc": {
+            "cn": "routing-service",
+            "sub": "交易路由 · 渠道业务角色（同进程）",
+            "status": "real",
+            "code": "routing-service"
+          },
+          "mod": [
+            {
+              "cn": "routing-unionpay",
+              "sub": "银联 / 银标码渠道子模块",
+              "status": "real",
+              "code": "routing-service/routing-unionpay"
+            },
+            {
+              "cn": "api-db / api-routing",
+              "sub": "Feign 接口 + 实体定义（共享 jar）",
+              "status": "real",
+              "code": "api-modules"
+            }
+          ],
+          "file": [
+            {
+              "cn": "绑卡请求处理器",
+              "sub": "msgType=binding 的业务实现",
+              "status": "real",
+              "code": "BindingCardServiceHandler.java",
+              "file": "BindingCardServiceHandler.java"
+            },
+            {
+              "cn": "银联渠道基类",
+              "sub": "报文 → 实体转换",
+              "status": "real",
+              "code": "UnionPayServiceHandler.java",
+              "file": "UnionPayServiceHandler.java"
+            },
+            {
+              "cn": "绑卡服务 Feign 接口",
+              "sub": "声明 /card/saveBindingCardInfo",
+              "status": "real",
+              "code": "ICardService.java",
+              "file": "ICardService.java"
+            }
+          ],
+          "method": [
+            {
+              "cn": "处理绑卡请求",
+              "sub": "取商户信息，进绑卡流程",
+              "status": "real",
+              "code": "handle",
+              "file": "BindingCardServiceHandler.java",
+              "method": "handle",
+              "line": 48
+            },
+            {
+              "cn": "组装银标码绑卡报文",
+              "sub": "先落库 → RSA 加密 → HTTPS 上送",
+              "status": "real",
+              "code": "bindingCard",
+              "file": "BindingCardServiceHandler.java",
+              "method": "bindingCard",
+              "line": 64
+            },
+            {
+              "cn": "落绑卡信息",
+              "sub": "请求→实体，Feign 调 db-service",
+              "status": "real",
+              "code": "saveBindingCardInfo",
+              "file": "UnionPayServiceHandler.java",
+              "method": "saveBindingCardInfo",
+              "line": 98
+            }
+          ]
+        },
+        {
+          "svc": {
+            "cn": "银标码 / 银联开放平台",
+            "sub": "行外系统：发卡行验证 + 签约，图只画到边界",
+            "status": "ext",
+            "code": "config.getBindingUrl()"
+          }
+        },
+        {
+          "svc": {
+            "cn": "db-service",
+            "sub": "全平台唯一数据访问层",
+            "status": "real",
+            "code": "db-service"
+          },
+          "mod": {
+            "cn": "db-service 模块",
+            "sub": "Mapper + 分库分表配置",
+            "status": "real",
+            "code": "db-service"
+          },
+          "file": [
+            {
+              "cn": "绑卡表语句",
+              "sub": "4 条 select；无 insert/update",
+              "status": "real",
+              "code": "BindingCardMapper.xml",
+              "file": "BindingCardMapper.xml"
+            },
+            {
+              "cn": "绑卡表访问接口",
+              "sub": "namespace 声明了它，但文件不存在",
+              "status": "gap",
+              "code": "BindingCardDao.java",
+              "file": "BindingCardDao.java"
+            }
+          ],
+          "method": [
+            {
+              "cn": "按卡号查绑卡",
+              "sub": "select * from tbl_binding_card_info where card_no = ?",
+              "status": "real",
+              "code": "findByCardNo",
+              "file": "BindingCardMapper.xml",
+              "method": "findByCardNo"
+            }
+          ],
+          "ds": {
+            "cn": "配置库",
+            "sub": "未配分片规则的表默认落这",
+            "status": "real",
+            "code": "ds_config → txn_config_ccqc（本地）/ financial_platform_txn_config（生产）"
+          },
+          "table": {
+            "cn": "绑卡签约信息表",
+            "sub": "一卡一商户一行；contract_status 决定能否代扣",
+            "status": "real",
+            "code": "tbl_binding_card_info",
+            "table": "tbl_binding_card_info"
+          }
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "绑卡",
+      "en": "binding / bindCard",
+      "where": "SmartRouterConstant.MsgType",
+      "note": "会员把银行卡登记到平台并建立签约关系，是代扣 / 签约支付的前提。"
+    },
+    {
+      "term": "银标码",
+      "en": "unionpay 渠道",
+      "where": "routing-unionpay",
+      "note": "银联的收款产品之一，本链路走它的绑卡 / 解绑 / 支付接口。"
+    },
+    {
+      "term": "交易流水号",
+      "en": "transSsn",
+      "where": "BindCardController.java:58",
+      "note": "入口补的时间戳+序列，渠道侧防重的键。"
+    },
+    {
+      "term": "msgType",
+      "en": "报文类型",
+      "where": "ServiceRegistry.java:47",
+      "note": "路由不按 URL 分发，按报文里的 msgType 查注册表取服务；binding 就是绑卡这条。"
+    },
+    {
+      "term": "绑卡信息实体",
+      "en": "BindingCardInfoEntity",
+      "where": "api-db/card/entity",
+      "note": "卡号 cardNo、商户号 mid、签约协议号 contractId、签约渠道 contractChnl（1 签约支付 / 2 银标码）、卡属性（1 借记 / 2 贷记）、证件与手机号。"
+    },
+    {
+      "term": "签约状态",
+      "en": "contract_status",
+      "where": "tbl_binding_card_info",
+      "note": "决定这张卡能不能直接扣款；应答带 contractSignedTime 才算成功。"
+    },
+    {
+      "term": "云闪付流水号",
+      "en": "sn",
+      "where": "BindingCardInfoEntity:138",
+      "note": "渠道侧交易凭证，应答回来后回写进表。"
+    },
+    {
+      "term": "配置库",
+      "en": "ds_config",
+      "where": "shardingsphere-config-*.yaml",
+      "note": "两个数据源：ds_config（配置/主数据）、ds_txn（交易，tbl_order 按 dept_code 分表）。绑卡表没配分片规则 ⇒ 默认走配置库。"
+    },
+    {
+      "term": "Feign 调用",
+      "en": "@FeignClient",
+      "where": "api-modules",
+      "note": "跨服务不直连对方数据库，一律走 api-modules 里声明的 Feign 接口。"
+    }
+  ],
+  "gaps": [
+    {
+      "level": "warn",
+      "text": "<b>绑卡写库缺实现</b>：ICardService.saveBindingCardInfo 指向 db-service 的 /card/saveBindingCardInfo，但 db-service 无对应 Controller；BindingCardMapper.xml 的 namespace 指向 <code>BindingCardDao</code>，该接口文件不存在，且 xml 只有 4 条 select、无 insert/update ⇒ 读路径真实、写路径缺（图上红框）。"
+    },
+    {
+      "level": "info",
+      "text": "库名随环境变化：本地 <code>txn_config_ccqc</code>，生产 <code>financial_platform_txn_config</code>（取自 shardingsphere-config-local / -prod，只列库名不列连接串）。"
+    }
+  ],
+  "footer": "由 backend-dataflow-diagram 技能生成 · 文件 / 方法 / 行号均取自仓库真实代码 · 卡片悬停看完整内容"
+}
