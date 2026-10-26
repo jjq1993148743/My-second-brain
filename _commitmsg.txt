@@ -1,0 +1,27 @@
+小众社区调研A+B：A阶段抓到52个真实Discourse社区+HN/Lobsters可用API（Fediverse/Are.na接口失败已诚实标注）；B阶段用Discourse /latest.json实测5个垂直社区真实帖子，发现AI是社区最大争议话题（Blender的General AI Discussion 4130回复25万浏览）
+
+用户要求先A（铺开找小众平台）后B（深挖社区内容）。
+
+【A阶段】成功部分：①Discourse官方目录discover.discourse.org抓到52个真实社区外链，含技术类（OpenAI/Fedora/Cursor/HuggingFace/Vercel/n8n/Ubuntu/Mozilla/Plex/Arduino/Digi-Key/Spiceworks）、游戏类（Unity/Godot/Unreal/EVE/Age of Empires/Fatshark/FiveM）、创作类（Blender Artists/Rhino McNeel/Steinberg/微缩模型Robotime）、生活兴趣类（肥皂剧Soaps SheKnows/OpenStreetMap/飞行模拟InfiniteFlight/Victron能源/AnkiHub/房屋检查员NACHI/患者社区/精神分裂互助）②Hacker News API可用返回200 4.5KB榜单③Lobsters API可用返回200 12KB热帖。
+
+【A阶段】失败部分诚实记录：big-boards.com 401 Forbidden（反爬）、FediDB试了3个API端点全返回HTML（页面JS渲染）、the-federation.info 502（服务挂了）、lemmyverse.net返回HTML（SPA数据端点没找到）、Are.na API 403（需鉴权）、Substack API 404（端点不对）。结论：Fediverse和独立博客两块没拿到数据。
+
+【A阶段关键发现】Discourse目录里藏着大量垂直领域老式论坛，这是最被低估的一层。例子：soaps.sheknows.com（美国日间肥皂剧）、forum.nachi.org（房屋检查员）、community.robotime.com（微缩模型小屋）、community.infiniteflight.com（飞行模拟）、forums.steinberg.net（音乐制作DAW）——中文圈覆盖度几乎为零。共同特征：成员是真爱好者、内容极垂直、中文圈几乎不碰、但变现路径不明。
+
+【B阶段】关键发现：Discourse论坛都有/latest.json接口，能直接读帖子。实测5个垂直社区：
+
+1. Blender Artists（3D）：最大热帖是General AI Discussion，4130回复25万浏览；其次Small happy moments 713回复41599浏览；Siberian Tiger作品36回复。
+2. Infinite Flight（飞行模拟）：Missing Callsign Database 948回复41656浏览；Ask your questions 717回复；Open Beta Progress 548回复；ATC Schedule浏览11831；E175 flap track cowling issue 2回复——讨论具体到机型细节。
+3. Steinberg（音乐制作）：Vibe-coded Dorico development? 100回复1684浏览；Vibecoded a small tool to see what's inside Cubase crash dumps 31回复528浏览——两个热帖都是AI编程话题。
+4. Soaps SheKnows（肥皂剧）：Coffee with friends 5148回复33196浏览；2024-2026 New Democrat No Bash Thread 8325回复；BOARD GUIDELINES浏览106953——最大帖是纯闲聊。
+5. Robotime/Craftime（微缩模型）：正在改名，Alpha官方运营帖53/75/40回复，Weekly Small Talks系列。
+
+【B阶段三条重要发现】发现1：AI是这些社区最大的情绪引爆点——Blender的General AI Discussion 4130回复25万浏览、Steinberg两个vibe coding帖，说明创作者社区对AI是激烈争论不是欣然接受，如果把AI生成内容发进去会被攻击。发现2：小众社区的核心是「人」不是「内容」——Soaps最大帖是咖啡闲聊5148回复、Blender是日常分享713回复、InfiniteFlight是互助717回复，这些不是内容池是熟人社会，所以「搬内容」思路不成立。发现3：真正新鲜的是细节深度——E175襟翼导轨整流罩、乐谱编辑器独立连音线、2D视图笔刷跨UV岛渗透，但受众也极小。
+
+【对用户原始目标的诚实修正】用户假设「YouTube内容被搬完了、小众才有机会」。实测结论：小众平台确实有没被搬过的东西（细节深度）、大部分中国人确实不知道、但「搬过来就能用」不成立因为受众极小。关键区分：信息差型（美国肥皂剧论坛在聊什么——能讲但没人关心）vs 价值型（Dolly Parton给儿童免费寄书30年——能讲且有人关心）。真正的机会不是小众平台，是小众平台里的普世故事。
+
+【从实测数据挑出3个可用选题】①Dolly Parton的Imagination Library（HN 361分64评论）——乡村音乐天后给全球儿童免费寄书坚持30年，中文圈几乎没人讲②10年前的CNN打败前沿大模型（HN 413分200评论当日最热）——皮肤癌诊断CNN优于LLM，AI热点+反直觉+有数据③Slurptop用电动工具电池做便携电脑（Lobsters 86分21评论）——硬核+有画面+中文圈不知道。
+
+【建议的正确用法】不做「找小众平台搬内容」，做「用HN/Lobsters当新鲜事雷达」；不做「找到没人知道的社区」，做「找到没人讲过的故事」；不做「把冷门知识搬回来」，做「把冷门故事翻译给普通人」。具体动作：每天看HN Top10+Lobsters热帖（可写成脚本自动推）、每周挑3个有故事性的、每月深挖1-2个做成完整内容。
+
+交付：A阶段-小众社区清单.md + B阶段-社区内容分析.md。
