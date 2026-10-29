@@ -31,14 +31,14 @@ const DCOLOR = { req: '#475569', gw: '#6d28d9', svc: '#2563eb', mod: '#0891b2', 
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
-function chipHtml(step) {
+function chipHtml(step, cidx) {
   const status = step.status || 'real'
   const color = step.color || DCOLOR[step.col] || '#2563eb'
   const code = step.code || step.file || step.method || step.table || step.ds || ''
   const codeTxt = code + (step.line ? ':' + step.line : '')
   const tip = [step.cn, codeTxt, step.sub, status !== 'real' ? '【' + (STATUS_TAG[status] || status) + '】' : ''].filter(Boolean).join(' · ')
   const o = []
-  o.push('<div class="chip" id="s' + esc(step.no) + '" data-status="' + esc(status) + '"'
+  o.push('<div class="chip" id="c' + esc(cidx) + '-s' + esc(step.no) + '" data-step="' + esc(step.no) + '" data-status="' + esc(status) + '"'
     + ' data-row="' + esc(step.row) + '" data-col="' + esc(step.col) + '" data-stack="' + esc(step.stack) + '"'
     + ' style="--c:' + esc(color) + '" data-tip="' + esc(tip) + '" title="' + esc(tip) + '">')
   // 第一行：状态标签（例外才有）+ 序号，行内排布，既不压标题也不靠 padding 硬挤
@@ -51,10 +51,10 @@ function chipHtml(step) {
   return o.join('')
 }
 
-function cellHtml(cell) {
+function cellHtml(cell, cidx) {
   const list = Array.isArray(cell) ? cell : (cell ? [cell] : [])
   if (!list.length) return '<div class="cell"><div class="none">·</div></div>'
-  return '<div class="cell">' + list.map(chipHtml).join('') + '</div>'
+  return '<div class="cell">' + list.map((s) => chipHtml(s, cidx)).join('') + '</div>'
 }
 
 function chainHtml(chain, idx) {
@@ -65,13 +65,13 @@ function chainHtml(chain, idx) {
       const raw = row[c.id]
       const list = Array.isArray(raw) ? raw : (raw ? [raw] : [])
       list.forEach((s, k) => { s.col = c.id; s.stack = k; s.row = rowIdx; s.no = ++n })
-      return cellHtml(raw)
+      return cellHtml(raw, idx)
     }).join('')
     return '<div class="trow">' + cells + '</div>'
   }).join('')
   const head = COLS.map((c) =>
     '<div class="th" style="--c:' + DCOLOR[c.id] + ';--cb:' + c.bg + '"><b>' + esc(c.name) + '</b><span>' + esc(c.hint) + '</span></div>').join('')
-  return '<section class="chain" data-steps="' + n + '">'
+  return '<section class="chain" data-chain-idx="' + esc(idx) + '" data-steps="' + n + '">'
     + '<div class="chead"><span class="cno-t">' + esc(chain.no || ('链路 ' + (idx + 1))) + '</span>'
     + '<span class="cname">' + esc(chain.name) + '</span>'
     + (chain.entry ? '<span class="centry">' + esc(chain.entry) + '</span>' : '')

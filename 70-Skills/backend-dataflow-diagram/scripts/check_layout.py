@@ -8,10 +8,11 @@ JS = '''
     const over = c.scrollHeight - c.clientHeight;
     if (over > 1) bad.push('CARD_OVERFLOW ' + c.id);
   });
-  document.querySelectorAll('section.chain').forEach((sec) => {
+  document.querySelectorAll('section.chain').forEach((sec, secIdx) => {
+    const cn = sec.getAttribute('data-chain-idx') !== null ? sec.getAttribute('data-chain-idx') : secIdx;
     const canvas = sec.querySelector('.canvas'); const cr = canvas.getBoundingClientRect();
     const chips = [...sec.querySelectorAll('.chip')].map(c => { const a = c.getBoundingClientRect();
-      return { id: c.id, l: a.left-cr.left, r: a.right-cr.left, t: a.top-cr.top, b: a.bottom-cr.top }; });
+      return { id: c.id, step: c.dataset.step, l: a.left-cr.left, r: a.right-cr.left, t: a.top-cr.top, b: a.bottom-cr.top }; });
     const idIdx = {}; chips.forEach((c,i) => idIdx[c.id] = i);
     sec.querySelectorAll('path.wire').forEach(w => {
       const d = w.getAttribute('d'); const nums = d.match(/-?\\d+\\.?\\d*/g);
@@ -21,16 +22,16 @@ JS = '''
         const p = pts[i], q = pts[i+1];
         const v = Math.abs(p[0]-q[0]) < 0.6, h = Math.abs(p[1]-q[1]) < 0.6;
         for (const c of chips) {
-          if (c.id === 's'+w.dataset.a || c.id === 's'+w.dataset.b) continue;
+          if (String(c.step) === String(w.dataset.a) || String(c.step) === String(w.dataset.b)) continue;
           const cx = (c.l + c.r)/2, cy = (c.t + c.b)/2;
           if (v) {
             const y1=Math.min(p[1],q[1]), y2=Math.max(p[1],q[1]);
-            if (y1 < c.b && y2 > c.t && p[0] > c.l && p[0] < c.r) bad.push('WIRE_THROUGH ' + w.dataset.a + '->' + w.dataset.b + ' ' + c.id);
-            else if (y1 < c.b && y2 > c.t && (Math.abs(p[0]-c.l) < 6 || Math.abs(p[0]-c.r) < 6)) bad.push('EDGE_HUG_V ' + w.dataset.a + '->' + w.dataset.b + ' ' + c.id);
+            if (y1 < c.b && y2 > c.t && p[0] > c.l && p[0] < c.r) bad.push('chain[' + cn + '] WIRE_THROUGH ' + w.dataset.a + '->' + w.dataset.b + ' ' + c.id);
+            else if (y1 < c.b && y2 > c.t && (Math.abs(p[0]-c.l) < 6 || Math.abs(p[0]-c.r) < 6)) bad.push('chain[' + cn + '] EDGE_HUG_V ' + w.dataset.a + '->' + w.dataset.b + ' ' + c.id);
           } else if (h) {
             const x1=Math.min(p[0],q[0]), x2=Math.max(p[0],q[0]);
-            if (x1 < c.r && x2 > c.l && p[1] > c.t && p[1] < c.b) bad.push('WIRE_THROUGH ' + w.dataset.a + '->' + w.dataset.b + ' ' + c.id);
-            else if (x1 < c.r && x2 > c.l && (Math.abs(p[1]-c.t) < 6 || Math.abs(p[1]-c.b) < 6)) bad.push('EDGE_HUG_H ' + w.dataset.a + '->' + w.dataset.b + ' ' + c.id);
+            if (x1 < c.r && x2 > c.l && p[1] > c.t && p[1] < c.b) bad.push('chain[' + cn + '] WIRE_THROUGH ' + w.dataset.a + '->' + w.dataset.b + ' ' + c.id);
+            else if (x1 < c.r && x2 > c.l && (Math.abs(p[1]-c.t) < 6 || Math.abs(p[1]-c.b) < 6)) bad.push('chain[' + cn + '] EDGE_HUG_H ' + w.dataset.a + '->' + w.dataset.b + ' ' + c.id);
           }
         }
       }

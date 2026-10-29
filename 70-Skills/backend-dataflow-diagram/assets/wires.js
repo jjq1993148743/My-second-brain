@@ -57,6 +57,13 @@
       }
       var ci = {req:0,gw:1,svc:2,mod:3,file:4,method:5,ds:6,table:7}
       var n = parseInt(sec.getAttribute('data-steps')||'0',10)
+      var cidx = sec.getAttribute('data-chain-idx')
+      // 按本 section 作用域取芯片，避免多链路时 id 串台
+      function chipAt(k){
+        var byId = document.getElementById('c'+cidx+'-s'+k)
+        if (byId && sec.contains(byId)) return byId
+        return sec.querySelector('.chip[data-step="'+k+'"]')
+      }
       function laneX(fromCol, toCol) {
         var lo = Math.min(fromCol,toCol), hi = Math.max(fromCol,toCol)
         // 取两列之间第一个空隙中线
@@ -64,7 +71,7 @@
         return null
       }
       for (var j=1;j<n;j++){
-        var A = box(document.getElementById('s'+j), canvas), B = box(document.getElementById('s'+(j+1)), canvas)
+        var A = box(chipAt(j), canvas), B = box(chipAt(j+1), canvas)
         if (!A||!B) continue
         var cA=ci[A.col], cB=ci[B.col], rA=A.row, rB=B.row
         var pts
@@ -101,8 +108,8 @@
       p.classList.toggle('hot', on && (p.getAttribute('data-a')===String(id)||p.getAttribute('data-b')===String(id)))
     })
   }
-  document.addEventListener('mouseover', function(e){var c=e.target.closest&&e.target.closest('.chip'); if(c) hot(c.id.slice(1),true)})
-  document.addEventListener('mouseout', function(e){var c=e.target.closest&&e.target.closest('.chip'); if(c) hot(c.id.slice(1),false)})
+  document.addEventListener('mouseover', function(e){var c=e.target.closest&&e.target.closest('.chip'); if(c) hot(c.dataset.step,true)})
+  document.addEventListener('mouseout', function(e){var c=e.target.closest&&e.target.closest('.chip'); if(c) hot(c.dataset.step,false)})
   window.addEventListener('resize', draw)
   window.addEventListener('load', draw)
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(draw)
