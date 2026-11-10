@@ -64,32 +64,46 @@ whenToUse: 生成图片时、批量测试不同模型、需要快速原型图（
 
 ## 环境配置
 
-### API Key 设置（任选其一）
+### 密钥保险箱（vault.enc）—— 换机后从这里取
 
-**方法 A：用 DSH 凭据管理（推荐）**
+**密钥不在仓库里明文存放**，全部加密进 `vault.enc`（AES-256-GCM + scrypt）。
+
+换到新电脑后，第一步是把 vault 解开：
 
 ```bash
-# 在 .credentials.yaml 中添加
-DSH_QWEN_ZHIPU_KEY: 4e865a5c……hfA4yVLf（智谱，本机 .credentials.yaml）
-DSH_QWEN_MODESCOPE_KEY: ms-7a80fd0e……e0f93042（魔搭，本机 .credentials.yaml）
-DSH_QWEN_CLOUDFLARE_TOKEN: cfat_6E3l……a085597（Cloudflare，本机 .credentials.yaml）
-DSH_QWEN_CLOUDFLARE_ACCOUNT: 3d926cbc……1e00af0（Cloudflare Account ID）
-DSH_QWEN_SILICONFLOW_KEY: sk-sqnu……nvktffft（硅基流动，本机 .credentials.yaml）
+cd 70-Skills/free-text-to-image
+
+# 交互输入口令
+python vault.py decrypt
+
+# 或从环境变量（适合脚本）
+$env:QWEN_VAULT_PASS = "<口令>"
+python vault.py decrypt
 ```
 
-**方法 B：环境变量（临时测试用）**
+成功后会在同目录生成 `providers.json`（含全部 API Key），把它拷到桥接目录：
 
 ```powershell
-$env:DSH_QWEN_ZHIPU_KEY="..."
-$env:DSH_QWEN_MODESCOPE_KEY="..."
-$env:DSH_QWEN_CLOUDFLARE_TOKEN="..."
-$env:DSH_QWEN_CLOUDFLARE_ACCOUNT="..."
-$env:DSH_QWEN_SILICONFLOW_KEY="..."
+Copy-Item providers.json D:\GitHub\qwen-bridge\providers.json -Force
 ```
 
-### providers.json 配置
+其他命令：
 
-路径：`D:\GitHub\qwen-bridge\providers.json`
+| 命令 | 作用 |
+|---|---|
+| `python vault.py status` | 查看 vault 状态（不解密） |
+| `python vault.py show` | 解密后只打印，不落盘 |
+| `python vault.py encrypt` | 把 providers.json 加密回 vault.enc |
+
+**依赖**：`pip install cryptography`
+
+**安全说明**：
+- 口令不写入任何文件，只在内存中用于派生密钥
+- 口令错误时 GCM 校验失败，直接拒绝，不会输出半截数据
+- scrypt(N=32768, r=8, p=1) 让暴力破解代价极高
+- 解出的 `providers.json` 记得加进 `.gitignore`，不要提交
+
+### 方法 B：直接配 providers.json（如果你不想用 vault）
 
 ```json
 {
@@ -98,27 +112,27 @@ $env:DSH_QWEN_SILICONFLOW_KEY="..."
   "order": ["siliconflow", "modelscope", "zhipu", "cloudflare", "pollinations"],
   "siliconflow": {
     "enabled": true,
-    "api_key": "sk-sqnu……nvktffft（硅基流动，本机 .credentials.yaml）",
+    "api_key": "<硅基流动 key>",
     "model": "Kwai-Kolors/Kolors",
     "base": "https://api.siliconflow.cn/v1",
     "steps": 20
   },
   "modelscope": {
     "enabled": true,
-    "api_key": "ms-7a80fd0e……e0f93042（魔搭，本机 .credentials.yaml）",
+    "api_key": "<魔搭 token>",
     "model": "Qwen/Qwen-Image-2.1",
     "base": "https://api-inference.modelscope.cn/v1"
   },
   "zhipu": {
     "enabled": true,
-    "api_key": "4e865a5c……hfA4yVLf（智谱，本机 .credentials.yaml）",
+    "api_key": "<智谱 key>",
     "model": "cogview-3-flash",
     "base": "https://open.bigmodel.cn/api/paas/v4"
   },
   "cloudflare": {
     "enabled": true,
-    "account_id": "3d926cbc……1e00af0（Cloudflare Account ID）",
-    "api_token": "cfat_6E3l……a085597（Cloudflare，本机 .credentials.yaml）",
+    "account_id": "<Cloudflare Account ID>",
+    "api_token": "<Cloudflare API Token>",
     "model": "@cf/black-forest-labs/flux-1-schnell"
   },
   "pollinations": {

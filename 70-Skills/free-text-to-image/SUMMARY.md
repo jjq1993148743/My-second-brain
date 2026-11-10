@@ -21,24 +21,34 @@
 
 ---
 
-## API Key 列表（脱敏）
+## API Key 存放方式
 
-| 平台 | Token/Key |
-|------|-----------|
-| 智谱 | `4e865a5c……hfA4yVLf（智谱，本机 .credentials.yaml）` |
-| 魔搭 | `ms-7a80fd0e……e0f93042（魔搭，本机 .credentials.yaml）` |
-| Cloudflare Token | `cfat_6E3l……a085597（Cloudflare，本机 .credentials.yaml）` |
-| Cloudflare Account | `3d926cbc……1e00af0（Cloudflare Account ID）` |
-| 硅基流动 | `sk-sqnu……nvktffft（硅基流动，本机 .credentials.yaml）` |
+**全部加密在 `vault.enc`**（AES-256-GCM + scrypt），仓库里没有明文。
 
-⚠️ **这些 key 是临时测试用的，生产环境请重新申请**。不要提交到公开仓库。
+| 平台 | 状态 |
+|------|------|
+| 智谱 | 🔐 已加密 |
+| 魔搭 | 🔐 已加密 |
+| Cloudflare Token + Account | 🔐 已加密 |
+| 硅基流动 | 🔐 已加密 |
+| DashScope | 🔐 已加密（已欠费，禁用） |
+
+换机后解封：
+
+```bash
+cd 70-Skills/free-text-to-image
+python vault.py decrypt      # 输入口令
+Copy-Item providers.json D:\GitHub\qwen-bridge\providers.json -Force
+```
+
+口令由 jjq 单独保管，不写进任何文件。
 
 ---
 
 ## 安装步骤
 
 1. 将代码库部署到 `70-Skills/free-text-to-image`
-2. 配置 `.credentials.yaml` 或环境变量
+2. `pip install cryptography` 然后 `python vault.py decrypt` 解开密钥
 3. 启动桥接服务：`python bridge.py`
 4. 注册为 DSH Skill（见 README.md）
 

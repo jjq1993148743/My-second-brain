@@ -24,9 +24,23 @@ cd D:\GitHub\My-second-brain
 git clone https://github.com/your-repo/qwen-bridge.git 70-Skills/free-text-to-image
 ```
 
-### 2. API Key 配置
+### 2. 解密密钥保险箱（换机必做）
 
-在 `.credentials.yaml` 中添加（方法 A）或环境变量（方法 B）。
+密钥全部加密在 `vault.enc` 里，**仓库里没有明文**。新机器上第一次使用：
+
+```bash
+cd 70-Skills/free-text-to-image
+pip install cryptography
+python vault.py decrypt          # 会提示输入口令
+```
+
+口令由 jjq 单独提供。解密成功后生成 `providers.json`，拷到桥接目录：
+
+```powershell
+Copy-Item providers.json D:\GitHub\qwen-bridge\providers.json -Force
+```
+
+其他命令：`vault.py status`（查看状态）/ `vault.py show`（只看不落盘）/ `vault.py encrypt`（重新加密）
 
 详见 [`SKILL.md`](./SKILL.md) §环境配置。
 
