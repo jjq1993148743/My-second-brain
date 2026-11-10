@@ -14,6 +14,7 @@ tags: [skills, 索引]
 | [backend-dataflow-diagram](backend-dataflow-diagram/SKILL.md) | 把任意项目的业务流程画成单文件 HTML 后端数据流向俯视图（八列分层 + 正交连线） | Node.js（render/verify）、Python + playwright（布局闸门） | ✅ 12 文件完整，冒烟通过 |
 | [photo-poster](photo-poster/SKILL.md) | 真实照片 + 中文排版出小红书竖图（1242×1656） | Python + Pillow | ✅ 已实测 |
 | [business-scenario-design](business-scenario-design/SKILL.md) | 业务梳理/功能设计强制场景推演：角色卡 + 场景流水 + 数据推演 + 边界清单 + Gherkin，禁止简化和「用户」泛指 | 无（纯规则） | ✅ 已实跑验证 |
+| [free-text-to-image](free-text-to-image/SKILL.md) | 免费文生图多源故障转移：硅基流动/魔搭/智谱/Cloudflare/Pollinations 链式调用，自动切源 + 负向词适配 + 水印抹除 | Python + Pillow + OpenCV | ✅ 8 模型 × 3 机位实测 |
 
 ## 结构
 
