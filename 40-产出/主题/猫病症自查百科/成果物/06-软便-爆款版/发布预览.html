@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>06 软便 · 爆款版 · 发布预览</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:"Microsoft YaHei","PingFang SC","Source Han Sans SC",sans-serif;
+  background:#f0eeea; color:#14161a; line-height:1.6;
+  padding:0 0 80px;
+}
+.wrap{max-width:1500px;margin:0 auto;padding:0 32px}
+
+/* 顶部 */
+header{
+  background:#14161a;color:#fff;padding:56px 32px 48px;margin-bottom:44px;
+}
+header .inner{max-width:1500px;margin:0 auto;padding:0 32px}
+.badge{
+  display:inline-block;background:#e5484d;color:#fff;font-size:15px;font-weight:800;
+  padding:7px 16px;border-radius:8px;letter-spacing:1px;margin-bottom:22px;
+}
+header h1{font-size:46px;font-weight:900;line-height:1.2;letter-spacing:-1px}
+header .sub{font-size:19px;color:#9ba1ab;margin-top:16px}
+header .meta{display:flex;gap:36px;margin-top:30px;flex-wrap:wrap}
+header .meta div{font-size:15px;color:#6b7280}
+header .meta b{display:block;font-size:26px;color:#fff;font-weight:900;margin-top:4px}
+
+/* 区块 */
+section{margin-bottom:52px}
+h2{
+  font-size:29px;font-weight:900;margin-bottom:22px;
+  padding-left:16px;border-left:6px solid #e5484d;line-height:1.2;
+}
+h2 .n{color:#c9cdd4;font-size:22px;margin-right:10px}
+
+/* 标题候选 */
+.titles{display:flex;flex-direction:column;gap:14px}
+.title-opt{
+  background:#fff;border:2px solid #e3e0da;border-radius:16px;padding:24px 28px;
+  display:flex;align-items:center;gap:22px;
+}
+.title-opt.pick{border-color:#e5484d;background:#fffaf9;box-shadow:0 4px 20px rgba(229,72,77,.1)}
+.title-opt .rk{
+  width:48px;height:48px;border-radius:24px;background:#e3e0da;color:#666;
+  display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:900;flex-shrink:0;
+}
+.title-opt.pick .rk{background:#e5484d;color:#fff}
+.title-opt .tw{flex:1}
+.title-opt .tt{font-size:29px;font-weight:900;line-height:1.3}
+.title-opt .tn{font-size:15px;color:#8a9099;margin-top:7px}
+.title-opt .tag{
+  font-size:15px;font-weight:800;padding:8px 16px;border-radius:9px;
+  background:#e3f2e8;color:#1c5b34;white-space:nowrap;flex-shrink:0;
+}
+
+/* 图片网格 */
+.imgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:26px}
+.img-card{background:#fff;border-radius:18px;overflow:hidden;border:1px solid #e3e0da;box-shadow:0 2px 12px rgba(0,0,0,.05)}
+.img-card .pic{position:relative;background:#faf9f7}
+.img-card img{width:100%;display:block}
+.img-card .idx{
+  position:absolute;top:14px;left:14px;width:44px;height:44px;border-radius:22px;
+  background:rgba(20,22,26,.82);color:#fff;display:flex;align-items:center;justify-content:center;
+  font-size:20px;font-weight:900;backdrop-filter:blur(6px);
+}
+.img-card .cap{padding:18px 20px 20px}
+.img-card .cn{font-size:21px;font-weight:900;line-height:1.3}
+.img-card .cd{font-size:15px;color:#8a9099;margin-top:7px;line-height:1.45}
+
+/* 正文 */
+.copy{background:#fff;border-radius:18px;padding:38px 42px;border:1px solid #e3e0da}
+.copy p{font-size:18px;line-height:1.9;margin-bottom:20px;color:#2a2d33}
+.copy p:last-child{margin-bottom:0}
+.copy .tags{
+  display:flex;flex-wrap:wrap;gap:10px;margin-top:26px;padding-top:26px;border-top:1px dashed #e3e0da;
+}
+.copy .tags span{
+  font-size:16px;font-weight:700;color:#3a6ea5;background:#eef4fb;padding:8px 16px;border-radius:9px;
+}
+
+/* 数据表 */
+.tbl{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e3e0da}
+.tbl th{background:#14161a;color:#fff;font-size:15px;font-weight:800;padding:16px 18px;text-align:left}
+.tbl td{padding:15px 18px;font-size:15px;border-top:1px solid #eee;vertical-align:top}
+.tbl tr:nth-child(even) td{background:#faf9f7}
+.tbl td b{font-weight:900}
+.hot{color:#e5484d;font-weight:900}
+
+/* 规律卡 */
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}
+.rule{background:#fff;border-radius:16px;padding:26px 28px;border:1px solid #e3e0da}
+.rule .rt{font-size:20px;font-weight:900;color:#e5484d;margin-bottom:14px}
+.rule ul{list-style:none}
+.rule li{font-size:15px;line-height:1.6;padding:9px 0;border-bottom:1px dashed #eee;color:#444}
+.rule li:last-child{border-bottom:none}
+.rule li b{color:#14161a;font-weight:900}
+
+/* 提示 */
+.note{
+  background:#fdf3dd;border-left:5px solid #f0a52e;border-radius:12px;
+  padding:22px 26px;font-size:16px;line-height:1.7;color:#6b4a00;
+}
+.note b{color:#8a5a00}
+.note ol{margin:12px 0 0 20px}
+.note li{margin-bottom:8px}
+
+footer{text-align:center;font-size:14px;color:#9ba1ab;padding-top:40px;border-top:1px solid #ddd;margin-top:20px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <div class="badge">第五篇 · 爆款改造版</div>
+    <h1>猫软便分 5 种<br>第 3 种拖过两周就得去医院</h1>
+    <div class="sub">基于 323 条赛道笔记实测数据重做 · 6 图单篇 · 2026-11-15</div>
+    <div class="meta">
+      <div>采集样本<b>323 条</b></div>
+      <div>图片数量<b>6 张</b></div>
+      <div>画布规格<b>2484×3312</b></div>
+      <div>你的均赞 vs 赛道中位<b>1.5 / 37</b></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- 标题 -->
+  <section>
+    <h2><span class="n">01</span>标题候选</h2>
+    <div class="titles">
+      <div class="title-opt pick">
+        <div class="rk">1</div>
+        <div class="tw">
+          <div class="tt">猫软便分5种，第3种拖过两周就得去医院</div>
+          <div class="tn">21 字 · 数字+分级+紧迫感 · 对标「9大症状第3个最隐蔽」2,963 赞</div>
+        </div>
+        <div class="tag">主推</div>
+      </div>
+      <div class="title-opt">
+        <div class="rk">2</div>
+        <div class="tw">
+          <div class="tt">猫软便别急着换粮，先做这两周减法</div>
+          <div class="tn">17 字 · 行动指令 · 对标「居家/自救」类高频词</div>
+        </div>
+      </div>
+      <div class="title-opt">
+        <div class="rk">3</div>
+        <div class="tw">
+          <div class="tt">软便还是真腹泻？六行就能分清楚</div>
+          <div class="tn">15 字 · 认知冲突 · 对应图 3</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 图片 -->
+  <section>
+    <h2><span class="n">02</span>配图（6 张，按上传顺序）</h2>
+    <div class="imgs">
+      <div class="img-card">
+        <div class="pic"><div class="idx">1</div><img src="图/01-五种便便对照.png" alt="五种便便对照"></div>
+        <div class="cap">
+          <div class="cn">5 种便便对照表</div>
+          <div class="cd">首图即工具表，冲收藏率。第 3、5 种红框强调</div>
+        </div>
+      </div>
+      <div class="img-card">
+        <div class="pic"><div class="idx">2</div><img src="图/02-两周时间线.png" alt="两周时间线"></div>
+        <div class="cap">
+          <div class="cn">拖到第几天就别等了</div>
+          <div class="cd">1-3天 / 3-7天 / 2周 / 当天，四条时间线</div>
+        </div>
+      </div>
+      <div class="img-card">
+        <div class="pic"><div class="idx">3</div><img src="图/03-软便还是真腹泻.png" alt="软便还是真腹泻"></div>
+        <div class="cap">
+          <div class="cn">软便还是真腹泻</div>
+          <div class="cd">6 行对照，两种情况的处理节奏</div>
+        </div>
+      </div>
+      <div class="img-card">
+        <div class="pic"><div class="idx">4</div><img src="图/04-七个自测.png" alt="七个自测"></div>
+        <div class="cap">
+          <div class="cn">在家能做的 7 个自测</div>
+          <div class="cd">不用买任何东西，今晚就能做</div>
+        </div>
+      </div>
+      <div class="img-card">
+        <div class="pic"><div class="idx">5</div><img src="图/05-两周减法.png" alt="两周减法"></div>
+        <div class="cap">
+          <div class="cn">两周减法：停比加管用</div>
+          <div class="cd">左边停什么，右边做什么</div>
+        </div>
+      </div>
+      <div class="img-card">
+        <div class="pic"><div class="idx">6</div><img src="图/06-九条老手经验.png" alt="九条老手经验"></div>
+        <div class="cap">
+          <div class="cn">9 条老手经验</div>
+          <div class="cd">收藏钩子，没有一条让你买东西</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 正文 -->
+  <section>
+    <h2><span class="n">03</span>正文</h2>
+    <div class="copy">
+      <p>铲起来的那一下我就知道不对了。来是黏糊糊的，铲子一带就散。</p>
+
+      <p>我没当回事。第二天、第三天还是这样。网上搜了半天，都在说"再观察两天"。</p>
+
+      <p>后来我才明白，"再观察两天"这句话，只对第 1 种成立。</p>
+
+      <p>往下翻。第一张是 5 种形态，从上往下对一遍，就知道该在家还是该出门——第 3 种和第 5 种别等。第二张给了四条时间线，1-3 天、3-7 天、两周、当天，各自该干什么写清楚了。第三张是软便和真腹泻的 6 行对照，这两件事的处理节奏完全不一样。第四张是 7 个在家就能做的自测，不用买任何东西。第五张讲两周减法——停掉比加东西管用。最后 9 条，是我这几年踩过的坑。</p>
+
+      <p>第 3 种最容易被耽误：前段成形、后段糊、裹一层黏液，拖过两周还在。这条线最多的原因是原虫，不是粮。别再拿换粮当试验了，采一份新鲜便样送检，两小时内，不要冷冻。</p>
+
+      <p>症状不等于诊断，这里只帮你分方向，最终由兽医排查。本期不涉及任何用药。</p>
+
+      <p>一共 72 条，我一条条写。想看哪条，评论区点单；想看我怎么养这 7 只，关注我。</p>
+
+      <p>（本内容为 AI 辅助整理，资料出处已标注，请以兽医判断为准。）</p>
+
+      <p>"可乐"是我家小猫的名字。</p>
+
+      <div class="tags">
+        <span>#猫软便</span>
+        <span>#猫咪拉稀</span>
+        <span>#猫咪肠胃</span>
+        <span>#科学养猫</span>
+        <span>#养猫新手</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据依据 -->
+  <section>
+    <h2><span class="n">04</span>数据依据</h2>
+    <table class="tbl">
+      <thead>
+        <tr><th style="width:34%">指标</th><th>你的 4 篇</th><th>赛道实测</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>平均点赞</td><td><b>1.5</b></td><td>中位 <b class="hot">37</b></td></tr>
+        <tr><td>最好一篇</td><td><b>6 赞 / 391 观看</b></td><td>榜首 <b class="hot">6,499 赞</b></td></tr>
+        <tr><td>Top10% 门槛</td><td>—</td><td><b>818 赞</b></td></tr>
+        <tr><td>收藏率（收藏/赞）</td><td>最好 1.0（10-13 那篇）</td><td>爆款普遍 <b>&gt;1.0</b>，最高 1.23x</td></tr>
+        <tr><td>平均标题长度</td><td>18-21 字（偏长）</td><td><b>14 字</b>（范围 8-23）</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 规律 -->
+  <section>
+    <h2><span class="n">05</span>三条爆款规律</h2>
+    <div class="rules">
+      <div class="rule">
+        <div class="rt">规律 1 · 标题要有数字和分级</div>
+        <ul>
+          <li><b>5</b>种呕吐物颜色<b>对照</b>，有这<b>2</b>种需马上就医 → 6,499 赞</li>
+          <li><b>9</b>大夺命症状第<b>3</b>个最隐蔽 → 2,963 赞</li>
+          <li>眼睛蓝度直接分<b>6</b>个等级 → 1,831 赞</li>
+          <li><b>6</b>种颜色秒懂猫主子健康 → 1,119 赞</li>
+        </ul>
+      </div>
+      <div class="rule">
+        <div class="rt">规律 2 · 收藏率 &gt; 1.0 才是真爆款</div>
+        <ul>
+          <li>肌酐从1000到100全过程 → <b>1.23x</b></li>
+          <li>猫咪肠胃炎居家治疗总结 → <b>1.16x</b></li>
+          <li>呕吐的十个等级自己判断 → <b>1.09x</b></li>
+          <li>肠胃炎居家急救（已痊愈）→ <b>1.08x</b></li>
+        </ul>
+      </div>
+      <div class="rule">
+        <div class="rt">规律 3 · 高频词是「居家 / 自救」</div>
+        <ul>
+          <li>居家（3 次）· 怎么（3 次）</li>
+          <li>自救（2 次）· 成功（2 次）</li>
+          <li>怎么办（2 次）· 干货（2 次）</li>
+          <li>你要表达的是<b>「我试过、成了」</b>，不是科普</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 改了什么 -->
+  <section>
+    <h2><span class="n">06</span>相比原稿改了什么</h2>
+    <table class="tbl">
+      <thead><tr><th style="width:38%">原稿问题</th><th>本期改法</th></tr></thead>
+      <tbody>
+        <tr><td>8 种便便形态分两张图（一期1、一期2）</td><td><b>合并成 5 种一张对照表</b>，首图就是工具表</td></tr>
+        <tr><td>标题「猫软便，先看便便长什么样」13 字，无数字无分级</td><td><b>「猫软便分5种，第3种拖过两周就得去医院」</b></td></tr>
+        <tr><td>一期 5 图 + 二期 6 图，节奏分散</td><td><b>单篇 6 图，一次讲完</b>（赛道 Top20 无一拆期）</td></tr>
+        <tr><td>缺时间刻度</td><td>新增 <b>02-两周时间线</b>（1-3天/3-7天/2周/当天）</td></tr>
+        <tr><td>缺「减法具体做什么」</td><td>新增 <b>05-两周减法</b>（停什么/做什么）</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 待确认 -->
+  <section>
+    <h2><span class="n">07</span>待你确认（我没有编造）</h2>
+    <div class="note">
+      <b>三处需要你拍板：</b>
+      <ol>
+        <li>主角写的是「可乐」（按档案里"什么都往嘴里塞、肠胃差"的特征分的）。<b>实际是哪只猫？</b></li>
+        <li>原稿里「问了朋友才知道不能再拖」这句，本次改写去掉了。<b>要不要保留？</b></li>
+        <li><b>最后去了医院吗？</b>（这句关系到正文最后一段怎么写）</li>
+      </ol>
+      <p style="margin-top:16px">另外：标题你选第几个？定了我把图和文案一起定稿，再发到大号。</p>
+    </div>
+  </section>
+
+  <footer>
+    数据来源：GitHub white0dew/XiaohongshuSkills 采集 · 4 个关键词 × 84 条 · 去重 323 条<br>
+    图 1-6 均 2484×3312（3:4 @2x）· 生成时间 2026-11-15
+  </footer>
+
+</div>
+</body>
+</html>
