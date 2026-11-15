@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>N7</title><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1242px;height:1656px}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:linear-gradient(160deg,#fff8e8 0%,#ffe9d6 100%);
+  padding:56px 48px 44px;display:flex;flex-direction:column;justify-content:center;align-items:center;
+  position:relative;overflow:hidden}
+.d1{position:absolute;top:-110px;right:-100px;width:360px;height:360px;border-radius:50%;background:#ffd60a;opacity:.35}
+.d2{position:absolute;bottom:-140px;left:-120px;width:400px;height:400px;border-radius:50%;background:#a8e6cf;opacity:.4}
+
+.hd{position:relative;z-index:2;text-align:center;width:100%}
+.tag{display:inline-block;background:#14161a;color:#ffd60a;font-size:28px;font-weight:900;
+  padding:11px 32px;border-radius:44px;letter-spacing:2px}
+h1{font-size:82px;font-weight:900;line-height:1.1;margin-top:24px;color:#14161a;letter-spacing:-2px}
+h1 em{font-style:normal;color:#e5484d}
+
+/* 结论区 */
+.result{position:relative;z-index:2;margin-top:44px;width:100%;background:#fff;border-radius:24px;
+  padding:40px 44px;box-shadow:0 10px 30px rgba(120,80,20,.15);border:4px solid #2e9e5b}
+.result .rt{font-size:38px;font-weight:900;color:#1c5b34;line-height:1.3}
+.result .rd{font-size:27px;color:#4a4a4a;line-height:1.72;margin-top:18px}
+.result .rd b{color:#e5484d;font-weight:900}
+.result .rd .hl{background:#fff3b0;padding:2px 8px;border-radius:6px;font-weight:900}
+
+/* 讨论钩子 */
+.ask{position:relative;z-index:2;margin-top:34px;width:100%;background:#14161a;border-radius:24px;
+  padding:38px 44px;box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.ask .at{font-size:33px;font-weight:900;color:#ffd60a;line-height:1.35}
+.ask .opts{display:flex;gap:18px;margin-top:24px}
+.ask .opt{flex:1;background:#fff;border-radius:16px;padding:22px 20px;text-align:center}
+.ask .opt .num{font-size:46px;font-weight:900;color:#e5484d;line-height:1}
+.ask .opt .lbl{font-size:26px;font-weight:900;color:#14161a;margin-top:10px}
+.ask .opt .sub{font-size:20px;color:#8a9099;margin-top:6px}
+.ask .ad{font-size:25px;color:#c9cdd4;line-height:1.6;margin-top:22px}
+
+/* 关注 */
+.follow{position:relative;z-index:2;margin-top:32px;width:100%;background:#fff;border-radius:24px;
+  padding:36px 44px;box-shadow:0 8px 24px rgba(120,80,20,.13);display:flex;align-items:center;gap:28px}
+.follow .ico{width:92px;height:92px;border-radius:46px;background:#e5484d;display:flex;
+  align-items:center;justify-content:center;font-size:48px;flex-shrink:0}
+.follow .ft{flex:1}
+.follow .ft1{font-size:31px;font-weight:900;color:#14161a;line-height:1.3}
+.follow .ft2{font-size:23px;color:#7a7a7a;margin-top:9px;line-height:1.5}
+
+.foot{position:relative;z-index:2;margin-top:30px;font-size:20px;color:#9a8a70;text-align:center;line-height:1.6}
+</style></head><body>
+<div class="d1"></div><div class="d2"></div>
+
+<div class="hd">
+  <div class="tag">最后说两句实话</div>
+  <h1>我不是医生，<br>我只是<em>先踩了坑</em></h1>
+</div>
+
+<div class="result">
+  <div class="rt">啤酒最后是怎么好的</div>
+  <div class="rd">
+    停掉所有加餐和猫条，只留一款主粮和干净水。<br>
+    <span class="hl">第 5 天开始成形，第二周完全正常。</span><br>
+    没吃药，没去医院，就是停了。<br><br>
+    <b>但这不是让你别去医院。</b>第 3 种（前段成形、后段糊、裹黏液）拖过两周的，最多的原因是原虫，不是粮——这条必须送检。我是第 4 种，糊状、没血、精神好，才敢在家试。
+  </div>
+</div>
+
+<div class="ask">
+  <div class="at">你家猫是第几种？评论区报个数字</div>
+  <div class="opts">
+    <div class="opt"><div class="num">3</div><div class="lbl">后段糊</div><div class="sub">拖过两周的</div></div>
+    <div class="opt"><div class="num">4</div><div class="lbl">糊状</div><div class="sub">像啤酒这样</div></div>
+    <div class="opt"><div class="num">5</div><div class="lbl">带血</div><div class="sub">当天就去了</div></div>
+  </div>
+  <div class="ad">报个数，我按形态归类回复你。不确定的，把便便照片发我，我帮你对。</div>
+</div>
+
+<div class="follow">
+  <div class="ico">🐱</div>
+  <div class="ft">
+    <div class="ft1">关注我，看我怎么把 7 只猫的坑<br>都写成能用的自查表</div>
+    <div class="ft2">一共 72 条，我一条条写。想看哪条，评论区点单。<br>我们一起来养猫。</div>
+  </div>
+</div>
+
+<div class="foot">症状不等于诊断，最终由兽医排查 ｜ 本期不涉及任何用药<br>本内容为 AI 辅助整理，资料出处已标注</div>
+</body></html>
