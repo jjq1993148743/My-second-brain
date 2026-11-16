@@ -14,35 +14,69 @@ whenToUse: 生成图片时、批量测试不同模型、需要快速原型图（
 
 ---
 
-## 模型清单（2026-11-16 小红书配图专项横评后定稿）
+## 模型清单（2026-11-16 两轮实测后定稿）
 
-> 横评口径：**小红书真实配图题材**（白猫封面 / 猫砂盆 / 猫爬架 / 四滩呕吐物并列 / 四种便便对照 / 药品静物 / 猫喝水），
-> 3:4 画布，每个模型 7 个 prompt，全部人工看图复核。证据在 `D:\GitHub\qwen-bridge\bakeoff_xhs\`（含 `对照总图.png`）。
+> **重要更正**：第一轮横评用**中文 prompt 测了 flux 系**（Cloudflare / Pollinations），判它们"不可用"——
+> 这是**测法错误**。flux 系本来就只吃英文。第二轮按"各模型用它原生支持的语种"重测，**flux 系在英文 prompt 下完全正常**，
+> 而且**在插画 / 日系 / 胶片 / 黏土这几个风格上是第一名**。
+>
+> 结论从"淘汰 flux"改成：**按风格路由，中文 prompt 自动避开 flux**。
+>
+> 证据：`D:\GitHub\qwen-bridge\style_matrix\风格对照总图_全.png`（8 风格 × 5 模型 = 40 格全实拍）。
 
-### ✅ 留用（按优先级，就是 providers.json 里的 order）
+---
 
-| 顺位 | 平台 · 模型 | 配置段 | 平均耗时 | 免费额度 | 判定 |
+## ⭐ 风格 × 模型 路由表（这是本技能的核心，2026-11-16 实测）
+
+同一题材（一只白猫 + 木地板），只换风格，逐格人工看图打分（0–3）。
+
+| 风格 | 第一名 | 第二名 | 第三名 | 别用 |
+|---|---|---|---|---|
+| **真实风** | Qwen-Image-2.1 / Z-Image-Turbo / **flux-1-schnell**（并列 3） | 智谱 2 | Pollinations 2 | — |
+| **插画风** | **flux-1-schnell**（3，最干净的矢量感） | Z-Image-Turbo（3，最可爱） | Qwen-2.1 / Pollinations（2） | 智谱 1（线条潦草、形体飘） |
+| **科技风** | **flux-1-schnell**（3，光影最像电影） | Z-Image-Turbo（3） | Pollinations（3） | 智谱 2（发灰、像隔着玻璃） |
+| **梵高风** | **Qwen-Image-2.1**（3，笔触最厚最像油画） | Z-Image-Turbo（3，星空构图最好） | flux（2） | Pollinations 1（只剩糊） |
+| **水彩风** | **Qwen-Image-2.1**（3，晕染和纸纹最真） | Z-Image-Turbo / 智谱（2） | — | flux 系 1（做成数码绘） |
+| **黏土 3D** | **flux-1-schnell / Pollinations**（3，玩具感最强） | Z-Image-Turbo（3，最精细） | Qwen-2.1（2） | 智谱 1（像磨砂石雕） |
+| **日系清新** | **flux-1-schnell**（3，冷调漫射光最准） | Pollinations（3） | Z-Image-Turbo（2） | Qwen-2.1（1，出成普通居家照） |
+| **复古胶片** | **flux-1-schnell**（3，颗粒和暖偏最像 Portra） | Z-Image-Turbo / 智谱 / Pollinations（2） | — | Qwen-2.1（1，太干净没有胶片味） |
+
+**代码里就是 `bridge.py` 的 `STYLE_ROUTES`**，调用时给 `style` 参数即可自动换顺序。
+
+### 三条从这张表里读出来的规律
+
+1. **Qwen-Image-2.1 是「画」的冠军**：梵高、水彩这类需要真实颜料质感的，它明显强过其他所有模型。
+2. **flux-1-schnell 是「风格化」的冠军**：插画、科技、日系、胶片四个第一，而且只要 3–5 秒（比魔搭快 3–20 倍）。
+3. **Z-Image-Turbo 是「万能第二」**：八个风格里没有一次掉出前三，且中文英文都吃 —— 所以它是默认值，不是因为它最强，而是因为它最不挑。
+
+### 中文 / 英文怎么选
+
+| prompt 语种 | 会发生什么 |
+|---|---|
+| **中文** | flux 系（CF / Pollinations）分数自动归零，路由自动落到魔搭或智谱 |
+| **英文** | 全部 5 个模型参与，按上表排序 |
+
+想要某个风格的 flux 第一名？**把 prompt 写成英文**。这是唯一代价。
+
+---
+
+## 全模型清单与成本
+
+| 平台 · 模型 | 配置段 | 耗时 | 免费额度 | 中文 | 角标 |
 |---|---|---|---|---|---|
-| 1 | **魔搭 · Tongyi-MAI/Z-Image-Turbo** | `modelscope_fast` | **8.8s** | 2000 次/天 | **主力**。细节遵循最好的一档，复杂并列指令（四种便便、四滩呕吐物）都能摆对位置；无角标；中文 prompt 直接吃 |
-| 2 | **魔搭 · Qwen/Qwen-Image-2.1** | `modelscope` | 12.8s（**偶发排队 150–280s**） | 2000 次/天 | **质量天花板**。毛发/材质最真，复杂场景最稳；缺点是高峰期会卡 200 秒以上，所以排第二、并加了 240s 硬超时 |
-| 3 | **智谱 · cogview-3-flash** | `zhipu` | 8.9s | 不限量 | **降级用**。单体物件（一只猫、一个猫砂盆）很好；**多目标并列指令会跑偏**（要四滩呕吐物 → 出一地乱泼）。带「AI生成」灰底胶囊角标，已能抹掉 |
-| — | **DSH 远程网关** | 直接 `qwen_generate_image` | ~20s | 走插件 | **最省事的一条**。3:4 画布可用（1248×1664），不占魔搭额度，适合单张快速出图 |
-
-### ❌ 淘汰（不进 order，或只在英文 prompt 下才可救）
-
-| 平台 · 模型 | 实测问题 | 处理 |
-|---|---|---|
-| **Cloudflare · flux-1-schnell** | **中文 prompt 完全失效**：3 个 prompt × 3 次，要白猫 → 出古风建筑/雪山庙宇/灯笼夜景，与描述毫无关系。换英文 prompt 立刻正常（白猫正确） | 已加 `has_cjk()` 守卫：**中文 prompt 直接跳过**，只在英文时兜底 |
-| **Pollinations · flux** | 同样问题：中文 → 出人像少女（3/3 全错），英文才出猫。另有 45s/张硬限速 + 右下角 `pollinations.ai` 角标 | 已加同样的中文守卫；仅英文兜底 |
-| **硅基流动 · Qwen/Qwen-Image** | 质量与魔搭 Qwen 相当，但 **0.3 元/张**（`siliconflow.enabled=false`） | 关闭 |
-| **硅基流动 · Kolors** | 0.3 元/张；抽象概念（"毛球"）会画成一堆橙色绒球乱飞 | 关闭 |
-| **魔搭 · Qwen/Qwen-Image（老版）** | 192–276 秒，3 次里 1 次超时，比 2.1 慢 20 倍还更差 | 不进 order |
-| **DashScope（阿里云百炼）** | 0.25 元/张计费，已欠费停服 | 禁用 |
+| **魔搭 · Z-Image-Turbo** | `modelscope_fast` | 8.8s（排队时 40–110s） | 2000 次/天 | ✅ | 无 |
+| **魔搭 · Qwen-Image-2.1** | `modelscope` | 12.8s（偶发 150–280s） | 2000 次/天 | ✅ | 无 |
+| **智谱 · cogview-3-flash** | `zhipu` | 8.9s | 不限量 | ✅ | 有，已自动抹 |
+| **Cloudflare · flux-1-schnell** | `cloudflare` | **3.9s** | 10k neurons/天≈58 张 | ❌ | 无 |
+| **Pollinations · flux** | `pollinations` | 6–46s | 45s/张限速 | ❌ | 有，已自动抹 |
+| **DSH 远程网关** | 直接 `qwen_generate_image` | ~20s | 走插件 | ✅ | 无 |
+| 硅基流动 Qwen / Kolors | — | — | **0.3 元/张** | ✅ | 已关闭 |
+| DashScope | — | — | **0.25 元/张** | ✅ | 已禁用 |
 
 ### 一句话结论
 
-> **默认走 Z-Image-Turbo（快且准）→ Qwen-Image-2.1（要极致画质时手选）→ 智谱（额度用尽时降级）。**
-> **flux 系（Cloudflare / Pollinations）在小红书场景等于不可用**——中文 prompt 会出完全无关的图，别让它接管。
+> **默认 Z-Image-Turbo（最不挑、中文英文都吃）；要某种风格就查上表给 `style`；
+> 要画意（梵高/水彩）用 Qwen-Image-2.1；要快和风格化（插画/科技/日系/胶片）用 flux + 英文 prompt。**
 
 ---
 
@@ -68,8 +102,31 @@ whenToUse: 生成图片时、批量测试不同模型、需要快速原型图（
 4. cloudflare（**仅英文 prompt**，中文自动跳过）
 5. pollinations（**仅英文 prompt**，中文自动跳过，兜底）
 
-**中文守卫（`has_cjk()`）**：prompt 里 CJK 字符 ≥4 个时，`gen_cloudflare` / `gen_pollinations` 直接抛异常跳过。
-根因：flux-1-schnell 与 Pollinations 的 flux 用的是 CLIP 类文本编码器，中文 token 几乎无效，会退化成「随机插画」。
+> 注意：这条 `order` 只是**没指定 style 时**的兜底顺序。**指定了 style 就走 `STYLE_ROUTES`**，那条链和 order 无关。
+
+### 风格路由（`generate_style`）
+
+```json
+POST /v1/images/generations
+{"prompt": "...", "size": "768x1024", "style": "梵高"}
+```
+
+| 入参 `style` | 认得的写法 |
+|---|---|
+| 真实 | `真实` `写实` `摄影` `真实风` `photo` `real` |
+| 插画 | `插画` `插画风` `矢量` `flat` `illustration` |
+| 科技 | `科技` `科技风` `科幻` `scifi` `tech` |
+| 梵高 | `梵高` `梵高风` `油画` `vangogh` `oil` |
+| 水彩 | `水彩` `水彩风` `watercolor` |
+| 黏土 | `黏土` `黏土风` `3d` `clay` `claymation` |
+| 日系 | `日系` `日系风` `清新` `airy` `japanese` |
+| 胶片 | `胶片` `胶片风` `复古` `film` `vintage` `retro` |
+
+返回体里带 `"style": "梵高"` 与 `"provider": "modelscope"`，可以核对实际走了谁。
+
+**中文守卫（`has_cjk()`）**：prompt 里 CJK 字符 ≥4 个时，`gen_cloudflare` / `gen_pollinations` 直接抛异常跳过；
+`generate_style` 里还会把这两个的分数归零，路由自动降级到中文模型。
+根因：flux-1-schnell 与 Pollinations 的 flux 用 CLIP 类文本编码器，中文 token 几乎无效，会退化成「随机插画」。
 实测证据：要"白猫趴在木地板" → CF 出古风雪山庙宇、Pollinations 出旗袍少女，3/3 全错；同 prompt 换英文立刻正确。
 
 ### 核心功能
@@ -248,6 +305,33 @@ indoor natural light, clean home environment, sharp details, no text
 
 适合兜底用。
 
+### 5. 角标抹除：固定区域 inpaint，不要做自动检测（踩了 4 版）
+
+智谱与 Pollinations 的角标位置**完全固定**，实测在 `(0.686, 0.913) – (0.988, 0.994)` 相对坐标，
+且**不随画幅比例变**（768×1024 与 768×1344 一致）。四版试错过程：
+
+| 版本 | 做法 | 结果 |
+|---|---|---|
+| v1 | 检测低饱和 + 比中位数亮的像素 | 亮底只剩灰胶囊壳，字没了壳还在 |
+| v2 | 取最大低饱和连通块的外接矩形 | 暗底（科技风）误检整片地面，把地板抹花 |
+| v3 | 锁定右下角窄条 + 低饱和 | 窄条里有白墙/浅色地板就整条命中 |
+| **v4（定稿）** | **固定矩形整块 inpaint（约 232×83 px，半径 14）** | 六种风格全部干净，痕迹不可见 |
+
+**教训**：位置固定就别猜。自动检测只会把"猜错"的风险引入到用户成品里。
+
+### 6. 智谱的 `watermark_enabled: false` 无效
+
+请求体带 `"watermark_enabled": false` 后返回 200 且带图片，**角标照样在**。
+不要在参数上找解法，直接走 v4 的后处理。
+
+### 7. 别用中文 prompt 判 flux 系死刑（第一轮横评的错）
+
+第一轮我用中文 prompt 测 Cloudflare / Pollinations，它们出了古风建筑和旗袍少女，我判它们"不可用"。
+**这是测法错误**：flux-1-schnell 的文本编码器不吃中文，这不是模型缺陷，是语言不匹配。
+第二轮换成英文 prompt，flux 在**插画 / 科技 / 日系 / 胶片四个风格上拿了第一**，而且只要 3–5 秒。
+
+**教训**：横评必须让每个模型用它原生支持的语种，否则测的是"语言匹配"不是"模型能力"。
+
 ---
 
 ## 小红书配图专用（2026-11-16 新增）
@@ -267,26 +351,48 @@ indoor natural light, clean home environment, sharp details, no text
 | 你要什么 | 用哪个 | 怎么调 |
 |---|---|---|
 | **默认**（绝大多数配图） | Z-Image-Turbo | `qwen_generate_image`，`width=1248 height=1664`（16 的倍数），走远程网关 |
+| **要某种风格** | 查 §风格×模型路由表 | 走 bridge，body 加 `"style": "插画"` 等，自动选模型 |
+| **要画意（梵高 / 水彩）** | Qwen-Image-2.1 | 走 bridge：`"style": "梵高"` → 自动路由到 `modelscope` |
+| **要快 + 风格化（插画/科技/日系/胶片）** | flux-1-schnell | 走 bridge：**prompt 写英文** + `"style": "插画"` → 自动路由到 `cloudflare`，3–5 秒 |
 | **要极致画质 / 复杂多主体** | Qwen-Image-2.1 | 走 bridge：`modelscope`，`size="1242x1656"` |
-| **要快的批量底图** | Z-Image-Turbo | 走 bridge：`modelscope_fast`，8.8s/张 |
 | **额度全空** | cogview-3-flash | 走 bridge：`zhipu`，但**只下简单单体指令** |
 
 ### prompt 写法（这套模型吃这套，实测有效）
 
-**结构：写实摄影 + 主体 + 动作 + 环境 + 光线 + 镜头 + 画质 + 禁止项**
+**结构：风格锚点 + 主体 + 动作 + 环境 + 光线 + 镜头 + 画质 + 禁止项**
 
 ```
 写实摄影，一只白色长毛猫趴在浅色木地板上，侧面全身，放松表情，
 室内自然光，居家客厅背景轻微虚化，毛发细节清晰，50mm 镜头，浅景深，
-高清，画面无文字无水印。
+高清，画面里没有任何文字、字母、数字、水印、logo、签名、边框。
 ```
 
-四条硬规则：
+#### 七条硬规则（每条都有实测依据）
 
-1. **开头固定「写实摄影」** —— 不加这句会偏插画/3D 渲染。要真实感就用「写实摄影 / 真实宠物摄影」。
-2. **禁止项要显式写**：「画面无文字无水印」能显著减少模型自己往上加字（实测智谱不加这句会加标语）。
-3. **多目标并列必须写清顺序和数量**：「四团便便按从左到右排列：第一团…第二团…」Z-Image-Turbo 能摆对；**智谱做不到，别用它做对照表底图**。
-4. **中文直接写，不要翻英文** —— 魔搭两家都吃中文；只有 flux 系需要英文，而 flux 系在小红书场景已淘汰。
+| # | 规则 | 为什么 |
+|---|---|---|
+| 1 | **第一个词必须是风格锚点** | `写实摄影` / `扁平矢量插画` / `梵高后印象派油画` / `日系清新风格摄影` / `3D 黏土定格动画`。不放锚点，模型会默认走「摄影」，风格再怎么说都拉不回来 |
+| 2 | **风格锚点要带「谁+什么体裁」** | 只写「油画」会出数码绘；写「梵高后印象派油画，厚涂颜料肌理，笔触可见」才对。只写「插画」会出半写实；写「扁平矢量插画，大块纯色，干净轮廓线，无渐变无阴影」才对 |
+| 3 | **禁止项写全，尤其禁止文字** | 结尾固定加：`画面里没有任何文字、字母、数字、水印、logo、签名、边框。`（英文：`No text, no letters, no numbers, no words, no watermark, no logo, no signature, no border.`）实测不加这句，智谱和 flux 会自己往上加标语 |
+| 4 | **多目标并列必须写「数量 + 顺序 + 每个的差异」** | 例：「四团便便按从左到右排列：第一团成形坚硬表面干燥，第二团成形但表面略湿，第三团软塌堆叠，第四团完全液态摊平」。Z-Image-Turbo 能全摆对；智谱会乱 |
+| 5 | **中文模型直接写中文，flux 写英文** | 不要给魔搭/智谱翻英文（会掉细节）；也不要给 flux 写中文（会出无关图） |
+| 6 | **不要堆砌形容词** | 「超高清、极致细节、8K、杰作、最佳质量」这类对这三个模型基本无效，反而挤掉真实描述的位置。把预算花在**具体名词**上（材质、光线方向、镜头焦段） |
+| 7 | **一个 prompt 只讲一个画面** | 想要「对照表」就分四张图各出一格再拼，不要指望一张图里放四种状态还都对 |
+
+#### 风格 prompt 模板（直接抄）
+
+| 风格 | 中文模板（魔搭/智谱） | 英文模板（flux 系） |
+|---|---|---|
+| **真实** | 写实摄影，{主体}，{动作}，室内自然光从左侧照入，50mm 镜头，浅景深，毛发/材质细节清晰，真实摄影质感，高清。+禁止项 | Photorealistic photograph, {subject}, {action}, natural window light from the left, 50mm lens, shallow depth of field, sharp material detail, high resolution. +no-text |
+| **插画** | 扁平矢量插画，{主体}，大块纯色、干净利落的轮廓线、无渐变无阴影渲染，柔和米色与奶油色调，构图简洁留白。+禁止项 | Flat vector illustration, {subject}, large solid color blocks, clean crisp outlines, no gradients, no shading, soft cream palette, simple composition with negative space. +no-text |
+| **科技** | 科幻科技风格，{主体}，身体轮廓有青色和蓝色发光边缘光，深空色背景配细线网格与漂浮光点，全息投影质感，冷色调高对比。+禁止项 | Futuristic sci-fi tech style, {subject}, glowing cyan and electric blue rim light, dark background with thin wireframe grid and floating particles, holographic texture, cold palette, high contrast. +no-text |
+| **梵高** | 梵高后印象派油画风格，{主体}，厚重旋转的笔触、厚涂颜料肌理、漩涡状流动感，明黄与深蓝强烈对比，油画布纹理。+禁止项 | Van Gogh post-impressionist oil painting, {subject}, thick swirling brushstrokes, heavy impasto texture, rhythmic movement, vivid yellow against ultramarine blue, visible canvas grain. +no-text |
+| **水彩** | 水彩画风格，{主体}，透明水色晕染、边缘柔和渗化、留白处透出纸白，淡雅灰蓝与米色，粗糙水彩纸纹理。+禁止项 | Watercolor painting, {subject}, translucent washes, soft bleeding edges, unpainted white paper showing, muted grey-blue and cream, rough cold-press paper grain. +no-text |
+| **黏土** | 3D 黏土定格动画风格，{主体}，柔软黏土质感、可见的捏塑痕迹、圆润造型，柔和棚拍布光，微距浅景深。+禁止项 | 3D claymation stop-motion style, {subject}, soft modelling clay with visible fingerprint marks, rounded proportions, soft studio lighting, macro shallow depth of field. +no-text |
+| **日系** | 日系清新风格摄影，{主体}，柔和漫射光、低对比、高明度、青绿色调偏冷，浅景深，干净留白。+禁止项 | Japanese airy photography, {subject}, soft diffused light, low contrast, high key, cool cyan-green cast, shallow depth of field, clean negative space. +no-text |
+| **胶片** | 复古胶片摄影风格，{主体}，柯达 Portra 400 质感、明显颗粒、暖黄色偏、轻微漏光、褪色阴影。+禁止项 | Vintage analog film photography, {subject}, Kodak Portra 400 look, visible grain, warm yellow cast, slight light leak, faded shadows. +no-text |
+
+> 用 `qwen_generate_image`（远程网关）时它不吃 `style` 参数，把风格锚点写进 prompt 开头即可，效果一样。
 
 ### 分工：AI 生图 vs 真猫素材
 
@@ -310,9 +416,22 @@ indoor natural light, clean home environment, sharp details, no text
 | 场景 | 为什么不行 |
 |---|---|
 | 让 AI 画**文字/数字**（标题字、24/48/72 小时卡片） | 会出乱码字形。文字一律走 HTML 渲染 |
-| 让 **Cloudflare / Pollinations** 吃中文 prompt | 出完全无关的图（见上文横评） |
+| 给 **Cloudflare / Pollinations** 写中文 prompt | 出完全无关的图。要它们的风格就把 prompt 翻成英文 |
 | 让 **智谱** 画多目标对照表 | 会把"四滩并列"画成一地乱泼 |
 | 要 **2484×3312** 直接出图 | 超出所有上游上限，只会被放大糊掉 |
+| 靠 `watermark_enabled: false` 去角标 | 智谱不认这个参数，走 v4 后处理 |
+
+### 小红书风格选择建议
+
+| 内容类型 | 推荐风格 | 理由 |
+|---|---|---|
+| 症状特写、封面 | **真实风**（但优先用真猫照片） | 可信度第一 |
+| 科普图解、清单页 | **插画风**（flux + 英文） | 干净、不抢文字，后期加标注好看 |
+| 数据/前沿话题（如肾病指标） | **科技风** | 冷色调有专业感 |
+| 情绪向 / 治愈向（猫的日常） | **日系清新** | 小红书最主流的审美底色 |
+| 怀旧 / 故事向（"我养猫这些年"） | **复古胶片** | 有人情味，适合叙事型笔记 |
+| 儿童向 / 轻松科普 | **黏土 3D** | 最讨喜，转发率高 |
+| 艺术化栏目（少见，慎用） | **梵高 / 水彩** | 好看但会削弱"实用"信号，别用在正文页 |
 
 ---
 
@@ -352,9 +471,11 @@ img = strip_silicon_watermark(img, box=(0.845, 0.922, 1.0, 1.0))
 
 ## 更新历史
 
-- **2026-11-16**：**小红书配图专项横评**，7 个模型 × 7 个真实题材全部实测看图。淘汰 flux 系（中文 prompt 出无关图），
-  新增 `modelscope_fast`（Z-Image-Turbo）为主力、重排 order、加中文守卫 `has_cjk()`、加排队超时、
-  加「灰底胶囊」角标抹除 `strip_pill_watermark()`、新增「小红书配图专用」整节
+- **2026-11-16（第二轮·风格矩阵）**：**纠正第一轮的测法错误** —— flux 系不是不能用，是只吃英文。
+  8 风格 × 5 模型 = 40 格全实测（`style_matrix/风格对照总图_全.png`），
+  新增 `STYLE_ROUTES` 风格路由（`generate_style` + HTTP `style` 参数）、
+  角标抹除定稿为 v4 固定区域 inpaint、prompt 规则从 4 条扩到 7 条 + 8 个风格模板
+- **2026-11-16（第一轮）**：小红书配图专项横评，7 模型 × 7 题材。新增 `modelscope_fast`、中文守卫、排队超时
 - **2026-11-09**：整合全部 6 个平台，实测 8 个模型，补跑 3 张被拦图片
 - **2026-11-08**：添加 Cloudflare NSFW 规避逻辑
 - **2026-11-07**：集成 ModelScope 和 Zhipu 免费源
@@ -364,4 +485,4 @@ img = strip_silicon_watermark(img, box=(0.845, 0.922, 1.0, 1.0))
 
 **维护者**：QG(你)  
 **最后更新**：2026-11-16  
-**状态**：✅ 生产就绪（小红书配图已定稿）
+**状态**：✅ 生产就绪（8 风格路由 + 小红书配图已定稿）
