@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1242px;height:1656px;overflow:hidden}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;
+  -webkit-font-smoothing:antialiased;position:relative}
+
+body{background:#fdf9f3;padding:64px 56px 78px;display:flex;flex-direction:column;height:1656px}
+.tag{align-self:center;background:#7a3e1d;color:#fff;font-size:27px;font-weight:900;
+  padding:10px 30px;border-radius:44px;letter-spacing:1px}
+h2{font-size:88px;font-weight:900;line-height:1.22;padding:8px 0;text-align:center;margin-top:26px;color:#fff;
+  -webkit-text-stroke:14px #3b1a08;paint-order:stroke fill;letter-spacing:-3px}
+h2 em{font-style:normal;color:#ffd60a}
+.lead{text-align:center;font-size:27px;color:#8a7461;margin-top:18px;font-weight:700}
+
+.cards{margin-top:40px;display:flex;flex-direction:column;gap:26px;flex:1;justify-content:center}
+.card{flex:1;background:#fff;border-radius:24px;padding:30px 34px;display:flex;gap:26px;
+  box-shadow:0 8px 26px rgba(80,40,10,.11);border-left:12px solid #ccc;align-items:center}
+.card.a{border-left-color:#2e9e5b}
+.card.b{border-left-color:#e8a317}
+.card.c{border-left-color:#c0392b}
+.num{width:74px;height:74px;border-radius:50%;flex:0 0 74px;display:flex;align-items:center;
+  justify-content:center;font-size:38px;font-weight:900;color:#fff}
+.card.a .num{background:#2e9e5b}
+.card.b .num{background:#e8a317}
+.card.c .num{background:#c0392b}
+.body{flex:1;display:flex;flex-direction:column;justify-content:center}
+.t{font-size:38px;font-weight:900;color:#3b1a08;line-height:1.22}
+.d{font-size:25px;color:#6b5747;line-height:1.55;margin-top:10px}
+.badge{display:inline-block;align-self:flex-start;margin-top:14px;font-size:23px;font-weight:900;padding:8px 20px;
+  border-radius:10px}
+.card.a .badge{background:#e3f6ea;color:#1c6b3c}
+.card.b .badge{background:#fdf3d9;color:#8a5c00}
+.card.c .badge{background:#fbe4e1;color:#8f2418}
+
+.note{margin-top:34px;background:#3b1a08;border-radius:20px;padding:28px 32px}
+.note .nt{font-size:27px;font-weight:900;color:#ffd60a}
+.note .nd{font-size:24px;color:#e5d5c8;line-height:1.6;margin-top:10px}
+.src{position:absolute;bottom:20px;left:0;right:0;text-align:center;font-size:18px;color:#a89886}
+</style></head><body>
+<div class="tag">先分清是哪一档，再决定要不要动手</div>
+<h2>黑下巴分<em>3 档</em><br>第 3 档别再擦了</h2>
+<div class="lead">前两档在家能管，第 3 档得让医生定方向</div>
+
+<div class="cards">
+  <div class="card a">
+    <div class="num">1</div>
+    <div class="body">
+      <div class="t">只是煤渣样干黑点</div>
+      <div class="d">一排排小黑点，像沾了煤渣，摸上去干、不烫不疼，能一颗颗看见</div>
+      <span class="badge">换碗 + 每天擦</span>
+    </div>
+  </div>
+  <div class="card b">
+    <div class="num">2</div>
+    <div class="body">
+      <div class="t">油腻、有小硬粒、冒白头</div>
+      <div class="d">摸着油，有小硬粒，重的会冒白头、结痂、掉几撮毛</div>
+      <span class="badge">擦三天看趋势</span>
+    </div>
+  </div>
+  <div class="card c">
+    <div class="num">3</div>
+    <div class="body">
+      <div class="t">嘴唇肿厚外翻、下巴溃烂流脓</div>
+      <div class="d">嘴角发红、烂、结痂；连嘴里也一起烂，吃两口停一下、流口水</div>
+      <span class="badge">尽快看一次</span>
+    </div>
+  </div>
+</div>
+
+<div class="note">
+  <div class="nt">第 3 档其实不是黑下巴</div>
+  <div class="nd">嘴唇肿、下巴溃烂流脓走的是另一类反应（免疫相关），不是「洗洗就好」，别在家硬擦。</div>
+</div>
+<div class="src">自测方向来自《猫病学》第 5 版 第 1 篇第 2 条「痤疮」、第 67 条「嗜酸性肉芽肿复合物」，不是诊断标准</div>
+</body></html>
