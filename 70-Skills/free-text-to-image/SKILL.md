@@ -14,17 +14,35 @@ whenToUse: 生成图片时、批量测试不同模型、需要快速原型图（
 
 ---
 
-## 可用模型与成本（2026-11-09 实测）
+## 模型清单（2026-11-16 小红书配图专项横评后定稿）
 
-| 平台 | 模型 | 是否免费 | 额度/价格 | 平均耗时 | 画质评分 |
-|------|------|----------|-----------|----------|----------|
-| **智谱 CogView-3-Flash** | cogview-3-flash | ✅ 真免费 | 不限量 | ~11s | ⭐⭐⭐ |
-| **魔搭 ModelScope** | Qwen/Qwen-Image-2.1<br>Qwen/Qwen-Image<br>Tongyi-MAI/Z-Image-Turbo | ✅ 真免费 | 2000 次/天，单模型 500 次 | ~11–54s | ⭐⭐⭐⭐ |
-| **Cloudflare Workers AI** | @cf/black-forest-labs/flux-1-schnell | ✅ 免费额度 | 10k neurons/天≈58 张/天 | ~4s | ⭐⭐⭐⭐ |
-| **Pollinations** | flux | ✅ 真免费 | 无限制，45s/张限速 | ~33s | ⭐⭐⭐ |
-| **硅基流动** | Kwai-Kolors/Kolors | ⚠️ 赠金体验 | 14 元新用户赠金 ≈ 46 张 | ~6s | ⭐⭐⭐⭐⭐ |
+> 横评口径：**小红书真实配图题材**（白猫封面 / 猫砂盆 / 猫爬架 / 四滩呕吐物并列 / 四种便便对照 / 药品静物 / 猫喝水），
+> 3:4 画布，每个模型 7 个 prompt，全部人工看图复核。证据在 `D:\GitHub\qwen-bridge\bakeoff_xhs\`（含 `对照总图.png`）。
 
-**禁用平台**：DashScope（阿里云百炼）—— 实际按 0.25 元/张计费，已欠费停服。
+### ✅ 留用（按优先级，就是 providers.json 里的 order）
+
+| 顺位 | 平台 · 模型 | 配置段 | 平均耗时 | 免费额度 | 判定 |
+|---|---|---|---|---|---|
+| 1 | **魔搭 · Tongyi-MAI/Z-Image-Turbo** | `modelscope_fast` | **8.8s** | 2000 次/天 | **主力**。细节遵循最好的一档，复杂并列指令（四种便便、四滩呕吐物）都能摆对位置；无角标；中文 prompt 直接吃 |
+| 2 | **魔搭 · Qwen/Qwen-Image-2.1** | `modelscope` | 12.8s（**偶发排队 150–280s**） | 2000 次/天 | **质量天花板**。毛发/材质最真，复杂场景最稳；缺点是高峰期会卡 200 秒以上，所以排第二、并加了 240s 硬超时 |
+| 3 | **智谱 · cogview-3-flash** | `zhipu` | 8.9s | 不限量 | **降级用**。单体物件（一只猫、一个猫砂盆）很好；**多目标并列指令会跑偏**（要四滩呕吐物 → 出一地乱泼）。带「AI生成」灰底胶囊角标，已能抹掉 |
+| — | **DSH 远程网关** | 直接 `qwen_generate_image` | ~20s | 走插件 | **最省事的一条**。3:4 画布可用（1248×1664），不占魔搭额度，适合单张快速出图 |
+
+### ❌ 淘汰（不进 order，或只在英文 prompt 下才可救）
+
+| 平台 · 模型 | 实测问题 | 处理 |
+|---|---|---|
+| **Cloudflare · flux-1-schnell** | **中文 prompt 完全失效**：3 个 prompt × 3 次，要白猫 → 出古风建筑/雪山庙宇/灯笼夜景，与描述毫无关系。换英文 prompt 立刻正常（白猫正确） | 已加 `has_cjk()` 守卫：**中文 prompt 直接跳过**，只在英文时兜底 |
+| **Pollinations · flux** | 同样问题：中文 → 出人像少女（3/3 全错），英文才出猫。另有 45s/张硬限速 + 右下角 `pollinations.ai` 角标 | 已加同样的中文守卫；仅英文兜底 |
+| **硅基流动 · Qwen/Qwen-Image** | 质量与魔搭 Qwen 相当，但 **0.3 元/张**（`siliconflow.enabled=false`） | 关闭 |
+| **硅基流动 · Kolors** | 0.3 元/张；抽象概念（"毛球"）会画成一堆橙色绒球乱飞 | 关闭 |
+| **魔搭 · Qwen/Qwen-Image（老版）** | 192–276 秒，3 次里 1 次超时，比 2.1 慢 20 倍还更差 | 不进 order |
+| **DashScope（阿里云百炼）** | 0.25 元/张计费，已欠费停服 | 禁用 |
+
+### 一句话结论
+
+> **默认走 Z-Image-Turbo（快且准）→ Qwen-Image-2.1（要极致画质时手选）→ 智谱（额度用尽时降级）。**
+> **flux 系（Cloudflare / Pollinations）在小红书场景等于不可用**——中文 prompt 会出完全无关的图，别让它接管。
 
 ---
 
@@ -42,21 +60,27 @@ whenToUse: 生成图片时、批量测试不同模型、需要快速原型图（
    [pollinations]          ...
 ```
 
-**故障转移顺序**（可按需调整）：
+**故障转移顺序**（2026-11-16 按小红书横评结果重排）：
 
-1. siliconflow（速度快，质量不错）
-2. modelscope（真免费，额度够用）
-3. zhipu（真免费，不限量）
-4. cloudflare（速度快，额度有限）
-5. pollinations（兜底，限速 45s/张）
+1. modelscope_fast（Z-Image-Turbo，8.8s，细节遵循最好）
+2. modelscope（Qwen-Image-2.1，质量天花板，会排队）
+3. zhipu（cogview-3-flash，不限量降级）
+4. cloudflare（**仅英文 prompt**，中文自动跳过）
+5. pollinations（**仅英文 prompt**，中文自动跳过，兜底）
+
+**中文守卫（`has_cjk()`）**：prompt 里 CJK 字符 ≥4 个时，`gen_cloudflare` / `gen_pollinations` 直接抛异常跳过。
+根因：flux-1-schnell 与 Pollinations 的 flux 用的是 CLIP 类文本编码器，中文 token 几乎无效，会退化成「随机插画」。
+实测证据：要"白猫趴在木地板" → CF 出古风雪山庙宇、Pollinations 出旗袍少女，3/3 全错；同 prompt 换英文立刻正确。
 
 ### 核心功能
 
 - **多源切换**：任一上游成功即返回
+- **中文守卫**：flux 系上游遇中文 prompt 直接跳过（见上）
 - **尺寸适配**：各平台只认特定分辨率（1024×1024, 768×1344 等），自动吸附到最近档位
 - **负向提示词**：不同平台接受方式不同（有的不支持 negative_prompt）
 - **NSFW 规避**：对 Cloudflare 的审核关键词自动改写（如"呕吐→刚吐完"）
-- **水印抹除**：OpenCV inpaint 自动抹掉右下角"AI 生成"角标
+- **水印抹除**：两种角标两种算法 —— 智谱/硅基的「灰底胶囊 + AI生成」用 `strip_pill_watermark()` 取最大低饱和连通块的外接矩形整体 inpaint；Pollinations 的 `pollinations.ai` 用 `strip_watermark(box=...)`。**只抠白字会留灰块**，必须整体覆盖
+- **排队超时**：`modelscope` / `modelscope_fast` 各带 `timeout_sec`（240 / 120），排队超时就放弃、交给下一个上游，不占死整条链
 - **断点续传**：失败重试最多 5 次，间隔随机
 - **进度日志**：实时记录每个请求的响应时间、文件大小、失败原因
 
@@ -145,9 +169,34 @@ Copy-Item providers.json D:\GitHub\qwen-bridge\providers.json -Force
 **纯免费模式**（去掉硅基流动）：
 
 ```json
-"order": ["modelscope", "zhipu", "cloudflare", "pollinations"]
+"order": ["modelscope_fast", "modelscope", "zhipu", "cloudflare", "pollinations"]
 "siliconflow": { "enabled": false }
 ```
+
+**小红书默认配置**（2026-11-16 起用这个）：
+
+```json
+{
+  "order": ["modelscope_fast", "modelscope", "zhipu", "cloudflare", "pollinations", "siliconflow"],
+  "modelscope_fast": {
+    "enabled": true,
+    "api_key": "<与 modelscope 同一个魔搭 token>",
+    "model": "Tongyi-MAI/Z-Image-Turbo",
+    "base": "https://api-inference.modelscope.cn/v1",
+    "timeout_sec": 120
+  },
+  "modelscope": {
+    "enabled": true,
+    "api_key": "<魔搭 token>",
+    "model": "Qwen/Qwen-Image-2.1",
+    "base": "https://api-inference.modelscope.cn/v1",
+    "timeout_sec": 240
+  }
+}
+```
+
+> `modelscope_fast` 与 `modelscope` **共用同一个 token**，只是换模型名。
+> `timeout_sec` 必须写 —— Qwen-Image-2.1 高峰期会卡 200 秒以上，不设上限会把整条链拖死。
 
 ---
 
@@ -201,7 +250,71 @@ indoor natural light, clean home environment, sharp details, no text
 
 ---
 
-## 输出格式
+## 小红书配图专用（2026-11-16 新增）
+
+> 服务 `40-产出/主题/猫病症自查百科/`。**这一节是给小红书配图用的，别再按通用文生图走。**
+
+### 画布
+
+| 项 | 值 | 依据 |
+|---|---|---|
+| 主推 | **1242×1656（3:4）** | `xhs-cat-symptom-SKILL` v2.0 与 `xhs-viral-note-SKILL` 一致 |
+| @2x | 2484×3312 | 只用于 HTML 渲染截图，**AI 生图别直接要这个尺寸** |
+| 实测 | 魔搭 / 智谱 / 本插件都能直接出 1242×1656，不会被裁 | 2026-11-16 实测 |
+
+### 一句话决策
+
+| 你要什么 | 用哪个 | 怎么调 |
+|---|---|---|
+| **默认**（绝大多数配图） | Z-Image-Turbo | `qwen_generate_image`，`width=1248 height=1664`（16 的倍数），走远程网关 |
+| **要极致画质 / 复杂多主体** | Qwen-Image-2.1 | 走 bridge：`modelscope`，`size="1242x1656"` |
+| **要快的批量底图** | Z-Image-Turbo | 走 bridge：`modelscope_fast`，8.8s/张 |
+| **额度全空** | cogview-3-flash | 走 bridge：`zhipu`，但**只下简单单体指令** |
+
+### prompt 写法（这套模型吃这套，实测有效）
+
+**结构：写实摄影 + 主体 + 动作 + 环境 + 光线 + 镜头 + 画质 + 禁止项**
+
+```
+写实摄影，一只白色长毛猫趴在浅色木地板上，侧面全身，放松表情，
+室内自然光，居家客厅背景轻微虚化，毛发细节清晰，50mm 镜头，浅景深，
+高清，画面无文字无水印。
+```
+
+四条硬规则：
+
+1. **开头固定「写实摄影」** —— 不加这句会偏插画/3D 渲染。要真实感就用「写实摄影 / 真实宠物摄影」。
+2. **禁止项要显式写**：「画面无文字无水印」能显著减少模型自己往上加字（实测智谱不加这句会加标语）。
+3. **多目标并列必须写清顺序和数量**：「四团便便按从左到右排列：第一团…第二团…」Z-Image-Turbo 能摆对；**智谱做不到，别用它做对照表底图**。
+4. **中文直接写，不要翻英文** —— 魔搭两家都吃中文；只有 flux 系需要英文，而 flux 系在小红书场景已淘汰。
+
+### 分工：AI 生图 vs 真猫素材
+
+| 用途 | 用什么 | 原因 |
+|---|---|---|
+| **封面主角** | **必须用 `素材库/啤酒/` 的真猫照片** | 爆款封面要真实照片（`xhs-viral-note` L157 硬规则），AI 猫会被老用户看出来 |
+| **症状特写**（呕吐物、便便） | **真素材优先**：beer-03/04/05（呕吐）、beer-14/16/17/18/20（便便） | 真实感决定可信度，这类图 AI 生成反而不如实拍 |
+| **环境/道具**（猫砂盆、猫爬架、药品、水碗） | **AI 生成** | 实拍里没有，AI 出图干净可控 |
+| **对照表底图**（5 种便便、4 滩呕吐物颜色） | **AI 生成 + 后期加标注** | Z-Image-Turbo 能按顺序摆对；比实拍拼图快得多 |
+| **信息图/表格** | **不用 AI** | 走 HTML + headless 截图（`render.py`），AI 出不了准确文字 |
+
+### 出图后必做
+
+1. **看图复核**（`read_image`）：主体对不对、有没有多余肢体、有没有自带文字、有没有角标残留
+2. **角标检查**：智谱/Pollinations 的角标已自动抹；魔搭与远程网关本来就没有
+3. **裁剪到 3:4**：如果模型给的构图偏了，宁可裁也别拉变形（`xhs-viral-note` L185 规则）
+4. **存档**：成品进 `成果物/<期号>/图/`，底图进 `素材库/`
+
+### 已知不可用（别浪费时间）
+
+| 场景 | 为什么不行 |
+|---|---|
+| 让 AI 画**文字/数字**（标题字、24/48/72 小时卡片） | 会出乱码字形。文字一律走 HTML 渲染 |
+| 让 **Cloudflare / Pollinations** 吃中文 prompt | 出完全无关的图（见上文横评） |
+| 让 **智谱** 画多目标对照表 | 会把"四滩并列"画成一地乱泼 |
+| 要 **2484×3312** 直接出图 | 超出所有上游上限，只会被放大糊掉 |
+
+---
 
 生成的图片统一存到：
 
@@ -239,6 +352,9 @@ img = strip_silicon_watermark(img, box=(0.845, 0.922, 1.0, 1.0))
 
 ## 更新历史
 
+- **2026-11-16**：**小红书配图专项横评**，7 个模型 × 7 个真实题材全部实测看图。淘汰 flux 系（中文 prompt 出无关图），
+  新增 `modelscope_fast`（Z-Image-Turbo）为主力、重排 order、加中文守卫 `has_cjk()`、加排队超时、
+  加「灰底胶囊」角标抹除 `strip_pill_watermark()`、新增「小红书配图专用」整节
 - **2026-11-09**：整合全部 6 个平台，实测 8 个模型，补跑 3 张被拦图片
 - **2026-11-08**：添加 Cloudflare NSFW 规避逻辑
 - **2026-11-07**：集成 ModelScope 和 Zhipu 免费源
@@ -247,5 +363,5 @@ img = strip_silicon_watermark(img, box=(0.845, 0.922, 1.0, 1.0))
 ---
 
 **维护者**：QG(你)  
-**最后更新**：2026-11-09  
-**状态**：✅ 生产就绪
+**最后更新**：2026-11-16  
+**状态**：✅ 生产就绪（小红书配图已定稿）
