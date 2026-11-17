@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1242px;height:1656px;overflow:hidden}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased;
+  background:#eef0f2;color:#30383d}
+.page{position:absolute;inset:0;display:flex;flex-direction:column;
+  padding:46px 52px 74px;gap:20px}
+/* 每个 block 均分可用高度，内容垂直居中 —— 消除留白与溢出的关键 */
+.blk{flex:1 1 0;display:flex;flex-direction:column;justify-content:center;min-height:0}
+.blk.fixed{flex:0 0 auto}
+
+/* 标签条 */
+.tag{align-self:center;background:#c0563f;color:#eef0f2;font-size:26px;font-weight:900;
+  padding:10px 30px;border-radius:44px;letter-spacing:1px}
+/* 大标题 */
+h1,h2{text-align:center;font-weight:900;color:#fff;-webkit-text-stroke:14px #8c3a2a;
+  paint-order:stroke fill;letter-spacing:-4px;padding:10px 0;line-height:1.26}
+h1{font-size:84px} h2{font-size:76px}
+h1 em,h2 em{font-style:normal;color:#c0563f;-webkit-text-stroke:14px #8c3a2a}
+.lead{text-align:center;font-size:25px;color:#8a949a;margin-top:10px;font-weight:700}
+
+/* 图片 */
+.photo{border-radius:20px;overflow:hidden;border:2px solid #dce0e3;flex:1 1 0;min-height:0}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* 步骤条 */
+.steps{display:flex;flex-direction:column;gap:16px}
+.step{background:#ffffff;border-radius:18px;padding:26px 30px;display:flex;gap:20px;
+  border:2px solid #dce0e3;align-items:center}
+.step .n{width:60px;height:60px;border-radius:14px;flex:0 0 60px;background:#c0563f;
+  color:#eef0f2;font-size:29px;font-weight:900;display:flex;align-items:center;justify-content:center}
+.step .st{font-size:28px;font-weight:900;line-height:1.3}
+.step .sd{font-size:21px;color:#8a949a;line-height:1.55;margin-top:5px}
+.step .sd b{color:#c0563f;font-weight:900}
+
+/* 卡片组 */
+.cards{display:flex;gap:14px}
+.card{flex:1;background:#ffffff;border-radius:16px;padding:24px 20px;border:2px solid #dce0e3}
+.card .cn{font-size:22px;font-weight:900;color:#c0563f;letter-spacing:2px}
+.card .ct{font-size:27px;font-weight:900;line-height:1.26;margin-top:8px}
+.card .cd{font-size:20px;color:#8a949a;line-height:1.48;margin-top:7px}
+.card .cd b{color:#c0563f;font-weight:900}
+
+/* 行表 */
+.rows{display:flex;flex-direction:column}
+.row{display:flex;gap:16px;padding:16px 0;border-bottom:2px dashed #dce0e3;align-items:flex-start}
+.row:last-child{border-bottom:0}
+.row .k{flex:0 0 200px;font-size:24px;font-weight:900}
+.row .v{flex:1;font-size:21px;color:#8a949a;line-height:1.5}
+.row .v b{color:#c0563f;font-weight:900}
+
+/* 文字块 */
+.text{background:#ffffff;border-radius:18px;padding:28px 32px;border-left:9px solid #c0563f}
+.text .th{font-size:26px;font-weight:900;color:#c0563f;letter-spacing:1px}
+.text .tl{margin-top:12px;font-size:23px;line-height:1.72}
+.text .tl b{font-weight:900}
+.text.warn{border-left-color:#e0453c}
+.text.warn .th{color:#e0453c}
+
+/* 结论压条 */
+.bar{background:#c0563f;border-radius:16px;padding:22px 30px;text-align:center}
+.bar .b1{font-size:21px;font-weight:900;color:#eef0f2;letter-spacing:2px;opacity:.75}
+.bar .b2{font-size:27px;font-weight:900;color:#eef0f2;line-height:1.4;margin-top:8px}
+
+.src{position:absolute;bottom:16px;left:0;right:0;text-align:center;font-size:17px;
+  color:#8a949a;opacity:.8}
+</style></head><body><div class="page"><div class="blk fixed"><h1>先管<br><em>便形</em></h1></div><div class="blk"><div class="text"><div class="th">别自己上手挤</div><div class="tl"><div style="margin-top:12px">网上「挤肛门腺」在家做容易挤伤挤破；鼓包发红、软便反复，一周内看诊。包块破口流脓血、发烧不吃，当天处理。</div></div></div></div><div class="blk"><div class="cards"><div class="card"><div class="cn">1</div><div class="ct">管便形</div><div class="cd">停加餐 + 掺着换粮 + 加水点</div></div><div class="card"><div class="cn">2</div><div class="ct">别乱挤</div><div class="cd">要挤也交给医院</div></div><div class="card"><div class="cn">3</div><div class="ct">记两周</div><div class="cd">照片排一排，比印象可靠十倍</div></div></div></div><div class="blk fixed"><div class="bar"><div class="b1">一句话记住</div><div class="b2">关注我，72 条一条条写，评论区点单</div></div></div></div><div class="src">依据《猫病学》第 5 版 第 1 篇第 7 条「肛囊疾病」· 第 191 条「直肠疾病」· 第 55 条「腹泻」</div></body></html>
