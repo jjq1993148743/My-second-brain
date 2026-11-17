@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1242px;height:1656px;overflow:hidden}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased;
+  position:relative;background:#fdf8f0}
+
+.wrap{position:absolute;inset:0;display:flex;flex-direction:column;gap:13px;
+  padding:40px 52px 96px}
+.tag{align-self:center;background:#7a3a1c;color:#f5e6d8;font-size:26px;font-weight:900;
+  padding:10px 30px;border-radius:44px;letter-spacing:1px}
+h2{font-size:72px;font-weight:900;line-height:1.24;text-align:center;margin-top:14px;color:#fff;
+  -webkit-text-stroke:13px #7a3a1c;paint-order:stroke fill;letter-spacing:-4px;padding:6px 0}
+h2 em{font-style:normal;color:#e8a317}
+
+.myth{background:#fff;border-radius:18px;padding:20px 26px;
+  box-shadow:0 6px 20px rgba(122,58,28,.09)}
+.myth .mh{font-size:24px;font-weight:900;color:#c9502f;letter-spacing:1px}
+.myth .mt{font-size:24px;color:#a08570;line-height:1.58;margin-top:9px;
+  text-decoration:line-through;text-decoration-color:rgba(201,80,47,.5)}
+.myth .mf{font-size:25px;color:#3d2b1f;line-height:1.48;margin-top:10px;font-weight:900}
+.myth .mf b{color:#7a3a1c}
+
+.ask{background:#7a3a1c;border-radius:20px;padding:26px;text-align:center}
+.ask .ah{font-size:30px;font-weight:900;color:#fff;line-height:1.4}
+.ask .ad{font-size:22px;color:#ddc4b0;margin-top:10px;line-height:1.6}
+.ask .ad b{color:#e8a317;font-weight:900}
+
+.opts{display:flex;gap:11px}
+.opt{flex:1;background:#fff;border:5px solid #7a3a1c;border-radius:16px;padding:16px 8px;
+  text-align:center;box-shadow:0 5px 16px rgba(122,58,28,.10)}
+.opt .on{font-size:25px;font-weight:900;color:#7a3a1c;line-height:1.25}
+.opt .od{font-size:19px;color:#a08570;margin-top:6px;line-height:1.32}
+
+.anes{background:#fff;border-radius:18px;padding:26px 30px;box-shadow:0 6px 20px rgba(122,58,28,.09)}
+.anes .ah2{font-size:25px;font-weight:900;color:#7a3a1c;letter-spacing:1px}
+.anes .al2{margin-top:12px;font-size:22px;color:#5c4a3c;line-height:1.64}
+.anes .al2 b{color:#c9502f;font-weight:900}
+.anes .al2 strong{color:#c9502f}
+.near{background:#fff;border:4px solid #e8a317;border-radius:16px;padding:20px 26px}
+.near .nh{font-size:23px;font-weight:900;color:#b8860b;letter-spacing:1px}
+.near .nl{margin-top:9px;font-size:22px;color:#5c4a3c;line-height:1.64}
+.near .nl b{color:#c9502f;font-weight:900}
+
+.foot{text-align:center;margin-top:auto}
+.foot .fh{font-size:25px;font-weight:900;color:#7a3a1c;line-height:1.42}
+.foot .fd{font-size:21px;color:#a08570;margin-top:7px;line-height:1.5}
+.src{position:absolute;bottom:16px;left:0;right:0;text-align:center;font-size:17px;color:#b8a894}
+</style></head><body>
+<div class="wrap">
+  <div class="tag">结尾 · 说两句实话</div>
+  <h2>别忍<br><em>也别压</em></h2>
+
+  <div class="myth">
+    <div class="mh">最容易信错的一句</div>
+    <div class="mt">老了有口臭很正常，忍忍就过去了</div>
+    <div class="mf">真相：<b>牙周病在老年猫里几乎普遍，是没人查，不是正常</b>。猫的耐疼能力很强，等它疼到不吃，通常已经拖了很久。</div>
+  </div>
+
+  <div class="myth">
+    <div class="mh">第二个误判</div>
+    <div class="mt">买洁齿零食和漱口水就能解决</div>
+    <div class="mf">真相：<b>牙结石和牙吸收不会靠吃饼干消掉</b>。压住味道不等于治好病——这是最容易错过窗口期的做法。</div>
+  </div>
+
+  <div class="ask">
+    <div class="ah">你家是哪种？评论区报个数字</div>
+    <div class="ad">我按情况回你。<b>报 3 或 4 的这周内安排看诊</b>，别拖。</div>
+  </div>
+
+  <div class="opts">
+    <div class="opt"><div class="on">1</div><div class="od">只是味重<br>吃喝正常</div></div>
+    <div class="opt"><div class="on">2</div><div class="od">牙龈有<br>深红线</div></div>
+    <div class="opt"><div class="on">3</div><div class="od">吃硬粮<br>会掉出来</div></div>
+    <div class="opt"><div class="on">4</div><div class="od">流口水<br>下巴湿褐</div></div>
+  </div>
+
+  <div class="anes">
+    <div class="ah2">为什么"必须麻醉才能看全"</div>
+    <div class="al2">
+      <div>· 猫清醒时<b>只肯让你看前面几颗门牙</b>，真正出问题的<strong>后槽牙</strong>根本看不到</div>
+      <div style="margin-top:11px">· 牙周袋深度、牙吸收、有没有残根——<b>这几项都要探针进牙龈下面</b>，清醒时做不了</div>
+      <div style="margin-top:11px">· 所以"在家看着还行"和"医生说很严重"经常同时成立，<b>不矛盾</b></div>
+    </div>
+  </div>
+  <div class="near">
+    <div class="nh">这期最容易漏的一句</div>
+    <div class="nl">治疗过后<b>还是臭、还流口水</b>的，要回医院查是不是有<b>残根留在牙床里</b>——不是自己加药能解决的。</div>
+  </div>
+
+  <div class="foot">
+    <div class="fh">看我怎么把 7 只猫的坑，一条条写成能用的自查表</div>
+    <div class="fd">一共 72 条，我一条条写。想看哪条，评论区点单——我们一起来养猫。</div>
+  </div>
+</div>
+<div class="src">症状不等于诊断，最终由兽医排查 ｜ 本期不涉及任何用药与剂量 ｜ 本内容为 AI 辅助整理 ｜ 封面为形态示意图</div>
+</body></html>
