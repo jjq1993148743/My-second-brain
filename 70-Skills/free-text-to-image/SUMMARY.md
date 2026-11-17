@@ -86,6 +86,29 @@ png = bridge.gen_siliconflow(cfg, "a cozy bookstore cafe", 1024, 1024, seed=123)
 
 ---
 
+## 图生图：拿自己的照片做衍生（2026-11-16 打通）
+
+**一句话**：给一张你自己的照片 + 一句「改什么、保留什么」，背景机位光线全保留，只改你要改的那一样。
+
+**实测**：`beer-13.jpg`（两个黄色塑料碗）→ 不锈钢碗 + 陶瓷碗，大理石地面、纸箱、光影一模一样。
+
+```python
+cfg['modelscope_edit']['enabled'] = True
+cfg['modelscope_edit']['image_path'] = r'照片路径.jpg'
+png = bridge.gen_modelscope_edit(cfg, '把这两个塑料碗换成不锈钢碗，保持同样的角度和光线', 768, 1024)
+```
+
+| 关键点 | 值 |
+|---|---|
+| 模型 | `Qwen/Qwen-Image-Edit`（`-2509`/`-2511` 会 400） |
+| 参考图字段 | **`image_url`**（data URL），不是 image/images |
+| 耗时 | **170–190 秒/张**（比文生图慢 15 倍） |
+| prompt | 只写「改什么 + 保留什么」，别搬文生图那套 |
+
+**为什么值得用**：读者看到的还是你家地板和你家猫，只是道具换了。信任度接近实拍，AI 味最低。
+
+---
+
 ## 踩坑记录
 
 1. **别用中文判 flux 死刑** → 第一轮的错。flux 只吃英文，换英文后它四个风格第一
@@ -96,14 +119,16 @@ png = bridge.gen_siliconflow(cfg, "a cozy bookstore cafe", 1024, 1024, seed=123)
 6. **Qwen-Image-2.1 会排队 200s+** → 必须设 `timeout_sec`
 7. **角标位置固定，别做自动检测** → 试了 4 版，只有固定矩形 inpaint 在六种风格下都干净
 8. **智谱 `watermark_enabled:false` 无效** → 参数不认，只能后处理
+9. **图生图的模型名不能带日期后缀** → `Qwen-Image-Edit` 可以，`-2509`/`-2511` 直接 400
+10. **DSH 远程网关不支持图生图** → 传 `source_image_id` 报「仅支持文生图」，得走 bridge
 
 ---
 
 ## 相关文件
 
-- `SKILL.md` —— 完整使用手册（风格路由表 + 8 个 prompt 模板 + 小红书配图专用）
+- `SKILL.md` —— 完整使用手册（风格路由表 + 8 个 prompt 模板 + 图生图 + 小红书配图专用）
 - `README.md` —— 快速上手指南
-- `bridge.py` —— 核心桥接逻辑（`D:\GitHub\qwen-bridge\`），含 `STYLE_ROUTES` 与 `generate_style()`
+- `bridge.py` —— 核心桥接逻辑（`D:\GitHub\qwen-bridge\`），含 `STYLE_ROUTES`、`generate_style()`、`gen_modelscope_edit()`
 - `D:\GitHub\qwen-bridge\style_matrix\风格对照总图_全.png` —— **8 风格 × 5 模型 = 40 格全实拍对照**
 - `D:\GitHub\qwen-bridge\bakeoff_xhs\对照总图.png` —— 第一轮小红书题材横评
 - `D:\GitHub\My-second-brain\50-知识\AI 工具\免费文生图接入方案 - 全汇总.md` —— 深度分析
